@@ -1,0 +1,183 @@
+website_id,page_id,url,page_title,total_images,images_missing_alt,images_empty_alt,images_with_alt,total_headings,h1_count,missing_h1,heading_order_issues,total_links,empty_link_text,generic_link_text,form_controls,unlabeled_controls,image_issue_count,heading_issue_count,link_issue_count,form_issue_count,total_issues,high_issues,medium_issues,image_issue_rate,heading_issue_rate,link_issue_rate,accessibility_score,accessibility_level,status_code
+BD001,PG0001_BD001,https://www.du.ac.bd,Home :: Dhaka University,35,8,0,27,92,0,1,7,290,6,45,0,0,8,12,51,0,71,15,56,0.22857142857142856,0.13043478260869565,0.17586206896551723,14,Poor,200
+BD001,PG0002_BD001,https://www.du.ac.bd/onlineServices,Online Services :: University of Dhaka,6,2,0,4,17,0,1,1,125,5,0,0,0,2,4,5,0,11,8,3,0.3333333333333333,0.23529411764705882,0.04,81,Good,200
+BD001,PG0004_BD001,https://www.du.ac.bd/university/HistoricalOutline,Home :: Dhaka University,6,2,0,4,85,0,1,1,204,5,0,0,0,2,4,5,0,11,8,3,0.3333333333333333,0.047058823529411764,0.024509803921568627,81,Good,200
+BD001,PG0005_BD001,https://www.du.ac.bd/university/DuataGlance,University at a Glance,6,2,0,4,49,0,1,1,168,5,0,0,0,2,4,5,0,11,8,3,0.3333333333333333,0.08163265306122448,0.02976190476190476,81,Good,200
+BD001,PG0006_BD001,https://www.du.ac.bd/university/VisionMission,Home :: Dhaka University,6,2,0,4,27,0,1,1,140,5,0,0,0,2,4,5,0,11,8,3,0.3333333333333333,0.14814814814814814,0.03571428571428571,81,Good,200
+BD001,PG0007_BD001,https://www.du.ac.bd/university/HonorisCausa,Home :: Dhaka University,6,2,0,4,19,0,1,1,138,5,0,0,0,2,4,5,0,11,8,3,0.3333333333333333,0.21052631578947367,0.036231884057971016,81,Good,200
+BD001,PG0008_BD001,https://www.du.ac.bd/viceChancellorMessage,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD001,PG0009_BD001,https://www.du.ac.bd/listofViceChancellors,list of Vice Chancellors :: University of Dhaka,37,2,0,35,16,0,1,0,119,5,0,0,0,2,3,5,0,10,8,2,0.05405405405405406,0.1875,0.04201680672268908,82,Good,200
+BD001,PG0010_BD001,https://www.du.ac.bd/leadership/chancellor,Mirza Fakhrul Islam Alamgir:: University of Dhaka,7,2,0,5,21,0,1,0,119,5,0,0,0,2,3,5,0,10,8,2,0.2857142857142857,0.14285714285714285,0.04201680672268908,82,Good,200
+BD003,PG0001_BD003,https://www.ru.ac.bd,University of Rajshahi – Official website for Rajshahi University,17,0,16,1,22,0,1,4,108,13,5,0,0,16,12,18,0,46,14,32,0.9411764705882353,0.5454545454545454,0.16666666666666666,40,Poor,200
+BD003,PG0002_BD003,https://www.ru.ac.bd/governance,Governance – University of Rajshahi,6,0,6,0,16,0,1,0,61,6,0,0,0,6,1,6,0,13,7,6,1.0,0.0625,0.09836065573770492,80,Good,200
+BD003,PG0003_BD003,https://www.ru.ac.bd/administration,Administration – University of Rajshahi,15,0,15,0,32,0,1,0,93,15,0,0,0,15,1,15,0,31,16,15,1.0,0.03125,0.16129032258064516,53,Needs Improvement,200
+BD003,PG0004_BD003,https://www.ru.ac.bd/iqac,Institutional Quality Assurance Cell – Just another Rajshahi University Sites,7,0,7,0,19,0,1,4,55,8,2,0,0,7,11,10,0,28,9,19,1.0,0.5789473684210527,0.18181818181818182,63,Needs Improvement,200
+BD003,PG0005_BD003,https://www.ru.ac.bd/academic,Academic – University of Rajshahi,8,0,8,0,20,0,1,0,69,8,0,0,0,8,1,8,0,17,9,8,1.0,0.05,0.11594202898550725,74,Needs Improvement,200
+BD003,PG0006_BD003,https://www.ru.ac.bd/facilities,Facilities – University of Rajshahi,17,0,17,0,40,0,1,0,109,17,0,0,0,17,1,17,0,35,18,17,1.0,0.025,0.1559633027522936,47,Poor,200
+BD003,PG0007_BD003,https://www.ru.ac.bd/publications,Publications – University of Rajshahi,6,0,6,0,16,0,1,0,61,6,0,0,0,6,1,6,0,13,7,6,1.0,0.0625,0.09836065573770492,80,Good,200
+BD003,PG0008_BD003,https://www.ru.ac.bd/online-services,Online Services – University of Rajshahi,14,0,14,0,28,0,1,0,85,14,0,0,0,14,1,14,0,29,15,14,1.0,0.03571428571428571,0.16470588235294117,56,Needs Improvement,200
+BD003,PG0009_BD003,https://www.ru.ac.bd/elementor-9316,Elementor #9316 – University of Rajshahi,2,0,2,0,10,0,1,0,53,2,0,0,0,2,1,2,0,5,3,2,1.0,0.1,0.03773584905660377,92,Excellent,200
+BD003,PG0010_BD003,https://www.ru.ac.bd/vc,Office of the Vice-Chancellor – Just another Rajshahi University Sites,4,0,3,1,13,0,1,2,45,7,2,0,0,3,3,9,0,15,8,7,0.75,0.23076923076923078,0.2,77,Good,200
+BD004,PG0001_BD004,https://bau.edu.bd,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,33,1,31,1,19,1,0,0,173,21,1,0,0,32,1,22,0,55,22,33,0.9696969696969697,0.05263157894736842,0.12716763005780346,23,Poor,200
+BD004,PG0002_BD004,https://bau.edu.bd/search?search=,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,151,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039735099337748346,78,Good,200
+BD004,PG0003_BD004,https://bau.edu.bd/contact,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,11,1,0,1,153,8,0,0,0,7,3,8,0,18,9,9,1.0,0.2727272727272727,0.05228758169934641,73,Needs Improvement,200
+BD004,PG0004_BD004,https://bau.edu.bd/noc,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,6,0,6,0,8,1,0,1,151,6,0,0,0,6,2,6,0,14,6,8,1.0,0.25,0.039735099337748346,80,Good,200
+BD004,PG0005_BD004,https://bau.edu.bd/go,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,6,0,6,0,8,1,0,1,151,6,0,0,0,6,2,6,0,14,6,8,1.0,0.25,0.039735099337748346,80,Good,200
+BD004,PG0006_BD004,https://bau.edu.bd/main/masters,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,152,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039473684210526314,78,Good,200
+BD004,PG0007_BD004,https://bau.edu.bd/main/doctoral,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,152,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039473684210526314,78,Good,200
+BD004,PG0008_BD004,https://bau.edu.bd/main/diploma-&-certificate,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,152,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039473684210526314,78,Good,200
+BD004,PG0009_BD004,https://bau.edu.bd/main/collaborations,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,152,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039473684210526314,78,Good,200
+BD004,PG0010_BD004,https://bau.edu.bd/main/training,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,7,1,6,0,8,1,0,1,152,6,0,0,0,7,2,6,0,15,7,8,1.0,0.25,0.039473684210526314,78,Good,200
+BD005,PG0001_BD005,https://juniv.edu,Jahangirnagar University,14,1,0,13,29,0,1,2,229,3,0,0,0,1,3,3,0,7,5,2,0.07142857142857142,0.10344827586206896,0.013100436681222707,88,Good,200
+BD005,PG0003_BD005,https://juniv.edu/login,Jahangirnagar University,1,1,0,0,1,0,1,0,2,1,0,0,0,1,1,1,0,3,3,0,1.0,1.0,0.5,94,Excellent,200
+BD005,PG0004_BD005,https://juniv.edu/office/iqac,Jahangirnagar University,3,1,0,2,7,0,1,1,135,3,0,0,0,1,3,3,0,7,5,2,0.3333333333333333,0.42857142857142855,0.022222222222222223,88,Good,200
+BD005,PG0005_BD005,https://juniv.edu/office/ictcell,Jahangirnagar University,4,1,0,3,15,0,1,3,144,3,0,0,0,1,4,3,0,8,5,3,0.25,0.26666666666666666,0.020833333333333332,87,Good,200
+BD005,PG0006_BD005,https://juniv.edu/useful-links/apa,Jahangirnagar University,8,1,6,1,9,0,1,1,152,3,0,0,0,7,2,3,0,12,5,7,0.875,0.2222222222222222,0.019736842105263157,83,Good,200
+BD005,PG0007_BD005,https://juniv.edu/administration?roleType=PRO_VICE_CHANCELLOR&roleName=Pro%20Vice%20Chancellor,Jahangirnagar University,4,1,0,3,5,0,1,0,129,3,0,0,0,1,1,3,0,5,5,0,0.25,0.2,0.023255813953488372,90,Excellent,200
+BD005,PG0008_BD005,https://juniv.edu/administration?roleType=TREASURER&roleName=Treasurer,Jahangirnagar University,3,1,0,2,5,0,1,0,129,3,0,0,0,1,1,3,0,5,5,0,0.3333333333333333,0.2,0.023255813953488372,90,Excellent,200
+BD005,PG0009_BD005,https://juniv.edu/administration?roleType=REGISTER&roleName=Registrar (Acting),Jahangirnagar University,3,1,0,2,6,0,1,0,129,3,0,0,0,1,1,3,0,5,5,0,0.3333333333333333,0.16666666666666666,0.023255813953488372,90,Excellent,200
+BD005,PG0010_BD005,https://juniv.edu/administration-page/senate,Jahangirnagar University,2,1,0,1,3,0,1,0,127,3,0,0,0,1,1,3,0,5,5,0,0.5,0.3333333333333333,0.023622047244094488,90,Excellent,200
+BD007,PG0001_BD007,https://bu.ac.bd,University of Barishal,15,0,1,14,126,0,1,39,228,7,41,0,0,1,40,48,0,89,8,81,0.06666666666666667,0.31746031746031744,0.21052631578947367,3,Poor,200
+BD007,PG0002_BD007,https://bu.ac.bd/contact-us,Contact |  University of Barishal,2,0,0,2,23,0,1,1,140,5,0,0,0,0,2,5,0,7,6,1,0.0,0.08695652173913043,0.03571428571428571,87,Good,200
+BD007,PG0003_BD007,https://bu.ac.bd/login,University of Barishal,3,0,0,3,16,0,1,2,139,5,0,0,0,0,3,5,0,8,6,2,0.0,0.1875,0.03597122302158273,86,Good,200
+BD007,PG0005_BD007,https://bu.ac.bd/overview,Overview |  University of Barishal,2,0,0,2,19,0,1,2,139,5,0,0,0,0,3,5,0,8,6,2,0.0,0.15789473684210525,0.03597122302158273,86,Good,200
+BD007,PG0006_BD007,https://bu.ac.bd/act,Act and Rules |  University of Barishal,2,0,0,2,16,0,1,2,142,5,0,0,0,0,3,5,0,8,6,2,0.0,0.1875,0.035211267605633804,86,Good,200
+BD007,PG0007_BD007,https://bu.ac.bd/committee,Committee |  University of Barishal,2,0,0,2,16,0,1,2,142,5,0,0,0,0,3,5,0,8,6,2,0.0,0.1875,0.035211267605633804,86,Good,200
+BD007,PG0008_BD007,https://bu.ac.bd/campus,Campus Map |  University of Barishal,2,0,0,2,15,0,1,2,139,5,0,0,0,0,3,5,0,8,6,2,0.0,0.2,0.03597122302158273,86,Good,200
+BD007,PG0009_BD007,https://bu.ac.bd/monogram,Monogram |  University of Barishal,3,0,0,3,15,0,1,2,139,5,0,0,0,0,3,5,0,8,6,2,0.0,0.2,0.03597122302158273,86,Good,200
+BD007,PG0010_BD007,https://bu.ac.bd/notice/20260630-1782795218-6a434bd222486,University Calendar 2026-2027 |  University of Barishal,3,0,0,3,17,0,1,2,144,10,0,0,0,0,3,10,0,13,11,2,0.0,0.17647058823529413,0.06944444444444445,76,Good,200
+BD008,PG0001_BD008,https://pstu.ac.bd,Patuakhali Science and Technology University,22,4,8,10,76,4,0,9,228,5,10,0,0,12,10,15,0,37,9,28,0.5454545454545454,0.13157894736842105,0.06578947368421052,54,Needs Improvement,200
+BD008,PG0002_BD008,https://pstu.ac.bd/login,Patuakhali Science and Technology University,1,0,1,0,2,0,1,0,1,0,0,0,0,1,1,0,0,2,1,1,1.0,0.5,0.0,97,Excellent,200
+BD008,PG0003_BD008,https://pstu.ac.bd/notices/revolving-loan-er-mitingyer-notis,Patuakhali Science and Technology University,3,0,0,3,22,0,1,1,146,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.0273972602739726,89,Good,200
+BD008,PG0004_BD008,https://pstu.ac.bd/notices/revolving-loan-abedner-notis,Patuakhali Science and Technology University,3,0,0,3,22,0,1,1,146,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.0273972602739726,89,Good,200
+BD008,PG0005_BD008,https://pstu.ac.bd/notices/jd25-master-and-phd-enrollment-notice,Patuakhali Science and Technology University,4,0,0,4,22,0,1,1,145,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.027586206896551724,89,Good,200
+BD008,PG0006_BD008,https://pstu.ac.bd/notices/assistant-professor-and-lecturer-recruitment-circular-and-criteria,Patuakhali Science and Technology University,3,0,0,3,22,0,1,1,147,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.027210884353741496,89,Good,200
+BD008,PG0007_BD008,https://pstu.ac.bd/notices/ofis-ades-pbiprbite-siratunnbee-sa-2026-zthazth-mrzaday-udzapner-lkshze-kmiti-gthn,Patuakhali Science and Technology University,4,0,0,4,22,0,1,1,145,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.027586206896551724,89,Good,200
+BD008,PG0008_BD008,https://pstu.ac.bd/notices/pbiprbir-bivinn-sthapna-udwodhn-sngkrant-notis,Patuakhali Science and Technology University,4,0,0,4,22,0,1,1,145,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.027586206896551724,89,Good,200
+BD008,PG0009_BD008,https://pstu.ac.bd/notices/supply-and-installation-of-laboratory-equipment-of-the-faculty-of-agriculture-at-pstu-2026,Patuakhali Science and Technology University,3,0,0,3,22,0,1,1,146,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.0273972602739726,89,Good,200
+BD008,PG0010_BD008,https://pstu.ac.bd/notices/2024-er-chatr-jntar-oitihasik-julai-gnovzutthane-sheed-oo-aht-zoddhader-smrne-alocna-sva-oo-doya-onushthan-sngkrant,Patuakhali Science and Technology University,4,0,0,4,22,0,1,1,145,4,0,0,0,0,2,4,0,6,5,1,0.0,0.09090909090909091,0.027586206896551724,89,Good,200
+BD009,PG0001_BD009,https://cu.ac.bd,University of Chittagong – চট্টগ্রাম বিশ্ববিদ্যালয়,23,0,20,3,36,1,0,1,773,14,9,0,0,20,2,23,0,45,14,31,0.8695652173913043,0.05555555555555555,0.029754204398447608,41,Poor,200
+BD009,PG0002_BD009,https://cu.ac.bd/noc_go,NOC/GO – University of Chittagong,2,0,0,2,3,0,1,0,758,0,0,0,0,0,1,0,0,1,1,0,0.0,0.3333333333333333,0.0,98,Excellent,200
+BD009,PG0003_BD009,https://cu.ac.bd/notice-board,Notice Board – University of Chittagong,2,0,0,2,8,0,1,1,746,0,0,0,0,0,2,0,0,2,1,1,0.0,0.25,0.0,97,Excellent,200
+BD009,PG0004_BD009,https://cu.ac.bd/forms-downloads,Forms & Downloads – University of Chittagong,2,0,0,2,7,0,1,1,308,0,0,0,0,0,2,0,0,2,1,1,0.0,0.2857142857142857,0.0,97,Excellent,200
+BD009,PG0005_BD009,https://cu.ac.bd/cc,Citizen Charter – University of Chittagong,2,0,0,2,5,0,1,1,378,0,0,0,0,0,2,0,0,2,1,1,0.0,0.4,0.0,97,Excellent,200
+BD009,PG0006_BD009,https://cu.ac.bd/peopleresources/index.php?menumapno=2,Faculty & Staff | University of Chittagong,4,2,0,2,0,0,1,0,64,0,0,0,0,2,1,0,0,3,3,0,0.5,0,0.0,94,Excellent,200
+BD009,PG0007_BD009,https://cu.ac.bd/apa,Annual Performance Agreement – University of Chittagong,10,0,0,10,10,0,1,0,308,0,0,0,0,0,1,0,0,1,1,0,0.0,0.1,0.0,98,Excellent,200
+BD009,PG0008_BD009,https://cu.ac.bd/research-highlights,Research Highlights – University of Chittagong,11,0,0,11,13,0,1,0,310,0,9,0,0,0,2,9,0,11,1,10,0.0,0.15384615384615385,0.02903225806451613,88,Good,200
+BD009,PG0009_BD009,https://cu.ac.bd/vision-and-mission,Vision and Mission – University of Chittagong,3,0,1,2,4,0,1,0,289,0,0,0,0,1,1,0,0,2,1,1,0.3333333333333333,0.25,0.0,97,Excellent,200
+BD009,PG0010_BD009,https://cu.ac.bd/facts-and-acts,Facts and Acts – University of Chittagong,2,0,0,2,3,0,1,0,282,0,0,0,0,0,1,0,0,1,1,0,0.0,0.3333333333333333,0.0,98,Excellent,200
+BD010,PG0001_BD010,https://cuet.ac.bd,Chittagong University of Engineering and Technology.,31,0,0,31,70,4,0,6,249,3,0,0,0,0,7,3,0,10,3,7,0.0,0.1,0.012048192771084338,87,Good,200
+BD010,PG0002_BD010,https://cuet.ac.bd/notices/noc,Chittagong University of Engineering and Technology.,3,0,0,3,22,0,1,0,182,2,0,0,0,0,1,2,0,3,3,0,0.0,0.045454545454545456,0.01098901098901099,94,Excellent,200
+BD010,PG0003_BD010,https://cuet.ac.bd/administration,Administration | CUET,3,0,0,3,22,0,1,0,182,2,0,0,0,0,1,2,0,3,3,0,0.0,0.045454545454545456,0.01098901098901099,94,Excellent,200
+BD010,PG0004_BD010,https://cuet.ac.bd/academic-information,Academic Information | CUET,3,0,0,3,22,0,1,0,182,2,0,0,0,0,1,2,0,3,3,0,0.0,0.045454545454545456,0.01098901098901099,94,Excellent,200
+BD010,PG0005_BD010,https://cuet.ac.bd/academic-information/academic-calendars,Academic Information | CUET,4,0,0,4,23,0,1,0,188,2,0,0,0,0,1,2,0,3,3,0,0.0,0.043478260869565216,0.010638297872340425,94,Excellent,200
+BD010,PG0006_BD010,https://cuet.ac.bd/academic-information/undergraduate-studies,Academic Information | CUET,6,0,0,6,27,0,1,2,190,2,0,0,0,0,5,2,0,7,3,4,0.0,0.18518518518518517,0.010526315789473684,90,Excellent,200
+BD010,PG0007_BD010,https://cuet.ac.bd/academic-information/graduate-studies,Academic Information | CUET,5,0,0,5,25,0,1,1,189,2,0,0,0,0,4,2,0,6,3,3,0.0,0.16,0.010582010582010581,91,Excellent,200
+BD010,PG0008_BD010,https://cuet.ac.bd/academic-information/international-students,Academic Information | CUET,3,0,0,3,22,0,1,0,182,2,0,0,0,0,1,2,0,3,3,0,0.0,0.045454545454545456,0.01098901098901099,94,Excellent,200
+BD010,PG0009_BD010,https://cuet.ac.bd/faculty,Faculties of CUET - Chittagong University of Engineering & Technology,3,0,0,3,23,0,1,0,183,2,0,0,0,0,1,2,0,3,3,0,0.0,0.043478260869565216,0.01092896174863388,94,Excellent,200
+BD010,PG0010_BD010,https://cuet.ac.bd/departments,Chittagong University of Engineering and Technology.,3,0,0,3,22,0,1,0,182,2,0,0,0,0,1,2,0,3,3,0,0.0,0.045454545454545456,0.01098901098901099,94,Excellent,200
+BD011,PG0001_BD011,https://www.northsouth.edu,Home | North South University,46,5,0,41,86,8,0,8,250,11,4,0,0,5,9,15,0,29,16,13,0.10869565217391304,0.10465116279069768,0.06,55,Needs Improvement,200
+BD011,PG0002_BD011,https://www.northsouth.edu/academic/academic-calendar,Academic Calendar | North South University,5,4,0,1,3,0,1,1,156,6,0,0,0,4,2,6,0,12,11,1,0.8,0.6666666666666666,0.038461538461538464,77,Good,200
+BD011,PG0003_BD011,https://www.northsouth.edu/newsletter.html,Newsletters | North South University,4,3,0,1,2,0,1,1,211,7,0,0,0,3,2,7,0,12,11,1,0.75,1.0,0.03317535545023697,77,Good,200
+BD011,PG0004_BD011,https://www.northsouth.edu/journals.html,Journals | North South University,4,3,0,1,26,0,1,1,222,6,0,0,0,3,5,6,0,14,10,4,0.75,0.19230769230769232,0.02702702702702703,76,Good,200
+BD011,PG0005_BD011,https://www.northsouth.edu/newsletter/nsu-catalog.html,Catalogs | North South University,4,3,0,1,2,0,1,1,153,6,0,0,0,3,2,6,0,11,10,1,0.75,1.0,0.0392156862745098,79,Good,200
+BD011,PG0006_BD011,https://www.northsouth.edu/archive.html,Archive | North South University,4,3,0,1,10,0,1,1,238,6,0,0,0,3,2,6,0,11,10,1,0.75,0.2,0.025210084033613446,79,Good,200
+BD011,PG0007_BD011,https://www.northsouth.edu/contact-us.html,Contact  | North South University,4,3,0,1,4,0,1,2,152,6,0,0,0,3,3,6,0,12,10,2,0.75,0.75,0.039473684210526314,78,Good,200
+BD011,PG0008_BD011,https://www.northsouth.edu/about/brief-history,Brief History | North South University,4,0,0,4,37,1,0,2,167,5,0,0,0,0,2,5,0,7,5,2,0.0,0.05405405405405406,0.029940119760479042,88,Good,200
+BD011,PG0009_BD011,https://www.northsouth.edu/about/vms.html,"Vision, Mission & Strategy | North South University",2,0,0,2,34,1,0,1,167,5,0,0,0,0,1,5,0,6,5,1,0.0,0.029411764705882353,0.029940119760479042,89,Good,200
+BD011,PG0010_BD011,https://www.northsouth.edu/about/int-ab.html,International Advisory Board | North South University,12,10,0,2,33,1,0,2,167,5,0,0,0,10,2,5,0,17,15,2,0.8333333333333334,0.06060606060606061,0.029940119760479042,68,Needs Improvement,200
+BD013,PG0001_BD013,https://iub.ac.bd,"Independent University, Bangladesh",56,0,0,56,24,21,0,0,67,4,0,0,0,0,1,4,0,5,4,1,0.0,0.041666666666666664,0.05970149253731343,91,Excellent,200
+BD013,PG0002_BD013,https://iub.ac.bd/prospective-students,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0003_BD013,https://iub.ac.bd/faculties,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0004_BD013,https://iub.ac.bd/directory,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0005_BD013,https://iub.ac.bd/about/iub-at-a-glance,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0006_BD013,https://iub.ac.bd/about/facts-and-figures,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0007_BD013,https://iub.ac.bd/about/special-initiatives,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0008_BD013,https://iub.ac.bd/about/leadership-and-governance,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0009_BD013,https://iub.ac.bd/about/message-from-the-vice-chancellor,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD013,PG0010_BD013,https://iub.ac.bd/academics/undergraduate-programs,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD014,PG0001_BD014,https://www.aiub.edu,Home | AIUB,110,0,0,110,209,1,0,24,487,68,0,0,0,0,26,68,0,94,68,26,0.0,0.12440191387559808,0.13963039014373715,0,Poor,200
+BD014,PG0002_BD014,https://www.aiub.edu/contact-us,Contact Us | AIUB,6,0,0,6,35,2,0,2,208,9,0,0,0,0,3,9,0,12,9,3,0.0,0.08571428571428572,0.04326923076923077,79,Good,200
+BD014,PG0003_BD014,https://www.aiub.edu/about,About | AIUB,5,0,0,5,26,2,0,2,222,8,0,0,0,0,3,8,0,11,8,3,0.0,0.11538461538461539,0.036036036036036036,81,Good,200
+BD014,PG0004_BD014,https://www.aiub.edu/about/Information,Information or Overview | AIUB,6,0,0,6,33,2,0,2,228,8,2,0,0,0,3,10,0,13,8,5,0.0,0.09090909090909091,0.043859649122807015,79,Good,200
+BD014,PG0005_BD014,https://www.aiub.edu/about/general-information,General Information | AIUB,16,0,0,16,38,2,0,8,224,8,0,0,0,0,14,8,0,22,8,14,0.0,0.3684210526315789,0.03571428571428571,70,Needs Improvement,200
+BD014,PG0006_BD014,https://www.aiub.edu/about/Rules-Of-Entry,Rules of Entry to AIUB Campus | AIUB,7,0,0,7,15,3,0,2,217,8,0,0,0,0,3,8,0,11,8,3,0.0,0.2,0.03686635944700461,81,Good,200
+BD014,PG0007_BD014,https://www.aiub.edu/about/Why-Study-Here,Why Study Here | AIUB,26,0,0,26,23,2,0,2,217,8,0,0,0,0,3,8,0,11,8,3,0.0,0.13043478260869565,0.03686635944700461,81,Good,200
+BD014,PG0008_BD014,https://www.aiub.edu/about/Resources,Resources | AIUB,45,0,0,45,22,2,0,2,256,12,0,0,0,0,3,12,0,15,12,3,0.0,0.13636363636363635,0.046875,73,Needs Improvement,200
+BD014,PG0009_BD014,https://www.aiub.edu/about/career,Career | AIUB,6,0,0,6,14,2,0,2,220,8,0,0,0,0,3,8,0,11,8,3,0.0,0.21428571428571427,0.03636363636363636,81,Good,200
+BD014,PG0010_BD014,https://www.aiub.edu/about/Convocation,Convocation | AIUB,6,0,0,6,105,2,0,2,217,8,0,0,0,0,3,8,0,11,8,3,0.0,0.02857142857142857,0.03686635944700461,81,Good,200
+BD015,PG0001_BD015,https://www.ewubd.edu,East West University,48,1,18,29,70,0,1,4,356,9,17,0,0,19,8,26,0,53,11,42,0.3958333333333333,0.11428571428571428,0.07303370786516854,36,Poor,200
+BD015,PG0002_BD015,https://www.ewubd.edu/news/east-west-university-and-bids-sign-mou-advance-academic-and-research-collaboration-economics,East West University and BIDS Sign MoU to Advance Academic and Research Collaboration in Economics,18,6,4,8,10,1,0,1,305,14,0,0,0,10,1,14,0,25,20,5,0.5555555555555556,0.1,0.04590163934426229,55,Needs Improvement,200
+BD015,PG0004_BD015,https://www.ewubd.edu/ewu-policies,Policies,6,1,3,2,19,1,0,1,306,9,0,0,0,4,1,9,0,14,10,4,0.6666666666666666,0.05263157894736842,0.029411764705882353,76,Good,200
+BD015,PG0005_BD015,https://www.ewubd.edu/career-counseling-center,Career Counseling Center (CCC),7,1,3,3,10,1,0,1,296,9,0,0,0,4,1,9,0,14,10,4,0.5714285714285714,0.1,0.030405405405405407,76,Good,200
+BD015,PG0006_BD015,https://www.ewubd.edu/ewu-sexual-harassment-elimination-and-prevention-policy,East West University Sexual Harassment Elimination and Prevention Policy,9,4,3,2,8,0,1,0,293,11,0,0,0,7,1,11,0,19,16,3,0.7777777777777778,0.125,0.03754266211604096,65,Needs Improvement,200
+BD015,PG0007_BD015,https://www.ewubd.edu/grades-rules-and-regulations,"Grades, Rules and Regulations",6,1,3,2,18,1,0,1,297,9,0,0,0,4,1,9,0,14,10,4,0.6666666666666666,0.05555555555555555,0.030303030303030304,76,Good,200
+BD015,PG0008_BD015,https://www.ewubd.edu/student-rules-regulation,Student Ethics & Academic Discipline,6,1,3,2,7,1,0,1,287,9,0,0,0,4,1,9,0,14,10,4,0.6666666666666666,0.14285714285714285,0.0313588850174216,76,Good,200
+BD015,PG0009_BD015,https://www.ewubd.edu/academic-calendar,Academic Calendar,6,1,3,2,33,1,0,1,430,9,0,0,0,4,1,9,0,14,10,4,0.6666666666666666,0.030303030303030304,0.020930232558139535,76,Good,200
+BD015,PG0010_BD015,https://www.ewubd.edu/daily-duty-schedule-proctors,Daily Duty Schedule of Proctors,7,1,3,3,8,1,0,1,308,9,0,0,0,4,1,9,0,14,10,4,0.5714285714285714,0.125,0.02922077922077922,76,Good,200
+BD018,PG0001_BD018,https://www.banglatribune.com,"Bangla Tribune - News, Behind The News",149,1,2,146,2,1,0,0,330,3,0,0,0,3,1,3,0,7,4,3,0.020134228187919462,0.5,0.00909090909090909,89,Good,200
+BD018,PG0002_BD018,https://www.banglatribune.com/%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%AC%E0%A6%B0,"আজকের খবর, ব্রেকিং নিউজ বাংলাদেশ | Ajker Khobor Bangla",24,0,0,24,1,1,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0003_BD018,https://www.banglatribune.com/national,আজকের গুরুত্বপূর্ণ জাতীয় খবর,24,0,0,24,1,1,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0004_BD018,https://www.banglatribune.com/politics,রাজনীতির খবর | বাংলাদেশের বর্তমান রাজনৈতিক অবস্থার সর্বশেষ | Rajneeti News,24,0,0,24,1,1,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0005_BD018,https://www.banglatribune.com/law-and-crime,আইন ও অপরাধ - Bangla Tribune,24,0,0,24,1,1,0,0,90,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0006_BD018,https://www.banglatribune.com/country,সারা দেশের খবর | ৬৪ জেলার খবর,23,0,0,23,1,1,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0007_BD018,https://www.banglatribune.com/foreign,আন্তর্জাতিক ও বিশ্ব সংবাদ,28,0,0,28,1,1,0,0,98,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0008_BD018,https://www.banglatribune.com/exclusive,আজকের বিশেষ ও গুরুত্বপূর্ণ খবর | Exclusive news,24,0,0,24,1,1,0,0,85,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0009_BD018,https://www.banglatribune.com/business,বিজনেস- ব্যবসায় ও বাণিজ্যের খবর | Business news,23,0,0,23,1,1,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD018,PG0010_BD018,https://www.banglatribune.com/entertainment,বিনোদন - Bangla Tribune,23,0,0,23,1,1,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD020,PG0001_BD020,https://barta24.com,Barta 24 :: বার্তা ২৪,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,2,2,0,0,0,1.0,96,Excellent,200
+BD020,PG0002_BD020,https://barta24.com/cdn-cgi/content?id=.Sns0muqiq5Ieb4dnwxIHVUh9jetPLE.6jES0qZx9UA-1787430848.8357432-1.2.1.1-1qfWv_4TSkiTtp9r6_Uj4fEtAsFl9F.o.B1Q2idwTwc8O5yAJkIO8TiuZhk_P5TE,Insulator Engineering: The Unsung Heroes of Energy Efficiency,0,0,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,100,Excellent,200
+BD021,PG0001_BD021,https://www.thedailystar.net,The Daily Star - Bangladesh's National and International Breaking News,73,1,5,67,111,1,0,13,338,19,0,0,0,6,13,19,0,38,20,18,0.0821917808219178,0.11711711711711711,0.05621301775147929,42,Poor,200
+BD021,PG0002_BD021,https://www.thedailystar.net/star-multimedia/news/lng-supply-excelerate-terminal-halted-gas-crisis-intensifies-4252381,"LNG supply from Excelerate terminal halted, gas crisis intensifies | The Daily Star",8,1,3,4,21,1,0,3,177,23,0,0,0,4,3,23,0,30,24,6,0.5,0.14285714285714285,0.12994350282485875,46,Poor,200
+BD021,PG0003_BD021,https://www.thedailystar.net/star-multimedia/news/us-iran-conflict-looming-again-why-the-60-day-truce-failed-4252376,US-Iran conflict looming again? Why the 60-day truce failed | The Daily Star,8,1,3,4,21,1,0,3,177,23,0,0,0,4,3,23,0,30,24,6,0.5,0.14285714285714285,0.12994350282485875,46,Poor,200
+BD021,PG0004_BD021,https://www.thedailystar.net/star-multimedia/news/do-women-only-bus-services-really-make-commuting-easier-4252371,Do women-only bus services really make commuting easier? | The Daily Star,8,1,3,4,21,1,0,3,177,23,0,0,0,4,3,23,0,30,24,6,0.5,0.14285714285714285,0.12994350282485875,46,Poor,200
+BD021,PG0005_BD021,https://www.thedailystar.net/news,News | The Daily Star,70,1,3,66,123,0,1,12,344,16,0,0,0,4,13,16,0,33,18,15,0.05714285714285714,0.10569105691056911,0.046511627906976744,49,Poor,200
+BD021,PG0006_BD021,https://www.thedailystar.net/news/politics,Politics | The Daily Star,36,1,3,32,38,0,1,1,218,16,0,0,0,4,2,16,0,22,18,4,0.1111111111111111,0.05263157894736842,0.07339449541284404,60,Needs Improvement,200
+BD021,PG0007_BD021,https://www.thedailystar.net/news/governance,Governance | The Daily Star,36,1,3,32,38,0,1,1,217,16,0,0,0,4,2,16,0,22,18,4,0.1111111111111111,0.05263157894736842,0.07373271889400922,60,Needs Improvement,200
+BD021,PG0008_BD021,https://www.thedailystar.net/news/crime-justice,Crime & Justice | The Daily Star,36,1,3,32,38,0,1,1,217,16,0,0,0,4,2,16,0,22,18,4,0.1111111111111111,0.05263157894736842,0.07373271889400922,60,Needs Improvement,200
+BD021,PG0009_BD021,https://www.thedailystar.net/news/accidents-and-fires,Accidents and Fires | The Daily Star,35,1,3,31,38,0,1,1,217,16,0,0,0,4,2,16,0,22,18,4,0.11428571428571428,0.05263157894736842,0.07373271889400922,60,Needs Improvement,200
+BD021,PG0010_BD021,https://www.thedailystar.net/news/technology,Technology | The Daily Star,76,1,3,72,84,0,1,7,310,16,0,0,0,4,8,16,0,28,18,10,0.05263157894736842,0.09523809523809523,0.05161290322580645,54,Needs Improvement,200
+BD025,PG0001_BD025,https://www.prothomalo.com,প্রথম আলো | বাংলা নিউজ পেপার,1,0,0,1,62,1,0,2,144,0,0,0,0,0,3,0,0,3,0,3,0.0,0.04838709677419355,0.0,97,Excellent,200
+BD025,PG0002_BD025,https://www.prothomalo.com/search,"নিউজ সার্চ - রাজনীতি, বাংলাদেশ, খেলা, বিনোদন, ছবি ও ভিডিও - প্রথম আলো",1,0,0,1,18,1,0,2,48,0,0,0,0,0,3,0,0,3,0,3,0.0,0.16666666666666666,0.0,97,Excellent,200
+BD025,PG0003_BD025,https://www.prothomalo.com/collection/latest,আজকের খবর | আজকের ব্রেকিং নিউজ বাংলাদেশ,1,0,0,1,3,1,0,1,18,0,0,0,0,0,2,0,0,2,0,2,0.0,0.6666666666666666,0.0,98,Excellent,200
+BD025,PG0004_BD025,https://www.prothomalo.com/bangladesh,বাংলাদেশের খবর | Bangladesh News Update | Prothom Alo,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0005_BD025,https://www.prothomalo.com/politics,রাজনীতি | রাজনীতির সর্বশেষ খবর | Politics News | Prothom Alo,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0006_BD025,https://www.prothomalo.com/world,আজকের আন্তর্জাতিক খবর - বিশ্ব সংবাদ | World News প্রথম আলো,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0007_BD025,https://www.prothomalo.com/business,ব্যবসা বাণিজ্য ও অর্থনীতির খবর | Business | Prothom Alo,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0008_BD025,https://www.prothomalo.com/opinion,মতামত | সম্পাদকীয় | Opinion Editorial | Prothom Alo,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0009_BD025,https://www.prothomalo.com/sports,খেলার খবর | খেলা - সর্বশেষ Sports News Bangla | প্রথম আলো,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD025,PG0010_BD025,https://www.prothomalo.com/entertainment,বিনোদন খবর | Most Entertainment News Readers BD প্রথম আলো,1,0,0,1,2,0,1,1,18,0,0,0,0,0,3,0,0,3,1,2,0.0,1.5,0.0,96,Excellent,200
+BD027,PG0001_BD027,https://eticket.railway.gov.bd,Bangladesh Railway E-Ticketing Service,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200
+BD028,PG0001_BD028,https://visa.gov.bd,Bangladesh Online MRV Portal,2,0,0,2,1,0,1,0,15,0,1,0,0,0,1,1,0,2,1,1,0.0,1.0,0.06666666666666667,97,Excellent,200
+BD028,PG0002_BD028,https://visa.gov.bd/Home.aspx,Bangladesh Online MRV Portal,2,0,0,2,1,0,1,0,15,0,1,0,0,0,1,1,0,2,1,1,0.0,1.0,0.06666666666666667,97,Excellent,200
+BD028,PG0003_BD028,https://visa.gov.bd/Incomplete.aspx,Bangladesh Online MRV Portal,2,0,0,2,1,0,1,0,11,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0004_BD028,https://visa.gov.bd/ViewStatus.aspx,Bangladesh Online MRV Portal,2,0,0,2,1,0,1,0,11,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0005_BD028,https://visa.gov.bd/Reprint.aspx,Bangladesh Online MRV Portal,2,0,0,2,1,0,1,0,11,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0006_BD028,https://visa.gov.bd/CompFeedback.aspx,Bangladesh Online MRV Portal,1,0,0,1,1,0,1,0,12,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0007_BD028,https://visa.gov.bd/TermsCondition.aspx,Bangladesh Online MRV Portal,1,0,0,1,1,0,1,0,13,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0008_BD028,https://visa.gov.bd/PrivacyPolicy.aspx,Bangladesh Online MRV Portal,1,0,0,1,1,0,1,0,11,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0009_BD028,https://visa.gov.bd/DownloadMRVForm.aspx,Bangladesh Online MRV Portal,1,0,0,1,1,0,1,0,12,0,0,0,0,0,1,0,0,1,1,0,0.0,1.0,0.0,98,Excellent,200
+BD028,PG0010_BD028,https://visa.gov.bd/FAQ.aspx,Bangladesh Online MRV Portal,1,0,0,1,3,2,0,0,11,0,0,0,0,0,1,0,0,1,0,1,0.0,0.3333333333333333,0.0,99,Excellent,200
+BD029,PG0001_BD029,https://bdris.gov.bd,হোমপেজ,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0.0,98,Excellent,200
+BD030,PG0001_BD030,https://land.gov.bd,ভূমি তথ্য বাতায়ন,36,0,0,36,23,0,1,0,41,1,0,0,0,0,1,1,0,2,2,0,0.0,0.043478260869565216,0.024390243902439025,96,Excellent,200
+BD030,PG0002_BD030,https://land.gov.bd/cdn-cgi/content?id=e0OjEFs2ysN2Q0RL.NZGtLNzkLVRLivQO8EKsLRPT7E-1787430886.869785-1.2.1.1-DHDEHVw6poO6W7nymo6.BhuIt4FRrprBADu.YTrNGEPULm4DtmZAlnoikrHXwVb8,Cheminformatics: Unlocking the Secrets of Molecular Interactions,0,0,0,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,100,Excellent,200
+BD030,PG0003_BD030,https://land.gov.bd/?lang=bn,ভূমি তথ্য বাতায়ন,36,0,0,36,23,0,1,0,41,1,0,0,0,0,1,1,0,2,2,0,0.0,0.043478260869565216,0.024390243902439025,96,Excellent,200
+BD030,PG0004_BD030,https://land.gov.bd/about-pd?lang=bn,ভূমি তথ্য বাতায়ন,20,0,0,20,6,0,1,0,30,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.03333333333333333,96,Excellent,200
+BD030,PG0005_BD030,https://land.gov.bd/uddasho-lokkho?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,30,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.03333333333333333,96,Excellent,200
+BD030,PG0006_BD030,https://land.gov.bd/nagorik-subidha?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,30,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.03333333333333333,96,Excellent,200
+BD030,PG0007_BD030,https://land.gov.bd/proklpo-output?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,30,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.03333333333333333,96,Excellent,200
+BD030,PG0008_BD030,https://land.gov.bd/ainobidhi?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,41,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.024390243902439025,96,Excellent,200
+BD030,PG0009_BD030,https://land.gov.bd/poripotro?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,42,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.023809523809523808,96,Excellent,200
+BD030,PG0010_BD030,https://land.gov.bd/notice?lang=bn,ভূমি তথ্য বাতায়ন,19,0,0,19,6,0,1,0,31,1,0,0,0,0,1,1,0,2,2,0,0.0,0.16666666666666666,0.03225806451612903,96,Excellent,200
+BD017,PG0001_BD017,https://www.dhakapost.com,"Dhaka Post - Bangla News Portal, Breaking News, Bd News and Videos",35,0,0,35,24,1,0,0,48,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,100,Excellent,200
+BD024,PG0001_BD024,https://www.newsbangla24.com,নিউজবাংলা ২৪ । অনলাইন বাংলা নিউজ পেপার,109,8,3,98,134,1,0,13,332,26,0,0,0,11,15,26,0,52,34,18,0.10091743119266056,0.11194029850746269,0.0783132530120482,14,Poor,200
+BD024,PG0002_BD024,https://www.newsbangla24.com/national,বাংলাদেশের জাতীয় খবর ও আজকের প্রধান সংবাদ শিরোনাম,18,3,1,14,15,1,0,2,144,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.0763888888888889,69,Needs Improvement,200
+BD024,PG0003_BD024,https://www.newsbangla24.com/politics,রাজনীতির খবর | রাজনীতির সর্বশেষ খবর পড়ুন | Politics News,18,3,1,14,15,1,0,2,144,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.0763888888888889,69,Needs Improvement,200
+BD024,PG0004_BD024,https://www.newsbangla24.com/news,"সারা বাংলাদেশের খবর, ছবি, ভিডিও ও সংবাদ প্রতিবেদন | Bangladesh News",18,3,1,14,15,1,0,2,152,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.07236842105263158,69,Needs Improvement,200
+BD024,PG0005_BD024,https://www.newsbangla24.com/election,নির্বাচন,18,3,1,14,15,1,0,2,144,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.0763888888888889,69,Needs Improvement,200
+BD024,PG0006_BD024,https://www.newsbangla24.com/economy,অর্থ বাণিজ্যের খবর ও সংবাদ প্রতিবেদন | Business News,18,3,1,14,15,1,0,2,150,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.07333333333333333,69,Needs Improvement,200
+BD024,PG0007_BD024,https://www.newsbangla24.com/international,"আন্তর্জাতিক খবর, ছবি, ভিডিও ও সর্বশেষ সংবাদ প্রতিবেদন",18,3,1,14,15,1,0,2,152,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.07236842105263158,69,Needs Improvement,200
+BD024,PG0008_BD024,https://www.newsbangla24.com/sports,আজকের বাংলাদেশ ক্রিকেট ও ফুটবল সহ অন্যান্য খেলার খবর,18,3,1,14,15,1,0,2,147,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.07482993197278912,69,Needs Improvement,200
+BD024,PG0009_BD024,https://www.newsbangla24.com/culture,বিনোদনের খবর | Latest Entertainment News | News Bangla 24,19,4,1,14,14,0,1,1,150,12,0,0,0,5,2,12,0,19,17,2,0.2631578947368421,0.14285714285714285,0.08,64,Needs Improvement,200
+BD024,PG0010_BD024,https://www.newsbangla24.com/health,Health News | Lifestyle Breaking News & Reports | News Bangla 24,18,3,1,14,15,1,0,2,149,11,0,0,0,4,2,11,0,17,14,3,0.2222222222222222,0.13333333333333333,0.0738255033557047,69,Needs Improvement,200
+BD026,PG0001_BD026,https://www.epassport.gov.bd/landing,E‑Passport Online Registration Portal,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,98,Excellent,200

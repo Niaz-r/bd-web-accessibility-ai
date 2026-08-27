@@ -1,0 +1,10 @@
+experiment_group,contextual_evidence_source,count,percent
+Public University,nearby_heading,962,96.3
+Public University,parent_text,35,3.5
+Public University,unknown,2,0.2
+Private University,nearby_heading,113,97.41
+Private University,parent_text,3,2.59
+News,unknown,1,50.0
+News,nearby_heading,1,50.0
+Government,nearby_heading,3,75.0
+Government,parent_text,1,25.0

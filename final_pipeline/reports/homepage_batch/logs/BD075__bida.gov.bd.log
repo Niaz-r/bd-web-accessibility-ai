@@ -1,0 +1,345 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://bida.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://bida.gov.bd
+Status: 200
+Analyzable: True
+Findings: 5
+
+issue_category           issue severity                                                                                                                                                                                                                                                                                            selector
+         image       empty_alt   medium main#home-page > div.bid-navbar.div-block-95:nth-of-type(2) > div.w-layout-blockcontainer.bid-container-3 > div.nav-wrapper-2 > div.bid-nav-content-wrap:nth-of-type(1) > div.bid-nav-logo-and-btn-wrap:nth-of-type(1) > a.nav-logo-wrap-2.w-inline-block > img.bid-brand-logo-white:nth-of-type(2)
+         image       empty_alt   medium                                                                                                                              main#home-page > div.bid-popup-wrapper:nth-of-type(5) > div.div-block-66 > div.bid-popup-content-wrap-1 > div.bid-popup-content-inner > div.div-block-64 > img.image-9
+         image       empty_alt   medium                                                                                                                  main#home-page > div.bid-popup-wrapper-mobile-view:nth-of-type(6) > div.div-block-66 > div.bid-popup-content-wrap-1 > div.bid-popup-content-inner > div.div-block-64 > img.image-9
+          link empty_link_text     high                                                                                                                                                             main#home-page > div.bid-popup-wrapper:nth-of-type(5) > div.div-block-66 > div.bid-popup-content-wrap-1 > a.link-block-7.w-inline-block
+          link empty_link_text     high                                                                                                                                                 main#home-page > div.bid-popup-wrapper-mobile-view:nth-of-type(6) > div.div-block-66 > div.bid-popup-content-wrap-1 > a.link-block-7.w-inline-block
+
+CSV: final_pipeline/data/intermediate/custom_live/bida.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/bida.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://bida.gov.bd
+HTTP status: 200
+Final URL: https://investbangladesh.gov.bd/
+Page title: Invest Bangladesh I Explore Opportunities
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 3
+Violation nodes: 6
+Incomplete rules: 3
+Incomplete nodes: 17
+Passed rules: 43
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-required-children | impact: critical | nodes: 1
+  Help: Certain ARIA roles must contain particular children
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .bid-investment-sectors-wrapper
+  HTML: <div role="list" class="bid-investment-sectors-wrapper slider-list w-dyn-items slick-initialized slick-slider">
+
+color-contrast | impact: serious | nodes: 1
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .bid-section-sub-2ndtitle
+  HTML: <p class="bid-section-sub-2ndtitle">Excluding routine investment registrations</p>
+
+nested-interactive | impact: serious | nodes: 4
+  Help: Interactive controls must not be nested
+  Tags: cat.keyboard, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: #w-dropdown-toggle-0
+  HTML: <div class="bid-nav-dd-link-icon-wrap w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+  Selector: #w-dropdown-toggle-1
+  HTML: <div class="bid-nav-dd-link-icon-wrap w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+  Selector: #w-dropdown-toggle-2
+  HTML: <div class="bid-nav-dd-link-icon-wrap w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/investbangladesh.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/investbangladesh.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 23
+
+Axe result types:
+result_type
+incomplete    17
+violation      6
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_incomplete    17
+axe_only           6
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    23
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/investbangladesh.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://investbangladesh.gov.bd/
+Unified findings: 23
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/investbangladesh.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/investbangladesh.gov.bd__context_findings.csv
+Total unified findings: 23
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+Unified findings: 23
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete    17
+axe_only           6
+
+Priority:
+priority
+Review      17
+High         5
+Critical     1
+
+Categories:
+category
+Color contrast    13
+Other             10
+
+Top rules:
+primary_rule
+color-contrast            13
+nested-interactive         4
+aria-valid-attr-value      4
+aria-required-children     1
+video-caption              1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-required-children
+ - aria-valid-attr-value
+ - nested-interactive
+ - video-caption
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/investbangladesh.gov.bd__recommendations.csv
+final_pipeline/reports/live/investbangladesh.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://bida.gov.bd
+
+Host:
+bida.gov.bd
+
+Output stem:
+bida.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://bida.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+bida.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://bida.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/investbangladesh.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/investbangladesh.gov.bd__axe.json
+Rendered URL: https://investbangladesh.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/investbangladesh.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: investbangladesh.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/investbangladesh.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/investbangladesh.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/investbangladesh.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/investbangladesh.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/investbangladesh.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/investbangladesh.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://bida.gov.bd
+
+Rendered URL:
+https://investbangladesh.gov.bd/
+
+Analysis stem:
+investbangladesh.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/investbangladesh.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/investbangladesh.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/investbangladesh.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/investbangladesh.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/investbangladesh.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

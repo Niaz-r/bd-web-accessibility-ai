@@ -1,0 +1,431 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://juniv.edu/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://juniv.edu/
+Status: 200
+Analyzable: True
+Findings: 14
+
+issue_category               issue severity                                                                                                                                                                                                                    selector
+         image non_descriptive_alt   medium                                                                                                                        div#myCarousel > div.carousel-inner > div.carousel-item.active:nth-of-type(1) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(2) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(3) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(4) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(5) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(6) > img.first-slide.lazy
+         image non_descriptive_alt   medium                                                                                                                               div#myCarousel > div.carousel-inner > div.carousel-item:nth-of-type(7) > img.first-slide.lazy
+         image         missing_alt     high                      div.container-fluid:nth-of-type(6) > div.row.footer:nth-of-type(2) > div.container > div.row.footer-links:nth-of-type(1) > div.col-md-3:nth-of-type(4) > row:nth-of-type(1) > div.col-md-12 > img.lazy
+       heading          missing_h1     high                                                                                                                                                                                                                            
+       heading       heading_order   medium                                                                                                                              div#institutes > div.col-lg-3:nth-of-type(1) > div.card.card-2 > div.card-body > h6.card-title
+       heading       heading_order   medium                                                   body > main > div.container-fluid:nth-of-type(6) > div.row.footer:nth-of-type(2) > div.container > div.row.footer-links:nth-of-type(1) > div.col-md-3:nth-of-type(1) > h6
+          link     empty_link_text     high div.container-fluid:nth-of-type(6) > div.row.footer:nth-of-type(2) > div.container > div.row.footer-links:nth-of-type(1) > div.col-md-3:nth-of-type(4) > row:nth-of-type(2) > div.col-md-12.social-icons > a:nth-of-type(1)
+          link     empty_link_text     high div.container-fluid:nth-of-type(6) > div.row.footer:nth-of-type(2) > div.container > div.row.footer-links:nth-of-type(1) > div.col-md-3:nth-of-type(4) > row:nth-of-type(2) > div.col-md-12.social-icons > a:nth-of-type(2)
+          link     empty_link_text     high div.container-fluid:nth-of-type(6) > div.row.footer:nth-of-type(2) > div.container > div.row.footer-links:nth-of-type(1) > div.col-md-3:nth-of-type(4) > row:nth-of-type(2) > div.col-md-12.social-icons > a:nth-of-type(3)
+
+CSV: final_pipeline/data/intermediate/custom_live/juniv.edu__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/juniv.edu__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://juniv.edu/
+HTTP status: 200
+Final URL: https://juniv.edu/
+Page title: Jahangirnagar University
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 8
+Violation nodes: 49
+Incomplete rules: 3
+Incomplete nodes: 3
+Passed rules: 35
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-required-children | impact: critical | nodes: 3
+  Help: Certain ARIA roles must contain particular children
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .col-lg-4:nth-child(1) > .nav.nav-tabs[role="tablist"]
+  HTML: <ul class="nav nav-tabs" id="myTab" role="tablist">
+  Selector: .col-lg-4:nth-child(2) > .nav.nav-tabs[role="tablist"]
+  HTML: <ul class="nav nav-tabs" id="myTab" role="tablist">
+  Selector: .col-lg-4:nth-child(3) > .nav.nav-tabs[role="tablist"]
+  HTML: <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+aria-required-parent | impact: critical | nodes: 6
+  Help: Certain ARIA roles must be contained by particular parents
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: #Notices-tab
+  HTML: <a class="nav-link active " id="Notices-tab" data-toggle="tab" href="#Notices" role="tab" aria-controls="Notices" aria-selected="false"><i class="far fa-newspaper"></i> Notices</a>
+  Selector: #Office\ Order-tab
+  HTML: <a class="nav-link " id="Office Order-tab" data-toggle="tab" href="#Office Order" role="tab" aria-controls="Office Order" aria-selected="false"><i class="far fa-newspaper"></i> Office Order</a>
+  Selector: #News-tab
+  HTML: <a class="nav-link active " id="News-tab" data-toggle="tab" href="#News" role="tab" aria-controls="News" aria-selected="false"><i class="far fa-newspaper"></i> News</a>
+
+color-contrast | impact: serious | nodes: 27
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .btn-success
+  HTML: <a href="https://ju-admission.org" class="d-inline-block btn btn-success last">Admission</a>
+  Selector: .d-inline:nth-child(1) > .d-inline > .link-div > span
+  HTML: <span>ABOUT JU</span>
+  Selector: .d-inline:nth-child(2) > .d-inline > .link-div > span
+  HTML: <span>VISION &amp; MISSION</span>
+
+heading-order | impact: moderate | nodes: 2
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .col-lg-3:nth-child(1) > .card-2.card > .card-body > h6
+  HTML: <h6 class="card-title"> <a href="https://iba-ju.edu.bd" target="_blank"> Institute of Business Administration </a> </h6>
+  Selector: .col-md-3:nth-child(1) > h6
+  HTML: <h6>USEFUL LINKS</h6>
+
+image-alt | impact: critical | nodes: 1
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: .col-md-12 > .lazy
+  HTML: <img class="lazy" data-src="https://juniv.edu/images/logo-ju-small.png" style="width: 100px;background: white;border-radius: 5%;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+
+link-name | impact: serious | nodes: 3
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .social-icons > a:nth-child(1)
+  HTML: <a href="https://www.facebook.com/edu.juniv"> <i class="fab fa-facebook-f" data-pack="social" data-tags="like, post, share"></i> </a>
+  Selector: a[href=""]:nth-child(2)
+  HTML: <a href=""> <i class="fab fa-twitter" data-pack="social" data-tags="like, post, share"></i> </a>
+  Selector: a[href=""]:nth-child(3)
+  HTML: <a href=""> <i class="fab fa-linkedin-in" data-pack="social" data-tags="like, post, share"></i> </a>
+
+listitem | impact: serious | nodes: 6
+  Help: <li> elements must be contained in a <ul> or <ol>
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .col-lg-4:nth-child(1) > .nav.nav-tabs[role="tablist"] > .nav-item:nth-child(1)
+  HTML: <li class="nav-item"> <a class="nav-link active " id="Notices-tab" data-toggle="tab" href="#Notices" role="tab" aria-controls="Notices" aria-selected="false"><i class="far fa-newspaper"></i> Notices</a> </li>
+  Selector: .col-lg-4:nth-child(1) > .nav.nav-tabs[role="tablist"] > .nav-item:nth-child(2)
+  HTML: <li class="nav-item"> <a class="nav-link " id="Office Order-tab" data-toggle="tab" href="#Office Order" role="tab" aria-controls="Office Order" aria-selected="false"><i class="far fa-newspaper"></i> Office Order</a> </li>
+  Selector: .col-lg-4:nth-child(2) > .nav.nav-tabs[role="tablist"] > .nav-item:nth-child(1)
+  HTML: <li class="nav-item"> <a class="nav-link active " id="News-tab" data-toggle="tab" href="#News" role="tab" aria-controls="News" aria-selected="false"><i class="far fa-newspaper"></i> News</a> </li>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/juniv.edu__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/juniv.edu__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 14
+Axe nodes: 52
+
+Axe result types:
+result_type
+violation     49
+incomplete     3
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 5
+Confirmed matches: 5
+
+Unified finding statuses:
+finding_status
+axe_only             44
+custom_only           9
+confirmed_by_both     5
+axe_incomplete        3
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name        3
+heading_order    heading-order    2
+
+Ownership scope:
+ownership_scope
+page_content    61
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                                                         match_method                                      preferred_selector src                               href
+  heading_order heading-order          260 same_href+same_html+same_tag+same_text+class_overlap+selector_medium .col-lg-3:nth-child(1) > .card-2.card > .card-body > h6                  https://iba-ju.edu.bd
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                          .social-icons > a:nth-child(1)     https://www.facebook.com/edu.juniv
+  heading_order heading-order          130                                         same_html+same_tag+same_text                             .col-md-3:nth-child(1) > h6                                       
+empty_link_text     link-name          100                                                   same_html+same_tag                                 a[href=""]:nth-child(2)                                       
+empty_link_text     link-name          100                                                   same_html+same_tag                                 a[href=""]:nth-child(3)                                       
+
+Output: final_pipeline/data/intermediate/unified_live/juniv.edu__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://juniv.edu/
+Unified findings: 61
+Context-dependent findings: 7
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 7
+Unmatched: 0
+
+       custom_issue text          alt href                                                                                  src                                                                                                                nearby_heading                                                                                                                                                                                                                                                                                                               surrounding_context
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/TP6vrDloj23Fe2u85sj9kcHty2ctAxKWppbKwjvV.jpg                                                                                                                                                                                                                                                                               Parent text: আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন | Image filename: TP6vrDloj23Fe2u85sj9kcHty2ctAxKWppbKwjvV.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/a26BYc6ZHNCFHSgyxvClaXnVa2Og6DAGm7eQ4Z4h.jpg                         আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন Nearby heading: আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন | Parent text: Developing a Gesture-based Intelligent Wheelchair for the Physically Challenged People in Bangladesh শীর্ষক কর্মশালা অনুষ্ঠিত | Image filename: a26BYc6ZHNCFHSgyxvClaXnVa2Og6DAGm7eQ4Z4h.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/jTneoKQ6So1XIMWsSBbG92K47S7ufIf3v7YI09Fc.jpg Developing a Gesture-based Intelligent Wheelchair for the Physically Challenged People in Bangladesh শীর্ষক কর্মশালা অনুষ্ঠিত                                                                   Nearby heading: Developing a Gesture-based Intelligent Wheelchair for the Physically Challenged People in Bangladesh শীর্ষক কর্মশালা অনুষ্ঠিত | Parent text: জাবি বার্ষিক সিনেট অধিবেশন অনুষ্ঠিত | Image filename: jTneoKQ6So1XIMWsSBbG92K47S7ufIf3v7YI09Fc.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/7MplgFHQyVFYtxBgBfqU140AdCAPT4p0W2fP8vnb.jpg                                                                                           জাবি বার্ষিক সিনেট অধিবেশন অনুষ্ঠিত                                                                                Nearby heading: জাবি বার্ষিক সিনেট অধিবেশন অনুষ্ঠিত | Parent text: উপ-উপাচার্য (শিক্ষা) অধ্যাপক ড. মো. শামছুল আলম ও উপ-উপাচার্য (প্রশাসন) অধ্যাপক ড. মুহম্মদ নজরুল ইসলাম-এর যোগদান | Image filename: 7MplgFHQyVFYtxBgBfqU140AdCAPT4p0W2fP8vnb.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/7dxo0kwDrvZxCXauRWsZPDRrLXXsZGNPw00jxzmA.jpg              উপ-উপাচার্য (শিক্ষা) অধ্যাপক ড. মো. শামছুল আলম ও উপ-উপাচার্য (প্রশাসন) অধ্যাপক ড. মুহম্মদ নজরুল ইসলাম-এর যোগদান                                       Nearby heading: উপ-উপাচার্য (শিক্ষা) অধ্যাপক ড. মো. শামছুল আলম ও উপ-উপাচার্য (প্রশাসন) অধ্যাপক ড. মুহম্মদ নজরুল ইসলাম-এর যোগদান | Parent text: Meet The Ambassador-Talking Diplomacy for Cooperation শীর্ষক আলোচনা অনুষ্ঠান | Image filename: 7dxo0kwDrvZxCXauRWsZPDRrLXXsZGNPw00jxzmA.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/rSkh9ziAaAANnh4iqRSd7BBpfbwQvWxxTL0jhOsZ.jpg                                                  Meet The Ambassador-Talking Diplomacy for Cooperation শীর্ষক আলোচনা অনুষ্ঠান                                                                        Nearby heading: Meet The Ambassador-Talking Diplomacy for Cooperation শীর্ষক আলোচনা অনুষ্ঠান | Parent text: AI Tools and Intelligent Workflows for Modern Research শীর্ষক কর্মশালা অনুষ্ঠিত | Image filename: rSkh9ziAaAANnh4iqRSd7BBpfbwQvWxxTL0jhOsZ.jpg
+non_descriptive_alt  NaN Banner Image  NaN https://juniv.edu/storage/image/gallery/xNT1RCnacz1EoBJBNRvfox3WeAHm13iSvclLRpZw.jpg                                               AI Tools and Intelligent Workflows for Modern Research শীর্ষক কর্মশালা অনুষ্ঠিত                                               Nearby heading: AI Tools and Intelligent Workflows for Modern Research শীর্ষক কর্মশালা অনুষ্ঠিত | Parent text: বিশ্ববিদ্যালয়ের অর্থায়নে পরিচালিত সকল অনুষদ ও ইনস্টিটিউটের গবেষণা প্রকল্প উপস্থাপন অনুষ্ঠানের উদ্বোধন | Image filename: xNT1RCnacz1EoBJBNRvfox3WeAHm13iSvclLRpZw.jpg
+
+Output:
+final_pipeline/data/intermediate/context_live/juniv.edu__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/juniv.edu__context_findings.csv
+Total unified findings: 61
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 7
+
+By rule:
+  non_descriptive_alt: 7
+
+Decision codes:
+  GENERIC_ALT_CONTEXT_AVAILABLE: 7
+
+Confidence:
+  low: 1
+  medium: 6
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+       custom_issue text          alt                                                                                                                nearby_heading                       contextual_action                                                                                                                                                                                                                                                                                                                               contextual_suggestion contextual_confidence contextual_evidence_source
+non_descriptive_alt  NaN Banner Image                                                                                                                           NaN replace_generic_alt_after_visual_review                         Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন” can guide the description, but should not be copied as alt text unless it accurately represents the image.                   low                parent_text
+non_descriptive_alt  NaN Banner Image                         আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন replace_generic_alt_after_visual_review                         Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Banner Image Developing a Gesture-based Intelligent Wheelchair for the Physically Challenged People in Bangladesh শীর্ষক কর্মশালা অনুষ্ঠিত replace_generic_alt_after_visual_review Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “Developing a Gesture-based Intelligent Wheelchair for the Physically Challenged People in Bangladesh শীর্ষক কর্মশালা অনুষ্ঠিত” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Banner Image                                                                                           জাবি বার্ষিক সিনেট অধিবেশন অনুষ্ঠিত replace_generic_alt_after_visual_review                                                                                           Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “জাবি বার্ষিক সিনেট অধিবেশন অনুষ্ঠিত” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Banner Image              উপ-উপাচার্য (শিক্ষা) অধ্যাপক ড. মো. শামছুল আলম ও উপ-উপাচার্য (প্রশাসন) অধ্যাপক ড. মুহম্মদ নজরুল ইসলাম-এর যোগদান replace_generic_alt_after_visual_review              Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “উপ-উপাচার্য (শিক্ষা) অধ্যাপক ড. মো. শামছুল আলম ও উপ-উপাচার্য (প্রশাসন) অধ্যাপক ড. মুহম্মদ নজরুল ইসলাম-এর যোগদান” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Banner Image                                                  Meet The Ambassador-Talking Diplomacy for Cooperation শীর্ষক আলোচনা অনুষ্ঠান replace_generic_alt_after_visual_review                                                  Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “Meet The Ambassador-Talking Diplomacy for Cooperation শীর্ষক আলোচনা অনুষ্ঠান” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Banner Image                                               AI Tools and Intelligent Workflows for Modern Research শীর্ষক কর্মশালা অনুষ্ঠিত replace_generic_alt_after_visual_review                                               Replace the generic alt text “Banner Image” after visually inspecting the image. The surrounding context “AI Tools and Intelligent Workflows for Modern Research শীর্ষক কর্মশালা অনুষ্ঠিত” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+Unified findings: 61
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only             44
+custom_only           9
+confirmed_by_both     5
+axe_incomplete        3
+
+Priority:
+priority
+High        38
+Medium      10
+Critical    10
+Review       3
+
+Categories:
+category
+Color contrast    28
+Other             12
+Images             9
+Structure          6
+Headings           3
+Links              3
+
+Top rules:
+primary_rule
+color-contrast            28
+non_descriptive_alt        7
+aria-required-parent       6
+listitem                   6
+link-name                  3
+aria-required-children     3
+heading-order              2
+missing_alt                1
+missing_h1                 1
+image-alt                  1
+page-has-heading-one       1
+aria-valid-attr-value      1
+duplicate-id-aria          1
+
+Context-aware recommendations: 7
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-required-children
+ - aria-required-parent
+ - aria-valid-attr-value
+ - duplicate-id-aria
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/juniv.edu__recommendations.csv
+final_pipeline/reports/live/juniv.edu__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://juniv.edu/
+
+Host:
+juniv.edu
+
+Output stem:
+juniv.edu
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://juniv.edu/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/juniv.edu__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/juniv.edu__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+juniv.edu
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://juniv.edu/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/juniv.edu__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/juniv.edu__axe.json
+Rendered URL: https://juniv.edu/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/juniv.edu__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/juniv.edu__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/juniv.edu__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/juniv.edu__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/juniv.edu__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/juniv.edu__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://juniv.edu/
+
+Analysis stem:
+juniv.edu
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/juniv.edu__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/juniv.edu__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/juniv.edu__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/juniv.edu__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/juniv.edu__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

@@ -1,0 +1,33 @@
+organization_type,issue_type,count,percentage_of_group_issues
+Government,missing_alt,441,19.02502157031924
+Government,empty_alt,971,41.889559965487486
+Government,missing_h1,51,2.200172562553926
+Government,multiple_h1,20,0.8628127696289906
+Government,empty_heading,214,9.2320966350302
+Government,heading_order,80,3.4512510785159622
+Government,empty_link_text,523,22.562553925798102
+Government,generic_link_text,18,0.7765314926660914
+News,missing_alt,54,4.995374653098982
+News,empty_alt,160,14.801110083256244
+News,missing_h1,39,3.6077705827937097
+News,multiple_h1,7,0.6475485661424607
+News,empty_heading,27,2.497687326549491
+News,heading_order,111,10.26827012025902
+News,empty_link_text,650,60.129509713228494
+News,generic_link_text,33,3.0527289546716005
+Private University,missing_alt,306,10.186418109187748
+Private University,empty_alt,799,26.59786950732357
+Private University,missing_h1,62,2.0639147802929427
+Private University,multiple_h1,20,0.6657789613848202
+Private University,empty_heading,52,1.7310252996005324
+Private University,heading_order,275,9.154460719041278
+Private University,empty_link_text,1339,44.573901464713714
+Private University,generic_link_text,151,5.026631158455393
+Public University,missing_alt,444,6.953797963978074
+Public University,empty_alt,1640,25.68519968676586
+Public University,missing_h1,142,2.2239624119028973
+Public University,multiple_h1,11,0.17227877838684416
+Public University,empty_heading,132,2.06734534064213
+Public University,heading_order,306,4.792482380579483
+Public University,empty_link_text,1368,21.425215348472985
+Public University,generic_link_text,2342,36.67971808927173

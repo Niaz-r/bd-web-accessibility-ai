@@ -1,0 +1,7 @@
+issue_type,group_1,group_2,n_1,n_2,median_1,median_2,U_statistic,raw_p_value,holm_adjusted_p,significant_after_holm
+generic_link_text,Government,News,13,12,0.0,0.0,88.0,0.41835390524811655,0.4438873645348538,False
+generic_link_text,Government,Private University,13,18,0.0,0.25,54.5,0.009105254996496637,0.027315764989489913,True
+generic_link_text,Government,Public University,13,20,0.0,0.75,47.0,0.0015611483551343055,0.007805741775671528,True
+generic_link_text,News,Private University,12,18,0.0,0.25,38.0,0.0016429925348102395,0.007805741775671528,True
+generic_link_text,News,Public University,12,20,0.0,0.75,38.0,0.0008103310893587525,0.004861986536152515,True
+generic_link_text,Private University,Public University,18,20,0.25,0.75,138.0,0.2219436822674269,0.4438873645348538,False

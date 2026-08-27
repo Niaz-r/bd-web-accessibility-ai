@@ -1,0 +1,821 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-blue,"<div class=""text-blue"">bangladesh</div>","Fix any of the following:
+  Element has insufficient color contrast of 2.58 (foreground color: #0075ff, background color: #3d3d3d, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1",serious,1
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(4) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">24</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,2
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(4) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">24</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,3
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(6) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">23</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,4
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(6) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">23</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,5
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(8) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">16</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,6
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(8) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">16</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,7
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.important_notice_text_color,"<span class=""important_notice_text_color"">বিশ্ববিদ্যালয়ের গেইটের সামনের রাস্তার নির্মাণ কাজ চলমান থাকায় পরবর্তী নির্দেশ না-দেয়া পর্যন্ত টিএসসির পরিবর্তে পরিবহন শাখা হতে শিক্ষার্থীদের সকল বাস সার্ভিস প্রদান করা হবে।</span>","Fix any of the following:
+  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,8
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(10) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">11</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,9
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(10) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">11</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,10
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(12) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">10</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,11
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(12) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">10</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,12
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(14) > a[href=""#""] > .bg-light-blue.mr-3.text-center","<p class=""date text-center bg-light-blue mr-3"">
+                                                    <span class=""digit"">04</span> 
+                                                    <br>Aug                                                </p>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",serious,13
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".notice-item.d-flex.mb-3:nth-child(14) > a[href=""#""] > .bg-light-blue.mr-3.text-center > .digit","<span class=""digit"">04</span>","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #ffffff, background color: #0075ff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,14
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".slick-current[data-slick-index=""0""][aria-hidden=""false""] > div > .eventos_single.affilition_mid_single > .eventos_card > .more_infor","<a href=""https://www.sau.ac.bd/events/events_details/5"" class=""more_infor"" tabindex=""0"">More Information</a>","Fix any of the following:
+  Element has insufficient color contrast of 3.4 (foreground color: #0075ff, background color: #2a2a2a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,15
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".slick-active[data-slick-index=""1""][aria-hidden=""false""] > div > .eventos_single.affilition_mid_single > .eventos_card > .more_infor","<a href=""https://www.sau.ac.bd/events/events_details/19"" class=""more_infor"" tabindex=""0"">More Information</a>","Fix any of the following:
+  Element has insufficient color contrast of 3.4 (foreground color: #0075ff, background color: #2a2a2a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,16
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".slick-active[data-slick-index=""2""][aria-hidden=""false""] > div > .eventos_single.affilition_mid_single > .eventos_card > .more_infor","<a href=""https://www.sau.ac.bd/events/events_details/18"" class=""more_infor"" tabindex=""0"">More Information</a>","Fix any of the following:
+  Element has insufficient color contrast of 3.4 (foreground color: #0075ff, background color: #2a2a2a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,17
+https://www.sau.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".slick-active[data-slick-index=""3""][aria-hidden=""false""] > div > .eventos_single.affilition_mid_single > .eventos_card > .more_infor","<a href=""https://www.sau.ac.bd/events/events_details/17"" class=""more_infor"" tabindex=""0"">More Information</a>","Fix any of the following:
+  Element has insufficient color contrast of 3.4 (foreground color: #0075ff, background color: #2a2a2a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",serious,18
+https://www.sau.ac.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.text-right,"<h5 class=""mb-0 text-right"">
+                    <a href=""javascript: void(0)"" class=""close-icon"" onclick=""hideSlidableMenu()""><i class=""fas fa-times""></i></a>
+                </h5>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,1
+https://www.sau.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.pt-2,"<h4 class=""heading text-uppercase mb-0 pt-2"">SAU <span class=""blue-text"">BANGLADESH</span></h4>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/affialiation_17_1758007237.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/max_planck_institute.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/kobe_university.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/chungbuk_national_university_korea.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/infectious_diseases_one_health.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/tropimund.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/assam_agricultural_university_india.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,7
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/prifysgol_bangor_university_uk.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,8
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/irri.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,9
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/oslo_international_rotary_club_norway.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,10
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/kdca.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,11
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/hau-ac-bd.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,12
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/bangladesh_fisheries_research_institute.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,13
+https://www.sau.ac.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""] > .afflition_slider_component","<img class=""afflition_slider_component"" src=""./uploads/affialiation/cotton_development_board_bangladesh.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,14
+https://www.sau.ac.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html lang=""en"" class="" sizes customelement..."">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.navbar-brand,"<a class=""navbar-brand mr-0"" href=""https://www.sau.ac.bd/"">
+                <img src=""image/sau-logo.png"" alt="""" class=""img-fluid logo"">
+            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".nav-link[href$=""acas.edu.bd/""]","<a class=""nav-link"" href=""https://acas.edu.bd/"">
+                            <img src=""image/acas_logo.png"" alt="""" class=""img-fluid mujib-logo"">
+                        </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.search-btn-area,"<a class=""btn search-btn-area"" href=""javascript: void(0)"" onclick=""search_btn()"">
+                                <i class=""fas fa-search""></i>
+                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.menu-btn,"<a class=""btn menu-btn"" href=""javascript: void(0)"" onclick=""showSlidableMenu()"">
+                                <i class=""fas fa-align-left""></i>
+                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.close-icon,"<a href=""javascript: void(0)"" class=""close-icon"" onclick=""hideSlidableMenu()""><i class=""fas fa-times""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-3.col-6.mb-3:nth-child(1) > a[href$=""sau.ac.bd/""]","<a href=""https://www.sau.ac.bd/"">
+                        <img src=""image/home/card-1.jpg"" alt="""" class=""img-fluid mb-2"">
+                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.mb-3:nth-child(2) > a,"<a href=""https://www.sau.ac.bd/administration/page/83"">
+                        <img src=""image/home/card-2.jpg"" alt="""" class=""img-fluid mb-2"">
+                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-3.col-6.mb-3:nth-child(3) > a[href$=""hall""]","<a href=""https://www.sau.ac.bd/hall"">
+                        <img src=""./uploads/hall/sau-hall-1.jpg"" alt="""" class=""img-fluid mb-2"">
+                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-3.col-6.mb-3:nth-child(4) > a[href$=""sau.ac.bd/""]","<a href=""https://www.sau.ac.bd/"">
+                        <img src=""image/home/card-2.jpg"" alt="""" class=""img-fluid mb-2"">
+                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-area > a[href=""#""]:nth-child(3)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(4) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href=""#""]:nth-child(5)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(6) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-area > a[href=""#""]:nth-child(7)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(8) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,15
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href=""#""]:nth-child(9)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,16
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(10) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,17
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href=""#""]:nth-child(11)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,18
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(12) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,19
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href=""#""]:nth-child(13)","<a href=""#"">
+                                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,20
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".notice-item.d-flex.mb-3:nth-child(14) > .notice-desc > a[href=""#""]","<a href=""#"">
+                                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,21
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".video-play-button.popup-youtube[href=""#""]:nth-child(1)","<a id=""play-video"" class=""video-play-button popup-youtube"" href=""#"">
+                                    <span></span>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,22
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".video-play-button.popup-youtube[href=""#""]:nth-child(2)","<a id=""play-video"" class=""video-play-button popup-youtube"" href=""#"">
+                                    <span></span>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,23
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/affialiation_17_1758007237.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,24
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/max_planck_institute.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,25
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/kobe_university.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,26
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/chungbuk_national_university_korea.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,27
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/infectious_diseases_one_health.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,28
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/tropimund.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,29
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/assam_agricultural_university_india.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,30
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/prifysgol_bangor_university_uk.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,31
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/irri.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,32
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/oslo_international_rotary_club_norway.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,33
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/kdca.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,34
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/hau-ac-bd.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,35
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/bangladesh_fisheries_research_institute.png""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,36
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""] > div > .affilition_mid_single > a[href=""""]","<a href="""" tabindex=""0""><img class=""afflition_slider_component"" src=""./uploads/affialiation/cotton_development_board_bangladesh.jpg""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,37
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".footerIcon > a[target=""blank""]:nth-child(1)","<a target=""blank"" href=""https://www.facebook.com/SylhetAgriculturalUniversityOfficial""><i class=""fab fa-facebook-f""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,38
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""blank""]:nth-child(2)","<a target=""blank"" href=""https://bd.linkedin.com/school/sylhet-agricultural-university/""><i class=""fab fa-linkedin-in""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,39
+https://www.sau.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""blank""]:nth-child(3)","<a target=""blank"" href=""https://www.youtube.com/channel/UCeNZsaFmz0izoksugO9Drqg""><i class=""fab fa-youtube""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,40
+https://www.sau.ac.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html lang=""en"" class="" sizes customelement..."">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.slidable-menu-area,"<section class=""slidable-menu-area position-fixed"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slick-slide01,"<div class=""slick-slide slick-current slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 1440px;"" role=""tabpanel"" id=""slick-slide01"" aria-describedby=""slick-slide-control01"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.slick-dots,"<ul class=""slick-dots"" style="""" role=""tablist"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.get-more-links,"<div class=""get-more-links py-2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.pr-md-0,"<div class=""col-md-3 mb-3 pr-md-0"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".slick-slide[data-slick-index=""1""][aria-hidden=""true""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 207px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".slick-current[data-slick-index=""2""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""2"" aria-hidden=""false"" style=""width: 207px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".dept-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""3"" aria-hidden=""false"" style=""width: 207px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".dept-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""4"" aria-hidden=""false"" style=""width: 207px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-8.mb-3,"<div class=""col-md-8 mb-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.container > .row > .col-md-4.mb-3,"<div class=""col-md-4 mb-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#v-pills-ac-notice > .notice-area > .justify-content-between.align-items-center.d-flex,"<div class=""d-flex justify-content-between align-items-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(4),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(6),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(8),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(10),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(12),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.notice-item.d-flex.mb-3:nth-child(14),"<div class=""notice-item mb-3 d-flex"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#pills-tab,"<ul class=""nav nav-pills mb-5"" id=""pills-tab"" role=""tablist"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".news-slider-1 > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""0"" aria-hidden=""false"" style=""width: 370px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,20
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".news-slider-1 > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 370px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,21
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".news-slider-1 > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""2"" aria-hidden=""false"" style=""width: 370px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,22
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.explore-sau,"<section class=""explore-sau"">
+    <div class=""container"">
+        <p class=""link text-center text-md-right"">
+            <a target=""blank"" href=""https://saures.sau.ac.bd/"">Explore SAURES &gt;</a>
+        </p>
+    </div>
+</section>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,23
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.facts-figures-area,"<section class=""facts-figures-area"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,24
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(2),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,25
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(3),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,26
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(4),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,27
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(5),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,28
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(6),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,29
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(7),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,30
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-sm-12:nth-child(8),"<div class=""col-md-4 col-sm-12"" style=""min-height:200px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,31
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.events-area > .afflition_main.container > .afflition_text_p,"<h3 class=""afflition_text_p"">Events</h3>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,32
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".eventos > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""0"" aria-hidden=""false"" style=""width: 278px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,33
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".eventos > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 278px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,34
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".eventos > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""2"" aria-hidden=""false"" style=""width: 278px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,35
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".eventos > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""3"" aria-hidden=""false"" style=""width: 278px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,36
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.pt-3 > .afflition_main.container > .afflition_text_p,"<h4 class=""afflition_text_p"">Collaborations</h4>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,37
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""0"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,38
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,39
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""2"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,40
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""3"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,41
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""4"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,42
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""5"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,43
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".pt-3 > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""6"" aria-hidden=""false"" style=""width: 159px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,44
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=""0""][aria-hidden=""false""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""0"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,45
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""1""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""1"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,46
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""2""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""2"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,47
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""3""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""3"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,48
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""4""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""4"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,49
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""5""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""5"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,50
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afflition_main.container > .afflition_main.container > .position-relative > .affilition_mid.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=""6""][aria-hidden=""false""]","<div class=""slick-slide slick-active"" data-slick-index=""6"" aria-hidden=""false"" style=""width: 155px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,51
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_1st_col,"<div class=""footer_1st_col col-md-2 col-sm-12 mb-md-0 mb-2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,52
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_2nd_col > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">About Us</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,53
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""aboutus""]:nth-child(2) > p","<p class=""""> History</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,54
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_2nd_col > .footer_txt[href=""#""]:nth-child(3) > p","<p class=""""> Vision</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,55
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_2nd_col > .footer_txt[href=""#""]:nth-child(4) > p","<p class=""""> Mission</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,56
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""aboutus""]:nth-child(5) > p","<p class=""""> At a Glance</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,57
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_2nd_col > .footer_txt:nth-child(6) > p,"<p class=""""> Sau Acts</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,58
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_2nd_col > .footer_txt[href$=""contact""] > p","<p class=""""> Contact Us</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,59
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_3rd_col > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">Academics</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,60
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""faculty""] > p","<p class=""""> Faculties of SAU</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,61
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_3rd_col > .footer_txt:nth-child(3) > p,"<p class=""""> Central Library</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,62
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_3rd_col > .footer_txt[href=""#""] > p","<p class=""""> PMUAC V. T. Hospital</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,63
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""acas.edu.bd/""][target=""blank""] > p","<p class=""""> Undergraduate Admission</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,64
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_3rd_col > .footer_txt:nth-child(6) > p,"<p class=""""> Post Graduate Admission</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,65
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_3rd_col > .footer_txt:nth-child(7) > p,"<p class=""""> International Students</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,66
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"a[href$=""library""]","<a class=""top_footer_txt text-uppercase"" href=""https://www.sau.ac.bd/library"">Offices</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,67
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(2) > p,"<p class=""""> Vice-Chancellor Office</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,68
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(3) > p,"<p class=""""> Registrar Office</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,69
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(4) > p,"<p class=""""> Proctor Office</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,70
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(5) > p,"<p class=""""> Health Care Centre</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,71
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(6) > p,"<p class=""""> Transport</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,72
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(7) > p,"<p class=""""> Guest House Sylhet</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,73
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_txt:nth-child(8) > p,"<p class=""""> Guest House Dhaka</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,74
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_txt:nth-child(9) > p,"<p class=""""> Students Counseling and Guidance</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,75
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_4th_col:nth-child(4) > .footer_txt[target=""blank""] > p","<p class=""""> Location, Maps and Direction</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,76
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_txt:nth-child(11) > p,"<p class=""""> Others</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,77
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_4th_col:nth-child(5) > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">Campus Life</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,78
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href=""#""]:nth-child(2) > p","<p class=""""> Campus Life</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,79
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_4th_col:nth-child(5) > .footer_txt[href=""#""]:nth-child(3) > p","<p class=""""> Cultural</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,80
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_4th_col:nth-child(5) > .footer_txt[href=""#""]:nth-child(4) > p","<p class=""""> Student Organizations</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,81
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""hall""]:nth-child(5) > p","<p class=""""> Residence Halls</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,82
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_txt[href$=""hall""]:nth-child(6) > p","<p class=""""> Residence Halls</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,83
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".footer_4th_col:nth-child(5) > .footer_txt[href$=""contact""] > p","<p class=""""> Contact</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,84
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_4th_col:nth-child(6),"<div class=""footer_4th_col "">
+                <a class=""top_footer_txt text-uppercase"" href=""#"">Hotline</a>
+
+                <p><img style=""max-width: 60%"" src=""../uploads/home/govt_hot_line_number.jpg"" alt=""govt. hot line number"">  </p>          
+
+
+            </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,85
+https://www.sau.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer_bottom,"<section class=""footer_bottom"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,86
+https://www.sau.ac.bd/,violation,select-name,critical,Ensure select element has an accessible name,Select element must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#selectGoURL,"<select id=""selectGoURL"" class=""form-control"">","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slick-slide01 > div > div > .banner-slider-item.align-items-center.d-flex > .container-fluid.px-0 > .py-3.container > .row > .col-xl-8.inner.col-sm-10 > .my-4.desc,"<p class=""desc my-4"">
+                                    Undergraduate Level-1 Semester-1 Orientation 2025
+                                </p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,1
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.get-more-text,"<h5 class=""get-more-text nav-link mb-0"">Get More:</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,2
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.get-more-links > .container > .nav > .nav-item:nth-child(2) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/notice/view_all/notice"">Notice</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,3
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(3) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/notice/view_all/result"">Result</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,4
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(4) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/news/lists/news"">News</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,5
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(5) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/notice/view_all/scholarship"">Scholarship</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,6
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(6) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/notice/view_all/download"">Forms &amp; Downloads</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,7
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(7) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/notice/view_all/noc"">NOC</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,8
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .nav > .nav-item:nth-child(8) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/administration/page/83"">Admission</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,9
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.nav-item:nth-child(9) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/administration/page/232"">ICTCell</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,10
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.nav-item:nth-child(10) > .nav-link,"<a class=""nav-link"" href=""https://sau.ac.bd/administration/page/254"">IQAC</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,11
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.nav-item:nth-child(11) > .nav-link,"<a class=""nav-link"" href=""http://sausylhet.portal.gov.bd/"">APA</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,12
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""acas.edu.bd""]","<a class=""nav-link"" href=""https://acas.edu.bd"">ACAS</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,13
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#v-pills-ac-notice > .notice-area > .justify-content-between.align-items-center.d-flex > .mb-md-4:nth-child(1),"<h4 class=""heading mb-3 mb-md-4"">Notice and Announcement</h4>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,14
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#v-pills-ac-notice > .notice-area > .justify-content-between.align-items-center.d-flex > .view-more-btn.mb-md-4.mb-3,"<a href=""https://www.sau.ac.bd/notice/view_all/notice"" class=""view-more-btn blue-btn-transparent mb-3 mb-md-4"">View More</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,15
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.fact-area > .row > .col-md-8 > h4,"<h4 class=""heading"">Facts &amp; Figures</h4>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,16
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-8 > .desc,"<p class=""desc"">","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,17
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(1) > .fandf_counter_p1 > .counter,"<span class=""counter"">7</span>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,18
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(1) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Faculty</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,19
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(2) > .fandf_counter_p1 > .counter,"<span class=""counter"">47</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,20
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(2) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Depertment</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,21
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(3) > .fandf_counter_p1 > .counter,"<span class=""counter"">50</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,22
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(3) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Degrees</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,23
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(4) > .fandf_counter_p1 > .counter,"<span class=""counter"">3000</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,24
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(4) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Students</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,25
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(5) > .fandf_counter_p1 > .counter,"<span class=""counter"">25</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,26
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(5) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Foreign Students</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,27
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(6) > .fandf_counter_p1 > .counter,"<span class=""counter"">250</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,28
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-6.col-md-2:nth-child(6) > .fandf_counter_p2,"<p class=""fandf_counter_p2"">Teachers</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,29
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.uName,"<p class=""uName text-uppercase mb-3"">Sylhet Agricultural University</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,30
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-uppercase:nth-child(3),"<p class=""text-uppercase"">Estd. 2006</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,31
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-3.text-uppercase:nth-child(4),"<p class=""text-uppercase mb-3"">Sylhet, Bangladesh</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,32
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_2nd_col > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">About Us</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,33
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""aboutus""]:nth-child(2) > p","<p class=""""> History</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,34
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_2nd_col > .footer_txt[href=""#""]:nth-child(3) > p","<p class=""""> Vision</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,35
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_2nd_col > .footer_txt[href=""#""]:nth-child(4) > p","<p class=""""> Mission</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,36
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""aboutus""]:nth-child(5) > p","<p class=""""> At a Glance</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,37
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_2nd_col > .footer_txt:nth-child(6) > p,"<p class=""""> Sau Acts</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,38
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_2nd_col > .footer_txt[href$=""contact""] > p","<p class=""""> Contact Us</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,39
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_3rd_col > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">Academics</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,40
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""faculty""] > p","<p class=""""> Faculties of SAU</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,41
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_3rd_col > .footer_txt:nth-child(3) > p,"<p class=""""> Central Library</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,42
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_3rd_col > .footer_txt[href=""#""] > p","<p class=""""> PMUAC V. T. Hospital</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,43
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""acas.edu.bd/""][target=""blank""] > p","<p class=""""> Undergraduate Admission</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,44
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_3rd_col > .footer_txt:nth-child(6) > p,"<p class=""""> Post Graduate Admission</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,45
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_3rd_col > .footer_txt:nth-child(7) > p,"<p class=""""> International Students</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,46
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""library""]","<a class=""top_footer_txt text-uppercase"" href=""https://www.sau.ac.bd/library"">Offices</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,47
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(2) > p,"<p class=""""> Vice-Chancellor Office</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,48
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(3) > p,"<p class=""""> Registrar Office</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,49
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(4) > p,"<p class=""""> Proctor Office</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,50
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(5) > p,"<p class=""""> Health Care Centre</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,51
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(6) > p,"<p class=""""> Transport</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,52
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_4th_col:nth-child(4) > .footer_txt:nth-child(7) > p,"<p class=""""> Guest House Sylhet</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,53
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_txt:nth-child(8) > p,"<p class=""""> Guest House Dhaka</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,54
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_txt:nth-child(9) > p,"<p class=""""> Students Counseling and Guidance</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,55
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(4) > .footer_txt[target=""blank""] > p","<p class=""""> Location, Maps and Direction</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,56
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.footer_txt:nth-child(11) > p,"<p class=""""> Others</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,57
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(5) > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">Campus Life</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,58
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href=""#""]:nth-child(2) > p","<p class=""""> Campus Life</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,59
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(5) > .footer_txt[href=""#""]:nth-child(3) > p","<p class=""""> Cultural</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,60
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(5) > .footer_txt[href=""#""]:nth-child(4) > p","<p class=""""> Student Organizations</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,61
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""hall""]:nth-child(5) > p","<p class=""""> Residence Halls</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,62
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_txt[href$=""hall""]:nth-child(6) > p","<p class=""""> Residence Halls</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,63
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(5) > .footer_txt[href$=""contact""] > p","<p class=""""> Contact</p>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,64
+https://www.sau.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer_4th_col:nth-child(6) > .top_footer_txt.text-uppercase[href=""#""]","<a class=""top_footer_txt text-uppercase"" href=""#"">Hotline</a>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,65

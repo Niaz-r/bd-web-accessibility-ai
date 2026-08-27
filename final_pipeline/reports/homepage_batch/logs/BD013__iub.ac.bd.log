@@ -1,0 +1,388 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://iub.ac.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://iub.ac.bd/
+Status: 200
+Analyzable: True
+Findings: 47
+
+issue_category               issue severity                                                                                                                                                                                                                                                    selector
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(1) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(1) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(2) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(2) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(3) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(3) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(4) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(4) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(1) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(1) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(2) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(2) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(3) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(3) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(4) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(4) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(5) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(5) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+         image non_descriptive_alt   medium div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(6) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.contents.lg:hidden:nth-of-type(1) > div.flex.flex-col > img.object-cover.object-top
+         image non_descriptive_alt   medium     div.overflow-hidden:nth-of-type(2) > div.whitespace-nowrap.h-full > div.h-auto.flex-initial:nth-of-type(6) > div.flex.flex-col > div.relative.flex:nth-of-type(1) > div.hidden.lg:contents:nth-of-type(2) > div.h-[400px].w-[300px] > img.h-full.w-full
+
+CSV: final_pipeline/data/intermediate/custom_live/iub.ac.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/iub.ac.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://iub.ac.bd/
+HTTP status: 200
+Final URL: https://iub.ac.bd/
+Page title: Independent University, Bangladesh
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 4
+Violation nodes: 23
+Incomplete rules: 1
+Incomplete nodes: 10
+Passed rules: 39
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 19
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .NoticeBoard_card__2rZ26:nth-child(1) > .items-start.pt-4.flex-row > .NoticeBoard_deadlineBadge__vZOz_
+  HTML: <span class="NoticeBoard_deadlineBadge__vZOz_ ">05 Sep</span>
+  Selector: .NoticeBoard_card__2rZ26:nth-child(2) > .items-start.pt-4.flex-row > .NoticeBoard_deadlineBadge__vZOz_
+  HTML: <span class="NoticeBoard_deadlineBadge__vZOz_ ">13 Sep</span>
+  Selector: .NoticeBoard_card__2rZ26:nth-child(3) > .items-start.pt-4.flex-row > .NoticeBoard_deadlineBadge__vZOz_
+  HTML: <span class="NoticeBoard_deadlineBadge__vZOz_ ">31 Aug</span>
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .xl\:col-start-9.xl\:col-span-4.lg\:col-span-12 > .bg-slate-300.duration-300.transition-all > .overflow-hidden.rounded-lg.w-full > .w-full.h-full > div:nth-child(2) > .bottom-10.left-0.right-0 > .bg-blackSolid.px-5.bg-opacity-50 > .text-center.lg\:text-xl.text-white > .text-xl
+  HTML: <h3 class=" text-xl font-semibold"><span>Student Clubs</span></h3>
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: .font-navBar.lg\:contents.bg-primary2 > nav
+  HTML: <nav class=" grid grid-cols-12 bg-primary2 ">
+
+region | impact: moderate | nodes: 2
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .bg-gradient-to-r
+  HTML: <div class="jsx-e46ba9318f182f1 relative flex items-center overflow-hidden bg-gradient-to-r from-red-600 via-red-500 to-orange-500 shadow-md">
+  Selector: .lg\:content
+  HTML: <div class=" hidden lg:content lg:flex my-10 justify-center bg-white2">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/iub.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/iub.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 47
+Axe nodes: 33
+
+Axe result types:
+result_type
+violation     23
+incomplete    10
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+custom_only       47
+axe_only          23
+axe_incomplete    10
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    80
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/iub.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://iub.ac.bd/
+Unified findings: 80
+Context-dependent findings: 42
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 42
+Unmatched: 0
+
+       custom_issue text   alt  href                                                                                                                                                                 src                     nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     surrounding_context
+non_descriptive_alt  NaN image   NaN /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2FTrustee_Didar_A_Husain_Chairman_BoT_454_606-d817fc46-77b1-4060-ac74-4ff2f7db4bac.jpg&w=1200&q=75 Independent University, Bangladesh                                                                                                                                                                                                                                                                                                                                                                                           Nearby heading: Independent University, Bangladesh | Parent text: Didar A Husain Chairman, Board of Trustees Didar A Husain is the Chairman of the IUB Board of Trustees. A Freedom Fighter, he is recognized at the Liberation War Museum. Following his retirement from the Bangladesh Army as Major, he joined the textiles business, currently leading Rahim Textile Mills Limited. He is also Managing Director and Chairman of PCS Bangladesh Pvt. Ltd. and Cannon Pest Management Bangladesh Pvt. Ltd. A former VP at BTMA and a member of Bangladesh Diabetic Association's Na... | Next text: Didar A Husain | Image filename: image
+non_descriptive_alt  NaN image   NaN /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2FTrustee_Didar_A_Husain_Chairman_BoT_454_606-d817fc46-77b1-4060-ac74-4ff2f7db4bac.jpg&w=1200&q=75 Independent University, Bangladesh                                                                                                                                                                                                                                                                                                                                                                                           Nearby heading: Independent University, Bangladesh | Parent text: Didar A Husain Chairman, Board of Trustees Didar A Husain is the Chairman of the IUB Board of Trustees. A Freedom Fighter, he is recognized at the Liberation War Museum. Following his retirement from the Bangladesh Army as Major, he joined the textiles business, currently leading Rahim Textile Mills Limited. He is also Managing Director and Chairman of PCS Bangladesh Pvt. Ltd. and Cannon Pest Management Bangladesh Pvt. Ltd. A former VP at BTMA and a member of Bangladesh Diabetic Association's Na... | Next text: Didar A Husain | Image filename: image
+non_descriptive_alt  NaN image   NaN                  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fvc-left-profile-square-2mb-48fc89f1-a668-4c8d-8bd4-de6f7b7eec72.jpg&w=1200&q=75                     Didar A Husain                        Nearby heading: Didar A Husain | Parent text: Prof. Dr. M. Tamim Vice Chancellor Prof. M. Tamim joined IUB as Vice Chancellor in December 2024. Previously, he was Professor of Petroleum and Mineral Resources Engineering and Dean at BUET. He earned his bachelor's from BUET, master's from IIT-Madras, and PhD from the University of Alberta. His expertise includes reservoir engineering, energy economics, GHG mitigation, and environmental solutions. He held key government roles, managed the Power and Energy Ministry in 2008, and was Pro-VC of BR... | Previous text: Didar A Husain is the Chairman of the IUB Board of Trustees. A Freedom Fighter, he is recognized at the Liberation War Museum. Following his retirement from the Bangladesh Army as Major, he joined the textiles business, currently leading Rahim Textile Mills Limited. He is also Managing Director and Chairman of PCS Bangladesh Pvt. Ltd. and Cannon Pe... | Next text: Prof. Dr. M. Tamim | Image filename: image
+non_descriptive_alt  NaN image   NaN                  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fvc-left-profile-square-2mb-48fc89f1-a668-4c8d-8bd4-de6f7b7eec72.jpg&w=1200&q=75                     Didar A Husain                        Nearby heading: Didar A Husain | Parent text: Prof. Dr. M. Tamim Vice Chancellor Prof. M. Tamim joined IUB as Vice Chancellor in December 2024. Previously, he was Professor of Petroleum and Mineral Resources Engineering and Dean at BUET. He earned his bachelor's from BUET, master's from IIT-Madras, and PhD from the University of Alberta. His expertise includes reservoir engineering, energy economics, GHG mitigation, and environmental solutions. He held key government roles, managed the Power and Energy Ministry in 2008, and was Pro-VC of BR... | Previous text: Didar A Husain is the Chairman of the IUB Board of Trustees. A Freedom Fighter, he is recognized at the Liberation War Museum. Following his retirement from the Bangladesh Army as Major, he joined the textiles business, currently leading Rahim Textile Mills Limited. He is also Managing Director and Chairman of PCS Bangladesh Pvt. Ltd. and Cannon Pe... | Next text: Prof. Dr. M. Tamim | Image filename: image
+non_descriptive_alt  NaN image   NaN  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-daniel-w-lund_pro-vice-chancellor_web-05503e01-f474-4e9c-a0b2-d0ee4eaa9eae.jpg&w=1200&q=75                 Prof. Dr. M. Tamim              Nearby heading: Prof. Dr. M. Tamim | Parent text: Prof. Dr. Daniel W. Lund Pro Vice Chancellor Prof. Lund joined IUB as Pro Vice Chancellor in April 2025. He was previously Founding Dean of Graduate Programs and Executive Education at British Management University, Uzbekistan, has held senior academic roles in Pakistan, Saudi Arabia, and the Solomon Islands and taught at top universities in China, Mexico, and Kazakhstan. He holds a PhD from Griffith University, an MBA from York, and a BA from Victoria. Besides publishing extensively in peer-rev... | Previous text: Prof. M. Tamim joined IUB as Vice Chancellor in December 2024. Previously, he was Professor of Petroleum and Mineral Resources Engineering and Dean at BUET. He earned his bachelor's from BUET, master's from IIT-Madras, and PhD from the University of Alberta. His expertise includes reservoir engineering, energy economics, GHG mitigation, and environ... | Next text: Prof. Dr. Daniel W. Lund | Image filename: image
+non_descriptive_alt  NaN image   NaN  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-daniel-w-lund_pro-vice-chancellor_web-05503e01-f474-4e9c-a0b2-d0ee4eaa9eae.jpg&w=1200&q=75                 Prof. Dr. M. Tamim              Nearby heading: Prof. Dr. M. Tamim | Parent text: Prof. Dr. Daniel W. Lund Pro Vice Chancellor Prof. Lund joined IUB as Pro Vice Chancellor in April 2025. He was previously Founding Dean of Graduate Programs and Executive Education at British Management University, Uzbekistan, has held senior academic roles in Pakistan, Saudi Arabia, and the Solomon Islands and taught at top universities in China, Mexico, and Kazakhstan. He holds a PhD from Griffith University, an MBA from York, and a BA from Victoria. Besides publishing extensively in peer-rev... | Previous text: Prof. M. Tamim joined IUB as Vice Chancellor in December 2024. Previously, he was Professor of Petroleum and Mineral Resources Engineering and Dean at BUET. He earned his bachelor's from BUET, master's from IIT-Madras, and PhD from the University of Alberta. His expertise includes reservoir engineering, energy economics, GHG mitigation, and environ... | Next text: Prof. Dr. Daniel W. Lund | Image filename: image
+non_descriptive_alt  NaN image   NaN             /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Ftreasurer-md-wasim-jabber_press-298d3f80-1433-4429-a4ec-4e65add825d1.jpg&w=1200&q=75           Prof. Dr. Daniel W. Lund         Nearby heading: Prof. Dr. Daniel W. Lund | Parent text: Md. Wasim Jabber, MCIPS Treasurer Md. Wasim Jabber, MCIPS, joined IUB as Treasurer in June 2026. He has over 32 years of experience in civil administration, holding senior positions like DG of Bangladesh Petroleum Institute, Director of CAAB, Director of BIAM; and CRO of Chattogram City Corporation. Most recently, he served as Deputy Team Leader of DIMAPPP-CDP at the International Training Centre of ILO in Italy. He holds a Master's in Procurement and Supply Management from BRAC University, Exec... | Previous text: Prof. Lund joined IUB as Pro Vice Chancellor in April 2025. He was previously Founding Dean of Graduate Programs and Executive Education at British Management University, Uzbekistan, has held senior academic roles in Pakistan, Saudi Arabia, and the Solomon Islands and taught at top universities in China, Mexico, and Kazakhstan. He holds a PhD from ... | Next text: Md. Wasim Jabber, MCIPS | Image filename: image
+non_descriptive_alt  NaN image   NaN             /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Ftreasurer-md-wasim-jabber_press-298d3f80-1433-4429-a4ec-4e65add825d1.jpg&w=1200&q=75           Prof. Dr. Daniel W. Lund         Nearby heading: Prof. Dr. Daniel W. Lund | Parent text: Md. Wasim Jabber, MCIPS Treasurer Md. Wasim Jabber, MCIPS, joined IUB as Treasurer in June 2026. He has over 32 years of experience in civil administration, holding senior positions like DG of Bangladesh Petroleum Institute, Director of CAAB, Director of BIAM; and CRO of Chattogram City Corporation. Most recently, he served as Deputy Team Leader of DIMAPPP-CDP at the International Training Centre of ILO in Italy. He holds a Master's in Procurement and Supply Management from BRAC University, Exec... | Previous text: Prof. Lund joined IUB as Pro Vice Chancellor in April 2025. He was previously Founding Dean of Graduate Programs and Executive Education at British Management University, Uzbekistan, has held senior academic roles in Pakistan, Saudi Arabia, and the Solomon Islands and taught at top universities in China, Mexico, and Kazakhstan. He holds a PhD from ... | Next text: Md. Wasim Jabber, MCIPS | Image filename: image
+non_descriptive_alt  NaN image   NaN                     /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-shah-m-faruque-phd-2415e03f-1fed-4e63-b239-61fbe1360f81.jpg&w=1200&q=75            Md. Wasim Jabber, MCIPS       Nearby heading: Md. Wasim Jabber, MCIPS | Parent text: Prof. Shah M. Faruque, PhD Professor, Department of Life Sciences Prof. Shah M. Faruque is widely recognized for his pioneering research in epidemiology, genetics, and evolution of the cholera pathogen Vibrio cholerae. His cutting-edge studies encompass bacterial and phage genomics, epidemiology, ecology and evolution of bacterial pathogens which cause food-borne and waterborne diseases. With over 150 publications, his research truly advances our knowledge in pathogen evolution and microbial eco... | Previous text: Md. Wasim Jabber, MCIPS, joined IUB as Treasurer in June 2026. He has over 32 years of experience in civil administration, holding senior positions like DG of Bangladesh Petroleum Institute, Director of CAAB, Director of BIAM; and CRO of Chattogram City Corporation. Most recently, he served as Deputy Team Leader of DIMAPPP-CDP at the International ... | Next text: Prof. Shah M. Faruque, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                     /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-shah-m-faruque-phd-2415e03f-1fed-4e63-b239-61fbe1360f81.jpg&w=1200&q=75            Md. Wasim Jabber, MCIPS       Nearby heading: Md. Wasim Jabber, MCIPS | Parent text: Prof. Shah M. Faruque, PhD Professor, Department of Life Sciences Prof. Shah M. Faruque is widely recognized for his pioneering research in epidemiology, genetics, and evolution of the cholera pathogen Vibrio cholerae. His cutting-edge studies encompass bacterial and phage genomics, epidemiology, ecology and evolution of bacterial pathogens which cause food-borne and waterborne diseases. With over 150 publications, his research truly advances our knowledge in pathogen evolution and microbial eco... | Previous text: Md. Wasim Jabber, MCIPS, joined IUB as Treasurer in June 2026. He has over 32 years of experience in civil administration, holding senior positions like DG of Bangladesh Petroleum Institute, Director of CAAB, Director of BIAM; and CRO of Chattogram City Corporation. Most recently, he served as Deputy Team Leader of DIMAPPP-CDP at the International ... | Next text: Prof. Shah M. Faruque, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-md-abdul-khaleque-phd-f429fc17-6799-4695-98d3-54e7c8465b54.jpg&w=1200&q=75         Prof. Shah M. Faruque, PhD Nearby heading: Prof. Shah M. Faruque, PhD | Parent text: Prof. Md. Abdul Khaleque, PhD Professor, Department of Environmental Science and Management Dr. Khaleque's research focuses on water quality monitoring, ecotoxicology, waste management, and environmental remediation. He has published 49 research papers, with high engagement, accumulating over 50,000 reads and more than 6,200 citations. His work emphasizes sustainable pollution reduction methods, including innovative uses of bio-adsorbents and nanotechnology in water treatment. From 2013 to 2022,... | Previous text: Prof. Shah M. Faruque is widely recognized for his pioneering research in epidemiology, genetics, and evolution of the cholera pathogen Vibrio cholerae. His cutting-edge studies encompass bacterial and phage genomics, epidemiology, ecology and evolution of bacterial pathogens which cause food-borne and waterborne diseases. With over 150 publication... | Next text: Prof. Md. Abdul Khaleque, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                  /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-md-abdul-khaleque-phd-f429fc17-6799-4695-98d3-54e7c8465b54.jpg&w=1200&q=75         Prof. Shah M. Faruque, PhD Nearby heading: Prof. Shah M. Faruque, PhD | Parent text: Prof. Md. Abdul Khaleque, PhD Professor, Department of Environmental Science and Management Dr. Khaleque's research focuses on water quality monitoring, ecotoxicology, waste management, and environmental remediation. He has published 49 research papers, with high engagement, accumulating over 50,000 reads and more than 6,200 citations. His work emphasizes sustainable pollution reduction methods, including innovative uses of bio-adsorbents and nanotechnology in water treatment. From 2013 to 2022,... | Previous text: Prof. Shah M. Faruque is widely recognized for his pioneering research in epidemiology, genetics, and evolution of the cholera pathogen Vibrio cholerae. His cutting-edge studies encompass bacterial and phage genomics, epidemiology, ecology and evolution of bacterial pathogens which cause food-borne and waterborne diseases. With over 150 publication... | Next text: Prof. Md. Abdul Khaleque, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                           /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fmariz-sintaha-1x2-a66f64ca-dd53-4ff6-8415-b10c964ebf0d.png&w=1200&q=75      Prof. Md. Abdul Khaleque, PhD         Nearby heading: Prof. Md. Abdul Khaleque, PhD | Parent text: Mariz Sintaha, PhD Assistant Professor, Department of Life Sciences Dr. Sintaha has over 4,000 citations and an h-index of 13. Her scholarly contributions span global population health, nutrition, and molecular life sciences, published in leading journals like The Lancet series. Her recent research focuses on plant stress biology, molecular mechanisms of stress memory, drought stress priming, non-coding RNAs, and alternative splicing in plants. She earned her PhD in Molecular Biotechnology from ... | Previous text: Dr. Khaleque's research focuses on water quality monitoring, ecotoxicology, waste management, and environmental remediation. He has published 49 research papers, with high engagement, accumulating over 50,000 reads and more than 6,200 citations. His work emphasizes sustainable pollution reduction methods, including innovative uses of bio-adsorbents... | Next text: Mariz Sintaha, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                           /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fmariz-sintaha-1x2-a66f64ca-dd53-4ff6-8415-b10c964ebf0d.png&w=1200&q=75      Prof. Md. Abdul Khaleque, PhD         Nearby heading: Prof. Md. Abdul Khaleque, PhD | Parent text: Mariz Sintaha, PhD Assistant Professor, Department of Life Sciences Dr. Sintaha has over 4,000 citations and an h-index of 13. Her scholarly contributions span global population health, nutrition, and molecular life sciences, published in leading journals like The Lancet series. Her recent research focuses on plant stress biology, molecular mechanisms of stress memory, drought stress priming, non-coding RNAs, and alternative splicing in plants. She earned her PhD in Molecular Biotechnology from ... | Previous text: Dr. Khaleque's research focuses on water quality monitoring, ecotoxicology, waste management, and environmental remediation. He has published 49 research papers, with high engagement, accumulating over 50,000 reads and more than 6,200 citations. His work emphasizes sustainable pollution reduction methods, including innovative uses of bio-adsorbents... | Next text: Mariz Sintaha, PhD | Image filename: image
+non_descriptive_alt  NaN image   NaN                     /_next/image?url=https%3A%2F%2Fiub.ac.bd%2Fmedia-backend%2Fmedia%2Fprof-md-mamun-habib-phd-0b1625eb-5fb6-46b7-842d-c2e37bb52d86.jpg&w=1200&q=75                 Mariz Sintaha, PhD             Nearby heading: Mariz Sintaha, PhD | Parent text: Prof. Md Mamun Habib, PhD Professor & Head, Department of Management Prof. Habib brings over 23 years of teaching, research, and consulting experience. He has published 250+ papers, including 80 indexed articles in Scopus and Web of Science, and supervised numerous PhD scholars worldwide. He is involved in business school accreditation as an AACSB Virtual Ambassador and ACBSP Evaluator. Active in professional organizations, he serves as a Visiting Scientist at University of Texas at Arlington an... | Previous text: Dr. Sintaha has over 4,000 citations and an h-index of 13. Her scholarly contributions span global population health, nutrition, and molecular life sciences, published in leading journals like The Lancet series. Her recent research focuses on plant stress biology, molecular mechanisms of stress memory, drought stress priming, non-coding RNAs, and a... | Next text: Prof. Md Mamun Habib, PhD | Image filename: image
+
+Output:
+final_pipeline/data/intermediate/context_live/iub.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/iub.ac.bd__context_findings.csv
+Total unified findings: 80
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 42
+
+By rule:
+  non_descriptive_alt: 42
+
+Decision codes:
+  GENERIC_ALT_CONTEXT_AVAILABLE: 42
+
+Confidence:
+  medium: 42
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+       custom_issue text   alt                     nearby_heading                       contextual_action                                                                                                                                                                                                                             contextual_suggestion contextual_confidence contextual_evidence_source
+non_descriptive_alt  NaN image Independent University, Bangladesh replace_generic_alt_after_visual_review Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Independent University, Bangladesh” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image Independent University, Bangladesh replace_generic_alt_after_visual_review Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Independent University, Bangladesh” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image                     Didar A Husain replace_generic_alt_after_visual_review                     Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Didar A Husain” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image                     Didar A Husain replace_generic_alt_after_visual_review                     Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Didar A Husain” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image                 Prof. Dr. M. Tamim replace_generic_alt_after_visual_review                 Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Dr. M. Tamim” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image                 Prof. Dr. M. Tamim replace_generic_alt_after_visual_review                 Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Dr. M. Tamim” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image           Prof. Dr. Daniel W. Lund replace_generic_alt_after_visual_review           Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Dr. Daniel W. Lund” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image           Prof. Dr. Daniel W. Lund replace_generic_alt_after_visual_review           Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Dr. Daniel W. Lund” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image            Md. Wasim Jabber, MCIPS replace_generic_alt_after_visual_review            Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Md. Wasim Jabber, MCIPS” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image            Md. Wasim Jabber, MCIPS replace_generic_alt_after_visual_review            Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Md. Wasim Jabber, MCIPS” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image         Prof. Shah M. Faruque, PhD replace_generic_alt_after_visual_review         Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Shah M. Faruque, PhD” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN image         Prof. Shah M. Faruque, PhD replace_generic_alt_after_visual_review         Replace the generic alt text “image” after visually inspecting the image. The surrounding context “Prof. Shah M. Faruque, PhD” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+Unified findings: 80
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+custom_only       47
+axe_only          23
+axe_incomplete    10
+
+Priority:
+priority
+Medium    47
+High      23
+Review    10
+
+Categories:
+category
+Images            42
+Color contrast    29
+Links              4
+Headings           2
+Landmarks          2
+Other              1
+
+Top rules:
+primary_rule
+non_descriptive_alt    42
+color-contrast         29
+empty_link_text         4
+region                  2
+multiple_h1             1
+heading-order           1
+landmark-unique         1
+
+Context-aware recommendations: 42
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-unique
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/iub.ac.bd__recommendations.csv
+final_pipeline/reports/live/iub.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://iub.ac.bd/
+
+Host:
+iub.ac.bd
+
+Output stem:
+iub.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://iub.ac.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/iub.ac.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/iub.ac.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+iub.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://iub.ac.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/iub.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/iub.ac.bd__axe.json
+Rendered URL: https://iub.ac.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/iub.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/iub.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/iub.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/iub.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/iub.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/iub.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://iub.ac.bd/
+
+Analysis stem:
+iub.ac.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/iub.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/iub.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/iub.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/iub.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/iub.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

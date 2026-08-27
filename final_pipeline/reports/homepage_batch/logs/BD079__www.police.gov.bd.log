@@ -1,0 +1,478 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.police.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.police.gov.bd
+Status: 200
+Analyzable: True
+Findings: 73
+
+issue_category               issue severity                                                                                                                                                                                                                                                                               selector
+         image           empty_alt   medium                                                                             div.row:nth-of-type(1) > div.col-md-12.bg_white:nth-of-type(4) > div.fr_lr > div.col-lg-12.col-md-12 > div.container-fluid > div.col-lg-12.col-md-12 > div.bg_white.banner_main_child > img.img-responsive
+         image non_descriptive_alt   medium                                          div.col-md-12 > div.col-md-12.padding-bottom-5-prcnt > div.row > div.col-lg-3.col-md-3:nth-of-type(2) > div.col-md-12.margin_bottom_10:nth-of-type(1) > div.row.google_pragati_narrow:nth-of-type(4) > a.block.box-shadow-6 > img.padding-5-5
+         image non_descriptive_alt   medium                                          div.col-md-12 > div.col-md-12.padding-bottom-5-prcnt > div.row > div.col-lg-3.col-md-3:nth-of-type(2) > div.col-md-12.margin_bottom_10:nth-of-type(1) > div.row.google_pragati_narrow:nth-of-type(5) > a.block.box-shadow-6 > img.padding-5-5
+         image         missing_alt     high  div.col-md-12.padding-bottom-5-prcnt > div.col-md-12.padding-6-0-prcnt > div.clearfix.bg_white > div.col-lg-4.col-md-4:nth-of-type(1) > div.padding-15-15.margin_top_10 > div.margin_bottom_10:nth-of-type(1) > div.col-lg-6.col-md-6:nth-of-type(1) > img.height_full.img-responsive
+         image         missing_alt     high div.col-md-12.padding-bottom-5-prcnt > div.col-md-12.padding-6-0-prcnt > div.clearfix.bg_white > div.col-lg-4.col-md-4:nth-of-type(1) > div.padding-15-15.margin_top_10 > div.margin_bottom_10:nth-of-type(1) > div.col-lg-6.col-md-6:nth-of-type(2) > img.img-responsive.center-block
+         image         missing_alt     high                                                                                  div.fr_lr > div.container-fluid > div.col-md-12 > div.col-md-12 > div.col-md-12.padding-6-0-prcnt > div.row.padding-3-0-0-0-prcnt:nth-of-type(1) > div.col-md-4.margin_bottom_25:nth-of-type(1) > img
+         image         missing_alt     high                                                                                  div.fr_lr > div.container-fluid > div.col-md-12 > div.col-md-12 > div.col-md-12.padding-6-0-prcnt > div.row.padding-3-0-0-0-prcnt:nth-of-type(1) > div.col-md-4.margin_bottom_25:nth-of-type(2) > img
+         image         missing_alt     high                                                                                  div.fr_lr > div.container-fluid > div.col-md-12 > div.col-md-12 > div.col-md-12.padding-6-0-prcnt > div.row.padding-3-0-0-0-prcnt:nth-of-type(1) > div.col-md-4.margin_bottom_25:nth-of-type(3) > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(1) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(2) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(3) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(4) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(5) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(6) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(7) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(8) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                              div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(9) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                             div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(10) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                             div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(11) > a.bg_white.padding-10 > img
+         image         missing_alt     high                                                                                                                                                             div#UnitCarousel > ul.carouselTicker__list > li.carouselTicker__item.lnk-3-1:nth-of-type(12) > a.bg_white.padding-10 > img
+
+CSV: final_pipeline/data/intermediate/custom_live/www.police.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.police.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.police.gov.bd
+HTTP status: 200
+Final URL: https://www.police.gov.bd/
+Page title: Bangladesh Police
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 14
+Violation nodes: 183
+Incomplete rules: 3
+Incomplete nodes: 172
+Passed rules: 42
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 4
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(2) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=LBC2NvBqLas"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">থাকবে পুলিশ জনপদে ভোট দিবেন নিরাপদে (Bangladesh Poli
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(3) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=3U7rNnBRcUQ"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">বাবার মতো পুলিশ হবো</span></a>
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(4) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=C3TrXblHSEQ"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">সকল ঈদ-উৎসব-পার্বণে বাংলাদেশ পুলিশ আছে আপনাদের পাশে।
+
+aria-input-field-name | impact: serious | nodes: 1
+  Help: ARIA input fields must have an accessible name
+  Tags: cat.aria, wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1
+  Selector: .slick-track
+  HTML: <div class="slick-track" role="listbox" style="opacity: 1; width: 74340px;">
+
+aria-prohibited-attr | impact: serious | nodes: 4
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(2) > .bg_white_custom.padding-bottom-10.sako > iframe #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" ar
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(3) > .bg_white_custom.padding-bottom-10.sako > iframe #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/6a0e84d6/player_embed.vflset/en_US/base.js" ar
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(4) > .bg_white_custom.padding-bottom-10.sako > iframe #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed_tce.vflset/en_US/base.js
+
+button-name | impact: critical | nodes: 4
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(2) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(3) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(4) > .bg_white_custom.padding-bottom-10.sako > iframe .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+
+color-contrast | impact: serious | nodes: 1
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .bg_blue_1 > .size-20.white
+  HTML: <span class="white size-20">United Nations(UN)</span>
+
+empty-heading | impact: minor | nodes: 1
+  Help: Headings should not be empty
+  Tags: cat.name-role-value, best-practice
+  Selector: .heading-6
+  HTML: <h1 class=" heading-6 padding-3-0-prcnt blue_site google_courgette size-3-vw"> </h1>
+
+frame-title | impact: serious | nodes: 4
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(2) > .bg_white_custom.padding-bottom-10.sako > iframe
+  HTML: <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LBC2NvBqLas" title="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy"> </iframe>
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(3) > .bg_white_custom.padding-bottom-10.sako > iframe
+  HTML: <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3U7rNnBRcUQ" title="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy"> </iframe>
+  Selector: .margin_top_10.col-md-4.margin_bottom_10:nth-child(4) > .bg_white_custom.padding-bottom-10.sako > iframe
+  HTML: <iframe width="100%" height="100%" src="https://www.youtube.com/embed/C3TrXblHSEQ" title="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy"> </iframe>
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: section:nth-child(2) > .row > .home-page-youtube-video-title-desgin > h4
+  HTML: <h4 class="">ভিডিও গ্যালারী</h4>
+
+image-alt | impact: critical | nodes: 29
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: .center-block.img-responsive.height_full
+  HTML: <img src="https://www.police.gov.bd/storage/upload/file/N2K44DzaRjd7keWG5OOpWB6ZrIhVue1E5IyKhoOB.jpg" class=" height_full img-responsive center-block" style="cursor: pointer;">
+  Selector: .center-block.img-responsive[height="100%"]
+  HTML: <img src="https://www.police.gov.bd/asset/images/boss3.png" class="img-responsive center-block" height="100%">
+  Selector: .hide_in_700.margin_bottom_25.col-md-4:nth-child(1) > img[width="100%"]
+  HTML: <img src="https://www.police.gov.bd/storage/upload/file/homepage_9300045538.jpg" width="100%" style="cursor: pointer;">
+
+link-name | impact: serious | nodes: 21
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .z-index-300 > a[target="_blank"]
+  HTML: <a href="https://webmail.police.gov.bd/owa" target="_blank"><i class="fa fa-envelope-o"></i> </a>
+  Selector: a[href$="cmp.gov.bd/"]
+  HTML: <a href="http://cmp.gov.bd/" class="bg_white padding-10 block" target="_blank"> <img src="https://www.police.gov.bd/storage/upload/unit/lrMxwamfmiylEvJzUOUG.png"> </a>
+  Selector: a[href$="www.rmp.gov.bd"]
+  HTML: <a href="http://www.rmp.gov.bd" class="bg_white padding-10 block" target="_blank"> <img src="https://www.police.gov.bd/storage/upload/unit/2HnT2Nvlk77w201xXXAP.png"> </a>
+
+list | impact: serious | nodes: 4
+  Help: <ul> and <ol> must only directly contain <li>, <script> or <template> elements
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .margin_bottom_25.col-md-3:nth-child(1) > .panel.panel-default.no-bg > .panel-body.bg_trans_white_70.black > .list-1-1.no-padding
+  HTML: <ul class="list-1-1 no-padding size-16 text-left" style="min-height: 350px; height: auto;">
+  Selector: .margin_bottom_25.col-md-3:nth-child(2) > .panel.panel-default.no-bg > .panel-body.bg_trans_white_70.black > .list-1-1.no-padding
+  HTML: <ul class="list-1-1 no-padding size-16 text-left" style="min-height: 350px; height: auto;">
+  Selector: .margin_bottom_25.col-md-3:nth-child(3) > .panel.panel-default.no-bg > .panel-body.bg_trans_white_70.black > .list-1-1.no-padding
+  HTML: <ul class="list-1-1 no-padding size-16 text-left" style="min-height: 350px; height: auto;">
+
+marquee | impact: serious | nodes: 1
+  Help: <marquee> elements are deprecated and must not be used
+  Tags: cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: marquee
+  HTML: <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3" direction="up">
+
+meta-viewport | impact: moderate | nodes: 1
+  Help: Zooming and scaling must not be disabled
+  Tags: cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2
+  Selector: meta[name="viewport"]
+  HTML: <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+region | impact: moderate | nodes: 107
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .z-index-500
+  HTML: <div class="absolute z-index-500 padding-top-1 leftnavbox top-26vh">
+  Selector: #staticsidenavright
+  HTML: <div class="fixed padding-top-1 rightnavbox top-26vh right-0" id="staticsidenavright" style="z-index: 999;">
+  Selector: #topends
+  HTML: <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo_bar lgbar bg_grad_5" id="topends" style="/*background: linear-gradient(120deg,#101056 30%,#28a4c9,#0b1284,#28a4c9,#ffffff);*/">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.police.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.police.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 355
+
+Axe result types:
+result_type
+violation     183
+incomplete    172
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          183
+axe_incomplete    172
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               327
+third_party_embed           24
+first_party_integration      4
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.police.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.police.gov.bd/
+Unified findings: 355
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.police.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.police.gov.bd__context_findings.csv
+Total unified findings: 355
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+Unified findings: 355
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          183
+axe_incomplete    172
+
+Priority:
+priority
+Review      172
+Medium      109
+Critical     37
+High         36
+Low           1
+
+Categories:
+category
+Color contrast          171
+Landmarks               107
+Images                   29
+Links                    21
+ARIA                      8
+Other                     4
+Controls                  4
+Frames                    4
+Structure                 4
+Headings                  2
+Visual accessibility      1
+
+Top rules:
+primary_rule
+color-contrast           171
+region                   107
+image-alt                 29
+link-name                 21
+aria-allowed-attr          4
+aria-prohibited-attr       4
+button-name                4
+frame-title                4
+list                       4
+aria-input-field-name      1
+empty-heading              1
+heading-order              1
+marquee                    1
+meta-viewport              1
+link-in-text-block         1
+video-caption              1
+
+Context-aware recommendations: 0
+
+Third-party findings: 24
+
+Rules using fallback recommendation:
+ - aria-input-field-name
+ - link-in-text-block
+ - marquee
+ - video-caption
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.police.gov.bd__recommendations.csv
+final_pipeline/reports/live/www.police.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.police.gov.bd
+
+Host:
+www.police.gov.bd
+
+Output stem:
+www.police.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.police.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.police.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.police.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.police.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.police.gov.bd__axe.json
+Rendered URL: https://www.police.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.police.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.police.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.police.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.police.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.police.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.police.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.police.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.police.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.police.gov.bd
+
+Rendered URL:
+https://www.police.gov.bd/
+
+Analysis stem:
+www.police.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.police.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.police.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.police.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.police.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.police.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

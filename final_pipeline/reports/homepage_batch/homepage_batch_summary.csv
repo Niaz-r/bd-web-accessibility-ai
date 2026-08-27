@@ -1,0 +1,5 @@
+organization_type,attempted,complete,not_analyzable,unreachable,failed,incomplete,reports_created
+Government,20,16,1,0,3,0,14
+News,20,12,8,0,0,0,11
+University,40,37,1,0,2,0,35
+TOTAL,80,65,10,0,5,0,60

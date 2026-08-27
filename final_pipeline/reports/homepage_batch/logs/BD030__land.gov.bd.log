@@ -1,0 +1,350 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://land.gov.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://land.gov.bd/
+Status: 200
+Analyzable: True
+Findings: 3
+
+issue_category               issue severity                                                                                                                              selector
+         image non_descriptive_alt   medium html > body.noto_sans_bengali_c54029d0-module__Qux_Ra__className > div:nth-of-type(3) > div:nth-of-type(3) > img.w-full.2xl:container
+       heading          missing_h1     high                                                                                                                                      
+          link     empty_link_text     high                                                                  html > body.noto_sans_bengali_c54029d0-module__Qux_Ra__className > a
+
+CSV: final_pipeline/data/intermediate/custom_live/land.gov.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/land.gov.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://land.gov.bd/
+HTTP status: 200
+Final URL: https://land.gov.bd/
+Page title: ভূমি তথ্য বাতায়ন
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 4
+Violation nodes: 16
+Incomplete rules: 1
+Incomplete nodes: 11
+Passed rules: 31
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+button-name | impact: critical | nodes: 2
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .active
+  HTML: <button class="css-dot active"></button>
+  Selector: .css-dot:nth-child(2)
+  HTML: <button class="css-dot "></button>
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+region | impact: moderate | nodes: 12
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .css-slider-track
+  HTML: <div class="css-slider-track flex" style="transform:translateX(-100%);transition:transform 0.6s ease-in-out">
+  Selector: .shadow-lg.relative > .lg\:block.hidden
+  HTML: <div class="hidden lg:block"><div class="absolute top-0 left-0 right-0 z-20"><h3 class="text-24 xl:text-32 leading-[47px] w-full text-white text-center"><span class="text-bottleGreen">অটোমেশন ভূমি ব্যবস্থাপনার</span><br><span class="text-[#D52329]">স
+  Selector: .lg\:grid-cols-2 > .justify-center.items-center.flex
+  HTML: <div class="flex justify-center items-center">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/land.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/land.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 3
+Axe nodes: 27
+
+Axe result types:
+result_type
+violation     16
+incomplete    11
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          16
+axe_incomplete    11
+custom_only        3
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    30
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/land.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://land.gov.bd/
+Unified findings: 30
+Context-dependent findings: 1
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 1
+Unmatched: 0
+
+       custom_issue text   alt href                                                       src                                    nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              surrounding_context
+non_descriptive_alt  NaN image  NaN /_next/image?url=%2Fimages%2Fdhaka_line_6.png&w=2048&q=75 নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে? Nearby heading: নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে? | Parent text: অটোমেশন ভূমি ব্যবস্থাপনার সমন্বিত সফটওয়্যার ভূমিসেবা সহায়তার জন্য কল করুন ১৬১২২ ভূমি সংক্রান্ত সেবা মিউটেশন ভূমি উন্নয়ন কর ভূমি রেকর্ড ও ম্যাপ ভূমি অধিগ্রহণ ও হুকুমদখল ইজারা ও বন্দোবস্ত ভূমি প্রশাসন ব্যবস্থাপনা ভূমি রাজস্ব মামলা ভূমি তথ্য ব্যাংক কারিগরি ও অভিযোগ প্রতিকার ব্যবস্থাপনা রাজউক পূর্বাচল নতুন শহর প্রকল্পের সকল মৌজার সমন্বিত তথ্য সচরাচর জিজ্ঞাসা পাসওয়ার্ড ভুলে গেলে কি নতুন করে রেজিস্ট্রেশন করতে হবে? ভূমি সেবা হটলাইন নম্বর কোনটি? কখন প্রোফাইলের অগ্রগতি ১০০% হবে? নিবন্ধন করার জন্য কি কোন ... | Next text: গুরুত্বপূর্ণ লিঙ্ক | Image filename: image
+
+Output:
+final_pipeline/data/intermediate/context_live/land.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/land.gov.bd__context_findings.csv
+Total unified findings: 30
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 1
+
+By rule:
+  non_descriptive_alt: 1
+
+Decision codes:
+  GENERIC_ALT_CONTEXT_AVAILABLE: 1
+
+Confidence:
+  medium: 1
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+       custom_issue text   alt                                    nearby_heading                       contextual_action                                                                                                                                                                                                                                            contextual_suggestion contextual_confidence contextual_evidence_source
+non_descriptive_alt  NaN image নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে? replace_generic_alt_after_visual_review Replace the generic alt text “image” after visually inspecting the image. The surrounding context “নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে?” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+Unified findings: 30
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          16
+axe_incomplete    11
+custom_only        3
+
+Priority:
+priority
+Medium      15
+Review      11
+High         2
+Critical     2
+
+Categories:
+category
+Landmarks         12
+Color contrast    11
+Controls           2
+Other              2
+Images             1
+Headings           1
+Links              1
+
+Top rules:
+primary_rule
+region                  12
+color-contrast          11
+button-name              2
+non_descriptive_alt      1
+missing_h1               1
+empty_link_text          1
+landmark-one-main        1
+page-has-heading-one     1
+
+Context-aware recommendations: 1
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/land.gov.bd__recommendations.csv
+final_pipeline/reports/live/land.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://land.gov.bd/
+
+Host:
+land.gov.bd
+
+Output stem:
+land.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://land.gov.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/land.gov.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/land.gov.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+land.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://land.gov.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/land.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/land.gov.bd__axe.json
+Rendered URL: https://land.gov.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/land.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/land.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/land.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/land.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/land.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/land.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://land.gov.bd/
+
+Analysis stem:
+land.gov.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/land.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/land.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/land.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/land.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/land.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

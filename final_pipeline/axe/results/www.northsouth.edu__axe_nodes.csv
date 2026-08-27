@@ -1,0 +1,165 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.northsouth.edu/,violation,aria-allowed-attr,critical,Ensure an element's role supports its ARIA attributes,Elements must only use supported ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] .ytmVideoInfoVideoTitle","<a class=""ytmVideoInfoVideoTitle"" aria-level=""2"" href=""https://www.youtube.com/watch?v=jsA_eu4UWAQ""><span class=""ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap"" style="""">NSU FIFA World Cup Quiz Competition 2026</span></a>","Fix all of the following:
+  ARIA attribute is not allowed: aria-level=""2""",critical,1
+https://www.northsouth.edu/,violation,aria-prohibited-attr,serious,Ensure ARIA attributes are not prohibited for an element's role,Elements must only use permitted ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] #movie_player","<div class=""html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode"" tabindex="""" id=""movie_player"" data-version=""/s/player/b7457b7c/player_embed.vflset/en_US/base.js"" aria-label=""YouTube Video Player"">","Fix all of the following:
+  aria-label attribute cannot be used on a div with no valid role attribute.",serious,1
+https://www.northsouth.edu/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] .ytmVideoInfoChannelAvatar","<button class=""ytmVideoInfoLink ytmVideoInfoChannelAvatar""><img class=""ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill"" alt=""thumbnail-image"" style=""background-color: transparent;""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://www.northsouth.edu/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".carousel-control-prev[data-bs-target=""#videoCarousel""][data-bs-slide=""prev""]","<button class=""carousel-control-prev"" type=""button"" data-bs-target=""#videoCarousel"" data-bs-slide=""prev"">
+            <span class=""carousel-control-prev-icon""></span>
+          </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://www.northsouth.edu/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".carousel-control-next[data-bs-target=""#videoCarousel""][data-bs-slide=""next""]","<button class=""carousel-control-next"" type=""button"" data-bs-target=""#videoCarousel"" data-bs-slide=""next"">
+            <span class=""carousel-control-next-icon""></span>
+          </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://www.northsouth.edu/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.active.h-auto.carousel-item > .profile-slide.row.align-items-center > .col-md-8.profile-content > p,<p>,"Fix any of the following:
+  Element has insufficient color contrast of 4.37 (foreground color: #757575, background color: #f8f9fc, font size: 12.6pt (16.8px), font weight: normal). Expected contrast ratio of 4.5:1",serious,1
+https://www.northsouth.edu/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-sm-6.col-lg-2.col-md-4:nth-child(1) > .bg-white.p-3.shadow > .d-flex > .ps-3 > .mb-0,"<h6 class=""mb-0"">
+                                    <a href=""upcoming-events/""> Scheduled Events </a>
+                                </h6>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://www.northsouth.edu/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,#research-slider-1 > .carousel-inner > .active.carousel-item > a > .slider-img-preview.d-block,"<img src=""newassets/summer_25/img/research/genome-pic-1-new.png"" class=""d-block slider-img-preview"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://www.northsouth.edu/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".slick-current.slick-active[data-slick-index=""3""] > .w-75.img-fluid.shadow","<img class=""img-fluid w-75 shadow"" src=""newassets/summer_25/img/accre/ngri.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".flex-shrink-0.btn-lg-square.bg-primary > a[href$=""upcoming-events/""]","<a href=""upcoming-events/"">
+                                    <i class=""fas fa-calendar-alt text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-sm-6.col-lg-2.col-md-4:nth-child(2) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target=""_blank""]","<a target=""_blank"" href=""https://rds3.northsouth.edu/index.php/verification/verification"">
+                                    <i class=""fas fa-award text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-sm-6.col-lg-2.col-md-4:nth-child(3) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target=""_blank""]","<a target=""_blank"" href=""https://admissions.northsouth.edu/"">
+                                    <i class=""fas fa-laptop text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".flex-shrink-0.btn-lg-square.bg-primary > a[href$=""jobs.northsouth.ac.bd/""][target=""_blank""]","<a target=""_blank"" href=""https://jobs.northsouth.ac.bd/"">
+                                    <i class=""fas fa-briefcase text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".flex-shrink-0.btn-lg-square.bg-primary > a[href$=""nsu-directory.html""]","<a href=""resources/nsu-directory.html"">
+                                    <i class=""fas fa-book text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".flex-shrink-0.btn-lg-square.bg-primary > a[href$=""tender/""]","<a href=""resources/tender/"">
+                                    <i class=""fas fa-chalkboard-teacher text-white""></i>
+                                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://www.northsouth.edu/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-lg,"<a href=""#"" class=""btn btn-lg btn-primary btn-lg-square back-to-top""><i class=""bi bi-arrow-up""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-dark,"<div class=""container-fluid bg-dark text-light p-0"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#bg-video,"<video id=""bg-video"" class=""w-100"" autoplay="""" muted="""" loop="""" playsinline="""" preload=""auto"" poster=""newassets/summer_25/NSU-Convo-poster.png"" style=""display:block;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.carousel-caption,"<div class=""carousel-caption"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#carouselExampleFade > .carousel-inner.h-auto > .active.h-auto.carousel-item,"<div class=""carousel-item h-auto active"">
+                            <img src=""/newassets/images/mirza.png"" class=""d-block img-fluid mx-auto"" alt=""..."">
+                        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.gy-3,"<div class=""row gx-0 gy-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.g-4.row:nth-child(2),"<div class=""row g-4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.g-4.row:nth-child(4) > .col-md-4:nth-child(1),"<div class=""col-md-4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#research-slider-1 > .carousel-inner > .active.carousel-item,"<div class=""carousel-item active"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#research-slider-2 > .carousel-inner > .active.carousel-item,"<div class=""carousel-item active"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-9,"<div class=""col-md-9"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-3 > .p-4.text-center.shadow-sm > .fw-semibold.mb-4,"<h5 class=""mb-4 fw-semibold"">Accreditations</h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".slick-current.slick-active[data-slick-index=""3""]","<div class=""slick-slide slick-current slick-active"" data-slick-index=""3"" aria-hidden=""false"" tabindex=""0"" style=""width: 208px;""><img class=""img-fluid w-75 shadow"" src=""newassets/summer_25/img/accre/ngri.png""></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#carouselExampleAutoplaying > .carousel-inner.h-auto > .active.h-auto.carousel-item,"<div class=""carousel-item h-auto active"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] #player","<div id=""player"" style=""width: 100%; height: 100%;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] .ytmVideoInfoVideoTitleContainer","<div class=""ytmVideoInfoVideoTitleContainer ytmVideoInfoLogoEnabled"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] .ytmVideoInfoOverlay","<div class=""ytmVideoInfoOverlay"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".active.carousel-item > .ratio.ratio-16x9 > iframe[title=""YouTube video""][allowfullscreen=""""] .quick-actions-wrapper","<div class=""quick-actions-wrapper"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://www.northsouth.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#carouselExampleFade2 > .carousel-inner > .active.carousel-item,"<div class=""carousel-item active"">
+              <img src=""newassets/summer_25/img/gallery/img01.jpeg"" class=""d-block w-100"" alt=""..."">
+            </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://www.northsouth.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.display-3,"<h1 class=""display-3 text-light mb-5  slideInDown"">Step Up With Admission</h1>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,1
+https://www.northsouth.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mx-auto.fw-semibold.w-75,"<h5 class=""w-75 mx-auto mb-4 fw-semibold text-secondary2"">NSU’s position in Bangladesh according to the following international ranking platforms</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://www.northsouth.edu/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,#bg-video,"<video id=""bg-video"" class=""w-100"" autoplay="""" muted="""" loop="""" playsinline="""" preload=""auto"" poster=""newassets/summer_25/NSU-Convo-poster.png"" style=""display:block;"">","Fix all of the following:
+  Check that captions are available for the element",critical,1

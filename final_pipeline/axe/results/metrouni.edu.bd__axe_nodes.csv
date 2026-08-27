@@ -1,0 +1,280 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://metrouni.edu.bd/,violation,aria-required-children,critical,Ensure elements with an ARIA role that require child roles contain them,Certain ARIA roles must contain particular children,https://dequeuniversity.com/rules/axe/4.13/aria-required-children?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,#schoolTab,"<ul class=""nav nav-pills school-tabs d-flex justify-content-between"" id=""schoolTab"" role=""tablist"">","Fix any of the following:
+  Element has children which are not allowed: li",critical,1
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".hover\:text-\[\#ea1d22\].text-\[\#14194b\][onclick=""toggleSearch()""]","<button onclick=""toggleSearch()"" class=""w-10 h-10 flex items-center justify-center text-[#14194b] hover:text-[#ea1d22] transition-colors"">
+                        <i class=""bi bi-search text-lg""></i>
+                    </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,.top-10,"<button onclick=""toggleSearch()"" class=""absolute top-10 right-10 text-white text-4xl hover:text-[#ea1d22]"">
+            <i class=""bi bi-x-lg""></i>
+        </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,.bottom-4,"<button type=""submit"" class=""absolute right-0 bottom-4 text-white text-3xl hover:text-[#ea1d22]"">
+                    <i class=""bi bi-arrow-right""></i>
+                </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".text-2xl.text-gray-400[onclick=""closeDrawer()""]","<button onclick=""closeDrawer()"" class=""text-2xl text-gray-400 hover:text-[#ea1d22]"">
+                    <i class=""bi bi-x-lg""></i>
+                </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[onclick=""moveSlide(-1)""]","<button class=""nav-btn"" onclick=""moveSlide(-1)"">
+            <i class=""bi bi-chevron-left""></i>
+          </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[onclick=""moveSlide(1)""]","<button class=""nav-btn"" onclick=""moveSlide(1)"">
+            <i class=""bi bi-chevron-right""></i>
+          </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#prevNews,"<button class=""btn btn-outline-primary rounded-circle"" id=""prevNews"">
+        <i class=""bi bi-chevron-left""></i>
+      </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,7
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#nextNews,"<button class=""btn btn-outline-primary rounded-circle"" id=""nextNews"">
+        <i class=""bi bi-chevron-right""></i>
+      </button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,8
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#prev-btn,"<button onclick=""moveSlider(0)"" id=""prev-btn"" class=""w-10 h-10 flex items-center justify-center rounded-full border border-slate-200 bg-white text-slate-400 hover:text-blue-600 hover:border-blue-600 hover:shadow-lg transition-all"">","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,9
+https://metrouni.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#next-btn,"<button onclick=""moveSlider(1)"" id=""next-btn"" class=""w-10 h-10 flex items-center justify-center rounded-full border border-slate-200 bg-white text-slate-400 hover:text-blue-600 hover:border-blue-600 hover:shadow-lg transition-all"">","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,10
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.opacity-75,"<p class=""small mb-0 opacity-75"">22+ Years of Excellence</p>","Fix any of the following:
+  Element has insufficient color contrast of 3.19 (foreground color: #c3dbff, background color: #0d6efd, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,1
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"button[data-bs-target=""#sst""]","<button class=""nav-link active w-100"" data-bs-toggle=""pill"" data-bs-target=""#sst"" type=""button"">Science</button>","Fix any of the following:
+  Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #ea1d22, font size: 11.4pt (15.2px), font weight: bold). Expected contrast ratio of 4.5:1",serious,2
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(1) > .block.text-orange-600.tracking-widest,"<span class=""text-[10px] font-bold text-orange-600 uppercase tracking-widest block mb-1"">Notice Board</span>","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,3
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(1) > .inline-flex.text-\[11px\].hover\:text-orange-700,"<a href=""https://metrouni.edu.bd/sites/announcement/university/announcement/notice_board/Eid-e-Miladunnabi%202026"" class=""inline-flex items-center mt-2 text-[11px] font-bold text-orange-600 hover:text-orange-700"">","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1",serious,4
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(2) > .block.text-orange-600.tracking-widest,"<span class=""text-[10px] font-bold text-orange-600 uppercase tracking-widest block mb-1"">Notice Board</span>","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,5
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(2) > .inline-flex.text-\[11px\].hover\:text-orange-700,"<a href=""https://metrouni.edu.bd/sites/announcement/university/announcement/notice_board/july-mass-uprising-day"" class=""inline-flex items-center mt-2 text-[11px] font-bold text-orange-600 hover:text-orange-700"">","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1",serious,6
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(3) > .block.text-orange-600.tracking-widest,"<span class=""text-[10px] font-bold text-orange-600 uppercase tracking-widest block mb-1"">Exam Schedule</span>","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,7
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(3) > .inline-flex.text-\[11px\].hover\:text-orange-700,"<a href=""https://metrouni.edu.bd/sites/announcement/university/announcement/exam_schedule/notice-for-spring-supplementary-exam-2026"" class=""inline-flex items-center mt-2 text-[11px] font-bold text-orange-600 hover:text-orange-700"">","Fix any of the following:
+  Element has insufficient color contrast of 3.55 (foreground color: #ea580c, background color: #ffffff, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1",serious,8
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.hover\:bg-orange-50,"<a href=""https://metrouni.edu.bd/sites/university/announcement"" class=""flex items-center justify-center w-full py-2 text-sm font-bold text-orange-600 hover:bg-orange-50 rounded-xl transition-colors""> View All Announcements </a>","Fix any of the following:
+  Element has insufficient color contrast of 3.52 (foreground color: #ea580c, background color: #fdfefe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,9
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(1) > .group-hover\:shadow-green-100.flex-shrink-0.h-14 > .text-green-500.leading-none.mb-1,"<span class=""text-[10px] font-bold uppercase leading-none mb-1 text-green-500"">Nov</span>","Fix any of the following:
+  Element has insufficient color contrast of 2.27 (foreground color: #22c55e, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,10
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(1) > .text-left > .text-green-600.mt-2.text-\[10px\],"<span class=""text-[10px] font-bold text-green-600 mt-2 flex items-center""> View Details <span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>
+              </span>","Fix any of the following:
+  Element has insufficient color contrast of 3.29 (foreground color: #16a34a, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,11
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(2) > .group-hover\:shadow-green-100.flex-shrink-0.h-14 > .text-green-500.leading-none.mb-1,"<span class=""text-[10px] font-bold uppercase leading-none mb-1 text-green-500"">Aug</span>","Fix any of the following:
+  Element has insufficient color contrast of 2.27 (foreground color: #22c55e, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,12
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(2) > .text-left > .text-green-600.mt-2.text-\[10px\],"<span class=""text-[10px] font-bold text-green-600 mt-2 flex items-center""> View Details <span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>
+              </span>","Fix any of the following:
+  Element has insufficient color contrast of 3.29 (foreground color: #16a34a, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,13
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(3) > .group-hover\:shadow-green-100.flex-shrink-0.h-14 > .text-green-500.leading-none.mb-1,"<span class=""text-[10px] font-bold uppercase leading-none mb-1 text-green-500"">Jul</span>","Fix any of the following:
+  Element has insufficient color contrast of 2.27 (foreground color: #22c55e, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,14
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(3) > .text-left > .text-green-600.mt-2.text-\[10px\],"<span class=""text-[10px] font-bold text-green-600 mt-2 flex items-center""> View Details <span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>
+              </span>","Fix any of the following:
+  Element has insufficient color contrast of 3.29 (foreground color: #16a34a, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,15
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(4) > .group-hover\:shadow-green-100.flex-shrink-0.h-14 > .text-green-500.leading-none.mb-1,"<span class=""text-[10px] font-bold uppercase leading-none mb-1 text-green-500"">Jul</span>","Fix any of the following:
+  Element has insufficient color contrast of 2.27 (foreground color: #22c55e, background color: #ffffff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",serious,16
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.hover\:bg-green-50,"<a href=""https://metrouni.edu.bd/sites/university/event-calendar"" class=""flex items-center justify-center w-full py-2 text-sm font-bold text-green-600 hover:bg-green-50 rounded-xl transition-colors""> View All Events </a>","Fix any of the following:
+  Element has insufficient color contrast of 3.26 (foreground color: #16a34a, background color: #fdfefe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,17
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,div:nth-child(2) > .mb-8.tracking-widest.font-black,"<h4 class=""font-black text-sm uppercase mb-8 text-[#ea1d22] tracking-widest"">Academic</h4>","Fix any of the following:
+  Element has insufficient color contrast of 3.69 (foreground color: #ea1d22, background color: #14194b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,18
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,div:nth-child(3) > .mb-8.tracking-widest.font-black,"<h4 class=""font-black text-sm uppercase mb-8 text-[#ea1d22] tracking-widest"">Resources</h4>","Fix any of the following:
+  Element has insufficient color contrast of 3.69 (foreground color: #ea1d22, background color: #14194b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,19
+https://metrouni.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,div:nth-child(4) > .mb-8.tracking-widest.font-black,"<h4 class=""font-black text-sm uppercase mb-8 text-[#ea1d22] tracking-widest"">Contact info</h4>","Fix any of the following:
+  Element has insufficient color contrast of 3.69 (foreground color: #ea1d22, background color: #14194b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,20
+https://metrouni.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-md-4:nth-child(1) > .leader-card > h5,"<h5 class=""fw-bold mb-1"">Dr. Toufique Rahman Chowdhury</h5>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://metrouni.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,#sst-overview > .row.align-items-center > .col-lg-7 > h6,"<h6 class=""fw-bold mt-4 mb-3"">Academic Departments</h6>","Fix any of the following:
+  Heading order invalid",moderate,2
+https://metrouni.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,"div[data-slick-index=""2""] > .news-card-v3 > .news-content > h5","<h5 class=""fw-bold"">","Fix any of the following:
+  Heading order invalid",moderate,3
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.company-card.hover\:shadow-md.transition-shadow:nth-child(1) > .w-20.h-20.border-white > .object-cover.h-full.w-full,"<img src=""https://metrouni.edu.bd/uploads/file_manager/2pzgBQYZip5SzcuH6nMqNafiul%20Adnan%20Chowdhury.png"" class=""w-full h-full object-cover"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.company-card.hover\:shadow-md.transition-shadow:nth-child(2) > .w-20.h-20.border-white > .object-cover.h-full.w-full,"<img src=""https://metrouni.edu.bd/uploads/file_manager/4HDsMJtP5PKh1CnzUkNNAmanur%20Rahman.png"" class=""w-full h-full object-cover"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.company-card.hover\:shadow-md.transition-shadow:nth-child(3) > .w-20.h-20.border-white > .object-cover.h-full.w-full,"<img src=""https://metrouni.edu.bd/uploads/file_manager/l7ckztZLyYrtkth42RnJEmrul%20Chowdhury.png"" class=""w-full h-full object-cover"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.company-card.hover\:shadow-md.transition-shadow:nth-child(5) > .w-20.h-20.border-white > .object-cover.h-full.w-full,"<img src=""https://metrouni.edu.bd/uploads/file_manager/2u7IANAJ23M3iNCheIs0Majharul%20Islam%20Rafat.png"" class=""w-full h-full object-cover"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.company-card.hover\:shadow-md.transition-shadow:nth-child(6) > .w-20.h-20.border-white > .object-cover.h-full.w-full,"<img src=""https://metrouni.edu.bd/uploads/file_manager/lBFHDGxvObcgo7remzjSFoysol%20Ahmed%20Shuvo.png"" class=""w-full h-full object-cover"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://metrouni.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.flex-col.group.items-center:nth-child(4) > .aspect-square.group-hover\:shadow-2xl.group-hover\:border-blue-200 > .max-w-\[70\%\].max-h-\[70\%\].object-contain,"<img src=""https://www.metrouni.edu.bd/frontend/home/5.jpeg"" class=""max-w-[70%] max-h-[70%] object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://metrouni.edu.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,.lg\:flex,"<nav class=""hidden lg:flex items-center space-x-1"">","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://metrouni.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.bg-white\/5.hover\:bg-\[\#ea1d22\].hover\:border-\[\#ea1d22\]:nth-child(1),"<a href=""https://www.facebook.com/metropolitanuniversity"" class=""w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-lg hover:bg-[#ea1d22] hover:border-[#ea1d22] transition-all duration-300""><i class=""bi bi-facebook""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://metrouni.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.bg-white\/5.hover\:bg-\[\#ea1d22\].hover\:border-\[\#ea1d22\]:nth-child(2),"<a href=""https://www.youtube.com/MetropolitanUniversityBangladesh"" class=""w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-lg hover:bg-[#ea1d22] hover:border-[#ea1d22] transition-all duration-300""><i class=""bi bi-youtube""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://metrouni.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.bg-white\/5.hover\:bg-\[\#ea1d22\].hover\:border-\[\#ea1d22\]:nth-child(3),"<a href=""#"" class=""w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-lg hover:bg-[#ea1d22] hover:border-[#ea1d22] transition-all duration-300""><i class=""bi bi-linkedin""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://metrouni.edu.bd/,violation,listitem,serious,Ensure <li> elements are used semantically,<li> elements must be contained in a <ul> or <ol>,https://dequeuniversity.com/rules/axe/4.13/listitem?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,.nav-item.flex-fill:nth-child(1),"<li class=""nav-item flex-fill text-center"">
+            <button class=""nav-link active w-100"" data-bs-toggle=""pill"" data-bs-target=""#sst"" type=""button"">Science</button>
+          </li>","Fix any of the following:
+  List item parent element has a role that is not role=""list""",serious,1
+https://metrouni.edu.bd/,violation,listitem,serious,Ensure <li> elements are used semantically,<li> elements must be contained in a <ul> or <ol>,https://dequeuniversity.com/rules/axe/4.13/listitem?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,.nav-item.flex-fill:nth-child(2),"<li class=""nav-item flex-fill text-center"">
+            <button class=""nav-link w-100"" data-bs-toggle=""pill"" data-bs-target=""#sbe"" type=""button"">Business</button>
+          </li>","Fix any of the following:
+  List item parent element has a role that is not role=""list""",serious,2
+https://metrouni.edu.bd/,violation,listitem,serious,Ensure <li> elements are used semantically,<li> elements must be contained in a <ul> or <ol>,https://dequeuniversity.com/rules/axe/4.13/listitem?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,.nav-item.flex-fill:nth-child(3),"<li class=""nav-item flex-fill text-center"">
+            <button class=""nav-link w-100"" data-bs-toggle=""pill"" data-bs-target=""#sol"" type=""button"">Law</button>
+          </li>","Fix any of the following:
+  List item parent element has a role that is not role=""list""",serious,3
+https://metrouni.edu.bd/,violation,listitem,serious,Ensure <li> elements are used semantically,<li> elements must be contained in a <ul> or <ol>,https://dequeuniversity.com/rules/axe/4.13/listitem?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,.nav-item.flex-fill:nth-child(4),"<li class=""nav-item flex-fill text-center"">
+            <button class=""nav-link w-100"" data-bs-toggle=""pill"" data-bs-target=""#shss"" type=""button"">Humanities</button>
+          </li>","Fix any of the following:
+  List item parent element has a role that is not role=""list""",serious,4
+https://metrouni.edu.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html lang=""en"" class=""scroll-smooth"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://metrouni.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.py-2\.5,"<div class=""bg-[#14194b] text-white py-2.5 hidden lg:block"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://metrouni.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,input,"<input type=""text"" name=""q"" placeholder=""What are you looking for?"" class=""w-full bg-transparent border-b-2 border-white/20 text-white text-3xl lg:text-5xl font-bold py-4 outline-none focus:border-[#ea1d22] transition-colors placeholder:text-white/30"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://metrouni.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.text-white\/50,"<p class=""text-white/50 mt-6 font-bold uppercase tracking-widest text-xs"">Press Enter to Search</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.hero-img-container.active > .hero-overlay-content > div > p,"<p style=""color: white; font-size: 1.1rem; margin: 0; opacity: 0.9; max-width: 80%; line-height: 1.5;"">IELTS Partnership Programme Signing Ceremony Between British Council and Metropolitan University</p>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,1
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[data-slick-index=""2""] > .news-card-v3 > .news-content > h5 > a","<a href=""https://metrouni.edu.bd/sites/university/news/metropolitan-university-pioneers-future-tech-education-with-launch-of-bsc-hons-in-data-science"" tabindex=""0"">Metropolitan University Pioneers Future-Tech Education with Launch of BSc (Hons) in Data Science</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,2
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[data-slick-index=""2""] > .news-card-v3 > .news-content > .mb-0","<p class=""mb-0"">
+            <i class=""bi bi-calendar3 me-2""></i>16 Jan 2026
+          </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,3
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.slick-current > .news-card-v3 > .news-content > h5 > a,"<a href=""https://metrouni.edu.bd/sites/university/news/four-metropolitan-university-rover-scouts-receive-national-service-award"" tabindex=""0"">Four Metropolitan University Rover Scouts Receive National Service Award</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,4
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.slick-current > .news-card-v3 > .news-content > .mb-0,"<p class=""mb-0"">
+            <i class=""bi bi-calendar3 me-2""></i>16 Jan 2026
+          </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,5
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[data-slick-index=""4""] > .news-card-v3 > .news-content > h5 > a","<a href=""https://metrouni.edu.bd/sites/university/news/metropolitan-university-hosts-english-skills-programme"" tabindex=""0"">Metropolitan University hosts English skills programme</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,6
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[data-slick-index=""4""] > .news-card-v3 > .news-content > .mb-0","<p class=""mb-0"">
+            <i class=""bi bi-calendar3 me-2""></i>29 Apr 2026
+          </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,7
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.from-orange-50\/50 > .text-xl,"<h3 class=""text-xl font-bold text-slate-900 flex items-center"">
+          <span class=""w-2.5 h-6 bg-orange-500 rounded-full mr-3 shadow-[0_0_10px_rgba(249,115,22,0.4)]""></span> Announcements
+        </h3>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,8
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(1) > .inline-flex.text-\[11px\].hover\:text-orange-700 > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,9
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(2) > .inline-flex.text-\[11px\].hover\:text-orange-700 > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,10
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-6.hover\:border-orange-400.border-l-2:nth-child(3) > .inline-flex.text-\[11px\].hover\:text-orange-700 > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,11
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.from-green-50\/50 > .text-xl,"<h3 class=""text-xl font-bold text-slate-900 flex items-center"">
+          <span class=""w-2.5 h-6 bg-green-500 rounded-full mr-3 shadow-[0_0_10px_rgba(34,197,94,0.4)]""></span> Upcoming Events
+        </h3>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,12
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(1) > .text-left > .text-green-600.mt-2.text-\[10px\] > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,13
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(2) > .text-left > .text-green-600.mt-2.text-\[10px\] > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,14
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.border-transparent.hover\:border-green-100.hover\:bg-green-50\/50:nth-child(3) > .text-left > .text-green-600.mt-2.text-\[10px\] > .ml-1.group-hover\:translate-x-1.transition-transform,"<span class=""ml-1 group-hover:translate-x-1 transition-transform"">→</span>","Fix any of the following:
+  Element content contains only non-text characters",serious,15
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.from-blue-50\/80 > div > .text-2xl,"<h3 class=""text-2xl font-black text-slate-900 flex items-center"">
+            <span class=""w-3 h-8 bg-blue-600 rounded-full mr-4 shadow-[0_0_15px_rgba(37,99,235,0.4)]""></span> Accreditation, Membership and Collaboration
+          </h3>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,16
+https://metrouni.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.ml-7,"<p class=""text-sm text-slate-500 mt-1 ml-7 font-medium"">Recognized by global standards and elite educational institutions</p>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,17

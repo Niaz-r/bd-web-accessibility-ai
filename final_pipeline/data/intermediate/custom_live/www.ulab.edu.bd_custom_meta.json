@@ -1,0 +1,7 @@
+{
+  "requested_url": "https://www.ulab.edu.bd",
+  "status_code": null,
+  "analyzable": false,
+  "error": "HTTPSConnectionPool(host='www.ulab.edu.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.ulab.edu.bd', port=443): Failed to resolve 'www.ulab.edu.bd' ([Errno -3] Temporary failure in name resolution)\"))",
+  "finding_count": 0
+}

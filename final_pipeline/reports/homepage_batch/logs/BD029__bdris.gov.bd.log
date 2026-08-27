@@ -1,0 +1,348 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://bdris.gov.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://bdris.gov.bd/
+Status: 200
+Analyzable: True
+Findings: 1
+
+issue_category      issue severity selector
+       heading missing_h1     high         
+
+CSV: final_pipeline/data/intermediate/custom_live/bdris.gov.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/bdris.gov.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://bdris.gov.bd/
+HTTP status: 200
+Final URL: https://bdris.gov.bd/
+Page title: হোমপেজ
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 6
+Violation nodes: 11
+Incomplete rules: 0
+Incomplete nodes: 0
+Passed rules: 23
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 5
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: a[href$="login"]
+  HTML: <a href="/login" class="btn">
+  Selector: a[onclick="languageChange('en')"]
+  HTML: <a onclick="languageChange('en')" class="btn">English</a>
+  Selector: .dropdown.yamm-fw:nth-child(2) > a[href$="application"]
+  HTML: <a class=" " href="/br/application">জন্ম নিবন্ধন</a>
+
+image-alt | impact: critical | nodes: 1
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: #imageSlider
+  HTML: <img class="logo" style="" id="imageSlider" src="/images/logo/logo.png" width="80px" height="80px">
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+link-name | impact: serious | nodes: 1
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: a[href="#"]
+  HTML: <a href="#"> <img class="logo" style="" id="imageSlider" src="/images/logo/logo.png" width="80px" height="80px"> </a>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+region | impact: moderate | nodes: 2
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: body > .container-fluid:nth-child(1)
+  HTML: <div class="container-fluid">
+  Selector: .main-content > .row
+  HTML: <div class="row">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/bdris.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/bdris.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 1
+Axe nodes: 11
+
+Axe result types:
+result_type
+violation    11
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only       11
+custom_only     1
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    12
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/bdris.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://bdris.gov.bd/
+Unified findings: 12
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/bdris.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/bdris.gov.bd__context_findings.csv
+Total unified findings: 12
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+Unified findings: 12
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only       11
+custom_only     1
+
+Priority:
+priority
+High        7
+Medium      4
+Critical    1
+
+Categories:
+category
+Color contrast    5
+Other             2
+Landmarks         2
+Headings          1
+Images            1
+Links             1
+
+Top rules:
+primary_rule
+color-contrast          5
+region                  2
+missing_h1              1
+image-alt               1
+landmark-one-main       1
+link-name               1
+page-has-heading-one    1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/bdris.gov.bd__recommendations.csv
+final_pipeline/reports/live/bdris.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://bdris.gov.bd/
+
+Host:
+bdris.gov.bd
+
+Output stem:
+bdris.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://bdris.gov.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/bdris.gov.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/bdris.gov.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+bdris.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://bdris.gov.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/bdris.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/bdris.gov.bd__axe.json
+Rendered URL: https://bdris.gov.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/bdris.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/bdris.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/bdris.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/bdris.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/bdris.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/bdris.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://bdris.gov.bd/
+
+Analysis stem:
+bdris.gov.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/bdris.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/bdris.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/bdris.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/bdris.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/bdris.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

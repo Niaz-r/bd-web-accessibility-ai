@@ -1,0 +1,3 @@
+variable,groups,n,H_statistic,p_value,epsilon_squared,significant_at_0.05
+mean_accessibility_score,4,63,4.943761437352853,0.1759618318198665,0.03294510910767547,False
+mean_issues_per_page,4,63,5.306951814149083,0.15065193394636595,0.039100878205916664,False

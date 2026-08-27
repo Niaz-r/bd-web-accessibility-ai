@@ -1,0 +1,7 @@
+{
+  "requested_url": "https://moxa.gov.bd",
+  "status_code": null,
+  "analyzable": false,
+  "error": "HTTPSConnectionPool(host='moxa.gov.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='moxa.gov.bd', port=443): Failed to resolve 'moxa.gov.bd' ([Errno -2] Name or service not known)\"))",
+  "finding_count": 0
+}

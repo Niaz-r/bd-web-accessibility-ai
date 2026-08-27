@@ -1,0 +1,625 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.features-style-2.edublink-svg-animate.features-box:nth-child(1) > .content > h5,"<h5 class=""title""><a class=""text-white"" href=""https://admission.wub.edu.bd/admission/programs"" target=""_blank""><span>Top</span>Faculties</a></h5>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""100""] > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/academics/world_school_of_business"">World school of business</a></h5>","Fix any of the following:
+  Heading order invalid",moderate,2
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.color-secondary-style.features-box:nth-child(1) > .news > .news-title > a > h5,<h5>Invitation to Attend the Workshop on “English in Electronic Media &amp; AV Production”</h5>,"Fix any of the following:
+  Heading order invalid",moderate,3
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,"div[aria-label=""3 / 5""] > .testimonial-grid > .content > h5","<h5 class=""title"">QS Asian University Ranking</h5>","Fix any of the following:
+  Heading order invalid",moderate,4
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/main/activities_details/696"">
+                                        WUB and UNESCO Bangladesh Explore Strategic                                    </a></h5>","Fix any of the following:
+  Heading order invalid",moderate,5
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counterup-box-1 > .edu-counterup.counterup-style-2:nth-child(1) > h6,"<h6 class=""title"">GRADUATES STUDENTS</h6>","Fix any of the following:
+  Heading order invalid",moderate,6
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counterup-box-1 > .edu-counterup.counterup-style-2:nth-child(2) > h6,"<h6 class=""title"">EMPLOYEES &amp; ACADEMICS</h6>","Fix any of the following:
+  Heading order invalid",moderate,7
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counterup-box-2 > .edu-counterup.counterup-style-2:nth-child(1) > h6,"<h6 class=""title"">PROGRAMMES</h6>","Fix any of the following:
+  Heading order invalid",moderate,8
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counterup-box-2 > .edu-counterup.counterup-style-2:nth-child(2) > h6,"<h6 class=""title"">STUDENTS PER YEAR ADMISSION</h6>","Fix any of the following:
+  Heading order invalid",moderate,9
+https://wub.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,"div[aria-label=""4 / 8""] > .testimonial-slide > .content > .info > h5","<h5 class=""title"">Bayazid Bostame Sony</h5>","Fix any of the following:
+  Heading order invalid",moderate,10
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.wub-text > img,"<img src=""https://wub.edu.bd/assets/images/wub-text.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""acbsp.org/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/ACBSP.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""iau-aiu.net/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/IAU.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""ieee.org/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/IEEE.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".brand-grid:nth-child(4) > a[target=""_blank""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/ITU.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""acu.ac.uk/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/ACU.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""aacsb.edu/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/AACSB.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,7
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""auap.net/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/AUAP.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,8
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""amdisa.org/""] > .img-fluid","<img src=""https://wub.edu.bd/assets/images/partners/AMDISA.png"" class=""img-fluid"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,9
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(1) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/student-eligibility-icon.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,10
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(2) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/admission-period-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,11
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(3) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/tuition-fees-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,12
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(4) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/scholarship-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,13
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(5) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/program-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,14
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".box-item:nth-child(6) > a > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/how-to-apply-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,15
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""apply.wub.edu.bd/""] > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/apply-now-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,16
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"a[href$=""contact/""] > img[width=""100%""]","<img width=""100%"" src=""https://wub.edu.bd/assets/images/admission-contact-icon.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,17
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.ad-hov,"<img class=""ad-hov"" src=""https://wub.edu.bd/assets/images/admission-info.jpg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,18
+https://wub.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"img[width=""25""]","<img src=""https://wub.edu.bd/assets/close-icon.png"" width=""25"" style=""float:right; margin-right: -25px; margin-top: -20px;"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,19
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""acbsp.org/""]","<a href=""https://acbsp.org/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/ACBSP.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""iau-aiu.net/""]","<a href=""https://www.iau-aiu.net/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/IAU.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""ieee.org/""]","<a href=""https://www.ieee.org/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/IEEE.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".brand-grid:nth-child(4) > a[target=""_blank""]","<a href=""https://www.itu.int/en/Pages/default.aspx"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/ITU.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""acu.ac.uk/""]","<a href=""https://www.acu.ac.uk/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/ACU.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""aacsb.edu/""]","<a href=""https://www.aacsb.edu/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/AACSB.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""auap.net/""]","<a href=""http://auap.net/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/AUAP.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""amdisa.org/""]","<a href=""https://www.amdisa.org/"" target=""_blank""> <img src=""https://wub.edu.bd/assets/images/partners/AMDISA.png"" class=""img-fluid""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.close,"<a href=""#"" class=""close agree"">
+            <img src=""https://wub.edu.bd/assets/close-icon.png"" width=""25"" style=""float:right; margin-right: -25px; margin-top: -20px;"">
+        </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.color-fb,"<a href=""https://www.facebook.com/wubedubd/"" class=""color-fb""><i class=""icon-facebook""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.color-ig,"<a href=""https://www.pinterest.com/wubedubd/?autologin=true&amp;etslf=10758&amp;eq=world%20univ"" class=""color-ig""><i class=""icon-instagram""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.color-linkd,"<a href=""https://www.linkedin.com/school/world-university-of-bangladesh/"" class=""color-linkd""><i class=""icon-linkedin2""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.color-twitter,"<a href=""https://twitter.com/worldunibd"" class=""color-twitter""><i class=""icon-twitter""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://wub.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.color-yt,"<a href=""https://www.youtube.com/channel/UCYTLrU3XLyEnZOq64gc9JWg"" class=""color-yt""><i class=""icon-youtube""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.hero-banner,"<div class=""hero-banner hero-style-2 bg-image"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.features-area-2,"<div class=""features-area-2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edu-categorie-area,"<div class=""edu-categorie-area categorie-area-2 edu-section-gap bg-lighten01"" style=""padding-bottom: 120px"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".edu-event-area.event-area-1.gap-large-text:nth-child(5) > .edublink-animated-shape.container > .section-center.section-title[data-sal-delay=""150""]","<div class=""section-title section-center"" data-sal-delay=""150"" data-sal=""slide-up"" data-sal-duration=""800"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""100""] > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">
+                            <a href=""https://wub.edu.bd/academics/world_school_of_business"">
+                                <img src=""https://wub.edu.bd/assets/images/business.jpg"" alt=""Blog Images"">
+                            </a>
+                        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""100""] > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/academics/world_school_of_business"">World school of business</a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""100""] > .edu-event.event-style-1 > .inner > .content > p","<p>The World School of Business (WSB) is a premier institution offering undergraduate and graduate programs in management and entrepreneurship. With a focus on experiential learning, WSB prepares students for successful careers in the dynamic global business landscape.</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""200""] > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">
+                            <a href=""https://wub.edu.bd/academics/faculty_of_arts_and_humanities"">
+                                <img src=""https://wub.edu.bd/assets/images/arts.jpg"" alt=""Blog Images"">
+                            </a>
+                        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""200""] > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/academics/faculty_of_arts_and_humanities"">Faculty of arts and humanities</a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""200""] > .edu-event.event-style-1 > .inner > .content > p","<p>The Faculty of Arts and Humanities is an academic division offering a range of undergraduate and graduate programs in the fields of arts, humanities, and social sciences. The faculty is known for its exceptional faculty members and commitment to research and intellectual pursuits.</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(3) > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">
+                            <a href=""https://wub.edu.bd/academics/faculty_of_science"">
+                                <img src=""https://wub.edu.bd/assets/images/science2.jpg"" alt=""Blog Images"">
+                            </a>
+                        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/academics/faculty_of_science"">Faculty of science</a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > p","<p>The Faculty of Science offers a diverse range of programs in science, technology and mathematics. With state-of-the-art facilities and expert faculty, it prepares students for careers in cutting-edge industries and in fields that drive innovation and discovery.</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(4) > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">
+                            <a href=""https://wub.edu.bd/academics/faculty_of_science_and_engineering"">
+                                <img src=""https://wub.edu.bd/assets/images/science.jpg"" alt=""Blog Images"">
+                            </a>
+                        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(4) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/academics/faculty_of_engineering"">Faculty of engineering</a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".col-lg-3.mb-4[data-sal-delay=""300""]:nth-child(4) > .edu-event.event-style-1 > .inner > .content > p","<p>The Faculty of Engineering offers a diverse range of programs in engineering and related technological fields. With state-of-the-art facilities and expert faculty, it prepares students for careers in cutting-edge industries that drive innovation and technological advancement.</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edu-event-area.event-area-1.gap-large-text:nth-child(5) > .edublink-animated-shape.container > .shape-group,"<ul class=""shape-group"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edu-campus-area,"<div class=""edu-campus-area gap-lg-top-equal gap-bottom-equal bg-lighten01"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-lg-5,"<div class=""col-lg-5"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"div[aria-label=""3 / 5""]","<div class=""swiper-slide swiper-slide-active"" data-swiper-slide-index=""2"" role=""group"" aria-label=""3 / 5"" style=""width: 345.5px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,20
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".swiper-slide-next[aria-label=""4 / 5""][data-swiper-slide-index=""3""]","<div class=""swiper-slide swiper-slide-next"" data-swiper-slide-index=""3"" role=""group"" aria-label=""4 / 5"" style=""width: 345.5px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,21
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".testimonial-area-1 > .container > .event-view-all-btn[data-sal-duration=""1200""][data-sal-delay=""150""]","<div class=""event-view-all-btn"" data-sal-delay=""150"" data-sal=""slide-up"" data-sal-duration=""1200"">
+            <h6 class=""view-text""><a href=""https://wub.edu.bd/main/wub_ranking"" class=""btn btn-outline-info"">Explore Our Ranking Achievements Here</a></h6>
+        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,22
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.scenic-beauty-wrapper,"<div class=""scenic-beauty-wrapper"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,23
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".edu-event-area.event-area-1.gap-large-text:nth-child(9) > .edublink-animated-shape.container > .section-center.section-title[data-sal-delay=""150""]","<div class=""section-title section-center"" data-sal-delay=""150"" data-sal=""slide-up"" data-sal-duration=""800"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,24
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,25
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .content > .event-date","<div class=""event-date"">
+                                    <span class=""day"">24</span>
+                                    <span class=""month"">Aug</span>
+                                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,26
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/main/activities_details/696"">
+                                        WUB and UNESCO Bangladesh Explore Strategic                                    </a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,27
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .content > p",<p>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,28
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(1) > .edu-event.event-style-1 > .inner > .content > .event-meta","<ul class=""event-meta"">
+                                    <li><i class=""fas fa-calendar""></i>Published : 24 August, 2026</li>
+                                </ul>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,29
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(2) > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,30
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(2) > .edu-event.event-style-1 > .inner > .content > .event-date","<div class=""event-date"">
+                                    <span class=""day"">04</span>
+                                    <span class=""month"">Aug</span>
+                                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,31
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(2) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/main/activities_details/693"">
+                                        WUB Career Counselling Center Organizes                                    </a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,32
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(2) > .edu-event.event-style-1 > .inner > .content > p",<p>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,33
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(2) > .edu-event.event-style-1 > .inner > .content > .event-meta","<ul class=""event-meta"">
+                                    <li><i class=""fas fa-calendar""></i>Published : 06 August, 2026</li>
+                                </ul>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,34
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(3) > .edu-event.event-style-1 > .inner > .thumbnail","<div class=""thumbnail"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,35
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > .event-date","<div class=""event-date"">
+                                    <span class=""day"">31</span>
+                                    <span class=""month"">Jul</span>
+                                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,36
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > h5","<h5 class=""title""><a href=""https://wub.edu.bd/main/activities_details/692"">
+                                        World University of Bangladesh Organizes                                    </a></h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,37
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > p",<p>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,38
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".mb-4.col-lg-4[data-sal-delay=""100""]:nth-child(3) > .edu-event.event-style-1 > .inner > .content > .event-meta","<ul class=""event-meta"">
+                                    <li><i class=""fas fa-calendar""></i>Published : 04 August, 2026</li>
+                                </ul>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,39
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".edublink-animated-shape.container > .event-view-all-btn[data-sal-duration=""1200""][data-sal-delay=""150""]","<div class=""event-view-all-btn"" data-sal-delay=""150"" data-sal=""slide-up"" data-sal-duration=""1200"">
+            <h6 class=""view-text""><a href=""https://wub.edu.bd/main/all_activities"" class=""btn-transparent"">View All News<i class=""icon-4""></i></a></h6>
+        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,40
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edu-event-area.event-area-1.gap-large-text:nth-child(9) > .edublink-animated-shape.container > .shape-group,"<ul class=""shape-group"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,41
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.counterup-area-2,"<div class=""counterup-area-2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,42
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edu-brand-area,"<div class=""edu-brand-area brand-area-1 gap-top-equal mb-5"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,43
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.edublink-animated-shape.container > .justify-content-center.row,"<div class=""row justify-content-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,44
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"div[aria-label=""4 / 8""]","<div class=""swiper-slide swiper-slide-active"" data-swiper-slide-index=""3"" role=""group"" aria-label=""4 / 8"" style=""width: 385px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,45
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"div[aria-label=""5 / 8""]","<div class=""swiper-slide swiper-slide-next"" data-swiper-slide-index=""4"" role=""group"" aria-label=""5 / 8"" style=""width: 385px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,46
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".swiper-slide[data-swiper-slide-index=""5""][aria-label=""6 / 8""]:nth-child(9)","<div class=""swiper-slide"" data-swiper-slide-index=""5"" role=""group"" aria-label=""6 / 8"" style=""width: 385px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,47
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".testimonial-area-8 > .event-view-all-btn[data-sal-duration=""1200""][data-sal-delay=""150""]","<div class=""event-view-all-btn"" data-sal-delay=""150"" data-sal=""slide-up"" data-sal-duration=""1200"">
+        <h6 class=""view-text""><a href=""https://wub.edu.bd/main/all_student_review"" class=""btn-transparent"">View All<i class=""icon-4""></i></a></h6>
+    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,48
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.left-slider-box,"<div class=""left-slider-box"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,49
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.close,"<a href=""#"" class=""close agree"">
+            <img src=""https://wub.edu.bd/assets/close-icon.png"" width=""25"" style=""float:right; margin-right: -25px; margin-top: -20px;"">
+        </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,50
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#enquiryForm > h4,"<h4 style=""text-align: center"">Enquiry Form</h4>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,51
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(1)","<div style=""margin-bottom: 15px;"">
+                        <input type=""text"" name=""name"" placeholder=""Enter Name *"" style=""width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;"" required="""">
+                    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,52
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(2)","<div style=""margin-bottom: 15px;"">
+                        <input type=""email"" name=""email"" placeholder=""Enter Email Address *"" style=""width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;"" required="""">
+                    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,53
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(3)","<div style=""margin-bottom: 15px; display: flex; gap: 5px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,54
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(4)","<div style=""display: flex; gap: 10px; margin-bottom: 15px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,55
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(5)","<div style=""margin-bottom: 15px;"">
+                        <textarea name=""query"" placeholder=""Enter Query"" rows=""3"" style=""width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;""></textarea>
+                    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,56
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"iframe[title=""reCAPTCHA""] .rc-inline-block:nth-child(1)","<div class=""rc-inline-block"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,57
+https://wub.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"form[action=""https://wub.edu.bd/""] > div > div:nth-child(7)","<div style=""margin-bottom: 20px; display: flex; align-items: flex-start; gap: 10px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,58
+https://wub.edu.bd/,violation,select-name,critical,Ensure select element has an accessible name,Select element must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,div:nth-child(3) > select,"<select style=""width: 80px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;"">
+                            <option>+880</option>
+                        </select>","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://wub.edu.bd/,violation,select-name,critical,Ensure select element has an accessible name,Select element must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#courseSelect,"<select id=""courseSelect"" style=""width: 50%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;"">","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://wub.edu.bd/,violation,select-name,critical,Ensure select element has an accessible name,Select element must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#specializationSelect,"<select id=""specializationSelect"" style=""width: 50%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;"">
+                            <option value="""">Select Specialization *</option>
+                        </select>","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://wub.edu.bd/,incomplete,aria-allowed-role,minor,Ensure role attribute has an appropriate value for the element,ARIA role should be appropriate for the element,https://dequeuniversity.com/rules/axe/4.13/aria-allowed-role?application=playwright,best-practice,"iframe[title=""reCAPTCHA""] #recaptcha-anchor-label","<label class=""rc-anchor-center-item rc-anchor-checkbox-label"" aria-hidden=""true"" role=""presentation"" id=""recaptcha-anchor-label""><span aria-live=""polite"" aria-labelledby=""recaptcha-accessible-status""></span>I'm not a robot</label>","Fix any of the following:
+  ARIA role presentation must be removed when the element is made visible, as it is not allowed for the element",minor,1
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.header-notify,"<div class=""header-notify"">
+                            QUESTION? CALL: 09643204060 Ext: 111-114
+                        </div>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,1
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.header-info > li:nth-child(1) > a,"<a href=""https://wub.edu.bd/main/wub_faculty"">Faculty</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(2) > a[href$=""jobs.wub.edu.bd/""]","<a href=""https://jobs.wub.edu.bd/"">Career</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,3
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.header-info > li:nth-child(3) > a,"<a href=""https://wub.edu.bd/main/student_support"">Student Support</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,4
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.header-info > li:nth-child(4) > a,"<a href=""https://wub.edu.bd/alumni/alumni_registration_form"">Alumni</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,5
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"nav > .mainmenu > .has-droupdown:nth-child(1) > a[href=""#""]","<a href=""#"">About</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,6
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"nav > .mainmenu > .has-droupdown:nth-child(2) > a[href$=""admission.wub.edu.bd/""]","<a href=""https://admission.wub.edu.bd/"">Admission</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,7
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"nav > .mainmenu > .has-droupdown:nth-child(3) > a[href=""#""]","<a href=""#"">Academics</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,8
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"nav > .mainmenu > .has-droupdown:nth-child(4) > a[href=""""]","<a href="""">Students</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,9
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"nav > .mainmenu > .has-droupdown:nth-child(5) > a[href=""#""]","<a href=""#"">Research &amp; publications</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,10
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(6) > a[href$=""library.wub.edu.bd/""]","<a href=""https://library.wub.edu.bd/"">Library</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,11
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(7) > a[href$=""contact""]","<a href=""https://wub.edu.bd/contact"">Contact</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,12
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,h1,"<h1 class=""title sal-animate"" data-sal-delay=""100"" data-sal=""slide-up"" data-sal-duration=""1000"">From Classroom to Career: Programs Designed for Your Success</h1>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,13
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".sal-animate[data-sal-delay=""200""][data-sal-duration=""1000""]","<p data-sal-delay=""200"" data-sal=""slide-up"" data-sal-duration=""1000"" class=""sal-animate"">Gain practical skills and knowledge through our programs, bridging the gap from classroom learning to a successful career.</p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,14
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.banner-btn > .edu-btn,"<a style=""background: #0054a6"" href=""https://admission.wub.edu.bd/admission/scholarship"" class=""edu-btn"">Get Scholarship <i class=""icon-4""></i></a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,15
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(1) > .content > h5 > .text-white[target=""_blank""]","<a class=""text-white"" href=""https://admission.wub.edu.bd/admission/programs"" target=""_blank""><span>Top</span>Faculties</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,16
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(1) > .content > h5 > .text-white[target=""_blank""] > span",<span>Top</span>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,17
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(2) > .content > h5 > .text-white[target=""_blank""]","<a class=""text-white"" href=""https://wub.edu.bd/about/awards_and_achievements"" target=""_blank""><span>Performance</span>Awards</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,18
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(2) > .content > h5 > .text-white[target=""_blank""] > span",<span>Performance</span>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,19
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(3) > .content > h5 > .text-white[target=""_blank""]","<a class=""text-white"" href=""https://admission.wub.edu.bd/admission/scholarship"" target=""_blank""><span>Scholarship</span>Facility</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,20
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".features-style-2.edublink-svg-animate.features-box:nth-child(3) > .content > h5 > .text-white[target=""_blank""] > span",<span>Scholarship</span>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,21
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".text-white[href$=""student.wub.edu.bd/""][target=""_blank""]","<a class=""text-white"" href=""https://student.wub.edu.bd/"" target=""_blank""><span>Student</span> Portal</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,22
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".text-white[href$=""student.wub.edu.bd/""][target=""_blank""] > span",<span>Student</span>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,23
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""3 / 5""] > .testimonial-grid > .content > h5","<h5 class=""title"">QS Asian University Ranking</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,24
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""3 / 5""] > .testimonial-grid > .content > .mt-2","<p class=""mt-2"">World University of Bangladesh (WUB) proudly takes the global spotlight as it secures a distinguished position in the QS Asian University Rankings.</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,25
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-next[aria-label=""4 / 5""][data-swiper-slide-index=""3""] > .testimonial-grid > .content > h5","<h5 class=""title"">QS World University Ranking</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,26
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-next[aria-label=""4 / 5""][data-swiper-slide-index=""3""] > .testimonial-grid > .content > .mt-2","<p class=""mt-2"">The QS World University Rankings highlight global excellence in higher education, and WUB’s inclusion reflects its growing academic impact.</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,27
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.video-layout > h2,<h2>THE SCENIC BEAUTY OF</h2>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,28
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.wub-text > span,"<span style=""color: #FFFFFF;font-size: 1.6rem;font-weight: 500;font-family: 'OpenSans-Bold';line-height: 1.2rem;"">OF BANGLADESH</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,29
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.primary-color > span,<span>20000+</span>,"Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,30
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counterup-box-1 > .edu-counterup.counterup-style-2:nth-child(1) > h6,"<h6 class=""title"">GRADUATES STUDENTS</h6>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,31
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.secondary-color > span,<span>350+</span>,"Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,32
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counterup-box-1 > .edu-counterup.counterup-style-2:nth-child(2) > h6,"<h6 class=""title"">EMPLOYEES &amp; ACADEMICS</h6>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,33
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.extra05-color > span,<span>25+</span>,"Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,34
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counterup-box-2 > .edu-counterup.counterup-style-2:nth-child(1) > h6,"<h6 class=""title"">PROGRAMMES</h6>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,35
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.extra02-color > span,<span>3000+</span>,"Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,36
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counterup-box-2 > .edu-counterup.counterup-style-2:nth-child(2) > h6,"<h6 class=""title"">STUDENTS PER YEAR ADMISSION</h6>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,37
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""4 / 8""] > .testimonial-slide > .content > p","<p>
+                                    World University of Bangladesh, one of the leading university of Bangladesh.This University is UGC approved and one of the well-known university.The                                </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,38
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""4 / 8""] > .testimonial-slide > .content > .info > h5","<h5 class=""title"">Bayazid Bostame Sony</h5>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,39
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""4 / 8""] > .testimonial-slide > .content > .info > .subtitle","<span class=""subtitle"">Department of Computer Science &amp; Engineering</span>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,40
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""5 / 8""] > .testimonial-slide > .content > p","<p>
+                                    Hello, this is Anwara Binte Amzad. I am from Dhanmondi, Dhaka. I feel so proud to be a student of English department of World University of                                </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,41
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""5 / 8""] > .testimonial-slide > .content > .info > h5","<h5 class=""title"">Anawara Binte Amzad</h5>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,42
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""5 / 8""] > .testimonial-slide > .content > .info > .subtitle","<span class=""subtitle"">Department of English</span>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,43
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[data-swiper-slide-index=""5""][aria-label=""6 / 8""]:nth-child(9) > .testimonial-slide > .content > p","<p>
+                                    By learning Mechatronics Engineering, I become competent in many areas &amp; performing well. Mechatronics includes a combination of Mechanical                                </p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,44
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[data-swiper-slide-index=""5""][aria-label=""6 / 8""]:nth-child(9) > .testimonial-slide > .content > .info > h5","<h5 class=""title"">Mr. Al Amin</h5>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,45
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[data-swiper-slide-index=""5""][aria-label=""6 / 8""]:nth-child(9) > .testimonial-slide > .content > .info > .subtitle","<span class=""subtitle"">Department of Mechatronics Engineering</span>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,46
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.btn-info,"<button style=""font-weight: bold"" class=""btn btn-info btn-admission-enquiry"">Admission Enquiry</button>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,47
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,label,"<label for=""agreeCheckbox"" style=""font-size: 12px; line-height: 1.4; color: #333;"">
+                            I agree to receive information regarding my submitted enquiry by signing up on World University of Bangladesh *
+                        </label>","Fix any of the following:
+  Element's background color could not be determined because it partially overlaps other elements",serious,48
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(1) > .explore-widget.edu-footer-widget > .widget-title,"<h4 class=""widget-title"">IMPORTANT LINKS</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,49
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(1) > a[href$=""admission.wub.edu.bd/""]","<a href=""https://admission.wub.edu.bd/""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Admission Period</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,50
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(1) > .explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(2) > a,"<a href=""https://admission.wub.edu.bd/admission/programs""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Program</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,51
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(1) > .explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(3) > a,"<a href=""https://admission.wub.edu.bd/admission/admission_eligibilities""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Admission Eligibilities</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,52
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(1) > .explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(4) > a,"<a href=""https://admission.wub.edu.bd/admission/tuition_fees""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Tuition Fees</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,53
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(1) > .explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(5) > a,"<a href=""https://admission.wub.edu.bd/admission/scholarship""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Scholarship and Waiver</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,54
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(6) > a,"<a href=""https://admission.wub.edu.bd/admission/how_to_apply""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> How to apply</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,55
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.explore-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(7) > a,"<a href=""https://wub.edu.bd/main/all_notice""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Notice</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,56
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer-link.link-hover > li:nth-child(8) > a[href$=""contact""]","<a href=""https://wub.edu.bd/contact""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Feedback From</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,57
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(9) > a[href$=""visitor""]","<a href=""https://wub.edu.bd/visitor""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Visitor Appointment</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,58
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-lg-3.mb-4:nth-child(2) > .explore-widget.edu-footer-widget > .widget-title,"<h4 class=""widget-title"">EXTERNAL LINKS</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,59
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""ugc.gov.bd/""]","<a href=""http://www.ugc.gov.bd/"" target=""_blank""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> University Grants Commission</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,60
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""moedu.gov.bd/""]","<a href=""https://moedu.gov.bd/"" target=""_blank""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Ministry of Education</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,61
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(3) > a[target=""_blank""]","<a href=""http://ijeds.org/index.php?journal=ijeds"" target=""_blank""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> IJEDS</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,62
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""grammarly.com/""][target=""_blank""]","<a href=""https://www.grammarly.com/"" target=""_blank""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> grammarly.com</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,63
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""scholar.google.com/""][target=""_blank""]","<a href=""https://scholar.google.com/"" target=""_blank""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> scholar.google.com</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,64
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-lg-3.mb-4:nth-child(3) > .quick-link-widget.edu-footer-widget > .widget-title,"<h4 class=""widget-title"">USEFUL LINKS</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,65
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-lg-3.mb-4:nth-child(3) > .quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(1) > a,"<a href=""https://wub.edu.bd/academics/academic_calendar""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Academic Calendar</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,66
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".footer-link.link-hover > li:nth-child(2) > a[href$=""dsa.wub.edu.bd/""]","<a href=""https://dsa.wub.edu.bd/""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Student Affairs</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,67
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-lg-3.mb-4:nth-child(3) > .quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(3) > a,"<a href=""https://convocation.wub.edu.bd/""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Convocation</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,68
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-lg-3.mb-4:nth-child(3) > .quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(4) > a,"<a href=""https://wub.edu.bd/main/wub_teachers""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Our Teachers</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,69
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(5) > a,"<a href=""https://wub.edu.bd/all_activities""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Activities</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,70
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(6) > a[href$=""jobs.wub.edu.bd/""]","<a href=""https://jobs.wub.edu.bd/""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Jobs @WUB</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,71
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(7) > a,"<a href=""https://wub.edu.bd/main/about_iqac""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> IQAC</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,72
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(8) > a,"<a href=""https://wub.edu.bd/main/waste_disposal_policy""><i class=""fa fa-angle-double-right"" aria-hidden=""true""></i> Waste Disposal Policy</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,73
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(4) > .quick-link-widget.edu-footer-widget > .widget-title,"<h4 class=""widget-title"">CONTACT US</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,74
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""mailto:info@wub.edu.bd""]","<a href=""mailto:info@wub.edu.bd""><i class=""icon-envelope""></i> info@wub.edu.bd</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,75
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href=""tel:+8809643204060""]","<a href=""tel:+8809643204060""><i class=""icon-71""></i> +8809643204060, Ext. (111 - 114)</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,76
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href=""tel:+8801969994555""]","<a href=""tel:+8801969994555""><i class=""icon-71""></i> +880196-9994555</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,77
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(4) > a[target=""_blank""]","<a href=""//api.whatsapp.com/send?phone=8801404400217"" target=""_blank""><i class=""fab fa-whatsapp""></i> +8801404-400217</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,78
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-3.mb-4.col-md-6:nth-child(4) > .quick-link-widget.edu-footer-widget > .inner > .footer-link.link-hover > li:nth-child(5),"<li>
+                                    <i class=""icon-40""></i>
+                                    Avenue 6 Road &amp; Lake Drive Road, Sector # 17/H,Uttara, Dhaka-1230
+                                </li>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,79
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.get-social,"<li class=""get-social"">GET SOCIAL</li>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,80
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.form-control,"<input type=""email"" name=""email"" class=""form-control"" placeholder=""Your email"">","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,81
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.btn-medium,"<button style=""background: #0054a6"" class=""edu-btn btn-medium"" type=""submit"">Subscribe <i class=""icon-4""></i></button>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,82
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.inner > p,"<p>© Copyright <a href=""http://computinginfoservices.com/"">CIS</a> 2018 - 2026, All rights reserved.</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,83
+https://wub.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,p > a,"<a href=""http://computinginfoservices.com/"">CIS</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,84
+https://wub.edu.bd/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,p > a,"<a href=""http://computinginfoservices.com/"">CIS</a>","Fix any of the following:
+  Element's contrast ratio could not be determined because of element overlap",serious,1
+https://wub.edu.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,#myVideo,"<video autoplay="""" muted="""" loop="""" id=""myVideo"">
+            <source src=""https://wub.edu.bd/assets/images/Permanent-2.mp4"" type=""video/mp4"">
+        </video>","Fix all of the following:
+  Check that captions are available for the element",critical,1

@@ -1,0 +1,81 @@
+website_id,website_name,start_url,homepage_status,final_homepage_url,pages_collected,requests_attempted,http_403_count,failure_reason,possible_javascript_site
+BD001,University of Dhaka,https://www.du.ac.bd/,200.0,https://www.du.ac.bd/,10,11,0,,False
+BD002,Begum Rokeya University,https://www.brur.ac.bd/,200.0,https://www.brur.ac.bd/,10,11,0,,False
+BD003,University of Rajshahi,https://www.ru.ac.bd/,200.0,https://www.ru.ac.bd/,10,10,0,,False
+BD004,Bangladesh Agricultural University,https://bau.edu.bd/,200.0,https://bau.edu.bd/,10,10,0,,False
+BD005,Jahangirnagar University,https://juniv.edu/,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='juniv.edu', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='juniv.edu', port=443): Failed to resolve 'juniv.edu' ([Errno -3] Temporary failure in name resolution)""))",False
+BD006,atiya Kabi Kazi Nazrul Islam University (JKKNIU),https://www.jkkniu.edu.bd/,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='www.jkkniu.edu.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.jkkniu.edu.bd', port=443): Failed to resolve 'www.jkkniu.edu.bd' ([Errno -3] Temporary failure in name resolution)""))",False
+BD007,University of Barishal,https://bu.ac.bd/,200.0,https://bu.ac.bd/,10,11,0,,False
+BD008,Patuakhali Science and Technology University,https://pstu.ac.bd/,200.0,https://pstu.ac.bd/,10,10,0,,False
+BD009,University of Chittagong,https://cu.ac.bd/,200.0,https://cu.ac.bd/,10,10,0,,False
+BD010,Chittagong University of Engineering and Technology,https://cuet.ac.bd/,200.0,https://cuet.ac.bd/,10,10,0,,False
+BD011,North South University,https://www.northsouth.edu/,200.0,https://www.northsouth.edu/,10,10,0,,False
+BD012,BRAC University,https://www.bracu.ac.bd/,403.0,https://www.bracu.ac.bd/,0,1,1,HTTP 403,False
+BD013,"Independent University, Bangladesh",https://iub.ac.bd/,200.0,https://iub.ac.bd/,10,10,0,,False
+BD014,American International University-Bangladesh,https://www.aiub.edu/,200.0,https://www.aiub.edu/,10,10,0,,False
+BD015,East West University,https://www.ewubd.edu/,200.0,https://www.ewubd.edu/,10,11,0,,False
+BD016,bdnews24.com,https://bdnews24.com/,403.0,https://bdnews24.com/,0,1,1,HTTP 403,False
+BD017,Dhaka Post,https://www.dhakapost.com/,200.0,https://www.dhakapost.com/,1,38,37,,False
+BD018,Bangla Tribune,https://www.banglatribune.com/,200.0,https://www.banglatribune.com/,10,10,0,,False
+BD019,Risingbd,https://www.risingbd.com/,403.0,https://www.risingbd.com/,0,1,1,HTTP 403,False
+BD020,Barta24,https://barta24.com/,200.0,https://barta24.com/,2,2,0,,False
+BD021,The Daily Star,https://www.thedailystar.net/,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='www.thedailystar.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.thedailystar.net', port=443): Failed to resolve 'www.thedailystar.net' ([Errno -3] Temporary failure in name resolution)""))",False
+BD022,Amader Shomoy,https://www.dainikamadershomoy.com,200.0,https://www.dainikamadershomoy.com/,10,11,0,,False
+BD023,Jugantor,https://www.jugantor.com/,403.0,https://www.jugantor.com/,0,1,1,HTTP 403,False
+BD024,Bangladesh Pratidin,https://www.bd-pratidin.com/,403.0,https://www.bd-pratidin.com/,0,1,1,HTTP 403,False
+BD025,Prothomalo,https://www.prothomalo.com/,200.0,https://www.prothomalo.com/,10,11,0,,False
+BD026,E-Passport Portal,https://www.epassport.gov.bd/landing,200.0,https://www.epassport.gov.bd/landing,1,1,0,,False
+BD027,Bangladesh Railway Portal,https://eticket.railway.gov.bd/,200.0,https://eticket.railway.gov.bd/,1,1,0,Only one HTML shell page found; possible JavaScript-rendered site,True
+BD028,E-Visa Portal,https://visa.gov.bd/,200.0,https://visa.gov.bd/,10,10,0,,False
+BD029,Birth Registration Portal,https://bdris.gov.bd/,200.0,https://bdris.gov.bd/,1,11,10,,False
+BD030,Digital Land Management System,https://land.gov.bd/,200.0,https://land.gov.bd/,10,10,0,,False
+BD031,Jagannath University,https://www.jnu.ac.bd/,200.0,https://www.jnu.ac.bd/,10,11,0,,False
+BD032,Khulna University,https://ku.ac.bd/,200.0,https://ku.ac.bd/,10,10,0,,False
+BD033,Comilla University,https://www.cou.ac.bd/,200.0,https://www.cou.ac.bd/,10,11,0,,False
+BD034,Rabindra University,https://www.rub.ac.bd/,200.0,https://www.rub.ac.bd/,10,10,0,,False
+BD035,Dhaka University of Engineering & Technology (DUET),https://www.duet.ac.bd/,200.0,https://www.duet.ac.bd/,10,11,0,,False
+BD036,Bangladesh University of Textiles (BUTEX),https://www.butex.edu.bd/homepage/,200.0,https://www.butex.edu.bd/homepage,10,12,0,,False
+BD037,Noakhali Science & Technology University (NSTU),https://www.nstu.edu.bd/,200.0,https://www.nstu.edu.bd/,10,10,0,,False
+BD038,Sylhet Agricultural University (SAU),https://www.sau.ac.bd/,200.0,https://www.sau.ac.bd/,10,10,0,,False
+BD039,Pabna University of Science & Technology (PUST),https://pust.ac.bd/,200.0,https://pust.ac.bd/,10,10,0,,False
+BD040,Chittagong Veterinary and Animal Sciences University (CVASU),https://cvasu.ac.bd/,200.0,https://cvasu.ac.bd/,10,10,0,,False
+BD041,Jago News 24,https://www.jagonews24.com,403.0,https://www.jagonews24.com/,0,1,1,HTTP 403,False
+BD042,Banglanews24,https://www.banglanews24.com,403.0,https://www.banglanews24.com/,0,1,1,HTTP 403,False
+BD043,Naya Diganta,https://www.dailynayadiganta.com,200.0,https://www.dailynayadiganta.com/,10,11,0,,False
+BD044,Daily Samakal,https://samakal.com,200.0,https://samakal.com/,10,10,0,,False
+BD045,Daily Ittefaq,https://www.ittefaq.com.bd,200.0,https://www.ittefaq.com.bd/,10,11,0,,False
+BD046,Kaler Kantho,https://www.kalerkantho.com,403.0,https://www.kalerkantho.com/,0,1,1,HTTP 403,False
+BD047,Financial Express,https://thefinancialexpress.com.bd,200.0,https://thefinancialexpress.com.bd/,10,12,0,,False
+BD048,Bonik Barta,https://bonikbarta.net,200.0,https://www.bonikbarta.com/,5,7,0,,False
+BD049,The Business Standard,https://www.tbsnews.net,200.0,https://www.tbsnews.net/,10,11,0,,False
+BD050,Somoy News,https://www.somoynews.tv,403.0,https://www.somoynews.tv/,0,1,1,HTTP 403,False
+BD051,United International University,https://www.uiu.ac.bd,200.0,https://www.uiu.ac.bd/,10,12,0,,False
+BD052,Daffodil International University,https://daffodilvarsity.edu.bd,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='daffodilvarsity.edu.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='daffodilvarsity.edu.bd', port=443): Failed to resolve 'daffodilvarsity.edu.bd' ([Errno -3] Temporary failure in name resolution)""))",False
+BD053,Ahsanullah University of Science and Technology,https://www.aust.edu,200.0,https://www.aust.edu/,10,11,0,,False
+BD054,International Islamic University Chittagong,https://www.iiuc.ac.bd,200.0,https://www.iiuc.ac.bd/,10,12,0,,False
+BD055,University of Liberal Arts Bangladesh,https://www.ulab.edu.bd,200.0,https://www.ulab.edu.bd/,10,10,0,,False
+BD056,Southeast University,https://www.seu.edu.bd,200.0,https://seu.edu.bd/,1,1,0,Only one HTML shell page found; possible JavaScript-rendered site,True
+BD057,Stamford University Bangladesh,https://www.stamforduniversity.edu.bd,200.0,https://www.stamforduniversity.edu.bd/,10,11,0,,False
+BD058,Northern University Bangladesh,https://nub.ac.bd,522.0,https://nub.ac.bd/,0,1,0,HTTP 522,False
+BD059,University of Asia Pacific,https://www.uap-bd.edu,200.0,https://www.uap-bd.edu/,10,10,0,,False
+BD060,Eastern University,https://www.easternuni.edu.bd,200.0,https://www.easternuni.edu.bd/,10,12,0,,False
+BD061,Primeasia University,https://www.primeasia.edu.bd,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='www.primeasia.edu.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.primeasia.edu.bd', port=443): Failed to resolve 'www.primeasia.edu.bd' ([Errno -3] Temporary failure in name resolution)""))",False
+BD062,Green University of Bangladesh,https://green.edu.bd,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='green.edu.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='green.edu.bd', port=443): Failed to resolve 'green.edu.bd' ([Errno -3] Temporary failure in name resolution)""))",False
+BD063,World University of Bangladesh,https://wub.edu.bd,200.0,https://wub.edu.bd/,10,11,0,,False
+BD064,State University of Bangladesh,https://sub.edu.bd,200.0,https://sub.ac.bd/,10,11,0,,False
+BD065,Metropolitan University,https://metrouni.edu.bd,200.0,https://metrouni.edu.bd/,10,11,0,,False
+BD066,National Web Portal of Bangladesh,https://bangladesh.gov.bd,200.0,https://bangladesh.gov.bd/,10,11,0,,False
+BD067,National Board of Revenue (NBR),https://nbr.gov.bd,200.0,https://nbr.gov.bd/,10,11,0,,False
+BD068,Bangladesh Bank,https://www.bb.org.bd,200.0,https://www.bb.org.bd/en/index.php,10,10,0,,False
+BD069,Bangladesh Election Commission,https://www.ecs.gov.bd,403.0,https://ecs.gov.bd/,0,1,1,HTTP 403,False
+BD070,myGov Portal,https://www.mygov.bd,200.0,https://www.mygov.bd/,10,11,0,,False
+BD071,Ministry of Finance,https://mof.gov.bd,,,0,1,0,"SSLError: HTTPSConnectionPool(host='mof.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",False
+BD072,Ministry of Home Affairs,https://moxa.gov.bd,,,0,1,0,"ConnectionError: HTTPSConnectionPool(host='moxa.gov.bd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='moxa.gov.bd', port=443): Failed to resolve 'moxa.gov.bd' ([Errno -2] Name or service not known)""))",False
+BD073,Ministry of Foreign Affairs,https://mofa.gov.bd,,,0,1,0,"SSLError: HTTPSConnectionPool(host='mofa.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",False
+BD074,Directorate General of Health Services (DGHS),https://dghs.gov.bd,200.0,https://dghs.gov.bd/,10,11,0,,False
+BD075,Bangladesh Investment Development Authority (BIDA),https://bida.gov.bd,200.0,https://investbangladesh.gov.bd/,10,14,0,,False
+BD076,National University Bangladesh Portal,https://www.nu.ac.bd,,,0,1,0,"SSLError: HTTPSConnectionPool(host='www.nu.ac.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",False
+BD077,Bangladesh Road Transport Authority (BRTA),https://brta.gov.bd,,,0,1,0,"SSLError: HTTPSConnectionPool(host='brta.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",False
+BD078,Directorate of Secondary and Higher Education (DSHE),https://dshe.gov.bd,200.0,https://dshe.gov.bd/,10,11,0,,False
+BD079,Bangladesh Police,https://www.police.gov.bd,200.0,https://www.police.gov.bd/,10,10,0,,False
+BD080,National University / UGC Bangladesh,https://www.ugc.gov.bd,,,0,1,0,"SSLError: HTTPSConnectionPool(host='ugc.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",False

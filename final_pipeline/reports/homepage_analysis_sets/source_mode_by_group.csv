@@ -1,0 +1,8 @@
+experiment_group,analysis_mode,pages
+Government,axe_only,12
+Government,custom_and_axe,4
+News,axe_only,7
+News,custom_and_axe,5
+Private University,axe_only,13
+Private University,custom_and_axe,4
+Public University,custom_and_axe,20

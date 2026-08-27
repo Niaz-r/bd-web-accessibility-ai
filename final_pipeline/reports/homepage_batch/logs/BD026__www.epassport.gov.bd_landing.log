@@ -1,0 +1,135 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.epassport.gov.bd/landing
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.epassport.gov.bd/landing
+Status: 200
+Analyzable: True
+Findings: 1
+
+issue_category      issue severity selector
+       heading missing_h1     high         
+
+CSV: final_pipeline/data/intermediate/custom_live/www.epassport.gov.bd_landing_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.epassport.gov.bd_landing_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.epassport.gov.bd/landing
+HTTP status: 403
+Final URL: https://www.epassport.gov.bd/landing
+Page title: Access Denied
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 3
+Violation nodes: 5
+Incomplete rules: 0
+Incomplete nodes: 0
+Passed rules: 6
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html>
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html>
+
+region | impact: moderate | nodes: 3
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: h1
+  HTML: <h1>Access Denied</h1>
+  Selector: p:nth-child(2)
+  HTML: <p> Reference #18.3187d817.1787764908.17cdfe1b </p>
+  Selector: p:nth-child(3)
+  HTML: <p>https://errors.edgesuite.net/18.3187d817.1787764908.17cdfe1b</p>
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.epassport.gov.bd_landing_axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.epassport.gov.bd_landing_axe_nodes.csv
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.epassport.gov.bd/landing
+
+Host:
+www.epassport.gov.bd
+
+Output stem:
+www.epassport.gov.bd_landing
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.epassport.gov.bd/landing
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.epassport.gov.bd_landing
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.epassport.gov.bd/landing
+
+
+axe exit code: 0
+axe node file: NOT FOUND
+axe JSON file: NOT FOUND
+Rendered URL: https://www.epassport.gov.bd/landing
+Rendered HTTP status: None
+
+================================================================================
+ANALYSIS COULD NOT CONTINUE
+
+================================================================================
+
+Requested URL:
+https://www.epassport.gov.bd/landing
+
+Custom analyzable:
+False
+
+Custom findings file:
+NOT CREATED
+
+Rendered HTTP status:
+None
+
+axe findings file:
+NOT CREATED
+
+Neither analysis engine produced a usable dataset for fusion.
+

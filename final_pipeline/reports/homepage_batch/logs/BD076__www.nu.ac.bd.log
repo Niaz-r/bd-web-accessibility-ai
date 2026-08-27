@@ -1,0 +1,382 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.nu.ac.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.nu.ac.bd
+Status: None
+Analyzable: False
+Scanner error: HTTPSConnectionPool(host='www.nu.ac.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+Findings: 0
+
+WARNING:
+The custom scanner did not treat this response as an analyzable target page.
+No accessibility findings were exported from the error response.
+
+No custom findings exported.
+
+CSV: final_pipeline/data/intermediate/custom_live/www.nu.ac.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.nu.ac.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.nu.ac.bd
+HTTP status: 200
+Final URL: https://www.nu.ac.bd/
+Page title: National University | Bangladesh : : জাতীয় বিশ্ববিদ্যালয় | বাংলাদেশ
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 11
+Violation nodes: 54
+Incomplete rules: 3
+Incomplete nodes: 103
+Passed rules: 35
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 22
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .owl-item:nth-child(1) > .item > .media > .media-body > h4 > a[target="_Blank"]
+  HTML: <a target="_Blank" href="https://www.nu.ac.bd/uploads/CV_Dr_ASM_Amanullah.pdf">Professor Dr. A. S. M. Amanullah <br> Vice-Chancellor</a>
+  Selector: .owl-item:nth-child(2) > .item > .media > .media-body > h4 > a[target="_Blank"]
+  HTML: <a target="_Blank" href="https://www.nu.ac.bd/CV_of_Prof._Md._Lutfor_Rahaman.pdf">Prof. Md. Lutfor Rahaman <br> Pro-Vice Chancellor</a>
+  Selector: .owl-item:nth-child(3) > .item > .media > .media-body > h4 > a[target="_Blank"]
+  HTML: <a target="_Blank" href="https://www.nu.ac.bd/profile_pdf/CV _Professor_Dr._Mohammad_Ali Zinnah.pdf">Professor Dr. Mohammad Ali Zinnah <br> Pro-Vice Chancellor</a>
+
+frame-title | impact: serious | nodes: 1
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: iframe
+  HTML: <iframe src="https://www.google.c..." width="100%" height="230" frameborder="0" style="border:0" allowfullscreen="">
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .owl-item:nth-child(1) > .item > .media > .media-body > h4
+  HTML: <h4 class="media-heading"><a target="_Blank" href="https://www.nu.ac.bd/uploads/CV_Dr_ASM_Amanullah.pdf">Professor Dr. A. S. M. Amanullah <br> Vice-Chancellor</a></h4>
+
+image-alt | impact: critical | nodes: 7
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: li[aria-hidden="false"] > img[title=""]
+  HTML: <img src="slide_images/slider_image_01_old.png" title="">
+  Selector: a[target="_blank"]:nth-child(1) > img[alt=" "][\"=""][src$="new-news.gif"]
+  HTML: <img src="assets/images/new-news.gif" alt=" " "="">
+  Selector: a[href$="NURG.php"][target="_blank"] > img[alt=" "][\"=""][src$="new-news.gif"]
+  HTML: <img src="assets/images/new-news.gif" alt=" " "="">
+
+landmark-one-main | impact: moderate | nodes: 2
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+  Selector: iframe html
+  HTML: <html>
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: .navbar
+  HTML: <nav class="navbar navbar-default bootsnav on no-full">
+
+link-name | impact: serious | nodes: 4
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .fa-facebookicone:nth-child(1) > a[target="_Blank"]
+  HTML: <a target="_Blank" href="https://www.facebook.com/profile.php?id=61588436857514"><i class="fa fa-facebook"></i></a>
+  Selector: .fa-facebookicone:nth-child(2) > a[href="#"][target="_Blank"]
+  HTML: <a target="_Blank" href="#"><i class="fa fa-twitter"></i></a>
+  Selector: .fa-facebookicone:nth-child(3) > a[href="#"][target="_Blank"]
+  HTML: <a target="_Blank" href="#"><i class="fa fa-youtube"></i></a>
+
+marquee | impact: serious | nodes: 1
+  Help: <marquee> elements are deprecated and must not be used
+  Tags: cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: marquee
+  HTML: <marquee behavior="scroll" direction="left" scrollamount="5">
+
+meta-viewport | impact: moderate | nodes: 1
+  Help: Zooming and scaling must not be disabled
+  Tags: cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2
+  Selector: meta[name="viewport"]
+  HTML: <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+page-has-heading-one | impact: moderate | nodes: 2
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+  Selector: iframe html
+  HTML: <html>
+
+region | impact: moderate | nodes: 12
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .bx-controls-auto
+  HTML: <div class="bx-controls-auto"><div class="bx-controls-auto-item"><a class="bx-start active" href="">Start</a></div><div class="bx-controls-auto-item"><a class="bx-stop" href="">Stop</a></div></div>
+  Selector: .breaking-news
+  HTML: <section class="breaking-news">
+  Selector: .row > .col-lg-3.col-sm-3.col-md-3
+  HTML: <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.nu.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.nu.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 157
+
+Axe result types:
+result_type
+incomplete    103
+violation      54
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_incomplete    103
+axe_only           54
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               153
+third_party_embed            3
+first_party_integration      1
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.nu.ac.bd/
+Unified findings: 157
+Context-dependent findings: 0
+ERROR: Could not retrieve page for context extraction:
+HTTPSConnectionPool(host='www.nu.ac.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+Unified findings: 157
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete    103
+axe_only           54
+
+Priority:
+priority
+Review      103
+High         28
+Medium       19
+Critical      7
+
+Categories:
+category
+Color contrast          122
+Landmarks                12
+Other                     9
+Images                    7
+Links                     4
+Frames                    1
+Headings                  1
+Visual accessibility      1
+
+Top rules:
+primary_rule
+color-contrast          122
+region                   12
+image-alt                 7
+link-name                 4
+landmark-one-main         2
+page-has-heading-one      2
+link-in-text-block        2
+frame-title               1
+heading-order             1
+landmark-unique           1
+marquee                   1
+meta-viewport             1
+th-has-data-cells         1
+
+Third-party findings: 3
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - landmark-unique
+ - link-in-text-block
+ - marquee
+ - page-has-heading-one
+ - th-has-data-cells
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.nu.ac.bd__recommendations.csv
+final_pipeline/reports/live/www.nu.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.nu.ac.bd
+
+Host:
+www.nu.ac.bd
+
+Output stem:
+www.nu.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.nu.ac.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.nu.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.nu.ac.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.nu.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.nu.ac.bd__axe.json
+Rendered URL: https://www.nu.ac.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.nu.ac.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.nu.ac.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.nu.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.nu.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+
+WARNING:
+Context extraction was unavailable for this page.
+
+The analyzer will continue with the standard unified findings.
+
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Skipped because no context dataset was available.
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+Input type:
+Unified findings
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.nu.ac.bd
+
+Rendered URL:
+https://www.nu.ac.bd/
+
+Analysis stem:
+www.nu.ac.bd
+
+Analysis mode:
+axe-only partial analysis + fusion
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.nu.ac.bd__unified_findings.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.nu.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.nu.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

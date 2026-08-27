@@ -1,0 +1,5 @@
+finding_status,count,percent_of_all_unified_findings
+confirmed_by_both,27,6.4
+custom_only,79,18.72
+axe_only,183,43.36
+axe_incomplete,133,31.52

@@ -1,0 +1,16 @@
+{
+  "name": "axe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "playwright": "^1.61.1"
+  }
+}

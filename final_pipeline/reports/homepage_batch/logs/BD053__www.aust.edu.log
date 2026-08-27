@@ -1,0 +1,408 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.aust.edu
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.aust.edu
+Status: 200
+Analyzable: True
+Findings: 33
+
+issue_category         issue severity                                                                                                                                                                                                                                 selector
+         image     empty_alt   medium                                                                                       body#main > div.header_top.desktop_only:nth-of-type(3) > div.container > div.row > div.col-md-6:nth-of-type(2) > div.july-corner-desktop > a > img
+         image     empty_alt   medium                                                                                                        body#main > div.nav_admission.desktop_only:nth-of-type(4) > div.container > div.row > div.col-md-6.text-left:nth-of-type(1) > img
+         image     empty_alt   medium                                                                                                              body#main > div.nav_academic.desktop_only:nth-of-type(5) > div.container > div.row.mb-3 > div.col-md-4:nth-of-type(3) > img
+         image     empty_alt   medium                                                                                                           body#main > div.nav_campus.desktop_only:nth-of-type(8) > div.container > div.row > div.col-md-6.text-left:nth-of-type(1) > img
+         image     empty_alt   medium                                                                          body#main > div.container:nth-of-type(13) > div.row:nth-of-type(1) > div.col-12 > div.convomobile.custom_hide:nth-of-type(1) > div.july-corner-mobile > a > img
+         image   missing_alt     high                         div.container:nth-of-type(13) > div.row:nth-of-type(2) > div.col-lg-4.mt-xl-3:nth-of-type(2) > div.personnel_container > a.homepage_academic:nth-of-type(1) > div.row > div.col-2:nth-of-type(1) > img.p-img-new
+         image   missing_alt     high                         div.container:nth-of-type(13) > div.row:nth-of-type(2) > div.col-lg-4.mt-xl-3:nth-of-type(2) > div.personnel_container > a.homepage_academic:nth-of-type(2) > div.row > div.col-2:nth-of-type(1) > img.p-img-new
+         image   missing_alt     high                         div.container:nth-of-type(13) > div.row:nth-of-type(2) > div.col-lg-4.mt-xl-3:nth-of-type(2) > div.personnel_container > a.homepage_academic:nth-of-type(4) > div.row > div.col-2:nth-of-type(1) > img.p-img-new
+         image   missing_alt     high                                                                                                               body#main > div.container:nth-of-type(18) > div.row.important_news > div.col-lg-6.mobile_image_height:nth-of-type(1) > img
+         image   missing_alt     high                                                                                                                                                       div#important_news_desktop > div.col-lg-6.mobile_image_height:nth-of-type(2) > img
+         image   missing_alt     high                                                                                                                                                        div#important_news_mobile > div.col-lg-6.mobile_image_height:nth-of-type(1) > img
+         image     empty_alt   medium                                                                                                                                                                                                       div#call_to_action_boxes > a > img
+         image     empty_alt   medium                                                                                                                                                                                                       div#call_to_action_boxes > a > img
+         image     empty_alt   medium                                                                                                                                                                                                       div#call_to_action_boxes > a > img
+         image   missing_alt     high                                                                                                                                                                                                       div#call_to_action_boxes > a > img
+         image   missing_alt     high                                                                                                                                                                                                       div#call_to_action_boxes > a > img
+         image     empty_alt   medium                                                                                                     body#main > div.footer_wrapper:nth-of-type(28) > div.container > div.row > div.col-md-4.text-center:nth-of-type(3) > img.footer_logo
+       heading    missing_h1     high                                                                                                                                                                                                                                         
+       heading heading_order   medium                                                        body#main > div.featured_link_wrapper:nth-of-type(14) > div.featured_link_overlay > div.container > div.row:nth-of-type(1) > div.col-md-12.mb-3 > h5.featured_heading.text-center
+       heading heading_order   medium div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1) > div.swiper-card.notice_swiper > div.card-info.notice_slider_container:nth-of-type(2) > div.row > div.col-9.notice_text:nth-of-type(2) > a > h6.news_title_homepage
+
+CSV: final_pipeline/data/intermediate/custom_live/www.aust.edu_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.aust.edu_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.aust.edu
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://www.aust.edu/
+Page title: Ahsanullah University of Science and Technology
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 7
+Violation nodes: 118
+Incomplete rules: 2
+Incomplete nodes: 25
+Passed rules: 33
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 26
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: #blink
+  HTML: <a href="/vacancy" id="blink" class="dropbtn" style="background: red; color: white; border-radius: 3px;">Vacancy &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+  Selector: .whats-new
+  HTML: <div class="whats-new">What's New</div>
+  Selector: .blink
+  HTML: <span class="blink" style="background-color: red; color: white; border-radius: 3px;"> UNDERGRADUATE ADMISSION - SPRING 2026 IS GOING ON </span>
+
+heading-order | impact: moderate | nodes: 3
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .featured_heading
+  HTML: <h5 class="featured_heading text-center">FEATURED LINKS</h5>
+  Selector: .swiper-slide-active.swiper-slide > .notice_swiper.swiper-card > .notice_slider_container.card-info > .row > .notice_text.col-9 > a > .news_title_homepage
+  HTML: <h6 class="news_title_homepage"> Notification: Tuition Award (HFTA) </h6>
+  Selector: .dept_cards[href="/ce"] > .card > .card-body > .card-title
+  HTML: <h6 class="card-title">Department of Civil Engineering (CE)</h6>
+
+image-alt | impact: critical | nodes: 7
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: .homepage_academic[href="#!"]:nth-child(1) > .row > .col-2 > .p-img-new
+  HTML: <img class="p-img-new" src="/storage/files/XFkCxKYk7ZUWk2YFiRYgbE3lJbbdOreHcn5BX6As.jpg">
+  Selector: .homepage_academic[href="#!"]:nth-child(3) > .row > .col-2 > .p-img-new
+  HTML: <img class="p-img-new" src="/storage/files/auzKsLJGdMJNp3UqX5sJVlo5FYC8OPRlezZ1EGWp.png">
+  Selector: a[href$="treasurer"] > .row > .col-2 > .p-img-new
+  HTML: <img class="p-img-new" src="/storage/files/FRUmUJrEmv5zkpDmVHdDFnziHhfQGD94LnmTlbPY.png">
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en" dir="ltr">
+
+link-name | impact: serious | nodes: 7
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .july-corner-desktop > a[href$="july_corner"]
+  HTML: <a href="/july_corner"> <img src="https://aust.edu/storage/files/cVB4B2IBuhc9t9oroxSBJwHas3FhyvcFo2fFBkPL.svg" alt=""> </a>
+  Selector: .col-md.mb-2.mt-2:nth-child(1) > a[href$="admission.aust.edu/"][target="_blank"]
+  HTML: <a href="http://admission.aust.edu/" target="_blank"> <img src="/storage/files/hPaHZwZYRYy1ztcgJytt4QBoH1QbTx9iDnGoiaxX.jpeg" alt=""> </a>
+  Selector: a[href$="convocation"]
+  HTML: <a href="/convocation"> <img src="/storage/files/NCNLN4reC2IsddwF189wFGkifAaYk4FJ7dCxfbqx.png" alt=""> </a>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en" dir="ltr">
+
+region | impact: moderate | nodes: 73
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .header_top_left
+  HTML: <div class="col-md-6 header_top_left"> <a href="https://www.aust.edu"> AHSANULLAH UNIVERSITY OF SCIENCE AND TECHNOLOGY </a> </div>
+  Selector: #global-search
+  HTML: <input name="key" class="search-input" id="global-search" type="search" placeholder="Search">
+  Selector: label
+  HTML: <label class="search-label" for="global-search"> <span class="sr-only">Global Search</span> </label>
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aust.edu__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aust.edu__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 143
+
+Axe result types:
+result_type
+violation     118
+incomplete     25
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          118
+axe_incomplete     25
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    143
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.aust.edu__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.aust.edu/
+Unified findings: 143
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.aust.edu__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aust.edu__context_findings.csv
+Total unified findings: 143
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+Unified findings: 143
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          118
+axe_incomplete     25
+
+Priority:
+priority
+Medium      78
+High        33
+Review      25
+Critical     7
+
+Categories:
+category
+Landmarks         73
+Color contrast    50
+Images             7
+Links              7
+Headings           3
+Other              3
+
+Top rules:
+primary_rule
+region                  73
+color-contrast          50
+image-alt                7
+link-name                7
+heading-order            3
+landmark-one-main        1
+page-has-heading-one     1
+video-caption            1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - page-has-heading-one
+ - video-caption
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.aust.edu__recommendations.csv
+final_pipeline/reports/live/www.aust.edu__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.aust.edu
+
+Host:
+www.aust.edu
+
+Output stem:
+www.aust.edu
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.aust.edu
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.aust.edu
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.aust.edu
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aust.edu__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aust.edu__axe.json
+Rendered URL: https://www.aust.edu/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.aust.edu__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.aust.edu
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.aust.edu__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aust.edu__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aust.edu__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aust.edu__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aust.edu__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aust.edu__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.aust.edu
+
+Rendered URL:
+https://www.aust.edu/
+
+Analysis stem:
+www.aust.edu
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aust.edu__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aust.edu__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aust.edu__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.aust.edu__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.aust.edu__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

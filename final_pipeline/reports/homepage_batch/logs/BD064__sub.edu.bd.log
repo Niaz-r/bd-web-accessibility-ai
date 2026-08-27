@@ -1,0 +1,110 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://sub.edu.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://sub.edu.bd
+Status: None
+Analyzable: False
+Scanner error: HTTPSConnectionPool(host='sub.edu.bd', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='sub.edu.bd', port=443): Failed to establish a new connection: [Errno 113] No route to host"))
+Findings: 0
+
+WARNING:
+The custom scanner did not treat this response as an analyzable target page.
+No accessibility findings were exported from the error response.
+
+No custom findings exported.
+
+CSV: final_pipeline/data/intermediate/custom_live/sub.edu.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/sub.edu.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://sub.edu.bd
+
+Navigation failed:
+page.goto: net::ERR_ADDRESS_UNREACHABLE at https://sub.edu.bd/
+Call log:
+[2m  - navigating to "https://sub.edu.bd/", waiting until "domcontentloaded"[22m
+
+
+================================================================================
+AXE NAVIGATION FAILURE
+================================================================================
+Empty node CSV created:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/sub.edu.bd_axe_nodes.csv
+Failure metadata created:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/sub.edu.bd_axe.json
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://sub.edu.bd
+
+Host:
+sub.edu.bd
+
+Output stem:
+sub.edu.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://sub.edu.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+sub.edu.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://sub.edu.bd
+
+
+axe exit code: 2
+axe node file: NOT FOUND
+axe JSON file: NOT FOUND
+Rendered URL: https://sub.edu.bd
+Rendered HTTP status: None
+
+================================================================================
+ANALYSIS COULD NOT CONTINUE
+
+================================================================================
+
+Requested URL:
+https://sub.edu.bd
+
+Custom analyzable:
+False
+
+Custom findings file:
+NOT CREATED
+
+Rendered HTTP status:
+None
+
+axe findings file:
+NOT CREATED
+
+Neither analysis engine produced a usable dataset for fusion.
+

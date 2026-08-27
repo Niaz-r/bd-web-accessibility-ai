@@ -1,0 +1,18 @@
+{
+  "page_url": "https://wub.edu.bd",
+  "page_title": "",
+  "status_code": null,
+  "timestamp": "2026-08-26T17:30:40.219Z",
+  "navigation_error": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://wub.edu.bd/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "summary": {
+    "violation_rules": 0,
+    "violation_nodes": 0,
+    "incomplete_rules": 0,
+    "incomplete_nodes": 0,
+    "passed_rules": 0,
+    "inapplicable_rules": 0
+  },
+  "violations": [],
+  "incomplete": [],
+  "passes": []
+}

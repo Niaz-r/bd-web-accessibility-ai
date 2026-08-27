@@ -1,0 +1,55 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://visa.gov.bd/,violation,html-has-lang,serious,Ensure every HTML document has a lang attribute,<html> element must have a lang attribute,https://dequeuniversity.com/rules/axe/4.13/html-has-lang?application=playwright,wcag2a|wcag311|EN-301-549|EN-9.3.1.1,html,"<html xmlns=""http://www.w3.org/1999/xhtml"">","Fix any of the following:
+  The <html> element does not have a lang attribute",serious,1
+https://visa.gov.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html xmlns=""http://www.w3.org/1999/xhtml"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://visa.gov.bd/,violation,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,.clsSupported,"<a href=""#"" class=""clsSupported"">supported countries</a>","Fix any of the following:
+  The link has insufficient color contrast of 2.23:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0000ee, surrounding text: #000000)
+  The link has no styling (such as underline) to distinguish it from the surrounding text",serious,1
+https://visa.gov.bd/,violation,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,.clsFees,"<a href=""#"" class=""clsFees"">Here</a>","Fix any of the following:
+  The link has insufficient color contrast of 2.23:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0000ee, surrounding text: #000000)
+  The link has no styling (such as underline) to distinguish it from the surrounding text",serious,2
+https://visa.gov.bd/,violation,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,"p:nth-child(4) > a[href$=""TermsCondition.aspx""]","<a href=""TermsCondition.aspx"" title=""Press to direct you to Terms and Conditions"">Terms
+                        &amp; Conditions</a>","Fix any of the following:
+  The link has insufficient color contrast of 2.23:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0000ee, surrounding text: #000000)
+  The link has no styling (such as underline) to distinguish it from the surrounding text",serious,3
+https://visa.gov.bd/,violation,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,"p:nth-child(4) > a[href$=""PrivacyPolicy.aspx""]","<a href=""PrivacyPolicy.aspx"" title=""Press to direct you to Privacy and Policy"">
+                            Privacy Policy</a>","Fix any of the following:
+  The link has insufficient color contrast of 2.23:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0000ee, surrounding text: #000000)
+  The link has no styling (such as underline) to distinguish it from the surrounding text",serious,4
+https://visa.gov.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html xmlns=""http://www.w3.org/1999/xhtml"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#logo,"<div id=""logo"">
+            <img src=""Img/banner.jpg"" style=""width: 100%; height: 200px"" alt=""pic""></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#container > div:nth-child(2),<div>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.list,"<ul class=""list"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"a[target=""_blank""]","<a href=""http://www.symantec.com/ssl-certificates"" target=""_blank"" style=""color: #000000;
+                                text-decoration: none; font: bold 7px verdana,sans-serif; letter-spacing: .5px;
+                                text-align: center; margin: 0px; padding: 0px;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#ctl00_C1_wz > tbody > tr:nth-child(1),"<tr style=""height:100%;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://visa.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#footer,"<div id=""footer"">
+            © 2012 Department of Immigration &amp; Passports<br>
+            Government of the Peoples's Republic of Bangladesh ®<br>
+            Version 1.0.1.0
+        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".top_link[href$=""Home.aspx""] > .down","<span class=""down"">
+                    HOME</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,1
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""Incomplete.aspx""] > .down","<span class=""down"">INCOMPLETE
+                    APPLICATION</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,2
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""ViewStatus.aspx""] > .down","<span class=""down"">VIEW STATUS</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,3
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""Reprint.aspx""] > .down","<span class=""down"">REPRINT APPLICATION</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,4
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""CompFeedback.aspx""] > .down","<span class=""down"">COMPLAINTS
+                    &amp; FEEDBACK</span>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,5
+https://visa.gov.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#ctl00_C1_wz_StartNavigationTemplateContainerID_StartNextButton,"<input type=""submit"" name=""ctl00$C1$wz$StartNav..."" value=""Next"" onclick=""javascript:WebForm_D..."" id=""ctl00_C1_wz_StartNav..."" class=""btn"">","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,6

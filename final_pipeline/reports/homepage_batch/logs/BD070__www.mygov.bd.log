@@ -1,0 +1,454 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.mygov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.mygov.bd
+Status: 200
+Analyzable: True
+Findings: 9
+
+issue_category           issue severity                                                                                                                                                                                                                selector
+         image       empty_alt   medium div#help_desk_main_row > div.help_desk_inner:nth-of-type(2) > div.d-sm-flex.align-items-center > div.col-12.col-sm-7:nth-of-type(1) > div.row.border:nth-of-type(1) > div.col-2.col-md-2:nth-of-type(1) > img.img-fluid
+       heading   heading_order   medium                                                                                                                                                                                                       h6#viewModalLabel
+       heading   heading_order   medium div.service_part:nth-of-type(5) > div.container > div.row.justify-content-center:nth-of-type(2) > div.col-6.col-md-3:nth-of-type(1) > div.border.rounded-15 > a.p-2.p-md-3 > div.col-12:nth-of-type(2) > h6.sector-head
+       heading   heading_order   medium                                                                                                      div#commonly_asked_div_7 > div.container > div.row.border:nth-of-type(1) > div.col-11.ps-3:nth-of-type(1) > h5.m-0
+       heading   empty_heading   medium                                                                div#passwordPolicyModal > div.modal-dialog.modal-dialog-centered > div.modal-content > div.modal-header.border-0:nth-of-type(1) > h5.modal-title.mx-auto
+       heading   heading_order   medium                                                                                                                                                                                                  h5#message_modal_title
+       heading   empty_heading   medium                                                                                                                                                                                                  h5#message_modal_title
+          link empty_link_text     high                             header#myGovNav > div.container.header_custom > div.row > div.col-10.col-sm-9:nth-of-type(2) > ul.header-right.d-flex > li.d-flex:nth-of-type(2) > div.me-2.me-sm-3 > a.phone_left.d-inline
+          link empty_link_text     high                                                                                                                              div#shortcut_menu_bar > div.popup-root > div.popup.md > div.popup-close:nth-of-type(1) > a
+
+CSV: final_pipeline/data/intermediate/custom_live/www.mygov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.mygov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.mygov.bd
+HTTP status: 200
+Final URL: https://www.mygov.bd/
+Page title: myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 13
+Violation nodes: 63
+Incomplete rules: 3
+Incomplete nodes: 9
+Passed rules: 46
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 3
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(1) > .youTubeContainer > .video .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=94wjzJ4RKaI">
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(2) > .youTubeContainer > .video .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=nOl48Zd0gxk">
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(3) > .youTubeContainer > .video .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=BYoq8Anhs1o"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">মাইগভে রেজিস্ট্রেশন প্রক্রিয়া | MyGov Registration 
+
+aria-dialog-name | impact: serious | nodes: 1
+  Help: ARIA dialog and alertdialog nodes should have an accessible name
+  Tags: cat.aria, best-practice
+  Selector: #passwordPolicyModal
+  HTML: <div class="modal fade show" id="passwordPolicyModal" tabindex="-1" role="dialog" aria-modal="true" style="display: block;">
+
+aria-prohibited-attr | impact: serious | nodes: 3
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(1) > .youTubeContainer > .video #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" ar
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(2) > .youTubeContainer > .video #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" ar
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(3) > .youTubeContainer > .video #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" ar
+
+button-name | impact: critical | nodes: 3
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(1) > .youTubeContainer > .video .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(2) > .youTubeContainer > .video .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(3) > .youTubeContainer > .video .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+
+color-contrast | impact: serious | nodes: 3
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(1) > .video-tutorial-time
+  HTML: <span class="video-tutorial-time"> <i class="far fa-clock"></i> June 2025 06:09 </span>
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(2) > .video-tutorial-time
+  HTML: <span class="video-tutorial-time"> <i class="far fa-clock"></i> June 2025 07:14 </span>
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(3) > .video-tutorial-time
+  HTML: <span class="video-tutorial-time"> <i class="far fa-clock"></i> June 2025 09:49 </span>
+
+empty-heading | impact: minor | nodes: 1
+  Help: Headings should not be empty
+  Tags: cat.name-role-value, best-practice
+  Selector: .modal-header.border-0 > .mx-auto
+  HTML: <h5 class="modal-title mx-auto"> <!-- গুরুত্বপূর্ণ নোটিশ --> </h5>
+
+frame-title | impact: serious | nodes: 4
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(1) > .youTubeContainer > .video
+  HTML: <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/94wjzJ4RKaI?si=fpBCT5uM0hTVG8gw"></iframe>
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(2) > .youTubeContainer > .video
+  HTML: <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/nOl48Zd0gxk?si=NewGdItqbzO8t3id"></iframe>
+  Selector: .col-sm-6.mb-md-0.col-md-4:nth-child(3) > .youTubeContainer > .video
+  HTML: <iframe class="col-md-12 video" tabindex="0" src="https://www.youtube.com/embed/BYoq8Anhs1o?si=bqyX28sld7zq52ZN"></iframe>
+
+heading-order | impact: moderate | nodes: 2
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .col-6.col-md-3.bg-white:nth-child(1) > .rounded-15.mb-md-4.service_list > .p-md-3.d-block.p-2 > .col-12:nth-child(2) > .sector-head
+  HTML: <h6 class="sector-head"> জেলা প্রশাসনের সেবাসমূহ </h6>
+  Selector: h5[aria-label="333-0-2 সরকারি তথ্য ও সেবা"]
+  HTML: <h5 tabindex="0" aria-label="333-0-2 সরকারি তথ্য ও সেবা" class="m-0">333-0-2</h5>
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html>
+
+list | impact: serious | nodes: 1
+  Help: <ul> and <ol> must only directly contain <li>, <script> or <template> elements
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .header-right
+  HTML: <ul class="header-right d-flex">
+
+meta-viewport | impact: moderate | nodes: 1
+  Help: Zooming and scaling must not be disabled
+  Tags: cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2
+  Selector: meta[name="viewport"]
+  HTML: <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+region | impact: moderate | nodes: 36
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: #accessibility_menu_bar
+  HTML: <div aria-label="Quick accessibility menu" tabindex="1" class="accessibility_menu_bar text-center col-md-12" id="accessibility_menu_bar">
+  Selector: h1
+  HTML: <h1 class="text-success my-gov-title mb-4" tabindex="0" aria-label="এক ঠিকানায় সরকারি সেবা"> এক ঠিকানায় সরকারি সেবা </h1>
+  Selector: #home_search_text_box
+  HTML: <input type="text" id="home_search_text_box" name="search_text_box" placeholder="সেবা অনুসন্ধান করুন" class="form-control border-0" required="required" autocomplete="off">
+
+tabindex | impact: serious | nodes: 4
+  Help: Elements should not have tabindex greater than zero
+  Tags: cat.keyboard, best-practice
+  Selector: #accessibility_menu_bar
+  HTML: <div aria-label="Quick accessibility menu" tabindex="1" class="accessibility_menu_bar text-center col-md-12" id="accessibility_menu_bar">
+  Selector: a[href$="#main_nav"]
+  HTML: <a tabindex="1" href="#main_nav" onclick="document.getElementById('accessibility_menu_bar').style.display='none'" aria-label="Close quick accessibility menu" class="btn btn-sm accessibility-btn mt-3"><i class="fas fa-times-circle"></i></a>
+  Selector: a[aria-label="Skip to main content"]
+  HTML: <a aria-label="Skip to main content" tabindex="1" href="#search_div_with_text" onclick="setTimeout(function(){history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search)},10)" class="btn btn-sm
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.mygov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.mygov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 72
+
+Axe result types:
+result_type
+violation     63
+incomplete     9
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          63
+axe_incomplete     9
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               68
+first_party_integration     4
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.mygov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.mygov.bd/
+Unified findings: 72
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.mygov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.mygov.bd__context_findings.csv
+Total unified findings: 72
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+Unified findings: 72
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          63
+axe_incomplete     9
+
+Priority:
+priority
+Medium      39
+High        17
+Review       9
+Critical     6
+Low          1
+
+Categories:
+category
+Landmarks               36
+ARIA                     9
+Color contrast           8
+Other                    7
+Frames                   4
+Controls                 3
+Headings                 3
+Structure                1
+Visual accessibility     1
+
+Top rules:
+primary_rule
+region                  36
+color-contrast           8
+aria-prohibited-attr     6
+frame-title              4
+tabindex                 4
+aria-allowed-attr        3
+button-name              3
+heading-order            2
+aria-dialog-name         1
+empty-heading            1
+html-has-lang            1
+list                     1
+meta-viewport            1
+skip-link                1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-dialog-name
+ - html-has-lang
+ - skip-link
+ - tabindex
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.mygov.bd__recommendations.csv
+final_pipeline/reports/live/www.mygov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.mygov.bd
+
+Host:
+www.mygov.bd
+
+Output stem:
+www.mygov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.mygov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.mygov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.mygov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.mygov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.mygov.bd__axe.json
+Rendered URL: https://www.mygov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.mygov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.mygov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.mygov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.mygov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.mygov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.mygov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.mygov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.mygov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.mygov.bd
+
+Rendered URL:
+https://www.mygov.bd/
+
+Analysis stem:
+www.mygov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.mygov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.mygov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.mygov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.mygov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.mygov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

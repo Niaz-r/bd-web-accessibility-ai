@@ -1,0 +1,24 @@
+website_id,website_name,url,category,organization_type,language,bilingual,notes,pages_scanned,total_issues,high_issues,medium_issues,image_issues,heading_issues,link_issues,form_issues,mean_issues_per_page,median_issues_per_page,mean_accessibility_score,median_accessibility_score,min_accessibility_score,max_accessibility_score,excellent_pages,good_pages,needs_improvement_pages,poor_pages,high_issue_rate,medium_issue_rate,image_issue_share,heading_issue_share,link_issue_share
+BD001,University of Dhaka,https://www.du.ac.bd/,University,Public University,English,yes,Public university,9,147,72,75,22,39,86,0,16.3333,11.0,75.6667,81.0,14,98,1,7,0,1,0.4898,0.5102,0.1497,0.2653,0.585
+BD003,University of Rajshahi,https://www.ru.ac.bd/,University,Public University,English,yes,Public university,10,232,106,126,94,33,105,0,23.2,22.5,66.2,68.5,40,92,1,3,4,2,0.4569,0.5431,0.4052,0.1422,0.4526
+BD004,Bangladesh Agricultural University,https://bau.edu.bd/,University,Public University,English,yes,Public university,10,191,85,106,93,20,78,0,19.1,15.0,72.4,78.0,23,80,0,8,1,1,0.445,0.555,0.4869,0.1047,0.4084
+BD005,Jahangirnagar University,https://juniv.edu/,University,Public University,English,yes,Public university,9,57,43,14,15,17,25,0,6.3333,5.0,88.8889,90.0,83,94,5,4,0,0,0.7544,0.2456,0.2632,0.2982,0.4386
+BD007,University of Barishal,https://bu.ac.bd/,University,Public University,English,yes,Public university,9,157,61,96,1,63,93,0,17.4444,8.0,75.7778,86.0,3,87,0,8,0,1,0.3885,0.6115,0.0064,0.4013,0.5924
+BD008,Patuakhali Science and Technology University,https://pstu.ac.bd/,University,Public University,English,yes,Public university,10,87,50,37,13,27,47,0,8.7,6.0,86.3,89.0,54,97,1,8,1,0,0.5747,0.4253,0.1494,0.3103,0.5402
+BD009,University of Chittagong,https://cu.ac.bd/,University,Public University,English,yes,Public university,10,70,25,45,23,15,32,0,7.0,2.0,90.5,97.0,41,98,8,1,0,1,0.3571,0.6429,0.3286,0.2143,0.4571
+BD010,Chittagong University of Engineering and Technology,https://cuet.ac.bd/,University,Public University,English,no,Public university,10,44,30,14,0,23,21,0,4.4,3.0,92.6,94.0,87,94,9,1,0,0,0.6818,0.3182,0.0,0.5227,0.4773
+BD011,North South University,https://www.northsouth.edu/,University,Private University,English,no,Priavate University,10,131,103,28,34,30,67,0,13.1,12.0,76.6,77.5,55,89,0,8,2,0,0.7863,0.2137,0.2595,0.229,0.5115
+BD013,"Independent University, Bangladesh",https://iub.ac.bd/,University,Private University,English,yes,Priavate University,10,14,13,1,0,10,4,0,1.4,1.0,97.3,98.0,91,98,10,0,0,0,0.9286,0.0714,0.0,0.7143,0.2857
+BD014,American International University-Bangladesh,https://www.aiub.edu/,University,Private University,English,no,Priavate University,10,211,145,66,0,64,147,0,21.1,11.5,70.6,80.0,0,81,0,7,2,1,0.6872,0.3128,0.0,0.3033,0.6967
+BD015,East West University,https://www.ewubd.edu/,University,Private University,English,no,Priavate University,9,181,107,74,60,16,105,0,20.1111,14.0,68.0,76.0,36,76,0,6,2,1,0.5912,0.4088,0.3315,0.0884,0.5801
+BD017,Dhaka Post,https://www.dhakapost.com/,News,News,Bangla,no,,1,0,0,0,0,0,0,0,0.0,0.0,100.0,100.0,100,100,1,0,0,0,0,0,0,0,0
+BD018,Bangla Tribune,https://www.banglatribune.com/,News,News,Bangla,no,,10,7,4,3,3,1,3,0,0.7,0.0,98.9,100.0,89,100,9,1,0,0,0.5714,0.4286,0.4286,0.1429,0.4286
+BD020,Barta24,https://barta24.com/,News,News,Bangla,no,,2,2,2,0,0,1,1,0,1.0,1.0,98.0,98.0,96,100,2,0,0,0,1.0,0.0,0.0,0.5,0.5
+BD021,The Daily Star,https://www.thedailystar.net/,News,News,English,yes,,10,277,200,77,42,51,184,0,27.7,29.0,52.3,51.5,42,60,0,0,5,5,0.722,0.278,0.1516,0.1841,0.6643
+BD024,Newsbangla24,https://www.newsbangla24.com/,News,News,Bangla,yes,,10,207,163,44,48,33,126,0,20.7,17.0,63.0,69.0,14,69,0,0,9,1,0.7874,0.2126,0.2319,0.1594,0.6087
+BD025,Prothomalo,https://www.prothomalo.com/,News,News,Bangla,yes,,10,29,7,22,0,29,0,0,2.9,3.0,96.4,96.0,96,98,10,0,0,0,0.2414,0.7586,0.0,1.0,0.0
+BD026,E-Passport Portal,https://www.epassport.gov.bd/landing,Government,Government,English,yes,,1,1,1,0,0,1,0,0,1.0,1.0,98.0,98.0,98,98,1,0,0,0,1.0,0.0,0.0,1.0,0.0
+BD027,Bangladesh Railway Portal,https://eticket.railway.gov.bd/,Government,Government,English,no,,1,1,1,0,0,1,0,0,1.0,1.0,98.0,98.0,98,98,1,0,0,0,1.0,0.0,0.0,1.0,0.0
+BD028,E-Visa Portal,https://visa.gov.bd/,Government,Government,English,no,,10,12,9,3,0,10,2,0,1.2,1.0,97.9,98.0,97,99,10,0,0,0,0.75,0.25,0.0,0.8333,0.1667
+BD029,Birth Registration Portal,https://bdris.gov.bd/,Government,Government,English,yes,,1,1,1,0,0,1,0,0,1.0,1.0,98.0,98.0,98,98,1,0,0,0,1.0,0.0,0.0,1.0,0.0
+BD030,Digital Land Management System,https://land.gov.bd/,Government,Government,English,yes,,10,18,18,0,0,9,9,0,1.8,2.0,96.4,96.0,96,100,10,0,0,0,1.0,0.0,0.0,0.5,0.5

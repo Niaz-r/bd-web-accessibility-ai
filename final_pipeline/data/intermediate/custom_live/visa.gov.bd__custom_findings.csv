@@ -1,0 +1,5 @@
+page_url,status_code,source,issue_category,element,index,src,alt,selector,html_snippet,element_id,element_classes,issue,severity,reason,tag,text,href,aria_label,title,accessible_name,name_source
+https://visa.gov.bd/,200,custom,image,img,1.0,Img/banner.jpg,pic,div#logo > img,"<img alt=""pic"" src=""Img/banner.jpg"" style=""width: 100%; height: 200px""/>",,,non_descriptive_alt,medium,Alt text is generic and does not describe the image's content or purpose.,,,,,,,
+https://visa.gov.bd/,200,custom,image,img,2.0,Img/save.png,image,table#ctl00_C1_wz > tr:nth-of-type(1) > td > p:nth-of-type(3) > img,"<img alt=""image"" src=""Img/save.png""/>",,,non_descriptive_alt,medium,Alt text is generic and does not describe the image's content or purpose.,,,,,,,
+https://visa.gov.bd/,200,custom,heading,heading,,,,,,,,missing_h1,high,Page does not contain an H1 heading.,h1,,,,,,
+https://visa.gov.bd/,200,custom,link,a,13.0,,,table#ctl00_C1_wz > tr:nth-of-type(1) > td > p:nth-of-type(3) > a.clsFees:nth-of-type(1),"<a class=""clsFees"" href=""#"">Here</a>",,clsFees,generic_link_text,medium,Link text is generic and does not clearly identify the destination.,,Here,#,,,Here,visible_text

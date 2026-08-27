@@ -1,0 +1,775 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""-4""]","<div class=""slick-slide slick-cloned"" data-slick-index=""-4"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,1
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""-3""]","<div class=""slick-slide slick-cloned"" data-slick-index=""-3"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,2
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""-2""]","<div class=""slick-slide slick-cloned"" data-slick-index=""-2"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,3
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""-1""]","<div class=""slick-slide slick-cloned"" data-slick-index=""-1"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,4
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#slick-slide00,"<div class=""slick-slide"" data-slick-index=""0"" aria-hidden=""true"" style=""width: 320px;"" role=""tabpanel"" id=""slick-slide00"" tabindex=""-1"" aria-describedby=""slick-slide-control00"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,5
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#slick-slide05,"<div class=""slick-slide"" data-slick-index=""5"" aria-hidden=""true"" style=""width: 320px;"" role=""tabpanel"" id=""slick-slide05"" tabindex=""-1"" aria-describedby=""slick-slide-control05"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,6
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#slick-slide06,"<div class=""slick-slide"" data-slick-index=""6"" aria-hidden=""true"" style=""width: 320px;"" role=""tabpanel"" id=""slick-slide06"" tabindex=""-1"" aria-describedby=""slick-slide-control06"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,7
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#slick-slide07,"<div class=""slick-slide"" data-slick-index=""7"" aria-hidden=""true"" style=""width: 320px;"" role=""tabpanel"" id=""slick-slide07"" tabindex=""-1"" aria-describedby=""slick-slide-control07"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,8
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""8""]","<div class=""slick-slide slick-cloned"" data-slick-index=""8"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,9
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""9""]","<div class=""slick-slide slick-cloned"" data-slick-index=""9"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,10
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""10""]","<div class=""slick-slide slick-cloned"" data-slick-index=""10"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,11
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""11""]","<div class=""slick-slide slick-cloned"" data-slick-index=""11"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,12
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""12""]","<div class=""slick-slide slick-cloned"" data-slick-index=""12"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,13
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""13""]","<div class=""slick-slide slick-cloned"" data-slick-index=""13"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,14
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""14""]","<div class=""slick-slide slick-cloned"" data-slick-index=""14"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,15
+https://primeasia.edu.bd/,violation,aria-hidden-focus,serious,Ensure aria-hidden elements are not focusable nor contain focusable elements,ARIA hidden element must not be focusable or contain focusable elements,https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[data-slick-index=""15""]","<div class=""slick-slide slick-cloned"" data-slick-index=""15"" id="""" aria-hidden=""true"" style=""width: 320px;"">","Fix all of the following:
+  Focusable content should have tabindex=""-1"" or be removed from the DOM",serious,16
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""0""][aria-current=""true""][data-bs-target=""#home-slider""]","<button type=""button"" data-bs-target=""#home-slider"" data-bs-slide-to=""0"" class=""active "" aria-current=""true""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""1""][aria-current=""true""][data-bs-target=""#home-slider""]","<button type=""button"" data-bs-target=""#home-slider"" data-bs-slide-to=""1"" class="""" aria-current=""true""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""2""][aria-current=""true""][data-bs-target=""#home-slider""]","<button type=""button"" data-bs-target=""#home-slider"" data-bs-slide-to=""2"" class="""" aria-current=""true""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".active[data-bs-slide-to=""0""][data-bs-target=""#highlightsCarousel""]","<button type=""button"" data-bs-target=""#highlightsCarousel"" data-bs-slide-to=""0"" class=""active"">
+</button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""1""][data-bs-target=""#highlightsCarousel""][type=""button""]","<button type=""button"" data-bs-target=""#highlightsCarousel"" data-bs-slide-to=""1"" class="""">
+</button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://primeasia.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""2""][data-bs-target=""#highlightsCarousel""][type=""button""]","<button type=""button"" data-bs-target=""#highlightsCarousel"" data-bs-slide-to=""2"" class="""">
+</button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://primeasia.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.programT > h2,<h2>Programs</h2>,"Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcff, background color: #f8f9ff, font size: 150.0pt (200px), font weight: bold). Expected contrast ratio of 3:1",serious,1
+https://primeasia.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.teacherT > h2,<h2>Faculty</h2>,"Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #ffffff, background color: #fdfdfd, font size: 150.0pt (200px), font weight: bold). Expected contrast ratio of 3:1",serious,2
+https://primeasia.edu.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.col-lg-4 > h2:nth-child(1),<h2></h2>,"Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,1
+https://primeasia.edu.bd/,violation,frame-title,serious,Ensure <iframe> and <frame> elements have an accessible name,Frames must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#ytVideo,"<iframe id=""ytVideo"" style=""min-height: 300px; c..."" class=""td_image_box_thumb m..."" data-src=""https://www.youtube...."" frameborder=""0"" allow=""autoplay; encrypted-..."" allowfullscreen="""" loading=""lazy"">","Fix any of the following:
+  Element has no title attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",serious,1
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.programSection > .container > .titleContainer > .titleNameSide > .subtitleContainer,"<h6 class=""subtitleContainer"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-100px, 0px);"">Our Programs</h6>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-md-12.align-items-center.moreMsgBox > .MsgMoreText > .moreMsgInfoHeader,"<h6 class=""moreMsgInfoHeader"">Email</h6>","Fix any of the following:
+  Heading order invalid",moderate,2
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.teachWithHeaderContainer > .container > .titleContainer > .titleNameSide > .subtitleContainer,"<h6 class=""subtitleContainer"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-100px, 0px);"">Faculty</h6>","Fix any of the following:
+  Heading order invalid",moderate,3
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.newsEventSection > .container > .titleContainer > .titleNameSide > .subtitleContainer,"<h6 class=""subtitleContainer"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-100px, 0px);"">Events</h6>","Fix any of the following:
+  Heading order invalid",moderate,4
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(1) > .newsCard > .newsCardBody > h5,"<h5 class=""card-title""> Newsletter July to December 2025</h5>","Fix any of the following:
+  Heading order invalid",moderate,5
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.leftHeadingContainer > .ed-section-sub-title.ed-section-sub-title--white.anim-text,"<h6 class=""ed-section-sub-title ed-section-sub-title--white anim-text"">Highlights</h6>","Fix any of the following:
+  Heading order invalid",moderate,6
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.carousel-item.active > .mainContentContainer.text-center > .d-block.text-decoration-none > .mt-5,"<h5 class=""mt-5"">
+Last Date for Course Drop with 100% Refund – Summer 2026 Semester</h5>","Fix any of the following:
+  Heading order invalid",moderate,7
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.singleNoticeContainer:nth-child(1) > .noticeTextContainer > h5,<h5>,"Fix any of the following:
+  Heading order invalid",moderate,8
+https://primeasia.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.gallery-section > .container > .titleContainer > .titleNameSide > .subtitleContainer,"<h6 class=""subtitleContainer"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-100px, 0px);"">Campus Life</h6>","Fix any of the following:
+  Heading order invalid",moderate,9
+https://primeasia.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.facilityVect1,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""facilityVect1"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/et-5-category-vector-2.svg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,.carousel-item.active > .mainContentContainer.text-center > .d-block.text-decoration-none > .highligtsImgContainer > .highlightBox.img-fluid,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/no-post-img.jpg"" alt=""Last Date for Course Drop with 100% Refund – Summer 2026 Semester"" class=""highlightBox img-fluid"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,1
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" Dedar Alam""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Dedar-Alam-300x300.jpg"" alt="" Dedar Alam"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,2
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" NAZRIN AKHTER NIRA""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Nazrin-Akgter-Nira-300x300.jpg"" alt="" NAZRIN AKHTER NIRA"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,3
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" Puraby Deb""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Puraby-Deb-300x300.jpg"" alt="" Puraby Deb"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,4
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" Kapil Paul""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Kapil-Paul-300x300.jpg"" alt="" Kapil Paul"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,5
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" Md Shadikul Bari""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Md-Shadikul-Bari-300x300.jpg"" alt="" Md Shadikul Bari"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,6
+https://primeasia.edu.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,"img[alt="" Kazi Farhana""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__selector-image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Kazi-Farhana-300x300.jpg"" alt="" Kazi Farhana"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,7
+https://primeasia.edu.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html class=""no-js lenis"" lang=""en"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://primeasia.edu.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,#ytVideo html,<html><head></head><body></body></html>,"Fix all of the following:
+  Document does not have a main landmark",moderate,2
+https://primeasia.edu.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,.jsnav-header:nth-child(1) > .jsnav-header-wrapper.align-content-center.container > .jsnav-menu,"<nav class=""jsnav-menu "">","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(1) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(2) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(3) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(4) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".toggle-info.btn[href$=""eee""]","<a href=""https://primeasia.edu.bd//eee"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-4.col-lg-3.col-sm-6:nth-child(6) > .programCard > .card__image-holder > a,"<a href=""https://primeasia.edu.bd/english/"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(6) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-4.col-lg-3.col-sm-6:nth-child(7) > .programCard > .card__image-holder > a,"<a href=""https://primeasia.edu.bd//ithm/"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(7) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(8) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(9) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(10) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(11) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".card__image-holder > a[href$=""te/""]","<a href=""https://primeasia.edu.bd//te/"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-lg-3.col-sm-6:nth-child(12) > .programCard > .card-title > .toggle-info.btn[href=""#""]","<a href=""#"" class=""toggle-info btn"">
+<span class=""left""></span>
+<span class=""right""></span>
+</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,15
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".footerSocials > a[target=""_blank""]:nth-child(1)","<a href=""https://www.facebook.com/pau.edu.bd"" target=""_blank"" class=""""><i class=""fa-brands fa-facebook-f""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,16
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(2)","<a href=""https://www.youtube.com/@primeasiauniversityofficial"" target=""_blank"" class=""""><i class=""fa-brands fa-youtube""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,17
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(3)","<a href=""https://www.linkedin.com/school/primeasia-university/"" target=""_blank"" class=""""><i class=""fa-brands fa-linkedin-in""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,18
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(4)","<a href=""https://www.instagram.com/pau.edu.bd/"" target=""_blank"" class=""""><i class=""fa-brands fa-instagram""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,19
+https://primeasia.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""bdprimeasia""]","<a href=""https://x.com/bdprimeasia"" target=""_blank"" class=""""><i class=""fa-brands fa-x-twitter""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,20
+https://primeasia.edu.bd/,violation,meta-viewport,moderate,"Ensure <meta name=""viewport""> does not disable text scaling and zooming",Zooming and scaling must not be disabled,https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright,wcag2aa|wcag144|EN-301-549|EN-9.1.4.4,"meta[name=""viewport""]","<meta name=""viewport"" content=""width=device-width, initial-scale=1, maximum-scale=1"">","Fix any of the following:
+  maximum-scale on <meta> tag disables zooming on mobile devices",moderate,1
+https://primeasia.edu.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html class=""no-js lenis"" lang=""en"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://primeasia.edu.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,#ytVideo html,<html><head></head><body></body></html>,"Fix all of the following:
+  Page must have a level-one heading",moderate,2
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.m-0,"<section class=""p-0 m-0 slider-bottom-section"" style=""overflow: hidden;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.shp1,"<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""img-fluid shp1 right..."" data-src=""https://primeasia.ed..."" alt=""Shap 1"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.shp2,"<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""img-fluid shp2 right..."" data-src=""https://primeasia.ed..."" alt=""Shap 2"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.shp3,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""img-fluid shp3 right rotate-anim revs position-absolute"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/shp3.png"" alt=""Shap 3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.programT,"<div class=""section-t team-t par..."" data-paroller-factor=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-type=""foreground"" data-paroller-direct...=""horizontal"" style=""transform: translate..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.programSection > .container > .titleContainer,"<div class=""titleContainer"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""architecture""]","<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""card__image entered ..."" data-src=""https://primeasia.ed..."" alt=""architecture"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(1) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of Architecture</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(1) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 190 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(1) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Engineering.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/arc/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""BBA""]","<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""card__image entered ..."" data-src=""https://primeasia.ed..."" alt=""BBA"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(2) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of Business Administration (BBA)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(2) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 124 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(2) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Business.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/dba/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Biochemistry""]","<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""card__image entered ..."" data-src=""https://primeasia.ed..."" alt=""Biochemistry"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(3) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc. (Hons) in Biochemistry &amp; Molecular Biology</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(3) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 148 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#undergraduate > .col-md-4.col-lg-3.col-sm-6:nth-child(3) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Science.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/bmb/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""CSE""]","<img data-lazyloaded=""1"" src=""https://primeasia.ed..."" class=""card__image entered ..."" data-src=""https://primeasia.ed..."" alt=""CSE"" data-ll-status=""loaded"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(4) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc in Computer Science &amp; Engineering (CSE).</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,20
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(4) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 150 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,21
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(4) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Engineering.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/cse"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,22
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""EEE""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""card__image"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/program/undergraduate/EEE.jpg"" alt=""EEE"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,23
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(5) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc. in Electrical &amp; Electronic Engineering (EEE)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,24
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(5) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 148 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,25
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(5) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Engineering.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd//eee"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,26
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(6) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of Arts (Hons) in English.</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,27
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(6) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 123 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,28
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(6) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Arts.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/english/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,29
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(7) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of International Tourism &amp; Hospitality Management (ITHM)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,30
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(7) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 120 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,31
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(7) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Business.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd//ithm/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,32
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""LAW""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""card__image"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/program/undergraduate/LAW.jpg"" alt=""LAW"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,33
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(8) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of Laws (Hons)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,34
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(8) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 126 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,35
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(8) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Law.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/law/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,36
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Microbiology""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""card__image"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/program/undergraduate/Microbiology.jpg"" alt=""Microbiology"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,37
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(9) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc. (Hons) in Microbiology</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,38
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(9) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 149 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,39
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(9) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Science</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/micb/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,40
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""PHN""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""card__image"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/program/undergraduate/PHN.jpg"" alt=""PHN"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,41
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(10) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc. (Hons) in Public Health Nutrition (PHN)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,42
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(10) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 155 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,43
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""dot""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/dot-shape-prgoram.svg"" alt=""dot"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,44
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(10) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Science.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd//phn/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,45
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Pharmacy""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""card__image"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/program/undergraduate/Pharmacy.jpg"" alt=""Pharmacy"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,46
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(11) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+Bachelor of Pharmacy (B. Pharm)</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,47
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(11) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 160 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,48
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(11) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Science.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd/pharma/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,49
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(12) > .programCard > .card-title > .programCardTitle,"<h2 class=""programCardTitle"">
+B.Sc in Textile Engineering</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,50
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(12) > .programCard > .card-title > .programExtraInfoDiv,"<div class=""programExtraInfoDiv"">
+<i class=""fa fa-medal""></i> 158 Credit</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,51
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-4.col-lg-3.col-sm-6:nth-child(12) > .programCard > .flap1.card-flap,"<div class=""card-flap flap1""><div class=""card-description"">
+School of Engineering.</div><div class=""card-flap flap2""><div class=""card-actions"">
+<a href=""https://primeasia.edu.bd//te/"" class=""btn"">Visit Department</a></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,52
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-lg-4,"<div class=""col-12 col-lg-4 order-2""><h2></h2><h2 class=""float"" style=""translate: none; rotate: none; scale: none; transform: translate3d(0px, -20.7185px, 0px);"">
+Vice Chancellor's
+Message</h2></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,53
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-lg-7,"<div class=""col-12 col-lg-7"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,54
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-12.align-items-center.moreMsgBox > .MsgMoreText,"<div class=""MsgMoreText""><h6 class=""moreMsgInfoHeader"">Email</h6><p class=""moreMsgInfoDetails"">
+vc@primeasia.edu.bd</p></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,55
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.md-mt-0 > .MsgMoreText,"<div class=""MsgMoreText ""><h6 class=""moreMsgInfoHeader"">Designation</h6><p class=""moreMsgInfoDetails"">
+Vice Chancellor</p></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,56
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.component-footer,"<div class=""component-footer animateFromBottom"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 100px);"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,57
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.counterSection,"<section class=""counterSection funfacts-area bg-parallax"" style=""background-position-y: 50%;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,58
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.pointer-events-none,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/about-vector-2.png"" alt=""vector"" class=""pointer-events-none"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,59
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".TeacherVect2 > img[alt=""vector""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/et-5-category-vector-1.svg"" alt=""vector"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,60
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.teachWithHeaderContainer > .container,"<div class=""container"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,61
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"#slick-slide01 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .cardImgHolder > img[alt="" Dr. Md. Abdus Salam Mondol""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Dr.-Md.-Abdus-Salam-Mondol-2-200x300.jpg"" alt="" Dr. Md. Abdus Salam Mondol"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,62
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slick-slide01 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .info,"<div class=""info"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,63
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"#slick-slide02 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .cardImgHolder > img[alt="" Dr. Noman Hossain""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/10/Dr.-Noman-Hossain-283x300.jpg"" alt="" Dr. Noman Hossain"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,64
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slick-slide02 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .info,"<div class=""info"">
+<a href=""https://primeasia.edu.bd/employees/dr-noman-hossain/""><h3> Dr. Noman Hossain</h3>
+</a><p class=""designation"">Associate Professor &amp; Chairperson of CSE Department</p><p class=""email""><i class=""fa fa-envelope""> </i> noman.hossain@primeasia.edu.bd</p></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,65
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"#slick-slide03 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .cardImgHolder > img[alt="" Dr. Nasrin Akhter""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/10/Dr.-Nasrin-Akhter-200x300.jpg"" alt="" Dr. Nasrin Akhter"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,66
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slick-slide03 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .info,"<div class=""info"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,67
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"#slick-slide04 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .cardImgHolder > img[alt="" Sazzadur Rasheed""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Sazzadur-Rasheed-2-200x300.jpg"" alt="" Sazzadur Rasheed"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,68
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slick-slide04 > div > .col-md-6.col-lg-3.col-sm-6 > div > .cardContainer > .card > .info,"<div class=""info"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,69
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.slick-dots,"<ul class=""slick-dots"" style="""" role=""tablist"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,70
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.facilityVect1,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""facilityVect1"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/et-5-category-vector-2.svg"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,71
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".newsEventSection > .container > .section-t.team-t[data-paroller-direction=""horizontal""]","<div class=""section-t team-t par..."" data-paroller-factor=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-type=""foreground"" data-paroller-direct...=""horizontal"" style=""transform: translate..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,72
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.newsEventSection > .container > .titleContainer,"<div class=""titleContainer"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,73
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(1) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2026/06/Newsletter-July-to-December-2025-214x300.jpg"" class=""card-img-top"" alt=""Newsletter July to December 2025"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,74
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(1) > .newsCard > .newsCardBody,"<div class=""newsCardBody""><h5 class=""card-title""> Newsletter July to December 2025</h5><p class=""card-text""></p><div class=""newsReadMore"">
+<span> <i class=""fa-solid fa-chevron-right""></i></span>
+<a href=""https://primeasia.edu.bd/newsletter-july-to-december-2025/""> Read More</a></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,75
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(2) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base6..."" data-src=""https://primeasia.ed..."" class=""card-img-top"" alt=""Primeasia University..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,76
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(2) > .newsCard > .newsCardBody,"<div class=""newsCardBody"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,77
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(3) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base6..."" data-src=""https://primeasia.ed..."" class=""card-img-top"" alt=""Primeasia University..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,78
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(3) > .newsCard > .newsCardBody,"<div class=""newsCardBody"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,79
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(4) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/newvc1-380x253.jpg"" class=""card-img-top"" alt=""New Vice-Chancellor, Prof. Dr. ANM Meshquat Uddin joined Primeasia University"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,80
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(4) > .newsCard > .newsCardBody,"<div class=""newsCardBody"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,81
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(5) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2026/07/Capture-356x300.jpg"" class=""card-img-top"" alt=""Open Tender for Damaged Items (PaU Permanent Campus)"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,82
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(5) > .newsCard > .newsCardBody,"<div class=""newsCardBody"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,83
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(6) > .newsCard > .newsImgContainer > a > .card-img-top,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-15-at-12.22.06-PM-1-218x300.jpeg"" class=""card-img-top"" alt=""Notice for the selection of Executive Committee"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,84
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-xl-3.col-md-4.col-sm-6:nth-child(6) > .newsCard > .newsCardBody,"<div class=""newsCardBody"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,85
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.newsVect1,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/et-5-about-vector-1.svg"" alt=""vector"" class=""newsVect1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,86
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.newsVect2,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/BackgroundImages/et-5-about-vector-2.svg"" alt=""vector"" class=""newsVect2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,87
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.noticeT,"<div class=""section-t team-t par..."" data-paroller-factor=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-factor...=""0.15"" data-paroller-type=""foreground"" data-paroller-direct...=""horizontal"" style=""transform: translate..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,88
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.leftHeadingContainer,"<div class=""leftHeadingContainer""><h6 class=""ed-section-sub-title ed-section-sub-title--white anim-text"">Highlights</h6><h3 class=""noticeMainHeader text-white anim-text"">University Highlights</h3></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,89
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.carousel-item.active > .mainContentContainer.text-center > .d-block.text-decoration-none > .highligtsImgContainer > .highlightBox.img-fluid,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/no-post-img.jpg"" alt=""Last Date for Course Drop with 100% Refund – Summer 2026 Semester"" class=""highlightBox img-fluid"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,90
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.carousel-item.active > .mainContentContainer.text-center > .d-block.text-decoration-none > .mt-5,"<h5 class=""mt-5"">
+Last Date for Course Drop with 100% Refund – Summer 2026 Semester</h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,91
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.rightHeadingContainer,"<div class=""rightHeadingContainer""><h6 class=""ed-section-sub-title ed-section-sub-title--white anim-text"">notice</h6><h3 class=""noticeMainHeader text-white anim-text"">Important Notice</h3></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,92
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".singleNoticeContainer:nth-child(1) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,93
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.singleNoticeContainer:nth-child(1) > .noticeTextContainer,"<div class=""noticeTextContainer "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,94
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(2) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,95
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(2) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/newsletter-july-to-december-2025/""> Newsletter July to December 2025</a></h5><h6><i class=""fa-regular fa-clock""></i> June 09, 2026</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,96
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(3) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,97
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(3) > .noticeTextContainer,"<div class=""noticeTextContainer "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,98
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(4) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,99
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(4) > .noticeTextContainer,"<div class=""noticeTextContainer "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,100
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(5) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,101
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(5) > .noticeTextContainer,"<div class=""noticeTextContainer "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,102
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(6) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,103
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(6) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/the-admission-office-will-remain-open-from-9-a-m-to-630-p-m-every-day/""> The Admission Office will remain open from 9 A.M. to 6:30 P.M. every day.</a></h5><h6><i class=""fa-regular fa-clock""></i> October 06, 2025</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,104
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(7) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,105
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(7) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/h-s-c-diploma-appeared-students-can-also-apply-for-fall-2025/""> H.S.C. &amp; Diploma appeared students can also apply for Fall-2025</a></h5><h6><i class=""fa-regular fa-clock""></i> October 01, 2025</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,106
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(8) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,107
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(8) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/invitation-for-tender/""> INVITATION FOR TENDER</a></h5><h6><i class=""fa-regular fa-clock""></i> September 25, 2025</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,108
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(9) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,109
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(9) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/prize-giving-ceremony/""> Prize giving ceremony</a></h5><h6><i class=""fa-regular fa-clock""></i> May 28, 2025</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,110
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".afterEffect.singleNoticeContainer:nth-child(10) > .noticeImgContainer > img[alt=""icon""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/notice/notice-icon.png"" alt=""icon"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,111
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.afterEffect.singleNoticeContainer:nth-child(10) > .noticeTextContainer,"<div class=""noticeTextContainer ""><h5>
+<a href=""https://primeasia.edu.bd/open-tender-for-damaged-items-pau-permanent-campus-2/""> Open Tender for Damaged Items (PaU Permanent Campus)</a></h5><h6><i class=""fa-regular fa-clock""></i> July 24, 2026</h6></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,112
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.noticeVectorImg1,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/form-notice-vector-1.svg"" alt=""vector"" class=""noticeVectorImg1 "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,113
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.noticeVectorImg2,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/form-notice-vector-2.svg"" alt=""vector"" class=""noticeVectorImg2 "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,114
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.hp-testimonials__header,"<div class=""hp-testimonials__header""><p class=""hp-testimonials__label anim-text"">Success Stories</p><h2 class=""hp-testimonials__title anim-text"">Alumni</h2></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,115
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Dedar Alam""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" loading=""lazy"" class=""hp-testimonials__image"" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/Dedar-Alam.jpg"" alt=""Dedar Alam"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,116
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.hp-testimonials__content-item--active > quote,"<quote class=""hp-testimonials__quote"">“My experience at Primeasia University provided a strong academic foundation and the confidence to pursue global opportunities like the Erasmus Mundus ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,117
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.hp-testimonials__content-item--active > cite,"<cite class=""hp-testimonials__name"">— Dedar Alam <span class=""hp-testimonials__cite-subtext"">,
+Pursuing Erasmus Mundus Joint Masters in Applied Cybersecurity (CyberMACS) at Kadir Has University, Istanbul 🇹🇷, and next year at SRH Berlin, Germany 🇩🇪.</span></cite>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,118
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.hp-testimonials__content-item--active > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text,"<span class=""hp-button__text"">More
+about Dedar Alam                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,119
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""1""] > quote","<quote class=""hp-testimonials__quote"">“My time at Primeasia University laid a strong foundation in analytical thinking and core computing skills that continue to support my ongoing M.Sc. ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,120
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""1""] > cite","<cite class=""hp-testimonials__name"">— NAZRIN AKHTER NIRA <span class=""hp-testimonials__cite-subtext"">,
+M.Sc. in Data Science, University of Potsdam(Ongoing)</span></cite>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,121
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""1""] > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text","<span class=""hp-button__text"">More
+about NAZRIN AKHTER NIRA                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,122
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""2""] > quote","<quote class=""hp-testimonials__quote"">“My time at Primeasia University built a strong foundation in problem-solving and analytical thinking that has greatly supported my journey in Machine ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,123
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""2""] > cite","<cite class=""hp-testimonials__name"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,124
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""2""] > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text","<span class=""hp-button__text"">More
+about Puraby Deb                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,125
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""3""] > quote","<quote class=""hp-testimonials__quote"">“My experience at Primeasia University played a vital role in shaping my career as a software engineer. The Computer Science and Engineering program ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,126
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""3""] > cite","<cite class=""hp-testimonials__name"">— Kapil Paul <span class=""hp-testimonials__cite-subtext"">,
+Senior Software Engineer at rtCamp Inc</span></cite>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,127
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""3""] > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text","<span class=""hp-button__text"">More
+about Kapil Paul                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,128
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""4""] > quote","<quote class=""hp-testimonials__quote"">“Studying in the CSE department at Primeasia University was a valuable experience that helped me build a strong foundation in computer science and ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,129
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""4""] > cite","<cite class=""hp-testimonials__name"">— Md Shadikul Bari <span class=""hp-testimonials__cite-subtext"">,
+Lead Software Engineer Reddot Digital It(Robi)</span></cite>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,130
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""4""] > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text","<span class=""hp-button__text"">More
+about Md Shadikul Bari                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,131
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""5""] > quote","<quote class=""hp-testimonials__quote"">“My journey at Primeasia University as both a student and a lecturer (2018 june-2021 September) was deeply enriching and formative. The supportive ...”
+</quote>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,132
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""5""] > cite","<cite class=""hp-testimonials__name"">— Kazi Farhana <span class=""hp-testimonials__cite-subtext"">,
+PhD candidate, Research Assistant at the Department of Photonic Data Science in Friedrich Schiller University Jena, Germany. </span></cite>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,133
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".hp-testimonials__content-item[data-index=""5""] > .hp-button.hp-button--white.hp-button--red-color > .hp-button__text","<span class=""hp-button__text"">More
+about Kazi Farhana                        </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,134
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.gallery-section > .container > .titleContainer,"<div class=""titleContainer"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,135
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.gallery_item:nth-child(1) > img,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-15-at-12.22.06-PM-1-399x550.jpeg"" alt=""Notice for the selection of Executive Committee"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,136
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.gallery_item:nth-child(2) > img,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/images/no-post-img.jpg"" alt=""Mandatory Completion of Course Advising for Existing Students (with Late Fine)"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,137
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 13""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/13-700x550.jpg"" alt=""Gallery 13"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,138
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 12""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/12-700x525.jpg"" alt=""Gallery 12"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,139
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 11""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/11-700x311.jpg"" alt=""Gallery 11"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,140
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 10""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/10-550x550.jpg"" alt=""Gallery 10"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,141
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 9""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/9-700x525.jpg"" alt=""Gallery 9"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,142
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 8""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/8-700x377.jpg"" alt=""Gallery 8"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,143
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 7""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/7-700x374.jpg"" alt=""Gallery 7"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,144
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 6""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/6-700x372.jpg"" alt=""Gallery 6"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,145
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 5""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/5-700x466.jpg"" alt=""Gallery 5"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,146
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 4""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/4-700x466.jpg"" alt=""Gallery 4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,147
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""Gallery 3""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" data-src=""https://primeasia.edu.bd/wp-content/uploads/2025/12/3-700x466.jpg"" alt=""Gallery 3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,148
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.galleryVect,"<img data-lazyloaded=""1"" src=""data:image/gif;base6..."" class=""galleryVect"" data-src=""https://primeasia.ed..."" alt=""vector"" style=""position: absolute;r..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,149
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.elementor-element-ca3c55c,"<div class=""elementor-element elementor-element-ca3c55c e-con-full e-flex e-con e-child"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,150
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""EDUBIN0334.png""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" decoding=""async"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/icons/EDUBIN0334-1.png"" alt=""EDUBIN0334.png"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,151
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"img[alt=""EDUBIN0333.png""]","<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" decoding=""async"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/icons/EDUBIN0333-1.png"" alt=""EDUBIN0333.png"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,152
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer-logo,"<img data-lazyloaded=""1"" src=""data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="" class=""footer-logo"" data-src=""https://primeasia.edu.bd/wp-content/themes/unipro-pu/assets/img/logo/logoLong.gif"" alt=""pu Location"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,153
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer-description-text,"<p class=""footer-description-text animateFromLeft"" style=""translate: none; rotate: none; scale: none; opacity: 0; transform: translate(-100px, 0px);"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,154
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.ps-md-5,"<div class=""col-md-3 ps-md-5 "">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,155
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-3:nth-child(3),"<div class=""col-md-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,156
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-3:nth-child(4),"<div class=""col-md-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,157
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.footer-copyright-area,"<div class=""footer-copyright-area"" style=""border-top: 1px solid #d2d2d2 ;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,158
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"body > a[href$=""pau.edu.bd""]","<a href=""https://m.me/pau.edu.bd"" class=""chat-float"" target=""_blank"" aria-label=""Chat on Messenger"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,159
+https://primeasia.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.chat-float-2,"<a href=""https://wa.me/+8801958665501	"" class=""chat-float chat-float-2"" target=""_blank"" aria-label=""Chat on Whatsapp"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,160
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.btn-sBottom.btn:nth-child(1),"<a href=""https://admission.primeasia.edu.bd/"" class=""btn btn-sBottom"">Apply Now</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,1
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".btn-sBottom.btn[href$=""pau.pipilikasoft.com/""]","<a href=""https://pau.pipilikasoft.com/"" class=""btn btn-sBottom"">I-EMS</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,2
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.btn-sBottom.btn:nth-child(3),"<a href=""https://primeasia.edu.bdadmission/admission-tuition-fees/"" class=""btn btn-sBottom"">Tuition Fees</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,3
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(1),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(0.3239%, 0px, 0px); opacity: 0.9935;"">E</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,4
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(2),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(0.5447%, 0px, 0px); opacity: 0.9891;"">x</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,5
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(3),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(0.7874%, 0px, 0px); opacity: 0.9843;"">p</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,6
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(4),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(1.0404%, 0px, 0px); opacity: 0.9792;"">l</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,7
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(5),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(1.2884%, 0px, 0px); opacity: 0.9742;"">o</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,8
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(6),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(1.5119%, 0px, 0px); opacity: 0.9698;"">r</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,9
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(1) > .char:nth-child(7),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(1.6882%, 0px, 0px); opacity: 0.9662;"">e</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,10
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.word:nth-child(2) > .char:nth-child(1),"<div class=""char"" style=""display: inline-block; translate: none; rotate: none; scale: none; transform: translate3d(1.7912%, 0px, 0px); opacity: 0.9642;"">O</div>","Fix any of the following:
+  Element content is too short to determine if it is actual text content",serious,11
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#underBtn,"<button id=""underBtn"" class=""btn btn-title btn-program active"" translate=""no"">Undergraduate</button>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,12
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#gradBtn,"<button id=""gradBtn"" class=""btn btn-title  btn-program"" translate=""no"">Graduate</button>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,13
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.teachWithHeaderContainer > .container > .titleContainer > .titleNameSide > .mainTitleContainer.anim-text,"<h2 class=""mainTitleContainer anim-text"">Visit Our Faculty</h2>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,14
+https://primeasia.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gallery-section > .container > .titleContainer > .titleNameSide > .mainTitleContainer.anim-text,"<h2 class=""mainTitleContainer anim-text"">Explore Gallery</h2>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,15

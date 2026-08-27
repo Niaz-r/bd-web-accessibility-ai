@@ -1,0 +1,13 @@
+page_id,website_id,page_url,page_type,title,language,status
+PG0001_BD017,BD017,https://www.dhakapost.com/,Article,"Dhaka Post - Bangla News Portal, Breaking News, Bd News and Videos",,200
+PG0001_BD024,BD024,https://www.newsbangla24.com/,Article,নিউজবাংলা ২৪ । অনলাইন বাংলা নিউজ পেপার,,200
+PG0002_BD024,BD024,https://www.newsbangla24.com/national,Article,বাংলাদেশের জাতীয় খবর ও আজকের প্রধান সংবাদ শিরোনাম,,200
+PG0003_BD024,BD024,https://www.newsbangla24.com/politics,Article,রাজনীতির খবর | রাজনীতির সর্বশেষ খবর পড়ুন | Politics News,,200
+PG0004_BD024,BD024,https://www.newsbangla24.com/news,Article,"সারা বাংলাদেশের খবর, ছবি, ভিডিও ও সংবাদ প্রতিবেদন | Bangladesh News",,200
+PG0005_BD024,BD024,https://www.newsbangla24.com/election,Article,নির্বাচন,,200
+PG0006_BD024,BD024,https://www.newsbangla24.com/economy,Article,অর্থ বাণিজ্যের খবর ও সংবাদ প্রতিবেদন | Business News,,200
+PG0007_BD024,BD024,https://www.newsbangla24.com/international,Article,"আন্তর্জাতিক খবর, ছবি, ভিডিও ও সর্বশেষ সংবাদ প্রতিবেদন",,200
+PG0008_BD024,BD024,https://www.newsbangla24.com/sports,Article,আজকের বাংলাদেশ ক্রিকেট ও ফুটবল সহ অন্যান্য খেলার খবর,,200
+PG0009_BD024,BD024,https://www.newsbangla24.com/culture,Article,বিনোদনের খবর | Latest Entertainment News | News Bangla 24,,200
+PG0010_BD024,BD024,https://www.newsbangla24.com/health,Article,Health News | Lifestyle Breaking News & Reports | News Bangla 24,,200
+PG0001_BD026,BD026,https://www.epassport.gov.bd/landing,Other,E‑Passport Online Registration Portal,,200

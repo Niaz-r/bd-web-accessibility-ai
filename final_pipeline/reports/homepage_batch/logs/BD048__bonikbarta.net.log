@@ -1,0 +1,423 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://bonikbarta.net
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://bonikbarta.net
+Status: 200
+Analyzable: True
+Findings: 11
+
+issue_category           issue severity                                                                                                                                                                                                                                                              selector
+         image       empty_alt   medium header.hidden.sm:block:nth-of-type(1) > nav.relative.max-w-[80rem] > div.hidden.sm:block:nth-of-type(2) > div.flex.flex-wrap > div.hs-dropdown.relative:nth-of-type(2) > div.hs-dropdown-menu.z-[100] > a.flex.items-center:nth-of-type(1) > img.flex-shrink-0.size-4
+         image       empty_alt   medium header.hidden.sm:block:nth-of-type(1) > nav.relative.max-w-[80rem] > div.hidden.sm:block:nth-of-type(2) > div.flex.flex-wrap > div.hs-dropdown.relative:nth-of-type(2) > div.hs-dropdown-menu.z-[100] > a.flex.items-center:nth-of-type(2) > img.flex-shrink-0.size-4
+         image       empty_alt   medium header.hidden.sm:block:nth-of-type(1) > nav.relative.max-w-[80rem] > div.hidden.sm:block:nth-of-type(2) > div.flex.flex-wrap > div.hs-dropdown.relative:nth-of-type(2) > div.hs-dropdown-menu.z-[100] > a.flex.items-center:nth-of-type(3) > img.flex-shrink-0.size-4
+         image       empty_alt   medium header.hidden.sm:block:nth-of-type(1) > nav.relative.max-w-[80rem] > div.hidden.sm:block:nth-of-type(2) > div.flex.flex-wrap > div.hs-dropdown.relative:nth-of-type(2) > div.hs-dropdown-menu.z-[100] > a.flex.items-center:nth-of-type(4) > img.flex-shrink-0.size-4
+         image       empty_alt   medium                                                                       div > footer.print:hidden.border-t > div.mt-auto.w-full > div.border-[1px].border-bb > div.flex.flex-col:nth-of-type(1) > div.flex.flex-wrap > a:nth-of-type(1) > img.flex-shrink-0.dark:invert
+         image       empty_alt   medium                                                                       div > footer.print:hidden.border-t > div.mt-auto.w-full > div.border-[1px].border-bb > div.flex.flex-col:nth-of-type(1) > div.flex.flex-wrap > a:nth-of-type(2) > img.flex-shrink-0.dark:invert
+         image       empty_alt   medium                                                                       div > footer.print:hidden.border-t > div.mt-auto.w-full > div.border-[1px].border-bb > div.flex.flex-col:nth-of-type(1) > div.flex.flex-wrap > a:nth-of-type(3) > img.flex-shrink-0.dark:invert
+         image       empty_alt   medium                                                                       div > footer.print:hidden.border-t > div.mt-auto.w-full > div.border-[1px].border-bb > div.flex.flex-col:nth-of-type(1) > div.flex.flex-wrap > a:nth-of-type(4) > img.flex-shrink-0.dark:invert
+       heading      missing_h1     high                                                                                                                                                                                                                                                                      
+          link empty_link_text     high                                                                                                                                                                                                                            html.scroll-smooth.duration-500 > body > a
+          link empty_link_text     high                                                 body > div > header.print:hidden.flex:nth-of-type(2) > nav.max-w-[80rem].w-full > div.relative.xl:flex > div.flex.items-center:nth-of-type(1) > div.flex.items-center:nth-of-type(1) > a.shrink-0.ps-3:nth-of-type(2)
+
+CSV: final_pipeline/data/intermediate/custom_live/bonikbarta.net_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/bonikbarta.net_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://bonikbarta.net
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://www.bonikbarta.com/
+Page title: Daily Bonik Barta ( বণিক বার্তা ) | Leading Bangla Business Daily Newspaper
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 9
+Violation nodes: 315
+Incomplete rules: 3
+Incomplete nodes: 91
+Passed rules: 37
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-valid-attr-value | impact: critical | nodes: 87
+  Help: ARIA attributes must conform to valid values
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: button[aria-controls="blog-detail-overlay-304093"]
+  HTML: <button type="button" class="duration-300 overflow-hidden" data-hs-overlay="#blog-detail-overlay" aria-controls="blog-detail-overlay-304093" aria-label="Toggle blog detail for নেপালে আকস্মিক বন্যায় নিখোঁজ বেড়ে ৫৭৯, অধিকাংশই বিদেশী পর্যটক">
+  Selector: button[aria-controls="blog-detail-overlay-304094"]
+  HTML: <button type="button" class="duration-300 overflow-hidden" data-hs-overlay="#blog-detail-overlay" aria-controls="blog-detail-overlay-304094" aria-label="Toggle blog detail for শিশু সুরক্ষা মামলা নিষ্পত্তিতে ১ হাজার ৮০০ কোটি ডলার দেবে মেটা">
+  Selector: .py-0.ps-1.\@container\/card-body > .text-\[18px\].mb-\[3px\].group-hover\:text-bb > span > button[aria-controls="blog-detail-overlay-304092"][data-hs-overlay="#blog-detail-overlay"][type="button"]
+  HTML: <button type="button" class="duration-300 overflow-hidden" data-hs-overlay="#blog-detail-overlay" aria-controls="blog-detail-overlay-304092" aria-label="Toggle blog detail for নেপালে বন্যা-ভূমিধসে প্রাণহানি ও ধ্বংসযজ্ঞের ঘটনায় বাংলাদেশের শোক, সহযোগিত
+
+button-name | impact: critical | nodes: 3
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: div[data-svelte-h="svelte-c8k36m"] > .h-9[aria-haspopup="dialog"][aria-controls="hs-offcanvas-links"]
+  HTML: <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-links" data-hs-overlay="#hs-offcanvas-links" class="h-9 flex justify-cen..." data-hs-collapse="#topmenu-navbar-coll...">
+  Selector: .hs-dark-mode-active\:hidden
+  HTML: <button type="button" class="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 hover:text-bb font-medium dark:text-gray-400 dark:hover:text-b" data-hs-theme-click-value="dark">
+  Selector: .fill-bb
+  HTML: <button class="print:hidden fill-bb bg-[#F5F2E8] border-2 border-bb hover:fill-white hover:bg-bb dark:bg-[#050A30] dark:hover:bg-bb dark:border-bb p-2 rounded transition-all duration-500 fixed right-4 user-select-none text-white opacity-0 z-[-10]" st
+
+color-contrast | impact: serious | nodes: 28
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: a[href$="CUPGLYKdrDTdYMvP/"] > .dark\:text-bb.text-bb
+  HTML: <span class="text-bb dark:text-bb">আমদানি নীতিমালা জারি <span class="!text-bb-meta-2 inline-block">⬩</span></span>
+  Selector: a[href$="C15CGHHPfu54O8mX/"] > .dark\:text-bb.text-bb
+  HTML: <span class="text-bb dark:text-bb">হেয়ারকাট বাতিল <span class="!text-bb-meta-2 inline-block">⬩</span></span>
+  Selector: a[href$="Q0F6HVuErA72gK9P/"] > .dark\:text-bb.text-bb
+  HTML: <span class="text-bb dark:text-bb">মঙ্গোলিয়ায় কপ১৭-এর মন্ত্রী পর্যায়ের সংলাপ <span class="!text-bb-meta-2 inline-block">⬩</span></span>
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html class="scroll-smooth duration-500 transition-all ease-in-out">
+
+image-redundant-alt | impact: minor | nodes: 8
+  Help: Alternative text of images should not be repeated as text
+  Tags: cat.text-alternatives, best-practice
+  Selector: .rounded-xl.pt-8[href$="nuej1knm8RfM7vqI/"] > picture > .size-24.top-\[-48px\].p-1
+  HTML: <img class="object-center size-2..." src="https://static.bonik..." style="" alt="নীতিনির্ধারকরা অবকাঠ..." loading="lazy" fetchpriority="low">
+  Selector: .rounded-xl.pt-8[href$="Si9tL5R0hHWRGtCe/"] > picture > .size-24.top-\[-48px\].p-1
+  HTML: <img class="object-center size-2..." src="https://static.bonik..." style="" alt="প্রতিষ্ঠানের সুনাম ব..." loading="lazy" fetchpriority="low">
+  Selector: .rounded-xl.pt-8[href$="jjHSXyqSykUZz29P/"] > picture > .size-24.top-\[-48px\].p-1
+  HTML: <img class="object-center size-2..." src="https://static.bonik..." style="" alt="সংকটের আসল চাপ সামলা..." loading="lazy" fetchpriority="low">
+
+landmark-no-duplicate-banner | impact: moderate | nodes: 1
+  Help: Document should not have more than one banner landmark
+  Tags: cat.semantics, best-practice
+  Selector: .sm\:flex-nowrap
+  HTML: <header class="hidden sm:block print:hidden flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-[#ffffff] dark:bg-[#1a1c1a] text-sm py-3 sm:py-0 border-b border-bb dark:border-bb">
+
+landmark-unique | impact: moderate | nodes: 2
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: .sm\:flex-nowrap
+  HTML: <header class="hidden sm:block print:hidden flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-[#ffffff] dark:bg-[#1a1c1a] text-sm py-3 sm:py-0 border-b border-bb dark:border-bb">
+  Selector: .sm\:grid
+  HTML: <nav class="relative max-w-[80rem] w-full mx-auto px-4 py-3 sm:grid sm:grid-cols-3 sm:items-center sm:px-6 lg:px-8" aria-label="Global">
+
+link-name | impact: serious | nodes: 11
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: a[href$="search"]
+  HTML: <a href="/search" class="shrink-0 ps-3 text-gray-600 dark:text-gray-400" data-svelte-h="svelte-bkx2pk">
+  Selector: #google_ads_iframe_\/22865655385\/BD_bonikbarta\.com_res_home_top_right_590x70\/\/300x100\/\/320x50_0 #aw0
+  HTML: <a id="aw0" target="_blank" href="https://googleads.g...." onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')">
+  Selector: #google_ads_iframe_\/22865655385\/BD_bonikbarta\.com_res_home_right_rectangle1_270x230\/\/300x250_0 #aw0
+  HTML: <a id="aw0" target="_blank" href="https://googleads.g...." onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')">
+
+region | impact: moderate | nodes: 174
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .col-span-1.border-b-0.border-\[2px\]:nth-child(1) > .\@container\/card.flex > .border-white.grid-cols-12.grow > .order-1.col-span-12.w-full
+  HTML: <div class="w-full relative col-span-12 order-1">
+  Selector: .col-span-1.border-b-0.border-\[2px\]:nth-child(1) > .\@container\/card.flex > .border-white.grid-cols-12.grow > .pt-3.ps-1.\@container\/card-body > .\@\[25rem\]\/card-body\:text-\[28px\].\@\[25rem\]\/card-body\:leading-\[38px\].text-\[24px\] > a
+  HTML: <a href="/international/df6Mk7oXBlJ45W6Y/"> নেপালে আকস্মিক বন্যায় নিখোঁজ বেড়ে ৫৭৯, অধিকাংশই বিদেশী পর্যটক</a>
+  Selector: .first\:pt-0.first\:mt-0.\@lg\:col-span-1:nth-child(1) > .\@container\/card.flex > .border-white.grid-cols-12.grow > .order-1.col-span-12.w-full
+  HTML: <div class="w-full relative col-span-12 order-1">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bonikbarta.com__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bonikbarta.com__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 406
+
+Axe result types:
+result_type
+violation     315
+incomplete     91
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          315
+axe_incomplete     91
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content         392
+third_party_embed     14
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.bonikbarta.com__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.bonikbarta.com/
+Unified findings: 406
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.bonikbarta.com__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.bonikbarta.com__context_findings.csv
+Total unified findings: 406
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+Unified findings: 406
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          315
+axe_incomplete     91
+
+Priority:
+priority
+Medium      177
+Review       91
+Critical     90
+High         40
+Low           8
+
+Categories:
+category
+Landmarks         174
+Color contrast    111
+Other             107
+Links              11
+Controls            3
+
+Top rules:
+primary_rule
+region                          174
+color-contrast                  111
+aria-valid-attr-value            88
+link-name                        11
+image-redundant-alt               8
+frame-title-unique                7
+button-name                       3
+landmark-unique                   2
+html-has-lang                     1
+landmark-no-duplicate-banner      1
+
+Context-aware recommendations: 0
+
+Third-party findings: 14
+
+Rules using fallback recommendation:
+ - aria-valid-attr-value
+ - frame-title-unique
+ - html-has-lang
+ - image-redundant-alt
+ - landmark-no-duplicate-banner
+ - landmark-unique
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.bonikbarta.com__recommendations.csv
+final_pipeline/reports/live/www.bonikbarta.com__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://bonikbarta.net
+
+Host:
+bonikbarta.net
+
+Output stem:
+bonikbarta.net
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://bonikbarta.net
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+bonikbarta.net
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://bonikbarta.net
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bonikbarta.com__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bonikbarta.com__axe.json
+Rendered URL: https://www.bonikbarta.com/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.bonikbarta.com__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.bonikbarta.com
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.bonikbarta.com__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bonikbarta.com__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.bonikbarta.com__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.bonikbarta.com__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.bonikbarta.com__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.bonikbarta.com__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://bonikbarta.net
+
+Rendered URL:
+https://www.bonikbarta.com/
+
+Analysis stem:
+www.bonikbarta.com
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.bonikbarta.com__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.bonikbarta.com__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.bonikbarta.com__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.bonikbarta.com__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.bonikbarta.com__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

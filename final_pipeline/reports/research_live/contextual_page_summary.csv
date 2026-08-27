@@ -1,0 +1,3 @@
+analysis_id,page_url,total_unified_findings,contextual_processed,contextual_processing_rate_pct,visual_review_required,manual_review_required
+cu.ac.bd_vision-and-mission,https://cu.ac.bd/vision-and-mission/,19,1,5.26,1,1
+www.du.ac.bd,https://www.du.ac.bd/,307,68,22.15,23,68

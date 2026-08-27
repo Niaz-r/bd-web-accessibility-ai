@@ -1,0 +1,1433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+
+<title>Unified Accessibility Report</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #202124;
+    line-height: 1.55;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header,
+.section,
+.finding {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 22px;
+    margin-bottom: 18px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.number {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.label {
+    color: #555;
+}
+
+.badge {
+    display: inline-block;
+    background: #eee;
+    padding: 4px 8px;
+    margin: 3px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    background: #f6f8fa;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.location {
+    background: #eef4ff;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.warning {
+    background: #fff4e5;
+    padding: 14px;
+    border-radius: 6px;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class='header'>
+<h1>Unified Accessibility Analysis Report</h1>
+<p><strong>Page:</strong> https://www.juniv.edu/</p>
+<p>Results combine the custom static HTML scanner with axe-core analysis of the rendered DOM.</p>
+</div>
+<div class='cards'>
+<div class='card'>
+<div class='number'>54</div>
+<div class='label'>Unified findings</div>
+</div>
+<div class='card'>
+<div class='number'>5</div>
+<div class='label'>Confirmed by both</div>
+</div>
+<div class='card'>
+<div class='number'>2</div>
+<div class='label'>Custom only</div>
+</div>
+<div class='card'>
+<div class='number'>44</div>
+<div class='label'>axe only</div>
+</div>
+<div class='card'>
+<div class='number'>3</div>
+<div class='label'>Manual review</div>
+</div>
+</div>
+<div class='section warning'><strong>Important:</strong> Automated findings do not constitute a complete WCAG conformance evaluation. Context-dependent and incomplete findings require human review.</div>
+<div class='finding'>
+<h2>Heading hierarchy may be inconsistent</h2>
+<span class='badge'>confirmed_by_both</span>
+<span class='badge'>Medium</span>
+<span class='badge'>Headings</span>
+<span class='badge'>High - detected by both engines</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>Unexpected heading-level jumps can make the relationship between sections harder to understand.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-3:nth-child(1) &gt; .card-2.card &gt; .card-body &gt; h6 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h6 class=&quot;card-title&quot;&gt;
+                            &lt;a href=&quot;https://iba-ju.edu.bd&quot; target=&quot;_blank&quot;&gt;
+                                Institute of Business Administration
+                            &lt;/a&gt;
+                        &lt;/h6&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Heading order invalid</pre>
+<h3>What should change</h3>
+<p>Review the document outline and use heading levels according to the logical content hierarchy.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>A heading-level jump is not automatically a WCAG failure. The full document hierarchy must be reviewed.</p>
+</div>
+<div class='finding'>
+<h2>Link does not have a discernible accessible name</h2>
+<span class='badge'>confirmed_by_both</span>
+<span class='badge'>High</span>
+<span class='badge'>Links</span>
+<span class='badge'>High - detected by both engines</span>
+<h3>WCAG relationship</h3>
+<p>2.4.4 Link Purpose (In Context) / 4.1.2 Name, Role, Value — Level A</p>
+<h3>Why it matters</h3>
+<p>Screen-reader users may encounter a link without being told what it does or where it goes.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .social-icons &gt; a:nth-child(1) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a href=&quot;https://www.facebook.com/edu.juniv&quot;&gt; &lt;i class=&quot;fab fa-facebook-f&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</pre>
+<h3>What should change</h3>
+<p>Provide meaningful visible link text or another valid accessible name. Icon-only links should expose a concise accessible name describing their action or destination.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;a aria-label=&quot;Describe link destination&quot; href=&quot;https://www.facebook.com/edu.juniv&quot;&gt; &lt;i class=&quot;fab fa-facebook-f&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the final computed accessible name in the rendered browser accessibility tree.</p>
+</div>
+<div class='finding'>
+<h2>Heading hierarchy may be inconsistent</h2>
+<span class='badge'>confirmed_by_both</span>
+<span class='badge'>Medium</span>
+<span class='badge'>Headings</span>
+<span class='badge'>High - detected by both engines</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>Unexpected heading-level jumps can make the relationship between sections harder to understand.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-md-3:nth-child(1) &gt; h6 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h6&gt;USEFUL LINKS&lt;/h6&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Heading order invalid</pre>
+<h3>What should change</h3>
+<p>Review the document outline and use heading levels according to the logical content hierarchy.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>A heading-level jump is not automatically a WCAG failure. The full document hierarchy must be reviewed.</p>
+</div>
+<div class='finding'>
+<h2>Link does not have a discernible accessible name</h2>
+<span class='badge'>confirmed_by_both</span>
+<span class='badge'>High</span>
+<span class='badge'>Links</span>
+<span class='badge'>High - detected by both engines</span>
+<h3>WCAG relationship</h3>
+<p>2.4.4 Link Purpose (In Context) / 4.1.2 Name, Role, Value — Level A</p>
+<h3>Why it matters</h3>
+<p>Screen-reader users may encounter a link without being told what it does or where it goes.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: a[href=&quot;&quot;]:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a href=&quot;&quot;&gt; &lt;i class=&quot;fab fa-twitter&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</pre>
+<h3>What should change</h3>
+<p>Provide meaningful visible link text or another valid accessible name. Icon-only links should expose a concise accessible name describing their action or destination.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;a aria-label=&quot;Describe link destination&quot; href=&quot;&quot;&gt; &lt;i class=&quot;fab fa-twitter&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the final computed accessible name in the rendered browser accessibility tree.</p>
+</div>
+<div class='finding'>
+<h2>Link does not have a discernible accessible name</h2>
+<span class='badge'>confirmed_by_both</span>
+<span class='badge'>High</span>
+<span class='badge'>Links</span>
+<span class='badge'>High - detected by both engines</span>
+<h3>WCAG relationship</h3>
+<p>2.4.4 Link Purpose (In Context) / 4.1.2 Name, Role, Value — Level A</p>
+<h3>Why it matters</h3>
+<p>Screen-reader users may encounter a link without being told what it does or where it goes.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: a[href=&quot;&quot;]:nth-child(3) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a href=&quot;&quot;&gt; &lt;i class=&quot;fab fa-linkedin-in&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</pre>
+<h3>What should change</h3>
+<p>Provide meaningful visible link text or another valid accessible name. Icon-only links should expose a concise accessible name describing their action or destination.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;a aria-label=&quot;Describe link destination&quot; href=&quot;&quot;&gt; &lt;i class=&quot;fab fa-linkedin-in&quot; data-pack=&quot;social&quot; data-tags=&quot;like, post, share&quot;&gt;&lt;/i&gt; &lt;/a&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the final computed accessible name in the rendered browser accessibility tree.</p>
+</div>
+<div class='finding'>
+<h2>Image is missing an alt attribute</h2>
+<span class='badge'>custom_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Images</span>
+<span class='badge'>Custom automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.1.1 Non-text Content — Level A</p>
+<h3>Why it matters</h3>
+<p>An image without a text alternative may not communicate its purpose to screen-reader users.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: div.container-fluid:nth-of-type(6) &gt; div.row.footer:nth-of-type(2) &gt; div.container &gt; div.row.footer-links:nth-of-type(1) &gt; div.col-md-3:nth-of-type(4) &gt; row:nth-of-type(1) &gt; div.col-md-12 &gt; img.lazy | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;img class=&quot;lazy&quot; data-src=&quot;https://www.juniv.edu/images/logo-ju-small.png&quot; style=&quot;width: 100px;background: white;border-radius: 5%;&quot;/&gt;</pre>
+<h3>What should change</h3>
+<p>Add an appropriate alt attribute. Use descriptive text for informative images or alt=&quot;&quot; for decorative images.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;img alt=&quot;[Describe the image purpose]&quot; class=&quot;lazy&quot; data-src=&quot;https://www.juniv.edu/images/logo-ju-small.png&quot; style=&quot;width: 100px;background: white;border-radius: 5%;&quot;/&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Image purpose must be determined before choosing appropriate alternative text.</p>
+</div>
+<div class='finding'>
+<h2>Page does not contain an H1 heading</h2>
+<span class='badge'>custom_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Headings</span>
+<span class='badge'>Contextual/manual review</span>
+<h3>WCAG relationship</h3>
+<p>Related to 1.3.1 and 2.4.6 — Level Review</p>
+<h3>Why it matters</h3>
+<p>A meaningful top-level heading can help users understand the main purpose of the page.</p>
+<h3>Where</h3>
+<div class='location'>Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>What should change</h3>
+<p>Review the page structure and provide a meaningful top-level heading when appropriate.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;h1&gt;Describe the main page topic&lt;/h1&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>WCAG does not simply require exactly one H1 on every page.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must contain particular children</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require child roles contain them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(1) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;ul class=&quot;nav nav-tabs&quot; id=&quot;myTab&quot; role=&quot;tablist&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has children which are not allowed: li</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must contain particular children</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must contain particular children</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require child roles contain them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(2) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;ul class=&quot;nav nav-tabs&quot; id=&quot;myTab&quot; role=&quot;tablist&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has children which are not allowed: li</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must contain particular children</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must contain particular children</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require child roles contain them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(3) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;ul class=&quot;nav nav-tabs&quot; id=&quot;myTab&quot; role=&quot;tablist&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has children which are not allowed: li</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must contain particular children</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link  active &quot; id=&quot;Notices-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Notices&quot; role=&quot;tab&quot; aria-controls=&quot;Notices&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Notices&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Office\ Order-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link &quot; id=&quot;Office Order-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Office Order&quot; role=&quot;tab&quot; aria-controls=&quot;Office Order&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Office Order&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link  active &quot; id=&quot;News-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#News&quot; role=&quot;tab&quot; aria-controls=&quot;News&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; News&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Events-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link &quot; id=&quot;Events-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Events&quot; role=&quot;tab&quot; aria-controls=&quot;Events&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Events&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link  active &quot; id=&quot;Press Releases-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Press Releases&quot; role=&quot;tab&quot; aria-controls=&quot;Press Releases&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-calendar-alt&quot;&gt;&lt;/i&gt; Press Releases&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Certain ARIA roles must be contained by particular parents</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag131|EN-301-549|EN-9.1.3.1 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure elements with an ARIA role that require parent roles are contained by them</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Tenders-tab | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link &quot; id=&quot;Tenders-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Tenders&quot; role=&quot;tab&quot; aria-controls=&quot;Tenders&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-calendar-alt&quot;&gt;&lt;/i&gt; Tenders&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Required ARIA parent role not present: tablist</pre>
+<h3>What should change</h3>
+<p>Certain ARIA roles must be contained by particular parents</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .btn-success | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a href=&quot;https://ju-admission.org&quot; class=&quot;d-inline-block btn btn-success last&quot;&gt;Admission&lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .d-inline:nth-child(1) &gt; .d-inline &gt; .link-div &gt; span | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;span&gt;ABOUT JU&lt;/span&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .d-inline:nth-child(2) &gt; .d-inline &gt; .link-div &gt; span | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;span&gt;VISION &amp;amp; MISSION&lt;/span&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .d-inline:nth-child(3) &gt; .d-inline &gt; .link-div &gt; span | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;span&gt;Act &amp;amp; Ordinances&lt;/span&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: a[href$=&quot;gallery&quot;] &gt; .link-div &gt; span | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;span&gt;GALLERY&lt;/span&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .vice-chancellor &gt; div &gt; h5 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h5 class=&quot;text-center&quot;&gt;Dr. Mohammad Kamrul Ahsan
+                            &lt;br&gt;
+                            &lt;small&gt;Vice Chancellor&lt;/small&gt;
+                        &lt;/h5&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: h5 &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;Vice Chancellor&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: div &gt; p | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;p style=&quot;text-align: justify;&quot;&gt;Welcome to &lt;strong&gt;&lt;em&gt;Jahangirnagar University!&lt;/em&gt;&lt;/strong&gt; It is our pleasure to present to you this website, beca...
+                    &lt;/p&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: em | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;em&gt;Jahangirnagar University!&lt;/em&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #79aa72, font size: 10.8pt (14.4px), font weight: bold). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices &gt; .item-lists.list-unstyled &gt; li:nth-child(1) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jul 14, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices &gt; .item-lists.list-unstyled &gt; li:nth-child(2) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jul 08, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices &gt; .item-lists.list-unstyled &gt; li:nth-child(3) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jul 02, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices &gt; .item-lists.list-unstyled &gt; li:nth-child(4) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jun 25, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Notices &gt; .item-lists.list-unstyled &gt; li:nth-child(5) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jun 23, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News &gt; .item-lists.list-unstyled &gt; li:nth-child(1) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jul 08, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News &gt; .item-lists.list-unstyled &gt; li:nth-child(2) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jun 11, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News &gt; .item-lists.list-unstyled &gt; li:nth-child(3) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Apr 15, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News &gt; .item-lists.list-unstyled &gt; li:nth-child(4) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Jan 13, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #News &gt; .item-lists.list-unstyled &gt; li:nth-child(5) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Dec 11, 2025&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases &gt; .item-lists.list-unstyled &gt; li:nth-child(1) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Aug 25, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases &gt; .item-lists.list-unstyled &gt; li:nth-child(2) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Aug 23, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases &gt; .item-lists.list-unstyled &gt; li:nth-child(3) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Aug 10, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases &gt; .item-lists.list-unstyled &gt; li:nth-child(4) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Aug 09, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases &gt; .item-lists.list-unstyled &gt; li:nth-child(5) &gt; .mb-1.bangla-font &gt; small | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;small&gt;&lt;i class=&quot;fas fa-clock&quot;&gt;&lt;/i&gt;
+                                        Aug 09, 2026&lt;/small&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #777777, background color: #f0f9ff, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-md-3:nth-child(1) &gt; h6 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h6&gt;USEFUL LINKS&lt;/h6&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.6 (foreground color: #3886dd, background color: #444444, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-md-3:nth-child(2) &gt; h6 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h6&gt;ADMISSION LINKS&lt;/h6&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.6 (foreground color: #3886dd, background color: #444444, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-md-3:nth-child(3) &gt; h6 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h6&gt;OTHERS&lt;/h6&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element has insufficient color contrast of 2.6 (foreground color: #3886dd, background color: #444444, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>Image does not have an appropriate text alternative</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Critical</span>
+<span class='badge'>Images</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.1.1 Non-text Content — Level A</p>
+<h3>Why it matters</h3>
+<p>Users who cannot perceive the image may not receive the information or function communicated by it.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-md-12 &gt; .lazy | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;img class=&quot;lazy&quot; data-src=&quot;https://www.juniv.edu/images/logo-ju-small.png&quot; style=&quot;width: 100px;background: white;border-radius: 5%;&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element&#x27;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;</pre>
+<h3>What should change</h3>
+<p>Determine whether the image is informative, functional, or decorative. Informative images should have concise alternative text describing their purpose. Decorative images should normally use alt=&quot;&quot;.</p>
+<h3>Suggested code pattern</h3>
+<pre>&lt;img alt=&quot;[Describe the image purpose]&quot; class=&quot;lazy&quot; data-src=&quot;https://www.juniv.edu/images/logo-ju-small.png&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==&quot; style=&quot;width: 100px;background: white;border-radius: 5%;&quot;/&gt;</pre>
+<p><em>Placeholder text must be replaced with content appropriate to the page context.</em></p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>The correct alternative depends on the purpose and surrounding context of the image.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(1) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(1) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link  active &quot; id=&quot;Notices-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Notices&quot; role=&quot;tab&quot; aria-controls=&quot;Notices&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Notices&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(1) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link &quot; id=&quot;Office Order-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Office Order&quot; role=&quot;tab&quot; aria-controls=&quot;Office Order&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Office Order&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(2) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(1) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link  active &quot; id=&quot;News-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#News&quot; role=&quot;tab&quot; aria-controls=&quot;News&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; News&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(2) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link &quot; id=&quot;Events-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Events&quot; role=&quot;tab&quot; aria-controls=&quot;Events&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-newspaper&quot;&gt;&lt;/i&gt; Events&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(3) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(1) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link  active &quot; id=&quot;Press Releases-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Press Releases&quot; role=&quot;tab&quot; aria-controls=&quot;Press Releases&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-calendar-alt&quot;&gt;&lt;/i&gt; Press Releases&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>List item is not contained in a proper list</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>High</span>
+<span class='badge'>Structure</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>1.3.1 Info and Relationships — Level A</p>
+<h3>Why it matters</h3>
+<p>A list item outside a proper list container may not be announced correctly by assistive technologies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .col-lg-4:nth-child(3) &gt; .nav.nav-tabs[role=&quot;tablist&quot;] &gt; .nav-item:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link &quot; id=&quot;Tenders-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#Tenders&quot; role=&quot;tab&quot; aria-controls=&quot;Tenders&quot; aria-selected=&quot;false&quot;&gt;&lt;i class=&quot;far fa-calendar-alt&quot;&gt;&lt;/i&gt; Tenders&lt;/a&gt;
+                    &lt;/li&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  List item parent element has a role that is not role=&quot;list&quot;</pre>
+<h3>What should change</h3>
+<p>Place &lt;li&gt; elements inside an appropriate &lt;ul&gt; or &lt;ol&gt;, or use a different element if the content is not a list.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>Verify the intended content structure.</p>
+</div>
+<div class='finding'>
+<h2>Page should contain a level-one heading</h2>
+<span class='badge'>axe_only</span>
+<span class='badge'>Medium</span>
+<span class='badge'>Other</span>
+<span class='badge'>Axe automated finding</span>
+<h3>WCAG relationship</h3>
+<p>best-practice — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure that the page, or at least one of its frames contains a level-one heading</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: html | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;html lang=&quot;en&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix all of the following:
+  Page must have a level-one heading</pre>
+<h3>What should change</h3>
+<p>Page should contain a level-one heading</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>ARIA attributes must conform to valid values</h2>
+<span class='badge'>axe_incomplete</span>
+<span class='badge'>Review</span>
+<span class='badge'>Other</span>
+<span class='badge'>Manual review required</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag412|EN-301-549|EN-9.4.1.2 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure all ARIA attributes have valid values</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: #Press\ Releases | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;div class=&quot;tab-pane  active show &quot; id=&quot;Press Releases&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;Press Releases-tab&quot;&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix all of the following:
+  ARIA attribute element ID does not exist on the page: aria-labelledby=&quot;Press Releases-tab&quot;</pre>
+<h3>What should change</h3>
+<p>ARIA attributes must conform to valid values</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+<div class='finding'>
+<h2>Text color contrast requires review</h2>
+<span class='badge'>axe_incomplete</span>
+<span class='badge'>Review</span>
+<span class='badge'>Color contrast</span>
+<span class='badge'>Manual review required</span>
+<h3>WCAG relationship</h3>
+<p>1.4.3 Contrast (Minimum) — Level AA</p>
+<h3>Why it matters</h3>
+<p>Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .carousel-item.active &gt; .carousel-caption &gt; h5 | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;h5&gt;আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন&lt;/h5&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+<h3>What should change</h3>
+<p>Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>axe returned this finding as incomplete, meaning the contrast could not be conclusively evaluated automatically. Background images, gradients, overlapping elements, transparency, or other rendered styling can require manual inspection.</p>
+</div>
+<div class='finding'>
+<h2>IDs used in ARIA and labels must be unique</h2>
+<span class='badge'>axe_incomplete</span>
+<span class='badge'>Review</span>
+<span class='badge'>Other</span>
+<span class='badge'>Manual review required</span>
+<h3>WCAG relationship</h3>
+<p>wcag2a|wcag412|EN-301-549|EN-9.4.1.2 — Level Review</p>
+<h3>Why it matters</h3>
+<p>Ensure every id attribute value used in ARIA and in labels is unique</p>
+<h3>Where</h3>
+<div class='location'>DOM selector: .dropdown.break-fix.nav-item:nth-child(2) &gt; .dropdown-toggle[href=&quot;#&quot;][data-toggle=&quot;dropdown&quot;] | Ownership: page_content | Actionability: directly_reviewable</div>
+<h3>Affected HTML</h3>
+<pre>&lt;a class=&quot;nav-link  dropdown-toggle &quot; href=&quot;#&quot; id=&quot;navbarDropdown&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                        Administration
+                                &lt;/a&gt;</pre>
+<h3>Automated evidence</h3>
+<pre>Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: navbarDropdown</pre>
+<h3>What should change</h3>
+<p>IDs used in ARIA and labels must be unique</p>
+<h3>Manual review</h3>
+<p>Yes</p>
+<p>No dedicated remediation template has yet been defined for this rule.</p>
+</div>
+</div></body></html>

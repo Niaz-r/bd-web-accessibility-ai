@@ -1,0 +1,439 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://cvasu.ac.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://cvasu.ac.bd/
+Status: 200
+Analyzable: True
+Findings: 49
+
+issue_category       issue severity                                                                                                                                                                                                                                      selector
+         image missing_alt     high                                                                           body > div.container-fluid.menu_top:nth-of-type(5) > div.row.row_top > div.col-lg-7.col-md-12:nth-of-type(1) > div.row > div.col-lg-10.col-md-12 > a > img.top_logo
+         image missing_alt     high                                                                                     div.container-fluid.menu_top:nth-of-type(5) > div.row.row_top > div.col-lg-6.col-md-12:nth-of-type(2) > table > tr > td:nth-of-type(1) > a > img.top_logo
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                            li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.e_source
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                                     li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high                                                                                                                                          li#menu-item-149-post-150 > a.ubermenu-target.ubermenu-target-with-image > img.menu_image.book_image
+         image missing_alt     high div:nth-of-type(3) > div.row > div.col-lg-12.col-md-12 > div.last_latest_parent:nth-of-type(1) > div.last_for_padding:nth-of-type(1) > div.latest_holder.original_holder > div.latest_parent:nth-of-type(1) > img.research_image.latest_image
+
+CSV: final_pipeline/data/intermediate/custom_live/cvasu.ac.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/cvasu.ac.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://cvasu.ac.bd/
+HTTP status: 200
+Final URL: https://cvasu.ac.bd/
+Page title: Home | Chattogram Veterinary and Animal Sciences University
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 8
+Violation nodes: 45
+Incomplete rules: 2
+Incomplete nodes: 53
+Passed rules: 29
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+button-name | impact: critical | nodes: 1
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .btn
+  HTML: <button class="btn top_search_button" style="top: 29px; display: inline-block;"> <i class="fa fa-search"></i> </button>
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html class=" js csstransforms csstransforms3d csstransitions">
+
+image-alt | impact: critical | nodes: 7
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: td:nth-child(1) > a[href="/"] > .top_logo
+  HTML: <img class="top_logo" src="/static/maintheme/img/cvasu-logo-resized.jpg">
+  Selector: .last_for_padding:nth-child(5) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image
+  HTML: <img class="research_image latest_image" src="/media/slider_images/c2c248c8-b6a8-476d-8e8e-f34c8b38689d.jpg">
+  Selector: .last_for_padding:nth-child(6) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image
+  HTML: <img class="research_image latest_image" src="/media/slider_images/ec5db987-e5a0-41fe-83c3-f4e796e566de.jpg">
+
+label-title-only | impact: serious | nodes: 1
+  Help: Form elements should have a visible label
+  Tags: cat.forms, best-practice
+  Selector: #search-field
+  HTML: <input type="text" autocomplete="off" placeholder="search with profile or research interest..." value="" class="form-control" id="search-field" title="Search with Profile or Research Interest">
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html class=" js csstransforms csstransforms3d csstransitions">
+
+link-name | impact: serious | nodes: 12
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: td:nth-child(1) > a[href="/"]
+  HTML: <a href="/"> <img class="top_logo" src="/static/maintheme/img/cvasu-logo-resized.jpg"> </a>
+  Selector: td:nth-child(1) > a[href$="academic-notices"][target="_blank"]
+  HTML: <a href="/academic-notices" target="_blank"> <i class="fa fa-graduation-cap"></i>&nbsp;&nbsp; </a>
+  Selector: td:nth-child(1) > a[href$="administrative-notices"][target="_blank"]
+  HTML: <a href="/administrative-notices" target="_blank"> <i class="fa fa-address-book"></i>&nbsp;&nbsp; </a>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html class=" js csstransforms csstransforms3d csstransitions">
+
+region | impact: moderate | nodes: 21
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .row_top > .not_on_mobile.col-lg-6.col-md-12
+  HTML: <div class="col-lg-6 col-md-12 col-sm-12 not_on_mobile" style="background:white;">
+  Selector: #search-field
+  HTML: <input type="text" autocomplete="off" placeholder="search with profile or research interest..." value="" class="form-control" id="search-field" title="Search with Profile or Research Interest">
+  Selector: .topBar > .row > .not_on_mobile.col-lg-6.col-md-12
+  HTML: <div class="col-lg-6 col-md-12 col-sm-12 not_on_mobile" style="font-size:1.1em;padding:5px 0px;">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cvasu.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cvasu.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 49
+Axe nodes: 98
+
+Axe result types:
+result_type
+incomplete    53
+violation     45
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 23
+Confirmed matches: 19
+
+Unified finding statuses:
+finding_status
+axe_incomplete       53
+custom_only          30
+axe_only             26
+confirmed_by_both    19
+
+Confirmed rule pairs:
+custom_issue     axe_rule 
+empty_link_text  link-name    12
+missing_alt      image-alt     7
+
+Ownership scope:
+ownership_scope
+page_content    128
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue  axe_rule  match_score                                              match_method                                                                                                                   preferred_selector                                                           src                                                                                                       href
+empty_link_text link-name          300                     same_src+same_href+same_html+same_tag                                                                                                        td:nth-child(1) > a[href="/"]                  /static/maintheme/img/cvasu-logo-resized.jpg                                                                                                          /
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium                      .last_for_padding:nth-child(5) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/c2c248c8-b6a8-476d-8e8e-f34c8b38689d.jpg                                                                                                           
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium                      .last_for_padding:nth-child(6) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/ec5db987-e5a0-41fe-83c3-f4e796e566de.jpg                                                                                                           
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium  .last_for_padding[aria-hidden="true"]:nth-child(7) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/a2e95429-26c7-41c2-a910-e39f33122258.jpg                                                                                                           
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium  .last_for_padding[aria-hidden="true"]:nth-child(8) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/20329393-ad1b-4c43-8d78-f58ef99da4a9.jpg                                                                                                           
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium  .last_for_padding[aria-hidden="true"]:nth-child(9) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/e755cc21-ca50-4e69-b96c-36427df50cc8.jpg                                                                                                           
+    missing_alt image-alt          230 same_src+same_html+same_tag+class_overlap+selector_medium .last_for_padding[aria-hidden="true"]:nth-child(10) > .latest_holder.original_holder > .latest_parent > .research_image.latest_image /media/slider_images/f02cc8cd-f4a7-4e2d-b5d7-06b3703e284d.jpg                                                                                                           
+    missing_alt image-alt          210                 same_src+same_html+same_tag+class_overlap                                                                                            td:nth-child(1) > a[href="/"] > .top_logo                  /static/maintheme/img/cvasu-logo-resized.jpg                                                                                                           
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                       td:nth-child(1) > a[href$="academic-notices"][target="_blank"]                                                                                                                                                        /academic-notices
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                 td:nth-child(1) > a[href$="administrative-notices"][target="_blank"]                                                                                                                                                  /administrative-notices
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                        tr:nth-child(3) > td:nth-child(1) > a[href$="office-orders"][target="_blank"]                                                                                                                                                           /office-orders
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                        tr:nth-child(4) > td:nth-child(1) > a[href$="office-orders"][target="_blank"]                                                                                                                                                           /office-orders
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                   td:nth-child(1) > a[href$="passport-related-noc"][target="_blank"]                                                                                                                                                    /passport-related-noc
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                               td:nth-child(1) > a[href$="job-list"][target="_blank"]                                                                                                                                                                /job-list
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                            td:nth-child(1) > a[href$="tender-list"][target="_blank"]                                                                                                                                                             /tender-list
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                   .col-lg-3.col-md-12.col-sm-12:nth-child(1) > div > a[target="_blank"]:nth-child(2)                                                               https://www.facebook.com/people/Chattogram-Veterinary-and-Animal-Sciences-University-CVASU/61587543042923/
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                                                              a[href$="twitter.com/"]                                                                                                                                                     https://twitter.com/
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                    .col-lg-3.col-md-12.col-sm-12:nth-child(1) > div > a:nth-child(4)                                                                                                                                   https://www.linkedin.com/school/cvasu/
+empty_link_text link-name          200                              same_href+same_html+same_tag                                                                    .col-lg-3.col-md-12.col-sm-12:nth-child(1) > div > a:nth-child(5)                                                                                                                 https://www.youtube.com/channel/UCzSHYFetqB94rybwFMVMNZw
+
+Output: final_pipeline/data/intermediate/unified_live/cvasu.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://cvasu.ac.bd/
+Unified findings: 128
+Context-dependent findings: 6
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 6
+Unmatched: 0
+
+     custom_issue      text  alt                 href src nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                 surrounding_context
+generic_link_text READ MORE  NaN /news-with-image/393 NaN        Loading                                              Nearby heading: Loading | Element text: READ MORE | Parent text: সিভাসু’সহ চট্টগ্রামের চারটি কেন্দ্রে সুষ্ঠু ও শান্তিপূর্ণভাবে কৃষিগুচ্ছের ভর্তি পরীক্ষা… সিভাসু’সহ চট্টগ্রামের চারটি কেন্দ্রে সুষ্ঠু ও শান্তিপূর্ণভাবে কৃষিগুচ্ছের ভর্তি পরীক্ষা… READ MORE | Previous text: সিভাসু’সহ চট্টগ্রামের চারটি কেন্দ্রে সুষ্ঠু ও শান্তিপূর্ণভাবে কৃষিগুচ্ছের ভর্তি পরীক্ষা…
+generic_link_text READ MORE  NaN /news-with-image/392 NaN        Loading                                                                                                                                                                      Nearby heading: Loading | Element text: READ MORE | Parent text: উৎসবমুখর পরিবেশে সিভাসু’তে মহান বিজয় দিবস উদযাপন উৎসবমুখর পরিবেশে সিভাসু’তে মহান বিজয় দিবস উদযাপন READ MORE | Previous text: উৎসবমুখর পরিবেশে সিভাসু’তে মহান বিজয় দিবস উদযাপন
+generic_link_text READ MORE  NaN /news-with-image/390 NaN        Loading                                                                                                                               Nearby heading: Loading | Element text: READ MORE | Parent text: সিভাসু’র ডিভিএম ২৭তম ব্যাচের শিক্ষার্থীদের মাঝে কিটবক্স বিতরণ সিভাসু’র ডিভিএম ২৭তম ব্যাচের শিক্ষার্থীদের মাঝে কিটবক্স বিতরণ READ MORE | Previous text: সিভাসু’র ডিভিএম ২৭তম ব্যাচের শিক্ষার্থীদের মাঝে কিটবক্স বিতরণ
+generic_link_text READ MORE  NaN /news-with-image/389 NaN        Loading                                                             Nearby heading: Loading | Element text: READ MORE | Parent text: সিভাসু’তে ‘প্রশাসন ও অফিস ব্যবস্থাপনা’ বিষয়ে কর্মকর্তাদের জন্য দিনব্যাপী প্রশিক্ষণ… সিভাসু’তে ‘প্রশাসন ও অফিস ব্যবস্থাপনা’ বিষয়ে কর্মকর্তাদের জন্য দিনব্যাপী প্রশিক্ষণ… READ MORE | Previous text: সিভাসু’তে ‘প্রশাসন ও অফিস ব্যবস্থাপনা’ বিষয়ে কর্মকর্তাদের জন্য দিনব্যাপী প্রশিক্ষণ…
+generic_link_text READ MORE  NaN /news-with-image/388 NaN        Loading Nearby heading: Loading | Element text: READ MORE | Parent text: বিশ্ব অ্যান্টিমাইক্রোবিয়াল রেজিস্ট্যান্স সচেতনতা সপ্তাহ ২০২৫ উদযাপন ‘এএমআর মোকাবিলায় অ্যান্টিবায়োটিকের… বিশ্ব অ্যান্টিমাইক্রোবিয়াল রেজিস্ট্যান্স সচেতনতা সপ্তাহ ২০২৫ উদযাপন ‘এএমআর মোকাবিলায় অ্যান্টিবায়োটিকের… READ MORE | Previous text: বিশ্ব অ্যান্টিমাইক্রোবিয়াল রেজিস্ট্যান্স সচেতনতা সপ্তাহ ২০২৫ উদযাপন ‘এএমআর মোকাবিলায় অ্যান্টিবায়োটিকের…
+generic_link_text READ MORE  NaN /news-with-image/385 NaN        Loading                                                                   Nearby heading: Loading | Element text: READ MORE | Parent text: শেষ হলো সিভাসু’র সপ্তদশ আন্তর্জাতিক বৈজ্ঞানিক সম্মেলন ভাঙলো দেশি-বিদেশি গবেষকদের… শেষ হলো সিভাসু’র সপ্তদশ আন্তর্জাতিক বৈজ্ঞানিক সম্মেলন ভাঙলো দেশি-বিদেশি গবেষকদের… READ MORE | Previous text: শেষ হলো সিভাসু’র সপ্তদশ আন্তর্জাতিক বৈজ্ঞানিক সম্মেলন ভাঙলো দেশি-বিদেশি গবেষকদের…
+
+Output:
+final_pipeline/data/intermediate/context_live/cvasu.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cvasu.ac.bd__context_findings.csv
+Total unified findings: 128
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 6
+
+By rule:
+  generic_link_text: 6
+
+Decision codes:
+  LINK_CONTEXT_AVAILABLE: 6
+
+Confidence:
+  high: 6
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+     custom_issue      text  alt nearby_heading                      contextual_action contextual_suggestion contextual_confidence contextual_evidence_source
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+generic_link_text READ MORE  NaN        Loading replace_or_expand_accessible_link_name    Read more: Loading                  high             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+Unified findings: 128
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete       53
+custom_only          30
+axe_only             26
+confirmed_by_both    19
+
+Priority:
+priority
+Review      53
+High        38
+Medium      29
+Critical     8
+
+Categories:
+category
+Color contrast    52
+Images            26
+Links             22
+Landmarks         21
+Other              4
+Headings           2
+Controls           1
+
+Top rules:
+primary_rule
+color-contrast          52
+region                  21
+missing_alt             19
+link-name               12
+image-alt                7
+generic_link_text        6
+empty_link_text          4
+missing_h1               1
+button-name              1
+html-has-lang            1
+label-title-only         1
+landmark-one-main        1
+page-has-heading-one     1
+heading-order            1
+
+Context-aware recommendations: 6
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - html-has-lang
+ - label-title-only
+ - landmark-one-main
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/cvasu.ac.bd__recommendations.csv
+final_pipeline/reports/live/cvasu.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://cvasu.ac.bd/
+
+Host:
+cvasu.ac.bd
+
+Output stem:
+cvasu.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://cvasu.ac.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cvasu.ac.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cvasu.ac.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+cvasu.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://cvasu.ac.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cvasu.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cvasu.ac.bd__axe.json
+Rendered URL: https://cvasu.ac.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cvasu.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cvasu.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cvasu.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cvasu.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cvasu.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cvasu.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://cvasu.ac.bd/
+
+Analysis stem:
+cvasu.ac.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cvasu.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cvasu.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cvasu.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/cvasu.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/cvasu.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

@@ -1,0 +1,368 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://visa.gov.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://visa.gov.bd/
+Status: 200
+Analyzable: True
+Findings: 4
+
+issue_category               issue severity                                                                                 selector
+         image non_descriptive_alt   medium                                                                           div#logo > img
+         image non_descriptive_alt   medium                      table#ctl00_C1_wz > tr:nth-of-type(1) > td > p:nth-of-type(3) > img
+       heading          missing_h1     high                                                                                         
+          link   generic_link_text   medium table#ctl00_C1_wz > tr:nth-of-type(1) > td > p:nth-of-type(3) > a.clsFees:nth-of-type(1)
+
+CSV: final_pipeline/data/intermediate/custom_live/visa.gov.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/visa.gov.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://visa.gov.bd/
+HTTP status: 200
+Final URL: https://visa.gov.bd/
+Page title: Bangladesh Online MRV Portal
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 5
+Violation nodes: 13
+Incomplete rules: 1
+Incomplete nodes: 6
+Passed rules: 21
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html xmlns="http://www.w3.org/1999/xhtml">
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html xmlns="http://www.w3.org/1999/xhtml">
+
+link-in-text-block | impact: serious | nodes: 4
+  Help: Links must be distinguishable without relying on color
+  Tags: cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549, EN-9.1.4.1, RGAAv4, RGAA-10.6.1
+  Selector: .clsSupported
+  HTML: <a href="#" class="clsSupported">supported countries</a>
+  Selector: .clsFees
+  HTML: <a href="#" class="clsFees">Here</a>
+  Selector: p:nth-child(4) > a[href$="TermsCondition.aspx"]
+  HTML: <a href="TermsCondition.aspx" title="Press to direct you to Terms and Conditions">Terms &amp; Conditions</a>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html xmlns="http://www.w3.org/1999/xhtml">
+
+region | impact: moderate | nodes: 6
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: #logo
+  HTML: <div id="logo"> <img src="Img/banner.jpg" style="width: 100%; height: 200px" alt="pic"></div>
+  Selector: #container > div:nth-child(2)
+  HTML: <div>
+  Selector: .list
+  HTML: <ul class="list">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/visa.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/visa.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 4
+Axe nodes: 19
+
+Axe result types:
+result_type
+violation     13
+incomplete     6
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          13
+axe_incomplete     6
+custom_only        4
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    23
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/visa.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://visa.gov.bd/
+Unified findings: 23
+Context-dependent findings: 3
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 3
+Unmatched: 0
+
+       custom_issue text   alt href            src nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 surrounding_context
+non_descriptive_alt  NaN   pic  NaN Img/banner.jpg                                                                                                                                                                                                                                                                                                                                                                                                                Parent text: HOME INCOMPLETE APPLICATION VIEW STATUS REPRINT APPLICATION COMPLAINTS & FEEDBACK Home Terms & Conditions Privacy Policy Download MRV Form FAQ ABOUT SSL CERTIFICATES What you need? Welcome to the Electronic Visa Applications Forms Instructions Page. Forms available on this page can be filled out on-line and assist in the processing of your application. • If you are using Internet Explorer (Windows), the minimum version that will work with this site is version 9.0. • If you are using Mozilla Fire... | Next text: HOME | Image filename: banner.jpg
+non_descriptive_alt  NaN image  NaN   Img/save.png What you need? Nearby heading: What you need? | Parent text: What you need? Welcome to the Electronic Visa Applications Forms Instructions Page. Forms available on this page can be filled out on-line and assist in the processing of your application. • If you are using Internet Explorer (Windows), the minimum version that will work with this site is version 9.0. • If you are using Mozilla Firefox, the minimum version that will work with this site is version 3.5. • You must also have Adobe Acrobat Reader version 8.0 or higher installed on your PC in order t... | Previous text: You can save your Visa application on any page where you see this The online application process requires the user to: Step 1: Fill up and submit the Online Visa Application Form Step 2: Print the completed form Step 3: Take the printed form enclosed with required documents, payment of visa fees documents to the nearest Visa office / Bangladesh Mis... | Image filename: save.png
+  generic_link_text Here   NaN    #            NaN What you need?       Nearby heading: What you need? | Element text: Here | Parent text: What you need? Welcome to the Electronic Visa Applications Forms Instructions Page. Forms available on this page can be filled out on-line and assist in the processing of your application. • If you are using Internet Explorer (Windows), the minimum version that will work with this site is version 9.0. • If you are using Mozilla Firefox, the minimum version that will work with this site is version 3.5. • You must also have Adobe Acrobat Reader version 8.0 or higher installed on your PC in order t... | Previous text: You can save your Visa application on any page where you see this The online application process requires the user to: Step 1: Fill up and submit the Online Visa Application Form Step 2: Print the completed form Step 3: Take the printed form enclosed with required documents, payment of visa fees documents to the nearest Visa office / Bangladesh Mis...
+
+Output:
+final_pipeline/data/intermediate/context_live/visa.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/visa.gov.bd__context_findings.csv
+Total unified findings: 23
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 3
+
+By rule:
+  generic_link_text: 1
+  non_descriptive_alt: 2
+
+Decision codes:
+  GENERIC_ALT_CONTEXT_AVAILABLE: 2
+  LINK_CONTEXT_AVAILABLE: 1
+
+Confidence:
+  high: 1
+  low: 1
+  medium: 1
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+       custom_issue text   alt nearby_heading                       contextual_action                                                                                                                                                                                                                                                                                                                                                                             contextual_suggestion contextual_confidence contextual_evidence_source
+non_descriptive_alt  NaN   pic            NaN replace_generic_alt_after_visual_review Replace the generic alt text “pic” after visually inspecting the image. The surrounding context “HOME INCOMPLETE APPLICATION VIEW STATUS REPRINT APPLICATION COMPLAINTS & FEEDBACK Home Terms & Conditions Privacy Policy Download MRV Form FAQ ABOUT SSL CERTIFICATES What you ne...” can guide the description, but should not be copied as alt text unless it accurately represents the image.                   low                parent_text
+non_descriptive_alt  NaN image What you need? replace_generic_alt_after_visual_review                                                                                                                                                                     Replace the generic alt text “image” after visually inspecting the image. The surrounding context “What you need?” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+  generic_link_text Here   NaN What you need?  replace_or_expand_accessible_link_name                                                                                                                                                                                                                                                                                                                                                                         Read more: What you need?                  high             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+Unified findings: 23
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          13
+axe_incomplete     6
+custom_only        4
+
+Priority:
+priority
+Medium    11
+High       6
+Review     6
+
+Categories:
+category
+Other             7
+Landmarks         6
+Color contrast    6
+Images            2
+Headings          1
+Links             1
+
+Top rules:
+primary_rule
+region                  6
+color-contrast          6
+link-in-text-block      4
+non_descriptive_alt     2
+missing_h1              1
+generic_link_text       1
+html-has-lang           1
+landmark-one-main       1
+page-has-heading-one    1
+
+Context-aware recommendations: 3
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - html-has-lang
+ - landmark-one-main
+ - link-in-text-block
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/visa.gov.bd__recommendations.csv
+final_pipeline/reports/live/visa.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://visa.gov.bd/
+
+Host:
+visa.gov.bd
+
+Output stem:
+visa.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://visa.gov.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/visa.gov.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/visa.gov.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+visa.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://visa.gov.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/visa.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/visa.gov.bd__axe.json
+Rendered URL: https://visa.gov.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/visa.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/visa.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/visa.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/visa.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/visa.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/visa.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://visa.gov.bd/
+
+Analysis stem:
+visa.gov.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/visa.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/visa.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/visa.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/visa.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/visa.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

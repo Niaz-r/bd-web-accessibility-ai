@@ -1,0 +1,229 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.n-uc-143bf2a724d8d > .n2-ss-button-container.n2-font-f993dc2776c9034b6bc9b433ef72c2c0-link.n2-ss-nowrap > .n2-style-31bb1263fc65d754127f087828fa4b97-heading.n2-ow > div > div,<div>Read More</div>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,1
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"#about > .container > .link-btn[role=""button""]","<a href=""https://www.uiu.ac.bd/about-uiu"" role=""button"" class=""link-btn"">
+        More About UIU
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,2
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Undergraduate Programs</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,3
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(2) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Graduate Programs</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,4
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(3) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Continuing education</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,5
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"#acadamics > .container > .link-btn[role=""button""]","<a href=""https://www.uiu.ac.bd/admission/"" role=""button"" class=""link-btn"">
+        More about admission
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,6
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".link-btn[href$=""notice""][role=""button""]","<a class=""link-btn"" role=""button"" href=""https://www.uiu.ac.bd/notice"">View All Notices</a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,7
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(2) > .single-event > .details-container > .event-type,"<div class=""event-type"">
+                    UIU Multipurpose Hall                  </div>","Fix any of the following:
+  Element has insufficient color contrast of 2.31 (foreground color: #f68b1f, background color: #f1fbff, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1",serious,8
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(3) > .single-event > .details-container > .event-type,"<div class=""event-type"">
+                    Seminar Room: 126                  </div>","Fix any of the following:
+  Element has insufficient color contrast of 2.31 (foreground color: #f68b1f, background color: #f1fbff, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1",serious,9
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(4) > .single-event > .details-container > .event-type,"<div class=""event-type"">
+                    UIU Campus                  </div>","Fix any of the following:
+  Element has insufficient color contrast of 2.31 (foreground color: #f68b1f, background color: #f1fbff, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1",serious,10
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(6) > .single-event > .details-container > .event-type,"<div class=""event-type"">
+                    Computer Lab # 126                  </div>","Fix any of the following:
+  Element has insufficient color contrast of 2.31 (foreground color: #f68b1f, background color: #f1fbff, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1",serious,11
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""event""]","<a href=""https://www.uiu.ac.bd/event"" role=""button"" class=""link-btn"">
+        Explore All Events
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,12
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""news""]","<a href=""https://www.uiu.ac.bd/news"" role=""button"" class=""link-btn"">
+        View All News
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,13
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#campus-life > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Explore</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,14
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#campus-life > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(2) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Explore</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,15
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#campus-life > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(3) > .single-content > .text-content > .single-link > span:nth-child(1),<span>Explore</span>,"Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",serious,16
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"#campus-life > .container > .link-btn[role=""button""]","<a href=""https://www.uiu.ac.bd/campus-life"" role=""button"" class=""link-btn"">
+        Explore UIU Campus
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,17
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".gallery-section > a[href$=""uiu_in_media/""]","<a class=""link-btn"" role=""button"" href=""/uiu_in_media/"">View all news media</a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,18
+https://www.uiu.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"#research > .container > .link-btn[role=""button""]","<a href=""https://www.uiu.ac.bd/research/"" role=""button"" class=""link-btn"">
+        More about Research
+      </a>","Fix any of the following:
+  Element has insufficient color contrast of 2.43 (foreground color: #ffffff, background color: #f68b1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",serious,19
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,#acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > h5,"<h5>
+                Undergraduate Programs
+              </h5>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(3) > .notice-container > .notice-date > h3:nth-child(1),<h3>Aug</h3>,"Fix any of the following:
+  Heading order invalid",moderate,2
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(3) > .notice-container > .notice-details > h6,"<h6 class=""subtitle"">August 26, 2026</h6>","Fix any of the following:
+  Heading order invalid",moderate,3
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(4) > .notice-container > .notice-details > h6,"<h6 class=""subtitle"">August 25, 2026</h6>","Fix any of the following:
+  Heading order invalid",moderate,4
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(5) > .notice-container > .notice-details > h6,"<h6 class=""subtitle"">August 24, 2026</h6>","Fix any of the following:
+  Heading order invalid",moderate,5
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(6) > .notice-container > .notice-details > h6,"<h6 class=""subtitle"">August 24, 2026</h6>","Fix any of the following:
+  Heading order invalid",moderate,6
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-notice:nth-child(7) > .notice-container > .notice-details > h6,"<h6 class=""subtitle"">August 23, 2026</h6>","Fix any of the following:
+  Heading order invalid",moderate,7
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,#campus-life > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > h5,"<h5>
+                    Sports                  </h5>","Fix any of the following:
+  Heading order invalid",moderate,8
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.single-stat:nth-child(1) > .stat-heading,"<h4 class=""stat-heading"">
+            3 Institutes
+          </h4>","Fix any of the following:
+  Heading order invalid",moderate,9
+https://www.uiu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,#nav_menu-5 > .widget-title,"<h3 class=""widget-title"">About UIU</h3>","Fix any of the following:
+  Heading order invalid",moderate,10
+https://www.uiu.ac.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,#uiu-global-nav > nav,"<nav class=""container-fluid"">","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.logo,"<a class=""logo"" href=""https://uiu.ac.bd/"">
+							<i class=""fa-solid fa-house""></i>
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".social-link[target=""_blank""]:nth-child(1)","<a href=""https://www.facebook.com/uiuinfo"" class=""social-link"" target=""_blank"">
+				<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/facebook-white.svg"" alt="""">
+			</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".social-link[target=""_blank""]:nth-child(2)","<a href=""https://www.youtube.com/channel/UCRt5IHIN_lhbAic3hfrS2mA"" class=""social-link"" target=""_blank"">
+				<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/youtube-white.svg"" alt="""">
+			</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".social-link[href$=""uiuedu""][target=""_blank""]","<a href=""https://twitter.com/uiuedu"" class=""social-link"" target=""_blank"">
+				<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/twitter-white.svg"" alt="""">
+			</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".social-link[target=""_blank""]:nth-child(4)","<a href=""https://www.instagram.com/uiuofficial/"" class=""social-link"" target=""_blank"">
+				<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/instagram-white.svg"" alt="""">
+			</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".social-link[target=""_blank""]:nth-child(5)","<a href=""https://www.linkedin.com/school/uiuinfo/"" class=""social-link"" target=""_blank"">
+				<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/linkedin-white.svg"" alt="""">
+			</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"li:nth-child(1) > .single-social-link[target=""_blank""]","<a class=""single-social-link"" href=""https://www.facebook.com/uiuinfo"" target=""_blank"">
+							<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/facebook.png"" alt="""">
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".single-social-link[href$=""uiuedu""][target=""_blank""]","<a class=""single-social-link"" href=""https://twitter.com/uiuedu"" target=""_blank"">
+							<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/twitter.png"" alt="""">
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"li:nth-child(3) > .single-social-link[target=""_blank""]","<a class=""single-social-link"" href=""https://www.youtube.com/channel/UCRt5IHIN_lhbAic3hfrS2mA"" target=""_blank"">
+							<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/youtube.png"" alt="""">
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"li:nth-child(4) > .single-social-link[target=""_blank""]","<a class=""single-social-link"" href=""https://www.linkedin.com/school/uiuinfo/"" target=""_blank"">
+							<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/linkedin.png"" alt="""">
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://www.uiu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"li:nth-child(5) > .single-social-link[target=""_blank""]","<a class=""single-social-link"" href=""https://www.instagram.com/uiuofficial/"" target=""_blank"">
+							<img src=""https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/instagram.png"" alt="""">
+						</a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://www.uiu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.skip-link,"<a class=""skip-link screen-reader-text"" href=""#primary"">Skip to content</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.uiu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".n2-ss-slide-30 > .n2-ss-slide--focus[role=""note""]","<div role=""note"" class=""n2-ss-slide--focus"" tabindex=""-1"">Banner 2</div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.uiu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#follow-us,"<section id=""follow-us"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.uiu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"iframe[title=""reCAPTCHA""] .rc-anchor-invisible-text","<div class=""rc-anchor-invisible-text""><span>protected by <strong>reCAPTCHA</strong></span><div class=""rc-anchor-pt""></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://www.uiu.ac.bd/,violation,skip-link,moderate,Ensure all skip links have a focusable target,The skip-link target should exist and be focusable,https://dequeuniversity.com/rules/axe/4.13/skip-link?application=playwright,best-practice,.skip-link,"<a class=""skip-link screen-reader-text"" href=""#primary"">Skip to content</a>","Fix any of the following:
+  No skip link target",moderate,1
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.search-submit,"<input type=""submit"" class=""search-submit"" value=""Search"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,1
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-xl-6.two-column.col-xl-3:nth-child(1) > .news-content > .text-container > .news-cat,"<p class=""news-cat"">Uncategorized</p>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,2
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-xl-6.two-column.col-xl-3:nth-child(1) > .news-content > .text-container > .news-heading,"<div class=""news-heading"">
+                    Immersive Photography Workshop Held at UIU                  </div>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,3
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-xl-6.two-column.col-xl-3:nth-child(6) > .news-content > .text-container > .news-cat,"<p class=""news-cat"">Uncategorized</p>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,4
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-xl-6.two-column.col-xl-3:nth-child(6) > .news-content > .text-container > .news-heading,"<div class=""news-heading"">
+                    2nd Workshop of IdeationX held on 11 August 2026                  </div>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,5
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(1) > .gallery-item > .gallery-details > .create-date,"<span class=""create-date"">07/06/2026</span>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,6
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".col-12.col-lg-4.col-md-6:nth-child(1) > .gallery-item > .gallery-details > .news-title[rel=""nofollow""][target=""_blank""]","<a class=""news-title"" href=""https://www.prothomalo.com/lifestyle/7k6p874b8i"" target=""_blank"" rel=""nofollow"">
+                      মঙ্গল গ্রহের জন্য রোভার তৈরির বড় প্রতিযোগিতায় ইউআইইউ এবার তৃতীয়                    </a>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,7
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(2) > .gallery-item > .gallery-details > .create-date,"<span class=""create-date"">07/06/2026</span>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,8
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".col-12.col-lg-4.col-md-6:nth-child(2) > .gallery-item > .gallery-details > .news-title[rel=""nofollow""][target=""_blank""]","<a class=""news-title"" href=""https://www.prothomalo.com/technology/1inbcy9v58"" target=""_blank"" rel=""nofollow"">
+                      ইউনিভার্সিটি রোভার চ্যালেঞ্জ প্রতিযোগিতায় তৃতীয় হওয়ায় ইউআইইউ মার্স রোভার দলকে সংবর্ধনা                    </a>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,9
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-12.col-lg-4.col-md-6:nth-child(3) > .gallery-item > .gallery-details > .create-date,"<span class=""create-date"">02/06/2026</span>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,10
+https://www.uiu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".col-12.col-lg-4.col-md-6:nth-child(3) > .gallery-item > .gallery-details > .news-title[rel=""nofollow""][target=""_blank""]","<a class=""news-title"" href=""https://www.prothomalo.com/bangladesh/hn0ovj00hc"" target=""_blank"" rel=""nofollow"">
+                      যুক্তরাষ্ট্রে রোভার প্রতিযোগিতায় তৃতীয় হয়েছে ‘ইউআইইউ মার্স রোভার’ দল                    </a>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,11

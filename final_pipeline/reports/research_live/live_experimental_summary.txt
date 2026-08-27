@@ -1,0 +1,57 @@
+LIVE EXPERIMENTAL ACCESSIBILITY SUMMARY
+======================================================================
+
+IMPORTANT METHODOLOGY NOTE
+----------------------------------------------------------------------
+These results come only from the live experimental pipeline. They do NOT replace, modify, or recompute the frozen 63-site Bangladeshi website research dataset.
+
+Finding overlap is based on normalized element-level fusion. Raw rule totals from the custom scanner and axe-core should not be compared directly.
+
+axe incomplete findings are retained separately because they require additional manual or contextual review.
+
+Context confidence describes the strength of extracted contextual evidence. It is not a probability of WCAG conformance.
+
+======================================================================
+LIVE DATASET
+======================================================================
+Unified files analyzed: 4
+Pages represented: 4
+Unified findings: 422
+
+Fusion status:
+  Confirmed by both: 27
+  Custom only: 79
+  axe only: 183
+  axe incomplete: 133
+
+Confirmed share of custom findings: 25.47%
+Confirmed share of axe violation findings: 12.86%
+Confirmed overlap among unique comparable violation findings: 9.34%
+
+======================================================================
+CONTEXTUAL RECOMMENDATION ENGINE
+======================================================================
+Contextual result files: 2
+Context-dependent findings processed: 69
+Contextual findings requiring visual review: 24
+
+Generated tables:
+  1. live_page_summary.csv
+  2. fusion_status_summary.csv
+  3. rule_source_summary.csv
+  4. ownership_summary.csv
+  5. actionability_summary.csv
+  6. contextual_page_summary.csv
+  7. contextual_rule_summary.csv
+  8. contextual_decision_summary.csv
+  9. contextual_confidence_summary.csv
+  10. contextual_evidence_summary.csv
+
+======================================================================
+INTERPRETATION CAUTIONS
+======================================================================
+1. confirmed_by_both means the fusion algorithm matched a compatible custom and axe finding at the element level.
+2. custom_only does not automatically mean axe missed a WCAG failure; some custom rules are contextual or best-practice indicators.
+3. axe_only does not automatically mean the custom scanner failed; axe analyzes the rendered DOM and covers many rules outside the custom scanner's scope.
+4. axe_incomplete findings require review and should not be counted as confirmed violations.
+5. Context-aware recommendations are deterministic decision-support outputs and require human/developer verification before implementation.

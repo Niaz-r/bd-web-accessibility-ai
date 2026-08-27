@@ -1,0 +1,594 @@
+page_id,website_id,page_url,page_type,title,language,status
+PG0001_BD001,BD001,https://www.du.ac.bd/,Other,Home :: Dhaka University,en,200
+PG0002_BD001,BD001,https://www.du.ac.bd/onlineServices,Service,Online Services :: University of Dhaka,en,200
+PG0003_BD001,BD001,https://www.du.ac.bd/university/HistoricalOutline,Other,Home :: Dhaka University,en,200
+PG0004_BD001,BD001,https://www.du.ac.bd/university/DuataGlance,Other,University at a Glance,en,200
+PG0005_BD001,BD001,https://www.du.ac.bd/university/VisionMission,Other,Home :: Dhaka University,en,200
+PG0006_BD001,BD001,https://www.du.ac.bd/university/HonorisCausa,Other,Home :: Dhaka University,en,200
+PG0007_BD001,BD001,https://www.du.ac.bd/viceChancellorMessage,Other,,,200
+PG0008_BD001,BD001,https://www.du.ac.bd/listofViceChancellors,Other,list of Vice Chancellors :: University of Dhaka,en,200
+PG0009_BD001,BD001,https://www.du.ac.bd/leadership/chancellor,Other,Mirza Fakhrul Islam Alamgir:: University of Dhaka,en,200
+PG0010_BD001,BD001,https://www.du.ac.bd/leadership,Other,:: University of Dhaka,en,200
+PG0001_BD002,BD002,https://www.brur.ac.bd/,Other,"Begum Rokeya University, Rangpur -     BRUR",en,200
+PG0002_BD002,BD002,https://www.brur.ac.bd/noc-and-office-order,Other,"Begum Rokeya University, Rangpur - NOC / Office Order",en,200
+PG0003_BD002,BD002,https://www.brur.ac.bd/tender,Other,"Begum Rokeya University, Rangpur -     Tender",en,200
+PG0004_BD002,BD002,https://www.brur.ac.bd/events/eventsRoom,Other,"Begum Rokeya University, Rangpur -     Events",en,200
+PG0005_BD002,BD002,https://www.brur.ac.bd/career,Other,"Begum Rokeya University, Rangpur -     Career",en,200
+PG0006_BD002,BD002,https://www.brur.ac.bd/apa,Other,"Begum Rokeya University, Rangpur -     APA",en,200
+PG0007_BD002,BD002,https://www.brur.ac.bd/offices/center-for-digital-transformation,Other,"Begum Rokeya University, Rangpur -     Center for Digital Transformation",en,200
+PG0008_BD002,BD002,https://brur.ac.bd/admission/undergraduate,Admission,"Begum Rokeya University, Rangpur -",en,200
+PG0009_BD002,BD002,https://www.brur.ac.bd/shaheed-abu-sayed-corner,Other,"Begum Rokeya University, Rangpur - Abu Sayed Corner",en,200
+PG0010_BD002,BD002,https://www.brur.ac.bd/about/historicalOutline,About,"Begum Rokeya University, Rangpur - Historical Outline",en,200
+PG0001_BD003,BD003,https://www.ru.ac.bd/,Other,University of Rajshahi – Official website for Rajshahi University,en-US,200
+PG0002_BD003,BD003,https://www.ru.ac.bd/governance,Other,Governance – University of Rajshahi,en-US,200
+PG0003_BD003,BD003,https://www.ru.ac.bd/administration,Other,Administration – University of Rajshahi,en-US,200
+PG0004_BD003,BD003,https://www.ru.ac.bd/iqac,Other,Institutional Quality Assurance Cell – Just another Rajshahi University Sites,en-US,200
+PG0005_BD003,BD003,https://www.ru.ac.bd/academic,Other,Academic – University of Rajshahi,en-US,200
+PG0006_BD003,BD003,https://www.ru.ac.bd/facilities,Other,Facilities – University of Rajshahi,en-US,200
+PG0007_BD003,BD003,https://www.ru.ac.bd/publications,Other,Publications – University of Rajshahi,en-US,200
+PG0008_BD003,BD003,https://www.ru.ac.bd/online-services,Service,Online Services – University of Rajshahi,en-US,200
+PG0009_BD003,BD003,https://www.ru.ac.bd/elementor-9316,Other,Elementor #9316 – University of Rajshahi,en-US,200
+PG0010_BD003,BD003,https://www.ru.ac.bd/vc,Other,Office of the Vice-Chancellor – Just another Rajshahi University Sites,en-US,200
+PG0001_BD004,BD004,https://bau.edu.bd/,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0002_BD004,BD004,https://bau.edu.bd/search?search=,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0003_BD004,BD004,https://bau.edu.bd/contact,Contact,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0004_BD004,BD004,https://bau.edu.bd/noc,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0005_BD004,BD004,https://bau.edu.bd/go,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0006_BD004,BD004,https://bau.edu.bd/main/masters,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0007_BD004,BD004,https://bau.edu.bd/main/doctoral,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0008_BD004,BD004,https://bau.edu.bd/main/diploma-&-certificate,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0009_BD004,BD004,https://bau.edu.bd/main/collaborations,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0010_BD004,BD004,https://bau.edu.bd/main/training,Other,Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh,en,200
+PG0001_BD007,BD007,https://bu.ac.bd/,Other,University of Barishal,en,200
+PG0002_BD007,BD007,https://bu.ac.bd/contact-us,Contact,Contact |  University of Barishal,en,200
+PG0003_BD007,BD007,https://bu.ac.bd/login,Other,University of Barishal,en,200
+PG0004_BD007,BD007,https://bu.ac.bd/overview,Other,Overview |  University of Barishal,en,200
+PG0005_BD007,BD007,https://bu.ac.bd/act,Other,Act and Rules |  University of Barishal,en,200
+PG0006_BD007,BD007,https://bu.ac.bd/committee,Other,Committee |  University of Barishal,en,200
+PG0007_BD007,BD007,https://bu.ac.bd/campus,Other,Campus Map |  University of Barishal,en,200
+PG0008_BD007,BD007,https://bu.ac.bd/monogram,Other,Monogram |  University of Barishal,en,200
+PG0009_BD007,BD007,https://bu.ac.bd/notice/20260630-1782795218-6a434bd222486,Notice,University Calendar 2026-2027 |  University of Barishal,en,200
+PG0010_BD007,BD007,https://bu.ac.bd/academic-program,Other,University of Barishal,en,200
+PG0001_BD008,BD008,https://pstu.ac.bd/,Other,Patuakhali Science and Technology University,en,200
+PG0002_BD008,BD008,https://pstu.ac.bd/login,Other,Patuakhali Science and Technology University,en,200
+PG0003_BD008,BD008,https://pstu.ac.bd/notices/notis-chuti-batil-sngkrant,Notice,Patuakhali Science and Technology University,en,200
+PG0004_BD008,BD008,https://pstu.ac.bd/notices/revolving-loan-er-mitingyer-notis,Notice,Patuakhali Science and Technology University,en,200
+PG0005_BD008,BD008,https://pstu.ac.bd/notices/revolving-loan-abedner-notis,Notice,Patuakhali Science and Technology University,en,200
+PG0006_BD008,BD008,https://pstu.ac.bd/notices/jd25-master-and-phd-enrollment-notice,Notice,Patuakhali Science and Technology University,en,200
+PG0007_BD008,BD008,https://pstu.ac.bd/notices/assistant-professor-and-lecturer-recruitment-circular-and-criteria,Notice,Patuakhali Science and Technology University,en,200
+PG0008_BD008,BD008,https://pstu.ac.bd/notices/ofis-ades-pbiprbite-siratunnbee-sa-2026-zthazth-mrzaday-udzapner-lkshze-kmiti-gthn,Notice,Patuakhali Science and Technology University,en,200
+PG0009_BD008,BD008,https://pstu.ac.bd/notices/pbiprbir-bivinn-sthapna-udwodhn-sngkrant-notis,Notice,Patuakhali Science and Technology University,en,200
+PG0010_BD008,BD008,https://pstu.ac.bd/notices/supply-and-installation-of-laboratory-equipment-of-the-faculty-of-agriculture-at-pstu-2026,Notice,Patuakhali Science and Technology University,en,200
+PG0001_BD009,BD009,https://cu.ac.bd/,Other,University of Chittagong – চট্টগ্রাম বিশ্ববিদ্যালয়,en-US,200
+PG0002_BD009,BD009,https://cu.ac.bd/noc_go,Other,NOC/GO – University of Chittagong,en-US,200
+PG0003_BD009,BD009,https://cu.ac.bd/notice-board,Notice,Notice Board – University of Chittagong,en-US,200
+PG0004_BD009,BD009,https://cu.ac.bd/forms-downloads,Other,Forms & Downloads – University of Chittagong,en-US,200
+PG0005_BD009,BD009,https://cu.ac.bd/cc,Other,Citizen Charter – University of Chittagong,en-US,200
+PG0006_BD009,BD009,https://cu.ac.bd/peopleresources/index.php?menumapno=2,Other,Faculty & Staff | University of Chittagong,en,200
+PG0007_BD009,BD009,https://cu.ac.bd/apa,Other,Annual Performance Agreement – University of Chittagong,en-US,200
+PG0008_BD009,BD009,https://cu.ac.bd/research-highlights,Other,Research Highlights – University of Chittagong,en-US,200
+PG0009_BD009,BD009,https://cu.ac.bd/vision-and-mission,Other,Vision and Mission – University of Chittagong,en-US,200
+PG0010_BD009,BD009,https://cu.ac.bd/facts-and-acts,Other,Facts and Acts – University of Chittagong,en-US,200
+PG0001_BD010,BD010,https://cuet.ac.bd/,Other,Chittagong University of Engineering and Technology.,en,200
+PG0002_BD010,BD010,https://cuet.ac.bd/notices/noc,Notice,Chittagong University of Engineering and Technology.,en,200
+PG0003_BD010,BD010,https://cuet.ac.bd/administration,Other,Administration | CUET,en,200
+PG0004_BD010,BD010,https://cuet.ac.bd/academic-information,Other,Academic Information | CUET,en,200
+PG0005_BD010,BD010,https://cuet.ac.bd/academic-information/academic-calendars,Other,Academic Information | CUET,en,200
+PG0006_BD010,BD010,https://cuet.ac.bd/academic-information/undergraduate-studies,Other,Academic Information | CUET,en,200
+PG0007_BD010,BD010,https://cuet.ac.bd/academic-information/graduate-studies,Other,Academic Information | CUET,en,200
+PG0008_BD010,BD010,https://cuet.ac.bd/academic-information/international-students,Other,Academic Information | CUET,en,200
+PG0009_BD010,BD010,https://cuet.ac.bd/faculty,Other,Faculties of CUET - Chittagong University of Engineering & Technology,en,200
+PG0010_BD010,BD010,https://cuet.ac.bd/departments,Other,Chittagong University of Engineering and Technology.,en,200
+PG0001_BD011,BD011,https://www.northsouth.edu/,Other,Home | North South University,en,200
+PG0002_BD011,BD011,https://www.northsouth.edu/academic/academic-calendar,Other,Academic Calendar | North South University,en-US,200
+PG0003_BD011,BD011,https://www.northsouth.edu/newsletter.html,Article,Newsletters | North South University,en-US,200
+PG0004_BD011,BD011,https://www.northsouth.edu/journals.html,Other,Journals | North South University,en-US,200
+PG0005_BD011,BD011,https://www.northsouth.edu/newsletter/nsu-catalog.html,Article,Catalogs | North South University,en-US,200
+PG0006_BD011,BD011,https://www.northsouth.edu/archive.html,Other,Archive | North South University,en-US,200
+PG0007_BD011,BD011,https://www.northsouth.edu/contact-us.html,Contact,Contact  | North South University,en-US,200
+PG0008_BD011,BD011,https://www.northsouth.edu/about/brief-history,About,Brief History | North South University,en,200
+PG0009_BD011,BD011,https://www.northsouth.edu/about/vms.html,About,"Vision, Mission & Strategy | North South University",en,200
+PG0010_BD011,BD011,https://www.northsouth.edu/about/int-ab.html,About,International Advisory Board | North South University,en,200
+PG0001_BD013,BD013,https://iub.ac.bd/,Other,"Independent University, Bangladesh",en,200
+PG0002_BD013,BD013,https://iub.ac.bd/prospective-students,Other,,en,200
+PG0003_BD013,BD013,https://iub.ac.bd/faculties,Other,,en,200
+PG0004_BD013,BD013,https://iub.ac.bd/directory,Other,,en,200
+PG0005_BD013,BD013,https://iub.ac.bd/about/iub-at-a-glance,About,,en,200
+PG0006_BD013,BD013,https://iub.ac.bd/about/facts-and-figures,About,,en,200
+PG0007_BD013,BD013,https://iub.ac.bd/about/special-initiatives,About,,en,200
+PG0008_BD013,BD013,https://iub.ac.bd/about/leadership-and-governance,About,,en,200
+PG0009_BD013,BD013,https://iub.ac.bd/about/message-from-the-vice-chancellor,About,,en,200
+PG0010_BD013,BD013,https://iub.ac.bd/academics/undergraduate-programs,Other,,en,200
+PG0001_BD014,BD014,https://www.aiub.edu/,Other,Home | AIUB,en-US,200
+PG0002_BD014,BD014,https://www.aiub.edu/contact-us,Contact,Contact Us | AIUB,en-US,200
+PG0003_BD014,BD014,https://www.aiub.edu/about,About,About | AIUB,en-US,200
+PG0004_BD014,BD014,https://www.aiub.edu/about/Information,About,Information or Overview | AIUB,en-US,200
+PG0005_BD014,BD014,https://www.aiub.edu/about/general-information,About,General Information | AIUB,en-US,200
+PG0006_BD014,BD014,https://www.aiub.edu/about/Rules-Of-Entry,About,Rules of Entry to AIUB Campus | AIUB,en-US,200
+PG0007_BD014,BD014,https://www.aiub.edu/about/Why-Study-Here,About,Why Study Here | AIUB,en-US,200
+PG0008_BD014,BD014,https://www.aiub.edu/about/Resources,About,Resources | AIUB,en-US,200
+PG0009_BD014,BD014,https://www.aiub.edu/about/career,About,Career | AIUB,en-US,200
+PG0010_BD014,BD014,https://www.aiub.edu/about/Convocation,About,Convocation | AIUB,en-US,200
+PG0001_BD015,BD015,https://www.ewubd.edu/,Other,East West University,en,200
+PG0002_BD015,BD015,https://www.ewubd.edu/news/east-west-university-and-bids-sign-mou-advance-academic-and-research-collaboration-economics,Article,East West University and BIDS Sign MoU to Advance Academic and Research Collaboration in Economics,en,200
+PG0003_BD015,BD015,https://www.ewubd.edu/ewu-policies,Other,Policies,en,200
+PG0004_BD015,BD015,https://www.ewubd.edu/career-counseling-center,Other,Career Counseling Center (CCC),en,200
+PG0005_BD015,BD015,https://www.ewubd.edu/ewu-sexual-harassment-elimination-and-prevention-policy,Other,East West University Sexual Harassment Elimination and Prevention Policy,en,200
+PG0006_BD015,BD015,https://www.ewubd.edu/grades-rules-and-regulations,Other,"Grades, Rules and Regulations",en,200
+PG0007_BD015,BD015,https://www.ewubd.edu/student-rules-regulation,Other,Student Ethics & Academic Discipline,en,200
+PG0008_BD015,BD015,https://www.ewubd.edu/academic-calendar,Other,Academic Calendar,en,200
+PG0009_BD015,BD015,https://www.ewubd.edu/daily-duty-schedule-proctors,Other,Daily Duty Schedule of Proctors,en,200
+PG0010_BD015,BD015,https://www.ewubd.edu/payment-procedure,Other,Payment Procedure,en,200
+PG0001_BD017,BD017,https://www.dhakapost.com/,Article,"Dhaka Post - Bangla News Portal, Breaking News, Bd News and Videos",bn,200
+PG0001_BD018,BD018,https://www.banglatribune.com/,Article,"Bangla Tribune - News, Behind The News",bn,200
+PG0002_BD018,BD018,https://www.banglatribune.com/%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%AC%E0%A6%B0,Other,"আজকের খবর, ব্রেকিং নিউজ বাংলাদেশ | Ajker Khobor Bangla",bn,200
+PG0003_BD018,BD018,https://www.banglatribune.com/national,Other,আজকের গুরুত্বপূর্ণ জাতীয় খবর,bn,200
+PG0004_BD018,BD018,https://www.banglatribune.com/politics,Article,রাজনীতির খবর | বাংলাদেশের বর্তমান রাজনৈতিক অবস্থার সর্বশেষ | Rajneeti News,bn,200
+PG0005_BD018,BD018,https://www.banglatribune.com/law-and-crime,Other,আইন ও অপরাধ - Bangla Tribune,bn,200
+PG0006_BD018,BD018,https://www.banglatribune.com/country,Other,সারা দেশের খবর | ৬৪ জেলার খবর,bn,200
+PG0007_BD018,BD018,https://www.banglatribune.com/foreign,Other,আন্তর্জাতিক ও বিশ্ব সংবাদ,bn,200
+PG0008_BD018,BD018,https://www.banglatribune.com/exclusive,Article,আজকের বিশেষ ও গুরুত্বপূর্ণ খবর | Exclusive news,bn,200
+PG0009_BD018,BD018,https://www.banglatribune.com/business,Article,বিজনেস- ব্যবসায় ও বাণিজ্যের খবর | Business news,bn,200
+PG0010_BD018,BD018,https://www.banglatribune.com/entertainment,Other,বিনোদন - Bangla Tribune,bn,200
+PG0001_BD020,BD020,https://barta24.com/,Other,Barta 24 :: বার্তা ২৪,bn,200
+PG0002_BD020,BD020,https://barta24.com/cdn-cgi/content?id=vxfg6k75LPi7FBRLSfWo7yaFkXEDqaBsXPt5W22XAOQ-1787671920.180673-1.2.1.1-RCis8qA3W90qOIuAA9C.J6BgCwaKH741QRPDzbQOyK5xpwJMQBJiPTgJiVeNpQUH,Other,Unveiling the Secrets of Analytical Chemistry,,200
+PG0001_BD022,BD022,https://www.dainikamadershomoy.com/,Other,আমাদের সময় | Amader Shomoy,,200
+PG0002_BD022,BD022,https://www.dainikamadershomoy.com/latest/all,Other,দৈনিক আমাদের সময় | Dainik Amader Shomoy,,200
+PG0003_BD022,BD022,https://www.dainikamadershomoy.com/category/all/national,Other,জাতীয়,,200
+PG0004_BD022,BD022,https://www.dainikamadershomoy.com/category/all/rajneeti,Other,রাজনীতি,,200
+PG0005_BD022,BD022,https://www.dainikamadershomoy.com/category/all/sarades,Other,সারাদেশ,,200
+PG0006_BD022,BD022,https://www.dainikamadershomoy.com/category/all/international,Other,আন্তর্জাতিক,,200
+PG0007_BD022,BD022,https://www.dainikamadershomoy.com/category/all/sports,Other,খেলাধুলা,,200
+PG0008_BD022,BD022,https://www.dainikamadershomoy.com/category/all/law-and-order,Other,আইন-আদালত,,200
+PG0009_BD022,BD022,https://www.dainikamadershomoy.com/category/all/entertainment,Other,বিনোদন,,200
+PG0010_BD022,BD022,https://www.dainikamadershomoy.com/category/all/education,Other,শিক্ষা,,200
+PG0001_BD025,BD025,https://www.prothomalo.com/,Other,প্রথম আলো | বাংলা নিউজ পেপার,bn,200
+PG0002_BD025,BD025,https://www.prothomalo.com/search,Other,"নিউজ সার্চ - রাজনীতি, বাংলাদেশ, খেলা, বিনোদন, ছবি ও ভিডিও - প্রথম আলো",bn,200
+PG0003_BD025,BD025,https://www.prothomalo.com/collection/latest,Other,আজকের খবর | আজকের ব্রেকিং নিউজ বাংলাদেশ,bn,200
+PG0004_BD025,BD025,https://www.prothomalo.com/bangladesh,Article,বাংলাদেশের খবর | Bangladesh News Update | Prothom Alo,bn,200
+PG0005_BD025,BD025,https://www.prothomalo.com/politics,Article,রাজনীতি | রাজনীতির সর্বশেষ খবর | Politics News | Prothom Alo,bn,200
+PG0006_BD025,BD025,https://www.prothomalo.com/world,Article,আজকের আন্তর্জাতিক খবর - বিশ্ব সংবাদ | World News প্রথম আলো,bn,200
+PG0007_BD025,BD025,https://www.prothomalo.com/business,Other,ব্যবসা বাণিজ্য ও অর্থনীতির খবর | Business | Prothom Alo,bn,200
+PG0008_BD025,BD025,https://www.prothomalo.com/opinion,Other,মতামত | সম্পাদকীয় | Opinion Editorial | Prothom Alo,bn,200
+PG0009_BD025,BD025,https://www.prothomalo.com/sports,Article,খেলার খবর | খেলা - সর্বশেষ Sports News Bangla | প্রথম আলো,bn,200
+PG0010_BD025,BD025,https://www.prothomalo.com/entertainment,Article,বিনোদন খবর | Most Entertainment News Readers BD প্রথম আলো,bn,200
+PG0001_BD026,BD026,https://www.epassport.gov.bd/landing,Other,E‑Passport Online Registration Portal,en,200
+PG0001_BD027,BD027,https://eticket.railway.gov.bd/,Service,Bangladesh Railway E-Ticketing Service,en,200
+PG0001_BD028,BD028,https://visa.gov.bd/,Other,Bangladesh Online MRV Portal,,200
+PG0002_BD028,BD028,https://visa.gov.bd/Home.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0003_BD028,BD028,https://visa.gov.bd/Incomplete.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0004_BD028,BD028,https://visa.gov.bd/ViewStatus.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0005_BD028,BD028,https://visa.gov.bd/Reprint.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0006_BD028,BD028,https://visa.gov.bd/CompFeedback.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0007_BD028,BD028,https://visa.gov.bd/TermsCondition.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0008_BD028,BD028,https://visa.gov.bd/PrivacyPolicy.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0009_BD028,BD028,https://visa.gov.bd/DownloadMRVForm.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0010_BD028,BD028,https://visa.gov.bd/FAQ.aspx,Other,Bangladesh Online MRV Portal,,200
+PG0001_BD029,BD029,https://bdris.gov.bd/,Other,হোমপেজ,en,200
+PG0001_BD030,BD030,https://land.gov.bd/,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0002_BD030,BD030,https://land.gov.bd/cdn-cgi/content?id=ct4i74zmAIchbsrL3sDJzUbaWSIXSJOk0txhzNu22f8-1787671977.650198-1.2.1.1-HDfScIoAwJGUumB6YieDkk40H3tt4oVyx0ZGXT2C5Ijl.lxJCwHeRktsK3AExHKG,Service,Food Service Management: The Art of Culinary Harmony,en,200
+PG0003_BD030,BD030,https://land.gov.bd/?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0004_BD030,BD030,https://land.gov.bd/about-pd?lang=bn,About,ভূমি তথ্য বাতায়ন,en,200
+PG0005_BD030,BD030,https://land.gov.bd/uddasho-lokkho?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0006_BD030,BD030,https://land.gov.bd/nagorik-subidha?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0007_BD030,BD030,https://land.gov.bd/proklpo-output?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0008_BD030,BD030,https://land.gov.bd/ainobidhi?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0009_BD030,BD030,https://land.gov.bd/poripotro?lang=bn,Other,ভূমি তথ্য বাতায়ন,en,200
+PG0010_BD030,BD030,https://land.gov.bd/notice?lang=bn,Notice,ভূমি তথ্য বাতায়ন,en,200
+PG0001_BD031,BD031,https://www.jnu.ac.bd/,Other,JAGANNATH UNIVERSITY,en,200
+PG0002_BD031,BD031,https://jnu.ac.bd/newsite/noticeview/1,Notice,JAGANNATH UNIVERSITY,en,200
+PG0003_BD031,BD031,https://jnu.ac.bd/newsite/noticeview/3,Notice,JAGANNATH UNIVERSITY,en,200
+PG0004_BD031,BD031,https://jnu.ac.bd/newsite/noticeview/4,Notice,JAGANNATH UNIVERSITY,en,200
+PG0005_BD031,BD031,https://jnu.ac.bd/newsite/noticeview/5,Notice,JAGANNATH UNIVERSITY,en,200
+PG0006_BD031,BD031,https://www.jnu.ac.bd/fdo-cms/admin/logout,Other,,,200
+PG0007_BD031,BD031,https://jnu.ac.bd/,Other,JAGANNATH UNIVERSITY,en,200
+PG0008_BD031,BD031,https://jnu.ac.bd/newsite/getdata/2005,Article,JAGANNATH UNIVERSITY,en,200
+PG0009_BD031,BD031,https://jnu.ac.bd/vc,Other,"Professor Dr. Md. Rais Uddin — Vice Chancellor, Jagannath University",en,200
+PG0010_BD031,BD031,https://jnu.ac.bd/newsite/getdata/2006,Article,JAGANNATH UNIVERSITY,en,200
+PG0001_BD032,BD032,https://ku.ac.bd/,Other,খুলনা বিশ্ববিদ্যালয় (খুবি) - Khulna University (KU): We Learn to Lead and Live,en,200
+PG0002_BD032,BD032,https://ku.ac.bd/career,Other,Career | Khulna University,en,200
+PG0003_BD032,BD032,https://ku.ac.bd/noclist,Other,NOC | Khulna University,en,200
+PG0004_BD032,BD032,https://ku.ac.bd/scholarship,Other,Khulna University,en,200
+PG0005_BD032,BD032,https://ku.ac.bd/resources,Other,Resources | Khulna University,en,200
+PG0006_BD032,BD032,https://ku.ac.bd/history,About,About KU,en,200
+PG0007_BD032,BD032,https://ku.ac.bd/vision-mission,Other,Khulna University,en,200
+PG0008_BD032,BD032,https://ku.ac.bd/kuact,Other,Khulna University,en,200
+PG0009_BD032,BD032,https://ku.ac.bd/leadership/vice-chancellor,Other,,en,200
+PG0010_BD032,BD032,https://ku.ac.bd/leadership/pro-vice-chancellor,Other,,en,200
+PG0001_BD033,BD033,https://www.cou.ac.bd/,Other,Comilla University | Home Page,en,200
+PG0002_BD033,BD033,https://www.cou.ac.bd/annual-performance,Other,Comilla University | Annual Performance Agreement,en,200
+PG0003_BD033,BD033,https://www.cou.ac.bd/employee_directory,Other,Comilla University | Employee Directory,en,200
+PG0004_BD033,BD033,https://cou.ac.bd/library,Other,Comilla University | University Library,en,200
+PG0005_BD033,BD033,https://cou.ac.bd/login,Other,Login || COU,,200
+PG0006_BD033,BD033,https://www.cou.ac.bd/q/university-at-a-glance,Other,Comilla University |,en,200
+PG0007_BD033,BD033,https://www.cou.ac.bd/q/vision--mission,Other,Comilla University |,en,200
+PG0008_BD033,BD033,https://www.cou.ac.bd/q/list-of-vice-chancellors,Other,Comilla University |,en,200
+PG0009_BD033,BD033,https://www.cou.ac.bd/about-vc,About,Comilla University | Vice Chancellor of Comilla University,en,200
+PG0010_BD033,BD033,https://www.cou.ac.bd/about-pro-vc,About,Comilla University | Pro-Vice Chancellor of Comilla University,en,200
+PG0001_BD034,BD034,https://www.rub.ac.bd/,Other,"Home :: Rabindra University, Bangladesh",en,200
+PG0002_BD034,BD034,https://rub.ac.bd/,Other,"Home :: Rabindra University, Bangladesh",en,200
+PG0003_BD034,BD034,https://rub.ac.bd/apps.php,Other,"Home :: Rabindra University, Bangladesh",en,200
+PG0004_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=about,About,"Home :: Rabindra University, Bangladesh",en,200
+PG0005_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=syndicate,About,"Home :: Rabindra University, Bangladesh",en,200
+PG0006_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=procurement,About,"Home :: Rabindra University, Bangladesh",en,200
+PG0007_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=noc,About,"Home :: Rabindra University, Bangladesh",en,200
+PG0008_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=sexual,About,"Home :: Rabindra University, Bangladesh",en,200
+PG0009_BD034,BD034,https://www.rub.ac.bd/about-us.php?page=job-circular,Notice,"Home :: Rabindra University, Bangladesh",en,200
+PG0010_BD034,BD034,https://www.rub.ac.bd/gallery.php,Other,"Home :: Rabindra University, Bangladesh",en,200
+PG0001_BD035,BD035,https://www.duet.ac.bd/,Other,"Dhaka University of Engineering & Technology, Gazipur.",en,200
+PG0002_BD035,BD035,https://www.duet.ac.bd/services,Service,"Services - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0003_BD035,BD035,https://www.duet.ac.bd/admission,Admission,"Admission - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0004_BD035,BD035,https://www.duet.ac.bd/office/central-library,Other,"Central Library, Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0005_BD035,BD035,https://www.duet.ac.bd/peoples/teacher,Other,"Peoples - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0006_BD035,BD035,https://www.duet.ac.bd/apa-and-nis-implementation,Other,"APA & NIS Implementation - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0007_BD035,BD035,https://www.duet.ac.bd/citizen-charter,Other,"Citizen Charter - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0008_BD035,BD035,https://www.duet.ac.bd/clubs-communities,Other,"Clubs & Communities - Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0009_BD035,BD035,https://www.duet.ac.bd/about/history,About,"History - About DUET, Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0010_BD035,BD035,https://www.duet.ac.bd/about/vision-and-mission,About,"Vision & Mission - About DUET, Dhaka University of Engineering & Technology, Gazipur.",,200
+PG0001_BD036,BD036,https://www.butex.edu.bd/homepage,Other,Home Page – BUTEX,en-US,200
+PG0002_BD036,BD036,https://www.butex.edu.bd/message-from-the-vice-chancellor,Other,Message from the Vice Chancellor – BUTEX,en-US,200
+PG0003_BD036,BD036,https://www.butex.edu.bd/syndicate-members,Other,Syndicate Members – BUTEX,en-US,200
+PG0004_BD036,BD036,https://www.butex.edu.bd/message-from-the-registrar,Other,Message from the Registrar – BUTEX,en-US,200
+PG0005_BD036,BD036,https://www.butex.edu.bd/butex-a-short-history,Article,BUTEX: A Short History – BUTEX,en-US,200
+PG0006_BD036,BD036,https://www.butex.edu.bd/shaheed-aziz-hall,Other,"Shaheed Aziz Hall, BUTEX – BUTEX",en-US,200
+PG0007_BD036,BD036,https://www.butex.edu.bd/g-m-a-g-osmani-hall,Other,"G. M. A. G. Osmani Hall, BUTEX – BUTEX",en-US,200
+PG0008_BD036,BD036,https://www.butex.edu.bd/syed-nazrul-islam-hall,Other,"Syed Nazrul Islam Hall, BUTEX – BUTEX",en-US,200
+PG0009_BD036,BD036,https://www.butex.edu.bd/bir-protik-captain-sitara-begum-hall,Other,Bir Protik Captain Sitara Begum Hall – BUTEX,en-US,200
+PG0010_BD036,BD036,https://www.butex.edu.bd/faculty-of-textile-engineering-2,Other,FoTE – BUTEX,en-US,200
+PG0001_BD037,BD037,https://www.nstu.edu.bd/,Other,NSTU | Home,,200
+PG0002_BD037,BD037,https://nstu.edu.bd/,Other,NSTU | Home,,200
+PG0003_BD037,BD037,https://www.nstu.edu.bd/noc_and_go.html,Other,NSTU | Home,en,200
+PG0004_BD037,BD037,https://nstu.edu.bd/citizen_charter_page2.html,Other,NSTU | Home,en,200
+PG0005_BD037,BD037,https://nstu.edu.bd/nstu_sdg.html,Other,NSTU | Home,,200
+PG0006_BD037,BD037,https://www.nstu.edu.bd/services.html,Service,NSTU | Home,en,200
+PG0007_BD037,BD037,https://www.nstu.edu.bd/monthly_reports.html,Other,NSTU | Home,en,200
+PG0008_BD037,BD037,https://www.nstu.edu.bd/chancellor.html,Other,NSTU | Home,en,200
+PG0009_BD037,BD037,https://www.nstu.edu.bd/vice_chancellor.html,Other,NSTU | Home,en,200
+PG0010_BD037,BD037,https://www.nstu.edu.bd/pro_vice_chancellor.html,Other,NSTU | Home,en,200
+PG0001_BD038,BD038,https://www.sau.ac.bd/,Other,SAU,en,200
+PG0002_BD038,BD038,https://www.sau.ac.bd/aboutus,About,SAU,en,200
+PG0003_BD038,BD038,https://www.sau.ac.bd/administration,Other,SAU,en,200
+PG0004_BD038,BD038,https://www.sau.ac.bd/academic_programe,Other,SAU,en,200
+PG0005_BD038,BD038,https://www.sau.ac.bd/faculty,Other,SAU,en,200
+PG0006_BD038,BD038,https://www.sau.ac.bd/administration/page/121,Other,SAU,en,200
+PG0007_BD038,BD038,https://www.sau.ac.bd/contact,Contact,SAU,en,200
+PG0008_BD038,BD038,https://sau.ac.bd/administration/page/270,Other,SAU,en,200
+PG0009_BD038,BD038,https://www.sau.ac.bd/administration/page/83,Other,SAU,en,200
+PG0010_BD038,BD038,https://www.sau.ac.bd/hall,Other,SAU,en,200
+PG0001_BD039,BD039,https://pust.ac.bd/,Other,Pabna University of Science and Technology,en,200
+PG0002_BD039,BD039,https://pust.ac.bd/governance/PUST-Act,Other,Pabna University of Science and Technology,en,200
+PG0003_BD039,BD039,https://pust.ac.bd/governance/Regent-Board,Other,Pabna University of Science and Technology,en,200
+PG0004_BD039,BD039,https://pust.ac.bd/governance/Academic-Council,Other,Pabna University of Science and Technology,en,200
+PG0005_BD039,BD039,https://pust.ac.bd/governance/Finance-Committee,Other,Pabna University of Science and Technology,en,200
+PG0006_BD039,BD039,https://pust.ac.bd/governance/Academic-Ordinance,Other,Pabna University of Science and Technology,en,200
+PG0007_BD039,BD039,https://pust.ac.bd/about/overview,About,Pabna University of Science and Technology,en,200
+PG0008_BD039,BD039,https://pust.ac.bd/about/mission,About,Pabna University of Science and Technology,en,200
+PG0009_BD039,BD039,https://pust.ac.bd/about/history,About,Pabna University of Science and Technology,en,200
+PG0010_BD039,BD039,https://pust.ac.bd/administration/Vice-Chancellor-Office,Other,Pabna University of Science and Technology,en,200
+PG0001_BD040,BD040,https://cvasu.ac.bd/,Other,Home | Chattogram Veterinary and Animal Sciences University,,200
+PG0002_BD040,BD040,https://cvasu.ac.bd/account/login,Other,Login | Chattogram Veterinary and Animal Sciences University,,200
+PG0003_BD040,BD040,https://cvasu.ac.bd/teacher-profile,Other,Teacher Profile | Chattogram Veterinary and Animal Sciences University,,200
+PG0004_BD040,BD040,https://cvasu.ac.bd/office/institutional-quality-assurance-cell,Other,"Institutional Quality Assurance Cell (IQAC)
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0005_BD040,BD040,https://cvasu.ac.bd/history,Article,"History
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0006_BD040,BD040,https://cvasu.ac.bd/vision-and-mission,Other,"Vision and Mission
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0007_BD040,BD040,https://cvasu.ac.bd/syndicate,Other,"Syndicate
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0008_BD040,BD040,https://cvasu.ac.bd/message-from-vc,Other,"Message from Vice Chancellor
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0009_BD040,BD040,https://cvasu.ac.bd/cvasu-at-a-glance,Other,"CVASU at a Glance
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0010_BD040,BD040,https://cvasu.ac.bd/bulletin,Other,"CVASU Bulletin
+ | Chattogram Veterinary and Animal Sciences University",,200
+PG0001_BD043,BD043,https://www.dailynayadiganta.com/,Article,Daily Naya Diganta (à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤) : Most Popular Bangla Newspaper | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0002_BD043,BD043,https://www.dailynayadiganta.com/opinions/editorial/sub-editorial/QisXF4B70fo0,Other,à¦¸à¦®à¦®à¦°à§à¦¯à¦¾à¦¦à¦¾à¦° à¦¬à¦¾à¦à¦²à¦¾à¦¦à§à¦¶-à¦­à¦¾à¦°à¦¤ à¦à¦à¦¶à§à¦¦à¦¾à¦°à¦¤à§à¦¬ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0003_BD043,BD043,https://www.dailynayadiganta.com/printed-edition/UJoRUkWCvnos,Other,à¦à¦¬à§à¦¯à¦¬à¦¸à§à¦¥à¦¾à¦ªà¦¨à¦¾ à¦ à¦¸à¦¿à¦¦à§à¦§à¦¾à¦¨à§à¦¤à¦¹à§à¦¨à¦¤à¦¾à¦° à¦à§à¦°à¦ªà¦¾à¦à§ à¦¬à¦¿à¦¦à§à¦¯à§à§ à¦à¦¾à¦¤ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0004_BD043,BD043,https://www.dailynayadiganta.com/opinions/editorial/sub-editorial/G5wF4yrojIY2,Other,"à¦¦à¦¿à¦²à§à¦²à¦¿à¦° âà¦¬à§à¦­à¦¾à¦à¦¸à§à¦²à¦­â à¦à¦à¦°à¦£, à¦¢à¦¾à¦à¦¾à¦° à¦à¦¬à¦¾à¦¬ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤",en,200
+PG0005_BD043,BD043,https://www.dailynayadiganta.com/search,Other,Search | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0006_BD043,BD043,https://www.dailynayadiganta.com/latest,Other,à¦¸à¦°à§à¦¬à¦¶à§à¦· | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0007_BD043,BD043,https://www.dailynayadiganta.com/printed,Other,à¦à¦à¦à§à¦° à¦ªà¦¤à§à¦°à¦¿à¦à¦¾ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0008_BD043,BD043,https://www.dailynayadiganta.com/bangladesh,Other,à¦¬à¦¾à¦à¦²à¦¾à¦¦à§à¦¶ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0009_BD043,BD043,https://www.dailynayadiganta.com/international,Other,à¦à¦¨à§à¦¤à¦°à§à¦à¦¾à¦¤à¦¿à¦ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0010_BD043,BD043,https://www.dailynayadiganta.com/sports,Other,à¦à§à¦²à¦¾ | à¦¦à§à¦¨à¦¿à¦ à¦¨à§à¦¾ à¦¦à¦¿à¦à¦¨à§à¦¤,en,200
+PG0001_BD044,BD044,https://samakal.com/,Article,SAMAKAL | GET THE LATEST ONLINE BANGLA NEWS,bn,200
+PG0002_BD044,BD044,https://samakal.com/latest/news,Article,SAMAKAL Latest | সমকাল সর্বশেষ,bn,200
+PG0003_BD044,BD044,https://samakal.com/bangladesh,Other,বাংলাদেশ বিভাগের সকল খবর - সমকাল,bn,200
+PG0004_BD044,BD044,https://samakal.com/politics,Other,রাজনীতি বিভাগের সকল খবর - সমকাল,bn,200
+PG0005_BD044,BD044,https://samakal.com/economics,Other,অর্থনীতি বিভাগের সকল খবর - সমকাল,bn,200
+PG0006_BD044,BD044,https://samakal.com/international,Other,বিশ্ব বিভাগের সকল খবর - সমকাল,bn,200
+PG0007_BD044,BD044,https://samakal.com/sports,Other,খেলা বিভাগের সকল খবর - সমকাল,bn,200
+PG0008_BD044,BD044,https://samakal.com/entertainment,Other,বিনোদন বিভাগের সকল খবর - সমকাল,bn,200
+PG0009_BD044,BD044,https://samakal.com/whole-country,Other,সারাদেশ বিভাগের সকল খবর - সমকাল,bn,200
+PG0010_BD044,BD044,https://samakal.com/divisions/dhaka,Other,ঢাকা বিভাগের সকল খবর - সমকাল,bn,200
+PG0001_BD045,BD045,https://www.ittefaq.com.bd/,Other,The Daily Ittefaq | দৈনিক ইত্তেফাক | ittefaq.com.bd,bn,200
+PG0002_BD045,BD045,https://www.ittefaq.com.bd/latest-news,Article,"আজকের খবর, আপডেট নিউজ | Latest news, Online update",bn,200
+PG0003_BD045,BD045,https://www.ittefaq.com.bd/topic/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6,Other,বিশেষ সংবাদ - The Daily Ittefaq,bn,200
+PG0004_BD045,BD045,https://www.ittefaq.com.bd/topic/%E0%A6%95%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%B8,Other,করোনাভাইরাস - The Daily Ittefaq,bn,200
+PG0005_BD045,BD045,https://www.ittefaq.com.bd/editorial,Other,সম্পাদকীয় - The Daily Ittefaq,bn,200
+PG0006_BD045,BD045,https://www.ittefaq.com.bd/national,Other,জাতীয় - The Daily Ittefaq,bn,200
+PG0007_BD045,BD045,https://www.ittefaq.com.bd/capital,Other,রাজধানী - The Daily Ittefaq,bn,200
+PG0008_BD045,BD045,https://www.ittefaq.com.bd/country,Other,সারাদেশ - The Daily Ittefaq,bn,200
+PG0009_BD045,BD045,https://www.ittefaq.com.bd/politics,Other,রাজনীতি - The Daily Ittefaq,bn,200
+PG0010_BD045,BD045,https://www.ittefaq.com.bd/world-news,Article,বিশ্ব সংবাদ | International News Bangla | আন্তর্জাতিক খবর,bn,200
+PG0001_BD047,BD047,https://thefinancialexpress.com.bd/,Other,The Financial Express | First Financial Daily of Bangladesh,en,200
+PG0002_BD047,BD047,https://thefinancialexpress.com.bd/category/economy,Other,Economy — The Financial Express,en,200
+PG0003_BD047,BD047,https://thefinancialexpress.com.bd/category/stock,Other,Stock — The Financial Express,en,200
+PG0004_BD047,BD047,https://thefinancialexpress.com.bd/category/trade,Other,Trade — The Financial Express,en,200
+PG0005_BD047,BD047,https://thefinancialexpress.com.bd/category/national,Other,National — The Financial Express,en,200
+PG0006_BD047,BD047,https://thefinancialexpress.com.bd/category/world,Other,World — The Financial Express,en,200
+PG0007_BD047,BD047,https://thefinancialexpress.com.bd/category/editorial,Other,Editorial — The Financial Express,en,200
+PG0008_BD047,BD047,https://thefinancialexpress.com.bd/category/views,Other,Views — The Financial Express,en,200
+PG0009_BD047,BD047,https://thefinancialexpress.com.bd/category,Other,The Financial Express | First Financial Daily of Bangladesh,en,200
+PG0010_BD047,BD047,https://thefinancialexpress.com.bd/category/education,Other,Education — The Financial Express,en,200
+PG0001_BD048,BD048,https://www.bonikbarta.com/,Article,Daily Bonik Barta ( à¦¬à¦£à¦¿à¦ à¦¬à¦¾à¦°à§à¦¤à¦¾ ) | Leading Bangla Business Daily Newspaper,,200
+PG0002_BD048,BD048,https://www.bonikbarta.com/cdn-cgi/content?id=Z1.91lmY75LMcnbFnMRCyj74U_rxeHGu551Bbm3Pi7U-1787672116.588902-1.2.1.1-OCw4oROqRUcW0Xxuo8vnnZ8.NOBzTEDppa.2tmmFN7u.47rFg0PW.eiRhqZgTTsD,Other,Embryology: The Wondrous Journey of Life,en,200
+PG0003_BD048,BD048,https://www.bonikbarta.com/search,Other,,,200
+PG0004_BD048,BD048,https://www.bonikbarta.com/cdn-cgi/content?id=tn6MTEWSjGilf_bwYsRr7w6rSTADQ7A5V2JL2R1PXXw-1787672117.6691194-1.2.1.1-EKFkshFeLBkgzTJXd.WembfKA7BpB3f7zQly0LmLue5ceol.NTh_SKNgb06IHQ1k,Other,Unveiling the Mysteries of Primatology,en,200
+PG0005_BD048,BD048,https://www.bonikbarta.com/cdn-cgi/content?id=8j.6n3uHP0u.fpVOLTA7I4bD8KKEAVBmwvm08Otwe3Y-1787672118.2351713-1.2.1.1-yngKcsBiMbStTB.Rg0FOSgLtSK2gaSmZZAF.SMQ8SSkVt83NmeadhuZ.0QxIaQo3,Other,Atomic Physics: Unveiling the Mysteries of the Microcosm,en,200
+PG0001_BD049,BD049,https://www.tbsnews.net/,Article,The Business Standard | Bangladesh Newspapers | English Daily,en,200
+PG0002_BD049,BD049,https://www.tbsnews.net/latest,Article,Latest | The Business Standard,en,200
+PG0003_BD049,BD049,https://www.tbsnews.net/economy,Article,"Latest business, financial, commerce, stock market, economic, advertisement news and analysis | The Business Standard",en,200
+PG0004_BD049,BD049,https://www.tbsnews.net/economy/banking,Article,Banking | The Business Standard,en,200
+PG0005_BD049,BD049,https://www.tbsnews.net/economy/stocks,Article,Stocks | The Business Standard,en,200
+PG0006_BD049,BD049,https://www.tbsnews.net/economy/industry,Article,Industry | The Business Standard,en,200
+PG0007_BD049,BD049,https://www.tbsnews.net/analysis,Article,Analysis | The Business Standard,en,200
+PG0008_BD049,BD049,https://www.tbsnews.net/economy/bazaar,Article,Bazaar | The Business Standard,en,200
+PG0009_BD049,BD049,https://www.tbsnews.net/economy/rmg,Article,RMG | The Business Standard,en,200
+PG0010_BD049,BD049,https://www.tbsnews.net/economy/corporates,Article,Corporates | The Business Standard,en,200
+PG0001_BD051,BD051,https://www.uiu.ac.bd/,Other,United International University (UIU),en-US,200
+PG0002_BD051,BD051,https://www.uiu.ac.bd/academics/faculty-members,Other,Faculty Members - United International University (UIU),en-US,200
+PG0003_BD051,BD051,https://www.uiu.ac.bd/important-contact,Contact,Important Contact - United International University (UIU),en-US,200
+PG0004_BD051,BD051,https://www.uiu.ac.bd/profile-login,Other,Profile Login - United International University (UIU),en-US,200
+PG0005_BD051,BD051,https://www.uiu.ac.bd/about-uiu,About,About UIU - United International University (UIU),en-US,200
+PG0006_BD051,BD051,https://www.uiu.ac.bd/about-uiu/vision-mission-goals,About,Vision Mission Goals - United International University (UIU),en-US,200
+PG0007_BD051,BD051,https://www.uiu.ac.bd/about-uiu/why-uiu,About,Why Choose UIU - United International University (UIU),en-US,200
+PG0008_BD051,BD051,https://www.uiu.ac.bd/about-uiu/general-information,About,General Information - United International University (UIU),en-US,200
+PG0009_BD051,BD051,https://www.uiu.ac.bd/about-uiu/uiu-campus,About,UIU Campus - United International University (UIU),en-US,200
+PG0010_BD051,BD051,https://www.uiu.ac.bd/about-uiu/guiding-principles,About,Guiding Principles - United International University (UIU),en-US,200
+PG0001_BD053,BD053,https://www.aust.edu/,Other,Ahsanullah University of Science and Technology,en,200
+PG0002_BD053,BD053,https://www.aust.edu/academics/faculties_&_departments,Other,Ahsanullah University of Science and Technology,en,200
+PG0003_BD053,BD053,https://www.aust.edu/academics/academic_rules,Other,Ahsanullah University of Science and Technology,en,200
+PG0004_BD053,BD053,https://www.aust.edu/academics/examincation_and_grading_system,Other,Ahsanullah University of Science and Technology,en,200
+PG0005_BD053,BD053,https://www.aust.edu/research_and_publications,Other,Ahsanullah University of Science and Technology,en,200
+PG0006_BD053,BD053,https://www.aust.edu/academics/recognition,Other,Ahsanullah University of Science and Technology,en,200
+PG0007_BD053,BD053,https://www.aust.edu/academics/academic_calendar,Other,Ahsanullah University of Science and Technology,en,200
+PG0008_BD053,BD053,https://www.aust.edu/academics/lab_facilities,Other,Ahsanullah University of Science and Technology,en,200
+PG0009_BD053,BD053,https://www.aust.edu/library,Other,"Kazi Fazlur Rahman Library, AUST",en,200
+PG0010_BD053,BD053,http://admission.aust.edu/fees,Admission,Fees – AUST::Admission,en-US,200
+PG0001_BD054,BD054,https://www.iiuc.ac.bd/,Other,International Islamic University Chittagong | IIUC,en,200
+PG0002_BD054,BD054,https://www.iiuc.ac.bd/web/iqac/about,About,About IQAC - International Islamic University Chittagong | IIUC,en,200
+PG0003_BD054,BD054,https://www.iiuc.ac.bd/web/about/contact,Contact,Contact Us - International Islamic University Chittagong (IIUC) | IIUC,en,200
+PG0004_BD054,BD054,https://www.iiuc.ac.bd/web/transport-schedule,Other,,en,200
+PG0005_BD054,BD054,https://www.iiuc.ac.bd/home/career,Other,Career Opportunities & Job Vacancies - International Islamic University Chittagong | IIUC,en,200
+PG0006_BD054,BD054,https://www.iiuc.ac.bd/web/admission,Admission,Admission - International Islamic University Chittagong | IIUC,en,200
+PG0007_BD054,BD054,https://www.iiuc.ac.bd/web/admission/choose-apply,Admission,Online Application - Choose Your Program | IIUC Admission,en,200
+PG0008_BD054,BD054,https://www.iiuc.ac.bd/web/fee-structure,Other,Fee Structure - IIUC,en,200
+PG0009_BD054,BD054,https://www.iiuc.ac.bd/web/dacard,Other,Download Admit Card - International Islamic University Chittagong | IIUC,en,200
+PG0010_BD054,BD054,https://www.iiuc.ac.bd/web/daform,Other,DA Form - International Islamic University Chittagong | IIUC,en,200
+PG0001_BD055,BD055,https://www.ulab.edu.bd/,Other,University of Liberal Arts Bangladesh |,en,200
+PG0002_BD055,BD055,https://www.ulab.edu.bd/students,Other,Students | University of Liberal Arts Bangladesh,en,200
+PG0003_BD055,BD055,https://www.ulab.edu.bd/staff,Other,Staff | University of Liberal Arts Bangladesh,en,200
+PG0004_BD055,BD055,https://www.ulab.edu.bd/research-0,Other,Research | University of Liberal Arts Bangladesh,en,200
+PG0005_BD055,BD055,https://www.ulab.edu.bd/about-us,About,About US | University of Liberal Arts Bangladesh,en,200
+PG0006_BD055,BD055,https://www.ulab.edu.bd/about-us/about-ulab,About,About ULAB | University of Liberal Arts Bangladesh,en,200
+PG0007_BD055,BD055,https://www.ulab.edu.bd/about-us/leadership-governance,About,Leadership & Governance | University of Liberal Arts Bangladesh,en,200
+PG0008_BD055,BD055,https://www.ulab.edu.bd/academics,Other,Academics | University of Liberal Arts Bangladesh,en,200
+PG0009_BD055,BD055,https://www.ulab.edu.bd/academics/degrees-offered,Other,Degrees Offered | University of Liberal Arts Bangladesh,en,200
+PG0010_BD055,BD055,https://www.ulab.edu.bd/academics/faculty-list,Other,Faculty List | University of Liberal Arts Bangladesh,en,200
+PG0001_BD056,BD056,https://seu.edu.bd/,Other,,en,200
+PG0001_BD057,BD057,https://www.stamforduniversity.edu.bd/,Other,Stamford University Bangladesh,en,200
+PG0002_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/degree_verification,Other,Stamford University Bangladesh,en,200
+PG0003_BD057,BD057,https://stamforduniversity.edu.bd/index.php/stamford/career,Other,Stamford University Bangladesh,en,200
+PG0004_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/foreign_student,Other,Stamford University Bangladesh,en,200
+PG0005_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/university_mail,Other,Stamford University Bangladesh Email,en,200
+PG0006_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/create_account,Other,Stamford University Bangladesh,en,200
+PG0007_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/signin,Other,Stamford University Bangladesh,en,200
+PG0008_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/admission/apply_onlineAdmission,Admission,Stamford University Bangladesh,en,200
+PG0009_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/details_view/62,Other,Stamford University Bangladesh,en,200
+PG0010_BD057,BD057,https://www.stamforduniversity.edu.bd/index.php/stamford/details_view/5,Other,Stamford University Bangladesh,en,200
+PG0001_BD059,BD059,https://www.uap-bd.edu/,Other,University of Asia Pacific - UAP,en,200
+PG0002_BD059,BD059,https://www.uap-bd.edu/vacancy.php,Other,University of Asia Pacific - UAP,en,200
+PG0003_BD059,BD059,https://www.uap-bd.edu/uap-ranking.php,Other,University of Asia Pacific - UAP,en,200
+PG0004_BD059,BD059,https://www.uap-bd.edu/news-events/news-events.php,Article,University of Asia Pacific - UAP,en,200
+PG0005_BD059,BD059,https://www.uap-bd.edu/admission_test_results.php,Admission,University of Asia Pacific - UAP,en,200
+PG0006_BD059,BD059,https://www.uap-bd.edu/index.php,Other,University of Asia Pacific - UAP,en,200
+PG0007_BD059,BD059,https://www.uap-bd.edu/mission-vision.php,Other,University of Asia Pacific - UAP,en,200
+PG0008_BD059,BD059,https://www.uap-bd.edu/uap-profile.php,Other,University of Asia Pacific - UAP,en,200
+PG0009_BD059,BD059,https://www.uap-bd.edu/bot.php,Other,University of Asia Pacific - UAP,en,200
+PG0010_BD059,BD059,https://www.uap-bd.edu/board.php,Other,University of Asia Pacific - UAP,en,200
+PG0001_BD060,BD060,https://www.easternuni.edu.bd/,Other,Eastern University | One of the Top Private Universities in Bangladesh,en,200
+PG0002_BD060,BD060,https://www.easternuni.edu.bd/apostille,Service,Apostille Service | Eastern University,en,200
+PG0003_BD060,BD060,https://www.easternuni.edu.bd/career,Other,Careers at Eastern University | Job Opportunities & Faculty Positions | Eastern University,en,200
+PG0004_BD060,BD060,https://www.easternuni.edu.bd/iqac,Other,IQAC - Eastern University | Eastern University,en,200
+PG0005_BD060,BD060,https://www.easternuni.edu.bd/journal,Other,Journal | Eastern University,en,200
+PG0006_BD060,BD060,https://www.easternuni.edu.bd/topnews/2,Admission,Payment through bkash for Admission form | Eastern University,en,200
+PG0007_BD060,BD060,https://www.easternuni.edu.bd/topnews/5,Article,UCB Bank Payment | Eastern University,en,200
+PG0008_BD060,BD060,https://www.easternuni.edu.bd/topnews/72,Article,Learn JAPANESE Language | Eastern University,en,200
+PG0009_BD060,BD060,https://www.easternuni.edu.bd/about,About,About Eastern University Bangladesh,en,200
+PG0010_BD060,BD060,https://www.easternuni.edu.bd/about/board-of-trustees,About,Board of Trustees | Eastern University,en,200
+PG0001_BD063,BD063,https://wub.edu.bd/,Other,World University of Bangladesh,en,200
+PG0002_BD063,BD063,https://wub.edu.bd/main/wub_faculty,Other,World University of Bangladesh,,200
+PG0003_BD063,BD063,https://wub.edu.bd/main/student_support,Other,World University of Bangladesh,,200
+PG0004_BD063,BD063,https://wub.edu.bd/alumni/alumni_registration_form,Other,World University of Bangladesh,,200
+PG0005_BD063,BD063,https://wub.edu.bd/vice_chancellor/message,Other,World University of Bangladesh,,200
+PG0006_BD063,BD063,https://wub.edu.bd/about/history,About,World University of Bangladesh,,200
+PG0007_BD063,BD063,https://wub.edu.bd/about/mission_and_vision,About,World University of Bangladesh,,200
+PG0008_BD063,BD063,https://wub.edu.bd/about/objectives,About,World University of Bangladesh,,200
+PG0009_BD063,BD063,https://wub.edu.bd/about/at_a_glance,About,World University of Bangladesh,,200
+PG0010_BD063,BD063,https://wub.edu.bd/about/accreditation_and_affiliation,About,World University of Bangladesh,,200
+PG0001_BD064,BD064,https://sub.ac.bd/,Other,State University of Bangladesh,en,200
+PG0002_BD064,BD064,https://sub.ac.bd/event/state-university-of-bangladesh-welcomes-cse-70th-batch-and-dse-1st-batch-in-summer-2026-orientation,Other,State University of Bangladesh,en,200
+PG0003_BD064,BD064,https://sub.ac.bd/event/state-university-of-bangladesh-inaugurates-research-and-publication-department-to-advance-academic-excellence,Other,State University of Bangladesh,en,200
+PG0004_BD064,BD064,https://sub.ac.bd/event/language-lab-inauguration-storytelling-competition-2026-department-of-english-studies,Article,State University of Bangladesh,en,200
+PG0005_BD064,BD064,https://sub.ac.bd/event/sub-computer-science-department-officially-launches-the-sub-data-science-club,Other,State University of Bangladesh,en,200
+PG0006_BD064,BD064,https://sub.ac.bd/event/sub-hosts-successful-earthquake-awareness-community-resilience-workshop,Other,State University of Bangladesh,en,200
+PG0007_BD064,BD064,https://sub.ac.bd/institute-of-school/school-of-business-and-social-studies,Other,"Institute of School-
+ State University of Bangladesh",en,200
+PG0008_BD064,BD064,https://sub.ac.bd/institute-of-school/school-of-health-sciences,Other,"Institute of School-
+ State University of Bangladesh",en,200
+PG0009_BD064,BD064,https://sub.ac.bd/institute-of-school/school-of-pharmaceutical-sciences,Other,"Institute of School-
+ State University of Bangladesh",en,200
+PG0010_BD064,BD064,https://sub.ac.bd/institute-of-school/school-of-science-and-technology,Other,"Institute of School-
+ State University of Bangladesh",en,200
+PG0001_BD065,BD065,https://metrouni.edu.bd/,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0002_BD065,BD065,https://www.metrouni.edu.bd/,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0003_BD065,BD065,https://metrouni.edu.bd/sites/university/overview,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0004_BD065,BD065,https://metrouni.edu.bd/sites/university/history,Article,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0005_BD065,BD065,https://metrouni.edu.bd/sites/university/vision-mission,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0006_BD065,BD065,https://metrouni.edu.bd/sites/university/our-core-values,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0007_BD065,BD065,https://metrouni.edu.bd/sites/university/accreditation-membership-collaboration,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0008_BD065,BD065,https://metrouni.edu.bd/sites/university/convocation,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0009_BD065,BD065,https://metrouni.edu.bd/sites/university/testimonial,Other,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0010_BD065,BD065,https://metrouni.edu.bd/sites/university/news,Article,Metropolitan University | Education. Not Just a Degree.,en,200
+PG0001_BD066,BD066,https://bangladesh.gov.bd/,Other,হোম | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0002_BD066,BD066,https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e94,Other,জাতীয় সংসদ | পাতা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0003_BD066,BD066,https://bangladesh.gov.bd/views/directorates-n-others,Other,অধিদপ্তর এবং অন্যান্য অফিস | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0004_BD066,BD066,https://bangladesh.gov.bd/views/all-eservices-in-bangladesh,Service,সকল ই-সেবা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0005_BD066,BD066,https://bangladesh.gov.bd/pages/np-services,Service,জাতীয় পোর্টাল পরিষেবা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0006_BD066,BD066,https://bangladesh.gov.bd/views/service-sectors,Service,প্রয়োজনীয় তথ্য ও সেবা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0007_BD066,BD066,https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e7a,Other,নতুন উদ্যোক্তাদের জন্য তথ্যাবলী | পাতা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0008_BD066,BD066,https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e5a,Other,ট্রেড লাইসেন্স | পাতা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0009_BD066,BD066,https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e5b,Other,বৈদেশিক বিনিয়োগ সুবিধা | পাতা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0010_BD066,BD066,https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e60,Other,কীভাবে নতুন ব্যবসা শুরু করবেন | পাতা | বাংলাদেশ জাতীয় তথ্য বাতায়ন,en,200
+PG0001_BD067,BD067,https://nbr.gov.bd/,Other,"National Board of Revenue (NBR), Bangladesh",,200
+PG0002_BD067,BD067,https://nbr.gov.bd/ban,Other,"National Board of Revenue (NBR), Bangladesh",,200
+PG0003_BD067,BD067,https://nbr.gov.bd/all-faq/eng,Other,"National Board of Revenue (NBR), Bangladesh",,200
+PG0004_BD067,BD067,https://nbr.gov.bd/about-us/nbr-officers-list/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0005_BD067,BD067,https://nbr.gov.bd/about-us/vision-mission/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0006_BD067,BD067,https://nbr.gov.bd/about-us/work-distribution/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0007_BD067,BD067,https://nbr.gov.bd/about-us/about-us/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0008_BD067,BD067,https://nbr.gov.bd/about-us/organogram/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0009_BD067,BD067,https://nbr.gov.bd/about-us/finance-minister-profile/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0010_BD067,BD067,https://nbr.gov.bd/about-us/chairman-profile/eng,About,"National Board of Revenue (NBR), Bangladesh",,200
+PG0001_BD068,BD068,https://www.bb.org.bd/en/index.php,Other,Bangladesh Bank,,200
+PG0002_BD068,BD068,https://www.bb.org.bd/en/index.php/about/dept_and_offices,About,Bangladesh Bank,,200
+PG0003_BD068,BD068,https://www.bb.org.bd/en/index.php/about/mission_vision,About,Bangladesh Bank,,200
+PG0004_BD068,BD068,https://www.bb.org.bd/en/index.php/about/strategic_plan,About,Bangladesh Bank,,200
+PG0005_BD068,BD068,https://www.bb.org.bd/en/index.php/about/bbhierarchy,About,Bangladesh Bank,,200
+PG0006_BD068,BD068,https://www.bb.org.bd/en/index.php/about/foreign_visit_info,About,Bangladesh Bank,,200
+PG0007_BD068,BD068,https://www.bb.org.bd/en/index.php/about/board_of_director,About,Bangladesh Bank,,200
+PG0008_BD068,BD068,https://www.bb.org.bd/en/index.php/about/bbgovernors,About,Bangladesh Bank,,200
+PG0009_BD068,BD068,https://www.bb.org.bd/en/index.php/about/deputygovernor,About,Bangladesh Bank,,200
+PG0010_BD068,BD068,https://www.bb.org.bd/en/index.php/about/executives,About,Bangladesh Bank,,200
+PG0001_BD070,BD070,https://www.mygov.bd/,Other,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0002_BD070,BD070,https://idp-v2.live.mygov.bd/login,Other,myGov idp-v2,bn,200
+PG0003_BD070,BD070,https://n-doptor-accounts.nothi.gov.bd/login?referer=aHR0cHM6Ly93d3cubXlnb3YuYmQvZG9wdG9yYXV0aA==,Other,MyGov | Workflow,en,200
+PG0004_BD070,BD070,https://www.mygov.bd/help-desk,Other,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0005_BD070,BD070,https://www.mygov.bd/fee-related-service,Service,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0006_BD070,BD070,https://www.mygov.bd/application-latest-status,Other,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0007_BD070,BD070,https://www.mygov.bd/assistant/logo,Other,,,200
+PG0008_BD070,BD070,https://www.mygov.bd/services?type=sector,Service,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0009_BD070,BD070,https://www.mygov.bd/services?type=office,Service,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0010_BD070,BD070,https://www.mygov.bd/services?type=recipient,Service,myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা,,200
+PG0001_BD074,BD074,https://dghs.gov.bd/,Other,হোম | স্বাস্থ্য অধিদপ্তর,en,200
+PG0002_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922dd43933eb65569e14335,Other,স্বাস্থ্য অধিদপ্তরের মহাপরিচালকগণের তালিকা | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0003_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922db96933eb65569e0b13f,Other,এমআইএস (Mis) | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0004_BD074,BD074,https://dghs.gov.bd/pages/static-pages/%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%B8%E0%A6%BE%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE-d4gzto-6a7e94c411b786c498449caa,Other,বিভিন্ন সিস্টেমের সাপোর্ট সংক্রান্ত যোগাযোগের তালিকা | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0005_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922dc3b933eb65569e0f253,Other,আমাদের ই হেলথ ও ই স্বাস্থ্য সেবাসমূহ | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0006_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922de2f933eb65569e18dcc,Other,ই হেলথ স্ট্যান্ডার্ড | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0007_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922dca0933eb65569e11582,Other,চিকিৎসা জীব প্রযুক্তি | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0008_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922e107933eb65569e29b29,Other,ডিএইচআইএস ২ (Dhis 2) অনলাইন ডাটাবেজ | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0009_BD074,BD074,https://dghs.gov.bd/pages/static-pages/6922ddc2933eb65569e16205,Other,টেলিমেডিসিন সেবা | পাতা | স্বাস্থ্য অধিদপ্তর,en,200
+PG0010_BD074,BD074,https://dghs.gov.bd/pages/files/6922dbcf933eb65569e0cb16,Other,ভার্বাল অটোপসি | ফাইল সমূহ | স্বাস্থ্য অধিদপ্তর,en,200
+PG0001_BD075,BD075,https://investbangladesh.gov.bd/,Other,Invest Bangladesh I Explore Opportunities,en-US,200
+PG0002_BD075,BD075,https://investbangladesh.gov.bd/china,Other,China Investment Gateway｜中国投资,en-US,200
+PG0003_BD075,BD075,https://investbangladesh.gov.bd/opportunities,Other,Invest Bangladesh I Explore Opportunities,en-US,200
+PG0004_BD075,BD075,https://investbangladesh.gov.bd/services,Service,Invest Bangladesh I Explore Opportunities,en-US,200
+PG0005_BD075,BD075,https://investbangladesh.gov.bd/country-desks,Other,Invest Bangladesh | Country Desks,en-US,200
+PG0006_BD075,BD075,https://investbangladesh.gov.bd/sector-desks,Other,Invest Bangladesh | Sector Desks,en-US,200
+PG0007_BD075,BD075,https://investbangladesh.gov.bd/resources,Other,Invest Bangladesh Resources – Investment Publications & Reports Bangladesh,en-US,200
+PG0008_BD075,BD075,https://investbangladesh.gov.bd/about-bangladesh,About,About Invest Bangladesh,en-US,200
+PG0009_BD075,BD075,https://investbangladesh.gov.bd/invest-bangladesh-officers,Other,Invest Bangladesh Officers – Leadership Team | Invest Bangladesh,en-US,200
+PG0010_BD075,BD075,https://investbangladesh.gov.bd/faq,Other,"Invest Bangladesh FAQ | Answers to Investment, Visa, Tax & Business Setup Queries",en-US,200
+PG0001_BD078,BD078,https://dshe.gov.bd/,Other,হোম | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0002_BD078,BD078,https://dshe.gov.bd/pages/static-pages/691997bb933eb65569dde980,Other,পাতা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0003_BD078,BD078,https://dshe.gov.bd/pages/static-pages/691997c1933eb65569dded90,Other,পাতা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0004_BD078,BD078,https://dshe.gov.bd/pages/static-pages/691997cc933eb65569ddf3a9,Other,Vision And Mission | পাতা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0005_BD078,BD078,https://dshe.gov.bd/pages/static-pages/691997c4933eb65569ddef95,Other,ইতিহাস | পাতা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0006_BD078,BD078,https://dshe.gov.bd/pages/office-citizen-charters/691996df933eb65569ddc45c,Other,"সিটিজেন চার্টার, হালনাগাদকৃত মার্চ ২০২৫ | সিটিজেন চার্টার | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর",en,200
+PG0007_BD078,BD078,https://dshe.gov.bd/pages/organograms/691996df933eb65569ddc466,Other,অর্গানোগ্রাম | সাংগঠনিক কাঠামো | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0008_BD078,BD078,https://dshe.gov.bd/pages/officers,Other,কর্মকর্তাবৃন্দ | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0009_BD078,BD078,https://dshe.gov.bd/views/info-officers,Other,তথ্য কর্মকর্তা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0010_BD078,BD078,https://dshe.gov.bd/pages/grievance-redressal-officers,Other,অভিযোগ নিষ্পত্তিকারি কর্মকর্তা | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর,en,200
+PG0001_BD079,BD079,https://www.police.gov.bd/,Other,Bangladesh Police,en,200
+PG0002_BD079,BD079,https://www.police.gov.bd/en/expatriate_help_cell,Other,Bangladesh Police,en,200
+PG0003_BD079,BD079,https://www.police.gov.bd/en/hot_line_number,Other,Bangladesh Police,en,200
+PG0004_BD079,BD079,https://www.police.gov.bd/en/BPWN_Annual_Training_Workshop,Other,Bangladesh Police,en,200
+PG0005_BD079,BD079,https://www.police.gov.bd/en/achievement_&_success,Other,Bangladesh Police,en,200
+PG0006_BD079,BD079,https://www.police.gov.bd/en/phq_invitation_card,Other,Bangladesh Police,en,200
+PG0007_BD079,BD079,https://www.police.gov.bd/en/press_release,Other,Bangladesh Police,en,200
+PG0008_BD079,BD079,https://www.police.gov.bd/en/recruitment_information,Other,Bangladesh Police,en,200
+PG0009_BD079,BD079,https://www.police.gov.bd/en/procurement_ortender_notice,Notice,Bangladesh Police,en,200
+PG0010_BD079,BD079,https://www.police.gov.bd/en/legal_instruments,Other,Bangladesh Police,en,200
+PG0001_BD005,BD005,https://juniv.edu/,Other,Jahangirnagar University,en,200
+PG0002_BD005,BD005,https://juniv.edu/login,Other,Jahangirnagar University,,200
+PG0003_BD005,BD005,https://juniv.edu/office/iqac,Other,Jahangirnagar University,en,200
+PG0004_BD005,BD005,https://juniv.edu/office/ictcell,Other,Jahangirnagar University,en,200
+PG0005_BD005,BD005,https://juniv.edu/useful-links/apa,Other,Jahangirnagar University,en,200
+PG0006_BD005,BD005,https://juniv.edu/administration?roleType=CHANCELLOR&roleName=Chancellor,Other,Jahangirnagar University,en,200
+PG0007_BD005,BD005,https://www.juniv.edu/administration?roleType=VICE_CHANCELLOR&roleName=Vice%20Chancellor,Other,Jahangirnagar University,en,200
+PG0008_BD005,BD005,https://juniv.edu/administration?roleType=PRO_VICE_CHANCELLOR&roleName=Pro%20Vice%20Chancellor,Other,Jahangirnagar University,en,200
+PG0009_BD005,BD005,https://juniv.edu/administration?roleType=TREASURER&roleName=Treasurer,Other,Jahangirnagar University,en,200
+PG0010_BD005,BD005,https://juniv.edu/administration?roleType=REGISTER&roleName=Registrar%20(Acting),Other,Jahangirnagar University,en,200
+PG0001_BD006,BD006,https://www.jkkniu.edu.bd/,Other,"Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0002_BD006,BD006,https://www.jkkniu.edu.bd/overview,Other,"Overview | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0003_BD006,BD006,https://www.jkkniu.edu.bd/resource,Other,"Resources | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0004_BD006,BD006,https://www.jkkniu.edu.bd/at-a-glance,Other,"At A Glance | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0005_BD006,BD006,https://www.jkkniu.edu.bd/organogram,Other,"Organogram | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0006_BD006,BD006,https://www.jkkniu.edu.bd/act,Other,"Act and Rules | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0007_BD006,BD006,https://www.jkkniu.edu.bd/campus,Other,"Campus Map | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0008_BD006,BD006,https://www.jkkniu.edu.bd/monogram,Other,"Monogram | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0009_BD006,BD006,https://www.jkkniu.edu.bd/gallery,Other,"Gallery | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0010_BD006,BD006,https://www.jkkniu.edu.bd/masterplan,Other,"Masterplan | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",en,200
+PG0001_BD021,BD021,https://www.thedailystar.net/,Article,The Daily Star - Bangladesh's National and International Breaking News,en,200
+PG0002_BD021,BD021,https://www.thedailystar.net/star-multimedia/news/sundarbans-climate-project-end-two-years-early-why-4256326,Article,Sundarbans climate project to end two years early: Why? | The Daily Star,en,200
+PG0003_BD021,BD021,https://www.thedailystar.net/star-multimedia/news/how-should-political-parties-act-power-mahfuz-anam-shares-his-views-4256321,Article,How should political parties act in power? Mahfuz Anam shares his views | The Daily Star,en,200
+PG0004_BD021,BD021,https://www.thedailystar.net/star-multimedia/news/deaths-over-iphone-why-it-important-teach-children-accept-no-4256316,Article,Deaths over iPhone: Why is it important to teach children to accept ‘no’? | The Daily Star,en,200
+PG0005_BD021,BD021,https://www.thedailystar.net/news,Article,News | The Daily Star,en,200
+PG0006_BD021,BD021,https://www.thedailystar.net/news/politics,Article,Politics | The Daily Star,en,200
+PG0007_BD021,BD021,https://www.thedailystar.net/news/governance,Article,Governance | The Daily Star,en,200
+PG0008_BD021,BD021,https://www.thedailystar.net/news/crime-justice,Article,Crime & Justice | The Daily Star,en,200
+PG0009_BD021,BD021,https://www.thedailystar.net/news/accidents-and-fires,Article,Accidents and Fires | The Daily Star,en,200
+PG0010_BD021,BD021,https://www.thedailystar.net/news/technology,Article,Technology | The Daily Star,en,200
+PG0001_BD052,BD052,https://daffodilvarsity.edu.bd/,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0002_BD052,BD052,https://daffodilvarsity.edu.bd/rankings,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0003_BD052,BD052,https://daffodilvarsity.edu.bd/faculties,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0004_BD052,BD052,https://daffodilvarsity.edu.bd/programs?isUndergraduate=true,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0005_BD052,BD052,https://daffodilvarsity.edu.bd/programs?isPostgraduate=true,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0006_BD052,BD052,https://daffodilvarsity.edu.bd/scholarship,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0007_BD052,BD052,https://daffodilvarsity.edu.bd/tuition-fee-calculator,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0008_BD052,BD052,https://daffodilvarsity.edu.bd/events,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0009_BD052,BD052,https://daffodilvarsity.edu.bd/testimonials,Other,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0010_BD052,BD052,https://daffodilvarsity.edu.bd/admission-contact,Admission,Daffodil International University: Top Private University in Bangladesh,en,200
+PG0001_BD058,BD058,https://nub.ac.bd/,Other,Northern University Bangladesh,en,200
+PG0002_BD058,BD058,https://nub.ac.bd/student_loan,Other,Student Support Loan,en,200
+PG0003_BD058,BD058,https://nub.ac.bd/nub/package,Other,Northern University > Registration Package,en,200
+PG0004_BD058,BD058,https://nub.ac.bd/about/dj7mbril/about-nub-and-our-history,About,Northern University > About Nub And Our History,en,200
+PG0005_BD058,BD058,https://nub.ac.bd/about/2vfdlwt5/vision-and-mission,About,Northern University > Vision And Mission,en,200
+PG0006_BD058,BD058,https://nub.ac.bd/about/o5cg7row/message-from-the-chairman,About,Northern University > Message From The Chairman,en,200
+PG0007_BD058,BD058,https://nub.ac.bd/about/j4n0vh5t/message-from-vc,About,Northern University > Message From Vc,en,200
+PG0008_BD058,BD058,https://nub.ac.bd/about/etm6be1j/faculties,About,Northern University > Faculties,en,200
+PG0009_BD058,BD058,https://nub.ac.bd/academic/t3gwthgw/academic-programs,Other,Northern University > Academic Programs,en,200
+PG0010_BD058,BD058,https://nub.ac.bd/academic/aid3rqrn/academic-system,Other,Northern University > Academic System,en,200
+PG0001_BD061,BD061,https://primeasia.edu.bd/,Other,Home - Primeasia University,en,200
+PG0002_BD061,BD061,https://primeasia.edu.bd/library,Other,Primeasia University Library - Primeasia UniversityPrimeasia University Library | Primeasia University,en,200
+PG0003_BD061,BD061,https://primeasia.edu.bd/category/campus-life,Other,Gallery Archives - Primeasia University,en,200
+PG0004_BD061,BD061,https://primeasia.edu.bd/others/iqac,Other,IQAC - Primeasia University,en,200
+PG0005_BD061,BD061,https://primeasia.edu.bd/contact-us,Contact,Contact - Primeasia University,en,200
+PG0006_BD061,BD061,https://primeasia.edu.bd/about/at-a-glance2,About,At a glance - Primeasia University,en,200
+PG0007_BD061,BD061,https://primeasia.edu.bd/administration/chancellor,Other,Chancellor - Primeasia University,en,200
+PG0008_BD061,BD061,https://primeasia.edu.bd/about/administration,About,Board of Trustees - Primeasia University,en,200
+PG0009_BD061,BD061,https://primeasia.edu.bd/administration/chairman-board-of-trustees,Other,"Chairman, Board of Trustees - Primeasia University",en,200
+PG0010_BD061,BD061,https://primeasia.edu.bd/administration/vice-chancellor,Other,Vice Chancellor - Primeasia University,en,200
+PG0001_BD062,BD062,https://green.edu.bd/,Other,GUB | Green University of Bangladesh,en,200
+PG0002_BD062,BD062,https://green.edu.bd/students,Other,GUB | Green University of Bangladesh,en,200
+PG0003_BD062,BD062,https://green.edu.bd/prospective-students,Other,GUB | Green University of Bangladesh,en,200
+PG0004_BD062,BD062,https://green.edu.bd/faculty-staff,Other,GUB | Green University of Bangladesh,en,200
+PG0005_BD062,BD062,https://green.edu.bd/news,Article,GUB | Green University of Bangladesh,en,200
+PG0006_BD062,BD062,https://green.edu.bd/notice,Notice,GUB | Green University of Bangladesh,en,200
+PG0007_BD062,BD062,https://green.edu.bd/search-form,Other,GUB | Green University of Bangladesh,en,200
+PG0008_BD062,BD062,https://green.edu.bd/contact-us,Contact,GUB | Green University of Bangladesh,en,200
+PG0009_BD062,BD062,https://green.edu.bd/exam-seat-plans,Other,GUB | Green University of Bangladesh,en,200
+PG0010_BD062,BD062,https://green.edu.bd/history,Article,GUB | Green University of Bangladesh,en,200

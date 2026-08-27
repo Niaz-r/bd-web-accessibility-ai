@@ -1,0 +1,33 @@
+organization_type,issue_type,issue_label,websites,mean_per_page,median_per_page,std_per_page,min_per_page,max_per_page
+Government,missing_alt,Missing image alt,13,3.3923076923076922,0.0,9.300668572604655,0.0,33.6
+Government,empty_alt,Empty image alt,13,7.4692307692307685,0.2,13.999070481963235,0.0,41.6
+Government,missing_h1,Missing H1,13,0.6000000000000001,0.9,0.4654746681256314,0.0,1.0
+Government,multiple_h1,Multiple H1,13,0.15384615384615385,0.1,0.2787333989537452,0.0,1.0
+Government,empty_heading,Empty heading,13,1.6461538461538463,0.0,3.0286452924851246,0.0,9.0
+Government,heading_order,Heading order,13,0.6153846153846155,0.3,0.6804975555260452,0.0,1.7
+Government,empty_link_text,Empty link text,13,4.023076923076923,1.5,5.619334753947577,0.0,19.2
+Government,generic_link_text,Generic link text,13,0.13846153846153847,0.0,0.3404371247344154,0.0,1.2
+News,missing_alt,Missing image alt,12,0.45,0.0,0.9548917120900056,0.0,3.2
+News,empty_alt,Empty image alt,12,1.4666666666666668,0.25,2.1372596444697094,0.0,6.0
+News,missing_h1,Missing H1,12,0.375,0.35,0.36711405213193254,0.0,1.0
+News,multiple_h1,Multiple H1,12,0.05833333333333333,0.0,0.20207259421636897,0.0,0.7
+News,empty_heading,Empty heading,12,0.225,0.0,0.40028399009612253,0.0,1.0
+News,heading_order,Heading order,12,0.9249999999999999,0.1,1.4973461371858727,0.0,4.5
+News,empty_link_text,Empty link text,12,5.558333333333333,0.65,7.839811956619336,0.0,18.4
+News,generic_link_text,Generic link text,12,0.27499999999999997,0.0,0.9526279441628825,0.0,3.3
+Private University,missing_alt,Missing image alt,18,1.6999999999999997,0.6000000000000001,3.220705074431775,0.0,13.5
+Private University,empty_alt,Empty image alt,18,4.438888888888889,0.0,10.358068119268124,0.0,44.0
+Private University,missing_h1,Missing H1,18,0.3944444444444445,0.2,0.4065236006783576,0.0,1.0
+Private University,multiple_h1,Multiple H1,18,0.1111111111111111,0.05,0.21112831027290685,0.0,0.9
+Private University,empty_heading,Empty heading,18,0.2888888888888889,0.05,0.7020045993555455,0.0,3.0
+Private University,heading_order,Heading order,18,1.527777777777778,1.5,1.2057731498457283,0.0,4.8
+Private University,empty_link_text,Empty link text,18,7.438888888888889,7.05,5.830158800065991,0.0,18.8
+Private University,generic_link_text,Generic link text,18,0.838888888888889,0.25,1.4621253220966866,0.0,5.3
+Public University,missing_alt,Missing image alt,20,2.22,0.30000000000000004,4.663926513820281,0.0,19.1
+Public University,empty_alt,Empty image alt,20,8.2,2.2,17.89736822758263,0.0,81.3
+Public University,missing_h1,Missing H1,20,0.7100000000000001,0.9,0.35967821876314887,0.0,1.0
+Public University,multiple_h1,Multiple H1,20,0.05500000000000001,0.0,0.11459310165698641,0.0,0.5
+Public University,empty_heading,Empty heading,20,0.6599999999999999,0.1,1.3770296025560924,0.0,6.0
+Public University,heading_order,Heading order,20,1.5299999999999998,1.15,1.3175335809162914,0.1,5.6
+Public University,empty_link_text,Empty link text,20,6.840000000000001,5.95,5.511461741345557,0.2,24.3
+Public University,generic_link_text,Generic link text,20,11.71,0.75,46.27881065660042,0.0,208.2

@@ -1,0 +1,413 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://dshe.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://dshe.gov.bd
+Status: 200
+Analyzable: True
+Findings: 24
+
+issue_category           issue severity                                                                                                                                                                                                                                                                                                                selector
+         image     missing_alt     high                                                                                                                          div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(1) > div.block-widget-container > div.block-widget-content > rt-renderer > p:nth-of-type(1) > img.image_resized
+         image     missing_alt     high                                                                                                                       div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(1) > img
+         image     missing_alt     high                                                                                                                       div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(2) > img
+         image     missing_alt     high                                                                                                                       div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(3) > img
+       heading     multiple_h1   medium                                                                                                                                                                                                                                                                                                                        
+       heading   heading_order   medium section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(2) > div.mega-menu-dropdown.megaMenu > div.menu-child-box:nth-of-type(1) > h6.menu-child-title
+       heading   empty_heading   medium                section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(5) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+       heading   empty_heading   medium section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(6) > div.mega-menu-dropdown.megaMenu > div.menu-child-box:nth-of-type(2) > h6.menu-child-title
+       heading   empty_heading   medium                section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(8) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+       heading   empty_heading   medium                section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(9) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+       heading   empty_heading   medium               section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(10) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+       heading   heading_order   medium                                                                                                                               body > div.container > div.wrapper:nth-of-type(2) > div.body:nth-of-type(1) > div.droppable > div.widget.block-widget:nth-of-type(3) > div.block-widget-container > h3.block-widget-title
+       heading   heading_order   medium                                                                                                                              body > div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(4) > div.block-widget-container > h3.block-widget-title
+       heading   heading_order   medium                                                                                                                              body > div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(6) > div.block-widget-container > h3.block-widget-title
+       heading   heading_order   medium                                                                                                                              body > div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(8) > div.block-widget-container > h3.block-widget-title
+          link empty_link_text     high                              div.header:nth-of-type(1) > div.droppable > section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link:nth-of-type(1) > a.menu-parent-list-link.home-link
+          link empty_link_text     high                                                                    div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(5) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title > a
+          link empty_link_text     high                                                     div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(6) > div.mega-menu-dropdown.megaMenu > div.menu-child-box:nth-of-type(2) > h6.menu-child-title > a
+          link empty_link_text     high                                                                    div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(8) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title > a
+          link empty_link_text     high                                                                    div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(9) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title > a
+
+CSV: final_pipeline/data/intermediate/custom_live/dshe.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/dshe.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://dshe.gov.bd
+HTTP status: 200
+Final URL: https://dshe.gov.bd/
+Page title: হোম | মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 8
+Violation nodes: 73
+Incomplete rules: 2
+Incomplete nodes: 23
+Passed rules: 39
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 12
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: #officeType_i6572294732
+  HTML: <select name="officeType" id="officeType_i6572294732" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i6572294732', this, 'i4210295270', 'i4189111454')">
+  Selector: #office_i6572294732
+  HTML: <select id="office_i6572294732" title="মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর">
+  Selector: a[title=" আমাদের সম্পর্কিত"]
+  HTML: <a title=" আমাদের সম্পর্কিত" href="#" class="menu-parent-list-link" style="color: rgb(255, 20, 147);"> আমাদের সম্পর্কিত <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a>
+
+frame-title | impact: serious | nodes: 1
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: div[data-widget_item="6919960e933eb65569ddc32e"] > .block-widget-container > .block-widget-content > rt-renderer,iframe
+  HTML: <iframe frameborder="0" height="250" scrolling="no" src="https://www.google.c..." style="border:0" width="800">
+
+heading-order | impact: moderate | nodes: 5
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: div[data-widget_item="6919960f933eb65569ddc3b4"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> জরুরি হটলাইনসমূহ / সিটিজেন চার্টার / লিঙ্কস </h3>
+  Selector: div[data-widget_item="6919960e933eb65569ddc32e"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> মানচিত্রে মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর </h3>
+  Selector: div[data-widget_item="6a0c8b280ee6ad950a39bcc0"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> বিনিয়োগ শিক্ষা কার্যক্রম </h3>
+
+image-alt | impact: critical | nodes: 1
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: div[data-widget_item="6919960e933eb65569ddc329"] > .block-widget-container > .block-widget-content > rt-renderer[slim-width=""],.image_resized
+  HTML: <img class="image_resized" style="aspect-ratio:497/628;width:24.03%" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dshe/2026/3/48cece3e-4a4f-46ec-ab54-c2918173de7e.jpeg" width="497" height="628">
+
+label-title-only | impact: serious | nodes: 2
+  Help: Form elements should have a visible label
+  Tags: cat.forms, best-practice
+  Selector: #officeType_i6572294732
+  HTML: <select name="officeType" id="officeType_i6572294732" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i6572294732', this, 'i4210295270', 'i4189111454')">
+  Selector: #office_i6572294732
+  HTML: <select id="office_i6572294732" title="মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর">
+
+landmark-one-main | impact: moderate | nodes: 2
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="bn">
+  Selector: div[data-widget_item="6919960e933eb65569ddc32e"] > .block-widget-container > .block-widget-content > rt-renderer,iframe html
+  HTML: <html>
+
+link-name | impact: serious | nodes: 1
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .home-link
+  HTML: <a class="menu-parent-list-link home-link" href="/" style="color: rgb(255, 69, 0);"> </a>
+
+region | impact: moderate | nodes: 49
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .header-left-section:nth-child(1)
+  HTML: <div class="header-left-section"> <a class="header-title" href="http://bangladesh.gov.bd" title="বাংলাদেশ জাতীয় তথ্য বাতায়ন"> বাংলাদেশ জাতীয় তথ্য বাতায়ন </a> </div>
+  Selector: #officeType_i6572294732
+  HTML: <select name="officeType" id="officeType_i6572294732" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i6572294732', this, 'i4210295270', 'i4189111454')">
+  Selector: #i4210295270
+  HTML: <div id="i4210295270" class="dynamic-dropdowns">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dshe.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dshe.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 96
+
+Axe result types:
+result_type
+violation     73
+incomplete    23
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          73
+axe_incomplete    23
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               93
+third_party_embed           2
+first_party_integration     1
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/dshe.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://dshe.gov.bd/
+Unified findings: 96
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/dshe.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dshe.gov.bd__context_findings.csv
+Total unified findings: 96
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+Unified findings: 96
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          73
+axe_incomplete    23
+
+Priority:
+priority
+Medium      56
+Review      23
+High        16
+Critical     1
+
+Categories:
+category
+Landmarks         49
+Color contrast    34
+Headings           5
+Other              5
+Frames             1
+Images             1
+Links              1
+
+Top rules:
+primary_rule
+region               49
+color-contrast       34
+heading-order         5
+label-title-only      2
+landmark-one-main     2
+frame-title           1
+image-alt             1
+link-name             1
+skip-link             1
+
+Context-aware recommendations: 0
+
+Third-party findings: 2
+
+Rules using fallback recommendation:
+ - label-title-only
+ - landmark-one-main
+ - skip-link
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/dshe.gov.bd__recommendations.csv
+final_pipeline/reports/live/dshe.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://dshe.gov.bd
+
+Host:
+dshe.gov.bd
+
+Output stem:
+dshe.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://dshe.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+dshe.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://dshe.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dshe.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dshe.gov.bd__axe.json
+Rendered URL: https://dshe.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/dshe.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: dshe.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/dshe.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dshe.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dshe.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dshe.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dshe.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dshe.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://dshe.gov.bd
+
+Rendered URL:
+https://dshe.gov.bd/
+
+Analysis stem:
+dshe.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dshe.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dshe.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dshe.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/dshe.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/dshe.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

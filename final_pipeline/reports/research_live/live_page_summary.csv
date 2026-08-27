@@ -1,0 +1,5 @@
+analysis_id,page_url,total_unified_findings,confirmed_by_both,custom_only,axe_only,axe_incomplete,custom_involved,axe_involved,axe_violation_elements,unique_violation_elements,confirmed_share_of_custom_pct,confirmed_share_of_axe_violations_pct,overlap_share_of_unique_violations_pct,page_content_findings,third_party_embed_findings,first_party_integration_findings,directly_fixable,directly_reviewable,review_integration,third_party_controlled
+cu.ac.bd_vision-and-mission,https://cu.ac.bd/vision-and-mission/,19,0,2,16,1,2,17,16,18,0.0,0.0,0.0,19,0,0,0,19,0,0
+servertv.tufanonline.com.bd,https://servertv.tufanonline.com.bd/,42,1,2,6,33,3,40,7,9,33.33,14.29,11.11,42,0,0,0,42,0,0
+www.du.ac.bd,https://www.du.ac.bd/,307,21,73,117,96,94,234,138,211,22.34,15.22,9.95,227,70,10,10,227,0,70
+www.juniv.edu,https://www.juniv.edu/,54,5,2,44,3,7,52,49,51,71.43,10.2,9.8,54,0,0,0,54,0,0

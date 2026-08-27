@@ -1,0 +1,407 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://cu.ac.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://cu.ac.bd/
+Status: 200
+Analyzable: True
+Findings: 45
+
+issue_category     issue severity                                                                                                                                                                                                                                                                                                                                                                        selector
+         image empty_alt   medium     div.elementor.elementor-13 > section.has_eae_slider.elementor-section:nth-of-type(1) > div.elementor-container.elementor-column-gap-default:nth-of-type(2) > div.has_eae_slider.elementor-column > div.elementor-widget-wrap.elementor-element-populated > div.elementor-element.elementor-element-f15b378 > div.elementor-widget-container > img.attachment-full.size-full
+         image empty_alt   medium div.elementor.elementor-13200 > section.has_eae_slider.elementor-section > div.elementor-container.elementor-column-gap-default > div.has_eae_slider.elementor-column:nth-of-type(2) > div.elementor-widget-wrap.elementor-element-populated > div.elementor-element.elementor-element-15b8f037:nth-of-type(2) > div.elementor-widget-container > img.attachment-full.size-full
+         image empty_alt   medium div.elementor.elementor-13204 > section.has_eae_slider.elementor-section > div.elementor-container.elementor-column-gap-default > div.has_eae_slider.elementor-column:nth-of-type(1) > div.elementor-widget-wrap.elementor-element-populated > div.elementor-element.elementor-element-42c2702d:nth-of-type(1) > div.elementor-widget-container > img.attachment-full.size-full
+         image empty_alt   medium                                                                                                                                                                                                                                                                     div#eael-team-member-7420b04 > div.eael-team-item-inner > div.eael-team-image:nth-of-type(1) > figure > img
+         image empty_alt   medium                                                                                                                                                                                                                                                                     div#eael-team-member-90abe05 > div.eael-team-item-inner > div.eael-team-image:nth-of-type(1) > figure > img
+         image empty_alt   medium                                                                                                                                                                                                                                                                     div#eael-team-member-96e4147 > div.eael-team-item-inner > div.eael-team-image:nth-of-type(1) > figure > img
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(1) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(2) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(3) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(4) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(5) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                                                             div.rt-col-xs-12.rt-col-md-8:nth-of-type(2) > div.rt-row > div.rt-col-md-6.rt-col-sm-12:nth-of-type(6) > div.rt-holder.tpg-post-holder > div.rt-detail.rt-el-content-wrapper > div.rt-img-holder.tpg-el-image-wrap:nth-of-type(1) > a.tpg-post-link > img.attachment-medium_large.size-medium_large
+         image empty_alt   medium                                  div#eael-post-grid-f7051ff > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(1) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-f7051ff > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(2) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-f7051ff > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(3) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-f7051ff > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(4) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-b1f8dbd > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(1) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-b1f8dbd > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(2) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-b1f8dbd > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(3) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+         image empty_alt   medium                                  div#eael-post-grid-b1f8dbd > div.eael-post-grid.eael-post-appender:nth-of-type(1) > article.eael-grid-post.eael-post-grid-column:nth-of-type(4) > div.eael-grid-post-holder > div.eael-grid-post-holder-inner > div.eael-entry-media:nth-of-type(1) > div.eael-entry-thumbnail.eael-image-ratio:nth-of-type(2) > img.attachment-full.size-full
+
+CSV: final_pipeline/data/intermediate/custom_live/cu.ac.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/cu.ac.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://cu.ac.bd/
+HTTP status: 200
+Final URL: https://cu.ac.bd/
+Page title: University of Chittagong – চট্টগ্রাম বিশ্ববিদ্যালয়
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 4
+Violation nodes: 9
+Incomplete rules: 2
+Incomplete nodes: 19
+Passed rules: 58
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 1
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: #widget2 .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=B1ubOPl7yRQ"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">cu short video</span></a>
+
+aria-prohibited-attr | impact: serious | nodes: 1
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: #widget2 #movie_player
+  HTML: <div class="html5-video-player y..." tabindex="" id="movie_player" data-version="/s/player/b7457b7c/p..." aria-label="YouTube Video Player">
+
+button-name | impact: critical | nodes: 1
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: #widget2 .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+
+link-name | impact: serious | nodes: 6
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10769"][target="_self"]
+  HTML: <a data-id="10769" href="https://cu.ac.bd/effects-of-shipwrecks-on-spatiotemporal-dynamics-of-metal-loids-in-sediments-and-seafood-safety-in-the-bay-of-bengal/" class="tpg-post-link" target="_self">
+  Selector: .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10763"][target="_self"]
+  HTML: <a data-id="10763" href="https://cu.ac.bd/keap1-nrf2-mutations-in-stem-cells-define-an-aggressive-subset-of-head-and-neck-cancer-patients-who-have-a-poor-prognosis-lung-metastasis-and-therapeutic-failure/" class="tpg-post-link" target="_self">
+  Selector: .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10757"][target="_self"]
+  HTML: <a data-id="10757" href="https://cu.ac.bd/an-enemy-of-our-own-making-47-children-in-port-city-resistant-to-antibiotics-finds-study-of-cu/" class="tpg-post-link" target="_self">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cu.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cu.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 45
+Axe nodes: 28
+
+Axe result types:
+result_type
+incomplete    19
+violation      9
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 6
+Confirmed matches: 6
+
+Unified finding statuses:
+finding_status
+custom_only          39
+axe_incomplete       19
+confirmed_by_both     6
+axe_only              3
+
+Confirmed rule pairs:
+custom_issue     axe_rule 
+empty_link_text  link-name    6
+
+Ownership scope:
+ownership_scope
+page_content    67
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue  axe_rule  match_score                               match_method                                                                               preferred_selector                                                        src                                                                                                                                                                                href
+empty_link_text link-name          210 same_href+same_html+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10769"][target="_self"]                                                                                                         https://cu.ac.bd/effects-of-shipwrecks-on-spatiotemporal-dynamics-of-metal-loids-in-sediments-and-seafood-safety-in-the-bay-of-bengal/
+empty_link_text link-name          210 same_href+same_html+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10763"][target="_self"]                                                            https://cu.ac.bd/keap1-nrf2-mutations-in-stem-cells-define-an-aggressive-subset-of-head-and-neck-cancer-patients-who-have-a-poor-prognosis-lung-metastasis-and-therapeutic-failure/
+empty_link_text link-name          210 same_href+same_html+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10712"][target="_self"]                                                                                                   https://cu.ac.bd/quantifying-the-potential-contribution-of-urban-trees-to-particulate-matters-removal-a-study-in-chattogram-city-bangladesh/
+empty_link_text link-name          120           same_href+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10757"][target="_self"] https://cu.ac.bd/wp-content/uploads/2024/04/image14-1.jpeg                                                                    https://cu.ac.bd/an-enemy-of-our-own-making-47-children-in-port-city-resistant-to-antibiotics-finds-study-of-cu/
+empty_link_text link-name          120           same_href+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10725"][target="_self"]   https://cu.ac.bd/wp-content/uploads/2024/04/image13.jpeg                                                                                        https://cu.ac.bd/microbiome-of-hilsha-is-unique-first-study-of-bangladesh-by-cu-researchers/
+empty_link_text link-name          120           same_href+same_tag+class_overlap .rt-img-holder.tpg-el-image-wrap.has-thumbnail > .tpg-post-link[data-id="10718"][target="_self"]   https://cu.ac.bd/wp-content/uploads/2024/04/image12.jpeg                                                                                                      https://cu.ac.bd/a-gamechanger-for-shrimp-farming-whole-genome-decode-of-wssv/
+
+Output: final_pipeline/data/intermediate/unified_live/cu.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://cu.ac.bd/
+Unified findings: 67
+Context-dependent findings: 29
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 29
+Unmatched: 0
+
+custom_issue text  alt href                                                                                                                                      src                                                                                                                                                      nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            surrounding_context
+   empty_alt  NaN  NaN  NaN                                                       https://cu.ac.bd/wp-content/uploads/2025/08/Imagine.-Lead.-Change-764-x-676-px.gif                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Next text: Our History | Image filename: Imagine.-Lead.-Change-764-x-676-px.gif
+   empty_alt  NaN  NaN  NaN                                                               https://cu.ac.bd/wp-content/uploads/2025/01/cover_shadow_without_title.jpg                                                                                                                                                         Our History                                                                                                                                                                                                                                                                         Nearby heading: Our History | Previous text: The University of Chittagong is situated on 2312.32 acres of beautiful hilly land in mauja Fatehpur under hathazari upazila, 22 km north of chittagong city. It was opened on 18 November 1966. Back in 1962, Mr. Mohammad Ferdaus Khan, Deputy Director of Public Instruction of East Pakistan, prepared a preliminary draft plan of the University of Chitta... | Next text: Integrity | Image filename: cover_shadow_without_title.jpg
+   empty_alt  NaN  NaN  NaN                                                                                  https://cu.ac.bd/wp-content/uploads/2025/01/cuadmin.jpg                                                                                                                                                         Our History                                                                                                                                                                     Nearby heading: Our History | Parent text: Integrity Diversity Excellence Collaboration Empathy and compassion Sustainability Dedication Inclusion | Previous text: The University of Chittagong is situated on 2312.32 acres of beautiful hilly land in mauja Fatehpur under hathazari upazila, 22 km north of chittagong city. It was opened on 18 November 1966. Back in 1962, Mr. Mohammad Ferdaus Khan, Deputy Director of Public Instruction of East Pakistan, prepared a preliminary draft plan of the University of Chitta... | Next text: Integrity | Image filename: cuadmin.jpg
+   empty_alt  NaN  NaN  NaN                 https://cu.ac.bd/wp-content/uploads/elementor/thumbs/Untitled-1-copy.jpg-rkxddk6z043arp0hyuwzp0fp2tb31ezgq82snt4uyg.jpeg                                                                                                                                                             Mission                                                                                                                                                                                                                                                                                                    Nearby heading: Mission | Parent text: Professor Dr. Mohammad Al-Forkan Vice-Chancellor | Previous text: UM4: Promote professionalism, inclusivity, equal rights, ethical standards and diversity in modalities of education and to practice the sustainable development by way of co- and extra-curricular activities. | Next text: Professor Dr. Mohammad Al-Forkan | Image filename: Untitled-1-copy.jpg-rkxddk6z043arp0hyuwzp0fp2tb31ezgq82snt4uyg.jpeg
+   empty_alt  NaN  NaN  NaN https://cu.ac.bd/wp-content/uploads/elementor/thumbs/1f84c460-8b1a-4a4b-b0f7-0560c36ea602-ropmko3szsj41kdwa3w0adby7rxc8qkdj9gkvfo2pk.jpg                                                                                                                                                     Vice-Chancellor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Nearby heading: Vice-Chancellor | Parent text: Professor Dr. Mohammed Al-Amin Pro-Vice Chancellor (Academic) | Next text: Professor Dr. Mohammed Al-Amin | Image filename: 1f84c460-8b1a-4a4b-b0f7-0560c36ea602-ropmko3szsj41kdwa3w0adby7rxc8qkdj9gkvfo2pk.jpg
+   empty_alt  NaN  NaN  NaN                         https://cu.ac.bd/wp-content/uploads/elementor/thumbs/provc_admin-rrmykg76x2v7jlepd2qol3j2peqiemvdhuc0fsahfc.jpeg                                                                                                                                      Pro-Vice Chancellor (Academic)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Nearby heading: Pro-Vice Chancellor (Academic) | Parent text: Professor Dr. Md. Safiqul Islam Pro-Vice Chancellor (Administration) | Next text: Professor Dr. Md. Safiqul Islam | Image filename: provc_admin-rrmykg76x2v7jlepd2qol3j2peqiemvdhuc0fsahfc.jpeg
+   empty_alt  NaN  NaN  NaN                                                                       https://cu.ac.bd/wp-content/uploads/2024/04/image16-1-768x432.jpeg                                        Effects of fragmentation and shifting cultivation on soil carbon and nutrients: A case study in Sitapahar forest, Bangladesh                                                                                                                                                                                                                                                                                                                                                                                                                                      Nearby heading: Effects of fragmentation and shifting cultivation on soil carbon and nutrients: A case study in Sitapahar forest, Bangladesh | Parent text: Effects of shipwrecks on spatiotemporal dynamics of metal/loids in sediments and seafood safety in the Bay of Bengal | Image filename: image16-1-768x432.jpeg
+   empty_alt  NaN  NaN  NaN                                                                        https://cu.ac.bd/wp-content/uploads/2024/04/image15-1-768x583.png                                                Effects of shipwrecks on spatiotemporal dynamics of metal/loids in sediments and seafood safety in the Bay of Bengal                                                                                                                                                                                                                                                                                                                                                                                                Nearby heading: Effects of shipwrecks on spatiotemporal dynamics of metal/loids in sediments and seafood safety in the Bay of Bengal | Parent text: KEAP1/NRF2 Mutations in Stem Cells Define an Aggressive Subset of Head and Neck Cancer Patients Who Have a Poor Prognosis, Lung Metastasis, and Therapeutic Failure | Image filename: image15-1-768x583.png
+   empty_alt  NaN  NaN  NaN                                                                               https://cu.ac.bd/wp-content/uploads/2024/04/image14-1.jpeg KEAP1/NRF2 Mutations in Stem Cells Define an Aggressive Subset of Head and Neck Cancer Patients Who Have a Poor Prognosis, Lung Metastasis, and Therapeutic Failure                                                                                                                                                                                                                                                                                                                                                                                                                          Nearby heading: KEAP1/NRF2 Mutations in Stem Cells Define an Aggressive Subset of Head and Neck Cancer Patients Who Have a Poor Prognosis, Lung Metastasis, and Therapeutic Failure | Parent text: An enemy of our own making: 47% children in port city resistant to antibiotics, finds study of CU | Image filename: image14-1.jpeg
+   empty_alt  NaN  NaN  NaN                                                                                 https://cu.ac.bd/wp-content/uploads/2024/04/image13.jpeg                                                                   An enemy of our own making: 47% children in port city resistant to antibiotics, finds study of CU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Nearby heading: An enemy of our own making: 47% children in port city resistant to antibiotics, finds study of CU | Parent text: Microbiome of Hilsha is unique: First study of Bangladesh by CU researchers | Image filename: image13.jpeg
+   empty_alt  NaN  NaN  NaN                                                                                 https://cu.ac.bd/wp-content/uploads/2024/04/image12.jpeg                                                                                         Microbiome of Hilsha is unique: First study of Bangladesh by CU researchers                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Nearby heading: Microbiome of Hilsha is unique: First study of Bangladesh by CU researchers | Parent text: A gamechanger for shrimp farming: Whole genome decode of WSSV | Image filename: image12.jpeg
+   empty_alt  NaN  NaN  NaN                                                                        https://cu.ac.bd/wp-content/uploads/2024/04/image11-3-768x482.png                                                                                                       A gamechanger for shrimp farming: Whole genome decode of WSSV                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Nearby heading: A gamechanger for shrimp farming: Whole genome decode of WSSV | Parent text: Quantifying the potential contribution of urban trees to particulate matters removal: A study in Chattogram city, Bangladesh | Image filename: image11-3-768x482.png
+   empty_alt  NaN  NaN  NaN                                         https://cu.ac.bd/wp-content/uploads/2026/04/669031823_1362715325891714_9187877990721898381_n.jpg                                                                                                                                                         Recent News                                                                                                                                                                                                                                                                           Nearby heading: Recent News | Parent text: দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান মাননীয় প্রতিমন্ত্রীর দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান জানিয়েছেন ভূমি ও পার্বত্য চট্টগ্রাম বিষয়ক মাননীয় প্রতিমন্ত্রী ব্যারিস্টার... Read More | Next text: দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান মাননীয় প্রতিমন্ত্রীর | Image filename: 669031823_1362715325891714_9187877990721898381_n.jpg
+   empty_alt  NaN  NaN  NaN                                         https://cu.ac.bd/wp-content/uploads/2026/04/669331101_1358948966268350_6966988370925086210_n.jpg                                                                         দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান মাননীয় প্রতিমন্ত্রীর                                                                             Nearby heading: দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান মাননীয় প্রতিমন্ত্রীর | Parent text: চবির কেন্দ্রীয় মন্দির পরিদর্শন করলেন নবনিযুক্ত উপাচার্য চট্টগ্রাম বিশ্ববিদ্যালয়ের নবনিযুক্ত মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ আল্-ফোরকান আজ বৃহস্পতিবার (৯ এপ্রিল ২০২৬) সকাল ৯.৩০টায় উত্তর ক্যাম্পাসে অবস্থিত চট্টগ্রাম... Read More | Previous text: দেশ গড়ার প্রত্যয়ে সকলকে কাঁধে কাঁধ মিলিয়ে ঐক্যবদ্ধভাবে কাজ করার আহ্বান জানিয়েছেন ভূমি ও পার্বত্য চট্টগ্রাম বিষয়ক মাননীয় প্রতিমন্ত্রী ব্যারিস্টার... | Next text: চবির কেন্দ্রীয় মন্দির পরিদর্শন করলেন নবনিযুক্ত উপাচার্য | Image filename: 669331101_1358948966268350_6966988370925086210_n.jpg
+   empty_alt  NaN  NaN  NaN                                         https://cu.ac.bd/wp-content/uploads/2026/04/662376931_1356621419834438_3638450981265421780_n.jpg                                                                                                             চবির কেন্দ্রীয় মন্দির পরিদর্শন করলেন নবনিযুক্ত উপাচার্য Nearby heading: চবির কেন্দ্রীয় মন্দির পরিদর্শন করলেন নবনিযুক্ত উপাচার্য | Parent text: চবির নবনিযুক্ত উপাচার্যের সঙ্গে বিজ্ঞান, ইঞ্জিনিয়ারিং ও মেরিন সায়েন্সস এন্ড ফিশারিজ অনুষদভুক্ত শিক্ষকদের মতবিনিময় চট্টগ্রাম বিশ্ববিদ্যালয়ের নবনিযুক্ত মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ আল্-ফোরকান এর সঙ্গে আজ সোমবার (৬ এপ্রিল ২০২৬) বেলা ১১টায় চবি ব্যবসায়... Read More | Previous text: চট্টগ্রাম বিশ্ববিদ্যালয়ের নবনিযুক্ত মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ আল্-ফোরকান আজ বৃহস্পতিবার (৯ এপ্রিল ২০২৬) সকাল ৯.৩০টায় উত্তর ক্যাম্পাসে অবস্থিত চট্টগ্রাম... | Next text: চবির নবনিযুক্ত উপাচার্যের সঙ্গে বিজ্ঞান, ইঞ্জিনিয়ারিং ও মেরিন সায়েন্সস এন্ড ফিশারিজ অনুষদভুক্ত শিক্ষকদের মতবিনিময় | Image filename: 662376931_1356621419834438_3638450981265421780_n.jpg
+
+Output:
+final_pipeline/data/intermediate/context_live/cu.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cu.ac.bd__context_findings.csv
+Total unified findings: 67
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 29
+
+By rule:
+  empty_alt: 20
+  generic_link_text: 9
+
+Decision codes:
+  EMPTY_ALT_CONTEXT_AVAILABLE: 19
+  EMPTY_ALT_NO_CONTEXT: 1
+  LINK_CONTEXT_AVAILABLE: 9
+
+Confidence:
+  high: 9
+  low: 1
+  medium: 19
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+custom_issue text  alt                                                                                                                                                      nearby_heading                contextual_action                                                                                                                                                                                                                                                                                                                                                    contextual_suggestion contextual_confidence contextual_evidence_source
+   empty_alt  NaN  NaN                                                                                                                                                                 NaN           visual_review_required                                                                                                                                                                                       Determine whether the image is decorative or informative. Keep alt="" only when the image adds no meaningful information. Otherwise add a concise context-appropriate alternative.                   low                           
+   empty_alt  NaN  NaN                                                                                                                                                         Our History verify_decorative_or_informative                                                                                                                                                         Visually inspect the image. If it communicates information related to “Our History”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                                                                                         Our History verify_decorative_or_informative                                                                                                                                                         Visually inspect the image. If it communicates information related to “Our History”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                                                                                             Mission verify_decorative_or_informative                                                                                                                                                             Visually inspect the image. If it communicates information related to “Mission”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                                                                                     Vice-Chancellor verify_decorative_or_informative                                                                                                                                                     Visually inspect the image. If it communicates information related to “Vice-Chancellor”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                                                                      Pro-Vice Chancellor (Academic) verify_decorative_or_informative                                                                                                                                      Visually inspect the image. If it communicates information related to “Pro-Vice Chancellor (Academic)”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                        Effects of fragmentation and shifting cultivation on soil carbon and nutrients: A case study in Sitapahar forest, Bangladesh verify_decorative_or_informative                                        Visually inspect the image. If it communicates information related to “Effects of fragmentation and shifting cultivation on soil carbon and nutrients: A case study in Sitapahar forest, Bangladesh”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                Effects of shipwrecks on spatiotemporal dynamics of metal/loids in sediments and seafood safety in the Bay of Bengal verify_decorative_or_informative                                                Visually inspect the image. If it communicates information related to “Effects of shipwrecks on spatiotemporal dynamics of metal/loids in sediments and seafood safety in the Bay of Bengal”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN KEAP1/NRF2 Mutations in Stem Cells Define an Aggressive Subset of Head and Neck Cancer Patients Who Have a Poor Prognosis, Lung Metastasis, and Therapeutic Failure verify_decorative_or_informative Visually inspect the image. If it communicates information related to “KEAP1/NRF2 Mutations in Stem Cells Define an Aggressive Subset of Head and Neck Cancer Patients Who Have a Poor Prognosis, Lung Metastasis, and Therapeutic Failure”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                   An enemy of our own making: 47% children in port city resistant to antibiotics, finds study of CU verify_decorative_or_informative                                                                   Visually inspect the image. If it communicates information related to “An enemy of our own making: 47% children in port city resistant to antibiotics, finds study of CU”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                         Microbiome of Hilsha is unique: First study of Bangladesh by CU researchers verify_decorative_or_informative                                                                                         Visually inspect the image. If it communicates information related to “Microbiome of Hilsha is unique: First study of Bangladesh by CU researchers”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                                                                                       A gamechanger for shrimp farming: Whole genome decode of WSSV verify_decorative_or_informative                                                                                                       Visually inspect the image. If it communicates information related to “A gamechanger for shrimp farming: Whole genome decode of WSSV”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+Unified findings: 67
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+custom_only          39
+axe_incomplete       19
+confirmed_by_both     6
+axe_only              3
+
+Priority:
+priority
+Medium      31
+Review      19
+High        15
+Critical     2
+
+Categories:
+category
+Links             23
+Images            20
+Color contrast    18
+Headings           2
+ARIA               2
+Controls           1
+Other              1
+
+Top rules:
+primary_rule
+empty_alt               20
+color-contrast          18
+generic_link_text        9
+empty_link_text          8
+link-name                6
+empty_heading            1
+heading_order            1
+aria-allowed-attr        1
+aria-prohibited-attr     1
+button-name              1
+duplicate-id-aria        1
+
+Context-aware recommendations: 29
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - duplicate-id-aria
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/cu.ac.bd__recommendations.csv
+final_pipeline/reports/live/cu.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://cu.ac.bd/
+
+Host:
+cu.ac.bd
+
+Output stem:
+cu.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://cu.ac.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cu.ac.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cu.ac.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+cu.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://cu.ac.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cu.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cu.ac.bd__axe.json
+Rendered URL: https://cu.ac.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/cu.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/cu.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cu.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cu.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cu.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cu.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://cu.ac.bd/
+
+Analysis stem:
+cu.ac.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/cu.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/cu.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/cu.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/cu.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/cu.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

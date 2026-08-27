@@ -1,0 +1,393 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.uiu.ac.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.uiu.ac.bd
+Status: 200
+Analyzable: True
+Findings: 81
+
+issue_category     issue severity                                                                                                                                                                                                                                                                                              selector
+         image empty_alt   medium                                                                                                                                                                                         li#menu-item-703 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                         li#menu-item-727 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                         li#menu-item-718 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                         li#menu-item-710 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                         li#menu-item-745 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                        li#menu-item-3259 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium                                                                                                                                                                                        li#menu-item-2212 > ul.sub-menu > div.container > div.sub-menu-feature:nth-of-type(1) > img.menu_feature_image
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(1) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(2) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(3) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(4) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(5) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(6) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium div.n2-ss-slider-1.n2_ss__touch_element:nth-of-type(1) > div.n2-ss-slider-2.n2-ow > div.n2-ss-slider-3.n2-ow > div.n2-ss-slide-backgrounds.n2-ow-all:nth-of-type(1) > div.n2-ss-slide-background:nth-of-type(7) > div.n2-ss-slide-background-image:nth-of-type(1) > picture.skip-lazy > img.skip-lazy
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(2) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(3) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(4) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(5) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+         image empty_alt   medium                                                                                                        div.container-fluid > div.slider-component > div.swiper.recognitionSlider > div.swiper-wrapper > div.swiper-slide:nth-of-type(6) > div.slide-item > div.ranking-container:nth-of-type(1) > img
+
+CSV: final_pipeline/data/intermediate/custom_live/www.uiu.ac.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.uiu.ac.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.uiu.ac.bd
+HTTP status: 200
+Final URL: https://www.uiu.ac.bd/
+Page title: United International University (UIU)
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 6
+Violation nodes: 46
+Incomplete rules: 1
+Incomplete nodes: 11
+Passed rules: 49
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 19
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .n-uc-143bf2a724d8d > .n2-ss-button-container.n2-font-f993dc2776c9034b6bc9b433ef72c2c0-link.n2-ss-nowrap > .n2-style-31bb1263fc65d754127f087828fa4b97-heading.n2-ow > div > div
+  HTML: <div>Read More</div>
+  Selector: #about > .container > .link-btn[role="button"]
+  HTML: <a href="https://www.uiu.ac.bd/about-uiu" role="button" class="link-btn"> More About UIU </a>
+  Selector: #acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > .single-link > span:nth-child(1)
+  HTML: <span>Undergraduate Programs</span>
+
+heading-order | impact: moderate | nodes: 10
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: #acadamics > .container > .g-4.row > .col-12.col-lg-4.col-md-6:nth-child(1) > .single-content > .text-content > h5
+  HTML: <h5> Undergraduate Programs </h5>
+  Selector: .single-notice:nth-child(3) > .notice-container > .notice-date > h3:nth-child(1)
+  HTML: <h3>Aug</h3>
+  Selector: .single-notice:nth-child(3) > .notice-container > .notice-details > h6
+  HTML: <h6 class="subtitle">August 26, 2026</h6>
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: #uiu-global-nav > nav
+  HTML: <nav class="container-fluid">
+
+link-name | impact: serious | nodes: 11
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .logo
+  HTML: <a class="logo" href="https://uiu.ac.bd/"> <i class="fa-solid fa-house"></i> </a>
+  Selector: .social-link[target="_blank"]:nth-child(1)
+  HTML: <a href="https://www.facebook.com/uiuinfo" class="social-link" target="_blank"> <img src="https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/facebook-white.svg" alt=""> </a>
+  Selector: .social-link[target="_blank"]:nth-child(2)
+  HTML: <a href="https://www.youtube.com/channel/UCRt5IHIN_lhbAic3hfrS2mA" class="social-link" target="_blank"> <img src="https://www.uiu.ac.bd/wp-content/themes/uiu-main/img/youtube-white.svg" alt=""> </a>
+
+region | impact: moderate | nodes: 4
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .skip-link
+  HTML: <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+  Selector: .n2-ss-slide-30 > .n2-ss-slide--focus[role="note"]
+  HTML: <div role="note" class="n2-ss-slide--focus" tabindex="-1">Banner 2</div>
+  Selector: #follow-us
+  HTML: <section id="follow-us">
+
+skip-link | impact: moderate | nodes: 1
+  Help: The skip-link target should exist and be focusable
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-12.7.1
+  Selector: .skip-link
+  HTML: <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uiu.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uiu.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 57
+
+Axe result types:
+result_type
+violation     46
+incomplete    11
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          46
+axe_incomplete    11
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content         56
+third_party_embed     1
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.uiu.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.uiu.ac.bd/
+Unified findings: 57
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.uiu.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uiu.ac.bd__context_findings.csv
+Total unified findings: 57
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+Unified findings: 57
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          46
+axe_incomplete    11
+
+Priority:
+priority
+High      30
+Medium    16
+Review    11
+
+Categories:
+category
+Color contrast    30
+Links             11
+Headings          10
+Landmarks          4
+Other              2
+
+Top rules:
+primary_rule
+color-contrast     30
+link-name          11
+heading-order      10
+region              4
+landmark-unique     1
+skip-link           1
+
+Context-aware recommendations: 0
+
+Third-party findings: 1
+
+Rules using fallback recommendation:
+ - landmark-unique
+ - skip-link
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.uiu.ac.bd__recommendations.csv
+final_pipeline/reports/live/www.uiu.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.uiu.ac.bd
+
+Host:
+www.uiu.ac.bd
+
+Output stem:
+www.uiu.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.uiu.ac.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.uiu.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.uiu.ac.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uiu.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uiu.ac.bd__axe.json
+Rendered URL: https://www.uiu.ac.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.uiu.ac.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.uiu.ac.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.uiu.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uiu.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uiu.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uiu.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uiu.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uiu.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.uiu.ac.bd
+
+Rendered URL:
+https://www.uiu.ac.bd/
+
+Analysis stem:
+www.uiu.ac.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uiu.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uiu.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uiu.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.uiu.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.uiu.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

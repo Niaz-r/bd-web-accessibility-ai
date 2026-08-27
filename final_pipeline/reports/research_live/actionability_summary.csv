@@ -1,0 +1,4 @@
+actionability,count,percent
+directly_reviewable,342,81.04
+third_party_controlled,70,16.59
+directly_fixable,10,2.37

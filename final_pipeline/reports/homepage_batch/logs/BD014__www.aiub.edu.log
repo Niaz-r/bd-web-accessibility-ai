@@ -1,0 +1,414 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.aiub.edu/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.aiub.edu/
+Status: 200
+Analyzable: True
+Findings: 94
+
+issue_category         issue severity                                                                                                                                                                                                                                                                                                       selector
+       heading heading_order   medium                                                                                                                                           header#site-header > section.lqd-section.lqd-mobile-sec > div.lqd-mobile-sec-inner.navbar-header:nth-of-type(1) > a.navbar-brand.flex > span.navbar-brand-inner > h4
+       heading heading_order   medium                                                                                div.important-links:nth-of-type(1) > div.container-full.-mb-10 > div.row > div.col.col-12 > div.row.important-links-stacked:nth-of-type(1) > div.text-14.p-0:nth-of-type(1) > div.text-center.ld-fancy-heading > h6.text-12.m-0
+       heading heading_order   medium                                                                                div.lqd-fb.round:nth-of-type(2) > div.lqd-fb-inner > div.flex.flex-wrap > div.lqd-fb-content-wrap > div:nth-of-type(2) > div.lqd-fb-content.lqd-overlay:nth-of-type(1) > div.lqd-fb-content-inner.relative > h6.mb-20.font-bold
+       heading heading_order   medium                                                                                                                                                                                                        section#news > div.flex.flex-col:nth-of-type(1) > div.ld-fancy-heading.relative > h6.mb-0/3em.font-bold
+       heading heading_order   medium                                                                               div.row.sm:block:nth-of-type(2) > div.col.col-12:nth-of-type(1) > div.lqd-fb.relative > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.flex:nth-of-type(2) > h6.mt-0.mb-1/50em
+       heading heading_order   medium                                                                               div.row.sm:block:nth-of-type(2) > div.col.col-12:nth-of-type(2) > div.lqd-fb.relative > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.flex:nth-of-type(2) > h6.mt-0.mb-1/50em
+       heading heading_order   medium                                                                               div.row.sm:block:nth-of-type(2) > div.col.col-12:nth-of-type(3) > div.lqd-fb.relative > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.flex:nth-of-type(2) > h6.mt-0.mb-1/50em
+       heading heading_order   medium                                                                               div.row.sm:block:nth-of-type(2) > div.col.col-12:nth-of-type(4) > div.lqd-fb.relative > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.flex:nth-of-type(2) > h6.mt-0.mb-1/50em
+       heading heading_order   medium                                                                               div.row.sm:block:nth-of-type(2) > div.col.col-12:nth-of-type(5) > div.lqd-fb.relative > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.flex:nth-of-type(2) > h6.mt-0.mb-1/50em
+       heading heading_order   medium                                                                                                                                                                                                    section#discover > div.flex.flex-col:nth-of-type(1) > div.ld-fancy-heading.relative > h6.mb-0/3em.font-bold
+       heading heading_order   medium div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-start:nth-of-type(1) > div.lqd-section-flow-panel-start-inner > div.lqd-section-flow-item.lqd-overlay:nth-of-type(1) > div.lqd-section-flow-item-inner.h-vh-100 > div > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-start:nth-of-type(1) > div.lqd-section-flow-panel-start-inner > div.lqd-section-flow-item.lqd-overlay:nth-of-type(2) > div.lqd-section-flow-item-inner.h-vh-100 > div > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-start:nth-of-type(1) > div.lqd-section-flow-panel-start-inner > div.lqd-section-flow-item.lqd-overlay:nth-of-type(3) > div.lqd-section-flow-item-inner.h-vh-100 > div > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-start:nth-of-type(1) > div.lqd-section-flow-panel-start-inner > div.lqd-section-flow-item.lqd-overlay:nth-of-type(4) > div.lqd-section-flow-item-inner.h-vh-100 > div > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-start:nth-of-type(1) > div.lqd-section-flow-panel-start-inner > div.lqd-section-flow-item.lqd-overlay:nth-of-type(5) > div.lqd-section-flow-item-inner.h-vh-100 > div > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium                 div.container-fluid > div.row.col-12:nth-of-type(2) > div.col.col-12 > div.lqd-section-flow.items-start > div.lqd-section-flow-panel.lqd-section-flow-panel-end:nth-of-type(2) > div.talent.lqd-section-flow-content-mobile:nth-of-type(1) > div.ld-fancy-heading.flex > h6.mb-0/3em.font-bold
+       heading heading_order   medium                                                                                                                   div#lqd-contents-wrap > section.lqd-section.counter:nth-of-type(8) > div.container:nth-of-type(2) > div.flex.flex-col:nth-of-type(1) > div.ld-fancy-heading.relative > h6.mb-0/3em.font-bold
+       heading heading_order   medium                                                                       div.lqd-fb.round > div.lqd-fb-inner.lqd-overlay > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.lqd-overlay:nth-of-type(2) > div.lqd-fb-content-inner.relative > h6.mb-1rem.font-bold
+       heading heading_order   medium                                                                       div.lqd-fb.round > div.lqd-fb-inner.lqd-overlay > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.lqd-overlay:nth-of-type(2) > div.lqd-fb-content-inner.relative > h6.mb-1rem.font-bold
+       heading heading_order   medium                                                                       div.lqd-fb.round > div.lqd-fb-inner.lqd-overlay > div.flex.flex-wrap:nth-of-type(2) > a > div.lqd-fb-content-wrap.lqd-overlay > div.lqd-fb-content.lqd-overlay:nth-of-type(2) > div.lqd-fb-content-inner.relative > h6.mb-1rem.font-bold
+
+CSV: final_pipeline/data/intermediate/custom_live/www.aiub.edu__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.aiub.edu__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.aiub.edu/
+HTTP status: 200
+Final URL: https://www.aiub.edu/
+Page title: Home | AIUB
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 7
+Violation nodes: 101
+Incomplete rules: 1
+Incomplete nodes: 91
+Passed rules: 44
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-command-name | impact: serious | nodes: 1
+  Help: ARIA commands must have an accessible name
+  Tags: cat.aria, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .ld-module-trigger
+  HTML: <span class="ld-module-trigger co..." role="button" data-ld-toggle="true" name="search-header-top-bu..." data-bs-toggle="collapse" data-bs-target="#search-header-top" aria-controls="search-header-top" aria-expanded="false">
+
+color-contrast | impact: serious | nodes: 10
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .lqd-section-flow-item.items-center.flex:nth-child(2) > .talent.lqd-section-flow-item-inner > .py-20percent.flex-wrap.flex > .ld-fancy-heading.relative > .text-42.leading-0\/9em.mb-0\/75em
+  HTML: <h2 class="ld-fh-element inline-block relative text-42 leading-0/9em mb-0/75em"> AIUB Crowned Champions of Inter-University Futsal Tournament 2026 </h2>
+  Selector: .lqd-section-flow-item.items-center.flex:nth-child(2) > .talent.lqd-section-flow-item-inner > .py-20percent.flex-wrap.flex > .hover\:inner-bg-black.btn-naked.btn-icon-left > .btn-txt[data-text="Explore Details"]
+  HTML: <span class="btn-txt" data-text="Explore Details"> Explore Details </span>
+  Selector: .lqd-section-flow-item.items-center.flex:nth-child(3) > .talent.lqd-section-flow-item-inner > .py-20percent.flex-wrap.flex > .ld-fancy-heading.relative > .text-42.leading-0\/9em.mb-0\/75em
+  HTML: <h2 class="ld-fh-element inline-block relative text-42 leading-0/9em mb-0/75em">
+
+heading-order | impact: moderate | nodes: 21
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .pt-0 > .ld-fancy-heading.relative > .text-text
+  HTML: <h6 class="text-12 m-0 text-text ld-fh-element relative">Important links</h6>
+  Selector: .blend-plus-lighter.text-gray-400.mb-20
+  HTML: <h6 class="mb-20 font-bold text..." data-split-text="true" data-split-options="{"type":"chars, word..." data-custom-animatio...="true" data-ca-options="{"triggerHandler":"i...">
+  Selector: .mb-35.pl-20.text-center > .animation-element.ld-fancy-heading.relative > .text-28.pb-20.self-end
+  HTML: <h6 class="mb-0/3em font-bold t..." data-split-text="true" data-split-options="{"type":"chars, word..." data-custom-animatio...="true" data-ca-options="{"triggerHandler":"i...">
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: #header-search-form
+  HTML: <form id="header-search-form" action="/search/" method="get" role="search" area-label="Search Form" class="ld-search-form w-full flex">
+
+link-name | impact: serious | nodes: 23
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: a[name="ceparator1"]
+  HTML: <a class="text-white " href="#" name="ceparator1"></a>
+  Selector: a[name="ceparator2"]
+  HTML: <a class="text-white " href="#" name="ceparator2"></a>
+  Selector: .btn-icon-top.ml-10[href$="notices"]
+  HTML: <a href="/category/notices" class="button btn btn-solid btn-custom-size btn-icon-top w-35 h-35 mb-5 mr-10 ml-10 text-black rounded-full animation-element" style="background-color: #0d62bd; color: white;">
+
+region | impact: moderate | nodes: 1
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .lqd-cc-solid-txt
+  HTML: <div class="lqd-cc-solid-txt flex justify-center text-center relative"> <div class="lqd-cc-solid-txt-inner">Drag</div> </div>
+
+role-img-alt | impact: serious | nodes: 44
+  Help: [role="img"] and [role="image"] elements must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: .news-cell.carousel-item[data-cell-style="3"]:nth-child(1) > .news-item.with-image[data-style="3"] > .cell-inner[role="img"]
+  HTML: <div class="cell-inner" role="img" style="width:100%;background-image: url("/Files/Uploads/medium/webp/digitaltransformationbusiness-(10).webp");" alt="seminar-on-digital-transformation-in-business">
+  Selector: .news-cell.carousel-item[data-cell-style="0"]:nth-child(2) > .news-item.with-image[data-style="0"]:nth-child(1) > .cell-inner[role="img"]
+  HTML: <div class="cell-inner" role="img" style="width:100%;background-image: url("/Files/Uploads/medium/webp/digitalplatformsgeneratebusinessvalue-(6).webp");" alt="seminar-on-how-digital-platforms-generate-business-value">
+  Selector: .news-cell.carousel-item[data-cell-style="0"]:nth-child(2) > .news-item.with-image[data-style="0"]:nth-child(2) > .cell-inner[role="img"]
+  HTML: <div class="cell-inner" role="img" style="width:100%;background-image: url("/Files/Uploads/medium/webp/bangladeshinstitutecapitalmarket-(9).webp");" alt="aiub-finance-clubs-visit-to-bangladesh-institute-of-capital-market-bicm">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aiub.edu__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aiub.edu__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 94
+Axe nodes: 192
+
+Axe result types:
+result_type
+violation     101
+incomplete     91
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 34
+Confirmed matches: 33
+
+Unified finding statuses:
+finding_status
+axe_incomplete       91
+axe_only             68
+custom_only          61
+confirmed_by_both    33
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name        23
+heading_order    heading-order    10
+
+Ownership scope:
+ownership_scope
+page_content    253
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                               match_method                                                                                                                                                                                                                                                                                                                                                              preferred_selector src                         href
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                        a[href$="www.cisco.com"]             http://www.cisco.com
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                                  a[href$="sun"]     http://www.oracle.com/us/sun
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                       a[href$="www.oracle.com"]            http://www.oracle.com
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                               a[href$="aiubds"]             http://aka.ms/aiubds
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                         a[href$="cec.aiub.edu"]              http://cec.aiub.edu
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                 a[href$="www.ctpcertified.com"]      http://www.ctpcertified.com
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                     a[href$="www.intaward.org"]          http://www.intaward.org
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                 a[href$="www.ciwcertified.com"]      http://www.ciwcertified.com
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                   a[href$="www.dreamspark.com"]       https://www.dreamspark.com
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                         a[href$="www.ieee.org"]             https://www.ieee.org
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                      a[href$="www.juniper.net"]           http://www.juniper.net
+empty_link_text     link-name          200               same_href+same_html+same_tag                                                                                                                                                                                                                                                                                                                                                    a[href$="www.eccouncil.org"]         http://www.eccouncil.org
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                                                                                                  a[href$="fass"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .py-1\/5em.px-1\/5em.justify-end > .mb-1\/50em.mt-0                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                                                                                                   a[href$="fba"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .py-1\/5em.px-1\/5em.justify-end > .mb-1\/50em.mt-0                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                                                                                                  a[href$="engg"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .py-1\/5em.px-1\/5em.justify-end > .mb-1\/50em.mt-0                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                                                                                                  a[href$="fhls"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .py-1\/5em.px-1\/5em.justify-end > .mb-1\/50em.mt-0                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                                                                                                   a[href$="fst"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .py-1\/5em.px-1\/5em.justify-end > .mb-1\/50em.mt-0                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap .col-lg-3.p-0.animation-element:nth-child(1) > .round.h-pt-125.lqd-fb-style-6 > .lqd-fb-inner.lqd-overlay > .hover-3d-applied.perspective[data-hover3d="true"] > a[href$="sports"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .lqd-fb-content.items-end.lqd-overlay > .py-1\/4rem.px-1\/4rem.lqd-fb-content-inner > .ltr-sp-2.mb-1rem.uppercase                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap .col-lg-3.p-0.animation-element:nth-child(2) > .round.h-pt-125.lqd-fb-style-6 > .lqd-fb-inner.lqd-overlay > .hover-3d-applied.perspective[data-hover3d="true"] > a[href$="sports"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .lqd-fb-content.items-end.lqd-overlay > .py-1\/4rem.px-1\/4rem.lqd-fb-content-inner > .ltr-sp-2.mb-1rem.uppercase                                 
+  heading_order heading-order          140 same_html+same_tag+same_text+class_overlap                                                                                                                                                           a[href$="arts--culture"] > .will-change-transform.lqd-fb-content-wrap[data-stacking-factor="0.5"] > .lqd-fb-content.items-end.lqd-overlay > .py-1\/4rem.px-1\/4rem.lqd-fb-content-inner > .ltr-sp-2.mb-1rem.uppercase                                 
+
+Output: final_pipeline/data/intermediate/unified_live/www.aiub.edu__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.aiub.edu/
+Unified findings: 253
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.aiub.edu__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aiub.edu__context_findings.csv
+Total unified findings: 253
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+Unified findings: 253
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete       91
+axe_only             68
+custom_only          61
+confirmed_by_both    33
+
+Priority:
+priority
+High      123
+Review     91
+Medium     39
+
+Categories:
+category
+Color contrast    101
+Links              68
+Other              46
+Headings           37
+Landmarks           1
+
+Top rules:
+primary_rule
+color-contrast       101
+empty_link_text       45
+role-img-alt          44
+link-name             23
+heading-order         21
+heading_order         14
+empty_heading          2
+aria-command-name      1
+landmark-unique        1
+region                 1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-command-name
+ - landmark-unique
+ - role-img-alt
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.aiub.edu__recommendations.csv
+final_pipeline/reports/live/www.aiub.edu__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.aiub.edu/
+
+Host:
+www.aiub.edu
+
+Output stem:
+www.aiub.edu
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.aiub.edu/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.aiub.edu__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.aiub.edu__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+www.aiub.edu
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.aiub.edu/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aiub.edu__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aiub.edu__axe.json
+Rendered URL: https://www.aiub.edu/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.aiub.edu__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.aiub.edu__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aiub.edu__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aiub.edu__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aiub.edu__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aiub.edu__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.aiub.edu/
+
+Analysis stem:
+www.aiub.edu
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.aiub.edu__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.aiub.edu__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.aiub.edu__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.aiub.edu__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.aiub.edu__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

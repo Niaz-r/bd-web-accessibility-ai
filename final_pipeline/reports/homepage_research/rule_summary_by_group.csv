@@ -1,0 +1,200 @@
+experiment_group,source,rule,finding_status,count
+Government,axe,region,axe_only,607
+Government,axe,color-contrast,axe_incomplete,575
+Government,axe,color-contrast,axe_only,118
+Government,axe,image-alt,axe_only,102
+Government,axe,link-name,axe_only,96
+Government,axe,heading-order,axe_only,31
+Government,axe,frame-title,axe_only,15
+Government,axe,label-title-only,axe_only,12
+Government,axe,landmark-one-main,axe_only,12
+Government,axe,button-name,axe_only,9
+Government,axe,aria-allowed-attr,axe_only,8
+Government,axe,aria-prohibited-attr,axe_only,8
+Government,axe,skip-link,axe_incomplete,8
+Government,axe,image-redundant-alt,axe_only,7
+Government,axe,list,axe_only,6
+Government,axe,marquee,axe_only,5
+Government,axe,page-has-heading-one,axe_only,5
+Government,axe,aria-prohibited-attr,axe_incomplete,4
+Government,axe,aria-valid-attr-value,axe_incomplete,4
+Government,axe,link-in-text-block,axe_incomplete,4
+Government,axe,link-in-text-block,axe_only,4
+Government,axe,meta-viewport,axe_only,4
+Government,axe,nested-interactive,axe_only,4
+Government,axe,tabindex,axe_only,4
+Government,custom,missing_h1,custom_only,4
+Government,axe,html-has-lang,axe_only,3
+Government,custom,non_descriptive_alt,custom_only,3
+Government,axe,aria-input-field-name,axe_only,2
+Government,axe,aria-required-children,axe_only,2
+Government,axe,empty-heading,axe_only,2
+Government,axe,video-caption,axe_incomplete,2
+Government,axe,aria-dialog-name,axe_only,1
+Government,axe,frame-tested,axe_incomplete,1
+Government,axe,input-button-name,axe_only,1
+Government,axe,landmark-unique,axe_only,1
+Government,axe,select-name,axe_only,1
+Government,axe,th-has-data-cells,axe_incomplete,1
+Government,custom,empty_link_text,custom_only,1
+Government,custom,generic_link_text,custom_only,1
+News,axe,color-contrast,axe_incomplete,420
+News,axe,region,axe_only,241
+News,axe,image-redundant-alt,axe_only,172
+News,axe,link-name,axe_only,108
+News,axe,image-alt,axe_only,106
+News,axe,aria-valid-attr-value,axe_only,87
+News,axe,color-contrast,axe_only,75
+News,axe,frame-title-unique,axe_incomplete,62
+News,axe,aria-hidden-focus,axe_only,47
+News,axe,heading-order,axe_only,33
+News,axe,frame-title,axe_only,18
+News,axe,aria-prohibited-attr,axe_incomplete,15
+News,axe,select-name,axe_only,8
+News,axe,aria-command-name,axe_only,5
+News,axe,landmark-unique,axe_only,5
+News,axe,avoid-inline-spacing,axe_only,4
+News,axe,meta-refresh,axe_only,4
+News,custom,empty_link_text,custom_only,4
+News,axe,aria-required-children,axe_only,3
+News,axe,button-name,axe_only,3
+News,axe,link-in-text-block,axe_incomplete,3
+News,axe,listitem,axe_only,3
+News,axe,meta-viewport,axe_only,3
+News,axe,video-caption,axe_incomplete,3
+News,axe,aria-allowed-attr,axe_only,2
+News,axe,aria-required-parent,axe_only,2
+News,axe,aria-valid-attr-value,axe_incomplete,2
+News,axe,heading-order,confirmed_by_both,2
+News,axe,html-has-lang,axe_only,2
+News,axe,link-in-text-block,axe_only,2
+News,axe,page-has-heading-one,axe_only,2
+News,custom,empty_alt,custom_only,2
+News,custom,empty_heading,custom_only,2
+News,custom,heading_order,confirmed_by_both,2
+News,axe,aria-progressbar-name,axe_only,1
+News,axe,aria-prohibited-attr,axe_only,1
+News,axe,duplicate-id-aria,axe_incomplete,1
+News,axe,frame-tested,axe_incomplete,1
+News,axe,image-alt,confirmed_by_both,1
+News,axe,landmark-no-duplicate-banner,axe_only,1
+News,axe,landmark-no-duplicate-contentinfo,axe_only,1
+News,axe,link-name,confirmed_by_both,1
+News,axe,meta-viewport-large,axe_only,1
+News,custom,empty_link_text,confirmed_by_both,1
+News,custom,missing_alt,confirmed_by_both,1
+News,custom,missing_h1,custom_only,1
+Private University,axe,region,axe_only,626
+Private University,axe,color-contrast,axe_incomplete,501
+Private University,axe,color-contrast,axe_only,274
+Private University,axe,link-name,axe_only,117
+Private University,axe,heading-order,axe_only,85
+Private University,custom,non_descriptive_alt,custom_only,77
+Private University,axe,button-name,axe_only,59
+Private University,custom,empty_link_text,custom_only,55
+Private University,axe,image-redundant-alt,axe_only,45
+Private University,axe,role-img-alt,axe_only,44
+Private University,axe,image-alt,axe_only,39
+Private University,axe,link-name,confirmed_by_both,37
+Private University,custom,empty_link_text,confirmed_by_both,37
+Private University,custom,generic_link_text,custom_only,21
+Private University,custom,heading_order,custom_only,21
+Private University,axe,aria-hidden-focus,axe_only,18
+Private University,custom,empty_alt,custom_only,18
+Private University,axe,heading-order,confirmed_by_both,15
+Private University,custom,heading_order,confirmed_by_both,15
+Private University,axe,nested-interactive,axe_only,14
+Private University,axe,aria-prohibited-attr,axe_only,13
+Private University,axe,aria-valid-attr-value,axe_incomplete,11
+Private University,axe,aria-allowed-attr,axe_only,7
+Private University,axe,aria-input-field-name,axe_only,7
+Private University,axe,aria-required-children,axe_only,7
+Private University,axe,landmark-one-main,axe_only,7
+Private University,axe,landmark-unique,axe_only,7
+Private University,axe,page-has-heading-one,axe_only,7
+Private University,axe,video-caption,axe_incomplete,7
+Private University,axe,list,axe_only,6
+Private University,axe,aria-hidden-focus,axe_incomplete,5
+Private University,axe,aria-prohibited-attr,axe_incomplete,5
+Private University,axe,empty-heading,axe_only,5
+Private University,axe,link-in-text-block,axe_incomplete,5
+Private University,axe,aria-required-parent,axe_only,4
+Private University,axe,frame-title,axe_only,4
+Private University,axe,listitem,axe_only,4
+Private University,axe,empty-heading,confirmed_by_both,3
+Private University,axe,image-alt,confirmed_by_both,3
+Private University,axe,label,axe_only,3
+Private University,axe,no-autoplay-audio,axe_incomplete,3
+Private University,custom,empty_heading,confirmed_by_both,3
+Private University,custom,missing_alt,confirmed_by_both,3
+Private University,custom,missing_alt,custom_only,3
+Private University,axe,aria-valid-attr-value,axe_only,2
+Private University,custom,empty_heading,custom_only,2
+Private University,custom,multiple_h1,custom_only,2
+Private University,axe,aria-command-name,axe_only,1
+Private University,axe,aria-progressbar-name,axe_only,1
+Private University,axe,aria-required-children,axe_incomplete,1
+Private University,axe,definition-list,axe_only,1
+Private University,axe,duplicate-id-aria,axe_incomplete,1
+Private University,axe,frame-tested,axe_incomplete,1
+Private University,axe,link-in-text-block,axe_only,1
+Private University,axe,marquee,axe_only,1
+Private University,axe,meta-viewport,axe_only,1
+Private University,axe,presentation-role-conflict,axe_only,1
+Private University,axe,skip-link,axe_only,1
+Private University,custom,missing_h1,custom_only,1
+Public University,axe,color-contrast,axe_incomplete,1472
+Public University,axe,region,axe_only,1224
+Public University,custom,empty_alt,custom_only,705
+Public University,axe,color-contrast,axe_only,370
+Public University,axe,link-name,confirmed_by_both,318
+Public University,custom,empty_link_text,confirmed_by_both,318
+Public University,custom,generic_link_text,custom_only,225
+Public University,axe,heading-order,confirmed_by_both,72
+Public University,custom,heading_order,confirmed_by_both,72
+Public University,custom,non_descriptive_alt,custom_only,69
+Public University,axe,link-name,axe_only,66
+Public University,custom,heading_order,custom_only,62
+Public University,axe,image-alt,confirmed_by_both,47
+Public University,custom,missing_alt,confirmed_by_both,47
+Public University,custom,empty_link_text,custom_only,46
+Public University,axe,listitem,axe_only,34
+Public University,axe,nested-interactive,axe_only,32
+Public University,custom,missing_alt,custom_only,29
+Public University,axe,heading-order,axe_only,25
+Public University,axe,button-name,axe_only,21
+Public University,axe,link-in-text-block,axe_incomplete,17
+Public University,axe,frame-title,axe_only,15
+Public University,axe,aria-allowed-attr,axe_only,13
+Public University,axe,aria-prohibited-attr,axe_only,13
+Public University,axe,aria-valid-attr-value,axe_incomplete,13
+Public University,axe,marquee,axe_only,13
+Public University,custom,missing_h1,custom_only,13
+Public University,custom,empty_heading,custom_only,12
+Public University,axe,aria-required-parent,axe_only,11
+Public University,axe,aria-allowed-role,axe_incomplete,10
+Public University,axe,landmark-one-main,axe_only,10
+Public University,axe,page-has-heading-one,axe_only,10
+Public University,axe,aria-required-children,axe_only,9
+Public University,axe,aria-valid-attr-value,axe_only,9
+Public University,axe,empty-heading,confirmed_by_both,9
+Public University,custom,empty_heading,confirmed_by_both,9
+Public University,axe,list,axe_only,7
+Public University,axe,aria-toggle-field-name,axe_only,6
+Public University,axe,aria-input-field-name,axe_only,5
+Public University,axe,landmark-unique,axe_only,5
+Public University,custom,multiple_h1,custom_only,5
+Public University,axe,image-alt,axe_only,4
+Public University,axe,image-redundant-alt,axe_only,4
+Public University,axe,meta-viewport,axe_only,3
+Public University,axe,aria-required-children,axe_incomplete,2
+Public University,axe,duplicate-id-aria,axe_incomplete,2
+Public University,axe,aria-progressbar-name,axe_only,1
+Public University,axe,blink,axe_only,1
+Public University,axe,heading-order,axe_incomplete,1
+Public University,axe,html-has-lang,axe_only,1
+Public University,axe,label-title-only,axe_only,1
+Public University,axe,link-in-text-block,axe_only,1
+Public University,axe,select-name,axe_only,1
+Public University,axe,skip-link,axe_only,1
+Public University,axe,video-caption,axe_incomplete,1

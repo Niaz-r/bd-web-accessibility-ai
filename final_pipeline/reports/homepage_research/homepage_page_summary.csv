@@ -1,0 +1,66 @@
+site_id,website_name,experiment_group,requested_url,total_unified_findings,confirmed_by_both,custom_only,axe_only,axe_incomplete,custom_findings,axe_violation_findings,comparable_violation_findings,confirmed_share_of_custom_pct,confirmed_share_of_axe_pct,overlap_share_of_comparable_pct,page_content_findings,third_party_embed_findings,first_party_integration_findings
+BD001,University of Dhaka,Public University,https://www.du.ac.bd/,309,21,73,117,98,94,138,211,22.34,15.22,9.95,229,70,10
+BD002,Begum Rokeya University,Public University,https://www.brur.ac.bd/,69,13,19,35,2,32,48,67,40.62,27.08,19.4,61,6,2
+BD003,University of Rajshahi,Public University,https://www.ru.ac.bd/,114,15,32,33,34,47,48,80,31.91,31.25,18.75,114,0,0
+BD004,Bangladesh Agricultural University,Public University,https://bau.edu.bd/,70,0,0,62,8,0,62,62,0.0,0.0,0.0,70,0,0
+BD005,Jahangirnagar University,Public University,https://juniv.edu/,61,5,9,44,3,14,49,58,35.71,10.2,8.62,61,0,0
+BD006,atiya Kabi Kazi Nazrul Islam University (JKKNIU),Public University,https://www.jkkniu.edu.bd/,101,15,39,42,5,54,57,96,27.78,26.32,15.62,101,0,0
+BD007,University of Barishal,Public University,https://bu.ac.bd/,135,18,71,39,7,89,57,128,20.22,31.58,14.06,135,0,0
+BD008,Patuakhali Science and Technology University,Public University,https://pstu.ac.bd/,155,5,33,43,74,38,48,81,13.16,10.42,6.17,155,0,0
+BD009,University of Chittagong,Public University,https://cu.ac.bd/,67,6,39,3,19,45,9,48,13.33,66.67,12.5,67,0,0
+BD010,Chittagong University of Engineering and Technology,Public University,https://cuet.ac.bd/,115,6,12,55,42,18,61,73,33.33,9.84,8.22,115,0,0
+BD011,North South University,Private University,https://www.northsouth.edu/,76,10,39,24,3,49,34,73,20.41,29.41,13.7,69,7,0
+BD013,"Independent University, Bangladesh",Private University,https://iub.ac.bd/,80,0,47,23,10,47,23,70,0.0,0.0,0.0,80,0,0
+BD014,American International University-Bangladesh,Private University,https://www.aiub.edu/,253,33,61,68,91,94,101,162,35.11,32.67,20.37,253,0,0
+BD015,East West University,Private University,https://www.ewubd.edu/,198,15,53,105,25,68,120,173,22.06,12.5,8.67,198,0,0
+BD017,Dhaka Post,News,https://www.dhakapost.com/,35,0,1,27,7,1,27,28,0.0,0.0,0.0,18,15,2
+BD018,Bangla Tribune,News,https://www.banglatribune.com/,119,2,5,24,88,7,26,31,28.57,7.69,6.45,105,13,1
+BD020,Barta24,News,https://barta24.com/,133,0,2,116,15,2,116,118,0.0,0.0,0.0,124,8,1
+BD021,The Daily Star,News,https://www.thedailystar.net/,95,0,0,51,44,0,51,51,0.0,0.0,0.0,69,24,2
+BD025,Prothomalo,News,https://www.prothomalo.com/,41,2,1,22,16,3,24,25,66.67,8.33,8.0,27,13,1
+BD027,Bangladesh Railway Portal,Government,https://eticket.railway.gov.bd/,25,0,1,18,6,1,18,19,0.0,0.0,0.0,25,0,0
+BD028,E-Visa Portal,Government,https://visa.gov.bd/,23,0,4,13,6,4,13,17,0.0,0.0,0.0,23,0,0
+BD029,Birth Registration Portal,Government,https://bdris.gov.bd/,12,0,1,11,0,1,11,12,0.0,0.0,0.0,12,0,0
+BD030,Digital Land Management System,Government,https://land.gov.bd/,30,0,3,16,11,3,16,19,0.0,0.0,0.0,30,0,0
+BD031,Jagannath University,Public University,https://www.jnu.ac.bd/,214,26,106,25,57,132,51,157,19.7,50.98,16.56,214,0,0
+BD032,Khulna University,Public University,https://ku.ac.bd/,230,19,59,29,123,78,48,107,24.36,39.58,17.76,230,0,0
+BD033,Comilla University,Public University,https://www.cou.ac.bd/,132,26,16,70,20,42,96,112,61.9,27.08,23.21,132,0,0
+BD034,Rabindra University,Public University,https://www.rub.ac.bd/,62,7,26,17,12,33,24,50,21.21,29.17,14.0,62,0,0
+BD035,Dhaka University of Engineering & Technology (DUET),Public University,https://www.duet.ac.bd/,260,3,25,101,131,28,104,129,10.71,2.88,2.33,247,11,2
+BD036,Bangladesh University of Textiles (BUTEX),Public University,https://www.butex.edu.bd/homepage/,98,9,14,73,2,23,82,96,39.13,10.98,9.38,98,0,0
+BD037,Noakhali Science & Technology University (NSTU),Public University,https://www.nstu.edu.bd/,159,8,7,58,86,15,66,73,53.33,12.12,10.96,159,0,0
+BD038,Sylhet Agricultural University (SAU),Public University,https://www.sau.ac.bd/,586,44,358,119,65,402,163,521,10.95,26.99,8.45,586,0,0
+BD039,Pabna University of Science & Technology (PUST),Public University,https://pust.ac.bd/,1981,181,198,925,677,379,1106,1304,47.76,16.37,13.88,1978,2,1
+BD040,Chittagong Veterinary and Animal Sciences University (CVASU),Public University,https://cvasu.ac.bd/,128,19,30,26,53,49,45,75,38.78,42.22,25.33,128,0,0
+BD022,Amader Shomoy,News,https://www.dainikamadershomoy.com,135,0,0,125,10,0,125,125,0.0,0.0,0.0,96,34,5
+BD043,Naya Diganta,News,https://www.dailynayadiganta.com,59,0,0,52,7,0,52,52,0.0,0.0,0.0,35,22,2
+BD044,Daily Samakal,News,https://samakal.com,159,0,0,123,36,0,123,123,0.0,0.0,0.0,134,23,2
+BD045,Daily Ittefaq,News,https://www.ittefaq.com.bd,29,0,0,15,14,0,15,15,0.0,0.0,0.0,14,15,0
+BD047,Financial Express,News,https://thefinancialexpress.com.bd,170,0,0,15,155,0,15,15,0.0,0.0,0.0,156,14,0
+BD048,Bonik Barta,News,https://bonikbarta.net,406,0,0,315,91,0,315,315,0.0,0.0,0.0,392,14,0
+BD049,The Business Standard,News,https://www.tbsnews.net,79,0,0,55,24,0,55,55,0.0,0.0,0.0,42,35,2
+BD051,United International University,Private University,https://www.uiu.ac.bd,57,0,0,46,11,0,46,46,0.0,0.0,0.0,56,1,0
+BD052,Daffodil International University,Private University,https://daffodilvarsity.edu.bd,47,0,0,23,24,0,23,23,0.0,0.0,0.0,47,0,0
+BD053,Ahsanullah University of Science and Technology,Private University,https://www.aust.edu,143,0,0,118,25,0,118,118,0.0,0.0,0.0,143,0,0
+BD054,International Islamic University Chittagong,Private University,https://www.iiuc.ac.bd,153,0,0,130,23,0,130,130,0.0,0.0,0.0,140,12,1
+BD055,University of Liberal Arts Bangladesh,Private University,https://www.ulab.edu.bd,86,0,0,68,18,0,68,68,0.0,0.0,0.0,86,0,0
+BD056,Southeast University,Private University,https://www.seu.edu.bd,180,0,0,157,23,0,157,157,0.0,0.0,0.0,178,1,1
+BD057,Stamford University Bangladesh,Private University,https://www.stamforduniversity.edu.bd,292,0,0,156,136,0,156,156,0.0,0.0,0.0,234,57,1
+BD058,Northern University Bangladesh,Private University,https://nub.ac.bd,65,0,0,42,23,0,42,42,0.0,0.0,0.0,65,0,0
+BD059,University of Asia Pacific,Private University,https://www.uap-bd.edu,37,0,0,27,10,0,27,27,0.0,0.0,0.0,37,0,0
+BD060,Eastern University,Private University,https://www.easternuni.edu.bd,75,0,0,51,24,0,51,51,0.0,0.0,0.0,75,0,0
+BD061,Primeasia University,Private University,https://www.primeasia.edu.bd,244,0,0,229,15,0,229,229,0.0,0.0,0.0,243,0,1
+BD062,Green University of Bangladesh,Private University,https://green.edu.bd,155,0,0,93,62,0,93,93,0.0,0.0,0.0,155,0,0
+BD065,Metropolitan University,Private University,https://metrouni.edu.bd,69,0,0,52,17,0,52,52,0.0,0.0,0.0,69,0,0
+BD066,National Web Portal of Bangladesh,Government,https://bangladesh.gov.bd,91,0,0,48,43,0,48,48,0.0,0.0,0.0,91,0,0
+BD067,National Board of Revenue (NBR),Government,https://nbr.gov.bd,290,0,0,134,156,0,134,134,0.0,0.0,0.0,282,6,2
+BD070,myGov Portal,Government,https://www.mygov.bd,72,0,0,63,9,0,63,63,0.0,0.0,0.0,68,0,4
+BD071,Ministry of Finance,Government,https://mof.gov.bd,85,0,0,75,10,0,75,75,0.0,0.0,0.0,85,0,0
+BD073,Ministry of Foreign Affairs,Government,https://mofa.gov.bd,77,0,0,71,6,0,71,71,0.0,0.0,0.0,77,0,0
+BD074,Directorate General of Health Services (DGHS),Government,https://dghs.gov.bd,117,0,0,100,17,0,100,100,0.0,0.0,0.0,114,2,1
+BD075,Bangladesh Investment Development Authority (BIDA),Government,https://bida.gov.bd,23,0,0,6,17,0,6,6,0.0,0.0,0.0,23,0,0
+BD076,National University Bangladesh Portal,Government,https://www.nu.ac.bd,157,0,0,54,103,0,54,54,0.0,0.0,0.0,153,3,1
+BD077,Bangladesh Road Transport Authority (BRTA),Government,https://brta.gov.bd,119,0,0,107,12,0,107,107,0.0,0.0,0.0,115,3,1
+BD078,Directorate of Secondary and Higher Education (DSHE),Government,https://dshe.gov.bd,96,0,0,73,23,0,73,73,0.0,0.0,0.0,93,2,1
+BD079,Bangladesh Police,Government,https://www.police.gov.bd,355,0,0,183,172,0,183,183,0.0,0.0,0.0,327,24,4
+BD080,National University / UGC Bangladesh,Government,https://www.ugc.gov.bd,106,0,0,98,8,0,98,98,0.0,0.0,0.0,100,5,1

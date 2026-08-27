@@ -1,0 +1,7 @@
+{
+  "requested_url": "https://www.thedailystar.net/",
+  "status_code": null,
+  "analyzable": false,
+  "error": "HTTPSConnectionPool(host='www.thedailystar.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.thedailystar.net', port=443): Failed to resolve 'www.thedailystar.net' ([Errno -3] Temporary failure in name resolution)\"))",
+  "finding_count": 0
+}

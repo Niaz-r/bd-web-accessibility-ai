@@ -1,0 +1,112 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.uap-bd.edu/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(6) > a[href=""admission_test_results.php""]","<a href=""admission_test_results.php"" style=""color:red; font-weight:bold; background: #fff3cd; padding: 2px 6px; border-radius: 4px;"">
+        Admission Test Result
+    </a>","Fix any of the following:
+  Element has insufficient color contrast of 3.6 (foreground color: #ff0000, background color: #fff3cd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,1
+https://www.uap-bd.edu/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.active.item > .hero-caption-wrap.container > .hero-caption > .hero-tag,"<span class=""hero-tag"">Dialogue</span>","Fix any of the following:
+  Element has insufficient color contrast of 2.93 (foreground color: #ffffff, background color: #ff6600, font size: 8.2pt (10.88px), font weight: bold). Expected contrast ratio of 4.5:1",serious,2
+https://www.uap-bd.edu/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.is-featured > .card-body > h4,"<h4>UAP CSE Department Hosts a Session on Academic and Research Collaboration with Gunma University, Japan</h4>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://www.uap-bd.edu/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,".resource-card.reveal[data-category=""examinations""]:nth-child(1) > h5",<h5>Timing of Controller of Examinations Office</h5>,"Fix any of the following:
+  Heading order invalid",moderate,2
+https://www.uap-bd.edu/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-md-3.col-sm-6.col-xs-12:nth-child(2) > .footer-title,"<h4 class=""footer-title"">Quick Links</h4>","Fix any of the following:
+  Heading order invalid",moderate,3
+https://www.uap-bd.edu/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html lang=""en"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://www.uap-bd.edu/,violation,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,"p > a[href$=""uap-bd.edu""]","<a href=""//uap-bd.edu"">UAP</a>","Fix any of the following:
+  The link has insufficient color contrast of 1.15:1 with the surrounding text. (Minimum contrast is 3:1, link text: #ff6600, surrounding text: #848c97)
+  The link has no styling (such as underline) to distinguish it from the surrounding text",serious,1
+https://www.uap-bd.edu/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html lang=""en"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.top-bar,"<div class=""top-bar top-bar-black"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#apply_button,"<a href=""https://admission.uap-bd.edu/Admission/Home.aspx"" id=""apply_button"" class=""apply-float"" target=""_blank"" rel=""noopener noreferrer"" aria-label=""Apply Now for Spring 2026"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#about,"<section class=""about-section"" id=""about"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#news > .container > .section-head.reveal,"<div class=""section-head reveal"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.is-featured > .card-body,"<div class=""card-body"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(2) > .card-body,"<div class=""card-body"">
+                    <h4>UAP Welcomes Professor Dr. Md. Selim Reza as Adjunct Professor</h4>
+                    <a href=""../news-events/19082026a.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(3) > .card-body,"<div class=""card-body"">
+                    <h4>UAP BoT Member Prof. Dr. Mohammad Shariful Islam Appointed Pro-Vice Chancellor of BUET</h4>
+                    <a href=""../news-events/23072026.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(4) > .card-body,"<div class=""card-body"">
+                    <h4>UAP English Alumna Awarded Prestigious ICCR Scholarship for MA in World Literature</h4>
+                    <a href=""../news-events/24082026a.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(5) > .card-body,"<div class=""card-body"">
+                    <h4>UAP Student Chapter Wins Quiz Championship at ACI Annual Meet 2026</h4>
+                    <a href=""../news-events/15072027a.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(6) > .card-body,"<div class=""card-body"">
+                    <h4>UAP and University of Dhaka Sign MoA to Strengthen Pharmacy Education and Research</h4>
+                    <a href=""../news-events/14072026f.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(7) > .card-body,"<div class=""card-body"">
+                    <h4>UAP English Alumnus Awarded Prestigious ICCR Scholarship for PhD Program</h4>
+                    <a href=""../news-events/14072026b.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(8) > .card-body,"<div class=""card-body"">
+                    <h4>DBA, UAP Establishes International Partnerships in Türkiye and Bulgaria</h4>
+                    <a href=""../news-events/14072026a.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,article:nth-child(9) > .card-body,"<div class=""card-body"">
+                    <h4>Proud Achievement for UAP and Bangladesh!</h4>
+                    <a href=""../news-events/06072026a.php"" class=""read-more"">Read More <i class=""fa-solid fa-arrow-right-long""></i></a>
+                </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.accreditation-band > .container,"<div class=""container"">
+        <div class=""band-head reveal"">
+            <span class=""eyebrow"">Quality Assured</span>
+            <h2 class=""section-title"">Accreditation &amp; Recognitions</h2>
+        </div>
+    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.accreditation-band > .marquee.reveal > .marquee-track > .marquee-group:nth-child(1),"<div class=""marquee-group"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.membership-band > .container,"<div class=""container"">
+        <div class=""band-head reveal"">
+            <span class=""eyebrow"">Global Network</span>
+            <h2 class=""section-title"">Memberships &amp; Affiliations</h2>
+        </div>
+    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.membership-band > .marquee.reveal > .marquee-track > .marquee-group:nth-child(1),"<div class=""marquee-group"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#resources,"<section class=""resources-section"" id=""resources"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://www.uap-bd.edu/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.cta-band,"<section class=""cta-band"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.apply-float-text > strong,<strong>Apply Now</strong>,"Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,1
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,small,<small>Spring 2026</small>,"Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,2
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.ticker-badge,"<span class=""ticker-badge""><span class=""pulse-dot""></span>LATEST</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,3
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.ticker-group:nth-child(1) > span:nth-child(4),"<span><i class=""fa-solid fa-globe""></i> International collaborations &amp; research excellence</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,4
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".ticker-group[aria-hidden=""true""]:nth-child(2) > span:nth-child(1)","<span><i class=""fa-solid fa-bullhorn""></i> Admission for Spring 2026 is now open!</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,5
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".ticker-group[aria-hidden=""true""]:nth-child(2) > span:nth-child(2)","<span><i class=""fa-solid fa-trophy""></i> UAP ranked #681-700 in QS Asia University Rankings 2025</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,6
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.active.item > .hero-caption-wrap.container > .hero-caption > .hero-title,"<h2 class=""hero-title"">UAP and CGS Host Dialogue on Proposed National Budget FY 2026-27</h2>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,7
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.hero-counter,"<div class=""hero-counter"" aria-hidden=""true""><span id=""slideCurrent"">01</span><em>/</em>06</div>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,8
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slideCurrent,"<span id=""slideCurrent"">01</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,9
+https://www.uap-bd.edu/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.stat-card.in-view.reveal:nth-child(4) > .stat-info > .stat-label,"<span class=""stat-label"">Washington Accord Accreditation</span>","Fix any of the following:
+  Element's background color could not be determined because it partially overlaps other elements",serious,10

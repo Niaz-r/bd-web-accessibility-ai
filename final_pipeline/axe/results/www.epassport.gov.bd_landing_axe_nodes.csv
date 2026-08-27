@@ -1,0 +1,13 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.epassport.gov.bd/landing,violation,html-has-lang,serious,Ensure every HTML document has a lang attribute,<html> element must have a lang attribute,https://dequeuniversity.com/rules/axe/4.13/html-has-lang?application=playwright,wcag2a|wcag311|EN-301-549|EN-9.3.1.1,html,<html>,"Fix any of the following:
+  The <html> element does not have a lang attribute",serious,1
+https://www.epassport.gov.bd/landing,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,<html>,"Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://www.epassport.gov.bd/landing,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,h1,<h1>Access Denied</h1>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.epassport.gov.bd/landing,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,p:nth-child(2),"<p>
+Reference #18.3187d817.1787764908.17cdfe1b
+</p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.epassport.gov.bd/landing,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,p:nth-child(3),<p>https://errors.edgesuite.net/18.3187d817.1787764908.17cdfe1b</p>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3

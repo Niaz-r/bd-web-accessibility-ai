@@ -1,0 +1,345 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://eticket.railway.gov.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://eticket.railway.gov.bd/
+Status: 200
+Analyzable: True
+Findings: 1
+
+issue_category      issue severity selector
+       heading missing_h1     high         
+
+CSV: final_pipeline/data/intermediate/custom_live/eticket.railway.gov.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/eticket.railway.gov.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://eticket.railway.gov.bd/
+HTTP status: 200
+Final URL: https://eticket.railway.gov.bd/
+Page title: Home | Bangladesh Railway E-ticketing Service
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 5
+Violation nodes: 18
+Incomplete rules: 2
+Incomplete nodes: 6
+Passed rules: 45
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-input-field-name | impact: serious | nodes: 1
+  Help: ARIA input fields must have an accessible name
+  Tags: cat.aria, wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1
+  Selector: .carousel-inner
+  HTML: <div _ngcontent-fnd-c39="" role="listbox" class="carousel-inner banner-div">
+
+aria-required-children | impact: critical | nodes: 1
+  Help: Certain ARIA roles must contain particular children
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .carousel-inner
+  HTML: <div _ngcontent-fnd-c39="" role="listbox" class="carousel-inner banner-div">
+
+color-contrast | impact: serious | nodes: 2
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .header-logo-text
+  HTML: <div _ngcontent-fnd-c37="" class="header-logo-text ng-tns-c37-0"> Bangladesh <br _ngcontent-fnd-c37="" class="ng-tns-c37-0">Railway </div>
+  Selector: .railway-text
+  HTML: <p _ngcontent-fnd-c45="" class="railway-text">Bangladesh Railway</p>
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: h5
+  HTML: <h5 _ngcontent-fnd-c49="" class="ng-tns-c49-2"><span _ngcontent-fnd-c49="" class="disclaimer-info-icon ng-tns-c49-2">i</span> Disclaimer</h5>
+
+region | impact: moderate | nodes: 13
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: label[for="dest_from"]
+  HTML: <label _ngcontent-fnd-c39="" for="dest_from">From</label>
+  Selector: #dest_from
+  HTML: <input _ngcontent-fnd-c39="" type="text" id="dest_from" name="dest_from" formcontrolname="fromcity" maxlength="40" autocomplete="no-auto-complete-from-city" class="form-control ng-untouched ng-pristine ng-invalid" placeholder="From Station" readonly=
+  Selector: label[for="dest_to"]
+  HTML: <label _ngcontent-fnd-c39="" for="dest_to">To</label>
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/eticket.railway.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/eticket.railway.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 1
+Axe nodes: 24
+
+Axe result types:
+result_type
+violation     18
+incomplete     6
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          18
+axe_incomplete     6
+custom_only        1
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    25
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/eticket.railway.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://eticket.railway.gov.bd/
+Unified findings: 25
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/eticket.railway.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/eticket.railway.gov.bd__context_findings.csv
+Total unified findings: 25
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+Unified findings: 25
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          18
+axe_incomplete     6
+custom_only        1
+
+Priority:
+priority
+Medium      14
+Review       6
+High         4
+Critical     1
+
+Categories:
+category
+Landmarks         13
+Color contrast     7
+Other              3
+Headings           2
+
+Top rules:
+primary_rule
+region                    13
+color-contrast             7
+missing_h1                 1
+aria-input-field-name      1
+aria-required-children     1
+heading-order              1
+link-in-text-block         1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-input-field-name
+ - aria-required-children
+ - link-in-text-block
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/eticket.railway.gov.bd__recommendations.csv
+final_pipeline/reports/live/eticket.railway.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://eticket.railway.gov.bd/
+
+Host:
+eticket.railway.gov.bd
+
+Output stem:
+eticket.railway.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://eticket.railway.gov.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/eticket.railway.gov.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/eticket.railway.gov.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+eticket.railway.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://eticket.railway.gov.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/eticket.railway.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/eticket.railway.gov.bd__axe.json
+Rendered URL: https://eticket.railway.gov.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/eticket.railway.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/eticket.railway.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/eticket.railway.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/eticket.railway.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/eticket.railway.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/eticket.railway.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://eticket.railway.gov.bd/
+
+Analysis stem:
+eticket.railway.gov.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/eticket.railway.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/eticket.railway.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/eticket.railway.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/eticket.railway.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/eticket.railway.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

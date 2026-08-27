@@ -1,0 +1,18 @@
+{
+  "page_url": "https://moxa.gov.bd",
+  "page_title": "",
+  "status_code": null,
+  "timestamp": "2026-08-26T17:32:35.570Z",
+  "navigation_error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://moxa.gov.bd/\nCall log:\n\u001b[2m  - navigating to \"https://moxa.gov.bd/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "summary": {
+    "violation_rules": 0,
+    "violation_nodes": 0,
+    "incomplete_rules": 0,
+    "incomplete_nodes": 0,
+    "passed_rules": 0,
+    "inapplicable_rules": 0
+  },
+  "violations": [],
+  "incomplete": [],
+  "passes": []
+}

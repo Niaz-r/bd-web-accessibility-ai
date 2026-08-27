@@ -1,0 +1,451 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.jnu.ac.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.jnu.ac.bd/
+Status: 200
+Analyzable: True
+Findings: 132
+
+issue_category     issue severity                                                                                                                                                                                                 selector
+         image empty_alt   medium                                                                                                                                                    nav#menuzord-right > a.menuzord-brand.pull-left > img
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(1) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(2) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(3) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(4) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(5) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(6) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(7) > img.rev-slidebg
+         image empty_alt   medium                                                                              section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(8) > img.rev-slidebg
+         image empty_alt   medium         section#welcome > div.container-fluid > div.section-content.pt-20 > div.row > div.col-sm-3.col-md-3:nth-of-type(1) > div.team.maxwidth400 > div.thumb.text-center:nth-of-type(1) > img.img-fluid
+         image empty_alt   medium         section#welcome > div.container-fluid > div.section-content.pt-20 > div.row > div.col-sm-3.col-md-3:nth-of-type(3) > div.team.maxwidth400 > div.thumb.text-center:nth-of-type(1) > img.img-fluid
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-15:nth-of-type(2) > div.col-md-4.col-sm-4:nth-of-type(1) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-15:nth-of-type(2) > div.col-md-4.col-sm-4:nth-of-type(2) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-15:nth-of-type(2) > div.col-md-4.col-sm-4:nth-of-type(3) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(3) > div.col-md-4.col-sm-4:nth-of-type(1) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(3) > div.col-md-4.col-sm-4:nth-of-type(2) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(3) > div.col-md-4.col-sm-4:nth-of-type(3) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(4) > div.col-md-4.col-sm-4:nth-of-type(1) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(4) > div.col-md-4.col-sm-4:nth-of-type(2) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+         image empty_alt   medium div.container-fluid.pb-60 > div.section-content:nth-of-type(2) > div.row.mt-30:nth-of-type(4) > div.col-md-4.col-sm-4:nth-of-type(3) > div.widget.border-de > article.post.clearfix > a.post-thumb > img
+
+CSV: final_pipeline/data/intermediate/custom_live/www.jnu.ac.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.jnu.ac.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.jnu.ac.bd/
+HTTP status: 200
+Final URL: https://www.jnu.ac.bd/
+Page title: JAGANNATH UNIVERSITY
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 7
+Violation nodes: 51
+Incomplete rules: 1
+Incomplete nodes: 57
+Passed rules: 25
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+heading-order | impact: moderate | nodes: 9
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .counter-width.mb-md-50.col-md-2:nth-child(1) > .funfact.text-center > .mb-0.text-uppercase.text-orange
+  HTML: <h5 class="text-orange text-uppercase mb-0 font-16 font-weight-600">Students</h5>
+  Selector: .counter-width.mb-md-50.col-md-2:nth-child(2) > .funfact.text-center > .mb-0.text-uppercase.text-orange
+  HTML: <h5 class="text-orange text-uppercase mb-0 font-16 font-weight-600">Departments</h5>
+  Selector: .counter-width.mb-md-50.col-md-2:nth-child(3) > .funfact.text-center > .mb-0.text-uppercase.text-orange
+  HTML: <h5 class="text-orange text-uppercase mb-0 font-16 font-weight-600">Institutes</h5>
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html dir="ltr" lang="en" class="js flexbox flexboxle..." style="">
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: .no-border.widget > nav
+  HTML: <nav>
+
+link-name | impact: serious | nodes: 18
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: #side-panel-trigger-close > a[href="#"]
+  HTML: <a href="#"><i class="icon_close font-30"></i></a>
+  Selector: .icon-dark > li > a[target="_blank"]
+  HTML: <a href="https://www.facebook.com/jnu.edu.bd" target="_blank"><i class="fa fa-facebook"></i></a>
+  Selector: .menuzord-brand
+  HTML: <a class="menuzord-brand pull-left flip pt-5 pb-5" href="https://jnu.ac.bd/"> <img src="https://jnu.ac.bd/assets/new/images/logo.png" alt=""> </a>
+
+marquee | impact: serious | nodes: 1
+  Help: <marquee> elements are deprecated and must not be used
+  Tags: cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: marquee
+  HTML: <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html dir="ltr" lang="en" class="js flexbox flexboxle..." style="">
+
+region | impact: moderate | nodes: 20
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .side-panel-wrap > a[href="javascript:void(0)"]
+  HTML: <a href="javascript:void(0)"><img alt="logo" src="https://jnu.ac.bd/assets/new/images/logo.png"></a>
+  Selector: .side-panel-widget
+  HTML: <div class="side-panel-widget mt-30">
+  Selector: .active-revslide
+  HTML: <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="" class="tp-revslider-sli
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jnu.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jnu.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 132
+Axe nodes: 108
+
+Axe result types:
+result_type
+incomplete    57
+violation     51
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 28
+Confirmed matches: 26
+
+Unified finding statuses:
+finding_status
+custom_only          106
+axe_incomplete        57
+confirmed_by_both     26
+axe_only              25
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name        18
+heading_order    heading-order     8
+
+Ownership scope:
+ownership_scope
+page_content    214
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                                         match_method                                                                                                preferred_selector                                                        src                                    href
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                                                                                                   .menuzord-brand               https://jnu.ac.bd/assets/new/images/logo.png                      https://jnu.ac.bd/
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                    .mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb     https://jnu.ac.bd/assets/new/images/academics/arts.jpg   https://jnu.ac.bd/faculty/portal/5001
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                    .mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb https://jnu.ac.bd/assets/new/images/academics/business.jpg   https://jnu.ac.bd/faculty/portal/5004
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                    .mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb  https://jnu.ac.bd/assets/new/images/academics/science.jpg   https://jnu.ac.bd/faculty/portal/5002
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb   https://jnu.ac.bd/assets/new/images/academics/social.jpg   https://jnu.ac.bd/faculty/portal/5003
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb      https://jnu.ac.bd/assets/new/images/academics/law.jpg   https://jnu.ac.bd/faculty/portal/5005
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb       https://jnu.ac.bd/assets/new/images/academics/le.jpg   https://jnu.ac.bd/faculty/portal/5006
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb https://jnu.ac.bd/assets/new/images/academics/finearts.jpg   https://jnu.ac.bd/faculty/portal/5017
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb      https://jnu.ac.bd/assets/new/images/academics/ier.jpg https://jnu.ac.bd/department/portal/ier
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap       .mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb      https://jnu.ac.bd/assets/new/images/academics/iml.jpg https://jnu.ac.bd/department/portal/iml
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                                                                              .post-thumb[href$="ccse.jnu.ac.bd/"]     https://jnu.ac.bd/assets/new/images/academics/ccse.jpg                 https://ccse.jnu.ac.bd/
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                                                                              .post-thumb[href$="csrt.jnu.ac.bd/"]     https://jnu.ac.bd/assets/new/images/academics/csrt.jpg                 https://csrt.jnu.ac.bd/
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                                                                              .post-thumb[href$="circ.jnu.ac.bd/"]   https://circ.jnu.ac.bd/assets/admin/images/circ_logo.png                 https://circ.jnu.ac.bd/
+empty_link_text     link-name          310  same_src+same_href+same_html+same_tag+class_overlap                                                                                .post-thumb[href$="osrg-jnu.com/"] https://osrg-jnu.com/assets/admin/images/Research_logo.png                   https://osrg-jnu.com/
+  heading_order heading-order          240 same_href+same_html+same_tag+same_text+class_overlap .mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-right > .mt-0.post-title                                                              https://jnu.ac.bd/faculty/portal/5001
+  heading_order heading-order          240 same_href+same_html+same_tag+same_text+class_overlap           .col-lg-3.col-md-3.col-sm-3:nth-child(1) > .border-de.widget > article > .post-right > .mt-0.post-title                                                                            https://ccse.jnu.ac.bd/
+empty_link_text     link-name          200                         same_href+same_html+same_tag                                                                              .icon-dark > li > a[target="_blank"]                                                                https://www.facebook.com/jnu.edu.bd
+empty_link_text     link-name          200                         same_href+same_html+same_tag                                                                          .icon-bordered > li > a[target="_blank"]                                                                https://www.facebook.com/jnu.edu.bd
+  heading_order heading-order          140           same_html+same_tag+same_text+class_overlap           .counter-width.mb-md-50.col-md-2:nth-child(1) > .funfact.text-center > .mb-0.text-uppercase.text-orange                                                                                                   
+  heading_order heading-order          140           same_html+same_tag+same_text+class_overlap           .counter-width.mb-md-50.col-md-2:nth-child(2) > .funfact.text-center > .mb-0.text-uppercase.text-orange                                                                                                   
+
+Output: final_pipeline/data/intermediate/unified_live/www.jnu.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.jnu.ac.bd/
+Unified findings: 214
+Context-dependent findings: 81
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 81
+Unmatched: 0
+
+custom_issue text  alt href                                                                 src                              nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     surrounding_context
+   empty_alt  NaN  NaN  NaN                        https://jnu.ac.bd/assets/new/images/logo.png                                                                        Parent text: Home About Chancellor Vice Chancellor Treasurer Syndicate Academic Council Registrar About University Vision & Mission Historical Outline JnU at a Glance Facilities Halls Medical centre Transport Library Academics Admission Undergraduate Admission M.Phil. Admission Ph.D. Admission Academic Rules & Regulations Rules Offices Office of the Vice-Chancellor Audit Cell Office of the Treasurer Office of the Registrar Central Library Office of the Proctor Office of the Finance & Accounts ICT Cell Office... | Previous text: Copyright ©2024 Jagannath University. All Rights Reserved | Next text: Home | Image filename: logo.png
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/301.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Parent text: Jagannath University | Next text: জগন্নাথ বিশ্ববিদ্যালয়ে প্রথমবারের মতো ডিনস অ্যাওয়ার্ড প্রদান: চার শিক্ষাবর্ষের ১০৪ কৃতী শিক্ষার্থীকে সম্মাননা প্রদান | Image filename: 301.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/291.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Parent text: জগন্নাথ বিশ্ববিদ্যালয়ে প্রথমবারের মতো ডিনস অ্যাওয়ার্ড প্রদান: চার শিক্ষাবর্ষের ১০৪ কৃতী শিক্ষার্থীকে সম্মাননা প্রদান | Next text: জবিতে দুই দিনব্যাপী রবীন্দ্র-নজরুল উৎসবের উদ্বোধন: সাহিত্য, সংগীত ও সংস্কৃতির মিলনমেলা | Image filename: 291.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/292.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Parent text: জবিতে দুই দিনব্যাপী রবীন্দ্র-নজরুল উৎসবের উদ্বোধন: সাহিত্য, সংগীত ও সংস্কৃতির মিলনমেলা | Next text: জগন্নাথ বিশ্ববিদ্যালয়ে বর্ণাঢ্য আয়োজনে বাংলা বর্ষবরণ-১৪৩৩ উদযাপন | Image filename: 292.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/237.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Parent text: জগন্নাথ বিশ্ববিদ্যালয়ে বর্ণাঢ্য আয়োজনে বাংলা বর্ষবরণ-১৪৩৩ উদযাপন | Next text: বৈশাখী শোভাযাত্রা ১৪৩৩ | Image filename: 237.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/238.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Parent text: বৈশাখী শোভাযাত্রা ১৪৩৩ | Next text: বৈশাখ ১৪৩৩ | Image filename: 238.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/240.jpg                                             Parent text: Jagannath University জগন্নাথ বিশ্ববিদ্যালয়ে প্রথমবারের মতো ডিনস অ্যাওয়ার্ড প্রদান: চার শিক্ষাবর্ষের ১০৪ কৃতী শিক্ষার্থীকে সম্মাননা প্রদান জবিতে দুই দিনব্যাপী রবীন্দ্র-নজরুল উৎসবের উদ্বোধন: সাহিত্য, সংগীত ও সংস্কৃতির মিলনমেলা জগন্নাথ বিশ্ববিদ্যালয়ে বর্ণাঢ্য আয়োজনে বাংলা বর্ষবরণ-১৪৩৩ উদযাপন বৈশাখী শোভাযাত্রা ১৪৩৩ বৈশাখ ১৪৩৩ মহান স্বাধীনতা ও জাতীয় দিবস উপলক্ষে জগন্নাথ বিশ্ববিদ্যালয়ের শ্রদ্ধাঞ্জলি নিবেদন শহীদ রাষ্ট্রপতি জিয়াউর রহমান ও সাবেক প্রধানমন্ত্রী বেগম খালেদা জিয়ার সমাধিতে জবি উপাচার্যের শ্রদ... | Previous text: বৈশাখ ১৪৩৩ | Next text: মহান স্বাধীনতা ও জাতীয় দিবস উপলক্ষে জগন্নাথ বিশ্ববিদ্যালয়ের শ্রদ্ধাঞ্জলি নিবেদন | Image filename: 240.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/236.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Parent text: মহান স্বাধীনতা ও জাতীয় দিবস উপলক্ষে জগন্নাথ বিশ্ববিদ্যালয়ের শ্রদ্ধাঞ্জলি নিবেদন | Next text: শহীদ রাষ্ট্রপতি জিয়াউর রহমান ও সাবেক প্রধানমন্ত্রী বেগম খালেদা জিয়ার সমাধিতে জবি উপাচার্যের শ্রদ্ধা নিবেদন | Image filename: 236.jpg
+   empty_alt  NaN  NaN  NaN             https://jnu.ac.bd/assets/new/images/home_slider/235.jpg                                                                                                                                                                                                                                                      Parent text: শহীদ রাষ্ট্রপতি জিয়াউর রহমান ও সাবেক প্রধানমন্ত্রী বেগম খালেদা জিয়ার সমাধিতে জবি উপাচার্যের শ্রদ্ধা নিবেদন | Next text: বিআইএমে জগন্নাথ বিশ্ববিদ্যালয়ের ‘বোর্ড অব এডভান্সড স্টাডিজ এন্ড রিসার্চ’-এর ১৫তম সভা অনুষ্ঠিত নবনির্বাচিত রাষ্ট্রপতিকে জগন্নাথ বিশ্ববিদ্যালয়ের উপাচার্যের অভিনন্দন জগন্নাথ বিশ্ববিদ্যালয় প্রশাসনের ধারাবাহিক কার্যক্রম ইউজিসি আয়োজিত ‘ভাইস চ্যান্সেলর’স ডায়ালগ’-এ জগন্নাথ বিশ্ববিদ্যালয়ের উপাচার্যের অংশগ্রহণ | Image filename: 235.jpg
+   empty_alt  NaN  NaN  NaN https://jnu.ac.bd/assets/new/images/gallery/new/vice-chancellor.jpg                                                                                                                                                                                                                                                                       Parent text: Professor Dr. Md. Rais Uddin Vice-Chancellor | Previous text: বিআইএমে জগন্নাথ বিশ্ববিদ্যালয়ের ‘বোর্ড অব এডভান্সড স্টাডিজ এন্ড রিসার্চ’-এর ১৫তম সভা অনুষ্ঠিত নবনির্বাচিত রাষ্ট্রপতিকে জগন্নাথ বিশ্ববিদ্যালয়ের উপাচার্যের অভিনন্দন জগন্নাথ বিশ্ববিদ্যালয় প্রশাসনের ধারাবাহিক কার্যক্রম ইউজিসি আয়োজিত ‘ভাইস চ্যান্সেলর’স ডায়ালগ’-এ জগন্নাথ বিশ্ববিদ্যালয়ের উপাচার্যের অংশগ্রহণ | Next text: Vice-Chancellor | Image filename: vice-chancellor.jpg
+   empty_alt  NaN  NaN  NaN      https://jnu.ac.bd/assets/new/images/gallery/new/treasurer.jpeg Message from the Honourable Vice Chancellor                                                                                                                            Nearby heading: Message from the Honourable Vice Chancellor | Parent text: Professor Dr. Sabina Sharmin Treasurer | Previous text: As the Vice-Chancellor of Jagannath University, it is my privilege to extend a warm welcome to all. Being one of the oldest educational institutions in Dhaka and Bangladesh, Jagannath University stands at the confluence of tradition and innovation, committed to nurturing creative minds for the challenges of the 21st century. We honour our rich heri... | Next text: Treasurer | Image filename: treasurer.jpeg
+   empty_alt  NaN  NaN  NaN              https://jnu.ac.bd/assets/new/images/academics/arts.jpg                                   Academics                                                                                                                                                                                                                                                                                                                                              Nearby heading: Academics | Parent text: Faculty of Arts Jagannath University was established in 2005. Subsequently, in 2006, Read More | Previous text: Preparing Students to Make Meaningful Contributions to Society as Engaged Citizens and Leaders in Fourth Industrial World | Next text: Faculty of Arts | Image filename: arts.jpg
+   empty_alt  NaN  NaN  NaN          https://jnu.ac.bd/assets/new/images/academics/business.jpg                             Faculty of Arts                                                                                                                                                                                                                                                                                                                                                           Nearby heading: Faculty of Arts | Parent text: Faculty of Business Studies In 2005, Jagannath University was established, and subsequently, Read More | Previous text: Jagannath University was established in 2005. Subsequently, in 2006, Read More | Next text: Faculty of Business Studies | Image filename: business.jpg
+   empty_alt  NaN  NaN  NaN           https://jnu.ac.bd/assets/new/images/academics/science.jpg                 Faculty of Business Studies                                                                                                                                                                                                                                                                                                                                                              Nearby heading: Faculty of Business Studies | Parent text: Faculty of Science Faculty of Science is one of the four original Faculties (Arts, Science, Read More | Previous text: In 2005, Jagannath University was established, and subsequently, Read More | Next text: Faculty of Science | Image filename: science.jpg
+   empty_alt  NaN  NaN  NaN            https://jnu.ac.bd/assets/new/images/academics/social.jpg                          Faculty of Science                                                                                                                                                                                                                                                                                                                                                          Nearby heading: Faculty of Science | Parent text: Faculty of Social Science In 2005, Jagannath University was established, and subsequently, Read More | Previous text: Faculty of Science is one of the four original Faculties (Arts, Science, Read More | Next text: Faculty of Social Science | Image filename: social.jpg
+
+Output:
+final_pipeline/data/intermediate/context_live/www.jnu.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jnu.ac.bd__context_findings.csv
+Total unified findings: 214
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 81
+
+By rule:
+  empty_alt: 40
+  generic_link_text: 41
+
+Decision codes:
+  EMPTY_ALT_CONTEXT_AVAILABLE: 40
+  LINK_CONTEXT_AVAILABLE: 41
+
+Confidence:
+  high: 41
+  low: 10
+  medium: 30
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+custom_issue text  alt                              nearby_heading                contextual_action                                                                                                                                                                                                                                                                                                                                                                     contextual_suggestion contextual_confidence contextual_evidence_source
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Home About Chancellor Vice Chancellor Treasurer Syndicate Academic Council Registrar About University Vision & Mission Historical Outline JnU at a Glance Facilities Halls Medica...”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                                                                                                 Visually inspect the image. If it communicates information related to “Jagannath University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                 Visually inspect the image. If it communicates information related to “জগন্নাথ বিশ্ববিদ্যালয়ে প্রথমবারের মতো ডিনস অ্যাওয়ার্ড প্রদান: চার শিক্ষাবর্ষের ১০৪ কৃতী শিক্ষার্থীকে সম্মাননা প্রদান”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                               Visually inspect the image. If it communicates information related to “জবিতে দুই দিনব্যাপী রবীন্দ্র-নজরুল উৎসবের উদ্বোধন: সাহিত্য, সংগীত ও সংস্কৃতির মিলনমেলা”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                                                     Visually inspect the image. If it communicates information related to “জগন্নাথ বিশ্ববিদ্যালয়ে বর্ণাঢ্য আয়োজনে বাংলা বর্ষবরণ-১৪৩৩ উদযাপন”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                                                                                               Visually inspect the image. If it communicates information related to “বৈশাখী শোভাযাত্রা ১৪৩৩”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Jagannath University জগন্নাথ বিশ্ববিদ্যালয়ে প্রথমবারের মতো ডিনস অ্যাওয়ার্ড প্রদান: চার শিক্ষাবর্ষের ১০৪ কৃতী শিক্ষার্থীকে সম্মাননা প্রদান জবিতে দুই দিনব্যাপী রবীন্দ্র-নজরুল উৎসব...”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                                      Visually inspect the image. If it communicates information related to “মহান স্বাধীনতা ও জাতীয় দিবস উপলক্ষে জগন্নাথ বিশ্ববিদ্যালয়ের শ্রদ্ধাঞ্জলি নিবেদন”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                           Visually inspect the image. If it communicates information related to “শহীদ রাষ্ট্রপতি জিয়াউর রহমান ও সাবেক প্রধানমন্ত্রী বেগম খালেদা জিয়ার সমাধিতে জবি উপাচার্যের শ্রদ্ধা নিবেদন”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN                                         NaN verify_decorative_or_informative                                                                                                                                         Visually inspect the image. If it communicates information related to “Professor Dr. Md. Rais Uddin Vice-Chancellor”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                   low                parent_text
+   empty_alt  NaN  NaN Message from the Honourable Vice Chancellor verify_decorative_or_informative                                                                                                                                          Visually inspect the image. If it communicates information related to “Message from the Honourable Vice Chancellor”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN  NaN                                   Academics verify_decorative_or_informative                                                                                                                                                                            Visually inspect the image. If it communicates information related to “Academics”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+Unified findings: 214
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+custom_only          106
+axe_incomplete        57
+confirmed_by_both     26
+axe_only              25
+
+Priority:
+priority
+Medium    120
+Review     57
+High       37
+
+Categories:
+category
+Links             75
+Color contrast    57
+Images            41
+Landmarks         20
+Headings          17
+Other              4
+
+Top rules:
+primary_rule
+color-contrast          57
+generic_link_text       41
+empty_alt               40
+region                  20
+link-name               18
+empty_link_text         16
+heading-order            9
+heading_order            7
+missing_alt              1
+missing_h1               1
+landmark-one-main        1
+landmark-unique          1
+marquee                  1
+page-has-heading-one     1
+
+Context-aware recommendations: 81
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - landmark-unique
+ - marquee
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.jnu.ac.bd__recommendations.csv
+final_pipeline/reports/live/www.jnu.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.jnu.ac.bd/
+
+Host:
+www.jnu.ac.bd
+
+Output stem:
+www.jnu.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.jnu.ac.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jnu.ac.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jnu.ac.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+www.jnu.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.jnu.ac.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jnu.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jnu.ac.bd__axe.json
+Rendered URL: https://www.jnu.ac.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jnu.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jnu.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jnu.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jnu.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jnu.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jnu.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.jnu.ac.bd/
+
+Analysis stem:
+www.jnu.ac.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jnu.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jnu.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jnu.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.jnu.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.jnu.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

@@ -1,0 +1,7 @@
+{
+  "requested_url": "https://this-domain-definitely-does-not-exist-xyz.invalid/",
+  "status_code": null,
+  "analyzable": false,
+  "error": "HTTPSConnectionPool(host='this-domain-definitely-does-not-exist-xyz.invalid', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='this-domain-definitely-does-not-exist-xyz.invalid', port=443): Failed to resolve 'this-domain-definitely-does-not-exist-xyz.invalid' ([Errno -2] Name or service not known)\"))",
+  "finding_count": 0
+}

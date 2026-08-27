@@ -1,0 +1,449 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.tbsnews.net
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.tbsnews.net
+Status: 200
+Analyzable: True
+Findings: 43
+
+issue_category             issue severity                                                                                                                                                                                                      selector
+         image       missing_alt     high                                                                                                                                                                            html.no-js > head > noscript > img
+         image         empty_alt   medium                                                                                                                                                          ul#main-menu > li.leaf:nth-of-type(9) > a > img.icon
+         image       missing_alt     high                                                                                                                                                                                        ul#main-menu > a > img
+         image         empty_alt   medium                   div.row > div.column > div.top-bar > div.top-bar-left:nth-of-type(1) > div.flex-container > div.flex-container.align-middle:nth-of-type(3) > a.search-mobile.show-for-small-only > img.icon
+         image         empty_alt   medium                                                                                                                                                          ul#main-menu > li.leaf:nth-of-type(9) > a > img.icon
+         image       missing_alt     high                                                                                                                                                                                        ul#main-menu > a > img
+         image         empty_alt   medium                                                                                                                                div#header-top > div.row.align-middle > div.column.shrink:nth-of-type(2) > img
+         image       missing_alt     high     div.columns.medium-3:nth-of-type(2) > div.full-height.border-right > div.special-block.mb-26:nth-of-type(6) > div.columns > div.row > div.medium-12.small-12 > a.display-block.mb-10:nth-of-type(1) > img
+         image       missing_alt     high     div.columns.medium-3:nth-of-type(2) > div.full-height.border-right > div.special-block.mb-26:nth-of-type(6) > div.columns > div.row > div.medium-12.small-12 > a.display-block.mb-10:nth-of-type(2) > img
+         image         empty_alt   medium                                                 div > div.panel-pane.pane-category-with-banner:nth-of-type(7) > div.pane-content > div.row > div.columns.small-12:nth-of-type(1) > a > picture > img.lazyload
+         image         empty_alt   medium                                                                div > div.panel-pane.pane-category-with-banner:nth-of-type(9) > div.pane-content > div.row > div.columns.small-12 > a > picture > img.lazyload
+         image         empty_alt   medium                  div.opinion-widget.strip-bg-light-ash > div.row.border-center > div.column.small-12:nth-of-type(2) > div.card.relative > div.card-image.relative:nth-of-type(1) > a > picture > img.lazyload
+         image         empty_alt   medium                  div.opinion-widget.strip-bg-light-ash > div.row.border-center > div.column.small-12:nth-of-type(3) > div.card.relative > div.card-image.relative:nth-of-type(1) > a > picture > img.lazyload
+       heading     heading_order   medium                                            div#inner-wrap > div.off-canvas-content > footer.border-top.l-footer:nth-of-type(1) > div.row > div.column.medium-3:nth-of-type(1) > div.email-us.text-center > h6
+          link   empty_link_text     high                                                                                                                                      ul#main-menu > li.first.leaf:nth-of-type(1) > a.element-invisible.active
+          link generic_link_text   medium                                                                                                                                             ul#main-menu > li.expanded.has-submenu:nth-of-type(8) > a.no-link
+          link   empty_link_text     high                                                                                                                                                                     ul#main-menu > li.leaf:nth-of-type(9) > a
+          link   empty_link_text     high                                                                                                                                                                                              ul#main-menu > a
+          link   empty_link_text     high      div.top-bar-sticky-wrapper > div.row > div.column > div.top-bar > div.top-bar-left:nth-of-type(1) > div.flex-container > div.flex-container.align-middle:nth-of-type(2) > a.bs-round-logo.hide-for-print
+          link   empty_link_text     high div.top-bar-sticky-wrapper > div.row > div.column > div.top-bar > div.top-bar-left:nth-of-type(1) > div.flex-container > div.flex-container.align-middle:nth-of-type(3) > a.search-mobile.show-for-small-only
+
+CSV: final_pipeline/data/intermediate/custom_live/www.tbsnews.net_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.tbsnews.net_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.tbsnews.net
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://www.tbsnews.net/
+Page title: The Business Standard | Bangladesh Newspapers | English Daily
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 13
+Violation nodes: 55
+Incomplete rules: 2
+Incomplete nodes: 24
+Passed rules: 46
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 1
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .media-youtube-player .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=6x8XFqlLCYU">
+
+aria-command-name | impact: serious | nodes: 1
+  Help: ARIA commands must have an accessible name
+  Tags: cat.aria, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: ul[data-n="4ctdtp-n"] > .leaf[role="menuitem"]:nth-child(9)
+  HTML: <li class="leaf" role="menuitem"><a href="/search"><img class="icon" src="/sites/all/themes/sloth/images/search.png" alt=""></a></li>
+
+aria-prohibited-attr | impact: serious | nodes: 1
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .media-youtube-player #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-large-width-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.
+
+aria-required-children | impact: critical | nodes: 1
+  Help: Certain ARIA roles must contain particular children
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: ul[data-n="4ctdtp-n"]
+  HTML: <ul id="main-menu" class="menu dropdown" data-dropdown-menu="" role="menubar" data-n="4ctdtp-n">
+
+color-contrast | impact: serious | nodes: 2
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: a[href$="Easel"] > .h2.bangla-font
+  HTML: <div class="h2 bangla-font">ইজেল</div>
+  Selector: .follow-us
+  HTML: <h6 class="text-center follow-us">FOLLOW US</h6>
+
+frame-title | impact: serious | nodes: 2
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: #google_ads_iframe_\/22016589449\/TBS-LB-Top_0 #\32 00_268_dfa7banner_html_inpage_0\.if
+  HTML: <iframe id="200_268_dfa7banner_html_inpage_0.if" src="//s0.2mdn.net/dfp/1936593/5869575835/1781088938279/index.html" width="970" height="90" frameborder="0" scrolling="no" allowfullscreen="true" style="width: 970px; height: 90px;"></iframe>
+  Selector: #google_ads_iframe_\/22016589449\/TBS-Test-Adunit-Desktop-Mobile_0 #\32 00_268_dfa7banner_html_inpage_0\.if
+  HTML: <iframe id="200_268_dfa7banner_html_inpage_0.if" src="//s0.2mdn.net/dfp/1936593/5172467022/1785829459281/Grocery-970x90/index.html" width="970" height="90" frameborder="0" scrolling="no" allowfullscreen="true" style="width: 970px; height: 90px;"></if
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .border-left-green.border-right-green.column:nth-child(1) > .email-us.text-center > h6
+  HTML: <h6>contact@tbsnews.net </h6>
+
+image-alt | impact: critical | nodes: 18
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: ul[data-n="4ctdtp-n"] > a[href="/tbs-subscribe/index.html"] > img
+  HTML: <img src="/sites/all/themes/sloth/images/tbsplus.png" style="width: 70px;">
+  Selector: #google_ads_iframe_\/22016589449\/TBS-LB-Top_0 #\32 00_268_dfa7banner_html_inpage_0\.if #BG > .intermediate-element > img[src$="BG.jpg"]
+  HTML: <img src="BG.jpg" style="background-position: center center;">
+  Selector: #google_ads_iframe_\/22016589449\/TBS-LB-Top_0 #\32 00_268_dfa7banner_html_inpage_0\.if img[src="3.png"]
+  HTML: <img src="3.png" style="background-position: center center;">
+
+landmark-no-duplicate-contentinfo | impact: moderate | nodes: 1
+  Help: Document should not have more than one contentinfo landmark
+  Tags: cat.semantics, best-practice
+  Selector: .bg-none
+  HTML: <footer class="border-top l-footer bg-none">
+
+landmark-unique | impact: moderate | nodes: 1
+  Help: Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+  Tags: cat.semantics, best-practice
+  Selector: .bg-none
+  HTML: <footer class="border-top l-footer bg-none">
+
+link-name | impact: serious | nodes: 24
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: ul[data-n="4ctdtp-n"] > .leaf[role="menuitem"]:nth-child(9) > a[href$="search"]
+  HTML: <a href="/search"><img class="icon" src="/sites/all/themes/sloth/images/search.png" alt=""></a>
+  Selector: ul[data-n="4ctdtp-n"] > a[href="/tbs-subscribe/index.html"]
+  HTML: <a href="/tbs-subscribe/index.html" style="padding: 5px;"> <img src="/sites/all/themes/sloth/images/tbsplus.png" style="width: 70px;"> </a>
+  Selector: #google_ads_iframe_\/22016589449\/TBS-Rectangle-Home-Top-Right_0 #aw0
+  HTML: <a id="aw0" target="_top" href="https://googleads.g...." onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')">
+
+meta-refresh | impact: critical | nodes: 1
+  Help: Delayed refresh under 20 hours must not be used
+  Tags: cat.time-and-media, wcag2a, wcag221, TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2
+  Selector: meta[http-equiv="refresh"]
+  HTML: <meta http-equiv="refresh" content="1800 url=/">
+
+region | impact: moderate | nodes: 1
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .footer-bg
+  HTML: <div class="footer-bg" style="background-image : url(https://www.tbsnews.net/sites/default/files/images/print-popup/dasherkandi_sewage_treatment_plant.jpg);">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.tbsnews.net__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.tbsnews.net__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 79
+
+Axe result types:
+result_type
+violation     55
+incomplete    24
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          55
+axe_incomplete    24
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               42
+third_party_embed          35
+first_party_integration     2
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.tbsnews.net__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.tbsnews.net/
+Unified findings: 79
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.tbsnews.net__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.tbsnews.net__context_findings.csv
+Total unified findings: 79
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+Unified findings: 79
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          55
+axe_incomplete    24
+
+Priority:
+priority
+High        30
+Review      24
+Critical    21
+Medium       4
+
+Categories:
+category
+Links             24
+Images            18
+Other             16
+Color contrast    15
+ARIA               2
+Frames             2
+Headings           1
+Landmarks          1
+
+Top rules:
+primary_rule
+link-name                            24
+image-alt                            18
+color-contrast                       15
+frame-title-unique                   11
+frame-title                           2
+aria-allowed-attr                     1
+aria-command-name                     1
+aria-prohibited-attr                  1
+aria-required-children                1
+heading-order                         1
+landmark-no-duplicate-contentinfo     1
+landmark-unique                       1
+meta-refresh                          1
+region                                1
+
+Context-aware recommendations: 0
+
+Third-party findings: 35
+
+Rules using fallback recommendation:
+ - aria-command-name
+ - aria-required-children
+ - frame-title-unique
+ - landmark-no-duplicate-contentinfo
+ - landmark-unique
+ - meta-refresh
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.tbsnews.net__recommendations.csv
+final_pipeline/reports/live/www.tbsnews.net__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.tbsnews.net
+
+Host:
+www.tbsnews.net
+
+Output stem:
+www.tbsnews.net
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.tbsnews.net
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.tbsnews.net
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.tbsnews.net
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.tbsnews.net__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.tbsnews.net__axe.json
+Rendered URL: https://www.tbsnews.net/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.tbsnews.net__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.tbsnews.net
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.tbsnews.net__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.tbsnews.net__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.tbsnews.net__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.tbsnews.net__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.tbsnews.net__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.tbsnews.net__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.tbsnews.net
+
+Rendered URL:
+https://www.tbsnews.net/
+
+Analysis stem:
+www.tbsnews.net
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.tbsnews.net__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.tbsnews.net__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.tbsnews.net__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.tbsnews.net__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.tbsnews.net__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

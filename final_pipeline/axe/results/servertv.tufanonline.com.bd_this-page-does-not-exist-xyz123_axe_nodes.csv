@@ -1,0 +1,16 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://servertv.tufanonline.com.bd/this-page-does-not-exist-xyz123,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.elementor-element-39f916b > .elementor-widget-container,"<div class=""elementor-widget-container"">
+									Copyright@2026. All Rights Reserved.								</div>","Fix any of the following:
+  Element has insufficient color contrast of 2.45 (foreground color: #fb7900, background color: #f5f5f5, font size: 14.3pt (19px), font weight: bold). Expected contrast ratio of 3:1",serious,1
+https://servertv.tufanonline.com.bd/this-page-does-not-exist-xyz123,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".elementor-sticky--active > .e-con-inner > .elementor-element-c807852.e-con-full[data-id=""c807852""] > .elementor-element-48298f8.elementor-widget-theme-site-logo.elementor-widget-image > .elementor-widget-container > a","<a href=""https://servertv.tufanonline.com.bd"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://servertv.tufanonline.com.bd/this-page-does-not-exist-xyz123,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"ul[data-smartmenus-id=""17877023136461113""] > .menu-item-26 > .elementor-item.elementor-item-anchor[href=""#""]","<a href=""#"" class=""elementor-item elementor-item-anchor"">About</a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,1
+https://servertv.tufanonline.com.bd/this-page-does-not-exist-xyz123,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"ul[data-smartmenus-id=""17877023136461113""] > .menu-item-27 > .elementor-item.elementor-item-anchor[href=""#""]","<a href=""#"" class=""elementor-item elementor-item-anchor"">Contact</a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,2

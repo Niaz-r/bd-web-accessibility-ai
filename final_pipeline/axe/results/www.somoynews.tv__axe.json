@@ -1,0 +1,2099 @@
+{
+  "page_url": "https://www.somoynews.tv/",
+  "page_title": "Just a moment...",
+  "status_code": 403,
+  "timestamp": "2026-08-26T16:28:49.849Z",
+  "summary": {
+    "violation_rules": 1,
+    "violation_nodes": 1,
+    "incomplete_rules": 0,
+    "incomplete_nodes": 0,
+    "passed_rules": 29,
+    "inapplicable_rules": 59
+  },
+  "violations": [
+    {
+      "id": "meta-refresh",
+      "impact": "critical",
+      "tags": [
+        "cat.time-and-media",
+        "wcag2a",
+        "wcag221",
+        "TTv5",
+        "TT8.a",
+        "EN-301-549",
+        "EN-9.2.2.1",
+        "RGAAv4",
+        "RGAA-13.1.2"
+      ],
+      "description": "Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh",
+      "help": "Delayed refresh under 20 hours must not be used",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-refresh?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-refresh",
+              "data": {
+                "redirectDelay": 360
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "<meta> tag forces timed refresh of page (less than 20 hours)"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<meta http-equiv=\"refresh\" content=\"360\">",
+          "target": [
+            "meta[http-equiv=\"refresh\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  <meta> tag forces timed refresh of page (less than 20 hours)"
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-allowed-role",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "best-practice"
+      ],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help": "ARIA role should be appropriate for the element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-role?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-conditional-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "help": "ARIA attributes must be used as specified for the element's role",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-conditional-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-deprecated-role",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure elements do not use deprecated roles",
+      "help": "Deprecated ARIA roles must not be used",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-deprecated-role?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-hidden-body",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.1.3.1",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-10.8.1"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help": "aria-hidden=\"true\" must not be present on the document body",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-body?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-hidden-body",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No aria-hidden attribute is present on document body"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<body>",
+          "target": [
+            "body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-prohibited-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help": "Elements must only use permitted ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-required-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-roles",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure all elements with a role attribute use a valid value",
+      "help": "ARIA roles used must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-roles?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-valid-attr-value",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help": "ARIA attributes must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-valid-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "help": "ARIA attributes must conform to valid names",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avoid-inline-spacing",
+      "impact": null,
+      "tags": [
+        "cat.structure",
+        "wcag21aa",
+        "wcag1412",
+        "EN-301-549",
+        "EN-9.1.4.12",
+        "ACT"
+      ],
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help": "Inline text spacing must be adjustable with custom stylesheets",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/avoid-inline-spacing?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "important-letter-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-word-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-line-height",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div id=\"VjQXz6\" style=\"display: grid;\"><div><div><div></div><input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-j6ghg_response\"></div></div></div>",
+          "target": [
+            "#VjQXz6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bypass",
+      "impact": null,
+      "tags": [
+        "cat.keyboard",
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o",
+        "TTv5",
+        "TT9.a",
+        "EN-301-549",
+        "EN-9.2.4.1",
+        "RGAAv4",
+        "RGAA-12.7.1"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help": "Page must have means to bypass repeated blocks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/bypass?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "header-present",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<h1>www.somoynews.tv</h1>",
+                  "target": [
+                    "h1"
+                  ]
+                },
+                {
+                  "html": "<h2 id=\"Awso7\" class=\"GaKLP3 kswNB2\">Performing security verification</h2>",
+                  "target": [
+                    "#Awso7"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Page has a heading"
+            },
+            {
+              "id": "landmark",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+                  "target": [
+                    ".main-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Page has a landmark region"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "color-contrast",
+      "impact": null,
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "30.0pt (40px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h1>www.somoynews.tv</h1>",
+          "target": [
+            "h1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 id=\"Awso7\" class=\"GaKLP3 kswNB2\">Performing security verification</h2>",
+          "target": [
+            "#Awso7"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p id=\"NlCO0\" class=\"ePpQf0 RiSF9\">This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.</p>",
+          "target": [
+            "#NlCO0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"ray-id\">Ray ID: <code>a31435e88b490645</code></div>",
+          "target": [
+            ".ray-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<code>a31435e88b490645</code>",
+          "target": [
+            "code"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#313131",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"footer-text\">Performance and Security by <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a></span>",
+          "target": [
+            "span:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0000ee",
+                "bgColor": "#ffffff",
+                "contrastRatio": 9.39,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0000ee",
+                "bgColor": "#ffffff",
+                "contrastRatio": 9.39,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "document-title",
+      "impact": null,
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag242",
+        "TTv5",
+        "TT12.a",
+        "EN-301-549",
+        "EN-9.2.4.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-8.5.1"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help": "Documents must have <title> element to aid in navigation",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/document-title?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "doc-has-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Document has a non-empty <title> element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empty-heading",
+      "impact": null,
+      "tags": [
+        "cat.name-role-value",
+        "best-practice"
+      ],
+      "description": "Ensure headings have discernible text",
+      "help": "Headings should not be empty",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h1>www.somoynews.tv</h1>",
+          "target": [
+            "h1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 id=\"Awso7\" class=\"GaKLP3 kswNB2\">Performing security verification</h2>",
+          "target": [
+            "#Awso7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heading-order",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the order of headings is semantically correct",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": {
+                "headingOrder": [
+                  {
+                    "ancestry": [
+                      "html > body > div:nth-child(1) > div > div:nth-child(1) > h1:nth-child(2)"
+                    ],
+                    "level": 1
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div:nth-child(1) > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  }
+                ]
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h1>www.somoynews.tv</h1>",
+          "target": [
+            "h1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 id=\"Awso7\" class=\"GaKLP3 kswNB2\">Performing security verification</h2>",
+          "target": [
+            "#Awso7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html-has-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2a",
+        "wcag311",
+        "TTv5",
+        "TT11.a",
+        "EN-301-549",
+        "EN-9.3.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-8.3.1"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help": "<html> element must have a lang attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/html-has-lang?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-lang",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "The <html> element has a lang attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html-lang-valid",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2a",
+        "wcag311",
+        "TTv5",
+        "TT11.a",
+        "EN-301-549",
+        "EN-9.3.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-8.4.1"
+      ],
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "help": "<html> element must have a valid value for the lang attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/html-lang-valid?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "valid-lang",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Value of lang attribute is included in the list of valid languages"
+            }
+          ],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-contentinfo-is-top-level",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the contentinfo landmark is at top level",
+      "help": "Contentinfo landmark should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-contentinfo-is-top-level?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "landmark-is-top-level",
+              "data": {
+                "role": "contentinfo"
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "The contentinfo landmark is at the top level."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-main-is-top-level",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the main landmark is at top level",
+      "help": "Main landmark should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-main-is-top-level?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "landmark-is-top-level",
+              "data": {
+                "role": "main"
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "The main landmark is at the top level."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-no-duplicate-contentinfo",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the document has at most one contentinfo landmark",
+      "help": "Document should not have more than one contentinfo landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-no-duplicate-contentinfo?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "page-no-duplicate-contentinfo",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Document does not have more than one contentinfo landmark"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-no-duplicate-main",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the document has at most one main landmark",
+      "help": "Document should not have more than one main landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-no-duplicate-main?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "page-no-duplicate-main",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Document does not have more than one main landmark"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-one-main",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the document has a main landmark",
+      "help": "Document should have one main landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "page-has-main",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+                  "target": [
+                    ".main-wrapper"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Document has at least one main landmark"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landmark-unique",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure landmarks are unique",
+      "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "landmark-is-unique",
+              "data": {
+                "role": "main",
+                "accessibleText": null
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Landmarks must have a unique role or role/label/title (i.e. accessible name) combination"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "landmark-is-unique",
+              "data": {
+                "role": "contentinfo",
+                "accessibleText": null
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Landmarks must have a unique role or role/label/title (i.e. accessible name) combination"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "link-name",
+      "impact": null,
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-6.2.1"
+      ],
+      "description": "Ensure links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport-large",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "best-practice"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help": "Users should be able to zoom and scale the text up to 500%",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport-large?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport-large",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "<meta> tag does not prevent significant zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT",
+        "RGAAv4",
+        "RGAA-10.4.2"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "<meta> tag does not disable zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-has-heading-one",
+      "impact": null,
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help": "Page should contain a level-one heading",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "page-has-heading-one",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<h1>www.somoynews.tv</h1>",
+                  "target": [
+                    "h1"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Page has at least one level-one heading"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en-US\" dir=\"ltr\">",
+          "target": [
+            "html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region",
+      "impact": null,
+      "tags": [
+        "cat.keyboard",
+        "best-practice",
+        "RGAAv4",
+        "RGAA-9.2.1"
+      ],
+      "description": "Ensure all page content is contained by landmarks",
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-wrapper KfMSd3\" role=\"main\">",
+          "target": [
+            ".main-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"main-content\">",
+          "target": [
+            ".main-content"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"YpeSi0\"><img src=\"/favicon.ico\" class=\"VNsDw9 TiPCY0\" alt=\"Icon for www.somoynews.tv\"><h1>www.somoynews.tv</h1></div>",
+          "target": [
+            ".YpeSi0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h1>www.somoynews.tv</h1>",
+          "target": [
+            "h1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 id=\"Awso7\" class=\"GaKLP3 kswNB2\">Performing security verification</h2>",
+          "target": [
+            "#Awso7"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p id=\"NlCO0\" class=\"ePpQf0 RiSF9\">This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.</p>",
+          "target": [
+            "#NlCO0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div id=\"VjQXz6\" style=\"display: grid;\"><div><div><div></div><input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-j6ghg_response\"></div></div></div>",
+          "target": [
+            "#VjQXz6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div><div><div></div><input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-j6ghg_response\"></div></div>",
+          "target": [
+            "#VjQXz6 > div"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div><div></div><input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-j6ghg_response\"></div>",
+          "target": [
+            "#VjQXz6 > div > div"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div></div>",
+          "target": [
+            "#VjQXz6 > div > div > div"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer\" role=\"contentinfo\">",
+          "target": [
+            ".footer"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-inner\">",
+          "target": [
+            ".footer-inner"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-wrapper\">",
+          "target": [
+            ".footer-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div><div class=\"ray-id\">Ray ID: <code>a31435e88b490645</code></div></div>",
+          "target": [
+            ".footer-wrapper > div:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"ray-id\">Ray ID: <code>a31435e88b490645</code></div>",
+          "target": [
+            ".ray-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<code>a31435e88b490645</code>",
+          "target": [
+            "code"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-link-wrapper\">",
+          "target": [
+            ".footer-link-wrapper"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"footer-text\">Performance and Security by <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a></span>",
+          "target": [
+            "span:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com?utm_source=challenge&amp;utm_campaign=m\" target=\"_blank\" aria-label=\"Cloudflare, opens in a new tab\">Cloudflare</a>",
+          "target": [
+            "a[aria-label=\"Cloudflare, opens in a new tab\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"footer-divider\"></span>",
+          "target": [
+            ".footer-divider"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/privacypolicy/\" aria-label=\"Privacy, opens in a new tab\" class=\"footer-text\">Privacy</a>",
+          "target": [
+            "a[aria-label=\"Privacy, opens in a new tab\"]"
+          ]
+        }
+      ]
+    }
+  ]
+}

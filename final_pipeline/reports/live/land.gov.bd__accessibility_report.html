@@ -1,0 +1,9952 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>Accessibility Analysis Report</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: #f3f6fa;
+
+    color: #1f2937;
+
+    line-height: 1.55;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+.container {
+
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+    padding: 28px 24px 70px;
+}
+
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+.report-header {
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #172554,
+            #1e3a8a,
+            #2563eb
+        );
+
+    border-radius: 18px;
+
+    padding: 34px;
+
+    margin-bottom: 22px;
+
+    box-shadow:
+        0 12px 35px
+        rgba(
+            15,
+            23,
+            42,
+            0.15
+        );
+}
+
+.report-header h1 {
+
+    margin: 0 0 8px;
+
+    font-size: 32px;
+}
+
+.report-url {
+
+    overflow-wrap: anywhere;
+
+    color: #dbeafe;
+}
+
+.report-subtitle {
+
+    max-width: 900px;
+
+    color: #e0e7ff;
+}
+
+
+/* ==========================================================
+   SUMMARY CARDS
+   ========================================================== */
+
+.summary-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(155px, 1fr)
+        );
+
+    gap: 14px;
+
+    margin: 22px 0;
+}
+
+.summary-card {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 18px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(
+            15,
+            23,
+            42,
+            0.05
+        );
+}
+
+.summary-number {
+
+    font-size: 30px;
+
+    font-weight: 750;
+}
+
+.summary-label {
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    margin-top: 2px;
+}
+
+
+/* ==========================================================
+   PROGRESS
+   ========================================================== */
+
+.progress-panel {
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 14px;
+
+    padding: 18px;
+
+    margin-bottom: 20px;
+}
+
+.progress-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 10px;
+
+    font-weight: 600;
+}
+
+.progress-track {
+
+    height: 12px;
+
+    background: #e2e8f0;
+
+    border-radius: 999px;
+
+    overflow: hidden;
+}
+
+.progress-bar {
+
+    height: 100%;
+
+    width: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            #16a34a,
+            #22c55e
+        );
+
+    border-radius: 999px;
+
+    transition: width 0.25s ease;
+}
+
+
+/* ==========================================================
+   TOOLBAR
+   ========================================================== */
+
+.toolbar {
+
+    position: static;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    margin-bottom: 22px;
+
+    box-shadow:
+        0 6px 20px
+        rgba(
+            15,
+            23,
+            42,
+            0.07
+        );
+}
+
+.toolbar-title {
+
+    font-weight: 700;
+
+    font-size: 18px;
+
+    margin-bottom: 14px;
+}
+
+.tool-row {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    align-items: center;
+
+    margin-bottom: 13px;
+}
+
+.tool-row:last-child {
+    margin-bottom: 0;
+}
+
+.tool-label {
+
+    min-width: 95px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    color: #475569;
+}
+
+.filter-button,
+.action-button {
+
+    border: 1px solid #cbd5e1;
+
+    background: white;
+
+    color: #334155;
+
+    border-radius: 999px;
+
+    padding: 7px 13px;
+
+    cursor: pointer;
+
+    transition: 0.15s ease;
+}
+
+.filter-button:hover,
+.action-button:hover {
+
+    border-color: #2563eb;
+
+    color: #1d4ed8;
+
+    background: #eff6ff;
+}
+
+.filter-button.active,
+.action-button.active {
+
+    color: white;
+
+    background: #2563eb;
+
+    border-color: #2563eb;
+}
+
+.search-input {
+
+    flex: 1;
+
+    min-width: 230px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 9px;
+
+    padding: 9px 12px;
+}
+
+.sort-select {
+
+    border: 1px solid #cbd5e1;
+
+    background: white;
+
+    border-radius: 9px;
+
+    padding: 9px 12px;
+}
+
+
+/* ==========================================================
+   RESULTS BAR
+   ========================================================== */
+
+.results-bar {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    margin: 18px 0;
+
+    color: #475569;
+}
+
+.results-count {
+
+    font-weight: 700;
+}
+
+
+/* ==========================================================
+   FINDING CARD
+   ========================================================== */
+
+.finding {
+
+    position: relative;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-left:
+        6px solid #94a3b8;
+
+    border-radius: 14px;
+
+    margin-bottom: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 4px 14px
+        rgba(
+            15,
+            23,
+            42,
+            0.055
+        );
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.finding:hover {
+
+    transform:
+        translateY(-1px);
+
+    box-shadow:
+        0 8px 22px
+        rgba(
+            15,
+            23,
+            42,
+            0.08
+        );
+}
+
+.finding[data-priority="Critical"] {
+    border-left-color: #991b1b;
+}
+
+.finding[data-priority="High"] {
+    border-left-color: #dc2626;
+}
+
+.finding[data-priority="Medium"] {
+    border-left-color: #f59e0b;
+}
+
+.finding[data-priority="Low"] {
+    border-left-color: #3b82f6;
+}
+
+.finding[data-priority="Review"] {
+    border-left-color: #7c3aed;
+}
+
+.finding.reviewed {
+
+    opacity: 0.62;
+
+    border-left-color: #16a34a;
+}
+
+.finding.reviewed .finding-title {
+
+    text-decoration: line-through;
+
+    text-decoration-thickness: 1px;
+}
+
+
+/* ==========================================================
+   FINDING TOP
+   ========================================================== */
+
+.finding-top {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 14px;
+
+    padding: 19px 20px 16px;
+}
+
+.issue-number {
+
+    min-width: 64px;
+
+    height: 34px;
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 999px;
+
+    background: #0f172a;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 750;
+}
+
+.finding-heading {
+    flex: 1;
+}
+
+.finding-title {
+
+    margin: 0 0 7px;
+
+    font-size: 20px;
+
+    line-height: 1.3;
+}
+
+.rule-name {
+
+    color: #64748b;
+
+    font-family: monospace;
+
+    font-size: 13px;
+}
+
+
+/* ==========================================================
+   REVIEW CHECKBOX
+   ========================================================== */
+
+.review-control {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 7px 10px;
+
+    background: #f8fafc;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 9px;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.review-checkbox {
+
+    width: 19px;
+
+    height: 19px;
+
+    cursor: pointer;
+}
+
+
+/* ==========================================================
+   BADGES
+   ========================================================== */
+
+.badges {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    padding: 0 20px 15px;
+}
+
+.badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    border-radius: 999px;
+
+    padding: 5px 9px;
+
+    font-size: 12px;
+
+    font-weight: 650;
+
+    background: #f1f5f9;
+
+    color: #334155;
+}
+
+.badge-critical {
+
+    background: #fee2e2;
+
+    color: #991b1b;
+}
+
+.badge-high {
+
+    background: #fee2e2;
+
+    color: #b91c1c;
+}
+
+.badge-medium {
+
+    background: #fef3c7;
+
+    color: #92400e;
+}
+
+.badge-low {
+
+    background: #dbeafe;
+
+    color: #1d4ed8;
+}
+
+.badge-review {
+
+    background: #ede9fe;
+
+    color: #6d28d9;
+}
+
+.badge-both {
+
+    background: #dcfce7;
+
+    color: #166534;
+}
+
+.badge-custom {
+
+    background: #e0f2fe;
+
+    color: #075985;
+}
+
+.badge-axe {
+
+    background: #f3e8ff;
+
+    color: #7e22ce;
+}
+
+.badge-contextual {
+
+    background: #ccfbf1;
+
+    color: #115e59;
+
+    border: 1px solid #99f6e4;
+}
+
+
+/* ==========================================================
+   DETAILS
+   ========================================================== */
+
+.finding-details {
+
+    border-top:
+        1px solid #e2e8f0;
+}
+
+.finding-details summary {
+
+    cursor: pointer;
+
+    padding: 13px 20px;
+
+    font-weight: 650;
+
+    color: #1d4ed8;
+
+    user-select: none;
+}
+
+.finding-content {
+
+    padding: 5px 20px 23px;
+}
+
+.detail-section {
+
+    margin-top: 22px;
+}
+
+.detail-section h3 {
+
+    font-size: 15px;
+
+    margin: 0 0 7px;
+
+    color: #334155;
+}
+
+.detail-section p {
+    margin: 0;
+}
+
+
+/* ==========================================================
+   CODE / LOCATION
+   ========================================================== */
+
+.code-box {
+
+    white-space: pre-wrap;
+
+    overflow-wrap: anywhere;
+
+    background: #0f172a;
+
+    color: #e2e8f0;
+
+    padding: 14px;
+
+    border-radius: 9px;
+
+    overflow-x: auto;
+
+    font-family:
+        "Ubuntu Mono",
+        Consolas,
+        monospace;
+
+    font-size: 13px;
+}
+
+.location-box {
+
+    padding: 12px;
+
+    background: #eff6ff;
+
+    border-left:
+        4px solid #3b82f6;
+
+    border-radius: 8px;
+
+    overflow-wrap: anywhere;
+}
+
+.recommendation-box {
+
+    padding: 14px;
+
+    background: #f0fdf4;
+
+    border-left:
+        4px solid #22c55e;
+
+    border-radius: 8px;
+}
+
+.warning-box {
+
+    padding: 14px;
+
+    background: #fff7ed;
+
+    border-left:
+        4px solid #f97316;
+
+    border-radius: 8px;
+
+    margin-top: 18px;
+}
+
+.manual-box {
+
+    padding: 14px;
+
+    background: #faf5ff;
+
+    border-left:
+        4px solid #8b5cf6;
+
+    border-radius: 8px;
+}
+
+
+/* ==========================================================
+   CONTEXT-AWARE RECOMMENDATION
+   ========================================================== */
+
+.contextual-box {
+
+    padding: 17px;
+
+    background: #f0fdfa;
+
+    border: 1px solid #99f6e4;
+
+    border-left:
+        5px solid #0d9488;
+
+    border-radius: 9px;
+}
+
+.contextual-suggestion {
+
+    font-size: 17px;
+
+    font-weight: 650;
+
+    margin: 10px 0;
+
+    line-height: 1.6;
+}
+
+.contextual-meta {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 13px;
+}
+
+.contextual-meta span {
+
+    background: white;
+
+    border: 1px solid #99f6e4;
+
+    border-radius: 999px;
+
+    padding: 5px 9px;
+
+    font-size: 12px;
+
+    color: #115e59;
+}
+
+
+/* ==========================================================
+   EMPTY RESULT
+   ========================================================== */
+
+.empty-results {
+
+    display: none;
+
+    padding: 45px;
+
+    text-align: center;
+
+    background: white;
+
+    border:
+        1px dashed #94a3b8;
+
+    border-radius: 14px;
+
+    color: #64748b;
+}
+
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.footer-note {
+
+    margin-top: 35px;
+
+    background: #fffbeb;
+
+    border: 1px solid #fde68a;
+
+    border-radius: 12px;
+
+    padding: 18px;
+
+    color: #78350f;
+}
+
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (
+    max-width: 700px
+) {
+
+    .container {
+        padding: 14px;
+    }
+
+    .report-header {
+        padding: 24px;
+    }
+
+    .report-header h1 {
+        font-size: 25px;
+    }
+
+    .finding-top {
+        flex-wrap: wrap;
+    }
+
+    .review-control {
+
+        width: 100%;
+
+        justify-content: center;
+    }
+}
+
+
+/* ==========================================================
+   PRINT
+   ========================================================== */
+
+@media print {
+
+    body {
+        background: white;
+    }
+
+    .toolbar,
+    .progress-panel,
+    .results-bar {
+
+        display: none !important;
+    }
+
+    .finding {
+
+        break-inside: avoid;
+
+        box-shadow: none;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+<div class="report-header">
+
+    <h1>
+        Accessibility Analysis Report
+    </h1>
+
+    <div class="report-url">
+
+        <strong>
+            Analyzed page:
+        </strong>
+
+        https://land.gov.bd/
+
+    </div>
+
+    <p class="report-subtitle">
+
+        Combined analysis from the custom static scanner
+        and axe-core rendered-DOM testing.
+
+        Context-dependent findings may also include
+        recommendations generated by the proposed
+        deterministic contextual decision engine.
+
+    </p>
+
+</div>
+
+<div class="summary-grid">
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        30
+    </div>
+
+    <div class="summary-label">
+        Unified findings
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        0
+    </div>
+
+    <div class="summary-label">
+        Confirmed by both
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        3
+    </div>
+
+    <div class="summary-label">
+        Custom only
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        16
+    </div>
+
+    <div class="summary-label">
+        axe only
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        11
+    </div>
+
+    <div class="summary-label">
+        Needs manual review
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        2
+    </div>
+
+    <div class="summary-label">
+        Critical
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        2
+    </div>
+
+    <div class="summary-label">
+        High
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        15
+    </div>
+
+    <div class="summary-label">
+        Medium
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        0
+    </div>
+
+    <div class="summary-label">
+        Low
+    </div>
+
+</div>
+
+
+<div class="summary-card">
+
+    <div class="summary-number">
+        11
+    </div>
+
+    <div class="summary-label">
+        Review
+    </div>
+
+</div>
+
+</div>
+
+<div class="progress-panel">
+
+    <div class="progress-header">
+
+        <span>
+            Review Progress
+        </span>
+
+        <span id="progressText">
+            0 / 30 reviewed
+        </span>
+
+    </div>
+
+    <div class="progress-track">
+
+        <div
+            id="progressBar"
+            class="progress-bar"
+        ></div>
+
+    </div>
+
+</div>
+
+
+<div class="toolbar">
+
+    <div class="toolbar-title">
+        Review & Filter Findings
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Search
+        </span>
+
+        <input
+            id="searchInput"
+            class="search-input"
+            type="search"
+            placeholder="Search rule, issue, selector, HTML, WCAG..."
+        >
+
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Priority
+        </span>
+
+        <div id="priorityFilters">
+
+            <button
+                class="filter-button active"
+                data-filter="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="Critical"
+            >
+                Critical
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="High"
+            >
+                High
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="Medium"
+            >
+                Medium
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="Low"
+            >
+                Low
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="Review"
+            >
+                Review
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Source
+        </span>
+
+        <div id="sourceFilters">
+
+            <button
+                class="filter-button active"
+                data-filter="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="custom"
+            >
+                Custom involved
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="axe"
+            >
+                axe involved
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="both"
+            >
+                Both
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="custom_only"
+            >
+                Custom only
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="axe_only"
+            >
+                axe only
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="axe_incomplete"
+            >
+                axe incomplete
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Category
+        </span>
+
+        <div id="categoryFilters"></div>
+
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Issue Type
+        </span>
+
+        <div id="ruleFilters"></div>
+
+    </div>
+
+
+    <div class="tool-row">
+
+        <span class="tool-label">
+            Sort
+        </span>
+
+        <select
+            id="sortSelect"
+            class="sort-select"
+        >
+
+            <option value="number">
+                Issue number
+            </option>
+
+            <option value="priority-desc">
+                Priority: Critical → Low
+            </option>
+
+            <option value="priority-asc">
+                Priority: Low → Critical
+            </option>
+
+            <option value="category">
+                Category A → Z
+            </option>
+
+            <option value="rule">
+                Issue type A → Z
+            </option>
+
+            <option value="source">
+                Source
+            </option>
+
+            <option value="unchecked-first">
+                Unchecked first
+            </option>
+
+        </select>
+
+
+        <button
+            id="uncheckedOnlyButton"
+            class="action-button"
+            type="button"
+        >
+            ☐ Unchecked only
+        </button>
+
+
+        <button
+            id="expandAllButton"
+            class="action-button"
+            type="button"
+        >
+            Expand visible
+        </button>
+
+
+        <button
+            id="collapseAllButton"
+            class="action-button"
+            type="button"
+        >
+            Collapse all
+        </button>
+
+
+        <button
+            id="printButton"
+            class="action-button"
+            type="button"
+        >
+            Print
+        </button>
+
+
+        <button
+            id="resetFiltersButton"
+            class="action-button"
+            type="button"
+        >
+            Reset filters
+        </button>
+
+
+        <button
+            id="clearReviewButton"
+            class="action-button"
+            type="button"
+        >
+            Clear review checks
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="results-bar">
+
+    <div>
+
+        <span
+            id="visibleCount"
+            class="results-count"
+        >
+            30
+        </span>
+
+        of
+
+        <span>
+            30
+        </span>
+
+        findings shown
+
+    </div>
+
+    <div id="activeFilterText">
+        Showing all findings
+    </div>
+
+</div>
+
+
+<div
+    id="emptyResults"
+    class="empty-results"
+>
+    No findings match the selected filters.
+</div>
+
+
+<div id="findingsContainer">
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00001"
+
+    data-number="1"
+
+    data-priority="Medium"
+
+    data-category="Images"
+
+    data-rule="non_descriptive_alt"
+
+    data-status="custom_only"
+
+    data-has-custom="true"
+
+    data-has-axe="false"
+
+    data-search="uf-00001 custom_only medium images non_descriptive_alt image alternative text may not be descriptive custom html &gt; body.noto_sans_bengali_c54029d0-module__qux_ra__classname &gt; div:nth-of-type(3) &gt; div:nth-of-type(3) &gt; img.w-full.2xl:container &lt;img alt=&quot;image&quot; class=&quot;w-full 2xl:container 2xl:mx-auto object-cover&quot; data-nimg=&quot;1&quot; decoding=&quot;async&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; src=&quot;/_next/image?url=%2fimages%2fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75&quot; srcset=&quot;/_next/image?url=%2fimages%2fdhaka_line_6.png&amp;amp;w=1080&amp;amp;q=75 1x, /_next/image?url=%2fimages%2fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75 2x&quot; style=&quot;color:transparent&quot; width=&quot;1000&quot;/&gt; 1.1.1 non-text content although the image has an alt attribute, generic text such as &#x27;image&#x27;, &#x27;thumbnail&#x27;, &#x27;news image&#x27;, &#x27;event image&#x27;, or a filename may not communicate the image&#x27;s actual content or purpose. review the purpose of the image and replace generic or filename-like alternative text with a concise description that communicates the same relevant information or function. if the image is purely decorative, use alt=&quot;&quot; instead.  generic_alt_context_available replace_generic_alt_after_visual_review replace the generic alt text “image” after visually inspecting the image. the surrounding context “নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে?” can guide the description, but should not be copied as alt text unless it accurately represents the image. the current alt attribute exists but appears non-descriptive. context provides evidence about the related content, not proof of the image&#x27;s visual content. nearby_heading bn"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #001
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Image alternative text may not be descriptive
+        </h2>
+
+        <div class="rule-name">
+
+            non_descriptive_alt
+
+            &nbsp;•&nbsp;
+
+            UF-00001
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00001"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-custom">
+    Custom
+</span>
+
+
+<span class="badge">
+    Images
+</span>
+
+
+<span class="badge">
+    WCAG 1.1.1 Non-text Content
+</span>
+
+
+<span class="badge">
+    Level A
+</span>
+
+
+<span class="badge">
+    Custom automated finding
+</span>
+
+
+<span class="badge badge-contextual">
+    Context-aware recommendation
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Although the image has an alt attribute, generic text such as &#x27;image&#x27;, &#x27;thumbnail&#x27;, &#x27;news image&#x27;, &#x27;event image&#x27;, or a filename may not communicate the image&#x27;s actual content or purpose.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: html &gt; body.noto_sans_bengali_c54029d0-module__Qux_Ra__className &gt; div:nth-of-type(3) &gt; div:nth-of-type(3) &gt; img.w-full.2xl:container | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;img alt=&quot;image&quot; class=&quot;w-full 2xl:container 2xl:mx-auto object-cover&quot; data-nimg=&quot;1&quot; decoding=&quot;async&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; src=&quot;/_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75&quot; srcset=&quot;/_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=1080&amp;amp;q=75 1x, /_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75 2x&quot; style=&quot;color:transparent&quot; width=&quot;1000&quot;/&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Custom scanner evidence
+    </h3>
+
+    <p>
+        Alt text is generic and does not describe the image&#x27;s content or purpose.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review the purpose of the image and replace generic or filename-like alternative text with a concise description that communicates the same relevant information or function. If the image is purely decorative, use alt=&quot;&quot; instead.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Context-Aware Recommendation
+    </h3>
+
+    <div class="contextual-box">
+
+
+<div class="contextual-suggestion">
+    Replace the generic alt text “image” after visually inspecting the image. The surrounding context “নিবন্ধন করার জন্য কি কোন নির্দিষ্ট সময়সীমা রয়েছে?” can guide the description, but should not be copied as alt text unless it accurately represents the image.
+</div>
+
+
+<p>
+
+    <strong>
+        Why this suggestion was made:
+    </strong>
+
+    The current alt attribute exists but appears non-descriptive. Context provides evidence about the related content, not proof of the image&#x27;s visual content.
+
+</p>
+
+<div class="contextual-meta">
+
+<span>
+    Evidence:
+    nearby heading
+</span>
+
+
+<span>
+    Context confidence:
+    medium
+</span>
+
+
+<span>
+    Language:
+    bn
+</span>
+
+
+<span>
+    Decision:
+    GENERIC_ALT_CONTEXT_AVAILABLE
+</span>
+
+</div>
+
+<p style="margin-top: 14px;">
+
+    <strong>
+        Recommended action:
+    </strong>
+
+    replace generic alt after visual review
+
+</p>
+
+
+<div class="warning-box">
+
+    <strong>
+        Visual review required
+    </strong>
+
+    <br><br>
+
+    The surrounding text provides contextual evidence,
+    but the image itself must be inspected before final
+    alternative text is written.
+
+</div>
+
+
+<p style="margin-top: 14px;">
+
+    <strong>
+        Human verification:
+    </strong>
+
+    Required before implementation.
+
+</p>
+
+
+<p style="margin-top: 14px;">
+
+    <em>
+
+        This recommendation was generated by the
+        proposed deterministic contextual decision
+        engine. Context confidence describes the
+        strength of the extracted contextual evidence,
+        not WCAG conformance certainty.
+
+    </em>
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Suggested code pattern
+    </h3>
+
+    <pre class="code-box">&lt;img alt=&quot;[Replace with a meaningful context-specific description]&quot; class=&quot;w-full 2xl:container 2xl:mx-auto object-cover&quot; data-nimg=&quot;1&quot; decoding=&quot;async&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; src=&quot;/_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75&quot; srcset=&quot;/_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=1080&amp;amp;q=75 1x, /_next/image?url=%2Fimages%2Fdhaka_line_6.png&amp;amp;w=2048&amp;amp;q=75 2x&quot; style=&quot;color:transparent&quot; width=&quot;1000&quot;/&gt;</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+
+            Replace placeholder text with wording that
+            correctly reflects the real page context.
+
+        </em>
+
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Alternative-text quality depends on the image&#x27;s purpose and surrounding context. The automated rule identifies likely non-descriptive text but does not by itself establish a WCAG failure.
+
+    </div>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00002"
+
+    data-number="2"
+
+    data-priority="High"
+
+    data-category="Headings"
+
+    data-rule="missing_h1"
+
+    data-status="custom_only"
+
+    data-has-custom="true"
+
+    data-has-axe="false"
+
+    data-search="uf-00002 custom_only high headings missing_h1 page does not contain an h1 heading custom   related to 1.3.1 and 2.4.6 a meaningful top-level heading can help users understand the main purpose of the page. review the page structure and provide a meaningful top-level heading when appropriate."
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #002
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Page does not contain an H1 heading
+        </h2>
+
+        <div class="rule-name">
+
+            missing_h1
+
+            &nbsp;•&nbsp;
+
+            UF-00002
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00002"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-high"
+>
+    High
+</span>
+
+
+<span class="badge badge-custom">
+    Custom
+</span>
+
+
+<span class="badge">
+    Headings
+</span>
+
+
+<span class="badge">
+    WCAG Related to 1.3.1 and 2.4.6
+</span>
+
+
+<span class="badge">
+    Level Review
+</span>
+
+
+<span class="badge">
+    Contextual/manual review
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        A meaningful top-level heading can help users understand the main purpose of the page.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Custom scanner evidence
+    </h3>
+
+    <p>
+        Page does not contain an H1 heading.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review the page structure and provide a meaningful top-level heading when appropriate.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Suggested code pattern
+    </h3>
+
+    <pre class="code-box">&lt;h1&gt;Describe the main page topic&lt;/h1&gt;</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+
+            Replace placeholder text with wording that
+            correctly reflects the real page context.
+
+        </em>
+
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        WCAG does not simply require exactly one H1 on every page.
+
+    </div>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00003"
+
+    data-number="3"
+
+    data-priority="High"
+
+    data-category="Links"
+
+    data-rule="empty_link_text"
+
+    data-status="custom_only"
+
+    data-has-custom="true"
+
+    data-has-axe="false"
+
+    data-search="uf-00003 custom_only high links empty_link_text link does not have an accessible name custom html &gt; body.noto_sans_bengali_c54029d0-module__qux_ra__classname &gt; a &lt;a aria-hidden=&quot;true&quot; href=&quot;https://land.gov.bd/cdn-cgi/content?id=n3x8ejnyg.myogjmlbx.8xusyfnssf1awhecrop0ki0-1787761273.0335808-1.2.1.1-02ad4itanpe5um7zum.5r8mw4t6dz8s43it0svg9aiuttnmjoyw7yr.reobani1g&quot; rel=&quot;nofollow noopener&quot; style=&quot;display: none !important; visibility: hidden !important&quot;&gt;&lt;/a&gt; 2.4.4 link purpose (in context) a link without meaningful text or another accessible name may be unusable for screen-reader users. provide descriptive visible link text or an appropriate accessible name for icon-only links."
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #003
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Link does not have an accessible name
+        </h2>
+
+        <div class="rule-name">
+
+            empty_link_text
+
+            &nbsp;•&nbsp;
+
+            UF-00003
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00003"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-high"
+>
+    High
+</span>
+
+
+<span class="badge badge-custom">
+    Custom
+</span>
+
+
+<span class="badge">
+    Links
+</span>
+
+
+<span class="badge">
+    WCAG 2.4.4 Link Purpose (In Context)
+</span>
+
+
+<span class="badge">
+    Level A
+</span>
+
+
+<span class="badge">
+    Custom automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        A link without meaningful text or another accessible name may be unusable for screen-reader users.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: html &gt; body.noto_sans_bengali_c54029d0-module__Qux_Ra__className &gt; a | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;a aria-hidden=&quot;true&quot; href=&quot;https://land.gov.bd/cdn-cgi/content?id=N3x8EJnyG.MYOGJmLBX.8XUsyfNssf1AWHecrOP0ki0-1787761273.0335808-1.2.1.1-02aD4itaNpE5um7Zum.5R8mW4t6dz8s43IT0svg9AiUtTnmJoYW7Yr.rEobaNI1g&quot; rel=&quot;nofollow noopener&quot; style=&quot;display: none !important; visibility: hidden !important&quot;&gt;&lt;/a&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Custom scanner evidence
+    </h3>
+
+    <p>
+        Link has no accessible name. Add meaningful link text, aria-label, or image alt text.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Provide descriptive visible link text or an appropriate accessible name for icon-only links.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Suggested code pattern
+    </h3>
+
+    <pre class="code-box">&lt;a aria-hidden=&quot;true&quot; aria-label=&quot;Describe link destination&quot; href=&quot;https://land.gov.bd/cdn-cgi/content?id=N3x8EJnyG.MYOGJmLBX.8XUsyfNssf1AWHecrOP0ki0-1787761273.0335808-1.2.1.1-02aD4itaNpE5um7Zum.5R8mW4t6dz8s43IT0svg9AiUtTnmJoYW7Yr.rEobaNI1g&quot; rel=&quot;nofollow noopener&quot; style=&quot;display: none !important; visibility: hidden !important&quot;&gt;&lt;/a&gt;</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+
+            Replace placeholder text with wording that
+            correctly reflects the real page context.
+
+        </em>
+
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        The computed accessible name should be checked in the rendered page.
+
+    </div>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00004"
+
+    data-number="4"
+
+    data-priority="Critical"
+
+    data-category="Controls"
+
+    data-rule="button-name"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00004 axe_only critical controls button-name button does not have a discernible accessible name axe .active &lt;button class=&quot;css-dot active&quot;&gt;&lt;/button&gt; 4.1.2 name, role, value users of assistive technology may encounter a button without knowing its purpose. provide meaningful visible button text or an appropriate accessible name such as aria-label when the control is icon-only. fix any of the following:
+  element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  element has no title attribute
+  element does not have an implicit (wrapped) &lt;label&gt;
+  element does not have an explicit &lt;label&gt;
+  element&#x27;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #004
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Button does not have a discernible accessible name
+        </h2>
+
+        <div class="rule-name">
+
+            button-name
+
+            &nbsp;•&nbsp;
+
+            UF-00004
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00004"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-critical"
+>
+    Critical
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Controls
+</span>
+
+
+<span class="badge">
+    WCAG 4.1.2 Name, Role, Value
+</span>
+
+
+<span class="badge">
+    Level A
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Users of assistive technology may encounter a button without knowing its purpose.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .active | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;button class=&quot;css-dot active&quot;&gt;&lt;/button&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) &lt;label&gt;
+  Element does not have an explicit &lt;label&gt;
+  Element&#x27;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure buttons have discernible text
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Provide meaningful visible button text or an appropriate accessible name such as aria-label when the control is icon-only.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Suggested code pattern
+    </h3>
+
+    <pre class="code-box">&lt;button aria-label=&quot;Describe button action&quot; class=&quot;css-dot active&quot;&gt;&lt;/button&gt;</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+
+            Replace placeholder text with wording that
+            correctly reflects the real page context.
+
+        </em>
+
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Verify the computed accessible name after the change.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00005"
+
+    data-number="5"
+
+    data-priority="Critical"
+
+    data-category="Controls"
+
+    data-rule="button-name"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00005 axe_only critical controls button-name button does not have a discernible accessible name axe .css-dot:nth-child(2) &lt;button class=&quot;css-dot &quot;&gt;&lt;/button&gt; 4.1.2 name, role, value users of assistive technology may encounter a button without knowing its purpose. provide meaningful visible button text or an appropriate accessible name such as aria-label when the control is icon-only. fix any of the following:
+  element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  element has no title attribute
+  element does not have an implicit (wrapped) &lt;label&gt;
+  element does not have an explicit &lt;label&gt;
+  element&#x27;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #005
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Button does not have a discernible accessible name
+        </h2>
+
+        <div class="rule-name">
+
+            button-name
+
+            &nbsp;•&nbsp;
+
+            UF-00005
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00005"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-critical"
+>
+    Critical
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Controls
+</span>
+
+
+<span class="badge">
+    WCAG 4.1.2 Name, Role, Value
+</span>
+
+
+<span class="badge">
+    Level A
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Users of assistive technology may encounter a button without knowing its purpose.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .css-dot:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;button class=&quot;css-dot &quot;&gt;&lt;/button&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) &lt;label&gt;
+  Element does not have an explicit &lt;label&gt;
+  Element&#x27;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure buttons have discernible text
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Provide meaningful visible button text or an appropriate accessible name such as aria-label when the control is icon-only.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Suggested code pattern
+    </h3>
+
+    <pre class="code-box">&lt;button aria-label=&quot;Describe button action&quot; class=&quot;css-dot&quot;&gt;&lt;/button&gt;</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+
+            Replace placeholder text with wording that
+            correctly reflects the real page context.
+
+        </em>
+
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Verify the computed accessible name after the change.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00006"
+
+    data-number="6"
+
+    data-priority="Medium"
+
+    data-category="Other"
+
+    data-rule="landmark-one-main"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00006 axe_only medium other landmark-one-main document should have one main landmark axe html &lt;html lang=&quot;en&quot;&gt; best-practice ensure the document has a main landmark document should have one main landmark fix all of the following:
+  document does not have a main landmark"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #006
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Document should have one main landmark
+        </h2>
+
+        <div class="rule-name">
+
+            landmark-one-main
+
+            &nbsp;•&nbsp;
+
+            UF-00006
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00006"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Other
+</span>
+
+
+<span class="badge">
+    WCAG best-practice
+</span>
+
+
+<span class="badge">
+    Level Review
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Ensure the document has a main landmark
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: html | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;html lang=&quot;en&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix all of the following:
+  Document does not have a main landmark</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the document has a main landmark
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Document should have one main landmark
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        No dedicated remediation template has yet been defined for this rule.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00007"
+
+    data-number="7"
+
+    data-priority="Medium"
+
+    data-category="Other"
+
+    data-rule="page-has-heading-one"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00007 axe_only medium other page-has-heading-one page should contain a level-one heading axe html &lt;html lang=&quot;en&quot;&gt; best-practice ensure that the page, or at least one of its frames contains a level-one heading page should contain a level-one heading fix all of the following:
+  page must have a level-one heading"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #007
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Page should contain a level-one heading
+        </h2>
+
+        <div class="rule-name">
+
+            page-has-heading-one
+
+            &nbsp;•&nbsp;
+
+            UF-00007
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00007"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Other
+</span>
+
+
+<span class="badge">
+    WCAG best-practice
+</span>
+
+
+<span class="badge">
+    Level Review
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Ensure that the page, or at least one of its frames contains a level-one heading
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: html | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;html lang=&quot;en&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix all of the following:
+  Page must have a level-one heading</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure that the page, or at least one of its frames contains a level-one heading
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Page should contain a level-one heading
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        No dedicated remediation template has yet been defined for this rule.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00008"
+
+    data-number="8"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00008 axe_only medium landmarks region content is not contained within a landmark region axe .css-slider-track &lt;div class=&quot;css-slider-track flex&quot; style=&quot;transform:translatex(-100%);transition:transform 0.6s ease-in-out&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #008
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00008
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00008"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .css-slider-track | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div class=&quot;css-slider-track flex&quot; style=&quot;transform:translateX(-100%);transition:transform 0.6s ease-in-out&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00009"
+
+    data-number="9"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00009 axe_only medium landmarks region content is not contained within a landmark region axe .shadow-lg.relative &gt; .lg\:block.hidden &lt;div class=&quot;hidden lg:block&quot;&gt;&lt;div class=&quot;absolute top-0 left-0 right-0 z-20&quot;&gt;&lt;h3 class=&quot;text-24 xl:text-32 leading-[47px] w-full text-white text-center&quot;&gt;&lt;span class=&quot;text-bottlegreen&quot;&gt;অটোমেশন ভূমি ব্যবস্থাপনার&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;text-[#d52329]&quot;&gt;সমন্বিত সফটওয়্যার&lt;/span&gt;&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #009
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00009
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00009"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .shadow-lg.relative &gt; .lg\:block.hidden | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div class=&quot;hidden lg:block&quot;&gt;&lt;div class=&quot;absolute top-0 left-0 right-0 z-20&quot;&gt;&lt;h3 class=&quot;text-24 xl:text-32 leading-[47px] w-full text-white text-center&quot;&gt;&lt;span class=&quot;text-bottleGreen&quot;&gt;অটোমেশন ভূমি ব্যবস্থাপনার&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;text-[#D52329]&quot;&gt;সমন্বিত সফটওয়্যার&lt;/span&gt;&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00010"
+
+    data-number="10"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00010 axe_only medium landmarks region content is not contained within a landmark region axe .lg\:grid-cols-2 &gt; .justify-center.items-center.flex &lt;div class=&quot;flex justify-center items-center&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #010
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00010
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00010"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .lg\:grid-cols-2 &gt; .justify-center.items-center.flex | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div class=&quot;flex justify-center items-center&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00011"
+
+    data-number="11"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00011 axe_only medium landmarks region content is not contained within a landmark region axe .h-\[100em\] &lt;img alt=&quot;lsg&quot; loading=&quot;lazy&quot; width=&quot;1000&quot; height=&quot;1000&quot; decoding=&quot;async&quot; data-nimg=&quot;1&quot; class=&quot;h-[100em] lg:h-[80em...&quot; style=&quot;color:transparent&quot; srcset=&quot;/_next/image?url=%2f...&quot; src=&quot;/_next/image?url=%2f...&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #011
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00011
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00011"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .h-\[100em\] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;img alt=&quot;LSG&quot; loading=&quot;lazy&quot; width=&quot;1000&quot; height=&quot;1000&quot; decoding=&quot;async&quot; data-nimg=&quot;1&quot; class=&quot;h-[100em] lg:h-[80em...&quot; style=&quot;color:transparent&quot; srcset=&quot;/_next/image?url=%2F...&quot; src=&quot;/_next/image?url=%2F...&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00012"
+
+    data-number="12"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00012 axe_only medium landmarks region content is not contained within a landmark region axe .my-4 &gt; .container.mx-auto &lt;section class=&quot;container mx-auto &quot; style=&quot;padding-left:45px;padding-right:45px&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #012
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00012
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00012"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .my-4 &gt; .container.mx-auto | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;section class=&quot;container mx-auto &quot; style=&quot;padding-left:45px;padding-right:45px&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00013"
+
+    data-number="13"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00013 axe_only medium landmarks region content is not contained within a landmark region axe .pb-\[10px\] &lt;section class=&quot; px-2 lg:px-[45px]  pb-[10px]&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #013
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00013
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00013"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .pb-\[10px\] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;section class=&quot; px-2 lg:px-[45px]  pb-[10px]&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00014"
+
+    data-number="14"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00014 axe_only medium landmarks region content is not contained within a landmark region axe .lg\:order-2 &lt;img alt=&quot;lsg&quot; loading=&quot;lazy&quot; width=&quot;1000&quot; height=&quot;1000&quot; decoding=&quot;async&quot; data-nimg=&quot;1&quot; class=&quot;lg:order-2 w-full h-...&quot; style=&quot;color:transparent&quot; srcset=&quot;/_next/image?url=%2f...&quot; src=&quot;/_next/image?url=%2f...&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #014
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00014
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00014"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .lg\:order-2 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;img alt=&quot;LSG&quot; loading=&quot;lazy&quot; width=&quot;1000&quot; height=&quot;1000&quot; decoding=&quot;async&quot; data-nimg=&quot;1&quot; class=&quot;lg:order-2 w-full h-...&quot; style=&quot;color:transparent&quot; srcset=&quot;/_next/image?url=%2F...&quot; src=&quot;/_next/image?url=%2F...&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00015"
+
+    data-number="15"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00015 axe_only medium landmarks region content is not contained within a landmark region axe .md\:text-36 &lt;h3 class=&quot;font-medium text-24 md:text-36 text-secondary pb-[15.45px] text-center&quot;&gt;সচরাচর জিজ্ঞাসা&lt;/h3&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #015
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00015
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00015"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .md\:text-36 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;h3 class=&quot;font-medium text-24 md:text-36 text-secondary pb-[15.45px] text-center&quot;&gt;সচরাচর জিজ্ঞাসা&lt;/h3&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00016"
+
+    data-number="16"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00016 axe_only medium landmarks region content is not contained within a landmark region axe .pt-\[14px\] &lt;div class=&quot;flex justify-center items-center pt-[14px]&quot;&gt;&lt;a class=&quot;font-medium text-14 md:text-20 text-white bg-bottlegreen px-[30px] py-[6px] lg:px-[59px] lg:py-[12px] rounded-md&quot; href=&quot;/faq&quot;&gt;আরো&lt;/a&gt;&lt;/div&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #016
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00016
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00016"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .pt-\[14px\] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div class=&quot;flex justify-center items-center pt-[14px]&quot;&gt;&lt;a class=&quot;font-medium text-14 md:text-20 text-white bg-bottleGreen px-[30px] py-[6px] lg:px-[59px] lg:py-[12px] rounded-md&quot; href=&quot;/faq&quot;&gt;আরো&lt;/a&gt;&lt;/div&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00017"
+
+    data-number="17"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00017 axe_only medium landmarks region content is not contained within a landmark region axe div:nth-child(6) &gt; div:nth-child(3) &lt;div&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #017
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00017
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00017"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: div:nth-child(6) &gt; div:nth-child(3) | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00018"
+
+    data-number="18"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00018 axe_only medium landmarks region content is not contained within a landmark region axe body &gt; .\32 xl\:container.\32 xl\:mx-auto &lt;div class=&quot;2xl:container 2xl:mx-auto&quot;&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #018
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00018
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00018"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: body &gt; .\32 xl\:container.\32 xl\:mx-auto | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;div class=&quot;2xl:container 2xl:mx-auto&quot;&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00019"
+
+    data-number="19"
+
+    data-priority="Medium"
+
+    data-category="Landmarks"
+
+    data-rule="region"
+
+    data-status="axe_only"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00019 axe_only medium landmarks region content is not contained within a landmark region axe .idesk360__consent-screen,span:nth-child(2) &lt;span style=&quot;margin-left: 5px;&quot;&gt;লাইভ চ্যাট🖐&lt;/span&gt; best practice / structural navigation landmarks can help assistive-technology users navigate major areas of a page efficiently. review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region. fix any of the following:
+  some page content is not contained by landmarks"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #019
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Content is not contained within a landmark region
+        </h2>
+
+        <div class="rule-name">
+
+            region
+
+            &nbsp;•&nbsp;
+
+            UF-00019
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00019"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-medium"
+>
+    Medium
+</span>
+
+
+<span class="badge badge-axe">
+    axe
+</span>
+
+
+<span class="badge">
+    Landmarks
+</span>
+
+
+<span class="badge">
+    WCAG Best practice / structural navigation
+</span>
+
+
+<span class="badge">
+    Level Best practice
+</span>
+
+
+<span class="badge">
+    Axe automated finding
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Landmarks can help assistive-technology users navigate major areas of a page efficiently.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .iDesk360__consent-screen,span:nth-child(2) | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;span style=&quot;margin-left: 5px;&quot;&gt;লাইভ চ্যাট🖐&lt;/span&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Some page content is not contained by landmarks</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure all page content is contained by landmarks
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Review whether the content belongs inside an appropriate semantic landmark such as &lt;main&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, or another labelled region.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        Adding landmarks blindly can create excessive or incorrect landmark structure.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/region?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00020"
+
+    data-number="20"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00020 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .hidden.lg\:flex.gap-4 &gt; p &lt;p class=&quot;text-white text-14 font-medium&quot;&gt;বুধবার, ১১ ভাদ্র ১৪৩৩ ২৬ আগস্ট ২০২৬&lt;/p&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined due to a background gradient"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #020
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00020
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00020"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .hidden.lg\:flex.gap-4 &gt; p | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;p class=&quot;text-white text-14 font-medium&quot;&gt;বুধবার, ১১ ভাদ্র ১৪৩৩ ২৬ আগস্ট ২০২৬&lt;/p&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined due to a background gradient</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00021"
+
+    data-number="21"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00021 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .xl\:text-32 &gt; .text-bottlegreen &lt;span class=&quot;text-bottlegreen&quot;&gt;অটোমেশন ভূমি ব্যবস্থাপনার&lt;/span&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #021
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00021
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00021"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .xl\:text-32 &gt; .text-bottleGreen | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;span class=&quot;text-bottleGreen&quot;&gt;অটোমেশন ভূমি ব্যবস্থাপনার&lt;/span&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00022"
+
+    data-number="22"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00022 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .text-\[\#d52329\] &lt;span class=&quot;text-[#d52329]&quot;&gt;সমন্বিত সফটওয়্যার&lt;/span&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #022
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00022
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00022"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .text-\[\#D52329\] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;span class=&quot;text-[#D52329]&quot;&gt;সমন্বিত সফটওয়্যার&lt;/span&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00023"
+
+    data-number="23"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00023 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .xl\:text-36 &lt;h3 class=&quot;text-24 xl:text-36 text-secondary&quot;&gt;ভূমিসেবা সহায়তার জন্য&lt;/h3&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because it is overlapped by another element"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #023
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00023
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00023"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .xl\:text-36 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;h3 class=&quot;text-24 xl:text-36 text-secondary&quot;&gt;ভূমিসেবা সহায়তার জন্য&lt;/h3&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because it is overlapped by another element</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00024"
+
+    data-number="24"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00024 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .text-16 &lt;p class=&quot;text-16 leading-[31px] lg:text-20 text-secondary&quot;&gt;কল করুন&lt;/p&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because it is overlapped by another element"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #024
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00024
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00024"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .text-16 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;p class=&quot;text-16 leading-[31px] lg:text-20 text-secondary&quot;&gt;কল করুন&lt;/p&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because it is overlapped by another element</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00025"
+
+    data-number="25"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00025 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .text-32 &lt;h3 class=&quot;text-32 leading-[31px] lg:text-48 lg:leading-[36px] font-bold text-secondary pt-8&quot;&gt;১৬১২২&lt;/h3&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because it is overlapped by another element"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #025
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00025
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00025"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .text-32 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;h3 class=&quot;text-32 leading-[31px] lg:text-48 lg:leading-[36px] font-bold text-secondary pt-8&quot;&gt;১৬১২২&lt;/h3&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because it is overlapped by another element</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00026"
+
+    data-number="26"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00026 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(1) &gt; a[href$=&quot;manual&quot;] &lt;a href=&quot;/manual&quot;&gt;lsg সিটিজেন ইউজার ম্যানুয়াল: সিটিজেন মোবাইল নম্বর পরিবর্তন এবং জাতীয় পরিচয়পত্র (nid) পুনরুদ্ধার প্রক্রিয়া&lt;/a&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #026
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00026
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00026"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(1) &gt; a[href$=&quot;manual&quot;] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;a href=&quot;/manual&quot;&gt;LSG সিটিজেন ইউজার ম্যানুয়াল: সিটিজেন মোবাইল নম্বর পরিবর্তন এবং জাতীয় পরিচয়পত্র (NID) পুনরুদ্ধার প্রক্রিয়া&lt;/a&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00027"
+
+    data-number="27"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00027 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(2) &gt; a[href$=&quot;manual&quot;] &lt;a href=&quot;/manual&quot;&gt;ফ্লোচার্ট_অভিযোগ প্রতিকার ব্যবস্থাপনা&lt;/a&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #027
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00027
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00027"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(2) &gt; a[href$=&quot;manual&quot;] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;a href=&quot;/manual&quot;&gt;ফ্লোচার্ট_অভিযোগ প্রতিকার ব্যবস্থাপনা&lt;/a&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00028"
+
+    data-number="28"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00028 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(3) &gt; a[href$=&quot;manual&quot;] &lt;a href=&quot;/manual&quot;&gt;অভিযোগ ব্যবস্থাপনা নির্দেশিকা, ২০২৬&lt;/a&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because it&#x27;s partially obscured by another element"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #028
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00028
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00028"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .rfm-initial-child-container &gt; .rfm-child &gt; .justify-content-between.list-disc.\[\&amp;\&gt;li\]\:mx-4 &gt; .hover\:underline:nth-child(3) &gt; a[href$=&quot;manual&quot;] | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;a href=&quot;/manual&quot;&gt;অভিযোগ ব্যবস্থাপনা নির্দেশিকা, ২০২৬&lt;/a&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because it&#x27;s partially obscured by another element</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00029"
+
+    data-number="29"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00029 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .text-20 &lt;h3 class=&quot;font-medium text-20 leading-[31px] lg:text-36 lg:leading-[31px] text-secondary&quot;&gt;ভূমি সংক্রান্ত সেবা&lt;/h3&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #029
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00029
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00029"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .text-20 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;h3 class=&quot;font-medium text-20 leading-[31px] lg:text-36 lg:leading-[31px] text-secondary&quot;&gt;ভূমি সংক্রান্ত সেবা&lt;/h3&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+<article
+    class="finding"
+
+    id="finding-UF-00030"
+
+    data-number="30"
+
+    data-priority="Review"
+
+    data-category="Color contrast"
+
+    data-rule="color-contrast"
+
+    data-status="axe_incomplete"
+
+    data-has-custom="false"
+
+    data-has-axe="true"
+
+    data-search="uf-00030 axe_incomplete review color contrast color-contrast text color contrast requires review axe — manual review .md\:text-36 &lt;h3 class=&quot;font-medium text-24 md:text-36 text-secondary pb-[15.45px] text-center&quot;&gt;সচরাচর জিজ্ঞাসা&lt;/h3&gt; 1.4.3 contrast (minimum) insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies. check the computed foreground and background colors of the affected text. normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1. fix any of the following:
+  element&#x27;s background color could not be determined because element contains an image node"
+>
+
+
+<div class="finding-top">
+
+    <div class="issue-number">
+        #030
+    </div>
+
+
+    <div class="finding-heading">
+
+        <h2 class="finding-title">
+            Text color contrast requires review
+        </h2>
+
+        <div class="rule-name">
+
+            color-contrast
+
+            &nbsp;•&nbsp;
+
+            UF-00030
+
+        </div>
+
+    </div>
+
+
+    <label class="review-control">
+
+        <input
+            class="review-checkbox"
+            type="checkbox"
+            data-issue-id="UF-00030"
+        >
+
+        Reviewed
+
+    </label>
+
+</div>
+
+<div class="badges">
+
+<span
+    class="badge badge-review"
+>
+    Review
+</span>
+
+
+<span class="badge badge-axe">
+    axe — manual review
+</span>
+
+
+<span class="badge">
+    Color contrast
+</span>
+
+
+<span class="badge">
+    WCAG 1.4.3 Contrast (Minimum)
+</span>
+
+
+<span class="badge">
+    Level AA
+</span>
+
+
+<span class="badge">
+    Manual review required
+</span>
+
+</div>
+
+<details class="finding-details">
+
+    <summary>
+        View issue details and remediation
+    </summary>
+
+    <div class="finding-content">
+
+
+<div class="detail-section">
+
+    <h3>
+        Why this matters
+    </h3>
+
+    <p>
+        Insufficient contrast between text and its background can make content difficult to read for users with low vision or color-vision deficiencies.
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Location
+    </h3>
+
+    <div class="location-box">
+        DOM selector: .md\:text-36 | Ownership: page_content | Actionability: directly_reviewable
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Affected HTML
+    </h3>
+
+    <pre class="code-box">&lt;h3 class=&quot;font-medium text-24 md:text-36 text-secondary pb-[15.45px] text-center&quot;&gt;সচরাচর জিজ্ঞাসা&lt;/h3&gt;</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe automated evidence
+    </h3>
+
+    <pre class="code-box">Fix any of the following:
+  Element&#x27;s background color could not be determined because element contains an image node</pre>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        axe description
+    </h3>
+
+    <p>
+        Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+    </p>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Recommended change
+    </h3>
+
+    <div class="recommendation-box">
+        Check the computed foreground and background colors of the affected text. Normal-sized text should generally have a contrast ratio of at least 4.5:1, while qualifying large text should generally have a ratio of at least 3:1.
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Manual review
+    </h3>
+
+    <div class="manual-box">
+
+        <strong>
+            Required:
+        </strong>
+
+        Yes
+
+        <br><br>
+
+        axe returned this finding as incomplete when contrast could not be conclusively evaluated automatically. Background images, gradients, transparency, overlapping elements, or other rendered styling can require manual inspection.
+
+    </div>
+
+</div>
+
+
+<div class="detail-section">
+
+    <h3>
+        Reference
+    </h3>
+
+    <p>
+
+        <a
+            href="https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open axe rule documentation
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+</details>
+
+</article>
+
+
+</div>
+
+
+<div class="footer-note">
+
+    <strong>
+        Methodology note:
+    </strong>
+
+    Automated accessibility testing can identify many
+    important problems, but it cannot establish complete
+    WCAG conformance.
+
+    Context-dependent and incomplete findings require
+    human review.
+
+    Context-aware recommendations are produced by
+    deterministic rules using extracted local page context
+    and should be verified before implementation.
+
+</div>
+
+
+<script>
+
+(function () {
+
+    "use strict";
+
+
+    // ======================================================
+    // ELEMENTS
+    // ======================================================
+
+    const container =
+        document.getElementById(
+            "findingsContainer"
+        );
+
+    const findings =
+        Array.from(
+            document.querySelectorAll(
+                ".finding"
+            )
+        );
+
+    const searchInput =
+        document.getElementById(
+            "searchInput"
+        );
+
+    const sortSelect =
+        document.getElementById(
+            "sortSelect"
+        );
+
+    const visibleCount =
+        document.getElementById(
+            "visibleCount"
+        );
+
+    const emptyResults =
+        document.getElementById(
+            "emptyResults"
+        );
+
+    const progressBar =
+        document.getElementById(
+            "progressBar"
+        );
+
+    const progressText =
+        document.getElementById(
+            "progressText"
+        );
+
+    const activeFilterText =
+        document.getElementById(
+            "activeFilterText"
+        );
+
+
+    // ======================================================
+    // STATE
+    // ======================================================
+
+    const state = {
+
+        priority:
+            "all",
+
+        source:
+            "all",
+
+        category:
+            "all",
+
+        rule:
+            "all",
+
+        search:
+            "",
+
+        uncheckedOnly:
+            false
+    };
+
+
+    // ======================================================
+    // LOCAL STORAGE
+    // ======================================================
+
+    const storagePrefix =
+        "accessibility-review:"
+        +
+        window.location.pathname
+        +
+        ":";
+
+
+    function loadReviewState() {
+
+        findings.forEach(
+            finding => {
+
+                const checkbox =
+                    finding.querySelector(
+                        ".review-checkbox"
+                    );
+
+                if (!checkbox) {
+                    return;
+                }
+
+                const id =
+                    checkbox.dataset.issueId;
+
+                const saved =
+                    localStorage.getItem(
+                        storagePrefix + id
+                    );
+
+                if (saved === "true") {
+
+                    checkbox.checked =
+                        true;
+
+                    finding.classList.add(
+                        "reviewed"
+                    );
+                }
+            }
+        );
+    }
+
+
+    function saveReviewState(
+        checkbox,
+        finding
+    ) {
+
+        const id =
+            checkbox.dataset.issueId;
+
+        localStorage.setItem(
+            storagePrefix + id,
+            checkbox.checked
+                ? "true"
+                : "false"
+        );
+
+        finding.classList.toggle(
+            "reviewed",
+            checkbox.checked
+        );
+    }
+
+
+    // ======================================================
+    // PROGRESS
+    // ======================================================
+
+    function updateProgress() {
+
+        const reviewed =
+            findings.filter(
+                finding => {
+
+                    const checkbox =
+                        finding.querySelector(
+                            ".review-checkbox"
+                        );
+
+                    return (
+                        checkbox
+                        &&
+                        checkbox.checked
+                    );
+                }
+            ).length;
+
+        const total =
+            findings.length;
+
+        const percentage =
+            total
+                ?
+                (
+                    reviewed
+                    /
+                    total
+                )
+                *
+                100
+                :
+                0;
+
+        progressBar.style.width =
+            percentage
+            +
+            "%";
+
+        progressText.textContent =
+            reviewed
+            +
+            " / "
+            +
+            total
+            +
+            " reviewed";
+    }
+
+
+    // ======================================================
+    // DYNAMIC CATEGORY / RULE FILTERS
+    // ======================================================
+
+    function createDynamicFilters(
+        containerId,
+        attribute,
+        stateKey
+    ) {
+
+        const filterContainer =
+            document.getElementById(
+                containerId
+            );
+
+        const values =
+            Array.from(
+                new Set(
+                    findings.map(
+                        finding =>
+                            finding.dataset[
+                                attribute
+                            ]
+                    )
+                )
+            )
+            .filter(
+                Boolean
+            )
+            .sort(
+                (a, b) =>
+                    a.localeCompare(
+                        b
+                    )
+            );
+
+
+        const allButton =
+            document.createElement(
+                "button"
+            );
+
+        allButton.type =
+            "button";
+
+        allButton.className =
+            "filter-button active";
+
+        allButton.dataset.filter =
+            "all";
+
+        allButton.textContent =
+            "All";
+
+        filterContainer.appendChild(
+            allButton
+        );
+
+
+        values.forEach(
+            value => {
+
+                const button =
+                    document.createElement(
+                        "button"
+                    );
+
+                button.type =
+                    "button";
+
+                button.className =
+                    "filter-button";
+
+                button.dataset.filter =
+                    value;
+
+                button.textContent =
+                    value;
+
+                filterContainer.appendChild(
+                    button
+                );
+            }
+        );
+
+
+        filterContainer.addEventListener(
+            "click",
+            event => {
+
+                const button =
+                    event.target.closest(
+                        ".filter-button"
+                    );
+
+                if (!button) {
+                    return;
+                }
+
+
+                filterContainer
+                    .querySelectorAll(
+                        ".filter-button"
+                    )
+                    .forEach(
+                        item =>
+                            item.classList.remove(
+                                "active"
+                            )
+                    );
+
+
+                button.classList.add(
+                    "active"
+                );
+
+
+                state[
+                    stateKey
+                ] = (
+                    button.dataset.filter
+                );
+
+
+                applyFilters();
+            }
+        );
+    }
+
+
+    createDynamicFilters(
+        "categoryFilters",
+        "category",
+        "category"
+    );
+
+
+    createDynamicFilters(
+        "ruleFilters",
+        "rule",
+        "rule"
+    );
+
+
+    // ======================================================
+    // PRIORITY FILTER
+    // ======================================================
+
+    document
+        .getElementById(
+            "priorityFilters"
+        )
+        .addEventListener(
+            "click",
+            event => {
+
+                const button =
+                    event.target.closest(
+                        ".filter-button"
+                    );
+
+                if (!button) {
+                    return;
+                }
+
+                document
+                    .querySelectorAll(
+                        "#priorityFilters .filter-button"
+                    )
+                    .forEach(
+                        item =>
+                            item.classList.remove(
+                                "active"
+                            )
+                    );
+
+                button.classList.add(
+                    "active"
+                );
+
+                state.priority =
+                    button.dataset.filter;
+
+                applyFilters();
+            }
+        );
+
+
+    // ======================================================
+    // SOURCE FILTER
+    // ======================================================
+
+    document
+        .getElementById(
+            "sourceFilters"
+        )
+        .addEventListener(
+            "click",
+            event => {
+
+                const button =
+                    event.target.closest(
+                        ".filter-button"
+                    );
+
+                if (!button) {
+                    return;
+                }
+
+                document
+                    .querySelectorAll(
+                        "#sourceFilters .filter-button"
+                    )
+                    .forEach(
+                        item =>
+                            item.classList.remove(
+                                "active"
+                            )
+                    );
+
+                button.classList.add(
+                    "active"
+                );
+
+                state.source =
+                    button.dataset.filter;
+
+                applyFilters();
+            }
+        );
+
+
+    // ======================================================
+    // SOURCE MATCHING
+    // ======================================================
+
+    function matchesSource(
+        finding
+    ) {
+
+        const source =
+            state.source;
+
+        if (source === "all") {
+            return true;
+        }
+
+        const hasCustom =
+            finding.dataset.hasCustom
+            ===
+            "true";
+
+        const hasAxe =
+            finding.dataset.hasAxe
+            ===
+            "true";
+
+        const status =
+            finding.dataset.status;
+
+
+        if (source === "custom") {
+            return hasCustom;
+        }
+
+        if (source === "axe") {
+            return hasAxe;
+        }
+
+        if (source === "both") {
+
+            return (
+                hasCustom
+                &&
+                hasAxe
+            );
+        }
+
+        if (source === "custom_only") {
+
+            return (
+                status
+                ===
+                "custom_only"
+            );
+        }
+
+        if (source === "axe_only") {
+
+            return (
+                status
+                ===
+                "axe_only"
+            );
+        }
+
+        if (
+            source
+            ===
+            "axe_incomplete"
+        ) {
+
+            return (
+                status
+                ===
+                "axe_incomplete"
+            );
+        }
+
+        return true;
+    }
+
+
+    // ======================================================
+    // FILTER
+    // ======================================================
+
+    function applyFilters() {
+
+        let shown =
+            0;
+
+
+        findings.forEach(
+            finding => {
+
+                const checkbox =
+                    finding.querySelector(
+                        ".review-checkbox"
+                    );
+
+
+                const priorityMatch =
+                    (
+                        state.priority
+                        ===
+                        "all"
+                    )
+                    ||
+                    (
+                        finding.dataset.priority
+                        ===
+                        state.priority
+                    );
+
+
+                const categoryMatch =
+                    (
+                        state.category
+                        ===
+                        "all"
+                    )
+                    ||
+                    (
+                        finding.dataset.category
+                        ===
+                        state.category
+                    );
+
+
+                const ruleMatch =
+                    (
+                        state.rule
+                        ===
+                        "all"
+                    )
+                    ||
+                    (
+                        finding.dataset.rule
+                        ===
+                        state.rule
+                    );
+
+
+                const sourceMatch =
+                    matchesSource(
+                        finding
+                    );
+
+
+                const searchMatch =
+                    (
+                        !state.search
+                    )
+                    ||
+                    (
+                        finding.dataset.search
+                        .includes(
+                            state.search
+                        )
+                    );
+
+
+                const uncheckedMatch =
+                    (
+                        !state.uncheckedOnly
+                    )
+                    ||
+                    (
+                        checkbox
+                        &&
+                        !checkbox.checked
+                    );
+
+
+                const show =
+                    priorityMatch
+                    &&
+                    categoryMatch
+                    &&
+                    ruleMatch
+                    &&
+                    sourceMatch
+                    &&
+                    searchMatch
+                    &&
+                    uncheckedMatch;
+
+
+                finding.style.display =
+                    show
+                        ?
+                        ""
+                        :
+                        "none";
+
+
+                if (show) {
+                    shown++;
+                }
+            }
+        );
+
+
+        visibleCount.textContent =
+            shown;
+
+
+        emptyResults.style.display =
+            shown === 0
+                ?
+                "block"
+                :
+                "none";
+
+
+        updateActiveFilterText();
+
+        sortFindings();
+    }
+
+
+    // ======================================================
+    // ACTIVE FILTER TEXT
+    // ======================================================
+
+    function updateActiveFilterText() {
+
+        const filters =
+            [];
+
+
+        if (
+            state.priority
+            !==
+            "all"
+        ) {
+
+            filters.push(
+                "Priority: "
+                +
+                state.priority
+            );
+        }
+
+
+        if (
+            state.source
+            !==
+            "all"
+        ) {
+
+            filters.push(
+                "Source: "
+                +
+                state.source
+            );
+        }
+
+
+        if (
+            state.category
+            !==
+            "all"
+        ) {
+
+            filters.push(
+                "Category: "
+                +
+                state.category
+            );
+        }
+
+
+        if (
+            state.rule
+            !==
+            "all"
+        ) {
+
+            filters.push(
+                "Issue: "
+                +
+                state.rule
+            );
+        }
+
+
+        if (
+            state.uncheckedOnly
+        ) {
+
+            filters.push(
+                "Unchecked only"
+            );
+        }
+
+
+        if (
+            state.search
+        ) {
+
+            filters.push(
+                'Search: "'
+                +
+                state.search
+                +
+                '"'
+            );
+        }
+
+
+        activeFilterText.textContent =
+            filters.length
+                ?
+                filters.join(
+                    " • "
+                )
+                :
+                "Showing all findings";
+    }
+
+
+    // ======================================================
+    // SEARCH
+    // ======================================================
+
+    searchInput.addEventListener(
+        "input",
+        () => {
+
+            state.search =
+                searchInput.value
+                    .trim()
+                    .toLowerCase();
+
+            applyFilters();
+        }
+    );
+
+
+    // ======================================================
+    // PRIORITY RANK
+    // ======================================================
+
+    const priorityRank = {
+
+        Critical: 5,
+
+        High: 4,
+
+        Medium: 3,
+
+        Low: 2,
+
+        Review: 1
+    };
+
+
+    // ======================================================
+    // SORT
+    // ======================================================
+
+    function sortFindings() {
+
+        const mode =
+            sortSelect.value;
+
+
+        const sorted =
+            [...findings];
+
+
+        sorted.sort(
+            (a, b) => {
+
+                if (
+                    mode
+                    ===
+                    "priority-desc"
+                ) {
+
+                    return (
+                        (
+                            priorityRank[
+                                b.dataset.priority
+                            ]
+                            ||
+                            0
+                        )
+                        -
+                        (
+                            priorityRank[
+                                a.dataset.priority
+                            ]
+                            ||
+                            0
+                        )
+                    );
+                }
+
+
+                if (
+                    mode
+                    ===
+                    "priority-asc"
+                ) {
+
+                    return (
+                        (
+                            priorityRank[
+                                a.dataset.priority
+                            ]
+                            ||
+                            0
+                        )
+                        -
+                        (
+                            priorityRank[
+                                b.dataset.priority
+                            ]
+                            ||
+                            0
+                        )
+                    );
+                }
+
+
+                if (
+                    mode
+                    ===
+                    "category"
+                ) {
+
+                    return (
+                        a.dataset.category
+                        .localeCompare(
+                            b.dataset.category
+                        )
+                    );
+                }
+
+
+                if (
+                    mode
+                    ===
+                    "rule"
+                ) {
+
+                    return (
+                        a.dataset.rule
+                        .localeCompare(
+                            b.dataset.rule
+                        )
+                    );
+                }
+
+
+                if (
+                    mode
+                    ===
+                    "source"
+                ) {
+
+                    return (
+                        a.dataset.status
+                        .localeCompare(
+                            b.dataset.status
+                        )
+                    );
+                }
+
+
+                if (
+                    mode
+                    ===
+                    "unchecked-first"
+                ) {
+
+                    const aChecked =
+                        a.querySelector(
+                            ".review-checkbox"
+                        ).checked
+                            ?
+                            1
+                            :
+                            0;
+
+                    const bChecked =
+                        b.querySelector(
+                            ".review-checkbox"
+                        ).checked
+                            ?
+                            1
+                            :
+                            0;
+
+
+                    if (
+                        aChecked
+                        !==
+                        bChecked
+                    ) {
+
+                        return (
+                            aChecked
+                            -
+                            bChecked
+                        );
+                    }
+                }
+
+
+                return (
+                    Number(
+                        a.dataset.number
+                    )
+                    -
+                    Number(
+                        b.dataset.number
+                    )
+                );
+            }
+        );
+
+
+        sorted.forEach(
+            finding => {
+
+                container.appendChild(
+                    finding
+                );
+            }
+        );
+    }
+
+
+    sortSelect.addEventListener(
+        "change",
+        sortFindings
+    );
+
+
+    // ======================================================
+    // REVIEW CHECKBOX
+    // ======================================================
+
+    findings.forEach(
+        finding => {
+
+            const checkbox =
+                finding.querySelector(
+                    ".review-checkbox"
+                );
+
+
+            if (!checkbox) {
+                return;
+            }
+
+
+            checkbox.addEventListener(
+                "change",
+                () => {
+
+                    saveReviewState(
+                        checkbox,
+                        finding
+                    );
+
+
+                    updateProgress();
+
+
+                    if (
+                        state.uncheckedOnly
+                    ) {
+
+                        applyFilters();
+                    }
+
+
+                    if (
+                        sortSelect.value
+                        ===
+                        "unchecked-first"
+                    ) {
+
+                        sortFindings();
+                    }
+                }
+            );
+        }
+    );
+
+
+    // ======================================================
+    // UNCHECKED ONLY
+    // ======================================================
+
+    const uncheckedButton =
+        document.getElementById(
+            "uncheckedOnlyButton"
+        );
+
+
+    uncheckedButton.addEventListener(
+        "click",
+        () => {
+
+            state.uncheckedOnly =
+                !state.uncheckedOnly;
+
+
+            uncheckedButton.classList.toggle(
+                "active",
+                state.uncheckedOnly
+            );
+
+
+            uncheckedButton.textContent =
+                state.uncheckedOnly
+                    ?
+                    "☑ Unchecked only"
+                    :
+                    "☐ Unchecked only";
+
+
+            applyFilters();
+        }
+    );
+
+
+    // ======================================================
+    // EXPAND
+    // ======================================================
+
+    document
+        .getElementById(
+            "expandAllButton"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                findings.forEach(
+                    finding => {
+
+                        if (
+                            finding.style.display
+                            ===
+                            "none"
+                        ) {
+
+                            return;
+                        }
+
+
+                        const details =
+                            finding.querySelector(
+                                "details"
+                            );
+
+
+                        if (details) {
+
+                            details.open =
+                                true;
+                        }
+                    }
+                );
+            }
+        );
+
+
+    // ======================================================
+    // COLLAPSE
+    // ======================================================
+
+    document
+        .getElementById(
+            "collapseAllButton"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                findings.forEach(
+                    finding => {
+
+                        const details =
+                            finding.querySelector(
+                                "details"
+                            );
+
+
+                        if (details) {
+
+                            details.open =
+                                false;
+                        }
+                    }
+                );
+            }
+        );
+
+
+    // ======================================================
+    // PRINT
+    // ======================================================
+
+    document
+        .getElementById(
+            "printButton"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                window.print();
+            }
+        );
+
+
+    // ======================================================
+    // RESET FILTERS
+    // ======================================================
+
+    document
+        .getElementById(
+            "resetFiltersButton"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                state.priority =
+                    "all";
+
+                state.source =
+                    "all";
+
+                state.category =
+                    "all";
+
+                state.rule =
+                    "all";
+
+                state.search =
+                    "";
+
+                state.uncheckedOnly =
+                    false;
+
+
+                searchInput.value =
+                    "";
+
+
+                uncheckedButton.classList.remove(
+                    "active"
+                );
+
+
+                uncheckedButton.textContent =
+                    "☐ Unchecked only";
+
+
+                document
+                    .querySelectorAll(
+                        ".filter-button"
+                    )
+                    .forEach(
+                        button =>
+                            button.classList.remove(
+                                "active"
+                            )
+                    );
+
+
+                document
+                    .querySelectorAll(
+                        '[data-filter="all"]'
+                    )
+                    .forEach(
+                        button =>
+                            button.classList.add(
+                                "active"
+                            )
+                    );
+
+
+                sortSelect.value =
+                    "number";
+
+
+                applyFilters();
+            }
+        );
+
+
+    // ======================================================
+    // CLEAR REVIEW CHECKS
+    // ======================================================
+
+    document
+        .getElementById(
+            "clearReviewButton"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                const confirmed =
+                    window.confirm(
+                        "Clear all reviewed checkmarks "
+                        +
+                        "for this report?"
+                    );
+
+
+                if (!confirmed) {
+                    return;
+                }
+
+
+                findings.forEach(
+                    finding => {
+
+                        const checkbox =
+                            finding.querySelector(
+                                ".review-checkbox"
+                            );
+
+
+                        if (!checkbox) {
+                            return;
+                        }
+
+
+                        checkbox.checked =
+                            false;
+
+
+                        finding.classList.remove(
+                            "reviewed"
+                        );
+
+
+                        localStorage.removeItem(
+                            storagePrefix
+                            +
+                            checkbox.dataset.issueId
+                        );
+                    }
+                );
+
+
+                updateProgress();
+
+                applyFilters();
+            }
+        );
+
+
+    // ======================================================
+    // INITIALIZE
+    // ======================================================
+
+    loadReviewState();
+
+    updateProgress();
+
+    applyFilters();
+
+})();
+
+</script>
+
+
+</div>
+
+</body>
+
+</html>

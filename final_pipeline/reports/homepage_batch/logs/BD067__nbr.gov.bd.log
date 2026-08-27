@@ -1,0 +1,447 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://nbr.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://nbr.gov.bd
+Status: 200
+Analyzable: True
+Findings: 161
+
+issue_category       issue severity                                                                                                                                                                                  selector
+         image   empty_alt   medium div.row > div.col-md-12.col-sm-12 > header.main-header > div.header-upper:nth-of-type(1) > div.auto-container > div.clearfix > div.col-md-3.col-sm-12:nth-of-type(2) > img:nth-of-type(1)
+         image   empty_alt   medium div.row > div.col-md-12.col-sm-12 > header.main-header > div.header-upper:nth-of-type(1) > div.auto-container > div.clearfix > div.col-md-3.col-sm-12:nth-of-type(2) > img:nth-of-type(2)
+         image   empty_alt   medium div.row > div.col-md-12.col-sm-12 > header.main-header > div.header-upper:nth-of-type(1) > div.auto-container > div.clearfix > div.col-md-3.col-sm-12:nth-of-type(2) > img:nth-of-type(3)
+         image missing_alt     high                                                                                                                                            div#cssmenu > ul > li:nth-of-type(1) > a > img
+         image missing_alt     high                                                                                                                   div#jssor_html5_AdWords > div:nth-of-type(2) > div:nth-of-type(1) > img
+         image missing_alt     high                                                                                                                   div#jssor_html5_AdWords > div:nth-of-type(2) > div:nth-of-type(2) > img
+         image missing_alt     high                                                                                                                   div#jssor_html5_AdWords > div:nth-of-type(2) > div:nth-of-type(3) > img
+         image missing_alt     high                                                                                                                   div#jssor_html5_AdWords > div:nth-of-type(2) > div:nth-of-type(4) > img
+         image missing_alt     high                                                                                                                   div#jssor_html5_AdWords > div:nth-of-type(2) > div:nth-of-type(5) > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(1) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(2) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(3) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(4) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(5) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(6) > a > img
+         image missing_alt     high                  section.main-slider.services-section > div.auto-container > div.clearfix > div.col-md-12.col-xs-12:nth-of-type(4) > div.owl-carousel > div.item:nth-of-type(7) > a > img
+         image missing_alt     high                                                                          div.row > div.cell.w-100 > ul.list > table.table.table-striped > tr:nth-of-type(1) > td:nth-of-type(4) > a > img
+         image missing_alt     high                                                                          div.row > div.cell.w-100 > ul.list > table.table.table-striped > tr:nth-of-type(2) > td:nth-of-type(4) > a > img
+         image missing_alt     high                                                                          div.row > div.cell.w-100 > ul.list > table.table.table-striped > tr:nth-of-type(3) > td:nth-of-type(4) > a > img
+         image missing_alt     high                                                                          div.row > div.cell.w-100 > ul.list > table.table.table-striped > tr:nth-of-type(4) > td:nth-of-type(4) > a > img
+
+CSV: final_pipeline/data/intermediate/custom_live/nbr.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/nbr.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://nbr.gov.bd
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://nbr.gov.bd/
+Page title: National Board of Revenue (NBR), Bangladesh
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 12
+Violation nodes: 134
+Incomplete rules: 2
+Incomplete nodes: 156
+Passed rules: 49
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 1
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: iframe[width="100%"] .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=MBDcyua0dFA"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">ট্যাক্স দিন, দেশকে এগিয়ে নিন</span></a>
+
+aria-prohibited-attr | impact: serious | nodes: 1
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: iframe[width="100%"] #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" ar
+
+color-contrast | impact: serious | nodes: 17
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .image-container.column.col-md-3 > div > p
+  HTML: <p style="font-size: 9px; margin-top:-10px">e-Return Hotline Number </p>
+  Selector: .contact-info > ul > li:nth-child(1) > a[href$="eng"][target="_blank"]
+  HTML: <a href="https://nbr.gov.bd/all-faq/eng" target="_blank">FAQ</a>
+  Selector: .contact-info > ul > li:nth-child(2) > a[target="_blank"]
+  HTML: <a href="https://nbr.gov.bd/about-us/nbr-officers-list/eng" target="_blank">Contact</a>
+
+frame-title | impact: serious | nodes: 2
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: iframe[width="100%"]
+  HTML: <iframe width="100%" src="https://www.youtube.com/embed/MBDcyua0dFA?si=c_0lWv5p6jHSpQin" frameborder="0" allowfullscreen=""></iframe>
+  Selector: iframe[width="250"]
+  HTML: <iframe src="https://www.google.c..." width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-dow...">
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .list > .table-striped > tbody > tr:nth-child(1) > td:nth-child(3) > h5
+  HTML: <h5>25-08-2026</h5>
+
+html-has-lang | impact: serious | nodes: 1
+  Help: <html> element must have a lang attribute
+  Tags: cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1
+  Selector: html
+  HTML: <html>
+
+image-alt | impact: critical | nodes: 41
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: li:nth-child(1) > a[href$="nbr.gov.bd/"] > img
+  HTML: <img src="https://nbr.gov.bd//frontend/images/home.png" style="vertical-align: top;">
+  Selector: div[data-p="68.75"]:nth-child(2) > img
+  HTML: <img src="https://nbr.gov.bd/uploads/sliders/New_building_3_2.jpg">
+  Selector: div[data-p="68.75"]:nth-child(3) > img
+  HTML: <img src="https://nbr.gov.bd/uploads/sliders/NBR_Web_Banner_01.jpg">
+
+input-button-name | impact: critical | nodes: 1
+  Help: Input buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .c-tabs__item:nth-child(1) > .c-tabs__content.is-open > form[method="post"] > .btnUpload[type="submit"]
+  HTML: <input type="submit" value="" class="btnUpload">
+
+link-name | impact: serious | nodes: 34
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .contact-info > ul > li:nth-child(4) > a[target="_blank"]
+  HTML: <a target="_blank" href="https://www.facebook.com/nbr.bangladesh"> <span style="color: #3B5998" class="fa fa-facebook-f"></span> </a>
+  Selector: .contact-info > ul > li:nth-child(5) > a[target="_blank"]
+  HTML: <a target="_blank" href="https://www.youtube.com/@nbr.bangladesh"> <span style="color: #FF0033" class="fa fa-youtube-play"></span> </a>
+  Selector: .contact-info > ul > li:nth-child(6) > a[href="#"]
+  HTML: <a href="#"> <span style="color: #1DA1F2" class="fa fa-twitter"></span> </a>
+
+list | impact: serious | nodes: 1
+  Help: <ul> and <ol> must only directly contain <li>, <script> or <template> elements
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .cell.w-100 > .list
+  HTML: <ul class="list">
+
+meta-viewport | impact: moderate | nodes: 1
+  Help: Zooming and scaling must not be disabled
+  Tags: cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2
+  Selector: meta[name="viewport"]:nth-child(25)
+  HTML: <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+region | impact: moderate | nodes: 33
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: section > .auto-container > .clearfix > .column.col-sm-12.col-xs-12
+  HTML: <div class="col-md-12 col-sm-12 col-xs-12 column" style="border-bottom: 1px solid #afddb9; padding: 7px; margin-top: 0%; margin-bottom: .2%;">
+  Selector: div[data-p="68.75"]:nth-child(2) > img
+  HTML: <img src="https://nbr.gov.bd/uploads/sliders/New_building_3_2.jpg">
+  Selector: div[data-p="68.75"]:nth-child(3) > img
+  HTML: <img src="https://nbr.gov.bd/uploads/sliders/NBR_Web_Banner_01.jpg">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/nbr.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/nbr.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 290
+
+Axe result types:
+result_type
+incomplete    156
+violation     134
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_incomplete    156
+axe_only          134
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               282
+third_party_embed            6
+first_party_integration      2
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/nbr.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://nbr.gov.bd/
+Unified findings: 290
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/nbr.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/nbr.gov.bd__context_findings.csv
+Total unified findings: 290
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+Unified findings: 290
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete    156
+axe_only          134
+
+Priority:
+priority
+Review      156
+High         56
+Critical     43
+Medium       35
+
+Categories:
+category
+Color contrast          172
+Images                   41
+Links                    34
+Landmarks                33
+Other                     3
+ARIA                      2
+Frames                    2
+Headings                  1
+Structure                 1
+Visual accessibility      1
+
+Top rules:
+primary_rule
+color-contrast          172
+image-alt                41
+link-name                34
+region                   33
+frame-title               2
+aria-allowed-attr         1
+aria-prohibited-attr      1
+heading-order             1
+html-has-lang             1
+input-button-name         1
+list                      1
+meta-viewport             1
+frame-tested              1
+
+Context-aware recommendations: 0
+
+Third-party findings: 6
+
+Rules using fallback recommendation:
+ - frame-tested
+ - html-has-lang
+ - input-button-name
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/nbr.gov.bd__recommendations.csv
+final_pipeline/reports/live/nbr.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://nbr.gov.bd
+
+Host:
+nbr.gov.bd
+
+Output stem:
+nbr.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://nbr.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+nbr.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://nbr.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/nbr.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/nbr.gov.bd__axe.json
+Rendered URL: https://nbr.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/nbr.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: nbr.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/nbr.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/nbr.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/nbr.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/nbr.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/nbr.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/nbr.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://nbr.gov.bd
+
+Rendered URL:
+https://nbr.gov.bd/
+
+Analysis stem:
+nbr.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/nbr.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/nbr.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/nbr.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/nbr.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/nbr.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

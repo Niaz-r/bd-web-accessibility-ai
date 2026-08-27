@@ -1,0 +1,37 @@
+HOMEPAGE-LEVEL EXPERIMENTAL EVALUATION
+========================================================================
+
+Sampling frame:
+Attempted homepages: 80
+Completed analyses: 65
+Completion rate: 81.25%
+Not analyzable: 10
+Failed/excluded: 5
+
+Organization groups:
+  Public University: 20 attempted, 20 completed
+  Private University: 20 attempted, 17 completed
+  News: 20 attempted, 12 completed
+  Government: 20 attempted, 16 completed
+
+Unified finding results:
+Total unified findings: 10394
+Confirmed by both: 508
+Custom only: 1384
+axe only: 5338
+axe incomplete: 3164
+Overlap among comparable violation findings: 7.03%
+
+Contextual remediation:
+Context-dependent findings processed: 1121
+
+Methodology note:
+This exporter includes only pages belonging to the 80-homepage experimental sampling frame and only completed pipeline outputs. Earlier development and manual test pages are excluded.
+
+The homepage experiment is separate from the frozen multi-page historical dataset and must not be used to recompute the original study statistics.
+
+Homepage-level findings should not be interpreted as representing complete website-wide WCAG conformance.
+
+axe incomplete findings are retained separately and are not treated as confirmed violations.
+
+Context confidence represents strength of extracted contextual evidence rather than WCAG conformance certainty.

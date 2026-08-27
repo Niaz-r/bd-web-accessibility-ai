@@ -1,0 +1,13 @@
+experiment_group,actionability,count,percent
+Public University,directly_reviewable,4942,97.94
+Public University,third_party_controlled,89,1.76
+Public University,directly_fixable,15,0.3
+Private University,directly_reviewable,2128,96.29
+Private University,third_party_controlled,78,3.53
+Private University,directly_fixable,4,0.18
+News,directly_reviewable,1212,83.01
+News,third_party_controlled,230,15.75
+News,directly_fixable,18,1.23
+Government,directly_reviewable,1618,96.42
+Government,third_party_controlled,45,2.68
+Government,directly_fixable,15,0.89

@@ -1,0 +1,501 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".upper-element.nav-item.dropdown:nth-child(1) > .nav-link[href$=""students""]","<a class=""nav-link "" href=""https://green.edu.bd/students"" id=""navbarDropdown"">
+                                        Students
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,1
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.upper-element.nav-item.dropdown:nth-child(2) > .nav-link,"<a class=""nav-link"" href=""https://green.edu.bd/prospective-students"" id=""navbarDropdown"">
+                                        Prospective Student
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,2
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.upper-element.nav-item.dropdown:nth-child(3) > .nav-link,"<a class=""nav-link"" href=""https://green.edu.bd/faculty-staff"" id=""navbarDropdown"">
+                                        Faculty &amp; Staff
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,3
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""iqac.green.edu.bd/""]","<a class=""nav-link"" target=""_blank"" href=""https://iqac.green.edu.bd/"" id=""navbarDropdown"">
+                                        IQAC
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,4
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""sdgs.green.edu.bd/""]","<a class=""nav-link"" target=""_blank"" href=""https://sdgs.green.edu.bd/"" id=""navbarDropdown"">
+                                        SDGs
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,5
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".upper-element.nav-item.dropdown:nth-child(6) > a[href$=""library.green.edu.bd/""]","<a class=""nav-link"" target=""_blank"" href=""https://library.green.edu.bd/"" id=""navbarDropdown"">
+                                        Library
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,6
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".upper-element.nav-item.dropdown:nth-child(7) > .nav-link[target=""_blank""]","<a class=""nav-link"" target=""_blank"" href=""https://archive-site.green.edu.bd/"" id=""navbarDropdown"">
+                                        Archived Website
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,7
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".nav-link[href$=""news""]","<a class=""nav-link"" href=""https://green.edu.bd/news"" id=""navbarDropdown"">
+                                        News
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,8
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".nav-link[href$=""notice""]","<a class=""nav-link "" href=""https://green.edu.bd/notice"" id=""navbarDropdown"">
+                                        Notice
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,9
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""docapply.green.edu.bd/""]","<a class=""nav-link"" target=""_blank"" href=""https://docapply.green.edu.bd/"" id=""navbarDropdown"">
+                                        Document Request
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,10
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.upper-element.nav-item.dropdown:nth-child(11) > .nav-link,"<a class=""nav-link "" href=""https://gums.green.edu.bd/OnlineDegreeVerification.aspx"" id=""navbarDropdown"">
+                                        Degree Verification
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,11
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".nav-link.dropdown[role=""button""]","<a class=""nav-link dropdown"" href=""https://green.edu.bd/search-form"" id=""navbarDropdown"" role=""button"" aria-expanded=""false"">
+                                        <i style=""margin-right: 5px"" class=""bi bi-search""></i>  Search
+                                    </a>","Fix any of the following:
+  Element has insufficient color contrast of 4.01 between the foreground and shadow color (foreground color: #ffffff, text-shadow color: #078aab, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",serious,12
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.center > .campus-life-carousel-item > .ab_cl-box-content > .ab_material-link-1 > .campus-life-more-btn,"<a class=""campus-life-more-btn"" href=""https://green.edu.bd/news-details/green-business-school-organizes-empowering-youth-session-2-with-prime-bank-plc"">","Fix any of the following:
+  Element has insufficient color contrast of 2.2 (foreground color: #1b9cfc, background color: #e4dfdf, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,13
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.active.owl-item:nth-child(4) > .campus-life-carousel-item > .ab_cl-box-content > .ab_material-link-1 > .campus-life-more-btn,"<a class=""campus-life-more-btn"" href=""https://green.edu.bd/news-details/library-orientation-program-summer-2026"">","Fix any of the following:
+  Element has insufficient color contrast of 2.2 (foreground color: #1b9cfc, background color: #e4dfdf, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,14
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.xyz.card-dis1.col-md-4:nth-child(1) > .card.research-item.hover-up > .card-body > .more-option.hover-expand,"<a href=""https://green.edu.bd/news-details/research-fair-2026"" class=""more-option hover-expand"">","Fix any of the following:
+  Element has insufficient color contrast of 2.24 (foreground color: #32a5ec, background color: #ebe9e9, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,15
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.xyz.card-dis1.col-md-4:nth-child(2) > .card.research-item.hover-up > .card-body > .more-option.hover-expand,"<a href=""https://green.edu.bd/news-details/call-for-papers-sti-2026"" class=""more-option hover-expand"">","Fix any of the following:
+  Element has insufficient color contrast of 2.24 (foreground color: #32a5ec, background color: #ebe9e9, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,16
+https://green.edu.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.xyz.card-dis1.col-md-4:nth-child(3) > .card.research-item.hover-up > .card-body > .more-option.hover-expand,"<a href=""https://green.edu.bd/news-details/5th-international-conference-on-innovation-and-transformation-for-development-itd-2026"" class=""more-option hover-expand"">","Fix any of the following:
+  Element has insufficient color contrast of 2.24 (foreground color: #32a5ec, background color: #ebe9e9, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",serious,17
+https://green.edu.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.col-md-4.col-sm-12 > .animated-button1 > .upcoming-event-parent,"<h4 class=""upcoming-event-parent""></h4>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,1
+https://green.edu.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.center-block.col-md-6:nth-child(1) > .animated-button1 > .upcoming-event-parent,"<h4 class=""upcoming-event-parent""></h4>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,2
+https://green.edu.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.center-block.col-md-6:nth-child(2) > .animated-button1 > .upcoming-event-parent,"<h4 class=""upcoming-event-parent""></h4>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,3
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-designation,"<h6 class=""ab__slider--content-designation"">
+                        - Prof. Dr. Mohammad Shorif Uddin
+                    </h6>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.cloned.owl-item:nth-child(1) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>09-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,2
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.cloned.owl-item:nth-child(2) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>26-Jul-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,3
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.center > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>17-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,4
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.active.owl-item:nth-child(4) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>16-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,5
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.owl-item:nth-child(5) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>09-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,6
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.owl-item:nth-child(6) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>26-Jul-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,7
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.cloned.owl-item:nth-child(7) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>17-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,8
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.cloned.owl-item:nth-child(8) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>16-Aug-26 </h6>,"Fix any of the following:
+  Heading order invalid",moderate,9
+https://green.edu.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.xyz.card-dis1.col-md-4:nth-child(1) > .card.research-item.hover-up > .card-body > a:nth-child(1) > .research-card-title,"<h5 class=""research-card-title"">Research Fair 2026</h5>","Fix any of the following:
+  Heading order invalid",moderate,10
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.statistic-img,"<img class=""statistic-img"" src=""https://green.edu.bd/public//images/art.svg"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-sm-6.col-6.col-md-3:nth-child(1) > .statistic-card > .static-header > .static-icon,"<img src=""https://green.edu.bd/public/images/Statistics/Students.svg"" class=""static-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-sm-6.col-6.col-md-3:nth-child(2) > .statistic-card > .static-header > .static-icon,"<img src=""https://green.edu.bd/public/images/Statistics/faculty.svg"" class=""static-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-sm-6.col-6.col-md-3:nth-child(3) > .statistic-card > .static-header > .static-icon,"<img src=""https://green.edu.bd/public/images/Statistics/Graduates.svg"" class=""static-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-sm-6.col-6.col-md-3:nth-child(4) > .statistic-card > .static-header > .static-icon,"<img src=""https://green.edu.bd/public/images/Statistics/research.svg"" class=""static-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.faculty-fse > .side1.side > .img-info > a > img,"<img src=""https://green.edu.bd/public/images/flty-cover/fse.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.faculty-fbs > .side1.side > .img-info > a > img,"<img src=""https://green.edu.bd/public/images/flty-cover/fbs.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,7
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.faculty-fass > .side1.side > .img-info > a > img,"<img src=""https://green.edu.bd/public/images/flty-cover/fass.svg"" style=""max-width:200px; height:100px"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,8
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.faculty-flaw > .side1.side > .img-info > a > img,"<img src=""https://green.edu.bd/public/images/flty-cover/law.png"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,9
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".col-md-4.col-sm-12 > .animated-button1 > img[width=""100%""]","<img src=""https://admin.green.edu.bd/storage/images/law/manupatra-1787292686.png"" width=""100%"" style=""height: 250px"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,10
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".center-block.col-md-6:nth-child(1) > .animated-button1 > img[width=""100%""]","<img src=""https://admin.green.edu.bd/storage/images/eng/alumni-get-together-banner-1786867735.jpeg"" width=""100%"" style=""height: 250px"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,11
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,".center-block.col-md-6:nth-child(2) > .animated-button1 > img[width=""100%""]","<img src=""https://admin.green.edu.bd/storage/images/student-affairs/certificate-giving-ceremony-of-the-leadership-training-program-2026-1787330681.png"" width=""100%"" style=""height: 250px"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,12
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-md-3:nth-child(2) > .research-grants-card.card-dis5 > h2 > .research-grants-icon,"<img src=""https://green.edu.bd/public/images/Statistics/journals.svg"" class=""research-grants-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,13
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-md-3:nth-child(3) > .research-grants-card.card-dis5 > h2 > .research-grants-icon,"<img src=""https://green.edu.bd/public/images/Statistics/conference.svg"" class=""research-grants-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,14
+https://green.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.col-md-3:nth-child(4) > .research-grants-card.card-dis5 > h2 > .research-grants-icon,"<img src=""https://green.edu.bd/public/images/Statistics/budget.svg"" class=""research-grants-icon"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,15
+https://green.edu.bd/,violation,label,critical,Ensure every form element has a label,Form elements must have labels,https://dequeuniversity.com/rules/axe/4.13/label?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#s2,"<input type=""radio"" class=""slide-input"" name=""slider"" onclick=""slider2();"" id=""s2"">","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://green.edu.bd/,violation,label,critical,Ensure every form element has a label,Form elements must have labels,https://dequeuniversity.com/rules/axe/4.13/label?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#s3,"<input type=""radio"" class=""slide-input"" name=""slider"" onclick=""slider3();"" id=""s3"">","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://green.edu.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html lang=""en"" class=""fontawesome-i2svg-active fontawesome-i2svg-complete"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://green.edu.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,.start-0.position-absolute.top-0 > .navbar-light,"<nav class=""navbar navbar-expand-lg navbar-light "">","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".nav-item.dropdown:nth-child(2) > .dropdown-toggle.nav-link[role=""button""]","<a class=""nav-link dropdown-toggle"" href=""https://www.facebook.com/greenuniversitybd"" id=""navbarDropdown"" role=""button"" aria-expanded=""false"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".nav-item.dropdown:nth-child(3) > .dropdown-toggle.nav-link[role=""button""]","<a class=""nav-link dropdown-toggle"" href=""https://green.edu.bd/contact-us"" id=""navbarDropdown"" role=""button"" aria-expanded=""false"">
+                                        <i class=""bi bi-telephone-fill""></i>
+                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".nav-item.dropdown:nth-child(4) > .dropdown-toggle.nav-link[role=""button""]","<a class=""nav-link dropdown-toggle"" href=""https://www.youtube.com/user/greenuniversitybd"" id=""navbarDropdown"" role=""button"" aria-expanded=""false"">
+                                        <i class=""bi bi-youtube""></i>
+                                    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.xyz.card-dis1.col-md-4:nth-child(1) > a,"<a href=""https://green.edu.bd/news-details/research-fair-2026"" style=""text-decoration: none"">
+                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.xyz.card-dis1.col-md-4:nth-child(2) > a,"<a href=""https://green.edu.bd/news-details/call-for-papers-sti-2026"" style=""text-decoration: none"">
+                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.xyz.card-dis1.col-md-4:nth-child(3) > a,"<a href=""https://green.edu.bd/news-details/5th-international-conference-on-innovation-and-transformation-for-development-itd-2026"" style=""text-decoration: none"">
+                            </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-square.btn-outline-light.me-1:nth-child(1),"<a class=""btn btn-square btn-outline-light me-1"" href=""https://www.facebook.com/greenuniversitybd"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-square.btn-outline-light.me-1:nth-child(2),"<a class=""btn btn-square btn-outline-light me-1"" href=""http://youtube.com/user/greenuniversitybd"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-square.btn-outline-light.me-1:nth-child(3),"<a class=""btn btn-square btn-outline-light me-1"" href=""https://twitter.com/greenvarsity"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-square.btn-outline-light.me-1:nth-child(4),"<a class=""btn btn-square btn-outline-light me-1"" href=""https://www.linkedin.com/school/greenuniversity/"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://green.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.btn-square.btn-outline-light.me-1:nth-child(5),"<a class=""btn btn-square btn-outline-light me-1"" href=""https://www.instagram.com/greenuniversitybd/"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,section:nth-child(5),<section>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.statistic,"<section class=""statistic"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#s1,"<input type=""radio"" class=""slide-input"" name=""slider"" onclick=""slider1();"" id=""s1"" checked="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#s2,"<input type=""radio"" class=""slide-input"" name=""slider"" onclick=""slider2();"" id=""s2"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#s3,"<input type=""radio"" class=""slide-input"" name=""slider"" onclick=""slider3();"" id=""s3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#slide1,"<label for=""s1"" class=""ab__slider--label"" id=""slide1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.faculty-sec-header,"<h2 class=""faculty-sec-header"">Faculties</h2>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.faculty-fse > .side1.side,"<div class=""side side1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""cse.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://cse.green.edu.bd/"">Dept. of Computer Science and Engineering</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""eee.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://eee.green.edu.bd/"">Dept. of Electrical and Electronics Engineering</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""tex.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://tex.green.edu.bd/"">Dept. of Textile Engineering</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""swe.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://swe.green.edu.bd/"">Dept. of Software Engineering</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.faculty-fbs > .side1.side,"<div class=""side side1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""bus.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://bus.green.edu.bd/"">Dept. of Business Administration</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.faculty-fass > .side1.side,"<div class=""side side1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""eng.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://eng.green.edu.bd/"">Dept. of English</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""soc.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://soc.green.edu.bd/"">Department of Sociology</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""jmc.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://jmc.green.edu.bd/"">Dept. of Journalism &amp; Media Communication</a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.faculty-flaw > .side1.side,"<div class=""side side1"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".linkbtn[href$=""law.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://law.green.edu.bd/"">Dept. of Law </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,20
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,body > .container-fluid,"<section class=""container-fluid"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,21
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.upcoming-event,"<section class=""upcoming-event"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,22
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.research-title,"<div class=""research-title"">
+                <p class=""research-title-text"">Research &amp; Publication</p><p>
+            </p></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,23
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,section:nth-child(20) > .container-fluid > .container > .row,"<div class=""row"" style=""margin-top: 40px"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,24
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6.col-lg-3:nth-child(1),"<div class=""col-lg-3 col-md-6"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,25
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-lg-4,"<div class=""col-lg-4 col-md-6"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,26
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-lg-2,"<div class=""col-lg-2 col-md-6"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,27
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6.col-lg-3:nth-child(4) > .text-white.footer-header.mb-4:nth-child(1),"<h5 class=""footer-header text-white mb-4"">Get in touch</h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,28
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(2),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/contact-us"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,29
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(3),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/campus-map"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,30
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(4),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/photo-gallery"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,31
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.text-white.footer-header.mb-4:nth-child(6),"<h5 class=""footer-header text-white  mb-4"">Follow Us</h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,32
+https://green.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.copyright,"<div class=""container-fluid copyright text-light py-4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,33
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(1) > .statistic-card > .static-header > .count,"<span class=""count"">2432</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,1
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(1) > .statistic-card > .static-second-header,"<p class=""static-second-header"">Students</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(2) > .statistic-card > .static-header > .count,"<span class=""count"">105</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,3
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(2) > .statistic-card > .static-second-header,"<p class=""static-second-header"">Faculty</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,4
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(3) > .statistic-card > .static-header > .count,"<span class=""count"">2775</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,5
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(3) > .statistic-card > .static-second-header,"<p class=""static-second-header"">Graduates</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,6
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(4) > .statistic-card > .static-header > .count,"<span class=""count"">278</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,7
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-6.col-md-3:nth-child(4) > .statistic-card > .static-second-header,"<p class=""static-second-header"">Research Papers</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,8
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-head,"<h3 class=""ab__slider--content-head"">
+                        Message from <br> the Vice Chancellor 
+                    </h3>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,9
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-body,"<p class=""ab__slider--content-body"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,10
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-body > .learnmorebtn,"<a href=""https://green.edu.bd/message-of-the-vice-chancellor"" class=""learnmorebtn""> Read more..</a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,11
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-designation,"<h6 class=""ab__slider--content-designation"">
+                        - Prof. Dr. Mohammad Shorif Uddin
+                    </h6>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,12
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.faculty-sec-header,"<h2 class=""faculty-sec-header"">Faculties</h2>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,13
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""cse.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://cse.green.edu.bd/"">Dept. of Computer Science and Engineering</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,14
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""eee.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://eee.green.edu.bd/"">Dept. of Electrical and Electronics Engineering</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,15
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""tex.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://tex.green.edu.bd/"">Dept. of Textile Engineering</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,16
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""swe.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://swe.green.edu.bd/"">Dept. of Software Engineering</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,17
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""bus.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://bus.green.edu.bd/"">Dept. of Business Administration</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,18
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.faculty-fass > .side1.side > .img-info > a > h3,<h3>Faculty of Arts &amp; Social Sciences</h3>,"Fix any of the following:
+  Element's background color could not be determined because it partially overlaps other elements",serious,19
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""eng.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""https://eng.green.edu.bd/"">Dept. of English</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,20
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""soc.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://soc.green.edu.bd/"">Department of Sociology</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,21
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""jmc.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://jmc.green.edu.bd/"">Dept. of Journalism &amp; Media Communication</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,22
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".linkbtn[href$=""law.green.edu.bd/""][target=""_blank""]","<a class=""linkbtn"" target=""_blank"" href=""http://law.green.edu.bd/"">Dept. of Law </a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,23
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.center > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>17-Aug-26 </h6>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,24
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.active.owl-item:nth-child(4) > .campus-life-carousel-item > .ab_cl-box-image > .ab_cl-box-date > h6,<h6>16-Aug-26 </h6>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,25
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.event-header,"<h2 class=""event-header"">Events</h2>","Fix any of the following:
+  Element's background color could not be determined because it's partially obscured by another element",serious,26
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-8 > .row > .more-btn.hover-expand,"<a href=""https://green.edu.bd/upcoming-events"" class=""more-btn hover-expand"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,27
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6.col-lg-3:nth-child(1) > .text-white.footer-header.mb-4,"<h5 class=""footer-header text-white mb-4"">Find Us</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,28
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-2:nth-child(2),"<p class=""mb-2"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,29
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-2:nth-child(3),"<p class=""mb-2"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,30
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-2:nth-child(4),"<p class=""mb-2"">01324713503, 01324713502, 01324713504, 01324713505, 01324713506, 01324713507, 01324713508</p>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,31
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-2:nth-child(5),"<p class=""mb-2"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,32
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-4 > .text-light.footer-header.mb-4,"<h5 class=""footer-header text-light mb-4"">Departmental Sites</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,33
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""bus.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://bus.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,34
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""cse.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://cse.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,35
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""swe.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://swe.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,36
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""ads.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://ads.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,37
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""eee.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://eee.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,38
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""eng.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://eng.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,39
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""jmc.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://jmc.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,40
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""law.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://law.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,41
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""soc.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://soc.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,42
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""tex.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://tex.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,43
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-2 > .text-light.footer-header.mb-4,"<h5 class=""footer-header text-light mb-4"">Useful Links</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,44
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-2 > .btn-link.footer-link.btn:nth-child(2),"<a class=""btn btn-link footer-link"" href=""https://convocation.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,45
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-lg-2 > .btn-link.footer-link.btn:nth-child(3),"<a class=""btn btn-link footer-link"" href=""https://archive-site.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,46
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""sti.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://sti.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,47
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""itd.green.edu.bd""]","<a class=""btn btn-link footer-link"" href=""https://itd.green.edu.bd"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,48
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".btn-link.footer-link[href$=""faq""]","<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/faq"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,49
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".btn-link.footer-link[href$=""forms""]","<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/forms"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,50
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6.col-lg-3:nth-child(4) > .text-white.footer-header.mb-4:nth-child(1),"<h5 class=""footer-header text-white mb-4"">Get in touch</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,51
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(2),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/contact-us"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,52
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(3),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/campus-map"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,53
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6.col-lg-3:nth-child(4) > .btn-link.footer-link.btn:nth-child(4),"<a class=""btn btn-link footer-link"" href=""https://green.edu.bd/photo-gallery"">","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,54
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-white.footer-header.mb-4:nth-child(6),"<h5 class=""footer-header text-white  mb-4"">Follow Us</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,55
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-md-start,"<div class=""col-md-6 text-center text-md-start mb-3 mb-md-0"">
+                    © 2003-2026<a href=""https://green.edu.bd""> Green University of Bangladesh</a>. All Rights Reserved.
+                </div>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,56
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".text-md-start > a[href$=""green.edu.bd""]","<a href=""https://green.edu.bd""> Green University of Bangladesh</a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,57
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-md-end,"<div class=""col-md-6 text-center text-md-end"">
+                    Developed By <a href=""https://green.edu.bd/office-of-gcits"">GCITS</a>
+                </div>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,58
+https://green.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-md-end > a,"<a href=""https://green.edu.bd/office-of-gcits"">GCITS</a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,59
+https://green.edu.bd/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,#slide1 > .ab__slider--content.slide-content > .ab__slider--content-body > .learnmorebtn,"<a href=""https://green.edu.bd/message-of-the-vice-chancellor"" class=""learnmorebtn""> Read more..</a>","Fix any of the following:
+  Element's contrast ratio could not be determined due to a background gradient",serious,1
+https://green.edu.bd/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,".text-md-start > a[href$=""green.edu.bd""]","<a href=""https://green.edu.bd""> Green University of Bangladesh</a>","Fix any of the following:
+  Element's contrast ratio could not be determined due to a background gradient",serious,2
+https://green.edu.bd/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,.text-md-end > a,"<a href=""https://green.edu.bd/office-of-gcits"">GCITS</a>","Fix any of the following:
+  Element's contrast ratio could not be determined due to a background gradient",serious,3

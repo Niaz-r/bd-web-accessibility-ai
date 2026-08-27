@@ -1,0 +1,452 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.northsouth.edu/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.northsouth.edu/
+Status: 200
+Analyzable: True
+Findings: 49
+
+issue_category               issue severity                                                                                                                                                                                   selector
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(1) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(2) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(3) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(4) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(5) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(6) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(7) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(8) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium           div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(9) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium          div.container-fluid.py-6:nth-of-type(3) > div.container > div.news-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(10) > div.card.border-0 > a > img.card-img-top.w-100
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(1) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(2) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(3) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(4) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(5) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(6) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(7) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(8) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium  div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(9) > div.card.border-0 > a > img.w-100.scheduled-event-img
+         image non_descriptive_alt   medium div.container-fluid.py-6:nth-of-type(4) > div.container > div.events-slider.mb-5:nth-of-type(2) > div.wow.fadeInUp:nth-of-type(10) > div.card.border-0 > a > img.w-100.scheduled-event-img
+
+CSV: final_pipeline/data/intermediate/custom_live/www.northsouth.edu__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.northsouth.edu__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.northsouth.edu/
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://www.northsouth.edu/
+Page title: Home | North South University
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 8
+Violation nodes: 34
+Incomplete rules: 2
+Incomplete nodes: 3
+Passed rules: 38
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-allowed-attr | impact: critical | nodes: 1
+  Help: Elements must only use supported ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .active.carousel-item > .ratio.ratio-16x9 > iframe[title="YouTube video"][allowfullscreen=""] .ytmVideoInfoVideoTitle
+  HTML: <a class="ytmVideoInfoVideoTitle" aria-level="2" href="https://www.youtube.com/watch?v=jsA_eu4UWAQ"><span class="ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap" style="">NSU FIFA World Cup Quiz Competition 2026</span></a>
+
+aria-prohibited-attr | impact: serious | nodes: 1
+  Help: Elements must only use permitted ARIA attributes
+  Tags: cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .active.carousel-item > .ratio.ratio-16x9 > iframe[title="YouTube video"][allowfullscreen=""] #movie_player
+  HTML: <div class="html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode" tabindex="" id="movie_player" data-version="/s/player/b7457b7c/player_embed.vflset/en_US/base.js" aria-label="YouTu
+
+button-name | impact: critical | nodes: 3
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .active.carousel-item > .ratio.ratio-16x9 > iframe[title="YouTube video"][allowfullscreen=""] .ytmVideoInfoChannelAvatar
+  HTML: <button class="ytmVideoInfoLink ytmVideoInfoChannelAvatar"><img class="ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill" alt="thumbnail-image" style="background-color
+  Selector: .carousel-control-prev[data-bs-target="#videoCarousel"][data-bs-slide="prev"]
+  HTML: <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev"> <span class="carousel-control-prev-icon"></span> </button>
+  Selector: .carousel-control-next[data-bs-target="#videoCarousel"][data-bs-slide="next"]
+  HTML: <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon"></span> </button>
+
+color-contrast | impact: serious | nodes: 1
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .active.h-auto.carousel-item > .profile-slide.row.align-items-center > .col-md-8.profile-content > p
+  HTML: <p>
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .col-sm-6.col-lg-2.col-md-4:nth-child(1) > .bg-white.p-3.shadow > .d-flex > .ps-3 > .mb-0
+  HTML: <h6 class="mb-0"> <a href="upcoming-events/"> Scheduled Events </a> </h6>
+
+image-alt | impact: critical | nodes: 2
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: #research-slider-1 > .carousel-inner > .active.carousel-item > a > .slider-img-preview.d-block
+  HTML: <img src="newassets/summer_25/img/research/genome-pic-1-new.png" class="d-block slider-img-preview">
+  Selector: .slick-current.slick-active[data-slick-index="3"] > .w-75.img-fluid.shadow
+  HTML: <img class="img-fluid w-75 shadow" src="newassets/summer_25/img/accre/ngri.png">
+
+link-name | impact: serious | nodes: 7
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .flex-shrink-0.btn-lg-square.bg-primary > a[href$="upcoming-events/"]
+  HTML: <a href="upcoming-events/"> <i class="fas fa-calendar-alt text-white"></i> </a>
+  Selector: .col-sm-6.col-lg-2.col-md-4:nth-child(2) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target="_blank"]
+  HTML: <a target="_blank" href="https://rds3.northsouth.edu/index.php/verification/verification"> <i class="fas fa-award text-white"></i> </a>
+  Selector: .col-sm-6.col-lg-2.col-md-4:nth-child(3) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target="_blank"]
+  HTML: <a target="_blank" href="https://admissions.northsouth.edu/"> <i class="fas fa-laptop text-white"></i> </a>
+
+region | impact: moderate | nodes: 18
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .bg-dark
+  HTML: <div class="container-fluid bg-dark text-light p-0">
+  Selector: #bg-video
+  HTML: <video id="bg-video" class="w-100" autoplay="" muted="" loop="" playsinline="" preload="auto" poster="newassets/summer_25/NSU-Convo-poster.png" style="display:block;">
+  Selector: .carousel-caption
+  HTML: <div class="carousel-caption">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.northsouth.edu__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.northsouth.edu__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 49
+Axe nodes: 37
+
+Axe result types:
+result_type
+violation     34
+incomplete     3
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 10
+Confirmed matches: 10
+
+Unified finding statuses:
+finding_status
+custom_only          39
+axe_only             24
+confirmed_by_both    10
+axe_incomplete        3
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name        7
+heading_order    heading-order    1
+missing_alt      image-alt        2
+
+Ownership scope:
+ownership_scope
+page_content         69
+third_party_embed     7
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                                                         match_method                                                                                                                       preferred_selector                                                   src                                                            href
+  heading_order heading-order          260 same_href+same_html+same_tag+same_text+class_overlap+selector_medium                                                .col-sm-6.col-lg-2.col-md-4:nth-child(1) > .bg-white.p-3.shadow > .d-flex > .ps-3 > .mb-0                                                                                                      upcoming-events/
+    missing_alt     image-alt          245              same_src+same_html+same_tag+class_overlap+selector_high                                           #research-slider-1 > .carousel-inner > .active.carousel-item > a > .slider-img-preview.d-block newassets/summer_25/img/research/genome-pic-1-new.png                                                                
+empty_link_text     link-name          220                         same_href+same_html+same_tag+selector_medium .col-sm-6.col-lg-2.col-md-4:nth-child(2) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target="_blank"]                                                       https://rds3.northsouth.edu/index.php/verification/verification
+empty_link_text     link-name          220                         same_href+same_html+same_tag+selector_medium .col-sm-6.col-lg-2.col-md-4:nth-child(3) > .bg-white.p-3.shadow > .d-flex > .flex-shrink-0.btn-lg-square.bg-primary > a[target="_blank"]                                                                                    https://admissions.northsouth.edu/
+    missing_alt     image-alt          210                            same_src+same_html+same_tag+class_overlap                                                               .slick-current.slick-active[data-slick-index="3"] > .w-75.img-fluid.shadow                newassets/summer_25/img/accre/ngri.png                                                                
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                    .flex-shrink-0.btn-lg-square.bg-primary > a[href$="upcoming-events/"]                                                                                                      upcoming-events/
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                             .flex-shrink-0.btn-lg-square.bg-primary > a[href$="jobs.northsouth.ac.bd/"][target="_blank"]                                                                                        https://jobs.northsouth.ac.bd/
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                  .flex-shrink-0.btn-lg-square.bg-primary > a[href$="nsu-directory.html"]                                                                                          resources/nsu-directory.html
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                             .flex-shrink-0.btn-lg-square.bg-primary > a[href$="tender/"]                                                                                                     resources/tender/
+empty_link_text     link-name          130                     same_html+same_tag+class_overlap+selector_medium                                                                                                                                  .btn-lg                                                                                                                     #
+
+Output: final_pipeline/data/intermediate/unified_live/www.northsouth.edu__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.northsouth.edu/
+Unified findings: 76
+Context-dependent findings: 24
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 24
+Unmatched: 0
+
+       custom_issue text         alt href                                                            src                                           nearby_heading                                                                                                                                                                                                                                                                           surrounding_context
+non_descriptive_alt  NaN  News Image  NaN              newassets/images/NSU News/drama25082026-copy.jpeg                                              Latest News                                                                            Nearby heading: Latest News | Parent text: North South University Wins UAP Drama Carnival 2.0 25/08/2026 | Next text: North South University Wins UAP Drama Carnival 2.0 | Image filename: drama25082026-copy.jpeg
+non_descriptive_alt  NaN  News Image  NaN                        newassets/images/NSU News/nsu250826.jpg       North South University Wins UAP Drama Carnival 2.0                       Nearby heading: North South University Wins UAP Drama Carnival 2.0 | Parent text: NSU Hosts Korean Cultural Exchange Festival 2026 25/08/2026 | Previous text: 25/08/2026 | Next text: NSU Hosts Korean Cultural Exchange Festival 2026 | Image filename: nsu250826.jpg
+non_descriptive_alt  NaN  News Image  NaN                       newassets/images/NSU News/agr250826.jpeg         NSU Hosts Korean Cultural Exchange Festival 2026            Nearby heading: NSU Hosts Korean Cultural Exchange Festival 2026 | Parent text: NSU Organizes Educational Field Trip for Agricultural… 23/08/2026 | Previous text: 25/08/2026 | Next text: NSU Organizes Educational Field Trip for Agricultural… | Image filename: agr250826.jpeg
+non_descriptive_alt  NaN  News Image  NaN                       newassets/images/NSU News/shss230826.jpg   NSU Organizes Educational Field Trip for Agricultural…          Nearby heading: NSU Organizes Educational Field Trip for Agricultural… | Parent text: SHSS Hosts Study Circle Session on Riverine History… 20/08/2026 | Previous text: 23/08/2026 | Next text: SHSS Hosts Study Circle Session on Riverine History… | Image filename: shss230826.jpg
+non_descriptive_alt  NaN  News Image  NaN                        newassets/images/NSU News/law180826.jpg     SHSS Hosts Study Circle Session on Riverine History…     Nearby heading: SHSS Hosts Study Circle Session on Riverine History… | Parent text: Center for Legal Research Hosts Talk Titled ‘Artificial… 18/08/2026 | Previous text: 20/08/2026 | Next text: Center for Legal Research Hosts Talk Titled ‘Artificial… | Image filename: law180826.jpg
+non_descriptive_alt  NaN  News Image  NaN                    newassets/images/NSU News/shukhee180826.jpg Center for Legal Research Hosts Talk Titled ‘Artificial… Nearby heading: Center for Legal Research Hosts Talk Titled ‘Artificial… | Parent text: NSU Community to Get Free 24/7 Mental Health Services… 17/08/2026 | Previous text: 18/08/2026 | Next text: NSU Community to Get Free 24/7 Mental Health Services… | Image filename: shukhee180826.jpg
+non_descriptive_alt  NaN  News Image  NaN                       newassets/images/NSU News/clr160826.jpeg   NSU Community to Get Free 24/7 Mental Health Services…  Nearby heading: NSU Community to Get Free 24/7 Mental Health Services… | Parent text: Center for Legal Research Hosts Talk Titled ‘Bangladesh… 14/08/2026 | Previous text: 17/08/2026 | Next text: Center for Legal Research Hosts Talk Titled ‘Bangladesh… | Image filename: clr160826.jpeg
+non_descriptive_alt  NaN  News Image  NaN                      newassets/images/NSU News/mamun130826.png Center for Legal Research Hosts Talk Titled ‘Bangladesh…               Nearby heading: Center for Legal Research Hosts Talk Titled ‘Bangladesh… | Parent text: Professor Dr. Md. Mamun Molla Elected Fellow of… 13/08/2026 | Previous text: 14/08/2026 | Next text: Professor Dr. Md. Mamun Molla Elected Fellow of… | Image filename: mamun130826.png
+non_descriptive_alt  NaN  News Image  NaN                  newassets/images/NSU News/anxiety13082026.jpg         Professor Dr. Md. Mamun Molla Elected Fellow of…     Nearby heading: Professor Dr. Md. Mamun Molla Elected Fellow of… | Parent text: NSU organizes “Beyond Exam Anxiety – Season 3” Workshop 12/08/2026 | Previous text: 13/08/2026 | Next text: NSU organizes “Beyond Exam Anxiety – Season 3” Workshop | Image filename: anxiety13082026.jpg
+non_descriptive_alt  NaN  News Image  NaN                       newassets/images/NSU News/nsu110826.jpeg  NSU organizes “Beyond Exam Anxiety – Season 3” Workshop         Nearby heading: NSU organizes “Beyond Exam Anxiety – Season 3” Workshop | Parent text: North South University Makes History with Six Fully… 11/08/2026 | Previous text: 12/08/2026 | Next text: North South University Makes History with Six Fully… | Image filename: nsu110826.jpeg
+non_descriptive_alt  NaN Event Image  NaN    newassets/images/whatsapp-image-2026-07-02-at-14.44.37.jpeg                                         Scheduled Events                                                     Nearby heading: Scheduled Events | Parent text: International Conference on Pharmaceutical… 10 Oct, 2026 NSU Campus | Next text: International Conference on Pharmaceutical… | Image filename: whatsapp-image-2026-07-02-at-14.44.37.jpeg
+non_descriptive_alt  NaN Event Image  NaN                         newassets/images/events/shss180826.jpg              International Conference on Pharmaceutical…                                                        Nearby heading: International Conference on Pharmaceutical… | Parent text: An Emotional Reading of Europe 08 Sep, 2026 Online | Previous text: NSU Campus | Next text: An Emotional Reading of Europe | Image filename: shss180826.jpg
+non_descriptive_alt  NaN Event Image  NaN newassets/images/events/eid-e-milad-2026-inv-card-01-thumb.jpg                           An Emotional Reading of Europe                                      Nearby heading: An Emotional Reading of Europe | Parent text: Eid-e-Miladunnabi (SAW) Program 27 Aug, 2026 Main Auditorium | Previous text: Online | Next text: Eid-e-Miladunnabi (SAW) Program | Image filename: eid-e-milad-2026-inv-card-01-thumb.jpg
+non_descriptive_alt  NaN Event Image  NaN                        newassets/images/events/arch250826.jpeg                          Eid-e-Miladunnabi (SAW) Program                                                       Nearby heading: Eid-e-Miladunnabi (SAW) Program | Parent text: 20th Architectural Exhibition 27 Aug, 2026 Exhibition Hall | Previous text: Main Auditorium | Next text: 20th Architectural Exhibition | Image filename: arch250826.jpeg
+non_descriptive_alt  NaN Event Image  NaN                          newassets/images/events/cpc240826.jpg                            20th Architectural Exhibition                                            Nearby heading: 20th Architectural Exhibition | Parent text: Webinar on "Nothing About Us Without Us:… 25 Aug, 2026 Online | Previous text: Exhibition Hall | Next text: Webinar on "Nothing About Us Without Us:… | Image filename: cpc240826.jpg
+
+Output:
+final_pipeline/data/intermediate/context_live/www.northsouth.edu__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.northsouth.edu__context_findings.csv
+Total unified findings: 76
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 24
+
+By rule:
+  generic_link_text: 4
+  non_descriptive_alt: 20
+
+Decision codes:
+  GENERIC_ALT_CONTEXT_AVAILABLE: 20
+  LINK_CONTEXT_AVAILABLE: 4
+
+Confidence:
+  high: 4
+  medium: 20
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+       custom_issue text         alt                                           nearby_heading                       contextual_action                                                                                                                                                                                                                                                        contextual_suggestion contextual_confidence contextual_evidence_source
+non_descriptive_alt  NaN  News Image                                              Latest News replace_generic_alt_after_visual_review                                              Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “Latest News” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image       North South University Wins UAP Drama Carnival 2.0 replace_generic_alt_after_visual_review       Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “North South University Wins UAP Drama Carnival 2.0” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image         NSU Hosts Korean Cultural Exchange Festival 2026 replace_generic_alt_after_visual_review         Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “NSU Hosts Korean Cultural Exchange Festival 2026” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image   NSU Organizes Educational Field Trip for Agricultural… replace_generic_alt_after_visual_review   Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “NSU Organizes Educational Field Trip for Agricultural…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image     SHSS Hosts Study Circle Session on Riverine History… replace_generic_alt_after_visual_review     Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “SHSS Hosts Study Circle Session on Riverine History…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image Center for Legal Research Hosts Talk Titled ‘Artificial… replace_generic_alt_after_visual_review Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “Center for Legal Research Hosts Talk Titled ‘Artificial…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image   NSU Community to Get Free 24/7 Mental Health Services… replace_generic_alt_after_visual_review   Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “NSU Community to Get Free 24/7 Mental Health Services…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image Center for Legal Research Hosts Talk Titled ‘Bangladesh… replace_generic_alt_after_visual_review Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “Center for Legal Research Hosts Talk Titled ‘Bangladesh…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image         Professor Dr. Md. Mamun Molla Elected Fellow of… replace_generic_alt_after_visual_review         Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “Professor Dr. Md. Mamun Molla Elected Fellow of…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN  News Image  NSU organizes “Beyond Exam Anxiety – Season 3” Workshop replace_generic_alt_after_visual_review  Replace the generic alt text “News Image” after visually inspecting the image. The surrounding context “NSU organizes “Beyond Exam Anxiety – Season 3” Workshop” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Event Image                                         Scheduled Events replace_generic_alt_after_visual_review                                        Replace the generic alt text “Event Image” after visually inspecting the image. The surrounding context “Scheduled Events” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+non_descriptive_alt  NaN Event Image              International Conference on Pharmaceutical… replace_generic_alt_after_visual_review             Replace the generic alt text “Event Image” after visually inspecting the image. The surrounding context “International Conference on Pharmaceutical…” can guide the description, but should not be copied as alt text unless it accurately represents the image.                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+Unified findings: 76
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+custom_only          39
+axe_only             24
+confirmed_by_both    10
+axe_incomplete        3
+
+Priority:
+priority
+Medium      51
+High        16
+Critical     6
+Review       3
+
+Categories:
+category
+Images            25
+Landmarks         18
+Links             15
+Headings           9
+Controls           3
+Color contrast     3
+ARIA               2
+Other              1
+
+Top rules:
+primary_rule
+non_descriptive_alt     20
+region                  18
+link-name                7
+heading_order            7
+generic_link_text        4
+empty_link_text          4
+missing_alt              3
+button-name              3
+color-contrast           3
+image-alt                2
+heading-order            1
+multiple_h1              1
+aria-allowed-attr        1
+aria-prohibited-attr     1
+video-caption            1
+
+Context-aware recommendations: 24
+
+Third-party findings: 7
+
+Rules using fallback recommendation:
+ - video-caption
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.northsouth.edu__recommendations.csv
+final_pipeline/reports/live/www.northsouth.edu__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.northsouth.edu/
+
+Host:
+www.northsouth.edu
+
+Output stem:
+www.northsouth.edu
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.northsouth.edu/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.northsouth.edu__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.northsouth.edu__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+www.northsouth.edu
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.northsouth.edu/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.northsouth.edu__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.northsouth.edu__axe.json
+Rendered URL: https://www.northsouth.edu/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.northsouth.edu__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.northsouth.edu__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.northsouth.edu__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.northsouth.edu__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.northsouth.edu__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.northsouth.edu__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.northsouth.edu/
+
+Analysis stem:
+www.northsouth.edu
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.northsouth.edu__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.northsouth.edu__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.northsouth.edu__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.northsouth.edu__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.northsouth.edu__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

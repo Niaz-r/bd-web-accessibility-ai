@@ -1,0 +1,381 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://daffodilvarsity.edu.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://daffodilvarsity.edu.bd
+Status: 200
+Analyzable: True
+Findings: 13
+
+issue_category             issue severity                                                                                                                                                                                                                                                                                 selector
+         image         empty_alt   medium                                                                                 div.container.mx-auto > div:nth-of-type(3) > div.md:mt-26.md:mb-12 > div > div.relative.z-10:nth-of-type(1) > div.text-center.relative > div.max-w-4xl.mx-auto > img.w-[26px].md:w-[38px]:nth-of-type(1)
+         image         empty_alt   medium                                                                                 div.container.mx-auto > div:nth-of-type(3) > div.md:mt-26.md:mb-12 > div > div.relative.z-10:nth-of-type(1) > div.text-center.relative > div.max-w-4xl.mx-auto > img.w-[26px].md:w-[38px]:nth-of-type(2)
+         image       missing_alt     high                                                                                     main > div > div.bg-white.px-4:nth-of-type(7) > div.container.mx-auto > div.grid.relative:nth-of-type(2) > div.w-full:nth-of-type(1) > div.w-full.h-[300px]:nth-of-type(2) > img.w-full.object-cover
+         image         empty_alt   medium                                 footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[3px]:nth-of-type(6) > img.w-9.h-9
+          link generic_link_text   medium                                                                                                                     div.max-sm:overflow-x-hidden:nth-of-type(2) > main > div > div.bg-[#002652].px-2:nth-of-type(1) > div.container.mx-auto > div:nth-of-type(1) > div.flex.flex-col > a
+          link generic_link_text   medium                                                                                                 html.undefined.__variable_eb9b50 > body.__className_73ee6c > div.max-sm:overflow-x-hidden:nth-of-type(2) > main > div > div.bg-[#002652].px-2:nth-of-type(1) > div.container.mx-auto > a
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[9px]:nth-of-type(1)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[9px]:nth-of-type(2)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[9px]:nth-of-type(3)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[9px]:nth-of-type(4)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[9px]:nth-of-type(5)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[3px]:nth-of-type(6)
+          link   empty_link_text     high div.max-sm:overflow-x-hidden:nth-of-type(2) > footer.w-full.text-white > div.w-full.bg-[#0B2850]:nth-of-type(2) > div.mx-auto.container > div.grid.grid-cols-1:nth-of-type(1) > div.md:col-span-4.lg:max-w-[400px]:nth-of-type(1) > div.mt-3.flex > a.inline-flex.p-[3px]:nth-of-type(7)
+
+CSV: final_pipeline/data/intermediate/custom_live/daffodilvarsity.edu.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/daffodilvarsity.edu.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://daffodilvarsity.edu.bd
+HTTP status: 200
+Network remained active; continuing.
+Final URL: https://daffodilvarsity.edu.bd/
+Page title: Daffodil International University: Top Private University in Bangladesh
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 5
+Violation nodes: 23
+Incomplete rules: 3
+Incomplete nodes: 24
+Passed rules: 42
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+button-name | impact: critical | nodes: 10
+  Help: Buttons must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1
+  Selector: .custom-prev
+  HTML: <button class="custom-prev cursor-pointer bg-opacity-20 hover:bg-opacity-30 rounded-full p-2 transition-all duration-300 bg-[#193B63] border border-[#193B63] disabled:opacity-50 disabled:cursor-not-allowed swiper-button-disabled" disabled="">
+  Selector: .custom-next
+  HTML: <button class="custom-next cursor-pointer bg-opacity-20 hover:bg-opacity-30 rounded-full p-2 transition-all duration-300 bg-[#193B63] border border-[#193B63] disabled:opacity-50 disabled:cursor-not-allowed">
+  Selector: .w-12.h-1.rounded:nth-child(1)
+  HTML: <button class="cursor-pointer w-12 h-1 rounded transition-all duration-300 bg-white"></button>
+
+heading-order | impact: moderate | nodes: 1
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .border-gray-200.last\:border-b-0.border-b:nth-child(2) > .py-5.hover\:bg-gray-50.duration-200 > .flex-1 > .justify-between.items-center.flex > div:nth-child(1) > h6
+  HTML: <h6 class="font-bold mb-2 border-b-2 inline-block text-lg sm:text-[24px] leading-relaxed">3rd ITM Summit 2026</h6>
+
+link-name | impact: serious | nodes: 8
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .md\:px-0.py-12.container > a[href$="rankings"][target="_blank"]
+  HTML: <a target="_blank" href="/rankings">
+  Selector: .p-\[9px\].ring-white\/15.hover\:bg-white\/10:nth-child(1)
+  HTML: <a href="https://www.facebook.com/daffodilvarsity.edu.bd" target="_blank" rel="noopener noreferrer" class="inline-flex p-[9px] items-center justify-center rounded-full ring-1 ring-white/15 hover:bg-white/10">
+  Selector: .p-\[9px\].ring-white\/15.hover\:bg-white\/10:nth-child(2)
+  HTML: <a href="https://twitter.com/daffodilvarsity" target="_blank" rel="noopener noreferrer" class="inline-flex p-[9px] items-center justify-center rounded-full ring-1 ring-white/15 hover:bg-white/10">
+
+list | impact: serious | nodes: 1
+  Help: <ul> and <ol> must only directly contain <li>, <script> or <template> elements
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .space-y-6 > .space-y-2
+  HTML: <ul class="space-y-2 "><p> <!-- -->Becoming a globally recognized center of excellence through innovative, learner-centric, technology-driven education, and impactful research fostering a diverse, international academic community that actively shapes
+
+nested-interactive | impact: serious | nodes: 3
+  Help: Interactive controls must not be nested
+  Tags: cat.keyboard, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1
+  Selector: .sm\:pt-10 > .border-gray.hover\:bg-gradient-to-r.hover\:from-\[\#034EA2\]
+  HTML: <button class=" bg-transparent ..." tabindex="0">
+  Selector: .flex-wrap.mt-6.gap-6 > button:nth-child(1)
+  HTML: <button tabindex="0"><a target="_blank" class=" rounded-md border border-secondary bg-secondary px-6 py-4 text-base font-semibold text-white shadow-sm hover:brightness-110" href="https://admission.daffodilvarsity.edu.bd/">Apply Now</a></button>
+  Selector: .flex-wrap.mt-6.gap-6 > button:nth-child(2)
+  HTML: <button tabindex="0"><a target="_blank" class="rounded-md border px-6 py-4 text-base font-semibold text-white ring-1 ring-white/20 hover:bg-white/15 inline-block" href="/admission-contact">Request for Information</a></button>
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/daffodilvarsity.edu.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/daffodilvarsity.edu.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 47
+
+Axe result types:
+result_type
+incomplete    24
+violation     23
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_incomplete    24
+axe_only          23
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    47
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/daffodilvarsity.edu.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://daffodilvarsity.edu.bd/
+Unified findings: 47
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/daffodilvarsity.edu.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/daffodilvarsity.edu.bd__context_findings.csv
+Total unified findings: 47
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+Unified findings: 47
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete    24
+axe_only          23
+
+Priority:
+priority
+Review      24
+High        12
+Critical    10
+Medium       1
+
+Categories:
+category
+Color contrast    22
+Controls          10
+Links              8
+Other              5
+Headings           1
+Structure          1
+
+Top rules:
+primary_rule
+color-contrast        22
+button-name           10
+link-name              8
+nested-interactive     3
+heading-order          1
+list                   1
+video-caption          1
+no-autoplay-audio      1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - nested-interactive
+ - no-autoplay-audio
+ - video-caption
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/daffodilvarsity.edu.bd__recommendations.csv
+final_pipeline/reports/live/daffodilvarsity.edu.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://daffodilvarsity.edu.bd
+
+Host:
+daffodilvarsity.edu.bd
+
+Output stem:
+daffodilvarsity.edu.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://daffodilvarsity.edu.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+daffodilvarsity.edu.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://daffodilvarsity.edu.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/daffodilvarsity.edu.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/daffodilvarsity.edu.bd__axe.json
+Rendered URL: https://daffodilvarsity.edu.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/daffodilvarsity.edu.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: daffodilvarsity.edu.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/daffodilvarsity.edu.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/daffodilvarsity.edu.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/daffodilvarsity.edu.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/daffodilvarsity.edu.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/daffodilvarsity.edu.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/daffodilvarsity.edu.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://daffodilvarsity.edu.bd
+
+Rendered URL:
+https://daffodilvarsity.edu.bd/
+
+Analysis stem:
+daffodilvarsity.edu.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/daffodilvarsity.edu.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/daffodilvarsity.edu.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/daffodilvarsity.edu.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/daffodilvarsity.edu.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/daffodilvarsity.edu.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

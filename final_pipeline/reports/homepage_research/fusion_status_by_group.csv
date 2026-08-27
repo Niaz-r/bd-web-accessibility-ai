@@ -1,0 +1,21 @@
+experiment_group,finding_status,count,percent_of_group_findings
+Public University,confirmed_by_both,446,8.84
+Public University,custom_only,1166,23.11
+Public University,axe_only,1916,37.97
+Public University,axe_incomplete,1518,30.08
+Private University,confirmed_by_both,58,2.62
+Private University,custom_only,200,9.05
+Private University,axe_only,1412,63.89
+Private University,axe_incomplete,540,24.43
+News,confirmed_by_both,4,0.27
+News,custom_only,9,0.62
+News,axe_only,940,64.38
+News,axe_incomplete,507,34.73
+Government,confirmed_by_both,0,0.0
+Government,custom_only,9,0.54
+Government,axe_only,1070,63.77
+Government,axe_incomplete,599,35.7
+TOTAL,confirmed_by_both,508,4.89
+TOTAL,custom_only,1384,13.32
+TOTAL,axe_only,5338,51.36
+TOTAL,axe_incomplete,3164,30.44

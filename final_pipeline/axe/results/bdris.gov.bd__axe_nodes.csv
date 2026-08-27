@@ -1,0 +1,35 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://bdris.gov.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""login""]","<a href=""/login"" class=""btn"">","Fix any of the following:
+  Element has insufficient color contrast of 4.24 (foreground color: #337ab7, background color: #f0f8ff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",serious,1
+https://bdris.gov.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[onclick=""languageChange('en')""]","<a onclick=""languageChange('en')"" class=""btn"">English</a>","Fix any of the following:
+  Element has insufficient color contrast of 4.24 (foreground color: #337ab7, background color: #f0f8ff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1",serious,2
+https://bdris.gov.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".dropdown.yamm-fw:nth-child(2) > a[href$=""application""]","<a class="" "" href=""/br/application"">জন্ম নিবন্ধন</a>","Fix any of the following:
+  Element has insufficient color contrast of 4.24 (foreground color: #337ab7, background color: #f0f8ff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,3
+https://bdris.gov.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".dropdown.yamm-fw:nth-child(3) > a[href$=""application""]","<a class="" "" href=""/dr/application"">মৃত্যু নিবন্ধন</a>","Fix any of the following:
+  Element has insufficient color contrast of 4.24 (foreground color: #337ab7, background color: #f0f8ff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,4
+https://bdris.gov.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""create""]","<a class="" "" href=""/user/create"">ব্যবহারকারী সংযোজন (ওটিপি প্রাপ্তির পর)</a>","Fix any of the following:
+  Element has insufficient color contrast of 4.24 (foreground color: #337ab7, background color: #f0f8ff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",serious,5
+https://bdris.gov.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,#imageSlider,"<img class=""logo"" style="""" id=""imageSlider"" src=""/images/logo/logo.png"" width=""80px"" height=""80px"">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://bdris.gov.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html lang=""en"" xmlns=""http://www.w3.org/1999/xhtml"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://bdris.gov.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href=""#""]","<a href=""#"">
+                    <img class=""logo"" style="""" id=""imageSlider"" src=""/images/logo/logo.png"" width=""80px"" height=""80px"">
+                </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://bdris.gov.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html lang=""en"" xmlns=""http://www.w3.org/1999/xhtml"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://bdris.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,body > .container-fluid:nth-child(1),"<div class=""container-fluid"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://bdris.gov.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.main-content > .row,"<div class=""row"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2

@@ -1,0 +1,349 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counter-width.mb-md-50.col-md-2:nth-child(1) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Students</h5>","Fix any of the following:
+  Heading order invalid",moderate,1
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counter-width.mb-md-50.col-md-2:nth-child(2) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Departments</h5>","Fix any of the following:
+  Heading order invalid",moderate,2
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counter-width.mb-md-50.col-md-2:nth-child(3) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Institutes</h5>","Fix any of the following:
+  Heading order invalid",moderate,3
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counter-width.mb-md-50.col-md-2:nth-child(4) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Teachers</h5>","Fix any of the following:
+  Heading order invalid",moderate,4
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.counter-width.mb-md-50.col-md-2:nth-child(5) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Journals</h5>","Fix any of the following:
+  Heading order invalid",moderate,5
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-right > .mt-0.post-title,"<h5 class=""post-title mt-0 ""><a href=""https://jnu.ac.bd/faculty/portal/5001"" class=""font-18 font-weight-600"">Faculty of Arts</a></h5>","Fix any of the following:
+  Heading order invalid",moderate,6
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-lg-3.col-md-3.col-sm-3:nth-child(1) > .border-de.widget > article > .post-right > .mt-0.post-title,"<h5 class=""post-title mt-0 ""><a href=""https://ccse.jnu.ac.bd/"" class=""font-18 font-weight-600"">Centre for Climate, Society &amp; Environment (CCSE)</a></h5>","Fix any of the following:
+  Heading order invalid",moderate,7
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.cloned.owl-item:nth-child(1) > .item > .service-block.bg-white > .text-left.p-25.pt-10 > .latest-research-content-box > h4,"<h4 class=""font-weight-600 mb-10""><a href=""doi.org/10.1016/j.energy.2021.122069"">Water desalination by silica supported ionic liquid: adsorption kinetics and system modeling</a></h4>","Fix any of the following:
+  Heading order invalid",moderate,8
+https://www.jnu.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-sm-6.col-md-3:nth-child(1) > .dark.widget > .widget-title,"<h4 class=""widget-title"">Quick Links</h4>","Fix any of the following:
+  Heading order invalid",moderate,9
+https://www.jnu.ac.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html dir=""ltr"" lang=""en"" class=""js flexbox flexboxle..."" style="""">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://www.jnu.ac.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,.no-border.widget > nav,<nav>,"Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"#side-panel-trigger-close > a[href=""#""]","<a href=""#""><i class=""icon_close font-30""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".icon-dark > li > a[target=""_blank""]","<a href=""https://www.facebook.com/jnu.edu.bd"" target=""_blank""><i class=""fa fa-facebook""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.menuzord-brand,"<a class=""menuzord-brand pull-left flip pt-5 pb-5"" href=""https://jnu.ac.bd/"">
+    <img src=""https://jnu.ac.bd/assets/new/images/logo.png"" alt="""">
+    </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"#side-panel-trigger > a[href=""#""]","<a href=""#""><i class=""fa fa-bars font-24 text-gray""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5001""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/arts.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5004""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/business.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-15.row > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5002""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/science.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5003""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/social.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5005""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/law.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(3) > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5006""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/le.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(1) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/faculty/portal/5017""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/finearts.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(2) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/department/portal/ier""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/ier.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.mt-30.row:nth-child(4) > .col-lg-4.pad30.col-md-4:nth-child(3) > .border-de.widget > article > .post-thumb,"<a class=""post-thumb"" href=""https://jnu.ac.bd/department/portal/iml""><img style=""padding: 15px;"" src=""https://jnu.ac.bd/assets/new/images/academics/iml.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".post-thumb[href$=""ccse.jnu.ac.bd/""]","<a class=""post-thumb"" href=""https://ccse.jnu.ac.bd/""><img src=""https://jnu.ac.bd/assets/new/images/academics/ccse.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".post-thumb[href$=""csrt.jnu.ac.bd/""]","<a class=""post-thumb"" href=""https://csrt.jnu.ac.bd/""><img src=""https://jnu.ac.bd/assets/new/images/academics/csrt.jpg"" alt=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,15
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".post-thumb[href$=""circ.jnu.ac.bd/""]","<a class=""post-thumb"" href=""https://circ.jnu.ac.bd/""><img src=""https://circ.jnu.ac.bd/assets/admin/images/circ_logo.png"" alt="""" height=""207px""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,16
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".post-thumb[href$=""osrg-jnu.com/""]","<a class=""post-thumb"" href=""https://osrg-jnu.com/"" style=""text-align:center""><img src=""https://osrg-jnu.com/assets/admin/images/Research_logo.png"" alt="""" height=""207""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,17
+https://www.jnu.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".icon-bordered > li > a[target=""_blank""]","<a href=""https://www.facebook.com/jnu.edu.bd"" target=""_blank""><i class=""fa fa-facebook""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,18
+https://www.jnu.ac.bd/,violation,marquee,serious,Ensure <marquee> elements are not used,<marquee> elements are deprecated and must not be used,https://dequeuniversity.com/rules/axe/4.13/marquee?application=playwright,wcag2a|wcag222|EN-301-549|EN-9.2.2.2,marquee,"<marquee behavior=""scroll"" direction=""left"" onmouseover=""this.stop();"" onmouseout=""this.start();"">","Fix all of the following:
+  Element is visible",serious,1
+https://www.jnu.ac.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html dir=""ltr"" lang=""en"" class=""js flexbox flexboxle..."" style="""">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".side-panel-wrap > a[href=""javascript:void(0)""]","<a href=""javascript:void(0)""><img alt=""logo"" src=""https://jnu.ac.bd/assets/new/images/logo.png""></a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.side-panel-widget,"<div class=""side-panel-widget mt-30"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.active-revslide,"<li data-index=""rs-1"" data-transition=""fade"" data-slotamount=""default"" data-easein=""default"" data-easeout=""default"" data-masterspeed=""default"" data-rotate=""0"" data-saveperformance=""off"" data-title=""Slide 1"" data-description="""" class=""tp-revslider-slidesl..."" style=""width: 100%; height:..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#scroll-news,"<div id=""scroll-news"" class=""header-top bg-theme-color-2 sm-text-center mt-30"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#welcome,"<section id=""welcome"" class=""divider layer-overla..."" data-parallax-ratio=""0.1"" data-bg-img=""https://jnu.ac.bd/as..."" style=""background-image: ur..."">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-dark,"<section class=""bg-dark"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-lighter:nth-child(3) > .container-fluid > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#wrapper > section:nth-child(4),"<section class="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-lighter:nth-child(5),"<section class=""bg-lighter"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,section:nth-child(6),<section>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-lighter:nth-child(7) > .pb-60.container-fluid.pt-20 > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.owl-stage-outer,"<div class=""owl-stage-outer"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.pb-50 > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#blog > .container-fluid > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#blog > .container-fluid > .section-content > .row:nth-child(1),"<div class=""row"">
+            <div class=""col-md-12"">
+                <p class=""font-22 font-weight-600  text-black-777 text-center"">Stories About People, Research, and Innovation Across the University</p>
+            </div>
+          </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,section:nth-child(10) > .container-fluid > .section-title.text-center,"<div class=""section-title text-center"">
+          <div class=""row"">
+            <div class=""col-md-12"">
+              <h2 class=""text-uppercase text-theme-colored""><span class=""title-bg"">Upcoming Events</span></h2>
+            
+            </div>
+          </div>
+        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6:nth-child(1) > .row > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-md-6:nth-child(2) > .row > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-lighter:nth-child(12) > .pb-60.container-fluid.pt-20 > .section-title.text-center,"<div class=""section-title text-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://www.jnu.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,section:nth-child(13) > .container-fluid > .section-title.text-center,"<div class=""section-title text-center"">
+          <div class=""row"">
+            <div class=""col-md-12"">
+              <h2 class=""text-uppercase text-theme-colored""><span class=""title-bg"">July Corner</span></h2>
+            
+            </div>
+          </div>
+        </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,20
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#rs-1-layer-3,"<div class=""tp-caption tp-resize..."" id=""rs-1-layer-3"" data-x=""['left']"" data-hoffset=""['0']"" data-y=""['bottom']"" data-voffset=""['100']"" data-fontsize=""['32']"" data-lineheight=""['70']"" data-width=""none"" data-height=""none"" data-whitespace=""nowrap"" data-transform_idle=""o:1;s:500"" ...>","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,1
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-orange2.font-18.font-weight-600:nth-child(1),"<a class=""text-orange2 font-weight-600 font-18"" href=""https://jnu.ac.bd/newsite/newsdetails/138836"">বিআইএমে জগন্নাথ বিশ্ববিদ্যালয়ের ‘বোর্ড অব এডভান্সড স্টাডিজ এন্ড রিসার্চ’-এর ১৫তম সভা অনুষ্ঠিত </a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href=""https://jnu.ac.bd/vc""]","<a class=""name mt-0 text-theme-colored text-center font-16 font-weight-700"" href=""https://jnu.ac.bd/vc"">Professor  Dr. Md. Rais Uddin</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,3
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.sm-text-center.mb-sm-30.fadeInLeft:nth-child(1) > .team.maxwidth400.pt20 > .bg-lwhiteight.content.text-center > .name.font-weight-500,"<h4 class=""name mt-0 text-center text-theme-colored font-16 font-weight-500"">Vice-Chancellor</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,4
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pt20.same-height.col-md-6 > h3,"<h3 class=""text-theme-colored font-weight-600 mt-0"">Message from the Honourable Vice Chancellor</h3>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,5
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-20,"<p class=""mb-20 font-weight-600 font-16 text-justify"">","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,6
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.mb-20 > .btn-circled.btn-xs.font-white,"<a class="" btn btn-theme-colored btn-circled btn-xs font-white font-13"" href=""https://jnu.ac.bd/newsite/message/vc"">Read More <i class=""fa fa-arrow-circle-right""></i></a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,7
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.sm-text-center.mb-sm-30.fadeInLeft:nth-child(3) > .team.maxwidth400.pt20 > .bg-lwhiteight.content.text-center > .name.font-weight-700.text-center,"<a class=""name mt-0 text-theme-colored text-center font-16 font-weight-700"" href=""https://jnu.ac.bd/fm/pview/10084"">Professor Dr. Sabina Sharmin</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,8
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.sm-text-center.mb-sm-30.fadeInLeft:nth-child(3) > .team.maxwidth400.pt20 > .bg-lwhiteight.content.text-center > .name.font-weight-500,"<h4 class=""name mt-0 text-center text-theme-colored font-16 font-weight-500"">Treasurer</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,9
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-blue,"<a href=""https://jnu.ac.bd//newsite/getdata/6009"" class=""text-blue"">Academic Rules &amp; Regulations <i class=""fa fa-arrow-circle-right""></i></a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,10
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.bg-lighter:nth-child(3) > .container-fluid > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd//newsite/getdata/2001"" class=""text-orange"">About Jagannath University</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,11
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counter-width.mb-md-50.col-md-2:nth-child(1) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Students</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,12
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counter-width.mb-md-50.col-md-2:nth-child(2) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Departments</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,13
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counter-width.mb-md-50.col-md-2:nth-child(3) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Institutes</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,14
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counter-width.mb-md-50.col-md-2:nth-child(4) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Teachers</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,15
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.counter-width.mb-md-50.col-md-2:nth-child(5) > .funfact.text-center > .mb-0.text-uppercase.text-orange,"<h5 class=""text-orange text-uppercase mb-0 font-16 font-weight-600"">Journals</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,16
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.bg-lighter:nth-child(5) > .pb-60.container-fluid.pt-20 > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg,"<span class=""title-bg"">Academics</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,17
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pb-60.container-fluid.pt-20 > .section-content > .row:nth-child(1) > .col-md-12 > .font-22.text-black-777,"<p class=""font-22 font-weight-600  text-black-777 text-center"">Preparing Students to Make Meaningful Contributions to Society as Engaged Citizens and Leaders in Fourth Industrial World</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,18
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,section:nth-child(6) > .pb-60.container-fluid.pt-20 > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg,"<span class=""title-bg"">Research Centers &amp; Groups</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,19
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-offset-2 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd/newsite/research"" class=""text-orange"">Latest Researches</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,20
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pb-50 > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd/newsite/news/11"" class=""text-orange"">Success Stories</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,21
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#blog > .container-fluid > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd/newsite/news/12"" class=""text-orange"">Campus News</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,22
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#blog > .container-fluid > .section-content > .row:nth-child(1) > .col-md-12 > .font-22.text-black-777,"<p class=""font-22 font-weight-600  text-black-777 text-center"">Stories About People, Research, and Innovation Across the University</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,23
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,section:nth-child(10) > .container-fluid > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg,"<span class=""title-bg"">Upcoming Events</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,24
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6:nth-child(1) > .row > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd/newsite/noticeview/1"" class=""text-orange"">Latest Notices</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,25
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6:nth-child(2) > .row > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg > .text-orange,"<a href=""https://jnu.ac.bd/newsite/noticeview/3"" class=""text-orange"">Latest Office Orders</a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,26
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.bg-lighter:nth-child(12) > .pb-60.container-fluid.pt-20 > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg,"<span class=""title-bg"">Campus Life</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,27
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.section-title.text-center > .row > .col-md-12 > .font-22.text-black-777,"<p class=""font-22 font-weight-600  text-black-777"">Building a Vibrant Community of Creative and Accomplished People from Around the World</p>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,28
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,section:nth-child(13) > .container-fluid > .section-title.text-center > .row > .col-md-12 > h2 > .title-bg,"<span class=""title-bg"">July Corner</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,29
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(1) > .dark.widget > .widget-title,"<h4 class=""widget-title"">Quick Links</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,30
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".list.angle-double-right.list-border > li:nth-child(1) > a[target=""_blank""]","<a href=""https://jnu.ac.bd/assets/act2005.pdf"" target=""_blank"">Jagannath University ACT-2005</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,31
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""shpc""]","<a href=""https://jnu.ac.bd/newsite/shpc"" target=""_blank"">Sexual Harassment Prevention Committee</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,32
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""barta""]","<a href=""http://jnu.ac.bd/newsite/barta"" target=""_blank"">Jagannath University Barta</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,33
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".list.angle-double-right.list-border > li:nth-child(4) > a[target=""_blank""]","<a href=""https://jnu.ac.bd/newsite/getdata/6009"" target=""_blank"">Academic Rules &amp; Regulations</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,34
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(1) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(5) > a,"<a href=""https://jnu.ac.bd/newsite/forms"">Forms</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,35
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(1) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(6) > a,"<a href=""https://jnu.ac.bd/assets/JNUDiary2026.pdf"">Diary 2026-27</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,36
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""mou.html""]","<a href=""https://jnu.ac.bd/mou.html"">Memorandum of Understanding (MoU)</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,37
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(8) > a[target=""_blank""]","<a href=""https://jnu.ac.bd/assets/annual_leave_notice.pdf"" target=""_blank"">Annual Leave (2026-27)</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,38
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href=""#""][target=""_blank""]","<a href=""#"" target=""_blank""> Government Performance Monitoring System (GPMS) </a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,39
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(2) > .dark.widget > .widget-title,"<h4 class=""widget-title"">Portals</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,40
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".list.angle-double-right.list-border > li:nth-child(1) > a[href$=""student.erp.jnu.ac.bd/""]","<a href=""https://student.erp.jnu.ac.bd/"">Student Login</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,41
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(2) > a[href$=""jrp.jnu.ac.bd/""]","<a href=""https://jrp.jnu.ac.bd/"">JRP</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,42
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"li:nth-child(3) > a[href$=""faculty.erp.jnu.ac.bd/""]","<a href=""https://faculty.erp.jnu.ac.bd/"">SIRPS</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,43
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(2) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(4) > a,"<a href=""https://www.hrm.erp.jnu.ac.bd/remuneration/"">ERMS</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,44
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(2) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(5) > a,"<a href=""https://www.jnu.ac.bd/fdo-cms/admin/logout"">FDO CMS</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,45
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".list.angle-double-right.list-border > li:nth-child(6) > a[href$=""gsuite.jnu.ac.bd/""]","<a href=""https://gsuite.jnu.ac.bd/"">Institutional Mail</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,46
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".list.angle-double-right.list-border > li:nth-child(7) > a[href$=""career.jnu.ac.bd/""]","<a href=""https://career.jnu.ac.bd/"">Career</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,47
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(3) > .dark.widget > .widget-title,"<h4 class=""widget-title"">Important Links</h4>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,48
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""ugc.gov.bd/""]","<a href=""https://ugc.gov.bd/"">University Grant Commission</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,49
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""moedu.portal.gov.bd/""]","<a href=""https://moedu.portal.gov.bd/"">Ministry of Education</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,50
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(3) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(3) > a,"<a href=""https://jnu.ac.bd/newsite/content/alumni"">JnU Alumni</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,51
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-md-3:nth-child(3) > .dark.widget > .list.angle-double-right.list-border > li:nth-child(4) > a,"<a href=""https://jnu.ac.bd/newsite/content/jnu_calendar"">JnU Calendar</a>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,52
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget-title.mb-10:nth-child(1),"<h5 class=""widget-title mb-10"">Contact Us</h5>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,53
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pb-20.text-white,"<div class=""text-white pb-20"">
+              <i class=""fa fa-location""></i> 9-10, Chittaranjan Avenue, Dhaka 1100<br>
+              <i class=""fa fa-phone""></i> +88-02-9534255 <br>
+              <i class=""fa fa-envelope-o""></i> info@jnu.ac.bd
+            </div>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,54
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget-title.mb-10:nth-child(3),"<h5 class=""widget-title mb-10"">Connect With Us</h5>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,55
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-6:nth-child(1) > .font-14.m-0.text-white,"<p class=""font-14 text-white m-0"">Copyright ©2026 Jagannath University. All Rights Reserved</p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,56
+https://www.jnu.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.no-border.m-0.widget > .font-14.m-0.text-white,"<p class=""font-14 text-white m-0"">Developed By ICT Cell, Jagannath University.</p>","Fix any of the following:
+  Element's background color could not be determined due to a pseudo element",serious,57

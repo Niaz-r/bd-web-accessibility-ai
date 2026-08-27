@@ -1,0 +1,9 @@
+issue_type,issue_label,count,percentage
+empty_link_text,Empty link text,3880,30.340944635595875
+empty_alt,Empty image alt,3570,27.91679699718486
+generic_link_text,Generic link text,2544,19.89365029715358
+missing_alt,Missing image alt,1245,9.735689709102283
+heading_order,Heading order,772,6.036909602752581
+empty_heading,Empty heading,425,3.3234282139505784
+missing_h1,Missing H1,294,2.2990303409446353
+multiple_h1,Multiple H1,58,0.4535502033156084

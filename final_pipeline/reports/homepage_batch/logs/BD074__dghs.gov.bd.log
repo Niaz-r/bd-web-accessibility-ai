@@ -1,0 +1,417 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://dghs.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://dghs.gov.bd
+Status: 200
+Analyzable: True
+Findings: 51
+
+issue_category         issue severity                                                                                                                                                                                                                                                                                                 selector
+         image     empty_alt   medium                                                                                                                         div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(2) > div.block-widget-container > div.block-widget-content > rt-renderer > p:nth-of-type(1) > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(1) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(2) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                               table > tbody > tr:nth-of-type(3) > td > p:nth-of-type(1) > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                               table > tbody > tr:nth-of-type(3) > td > p:nth-of-type(2) > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(4) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(5) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(6) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                                    rt-renderer > table > tbody > tr:nth-of-type(7) > td > span > a > img
+         image     empty_alt   medium                                                                                                                                                                                                                div.block-widget-content > rt-renderer > table > tbody > tr:nth-of-type(8) > td > a > img
+         image   missing_alt     high                                                                                                        div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(1) > img
+         image   missing_alt     high                                                                                                        div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(2) > img
+         image   missing_alt     high                                                                                                        div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.e-service-card-widget:nth-of-type(5) > div.image-links:nth-of-type(2) > a:nth-of-type(3) > img
+         image     empty_alt   medium                                                                                                                         div.right:nth-of-type(2) > div.droppable > div.widget.block-widget:nth-of-type(9) > div.block-widget-container > div.block-widget-content > rt-renderer > p:nth-of-type(1) > img
+         image     empty_alt   medium                                                                                                                                               div.droppable > div.widget.block-widget:nth-of-type(10) > div.block-widget-container > div.block-widget-content > rt-renderer > p:nth-of-type(1) > a > img
+         image     empty_alt   medium                                                                                                                                                              div.droppable > div.widget.block-widget:nth-of-type(12) > div.block-widget-container > div.block-widget-content > rt-renderer > p > a > img
+         image   missing_alt     high                                                                                                                       body > div.container > div.wrapper:nth-of-type(2) > div.right:nth-of-type(2) > div.droppable > div.widget.bd-workers-trust-board-image-link-widget:nth-of-type(14) > a > img.image
+       heading   multiple_h1   medium                                                                                                                                                                                                                                                                                                         
+       heading heading_order   medium section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(4) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+       heading empty_heading   medium section.widget.menus-expandable-widget:nth-of-type(2) > div.menus-widget-container:nth-of-type(1) > section.widget.menu-widget > ul.menu-list.menu-parent-unordered-list > li.megamenu-link.menu-parent-list:nth-of-type(4) > div.mega-menu-dropdown.megaMenu > div.menu-child-box > h6.menu-child-title
+
+CSV: final_pipeline/data/intermediate/custom_live/dghs.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/dghs.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://dghs.gov.bd
+HTTP status: 200
+Final URL: https://dghs.gov.bd/
+Page title: হোম | স্বাস্থ্য অধিদপ্তর
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 8
+Violation nodes: 100
+Incomplete rules: 2
+Incomplete nodes: 17
+Passed rules: 39
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 12
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: #officeType_i5858185033
+  HTML: <select name="officeType" id="officeType_i5858185033" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i5858185033', this, 'i955628297', 'i5772479216')">
+  Selector: #office_i5858185033
+  HTML: <select id="office_i5858185033" title="স্বাস্থ্য অধিদপ্তর">
+  Selector: a[title=" কর্মকর্তাবৃন্দ"]
+  HTML: <a title=" কর্মকর্তাবৃন্দ" href="https://old.dghs.gov.bd/dghs_website/facilityHeadContactInformation.php" class="menu-parent-list-link" style="color: rgb(0, 191, 255);"> কর্মকর্তাবৃন্দ </a>
+
+frame-title | impact: serious | nodes: 1
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: div[data-widget_item="6922d3d0dbfbab28ce041b60"] > .block-widget-container > .block-widget-content > rt-renderer,iframe
+  HTML: <iframe frameborder="0" height="200" src="https://www.google.c..." style="border:0" width="220">
+
+heading-order | impact: moderate | nodes: 4
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: div[data-widget_item="6922d409dbfbab28ce0444dc"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> গণঅভ্যুত্থানে আহতের সেবা প্রদান </h3>
+  Selector: div[data-widget_item="6922d40cdbfbab28ce0446ae"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> বিভাগীয় (স্বাস্থ্য) অফিসসমূহ </h3>
+  Selector: .national-anthem-header
+  HTML: <h6 class="national-anthem-header">জাতীয় সঙ্গীত</h6>
+
+image-alt | impact: critical | nodes: 1
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: .image
+  HTML: <img class="image" src="/site-assets/images/service_link_4.png">
+
+label-title-only | impact: serious | nodes: 2
+  Help: Form elements should have a visible label
+  Tags: cat.forms, best-practice
+  Selector: #officeType_i5858185033
+  HTML: <select name="officeType" id="officeType_i5858185033" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i5858185033', this, 'i955628297', 'i5772479216')">
+  Selector: #office_i5858185033
+  HTML: <select id="office_i5858185033" title="স্বাস্থ্য অধিদপ্তর">
+
+landmark-one-main | impact: moderate | nodes: 2
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="bn">
+  Selector: div[data-widget_item="6922d3d0dbfbab28ce041b60"] > .block-widget-container > .block-widget-content > rt-renderer,iframe html
+  HTML: <html>
+
+link-name | impact: serious | nodes: 13
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .home-link
+  HTML: <a class="menu-parent-list-link home-link" href="/" style="color: rgb(255, 69, 0);"> </a>
+  Selector: div[data-widget_item="6922d3d0dbfbab28ce041b59"] > .block-widget-container > .block-widget-content > rt-renderer,a[href$="dashboard.dghs.gov.bd/"][target="_blank"]
+  HTML: <a href="https://dashboard.dghs.gov.bd/" target="_blank"><img alt="" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/89438f472237481db72d3c97a98a9094.jpg" style="float:left; height:45px;
+  Selector: div[data-widget_item="6922d3d0dbfbab28ce041b59"] > .block-widget-container > .block-widget-content > rt-renderer,tr:nth-child(2) > td > span > a
+  HTML: <a href="/pages/static-pages/6922e023933eb65569e25a8c"><img alt="" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/bec2a9bb173e4a1dacbe84f67345c893.jpg" style="float:left; height:45px; w
+
+region | impact: moderate | nodes: 65
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .header-left-section:nth-child(1)
+  HTML: <div class="header-left-section"> <a class="header-title" href="http://bangladesh.gov.bd" title="বাংলাদেশ জাতীয় তথ্য বাতায়ন"> বাংলাদেশ জাতীয় তথ্য বাতায়ন </a> </div>
+  Selector: #officeType_i5858185033
+  HTML: <select name="officeType" id="officeType_i5858185033" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i5858185033', this, 'i955628297', 'i5772479216')">
+  Selector: #i955628297
+  HTML: <div id="i955628297" class="dynamic-dropdowns">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dghs.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dghs.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 117
+
+Axe result types:
+result_type
+violation     100
+incomplete     17
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          100
+axe_incomplete     17
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               114
+third_party_embed            2
+first_party_integration      1
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/dghs.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://dghs.gov.bd/
+Unified findings: 117
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/dghs.gov.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dghs.gov.bd__context_findings.csv
+Total unified findings: 117
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+Unified findings: 117
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          100
+axe_incomplete     17
+
+Priority:
+priority
+Medium      71
+High        28
+Review      17
+Critical     1
+
+Categories:
+category
+Landmarks         65
+Color contrast    28
+Links             13
+Other              5
+Headings           4
+Frames             1
+Images             1
+
+Top rules:
+primary_rule
+region               65
+color-contrast       28
+link-name            13
+heading-order         4
+label-title-only      2
+landmark-one-main     2
+frame-title           1
+image-alt             1
+skip-link             1
+
+Context-aware recommendations: 0
+
+Third-party findings: 2
+
+Rules using fallback recommendation:
+ - label-title-only
+ - landmark-one-main
+ - skip-link
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/dghs.gov.bd__recommendations.csv
+final_pipeline/reports/live/dghs.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://dghs.gov.bd
+
+Host:
+dghs.gov.bd
+
+Output stem:
+dghs.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://dghs.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+dghs.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://dghs.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dghs.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dghs.gov.bd__axe.json
+Rendered URL: https://dghs.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/dghs.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: dghs.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/dghs.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/dghs.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dghs.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dghs.gov.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dghs.gov.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dghs.gov.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://dghs.gov.bd
+
+Rendered URL:
+https://dghs.gov.bd/
+
+Analysis stem:
+dghs.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/dghs.gov.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/dghs.gov.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/dghs.gov.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/dghs.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/dghs.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

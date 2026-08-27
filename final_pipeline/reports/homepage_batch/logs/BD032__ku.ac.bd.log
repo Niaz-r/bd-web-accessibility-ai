@@ -1,0 +1,482 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://ku.ac.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://ku.ac.bd/
+Status: 200
+Analyzable: True
+Findings: 78
+
+issue_category     issue severity                                                                                                                     selector
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(1) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(2) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(3) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(4) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(5) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(6) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(7) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(8) > img.rev-slidebg
+         image empty_alt   medium  section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(9) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(10) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(11) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(12) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(13) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(14) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(15) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(16) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(17) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(18) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(19) > img.rev-slidebg
+         image empty_alt   medium section#home > div.container-fluid.p-0 > div.rev_slider_wrapper > div.rev_slider > ul > li:nth-of-type(20) > img.rev-slidebg
+
+CSV: final_pipeline/data/intermediate/custom_live/ku.ac.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/ku.ac.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://ku.ac.bd/
+HTTP status: 200
+Final URL: https://ku.ac.bd/
+Page title: খুলনা বিশ্ববিদ্যালয় (খুবি) - Khulna University (KU): We Learn to Lead and Live
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 10
+Violation nodes: 48
+Incomplete rules: 1
+Incomplete nodes: 123
+Passed rules: 23
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+blink | impact: serious | nodes: 1
+  Help: <blink> elements are deprecated and must not be used
+  Tags: cat.time-and-media, wcag2a, wcag222, section508, section508.22.j, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: blink
+  HTML: <blink>Admission</blink>
+
+color-contrast | impact: serious | nodes: 8
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .font-20
+  HTML: <h6 class="font-20" style="color:#f4a024;font-family: times new roman;margin-top: -4%;">Khulna University</h6>
+  Selector: blink
+  HTML: <blink>Admission</blink>
+  Selector: .btn-info.btn-sm[href="/news-details/2783"]
+  HTML: <a href="/news-details/2783" class="btn btn-info btn-sm" style="margin-top: 15px;"><ion-icon name="document-text-sharp"></ion-icon> READ MORE</a>
+
+heading-order | impact: moderate | nodes: 14
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .letter-space-5
+  HTML: <h6 class="text-uppercase letter-space-5 line-bottom title font-playfair text-uppercase"> A place of discovery, inspiration, and limitless possibilities! </h6>
+  Selector: #research-section > .row > .font-weight-600.font-28.line-bottom
+  HTML: <h4 class="text-uppercase font-weight-600 mt-0 font-28 line-bottom" style="padding-left: 15px; margin-bottom: 25px; "><ion-icon name="library-outline"></ion-icon> RESEARCH ACTIVITIES<span class="view-all"><a href="all-research">view all research →</a
+  Selector: #news-section > .container > .section-content > .row:nth-child(1) > .font-weight-600.font-28.line-bottom
+  HTML: <h4 class="text-uppercase font-weight-600 mt-0 font-28 line-bottom" style="padding-left: 15px; margin-bottom: 25px; "><ion-icon name="newspaper-outline"></ion-icon> LATEST NEWS<span class="view-all"><a href="all-news">View all news →</a></span></h4>
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html dir="ltr" lang="en" class="js flexbox flexboxle..." style="">
+
+link-name | impact: serious | nodes: 5
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .styled-icons > li:nth-child(1) > a
+  HTML: <a href="https://www.facebook.com/ku.ac.bd.official"><i class="fa fa-facebook text-white circle"></i></a>
+  Selector: .styled-icons > li:nth-child(2) > a
+  HTML: <a href="https://twitter.com/kuacbdOfficial"><i class="fa fa-twitter text-white circle"></i></a>
+  Selector: .styled-icons > li:nth-child(3) > a
+  HTML: <a href="https://youtube.com/@khulnauniversityofficial"><i class="fa fa-youtube text-white circle"></i></a>
+
+list | impact: serious | nodes: 2
+  Help: <ul> and <ol> must only directly contain <li>, <script> or <template> elements
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: #news-section > .container > .section-content > .row:nth-child(2) > .list-group
+  HTML: <ul class="list-group">
+  Selector: #event-section > .container > .section-content > .row:nth-child(2) > .list-group
+  HTML: <ul class="list-group">
+
+listitem | impact: serious | nodes: 6
+  Help: <li> elements must be contained in a <ul> or <ol>
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: #news-section > .container > .section-content > .row:nth-child(2) > .list-group > .col-md-4:nth-child(1) > .list-group-item
+  HTML: <li class="list-group-item">
+  Selector: #news-section > .container > .section-content > .row:nth-child(2) > .list-group > .col-md-4:nth-child(2) > .list-group-item
+  HTML: <li class="list-group-item">
+  Selector: #news-section > .container > .section-content > .row:nth-child(2) > .list-group > .col-md-4:nth-child(3) > .list-group-item
+  HTML: <li class="list-group-item">
+
+marquee | impact: serious | nodes: 1
+  Help: <marquee> elements are deprecated and must not be used
+  Tags: cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: marquee
+  HTML: <marquee style="color:red;position:relative;top:10px;" onmouseover="this.stop()" scrollamount="5" onmouseout="this.start()">
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html dir="ltr" lang="en" class="js flexbox flexboxle..." style="">
+
+region | impact: moderate | nodes: 9
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: #wrapper
+  HTML: <div id="wrapper" class="clearfix">
+  Selector: marquee
+  HTML: <marquee style="color:red;position:relative;top:10px;" onmouseover="this.stop()" scrollamount="5" onmouseout="this.start()">
+  Selector: section:nth-child(3)
+  HTML: <section class="">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/ku.ac.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/ku.ac.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 78
+Axe nodes: 171
+
+Axe result types:
+result_type
+incomplete    123
+violation      48
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 19
+Confirmed matches: 19
+
+Unified finding statuses:
+finding_status
+axe_incomplete       123
+custom_only           59
+axe_only              29
+confirmed_by_both     19
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name         5
+heading_order    heading-order    14
+
+Ownership scope:
+ownership_scope
+page_content    230
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                                                         match_method                                                                                                                                                    preferred_selector src                                              href
+  heading_order heading-order          260 same_href+same_html+same_tag+same_text+class_overlap+selector_medium                                                                                                       #research-section > .row > .font-weight-600.font-28.line-bottom                                          all-research
+  heading_order heading-order          260 same_href+same_html+same_tag+same_text+class_overlap+selector_medium                                                              #news-section > .container > .section-content > .row:nth-child(1) > .font-weight-600.font-28.line-bottom                                              all-news
+  heading_order heading-order          240                 same_href+same_html+same_tag+same_text+class_overlap  #news-section > .container > .section-content > .row:nth-child(2) > .list-group > .col-md-4:nth-child(1) > .list-group-item > .panel > .text-justify.panel-body > h6                                    /news-details/2783
+  heading_order heading-order          240                 same_href+same_html+same_tag+same_text+class_overlap #event-section > .container > .section-content > .row:nth-child(2) > .list-group > .col-md-4:nth-child(1) > .list-group-item > .panel > .text-justify.panel-body > h6                                   /event-details/1851
+empty_link_text     link-name          210                           same_href+same_html+same_tag+class_overlap                                                                                                                                                        .xs-pull-right                                    javascript:void(0)
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                                                                                   .styled-icons > li:nth-child(1) > a            https://www.facebook.com/ku.ac.bd.official
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                                                                                   .styled-icons > li:nth-child(2) > a                    https://twitter.com/kuacbdOfficial
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                                                                                   .styled-icons > li:nth-child(3) > a         https://youtube.com/@khulnauniversityofficial
+empty_link_text     link-name          200                                         same_href+same_html+same_tag                                                                                                                                   .styled-icons > li:nth-child(4) > a     https://bd.linkedin.com/school/khulna-university/
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                                                                                       .letter-space-5                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(1) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(2) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(3) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(4) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(5) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(6) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(7) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(8) > .funfact.text-center > .mb-0                                                      
+  heading_order heading-order          140                           same_html+same_tag+same_text+class_overlap                                                                                              .mb-md-50.col-xs-12.col-md-3:nth-child(9) > .funfact.text-center > .mb-0                                                      
+
+Output: final_pipeline/data/intermediate/unified_live/ku.ac.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://ku.ac.bd/
+Unified findings: 230
+Context-dependent findings: 56
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 56
+Unmatched: 0
+
+custom_issue text alt href                                                         src    nearby_heading                                                                             surrounding_context
+   empty_alt  NaN NaN  NaN         uploads/sliders/1753781253rsz_rsz_dsc_1215_copy.jpg Khulna University         Nearby heading: Khulna University | Image filename: 1753781253rsz_rsz_dsc_1215_copy.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753780617rsz_1arch-02.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753780617rsz_1arch-02.jpg
+   empty_alt  NaN NaN  NaN uploads/sliders/1753780596rsz_dji_20231114131625_0029_d.jpg Khulna University Nearby heading: Khulna University | Image filename: 1753780596rsz_dji_20231114131625_0029_d.jpg
+   empty_alt  NaN NaN  NaN uploads/sliders/1753780553rsz_dji_20231114131653_0030_d.jpg Khulna University Nearby heading: Khulna University | Image filename: 1753780553rsz_dji_20231114131653_0030_d.jpg
+   empty_alt  NaN NaN  NaN                 uploads/sliders/1753781890rsz_1dsc_0021.jpg Khulna University                 Nearby heading: Khulna University | Image filename: 1753781890rsz_1dsc_0021.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753780493rsz_dsc_0156.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753780493rsz_dsc_0156.jpg
+   empty_alt  NaN NaN  NaN                 uploads/sliders/1753780474rsz_1dsc_0248.jpg Khulna University                 Nearby heading: Khulna University | Image filename: 1753780474rsz_1dsc_0248.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753780423rsz_dsc_0749.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753780423rsz_dsc_0749.jpg
+   empty_alt  NaN NaN  NaN                 uploads/sliders/1753780367rsz_1dsc_1984.jpg Khulna University                 Nearby heading: Khulna University | Image filename: 1753780367rsz_1dsc_1984.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753780293rsz_dsc_1101.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753780293rsz_dsc_1101.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753780069rsz_dsc_1783.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753780069rsz_dsc_1783.jpg
+   empty_alt  NaN NaN  NaN                 uploads/sliders/1753780046rsz_1dsc_2316.jpg Khulna University                 Nearby heading: Khulna University | Image filename: 1753780046rsz_1dsc_2316.jpg
+   empty_alt  NaN NaN  NaN                  uploads/sliders/1753779958rsz_dsc_2310.jpg Khulna University                  Nearby heading: Khulna University | Image filename: 1753779958rsz_dsc_2310.jpg
+   empty_alt  NaN NaN  NaN                 uploads/sliders/1753779929rsz_2dsc_2367.jpg Khulna University                 Nearby heading: Khulna University | Image filename: 1753779929rsz_2dsc_2367.jpg
+   empty_alt  NaN NaN  NaN            uploads/sliders/1753778917rsz_12rsz_dsc_7656.jpg Khulna University            Nearby heading: Khulna University | Image filename: 1753778917rsz_12rsz_dsc_7656.jpg
+
+Output:
+final_pipeline/data/intermediate/context_live/ku.ac.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/ku.ac.bd__context_findings.csv
+Total unified findings: 230
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 56
+
+By rule:
+  empty_alt: 22
+  generic_link_text: 17
+  non_descriptive_alt: 17
+
+Decision codes:
+  EMPTY_ALT_CONTEXT_AVAILABLE: 22
+  GENERIC_ALT_CONTEXT_AVAILABLE: 17
+  LINK_CONTEXT_AVAILABLE: 17
+
+Confidence:
+  high: 17
+  medium: 39
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+custom_issue text alt    nearby_heading                contextual_action                                                                                                                                                                                                  contextual_suggestion contextual_confidence contextual_evidence_source
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+   empty_alt  NaN NaN Khulna University verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Khulna University”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+Unified findings: 230
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_incomplete       123
+custom_only           59
+axe_only              29
+confirmed_by_both     19
+
+Priority:
+priority
+Review    123
+Medium     82
+High       25
+
+Categories:
+category
+Color contrast    131
+Images             39
+Links              23
+Headings           16
+Landmarks           9
+Structure           8
+Other               4
+
+Top rules:
+primary_rule
+color-contrast          131
+empty_alt                22
+non_descriptive_alt      17
+generic_link_text        17
+heading-order            14
+region                    9
+listitem                  6
+link-name                 5
+list                      2
+missing_h1                1
+heading_order             1
+empty_link_text           1
+blink                     1
+landmark-one-main         1
+marquee                   1
+page-has-heading-one      1
+
+Context-aware recommendations: 56
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - blink
+ - landmark-one-main
+ - marquee
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/ku.ac.bd__recommendations.csv
+final_pipeline/reports/live/ku.ac.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://ku.ac.bd/
+
+Host:
+ku.ac.bd
+
+Output stem:
+ku.ac.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://ku.ac.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/ku.ac.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/ku.ac.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+ku.ac.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://ku.ac.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/ku.ac.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/ku.ac.bd__axe.json
+Rendered URL: https://ku.ac.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/ku.ac.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/ku.ac.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/ku.ac.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/ku.ac.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/ku.ac.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/ku.ac.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://ku.ac.bd/
+
+Analysis stem:
+ku.ac.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/ku.ac.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/ku.ac.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/ku.ac.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/ku.ac.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/ku.ac.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

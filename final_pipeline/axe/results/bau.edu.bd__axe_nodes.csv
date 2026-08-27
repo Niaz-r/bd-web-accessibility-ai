@@ -1,0 +1,277 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://bau.edu.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,.hover\:text-white,"<button type=""button"" class=""relative rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-white"" data-v-8fdcc26a="""">","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://bau.edu.bd/,violation,image-alt,critical,Ensure <img> elements have alternative text or a role of none or presentation,Images must have alternative text,https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,.z-\[-1\],"<img onerror=""this.setAttribute('d..."" data-nuxt-img="""" srcset=""/_ipx/_/images/award..."" class=""absolute left-0 top-..."" src=""/_ipx/_/images/award..."" style=""translate: none; rot..."">","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".max-w-\[80px\] > .router-link-active.router-link-exact-active[aria-current=""page""]","<a aria-current=""page"" href=""/"" class=""router-link-active router-link-exact-active flex"" data-v-5f288cee=""""><img class=""w-full"" src=""/images/LogoOriginal.png"" alt="""" data-v-5f288cee=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-1.png""]","<a href=""/images/gallery/gallery-1.png"" class=""h-full flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-2.png""]","<a href=""/images/gallery/gallery-2.png"" class=""h-full flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-3.png""]","<a href=""/images/gallery/gallery-3.png"" class=""h-full flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-4.png""]","<a href=""/images/gallery/gallery-4.png"" class=""h-full flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-5.png""]","<a href=""/images/gallery/gallery-5.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-6.png""]","<a href=""/images/gallery/gallery-6.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-7.png""]","<a href=""/images/gallery/gallery-7.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-8.png""]","<a href=""/images/gallery/gallery-8.png"" class=""flex-1 flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-9.png""]","<a href=""/images/gallery/gallery-9.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-10.png""]","<a href=""/images/gallery/gallery-10.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-11.png""]","<a href=""/images/gallery/gallery-11.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-12.png""]","<a href=""/images/gallery/gallery-12.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-13.png""]","<a href=""/images/gallery/gallery-13.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-14.png""]","<a href=""/images/gallery/gallery-14.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,15
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""gallery-15.png""]","<a href=""/images/gallery/gallery-15.png"" class=""flex flex-col justify-end gap-5"" data-pswp-width=""1200"" data-pswp-height=""800"" target=""_blank"" data-v-9258a97b="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,16
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".mb-5.gap-3.text-\[15px\] > a[href=""tel:+8802996666846""][data-v-00c7bfe2=""""]","<a href=""tel:+8802996666846"" class="""" data-v-00c7bfe2="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,17
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""mailto:undefined""]","<a data-v-00c7bfe2="""" href=""mailto:undefined"" class=""""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,18
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".mt-4.gap-3.items-center > .router-link-active.router-link-exact-active[aria-current=""page""]:nth-child(1)","<a aria-current=""page"" href=""/"" class=""router-link-active router-link-exact-active serv-blt"" data-v-00c7bfe2="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,19
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".router-link-active.router-link-exact-active[aria-current=""page""]:nth-child(2)","<a aria-current=""page"" href=""/"" class=""router-link-active router-link-exact-active serv-blt"" data-v-00c7bfe2="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,20
+https://bau.edu.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".router-link-active.router-link-exact-active[aria-current=""page""]:nth-child(3)","<a aria-current=""page"" href=""/"" class=""router-link-active router-link-exact-active serv-blt"" data-v-00c7bfe2="""">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,21
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,1
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(1),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,2
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(2),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,3
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(3),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,4
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(4),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,5
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(2) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(5),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,6
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,button:nth-child(6),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,7
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(3) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,8
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(4) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,9
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(4) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(1),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,10
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(4) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(2),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,11
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,12
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(1),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,13
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(2),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,14
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(3),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,15
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(4),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,16
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(5) > .menu_wrapper > .max-h-0.opacity-0.text-left > button:nth-child(5),"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,17
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(6) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,18
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(6) > .menu_wrapper > .max-h-0.opacity-0.text-left > button,"<button data-v-8fdcc26a="""" class=""w-full py-2 pl-3 text-left text-base leading-6"">","Fix any of the following:
+  Element has focusable descendants",serious,19
+https://bau.edu.bd/,violation,nested-interactive,serious,Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies,Interactive controls must not be nested,https://dequeuniversity.com/rules/axe/4.13/nested-interactive?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,li:nth-child(7) > .menu_wrapper,"<button data-v-8fdcc26a="""" class=""menu_wrapper w-full"">","Fix any of the following:
+  Element has focusable descendants",serious,20
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.rounded-l-full.flex-1.border-\[\#99B484\] > input,"<input type=""text"" class=""w-full border-0 bg-transparent pr-2 focus:outline-none focus:ring-0"" value="""" placeholder=""Search..."" data-v-8fdcc26a="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-\[\#BDEC3C\],"<a href=""/search?search="" class=""flex-shrink-0 rounded-r-full border-[.5px] border-[#99B484] bg-[#BDEC3C] px-4 py-2 text-base font-normal"" style=""color:#073d3d !important;"" data-v-8fdcc26a=""""> Search </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.h-\[calc\(100vh-300px\)\] > li:nth-child(1),"<li data-v-8fdcc26a=""""><a data-v-8fdcc26a="""" aria-current=""page"" href=""/"" class=""router-link-active router-link-exact-active sidebar-link block rounded-md py-2 pr-2 text-base font-normal leading-6 text-white hover:text-[#BDEC3C]"">Home</a></li>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.h-\[calc\(100vh-300px\)\] > li:nth-child(8),"<li data-v-8fdcc26a=""""><a data-v-8fdcc26a="""" href=""https://app.bau.edu.bd/career"" target=""_blank"" class=""sidebar-link block cursor-pointer px-[13px] py-[24px] font-secondary text-base font-medium text-white hover:text-[#BDEC3C]"">Career</a></li>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.h-\[calc\(100vh-300px\)\] > li:nth-child(9),"<li data-v-8fdcc26a=""""><a data-v-8fdcc26a="""" href=""https://app.bau.edu.bd/pages/apa"" target=""_blank"" class=""sidebar-link block cursor-pointer px-[13px] py-[24px] font-secondary text-base font-medium text-white hover:text-[#BDEC3C]"">APA</a></li>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.h-\[calc\(100vh-300px\)\] > li:nth-child(10),"<li data-v-8fdcc26a=""""><a data-v-8fdcc26a="""" href=""https://app.bau.edu.bd/online_services"" target=""_blank"" class=""sidebar-link block cursor-pointer px-[13px] py-[24px] font-secondary text-base font-medium text-white hover:text-[#BDEC3C]"">Online Services</a></li>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.h-\[calc\(100vh-300px\)\] > li:nth-child(11),"<li data-v-8fdcc26a="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.leading-normal,"<p class=""whitespace-nowrap font-secondary font-medium leading-normal text-linkColor"" data-v-2f8c0942=""""> Latest News </p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.min-\[1200px\]\:col-span-3,"<div class=""max-w-[600px] min-[1200px]:col-span-3 min-[1200px]:w-full"" data-v-00c7bfe2="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".gap-7 > div[data-v-00c7bfe2=""""]:nth-child(1)","<div class="""" data-v-00c7bfe2=""""><div data-v-00c7bfe2="""" class=""""><h4 data-v-00c7bfe2="""" class=""serv-blt text-base font-bold tracking-wider"">FACULTIES</h4><div data-v-00c7bfe2="""" class=""mt-5 space-y-2""></div></div></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".gap-7 > div[data-v-00c7bfe2=""""]:nth-child(2)","<div class="""" data-v-00c7bfe2="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".gap-7 > div[data-v-00c7bfe2=""""]:nth-child(3)","<div class="""" data-v-00c7bfe2="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".gap-7 > div[data-v-00c7bfe2=""""]:nth-child(4)","<div class="""" data-v-00c7bfe2="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,".gap-7 > div[data-v-00c7bfe2=""""]:nth-child(5)","<div class="""" data-v-00c7bfe2="""">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.mb-5:nth-child(1),"<h4 class=""serv-blt mb-5 text-base font-bold tracking-wider"" data-v-00c7bfe2=""""> CONTACT US </h4>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.mb-5.gap-3.text-\[15px\] > p:nth-child(3),"<p class=""serv-blt"" data-v-00c7bfe2=""""> Bangladesh Agricultural University, Mymensingh - 2202, Bangladesh. </p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"a[href=""callto:+8802996666846""] > a[href=""tel:+8802996666846""][data-v-00c7bfe2=""""]","<a data-v-00c7bfe2="""" href=""tel:+8802996666846"" class=""""> +88 02996 666 846, +88 02996 666 896 </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.uppercase,"<p class=""serv-blt text-base font-bold uppercase tracking-wider"" data-v-00c7bfe2=""""> follow us: </p>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://bau.edu.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-\[\#F0F2DD\],"<div class=""items-center bg-[#F0F2DD] px-[5%] py-7 text-center font-secondary text-sm font-normal tracking-wide text-bgPrimary"" data-v-00c7bfe2=""""><p class=""relative mb-1"" data-v-00c7bfe2=""""> © 2017 - 2026 Bangladesh Agricultural University, Mymensingh, Bangladesh. All Rights Reserved. </p></div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,19
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.golden-text,"<span class=""golden-text"" data-v-492c8b5c="""">Professor Dr. A K Fazlul Haque Bhuiyan</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,1
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.silver-text,"<span class=""silver-text"" data-v-492c8b5c="""">Vice Chancellor</span>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-\[\#4D7C0F\],"<a href=""/vc-message"" class=""font-medium text-[#4D7C0F] hover:underline"" data-v-492c8b5c=""""> Read more → </a>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,3
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.title-large,"<h2 class=""title-large max-w-[600px] text-white""> BAU's Awards and Recognitions </h2>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,4
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-w-xl,"<p class=""text mt-4 max-w-xl text-white md:mt-0 md:text-right""> Our awards and recognition represent our legacy and heritage, embodying our commitment to excellence </p>","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,5
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"a[href$=""news""]","<a href=""/news"" class=""btn btn-new whitespace-nowrap text-bgPrimary btn-primary"" data-v-16234c61="""">","Fix any of the following:
+  Element's background color could not be determined because element contains an image node",serious,6
+https://bau.edu.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.text-center.title-primary,"<h2 class=""text-center title-primary will-change-scroll"">Photo Gallery</h2>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,7
+https://bau.edu.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,video,"<video class=""absolute left-0 top-0 h-full w-full cursor-pointer rounded-2xl object-cover"" muted="""" loop=""""></video>","Fix all of the following:
+  Check that captions are available for the element",critical,1

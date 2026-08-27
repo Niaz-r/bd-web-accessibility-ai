@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Website Accessibility Report</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #202124;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header {
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin-top: 0;
+}
+
+.subtitle {
+    color: #5f6368;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(170px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.card-number {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-label {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background: #f1f3f4;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.issue {
+    border-left: 5px solid #777;
+}
+
+.high {
+    border-left-color: #b3261e;
+}
+
+.medium {
+    border-left-color: #e37400;
+}
+
+.review {
+    background: #fff8e1;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.warning {
+    background: #fff4e5;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.note {
+    background: #e8f0fe;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+code, pre {
+    font-family: monospace;
+}
+
+pre {
+    background: #f6f8fa;
+    padding: 12px;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-right: 5px;
+    background: #eee;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+a {
+    color: #065fd4;
+}
+
+.evidence {
+    margin-top: 15px;
+}
+
+.small {
+    font-size: 13px;
+    color: #5f6368;
+}
+</style>
+</head>
+<body>
+<div class='container'>
+<div class='header'>
+<h1>Website Accessibility Report</h1>
+<h2>University of Dhaka</h2>
+<div class='subtitle'>
+Website ID: BD001
+<br>
+Organization: Public University
+<br>
+Website: <a href='https://www.du.ac.bd/' target='_blank'>https://www.du.ac.bd/</a>
+</div>
+</div>
+<div class='cards'>
+<div class='card'>
+<div class='card-number'>10</div>
+<div class='card-label'>Pages analyzed</div>
+</div>
+<div class='card'>
+<div class='card-number'>157</div>
+<div class='card-label'>Detected findings</div>
+</div>
+<div class='card'>
+<div class='card-number'>79</div>
+<div class='card-label'>High severity</div>
+</div>
+<div class='card'>
+<div class='card-number'>78</div>
+<div class='card-label'>Medium severity</div>
+</div>
+<div class='card'>
+<div class='card-number'>10</div>
+<div class='card-label'>Pages with findings</div>
+</div>
+<div class='card'>
+<div class='card-number'>76.4</div>
+<div class='card-label'>Research-defined score</div>
+</div>
+<div class='card'>
+<div class='card-number'>Good</div>
+<div class='card-label'>Research-defined level</div>
+</div>
+</div>
+<div class='section'>
+<h2>Interpretation</h2>
+<div class='warning'>
+<strong>Important:</strong> This report contains automated accessibility findings from static HTML analysis. It does not constitute an official WCAG conformance evaluation. Some findings require inspection of the rendered page, user interface, JavaScript-generated content, assistive-technology behavior, and human judgment.
+</div>
+</div>
+<div class='section'>
+<h2>Detected Issue Summary</h2>
+<table>
+<tr><th>Issue</th><th>Count</th><th>Severity</th><th>Finding class</th><th>WCAG relationship</th></tr>
+<tr>
+<td>empty_link_text</td>
+<td>46</td>
+<td>high</td>
+<td>Likely accessibility failure</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" target="_blank">2.4.4 Link Purpose (In Context)</a></td>
+</tr>
+<tr>
+<td>generic_link_text</td>
+<td>45</td>
+<td>medium</td>
+<td>Context review</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" target="_blank">2.4.4 Link Purpose (In Context)</a></td>
+</tr>
+<tr>
+<td>missing_alt</td>
+<td>24</td>
+<td>high</td>
+<td>Likely accessibility failure</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html" target="_blank">1.1.1 Non-text Content</a></td>
+</tr>
+<tr>
+<td>empty_heading</td>
+<td>20</td>
+<td>medium</td>
+<td>Potential accessibility failure</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html" target="_blank">2.4.6 Headings and Labels</a></td>
+</tr>
+<tr>
+<td>heading_order</td>
+<td>13</td>
+<td>medium</td>
+<td>Structural review</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" target="_blank">1.3.1 Info and Relationships</a></td>
+</tr>
+<tr>
+<td>missing_h1</td>
+<td>9</td>
+<td>high</td>
+<td>Structural best-practice review</td>
+<td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" target="_blank">1.3.1 / 2.4.6</a></td>
+</tr>
+</table>
+</div>
+<div class='section'>
+<h2>Recommendations</h2>
+<div class='section issue high'>
+<h3>empty_link_text</h3>
+<span class='badge'>46 occurrence(s)</span>
+<span class='badge'>Severity: high</span>
+<span class='badge'>Likely accessibility failure</span>
+<span class='badge'>Confidence: High</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" target="_blank">2.4.4 Link Purpose (In Context)</a> — Level A</p>
+<h4>Why this matters</h4>
+<p>A link without a meaningful accessible name may give screen-reader users little or no information about the link&#x27;s purpose or destination.</p>
+<h4>Recommendation</h4>
+<p>Provide a meaningful accessible name for the link. Prefer descriptive visible link text. When visible text is not appropriate, use a supported accessible naming mechanism and verify it with assistive technology.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>Verify the computed accessible name in the rendered page because JavaScript, ARIA, or nested content may affect the final accessible name.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;a href=&quot;/admission&quot;&gt;&lt;/a&gt;</pre>
+<strong>After</strong>
+<pre>&lt;a href=&quot;/admission&quot;&gt;Undergraduate admission information&lt;/a&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>For an icon-only link, provide an appropriate accessible name and test the rendered result.</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.facebook.com/duadministration</td>
+<td>Destination: https://www.facebook.com/duadministration</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.youtube.com/@DhakaUniversityDU</td>
+<td>Destination: https://www.youtube.com/@DhakaUniversityDU</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> #</td>
+<td>Destination: #</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.youtube.com/watch?v=3gYMR7ppHbw</td>
+<td>Destination: https://www.youtube.com/watch?v=3gYMR7ppHbw</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.facebook.com/duadministration</td>
+<td>Destination: https://www.facebook.com/duadministration</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.youtube.com/@DhakaUniversityDU</td>
+<td>Destination: https://www.youtube.com/@DhakaUniversityDU</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.facebook.com/duadministration</td>
+<td>Destination: https://www.facebook.com/duadministration</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.youtube.com/@DhakaUniversityDU</td>
+<td>Destination: https://www.youtube.com/@DhakaUniversityDU</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> #</td>
+<td>Destination: #</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Href:</strong> https://www.facebook.com/duadministration</td>
+<td>Destination: https://www.facebook.com/duadministration</td>
+</tr>
+</table>
+<p class='small'>Showing 10 of 46 occurrences.</p>
+</div>
+</div>
+<div class='section issue medium'>
+<h3>generic_link_text</h3>
+<span class='badge'>45 occurrence(s)</span>
+<span class='badge'>Severity: medium</span>
+<span class='badge'>Context review</span>
+<span class='badge'>Confidence: Medium</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" target="_blank">2.4.4 Link Purpose (In Context)</a> — Level A</p>
+<h4>Why this matters</h4>
+<p>Generic text such as &#x27;Read More&#x27;, &#x27;Click Here&#x27;, or &#x27;Learn More&#x27; may be difficult to understand when links are encountered outside their visual context.</p>
+<h4>Recommendation</h4>
+<p>Prefer link text that communicates the purpose or destination. If short generic text is retained, verify that its purpose can be determined from programmatically associated context.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>WCAG allows link purpose to be determined from the link text together with programmatically determined context. Therefore generic wording alone is not sufficient evidence of failure.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;a href=&quot;/admission&quot;&gt;Read More&lt;/a&gt;</pre>
+<strong>After</strong>
+<pre>&lt;a href=&quot;/admission&quot;&gt;Read more about undergraduate admission&lt;/a&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>Retain concise wording only when sufficient programmatically determined context clearly identifies the link purpose.</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28411<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28411 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28410<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28410 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28409<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28409 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28408<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28408 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28403<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28403 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28400<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28400 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28399<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28399 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28391<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28391 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/news/28390<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/news/28390 | Recorded accessible name: Read More</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Read More<br><strong>Href:</strong> https://www.du.ac.bd/du_post_details/event/27912<br><strong>Accessible name:</strong> Read More</td>
+<td>Detected link text: Read More | Destination: https://www.du.ac.bd/du_post_details/event/27912 | Recorded accessible name: Read More</td>
+</tr>
+</table>
+<p class='small'>Showing 10 of 45 occurrences.</p>
+</div>
+</div>
+<div class='section issue high'>
+<h3>missing_alt</h3>
+<span class='badge'>24 occurrence(s)</span>
+<span class='badge'>Severity: high</span>
+<span class='badge'>Likely accessibility failure</span>
+<span class='badge'>Confidence: High</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html" target="_blank">1.1.1 Non-text Content</a> — Level A</p>
+<h4>Why this matters</h4>
+<p>Images without an appropriate text alternative may not communicate their purpose or information to users of screen readers and other assistive technologies.</p>
+<h4>Recommendation</h4>
+<p>Determine whether the image is informative, functional, or decorative. Informative images should receive concise alternative text that communicates their purpose. Decorative images should normally use an empty alt attribute so assistive technology can ignore them.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>The scanner cannot reliably determine the purpose of the image from static HTML alone. Also verify whether another supported accessible-name mechanism already provides an equivalent alternative.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;img src=&quot;campus.jpg&quot;&gt;</pre>
+<strong>After</strong>
+<pre>&lt;img src=&quot;campus.jpg&quot; alt=&quot;Students entering the university library&quot;&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>&lt;img src=&quot;decoration.png&quot; alt=&quot;&quot;&gt;</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/জাতীয়_শুদ্ধাচার_কৌশল.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/জাতীয়_শুদ্ধাচার_কৌশল.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/বার্ষিক_কর্মসম্পাদন.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/বার্ষিক_কর্মসম্পাদন.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/উদ্ভাবনী_কার্যক্রম.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/উদ্ভাবনী_কার্যক্রম.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/অভিযোগ_প্রতিকার_ব্যবস্থাপনা.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/অভিযোগ_প্রতিকার_ব্যবস্থাপনা.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/তথ্য_অধিকার.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/তথ্য_অধিকার.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://apa.du.ac.bd/frontend/img/iconic/সেবা_প্রদান_প্রতিশ্রুতি.png</td>
+<td>Image source: https://apa.du.ac.bd/frontend/img/iconic/সেবা_প্রদান_প্রতিশ্রুতি.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://www.du.ac.bd/fontView/social_link/fb.png</td>
+<td>Image source: https://www.du.ac.bd/fontView/social_link/fb.png</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://www.du.ac.bd/fontView/social_link/youtube.png</td>
+<td>Image source: https://www.du.ac.bd/fontView/social_link/youtube.png</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://www.du.ac.bd/fontView/social_link/fb.png</td>
+<td>Image source: https://www.du.ac.bd/fontView/social_link/fb.png</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Image:</strong> https://www.du.ac.bd/fontView/social_link/youtube.png</td>
+<td>Image source: https://www.du.ac.bd/fontView/social_link/youtube.png</td>
+</tr>
+</table>
+<p class='small'>Showing 10 of 24 occurrences.</p>
+</div>
+</div>
+<div class='section issue medium'>
+<h3>empty_heading</h3>
+<span class='badge'>20 occurrence(s)</span>
+<span class='badge'>Severity: medium</span>
+<span class='badge'>Potential accessibility failure</span>
+<span class='badge'>Confidence: Medium</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html" target="_blank">2.4.6 Headings and Labels</a> — Level AA</p>
+<h4>Why this matters</h4>
+<p>An empty heading can create an unhelpful navigation stop for users who navigate pages by headings and does not describe a topic or purpose.</p>
+<h4>Recommendation</h4>
+<p>Remove the heading element if no heading is required, or provide concise meaningful heading text describing the associated section.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>Confirm the rendered heading content and whether CSS, JavaScript, or assistive naming affects what users actually encounter.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;h2&gt;&lt;/h2&gt;</pre>
+<strong>After</strong>
+<pre>&lt;h2&gt;Admission Requirements&lt;/h2&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>Remove the empty heading if it has no semantic purpose.</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0003_BD001<br><a href='https://www.du.ac.bd/university/HistoricalOutline' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0003_BD001<br><a href='https://www.du.ac.bd/university/HistoricalOutline' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0004_BD001<br><a href='https://www.du.ac.bd/university/DuataGlance' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0004_BD001<br><a href='https://www.du.ac.bd/university/DuataGlance' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+</table>
+<p class='small'>Showing 10 of 20 occurrences.</p>
+</div>
+</div>
+<div class='section issue medium'>
+<h3>heading_order</h3>
+<span class='badge'>13 occurrence(s)</span>
+<span class='badge'>Severity: medium</span>
+<span class='badge'>Structural review</span>
+<span class='badge'>Confidence: Advisory</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" target="_blank">1.3.1 Info and Relationships</a> — Level A</p>
+<h4>Why this matters</h4>
+<p>Unexpected heading-level jumps can make the relationship between page sections harder to understand for users navigating by headings.</p>
+<h4>Recommendation</h4>
+<p>Review the logical hierarchy of the page. Nest headings according to section relationships and avoid skipping levels when the skipped level would represent a missing structural relationship.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>A numerical heading-level jump is not always a WCAG failure. For example, moving back from an h4 to an h2 can correctly close subsections. Human review of the document outline is required.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;h2&gt;Programs&lt;/h2&gt;&lt;h4&gt;Computer Science&lt;/h4&gt;</pre>
+<strong>After</strong>
+<pre>&lt;h2&gt;Programs&lt;/h2&gt;&lt;h3&gt;Computer Science&lt;/h3&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>Choose heading levels according to semantic hierarchy, not visual appearance.</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> ঢাবি আধুনিক ভাষা ইনস্টিটিউটে ‘নির্মম জুলাই: স্মৃতি ও বিস্মৃতি’ শীর্ষক আলোচনা সভা</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> তারুণ্য স্টার্টআপ ও সম্ভাবনার বাংলাদেশ</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> শক্তি ইনস্টিটিউটির ২০২৫-২০২৬ শিক্ষাবর্ষের MS in Renewable Energy Technology (MRET)  প্রোগ্রামে ভর্তি বিজ্ঞপ্তি</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> DU News at National Dailies</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> বিভিন্ন বৃত্তি বিজ্ঞপ্তি</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Ten DU Faculty Listed in Stanford/Elsevier&#x27;s Top 2% Scientists 2024</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> ঢাবি প্রশাসনের বিভিন্ন পদক্ষেপ ও উদ্যোগের সাপ্তাহিক হালনাগাদ তথ্য</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Useful Links</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0003_BD001<br><a href='https://www.du.ac.bd/university/HistoricalOutline' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Year: 1912</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0004_BD001<br><a href='https://www.du.ac.bd/university/DuataGlance' target='_blank'>Open page</a></td>
+<td><strong>Text:</strong> Faculties</td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+</table>
+<p class='small'>Showing 10 of 13 occurrences.</p>
+</div>
+</div>
+<div class='section issue high'>
+<h3>missing_h1</h3>
+<span class='badge'>9 occurrence(s)</span>
+<span class='badge'>Severity: high</span>
+<span class='badge'>Structural best-practice review</span>
+<span class='badge'>Confidence: Advisory</span>
+<h4>WCAG relationship</h4>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" target="_blank">1.3.1 / 2.4.6</a> — Level A / AA</p>
+<h4>Why this matters</h4>
+<p>A clear page-level heading can help users understand the topic of the page and navigate its structure, particularly when using assistive technology.</p>
+<h4>Recommendation</h4>
+<p>Review the page structure and provide a meaningful top-level heading when appropriate. The heading should describe the page&#x27;s primary content or purpose.</p>
+<div class='review'>
+<strong>Manual review:</strong> Yes<br>WCAG does not simply require exactly one h1 on every page. The complete heading structure and content organization must be evaluated.
+</div>
+<h4>Example</h4>
+<strong>Before</strong>
+<pre>&lt;main&gt;&lt;p&gt;Admission information...&lt;/p&gt;&lt;/main&gt;</pre>
+<strong>After</strong>
+<pre>&lt;main&gt;&lt;h1&gt;Undergraduate Admission&lt;/h1&gt;&lt;p&gt;Admission information...&lt;/p&gt;&lt;/main&gt;</pre>
+<strong>Alternative/context-dependent fix</strong>
+<pre>Use heading levels according to the logical document structure rather than visual size alone.</pre>
+<div class='evidence'>
+<h4>Sample detected occurrences</h4>
+<table>
+<tr><th>Page</th><th>Evidence</th><th>Context</th></tr>
+<tr>
+<td>PG0001_BD001<br><a href='https://www.du.ac.bd/' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0002_BD001<br><a href='https://www.du.ac.bd/onlineServices' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0003_BD001<br><a href='https://www.du.ac.bd/university/HistoricalOutline' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0004_BD001<br><a href='https://www.du.ac.bd/university/DuataGlance' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0005_BD001<br><a href='https://www.du.ac.bd/university/VisionMission' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0006_BD001<br><a href='https://www.du.ac.bd/university/HonorisCausa' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0007_BD001<br><a href='https://www.du.ac.bd/viceChancellorMessage' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0008_BD001<br><a href='https://www.du.ac.bd/listofViceChancellors' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+<tr>
+<td>PG0009_BD001<br><a href='https://www.du.ac.bd/leadership/chancellor' target='_blank'>Open page</a></td>
+<td></td>
+<td>Review the affected element in the rendered page context.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='section'>
+<h2>Methodology and Limitations</h2>
+<ul>
+<li>The scanner analyzes static HTML obtained by the research crawler.</li>
+<li>JavaScript-generated content may not be represented.</li>
+<li>Automated findings are accessibility indicators, not complete WCAG conformance decisions.</li>
+<li>Empty alternative text may be correct for decorative images.</li>
+<li>Generic link text must be interpreted together with programmatically determined context.</li>
+<li>Heading hierarchy findings require examination of the complete page structure.</li>
+<li>The accessibility score shown in this report is a research-defined heuristic, not an official WCAG score.</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

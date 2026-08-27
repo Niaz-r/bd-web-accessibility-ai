@@ -1,0 +1,10 @@
+website_id,website_name,start_url,homepage_status,final_homepage_url,pages_collected,failure_reason,possible_javascript_site
+BD002,Bangladesh University of Engineering and Technology,https://www.buet.ac.bd/web,404,https://www.buet.ac.bd/web/web,0,HTTP 404,False
+BD006,Shahjalal University of Science and Technology,https://www.sust.edu/,403,https://www.sust.edu/,0,HTTP 403,False
+BD012,BRAC University,https://www.bracu.ac.bd/,403,https://www.bracu.ac.bd/,0,HTTP 403,False
+BD016,bdnews24.com,https://bdnews24.com/,403,https://bdnews24.com/,0,HTTP 403,False
+BD017,Dhaka Post,https://www.dhakapost.com/,200,https://www.dhakapost.com/,1,,False
+BD019,Risingbd,https://www.risingbd.com/,403,https://www.risingbd.com/,0,HTTP 403,False
+BD022,Bangladesh Pratidin,https://www.bd-pratidin.com/,403,https://www.bd-pratidin.com/,0,HTTP 403,False
+BD024,Newsbangla24,https://www.newsbangla24.com/,200,https://www.newsbangla24.com/,10,,False
+BD026,E-Passport Portal,https://www.epassport.gov.bd/landing,200,https://www.epassport.gov.bd/landing,1,,False

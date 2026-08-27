@@ -1,0 +1,353 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.dhakapost.com/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.dhakapost.com/
+Status: 200
+Analyzable: True
+Findings: 1
+
+issue_category           issue severity                                                                                                                                                                                                           selector
+          link empty_link_text     high div.container.px-4 > div.grid.grid-cols-1 > div.col-span-12.lg:col-span-8 > div.grid.grid-cols-1:nth-of-type(2) > div.col-span-12.md:col-span-12:nth-of-type(2) > div.flex.flex-col > div.mb-6.last:mb-0 > a.group
+
+CSV: final_pipeline/data/intermediate/custom_live/www.dhakapost.com__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.dhakapost.com__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.dhakapost.com/
+HTTP status: 200
+Final URL: https://www.dhakapost.com/
+Page title: Dhaka Post - Bangla News Portal, Breaking News, Bd News and Videos
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 5
+Violation nodes: 27
+Incomplete rules: 2
+Incomplete nodes: 7
+Passed rules: 42
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 1
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: .md\:block.hidden > .md\:mt-3.md\:px-0.mb-7 > .gap-3.group.flex > div:nth-child(2) > .font-normal.text-gray-500.dark\:text-gray-300
+  HTML: <p class="mt-2 font-normal text-gray-500 dark:text-gray-300">রেজা সেলিম</p>
+
+frame-title | impact: serious | nodes: 2
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-left_0 #\32 00_268_dfa7banner_html_inpage_0\.if
+  HTML: <iframe id="200_268_dfa7banner_html_inpage_0.if" src="//s0.2mdn.net/dfp/2037752/5219592452/1717050434021/index.html" width="300" height="250" frameborder="0" scrolling="no" allowfullscreen="true" style="width: 300px; height: 250px;"></iframe>
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-right-a_0 #\32 00_268_dfa7banner_html_inpage_0\.if
+  HTML: <iframe id="200_268_dfa7banner_html_inpage_0.if" src="//s0.2mdn.net/dfp/2037752/5219592452/1742801406586/index.html" width="300" height="250" frameborder="0" scrolling="no" allowfullscreen="true" style="width: 300px; height: 250px;"></iframe>
+
+image-alt | impact: critical | nodes: 9
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-left_0 #\32 00_268_dfa7banner_html_inpage_0\.if img[src$="BG.jpg"]
+  HTML: <img src="BG.jpg" style="background-position: center center;">
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-left_0 #\32 00_268_dfa7banner_html_inpage_0\.if img[src$="Product.png"]
+  HTML: <img src="Product.png" style="background-position: center center;">
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-left_0 #\32 00_268_dfa7banner_html_inpage_0\.if img[src$="Logo.png"]
+  HTML: <img src="Logo.png" style="background-position: center center;">
+
+image-redundant-alt | impact: minor | nodes: 13
+  Help: Alternative text of images should not be repeated as text
+  Tags: cat.text-alternatives, best-practice
+  Selector: #fire-20260826155443\.jpg
+  HTML: <img alt="সৌদিতে অগ্নিকাণ্ডে ন..." width="160" height="90" decoding="async" data-nimg="1" class="w-[124px] h-auto lg:..." style="color:transparent" src="https://assets.dhaka..." id="fire-20260826155443...." loading="lazy">
+  Selector: #salahuddin-20260826124118\.jpg
+  HTML: <img alt="রাতারাতি আইনশৃঙ্খলা ..." width="160" height="90" decoding="async" data-nimg="1" class="w-[124px] h-auto lg:..." style="color:transparent" src="https://assets.dhaka..." id="salahuddin-202608261..." loading="lazy">
+  Selector: #dhaka-post-chattogram-20260826185042\.jpg
+  HTML: <img alt="বিমানে মায়ের মৃত্যু,..." width="160" height="90" decoding="async" data-nimg="1" class="w-[124px] h-auto lg:..." style="color:transparent" src="https://assets.dhaka..." id="dhaka-post-chattogra..." loading="lazy">
+
+link-name | impact: serious | nodes: 2
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: #google_ads_iframe_\/22392448694\/dp-common-header_0 #aw0
+  HTML: <a id="aw0" target="_blank" href="https://googleads.g...." onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')">
+  Selector: #google_ads_iframe_\/22392448694\/dp-home-special-below-970x250\/\/300x250_0 #aw0
+  HTML: <a id="aw0" target="_blank" href="https://googleads.g...." onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.dhakapost.com__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.dhakapost.com__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 1
+Axe nodes: 34
+
+Axe result types:
+result_type
+violation     27
+incomplete     7
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          27
+axe_incomplete     7
+custom_only        1
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               18
+third_party_embed          15
+first_party_integration     2
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.dhakapost.com__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.dhakapost.com/
+Unified findings: 35
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.dhakapost.com__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.dhakapost.com__context_findings.csv
+Total unified findings: 35
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+Unified findings: 35
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          27
+axe_incomplete     7
+custom_only        1
+
+Priority:
+priority
+Low         13
+Critical     9
+Review       7
+High         6
+
+Categories:
+category
+Other             17
+Images             9
+Color contrast     4
+Links              3
+Frames             2
+
+Top rules:
+primary_rule
+image-redundant-alt    13
+image-alt               9
+color-contrast          4
+frame-title-unique      4
+frame-title             2
+link-name               2
+empty_link_text         1
+
+Context-aware recommendations: 0
+
+Third-party findings: 15
+
+Rules using fallback recommendation:
+ - frame-title-unique
+ - image-redundant-alt
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.dhakapost.com__recommendations.csv
+final_pipeline/reports/live/www.dhakapost.com__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.dhakapost.com/
+
+Host:
+www.dhakapost.com
+
+Output stem:
+www.dhakapost.com
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.dhakapost.com/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.dhakapost.com__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.dhakapost.com__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+www.dhakapost.com
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.dhakapost.com/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.dhakapost.com__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.dhakapost.com__axe.json
+Rendered URL: https://www.dhakapost.com/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.dhakapost.com__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.dhakapost.com__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.dhakapost.com__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.dhakapost.com__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.dhakapost.com__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.dhakapost.com__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.dhakapost.com/
+
+Analysis stem:
+www.dhakapost.com
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.dhakapost.com__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.dhakapost.com__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.dhakapost.com__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.dhakapost.com__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.dhakapost.com__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

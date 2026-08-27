@@ -1,0 +1,13 @@
+website_id,website_name,start_url,success,homepage_status,pages_recovered,requests_attempted,failure_reason
+BD005,Jahangirnagar University,https://juniv.edu/,True,200.0,10,11,
+BD006,atiya Kabi Kazi Nazrul Islam University (JKKNIU),https://www.jkkniu.edu.bd/,True,200.0,10,11,
+BD021,The Daily Star,https://www.thedailystar.net/,True,200.0,10,10,
+BD052,Daffodil International University,https://daffodilvarsity.edu.bd,True,200.0,10,10,
+BD058,Northern University Bangladesh,https://nub.ac.bd,True,200.0,10,12,
+BD061,Primeasia University,https://www.primeasia.edu.bd,True,200.0,10,11,
+BD062,Green University of Bangladesh,https://green.edu.bd,True,200.0,10,10,
+BD071,Ministry of Finance,https://mof.gov.bd,False,,0,2,"SSLError: HTTPSConnectionPool(host='mof.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+BD073,Ministry of Foreign Affairs,https://mofa.gov.bd,False,,0,2,"SSLError: HTTPSConnectionPool(host='mofa.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+BD076,National University Bangladesh Portal,https://www.nu.ac.bd,False,,0,2,"SSLError: HTTPSConnectionPool(host='www.nu.ac.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+BD077,Bangladesh Road Transport Authority (BRTA),https://brta.gov.bd,False,,0,2,"SSLError: HTTPSConnectionPool(host='brta.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+BD080,National University / UGC Bangladesh,https://www.ugc.gov.bd,False,,0,2,"SSLError: HTTPSConnectionPool(host='ugc.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"

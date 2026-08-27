@@ -1,0 +1,14 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.jagonews24.com/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html class=""no-js"" lang=""en-US"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://www.jagonews24.com/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.cf-header,"<div class=""cf-wrapper cf-header cf-error-overview"">
+        <h1 data-translate=""block_headline"">Sorry, you have been blocked</h1>
+        <h2 class=""cf-subheadline""><span data-translate=""unable_to_access"">You are unable to access</span> jagonews24.com</h2>
+      </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://www.jagonews24.com/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.cf-section.cf-wrapper,"<div class=""cf-section cf-wrapper"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://www.jagonews24.com/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.text-13,"<p class=""text-13"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://www.jagonews24.com/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,#brand_link,"<a rel=""noopener noreferrer"" href=""https://www.cloudflare.com/5xx-error-landing"" id=""brand_link"" target=""_blank"">Cloudflare</a>","Fix any of the following:
+  Element's contrast ratio could not be determined because of element overlap",serious,1

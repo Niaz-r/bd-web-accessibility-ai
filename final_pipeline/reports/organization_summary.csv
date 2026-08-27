@@ -1,0 +1,5 @@
+organization_type,websites,pages,total_issues,high_issues,medium_issues,mean_issues_per_page,median_issues_per_page,mean_score,median_score,min_score,max_score
+Government,13,103,2318,1015,1303,18.03846153846154,16.5,80.38461538461539,74.1,57.2,98.0
+News,12,98,1081,743,338,9.333333333333334,2.45,84.28333333333333,97.05000000000001,48.1,99.6
+Private University,18,171,3004,1707,1297,16.73888888888889,15.5,74.74444444444445,75.85,23.9,98.0
+Public University,20,200,6385,1954,4431,31.925,15.5,71.74,77.5,15.7,92.6

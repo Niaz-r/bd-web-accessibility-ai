@@ -1,0 +1,485 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.jkkniu.edu.bd/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.jkkniu.edu.bd/
+Status: 200
+Analyzable: True
+Findings: 54
+
+issue_category             issue severity                                                                                                                                                                                                                                    selector
+         image         empty_alt   medium                                                          section#message-vice > div.container > div.row.g-0:nth-of-type(1) > div.col-lg-3.col-md-12:nth-of-type(1) > div.message-vice-image > div.member-img:nth-of-type(1) > img.img-fluid
+         image         empty_alt   medium                                                                                                                                                                                                                         section#stats > img
+       heading        missing_h1     high                                                                                                                                                                                                                                            
+       heading     heading_order   medium                                                                                                                           nav#navbar > ul > li.dropdown.megamenu:nth-of-type(3) > ul.animated.fadeOutUp > li:nth-of-type(1) > h6.menu-title
+       heading     heading_order   medium                                                   section#seminar > div.container.seminar-container > div.row:nth-of-type(2) > div.col-lg-3.mt-3:nth-of-type(1) > div.card.h-100 > div.seminar-image:nth-of-type(1) > div.seminar-date > h4
+       heading     heading_order   medium                                             div.container > div.envents-container:nth-of-type(2) > div.row > div.col-lg-4.mt-lg-0:nth-of-type(1) > div.card.event-card > div.card-body.event-info > div.event-text:nth-of-type(2) > h4.ln-3
+       heading     heading_order   medium                                                                                                                                                                 div#pills-all > div.card.notices-card > div.notice-item:nth-of-type(1) > h5
+       heading     heading_order   medium                                                                                            section#apa-section > div.container > div.apa-all-card:nth-of-type(2) > div.row > div.col-lg-6.col-md-6:nth-of-type(1) > div.card.h-100 > a > h4
+       heading     heading_order   medium                       section#research > div.container > div.research-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1) > div.card.h-100 > div.card-body.research-info:nth-of-type(2) > h4
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(2) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(3) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(4) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(5) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+       heading     heading_order   medium div.container > div.activities-slider.swiper:nth-of-type(2) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(6) > div.card.h-100 > div.card-body.activities-info:nth-of-type(2) > div.activities-date:nth-of-type(1) > h6
+          link   empty_link_text     high                                                                                                                                                                                                    nav#navbar > ul > li:nth-of-type(14) > a
+          link   empty_link_text     high                                                                                                                                                                                   div#heroCarousel > a.carousel-control-prev:nth-of-type(1)
+          link   empty_link_text     high                                                                                                                                                                                   div#heroCarousel > a.carousel-control-next:nth-of-type(2)
+          link generic_link_text   medium                                       section#seminar > div.container.seminar-container > div.row:nth-of-type(2) > div.col-lg-3.mt-3:nth-of-type(1) > div.card.h-100 > div.card-body.seminar-card-body:nth-of-type(2) > div.seminar-btn > a
+          link generic_link_text   medium                                       section#seminar > div.container.seminar-container > div.row:nth-of-type(2) > div.col-lg-3.mt-3:nth-of-type(2) > div.card.h-100 > div.card-body.seminar-card-body:nth-of-type(2) > div.seminar-btn > a
+
+CSV: final_pipeline/data/intermediate/custom_live/www.jkkniu.edu.bd__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.jkkniu.edu.bd__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.jkkniu.edu.bd/
+HTTP status: 200
+Final URL: https://www.jkkniu.edu.bd/
+Page title: Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 11
+Violation nodes: 57
+Incomplete rules: 2
+Incomplete nodes: 5
+Passed rules: 44
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+aria-input-field-name | impact: serious | nodes: 1
+  Help: ARIA input fields must have an accessible name
+  Tags: cat.aria, wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1
+  Selector: .carousel-inner
+  HTML: <div class="carousel-inner" role="listbox">
+
+aria-required-children | impact: critical | nodes: 1
+  Help: Certain ARIA roles must contain particular children
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .slide-notice-padding > .nav.nav-pills[role="tablist"]
+  HTML: <ul class="nav nav-pills mb-3" role="tablist">
+
+aria-required-parent | impact: critical | nodes: 2
+  Help: Certain ARIA roles must be contained by particular parents
+  Tags: cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: a[href$="#tab1"]
+  HTML: <a class="nav-link active" data-bs-toggle="pill" href="#tab1" aria-selected="true" role="tab">Our News</a>
+  Selector: a[href$="#tab2"]
+  HTML: <a class="nav-link" data-bs-toggle="pill" href="#tab2" aria-selected="false" tabindex="-1" role="tab">Notice Board</a>
+
+color-contrast | impact: serious | nodes: 18
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: a[href$="#tab1"]
+  HTML: <a class="nav-link active" data-bs-toggle="pill" href="#tab1" aria-selected="true" role="tab">Our News</a>
+  Selector: .mt-3.col-lg-3.col-md-6:nth-child(1) > .Seminar-card.h-100.card > .seminar-image > .seminar-date > h4
+  HTML: <h4>04-08-2026</h4>
+  Selector: .mt-3.col-lg-3.col-md-6:nth-child(2) > .Seminar-card.h-100.card > .seminar-image > .seminar-date > h4
+  HTML: <h4>04-08-2026</h4>
+
+heading-order | impact: moderate | nodes: 18
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .notice-top > h4
+  HTML: <h4>Latest Notice</h4>
+  Selector: .mt-3.col-lg-3.col-md-6:nth-child(1) > .Seminar-card.h-100.card > .seminar-image > .seminar-date > h4
+  HTML: <h4>04-08-2026</h4>
+  Selector: .mt-lg-0.col-lg-4.mt-3:nth-child(1) > .event-card.card > .event-info.card-body > .event-text > .ln-3
+  HTML: <h4 class="ln-3">
+
+link-in-text-block | impact: serious | nodes: 1
+  Help: Links must be distinguishable without relying on color
+  Tags: cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549, EN-9.1.4.1, RGAAv4, RGAA-10.6.1
+  Selector: h5 > a[target="_blank"]
+  HTML: <a href="https://intelligentsystemsltd.com/" target="_blank">ISSL </a>
+
+link-name | impact: serious | nodes: 7
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: a[data-bs-toggle="modal"]
+  HTML: <a type="button" data-bs-toggle="modal" data-bs-target="#globalSearchModal" href="#"><i class="bi bi-search"></i></a>
+  Selector: .carousel-control-prev
+  HTML: <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev"> <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span> </a>
+  Selector: .carousel-control-next
+  HTML: <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next"> <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span> </a>
+
+listitem | impact: serious | nodes: 2
+  Help: <li> elements must be contained in a <ul> or <ol>
+  Tags: cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+  Selector: .slide-notice-padding > .nav.nav-pills[role="tablist"] > li:nth-child(1)
+  HTML: <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1" aria-selected="true" role="tab">Our News</a></li>
+  Selector: .slide-notice-padding > .nav.nav-pills[role="tablist"] > li:nth-child(2)
+  HTML: <li><a class="nav-link" data-bs-toggle="pill" href="#tab2" aria-selected="false" tabindex="-1" role="tab">Notice Board</a></li>
+
+marquee | impact: serious | nodes: 2
+  Help: <marquee> elements are deprecated and must not be used
+  Tags: cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1
+  Selector: marquee[direction="left"]
+  HTML: <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+  Selector: #tab1 > div:nth-child(1) > marquee[height="500"][direction="up"]
+  HTML: <marquee behavior="scroll" height="500" direction="up" onmouseover="this.stop()" onmouseout="this.start()">
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+region | impact: moderate | nodes: 4
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: #topbar
+  HTML: <section id="topbar" class="d-flex align-items-center">
+  Selector: #leastNotice
+  HTML: <section id="leastNotice" class="leastNotice">
+  Selector: .slide-notice-padding > .nav.nav-pills[role="tablist"]
+  HTML: <ul class="nav nav-pills mb-3" role="tablist">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jkkniu.edu.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jkkniu.edu.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 54
+Axe nodes: 62
+
+Axe result types:
+result_type
+violation     57
+incomplete     5
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 25
+Confirmed matches: 15
+
+Unified finding statuses:
+finding_status
+axe_only             42
+custom_only          39
+confirmed_by_both    15
+axe_incomplete        5
+
+Confirmed rule pairs:
+custom_issue     axe_rule     
+empty_link_text  link-name        7
+heading_order    heading-order    8
+
+Ownership scope:
+ownership_scope
+page_content    101
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+   custom_issue      axe_rule  match_score                                     match_method                                                                                                                                             preferred_selector src                                    href
+empty_link_text     link-name          210       same_href+same_html+same_tag+class_overlap                                                                                                                                                      .facebook     https://www.facebook.com/officialjkkniu
+  heading_order heading-order          130                     same_html+same_tag+same_text                                                          .mt-3.col-lg-3.col-md-6:nth-child(1) > .Seminar-card.h-100.card > .seminar-image > .seminar-date > h4                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text                                                          .col-lg-6.mb-3.col-md-6:nth-child(1) > .apa-items.shadow-sm.h-100 > a[href="javascript:void(0)"] > h4                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text       .swiper-slide-active[data-swiper-slide-index="0"][aria-label="1 / 6"] > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text         .swiper-slide-next[data-swiper-slide-index="1"][aria-label="2 / 6"] > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text .swiper-slide[data-swiper-slide-index="2"][aria-label="3 / 6"]:nth-child(6) > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text    .swiper-slide-duplicate[data-swiper-slide-index="3"][aria-label="4 / 6"] > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text    .swiper-slide-duplicate[data-swiper-slide-index="4"][aria-label="5 / 6"] > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+  heading_order heading-order          130                     same_html+same_tag+same_text         .swiper-slide-prev[data-swiper-slide-index="5"][aria-label="6 / 6"] > .activities-card.h-100.card > .activities-info.card-body > .activities-date > h6                                            
+empty_link_text     link-name          130 same_html+same_tag+class_overlap+selector_medium                                                                                                                                         .carousel-control-prev                               #heroCarousel
+empty_link_text     link-name          130 same_html+same_tag+class_overlap+selector_medium                                                                                                                                         .carousel-control-next                               #heroCarousel
+empty_link_text     link-name          110                 same_html+same_tag+class_overlap                                                                                                                                                       .twitter                                           #
+empty_link_text     link-name          110                 same_html+same_tag+class_overlap                                                                                                                                                     .instagram                                           #
+empty_link_text     link-name          110                 same_html+same_tag+class_overlap                                                                                                                                                      .linkedin                                           #
+empty_link_text     link-name          100                               same_html+same_tag                                                                                                                                      a[data-bs-toggle="modal"]                                           #
+
+Output: final_pipeline/data/intermediate/unified_live/www.jkkniu.edu.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.jkkniu.edu.bd/
+Unified findings: 101
+Context-dependent findings: 33
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 33
+Unmatched: 0
+
+     custom_issue      text  alt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               href                                                                  src                                                                                          nearby_heading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 surrounding_context
+        empty_alt       NaN  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                NaN https://www.jkkniu.edu.bd/uploads/vice_chancellor/17789434821574.jpg                                                                                         ছুটির বিজ্ঞপ্তি                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Nearby heading: ছুটির বিজ্ঞপ্তি | Parent text: Professor Dr. Mohammad Musharof Hossain Vice Chancellor | Next text: Professor Dr. Mohammad Musharof Hossain | Image filename: 17789434821574.jpg
+        empty_alt       NaN  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                NaN        https://www.jkkniu.edu.bd/uploads/monogram/17717383561244.jpg                                                                              Message from the Treasurer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Nearby heading: Message from the Treasurer | Parent text: Founded Faculty Members + Regular Students Department | Previous text: NOT Available | Next text: Founded | Image filename: 17717383561244.jpg
+generic_link_text Read More  NaN           https://www.jkkniu.edu.bd/seminar/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%AC-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4                                                                  NaN          নজরুল বিশ্ববিদ্যালয়ে ব্যবসায় প্রশাসন অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                          Nearby heading: নজরুল বিশ্ববিদ্যালয়ে ব্যবসায় প্রশাসন অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত | Element text: Read More | Parent text: 04-08-2026 নজরুল বিশ্ববিদ্যালয়ে ব্যবসায় প্রশাসন অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত &nbsp;জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের ব্যবসায় প্রশাসন অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ^বিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০৪ আগস্ট ২০২৬ তারিখ মঙ্গলবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ মোশারফ হোসেন।প্রধান... | Previous text: &nbsp;জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের ব্যবসায় প্রশাসন অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ^বিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০৪ আগস্ট ২০২৬ তারিখ মঙ্গলবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপাচ... | Next text: 04-08-2026
+generic_link_text Read More  NaN https://www.jkkniu.edu.bd/seminar/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%AC-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4                                                                  NaN        নজরুল বিশ্ববিদ্যালয়ে বিজ্ঞান ও প্রকৌশল অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                        Nearby heading: নজরুল বিশ্ববিদ্যালয়ে বিজ্ঞান ও প্রকৌশল অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত | Element text: Read More | Parent text: 04-08-2026 নজরুল বিশ্ববিদ্যালয়ে বিজ্ঞান ও প্রকৌশল অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত &nbsp;জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের বিজ্ঞান ও প্রকৌশল অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ্ববিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০৩ আগস্ট ২০২৬ তারিখ সোমবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ মোশারফ হোসেন।প্র... | Previous text: &nbsp;জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের বিজ্ঞান ও প্রকৌশল অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ্ববিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০৩ আগস্ট ২০২৬ তারিখ সোমবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপা... | Next text: 02-08-2026
+generic_link_text Read More  NaN                                                                                                               https://www.jkkniu.edu.bd/seminar/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A6%B2%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%AC-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4                                                                  NaN                      নজরুল বিশ্ববিদ্যালয়ে কলা অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                                      Nearby heading: নজরুল বিশ্ববিদ্যালয়ে কলা অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত | Element text: Read More | Parent text: 02-08-2026 নজরুল বিশ্ববিদ্যালয়ে কলা অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের কলা অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ^বিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০২ আগস্ট ২০২৬ তারিখ রবিবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপাচার্য প্রফেসর ড. মোহাম্মদ মোশারফ হোসেন।প্রধান অতিথি হিসেবে বক্তব্যে মাননীয় উপ... | Previous text: জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের কলা অনুষদের আয়োজনে ২০২৫-২০২৬ অর্থবছরের গবেষণা প্রকল্প সেমিনার অনুষ্ঠিত হয়। বিশ^বিদ্যালয়ের পুরনো প্রশাসনিক ভবনের কনফারেন্স কক্ষে ০২ আগস্ট ২০২৬ তারিখ রবিবার সকালে এই সেমিনারের উদ্বোধনী পর্ব অনুষ্ঠিত হয়। সেমিনারের উদ্বোধনী পর্বে প্রধান অতিথি হিসেবে বক্তব্য রাখেন বিশ্ববিদ্যালয়ের মাননীয় উপাচার্য প্রফেসর ড. মোহা... | Next text: 02-08-2026
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          https://www.jkkniu.edu.bd/seminar/contemporary-population-issues,-sustainable-development,-and-future-challenges:-bangladesh-perspectives                                                                  NaN Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives Nearby heading: Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives | Element text: Read More | Parent text: 02-08-2026 Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives The Department of Population Science, Jatiya Kabi Kazi Nazrul Islam University, successfully organized a seminar titled "Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives" on 25 July 2026.The seminar was chaired by Dr. K. M. Mustafizur Rahman, Head of the Department of Population Science. The Chief Discussant of the seminar was H... | Previous text: The Department of Population Science, Jatiya Kabi Kazi Nazrul Islam University, successfully organized a seminar titled "Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives" on 25 July 2026.The seminar was chaired by Dr. K. M. Mustafizur Rahman, Head of the Department of Population Science. The Ch... | Next text: Recent and Upcoming Events
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                       https://www.jkkniu.edu.bd/event/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A7%A8%E0%A7%A6%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8-%E0%A6%89%E0%A6%A6%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%BF%E0%A6%A4                                                                  NaN                                                    নজরুল বিশ্ববিদ্যালয়ে ২০তম বিশ্ববিদ্যালয় দিবস উদযাপিত                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Nearby heading: নজরুল বিশ্ববিদ্যালয়ে ২০তম বিশ্ববিদ্যালয় দিবস উদযাপিত | Element text: Read More | Parent text: নজরুল বিশ্ববিদ্যালয়ে ২০তম বিশ্ববিদ্যালয় দিবস উদযাপিত Read More | Next text: নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু
+generic_link_text Read More  NaN                                                                                                                                                                                                    https://www.jkkniu.edu.bd/event/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A7%AD-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E2%80%98%E0%A7%AA%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81                                                                  NaN                                 নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Nearby heading: নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু | Element text: Read More | Parent text: নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু Read More | Next text: নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত
+generic_link_text Read More  NaN                                                                                                                                                                                                                       https://www.jkkniu.edu.bd/event/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%BE%E0%A6%A2%E0%A7%8D%E0%A6%AF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%A8%E0%A6%AC%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%89%E0%A6%A6%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%BF%E0%A6%A4                                                                  NaN                                    নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Nearby heading: নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত | Element text: Read More | Parent text: নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত Read More | Next text: NOTICE BOARD
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           https://www.jkkniu.edu.bd/notice/noc-of-mrs.-samanta-islam-6a8d301a7cc1e                                                                  NaN                                                                               NOC Of Mrs. Samanta Islam                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Nearby heading: NOC Of Mrs. Samanta Islam | Element text: Read More | Parent text: NOC Of Mrs. Samanta Islam Published: 25-08-2026 Read More | Previous text: Published: 25-08-2026 | Next text: NOC Of Ms. Umme Farhana
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             https://www.jkkniu.edu.bd/notice/noc-of-ms.-umme-farhana-6a8d583edb457                                                                  NaN                                                                                 NOC Of Ms. Umme Farhana                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Nearby heading: NOC Of Ms. Umme Farhana | Element text: Read More | Parent text: NOC Of Ms. Umme Farhana Published: 25-08-2026 Read More | Previous text: Published: 25-08-2026 | Next text: NOC Of Mr. Md. Mazharul Hossain Tokder
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              https://www.jkkniu.edu.bd/notice/noc-of-mr.-md.-mazharul-hossain-tokder-6a8c0ab88b767                                                                  NaN                                                                  NOC Of Mr. Md. Mazharul Hossain Tokder                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Nearby heading: NOC Of Mr. Md. Mazharul Hossain Tokder | Element text: Read More | Parent text: NOC Of Mr. Md. Mazharul Hossain Tokder Published: 24-08-2026 Read More | Previous text: Published: 24-08-2026 | Next text: জরুরি বিজ্ঞপ্তি
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     https://www.jkkniu.edu.bd/notice/%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-6a6f1a31c5832                                                                  NaN                                                                                         জরুরি বিজ্ঞপ্তি                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Nearby heading: জরুরি বিজ্ঞপ্তি | Element text: Read More | Parent text: জরুরি বিজ্ঞপ্তি Published: 02-08-2026 Read More | Previous text: Published: 02-08-2026 | Next text: GST 2025-2026 শিক্ষাবর্ষে ভর্তিচ্ছু শিক্ষার্থীদের জন্য গণ বিজ্ঞপ্তি
+generic_link_text Read More  NaN                                                                                                                                                                                                                                                                                                                 https://www.jkkniu.edu.bd/notice/gst-2025-2026-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%81-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%97%E0%A6%A3-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-6a6893edb2fe1                                                                  NaN                                     GST 2025-2026 শিক্ষাবর্ষে ভর্তিচ্ছু শিক্ষার্থীদের জন্য গণ বিজ্ঞপ্তি                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Nearby heading: GST 2025-2026 শিক্ষাবর্ষে ভর্তিচ্ছু শিক্ষার্থীদের জন্য গণ বিজ্ঞপ্তি | Element text: Read More | Parent text: GST 2025-2026 শিক্ষাবর্ষে ভর্তিচ্ছু শিক্ষার্থীদের জন্য গণ বিজ্ঞপ্তি Published: 28-07-2026 Read More | Previous text: Published: 28-07-2026 | Next text: GST 2025-2026 শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের মাইগ্রেশন সংক্রান্ত বিজ্ঞপ্তি
+generic_link_text Read More  NaN                                                                                                                                                                                                              https://www.jkkniu.edu.bd/notice/gst-2025-2026-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A7%83%E0%A6%A4-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-6a688fa75cc00                                                                  NaN                          GST 2025-2026 শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের মাইগ্রেশন সংক্রান্ত বিজ্ঞপ্তি                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Nearby heading: GST 2025-2026 শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের মাইগ্রেশন সংক্রান্ত বিজ্ঞপ্তি | Element text: Read More | Parent text: GST 2025-2026 শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের মাইগ্রেশন সংক্রান্ত বিজ্ঞপ্তি Published: 28-07-2026 Read More | Previous text: Published: 28-07-2026 | Next text: NOC Of Ms. Umme Farhana
+
+Output:
+final_pipeline/data/intermediate/context_live/www.jkkniu.edu.bd__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jkkniu.edu.bd__context_findings.csv
+Total unified findings: 101
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 33
+
+By rule:
+  empty_alt: 2
+  generic_link_text: 31
+
+Decision codes:
+  EMPTY_ALT_CONTEXT_AVAILABLE: 2
+  LINK_CONTEXT_AVAILABLE: 31
+
+Confidence:
+  high: 31
+  medium: 2
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+     custom_issue      text  alt                                                                                          nearby_heading                      contextual_action                                                                                                                                                                                                           contextual_suggestion contextual_confidence contextual_evidence_source
+        empty_alt       NaN  NaN                                                                                         ছুটির বিজ্ঞপ্তি       verify_decorative_or_informative            Visually inspect the image. If it communicates information related to “ছুটির বিজ্ঞপ্তি”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+        empty_alt       NaN  NaN                                                                              Message from the Treasurer       verify_decorative_or_informative Visually inspect the image. If it communicates information related to “Message from the Treasurer”, replace alt="" with a concise description of what the image actually communicates. If it is purely decorative, keep alt="".                medium             nearby_heading
+generic_link_text Read More  NaN          নজরুল বিশ্ববিদ্যালয়ে ব্যবসায় প্রশাসন অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত replace_or_expand_accessible_link_name                                                                                                                        আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে ব্যবসায় প্রশাসন অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                  high             nearby_heading
+generic_link_text Read More  NaN        নজরুল বিশ্ববিদ্যালয়ে বিজ্ঞান ও প্রকৌশল অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত replace_or_expand_accessible_link_name                                                                                                                      আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে বিজ্ঞান ও প্রকৌশল অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                  high             nearby_heading
+generic_link_text Read More  NaN                      নজরুল বিশ্ববিদ্যালয়ে কলা অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত replace_or_expand_accessible_link_name                                                                                                                                    আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে কলা অনুষদের গবেষণা প্রকল্প ২০২৫-২৬ অর্থবছরের সেমিনার অনুষ্ঠিত                  high             nearby_heading
+generic_link_text Read More  NaN Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives replace_or_expand_accessible_link_name                                                                                                              Read more: Contemporary Population Issues, Sustainable Development, and Future Challenges: Bangladesh Perspectives                  high             nearby_heading
+generic_link_text Read More  NaN                                                    নজরুল বিশ্ববিদ্যালয়ে ২০তম বিশ্ববিদ্যালয় দিবস উদযাপিত replace_or_expand_accessible_link_name                                                                                                                                                                  আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে ২০তম বিশ্ববিদ্যালয় দিবস উদযাপিত                  high             nearby_heading
+generic_link_text Read More  NaN                                 নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু replace_or_expand_accessible_link_name                                                                                                                                               আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে ৭ দিনব্যাপী ‘৪র্থ আন্তর্জাতিক নাট্যোৎসব ২০২৬’ শুরু                  high             nearby_heading
+generic_link_text Read More  NaN                                    নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত replace_or_expand_accessible_link_name                                                                                                                                                  আরও পড়ুন: নজরুল বিশ্ববিদ্যালয়ে দুই দিনব্যাপী বর্ণাঢ্যভাবে বাংলা নববর্ষ উদযাপিত                  high             nearby_heading
+generic_link_text Read More  NaN                                                                               NOC Of Mrs. Samanta Islam replace_or_expand_accessible_link_name                                                                                                                                                                                            Read more: NOC Of Mrs. Samanta Islam                  high             nearby_heading
+generic_link_text Read More  NaN                                                                                 NOC Of Ms. Umme Farhana replace_or_expand_accessible_link_name                                                                                                                                                                                              Read more: NOC Of Ms. Umme Farhana                  high             nearby_heading
+generic_link_text Read More  NaN                                                                  NOC Of Mr. Md. Mazharul Hossain Tokder replace_or_expand_accessible_link_name                                                                                                                                                                               Read more: NOC Of Mr. Md. Mazharul Hossain Tokder                  high             nearby_heading
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+Unified findings: 101
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only             42
+custom_only          39
+confirmed_by_both    15
+axe_incomplete        5
+
+Priority:
+priority
+Medium      60
+High        33
+Review       5
+Critical     3
+
+Categories:
+category
+Links             39
+Headings          23
+Color contrast    22
+Other              9
+Landmarks          4
+Images             2
+Structure          2
+
+Top rules:
+primary_rule
+generic_link_text         31
+color-contrast            22
+heading-order             18
+link-name                  7
+heading_order              4
+region                     4
+empty_alt                  2
+aria-required-children     2
+aria-required-parent       2
+listitem                   2
+marquee                    2
+missing_h1                 1
+empty_link_text            1
+aria-input-field-name      1
+link-in-text-block         1
+page-has-heading-one       1
+
+Context-aware recommendations: 33
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - aria-input-field-name
+ - aria-required-children
+ - aria-required-parent
+ - link-in-text-block
+ - marquee
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.jkkniu.edu.bd__recommendations.csv
+final_pipeline/reports/live/www.jkkniu.edu.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.jkkniu.edu.bd/
+
+Host:
+www.jkkniu.edu.bd
+
+Output stem:
+www.jkkniu.edu.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.jkkniu.edu.bd/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jkkniu.edu.bd__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jkkniu.edu.bd__custom_meta.json
+Custom HTTP status: 200
+Custom analyzable: True
+
+Actual analysis stem:
+www.jkkniu.edu.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.jkkniu.edu.bd/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jkkniu.edu.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jkkniu.edu.bd__axe.json
+Rendered URL: https://www.jkkniu.edu.bd/
+Rendered HTTP status: 200
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.jkkniu.edu.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.jkkniu.edu.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jkkniu.edu.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jkkniu.edu.bd__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jkkniu.edu.bd__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jkkniu.edu.bd__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.jkkniu.edu.bd/
+
+Analysis stem:
+www.jkkniu.edu.bd
+
+Analysis mode:
+Custom + axe + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.jkkniu.edu.bd__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.jkkniu.edu.bd__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.jkkniu.edu.bd__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.jkkniu.edu.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.jkkniu.edu.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

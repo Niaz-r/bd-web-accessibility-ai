@@ -1,0 +1,982 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://sub.ac.bd/,violation,aria-allowed-attr,critical,Ensure an element's role supports its ARIA attributes,Elements must only use supported ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"iframe[title=""YouTube video player""] .ytmVideoInfoVideoTitle","<a class=""ytmVideoInfoVideoTitle"" aria-level=""2"" href=""https://www.youtube.com/watch?v=DgviD3ShNf0""><span class=""ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap"" style="""">অনলাইন আবৃত্তি/পাঠ প্রতিযোগিতা</span></a>","Fix all of the following:
+  ARIA attribute is not allowed: aria-level=""2""",critical,1
+https://sub.ac.bd/,violation,aria-dialog-name,serious,Ensure every ARIA dialog and alertdialog node has an accessible name,ARIA dialog and alertdialog nodes should have an accessible name,https://dequeuniversity.com/rules/axe/4.13/aria-dialog-name?application=playwright,best-practice,#popup,"<div class=""modal fade show"" style=""backdrop-filter: blur(4px); display: block;"" id=""popup"" data-bs-backdrop=""static"" aria-modal=""true"" role=""dialog"">","Fix any of the following:
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://sub.ac.bd/,violation,aria-progressbar-name,serious,Ensure every ARIA progressbar node has an accessible name,ARIA progressbar nodes must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/aria-progressbar-name?application=playwright,wcag2a|wcag111|EN-301-549|EN-9.1.1.1,"iframe[scrolling=""no""] ._55yn","<span class=""img _55ym _55yn _55yo"" aria-busy=""true"" role=""progressbar"" aria-valuemin=""0"" aria-valuemax=""100"" aria-valuetext=""Loading...""></span>","Fix any of the following:
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://sub.ac.bd/,violation,aria-prohibited-attr,serious,Ensure ARIA attributes are not prohibited for an element's role,Elements must only use permitted ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"iframe[scrolling=""no""] ._5d-0","<span class=""_56_f _5dzy _5d-0 _3twv _5d-3"" aria-label=""Verified Page""></span>","Fix all of the following:
+  aria-label attribute cannot be used on a span with no valid role attribute.",serious,1
+https://sub.ac.bd/,violation,aria-prohibited-attr,serious,Ensure ARIA attributes are not prohibited for an element's role,Elements must only use permitted ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"iframe[title=""YouTube video player""] #movie_player","<div class=""html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-large-width-mode"" tabindex="""" id=""movie_player"" data-version=""/s/player/b7457b7c/player_embed.vflset/en_US/base.js"" aria-label=""YouTube Video Player"">","Fix all of the following:
+  aria-label attribute cannot be used on a div with no valid role attribute.",serious,2
+https://sub.ac.bd/,violation,aria-required-children,critical,Ensure elements with an ARIA role that require child roles contain them,Certain ARIA roles must contain particular children,https://dequeuniversity.com/rules/axe/4.13/aria-required-children?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,"iframe[scrolling=""no""] div[role=""feed""]","<div role=""feed"">","Fix any of the following:
+  Element has children which are not allowed: table, a[aria-label], a, img, div[tabindex]",critical,1
+https://sub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"iframe[title=""YouTube video player""] .ytmVideoInfoChannelAvatar","<button class=""ytmVideoInfoLink ytmVideoInfoChannelAvatar""><img class=""ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill"" alt=""thumbnail-image"" style=""background-color: transparent;""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://sub.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.seminar > .container > .section_title.justify-content-between.d-flex > h4,"<h4 class=""text-white"">seminars</h4>","Fix any of the following:
+  Element has insufficient color contrast of 2.26 (foreground color: #ffffff, background color: #94b49f, font size: 22.5pt (30px), font weight: normal). Expected contrast ratio of 3:1",serious,1
+https://sub.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".text-white[href$=""seminar""]","<a href=""https://sub.ac.bd/seminar"" class=""text-white"">View all <i class=""fa-solid fa-angles-right""></i></a>","Fix any of the following:
+  Element has insufficient color contrast of 2.26 (foreground color: #ffffff, background color: #94b49f, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",serious,2
+https://sub.ac.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.mt-4.mt-md-0.col-md-4 > .mt-3:nth-child(2),"<h6 class=""m-0 mt-3""></h6>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,1
+https://sub.ac.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.mt-3:nth-child(4),"<h6 class=""m-0 mt-3""></h6>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,2
+https://sub.ac.bd/,violation,empty-heading,minor,Ensure headings have discernible text,Headings should not be empty,https://dequeuniversity.com/rules/axe/4.13/empty-heading?application=playwright,best-practice,.mt-3:nth-child(6),"<h6 class=""m-0 mt-3""></h6>","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",minor,3
+https://sub.ac.bd/,violation,frame-title,serious,Ensure <iframe> and <frame> elements have an accessible name,Frames must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"iframe[scrolling=""no""]","<iframe src=""https://www.facebook..."" width=""100%"" height=""320"" style=""border:none;overflow..."" scrolling=""no"" frameborder=""0"" allowfullscreen=""true"" allow=""autoplay; clipboard-..."" data-gtm-yt-inspecte...=""true"">","Fix any of the following:
+  Element has no title attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",serious,1
+https://sub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-4.text-center:nth-child(1) > h5,<h5>Total</h5>,"Fix any of the following:
+  Heading order invalid",moderate,1
+https://sub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-4.text-center:nth-child(2) > h5,<h5>Total</h5>,"Fix any of the following:
+  Heading order invalid",moderate,2
+https://sub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-4.text-center:nth-child(3) > h5,<h5>Total</h5>,"Fix any of the following:
+  Heading order invalid",moderate,3
+https://sub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.mt-5 > h6,<h6>Connect with us :</h6>,"Fix any of the following:
+  Heading order invalid",moderate,4
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide-active.swiper-slide[aria-label=""1 / 20""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/d58807c78626e377a74d.png"" class=""img-fluid"" alt=""State University of Bangladesh Welcomes CSE 70th Batch and DSE 1st Batch in Summer 2026 Orientation"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,1
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide-next.swiper-slide[aria-label=""2 / 20""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/4f3ef0b1bf74cf35bbb6.png"" class=""img-fluid"" alt=""State University of Bangladesh Inaugurates Research and Publication Department to Advance Academic Excellence"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,2
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""3 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/fd92d4b6b9350ee1949e.png"" class=""img-fluid"" alt=""Language Lab Inauguration &amp; Storytelling Competition 2026 | Department of English Studies"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,3
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""4 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/2dfb383f18b71cb527b4.png"" class=""img-fluid"" alt=""SUB Computer Science Department Officially Launches the SUB Data Science Club"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,4
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""5 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/0e985d9bd6154ffe9fda.png"" class=""img-fluid"" alt=""SUB Hosts Successful Earthquake Awareness &amp; Community Resilience Workshop"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,5
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""6 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/a97706a6af4711aa156b.png"" class=""img-fluid"" alt=""FENS Students Complete Educational Hospital Visit to United Medical College Hospital"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,6
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""7 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/f5ef6fc7dd1dd52595fe.png"" class=""img-fluid"" alt=""টান টান উত্তেজনা, বিশ্বকাপ ফাইনালের প্রতিটি সেকেন্ডে আমাদের ক্যাম্পাস কাঁপছে শিক্ষার্থীদের উচ্ছ্বাসে!"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,7
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""8 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/70ddc4eb80a9172b15f3.png"" class=""img-fluid"" alt=""স্টেট ইউনিভার্সিটি অব বাংলাদেশ (SUB) ও ওয়ার্ক ফর এ বেটার বাংলাদেশ (WBB) ট্রস্টের মধ্যে সমঝোতা স্মারক (MoU) স্বাক্ষর।"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,8
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""9 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/b8ac1f2ddff7365b8ade.png"" class=""img-fluid"" alt=""বর্ষার সুরে, কাব্যের ছোঁয়ায়, আনন্দের আয়োজনে—  &quot;আষাঢ় কাব্যে এসইউবি'র বর্ষা বরণ - ১৪৩৩ বঙ্গাব্দ&quot;"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,9
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""10 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/f4e08b9eb8ff501725ea.png"" class=""img-fluid"" alt=""Orientation Program of the 49th Batch of B. Pharm. (Hons.) Successfully Held at SUB"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,10
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""11 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/872bcf2c4d5f39adc906.png"" class=""img-fluid"" alt=""Department of Law Welcomes LL.B 50th Batch at Warm Freshers’ Reception"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,11
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""12 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/525dac06d5b4c2b6cf34.png"" class=""img-fluid"" alt=""SUB and University of Dhaka Sign Historic MoA to Advance Pharmaceutical Research"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,12
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""13 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/08d5c04299cc810a298d.png"" class=""img-fluid"" alt=""Department of English Studies Celebrates the Farewell of Batch 55"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,13
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""14 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/9228f13f4a9cd9db143e.png"" class=""img-fluid"" alt=""SUB Department of Law Hosts Inspiring Workshop on International Refugee Law"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,14
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""15 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/60ab30c83c1d521bf00c.png"" class=""img-fluid"" alt=""State University of Bangladesh (SUB) and SERAC-Bangladesh Sign a Memorandum of Understanding (MoU)"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,15
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""16 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/79883eefeeffa471cd4b.png"" class=""img-fluid"" alt=""Department of Public Health Organizes &quot;Empowering Youth with Mental Wellness&quot; Workshop"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,16
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""17 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/48449d495e50a8aff06f.png"" class=""img-fluid"" alt=""IQAC, SUB Hosts Workshop on Higher Education Quality Assurance and Accreditation"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,17
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""18 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/2558f9f196a7f0a131c6.png"" class=""img-fluid"" alt=""State University of Bangladesh Honors Vice-Chancellor's Year of Impactful Leadership."">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,18
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""19 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/f537966ea488c14fd6ba.png"" class=""img-fluid"" alt=""Academic Journey on Constitutionalism and Democracy: Law Dept. Visits Parliament"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,19
+https://sub.ac.bd/,violation,image-redundant-alt,minor,Ensure image alternative is not repeated as text,Alternative text of images should not be repeated as text,https://dequeuniversity.com/rules/axe/4.13/image-redundant-alt?application=playwright,best-practice,".swiper-slide[aria-label=""20 / 20""][role=""group""] > a > .img-fluid","<img src=""https://sub.ac.bd/uploads/event/8a77c4e95833babcce0e.png"" class=""img-fluid"" alt=""State University of Bangladesh Celebrates Winners of NextGen Entrepreneur Season 1"">","Fix all of the following:
+  Element contains <img> element with alt text that duplicates existing text",minor,20
+https://sub.ac.bd/,violation,label,critical,Ensure every form element has a label,Form elements must have labels,https://dequeuniversity.com/rules/axe/4.13/label?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,.form-control,"<input type=""email"" required="""" name=""email"" class=""form-control form-control-lg rounded-0"">","Fix any of the following:
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(1) > .department > a,"<a href=""https://sub.ac.bd/department/architecture""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(2) > .department > a,"<a href=""https://sub.ac.bd/department/business-studies""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(3) > .department > a,"<a href=""https://sub.ac.bd/department/computer-science-and-engineering""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(4) > .department > a,"<a href=""https://sub.ac.bd/department/english-studies""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(5) > .department > a,"<a href=""https://sub.ac.bd/department/environmental-science""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,5
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(6) > .department > a,"<a href=""https://sub.ac.bd/department/food-engineering-and-nutrition-science""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,6
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(7) > .department > a,"<a href=""https://sub.ac.bd/department/journalism-communication-and-media-studies""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,7
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(8) > .department > a,"<a href=""https://sub.ac.bd/department/law""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,8
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(9) > .department > a,"<a href=""https://sub.ac.bd/department/microbiology""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,9
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(10) > .department > a,"<a href=""https://sub.ac.bd/department/pharmacy""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,10
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-3.col-6.my-1:nth-child(11) > .department > a,"<a href=""https://sub.ac.bd/department/public-health""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,11
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""programs""]","<a href=""https://sub.ac.bd/programs""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,12
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""admission""]","<a href=""https://sub.ac.bd/admission""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,13
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".col-md-4.col-6.my-1:nth-child(2) > .department > a[href$=""tuition-fee""]","<a href=""https://sub.ac.bd/tuition-fee""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,14
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(3) > .department > a,"<a href=""https://sub.ac.bd/foreign-student-tuition-fee""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,15
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(4) > .department > a,"<a href=""https://sub.ac.bd/scholarship-&amp;-waiver""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,16
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(5) > .department > a,"<a href=""https://sub.ac.bd/accommodation""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,17
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""calender""]","<a href=""https://sub.ac.bd/calender""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,18
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(1) > .department > a,"<a href=""https://sub.ac.bd/board-of-trustees""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,19
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""syndicate""]","<a href=""https://sub.ac.bd/syndicate""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,20
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""council""]","<a href=""https://sub.ac.bd/council""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,21
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(4) > .department > a,"<a href=""https://sub.ac.bd/vice-chancellor""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,22
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""treasurer""]","<a href=""https://sub.ac.bd/treasurer""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,23
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".department > a[href$=""registrar""]","<a href=""https://sub.ac.bd/registrar""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,24
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[data-swiper-slide-index=""13""][aria-label=""14 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/working-together-to-prevent-suicide""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,25
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[data-swiper-slide-index=""14""][aria-label=""15 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/lancet-countdown-on-health-climate-change-local-launch-event-2021-in-bangladesh""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,26
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[data-swiper-slide-index=""15""][aria-label=""16 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/webinar-on-gmp-and-regulatory-compliance-what-we-know-and-what-we-need-to-know""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,27
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-prev[aria-label=""1 / 16""][data-swiper-slide-index=""0""] > .department > a","<a href=""https://sub.ac.bd/seminar/microplastics-womens-health-and-early-identification-of-breast-cancer""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,28
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-active[aria-label=""2 / 16""][data-swiper-slide-index=""1""] > .department > a","<a href=""https://sub.ac.bd/seminar/seminar-on-effectiveness-of-ai-in-education""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,29
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-next[aria-label=""3 / 16""][data-swiper-slide-index=""2""] > .department > a","<a href=""https://sub.ac.bd/seminar/seminar-on-integrating-ai-tools-and-redefining-writing-pedagogy-the-session-featured-dr-lilian-mina-associate-professor-the-university-of-alabama-usa""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,30
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""4 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/dbs-and-sub-business-club-host-seminar-on-supply-chain-freight-forwarding-logistics-management""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,31
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""5 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/renowned-journalist-khaled-muhiuddin-delivers-keynote-at-sub-seminar-on-journalisms-impact""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,32
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""6 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/gravida-ai-powered-health-system-clinical-intelligence-platform""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,33
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""7 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/breast-cancer-screening-seminar-held-at-state-university-of-bangladesh""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,34
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""8 / 16""] > .department > a","<a href=""https://sub.ac.bd/seminar/seminar-on-skill-and-career-development-at-sub""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,35
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[aria-label=""9 / 16""] > .department > a[href$=""seminar""]","<a href=""https://sub.ac.bd/seminar""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,36
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[data-swiper-slide-index=""9""] > .department > a[href$=""seminar""]","<a href=""https://sub.ac.bd/seminar""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,37
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[data-swiper-slide-index=""10""] > .department > a[href$=""seminar""]","<a href=""https://sub.ac.bd/seminar""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,38
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"div[data-swiper-slide-index=""11""] > .department > a[href$=""seminar""]","<a href=""https://sub.ac.bd/seminar""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,39
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""seminar/s""]","<a href=""https://sub.ac.bd/seminar/s""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,40
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[data-swiper-slide-index=""13""][aria-label=""14 / 16""]:nth-child(17) > .department > a","<a href=""https://sub.ac.bd/seminar/working-together-to-prevent-suicide""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,41
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[data-swiper-slide-index=""14""][aria-label=""15 / 16""]:nth-child(18) > .department > a","<a href=""https://sub.ac.bd/seminar/lancet-countdown-on-health-climate-change-local-launch-event-2021-in-bangladesh""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,42
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[data-swiper-slide-index=""15""][aria-label=""16 / 16""]:nth-child(19) > .department > a","<a href=""https://sub.ac.bd/seminar/webinar-on-gmp-and-regulatory-compliance-what-we-know-and-what-we-need-to-know""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,43
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-prev[aria-label=""1 / 16""][data-swiper-slide-index=""0""] > .department > a","<a href=""https://sub.ac.bd/seminar/microplastics-womens-health-and-early-identification-of-breast-cancer""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,44
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-active[aria-label=""2 / 16""][data-swiper-slide-index=""1""] > .department > a","<a href=""https://sub.ac.bd/seminar/seminar-on-effectiveness-of-ai-in-education""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,45
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-next[aria-label=""3 / 16""][data-swiper-slide-index=""2""] > .department > a","<a href=""https://sub.ac.bd/seminar/seminar-on-integrating-ai-tools-and-redefining-writing-pedagogy-the-session-featured-dr-lilian-mina-associate-professor-the-university-of-alabama-usa""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,46
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_0_0_e6","<a href=""https://www.facebook.com/subedubd?ref=embed_page"" target=""_blank"" id=""u_0_0_e6""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,47
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] .lfloat._3-8_","<a class=""_3-8_ lfloat"" href=""https://www.facebook.com/745215382186537?ref=embed_page"" target=""_blank""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,48
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_1_1g_5L > ._302 > span > a","<a href=""/reel/4563719567215155/?ref=embed_page"" target=""_blank""><i class=""img sp_JtTaN8Jb8oq sx_53fd32""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,49
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] ._2l7q > a","<a href=""https://www.facebook.com/photo.php?fbid=1516224350533114&set=a.486389796849913&type=3&ref=embed_page"" target=""_blank"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,50
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_1_8_er > ._5pcr.userContentWrapper[data-ft=""{\""tn\"":\""-R\""}""] > ._1dwg._1w_m._q7o > div:nth-child(2) > .l_c3pyo2v0u._5eit._4d-l > ._302 > span > a","<a href=""/subedubd/posts/pfbid0uy2prU9kupY9totZaBM9uuByfbq1Wcn95GtcCnaqTvxfkKK1iAfe3At8kTVCzjXxl?ref=embed_page"" target=""_blank""><i class=""img sp_JtTaN8Jb8oq sx_53fd32""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,51
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_1_6_0k > ._5pcr.userContentWrapper[data-ft=""{\""tn\"":\""-R\""}""] > ._1dwg._1w_m._q7o > div:nth-child(3) > .l_c3pyo2v0u._5eit._4d-l > ._302 > span > a","<a href=""/subedubd/posts/pfbid0Mioum1xNRZNgsw9z9KbSVskxqZij8ghWZGjszJVQHWCemVjpUetFJf57w7tfijn4l?ref=embed_page"" target=""_blank""><i class=""img sp_JtTaN8Jb8oq sx_53fd32""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,52
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_1_g_yN > ._5pcr.userContentWrapper[data-ft=""{\""tn\"":\""-R\""}""] > ._1dwg._1w_m._q7o > div:nth-child(3) > .l_c3pyo2v0u._5eit._4d-l > ._302 > span > a","<a href=""/subedubd/posts/pfbid0FUESHPsi5K3xX9NucLiubwBaiMgFz6LP7jdAUv7QSmaiZ6VFGN8S3QVLEnZLibZwl?ref=embed_page"" target=""_blank""><i class=""img sp_JtTaN8Jb8oq sx_53fd32""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,53
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"iframe[scrolling=""no""] #u_1_22_Ux > ._302 > span > a","<a href=""/reel/1055689297194753/?ref=embed_page"" target=""_blank""><i class=""img sp_JtTaN8Jb8oq sx_53fd32""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,54
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-active.swiper-slide[aria-label=""1 / 20""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/e415a1a5923ef29ac4ea.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/e415a1a5923ef29ac4ea.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,55
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-next.swiper-slide[aria-label=""2 / 20""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/0e3dbf3a1e8c93a427df.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/0e3dbf3a1e8c93a427df.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,56
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""3 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/a564097d28a40056978c.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/a564097d28a40056978c.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,57
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""4 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/dcb1e72050125ac7c7e3.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/dcb1e72050125ac7c7e3.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,58
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""5 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/c72d90b38e443227ad49.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/c72d90b38e443227ad49.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,59
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""6 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/4d46a85ca3fa6ad1593e.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/4d46a85ca3fa6ad1593e.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,60
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""7 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/dece3179f65ef93be918.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/dece3179f65ef93be918.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,61
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""8 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/50fc36b234efdcc4b413.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/50fc36b234efdcc4b413.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,62
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""9 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/81bff961e96fbaa07065.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/81bff961e96fbaa07065.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,63
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""10 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/f0174c23b86fff3bb231.JPG"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/f0174c23b86fff3bb231.JPG"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,64
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""11 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/fa182eb680944a3a8771.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/fa182eb680944a3a8771.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,65
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""12 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/cf2341c4b664111cff5a.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/cf2341c4b664111cff5a.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,66
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""13 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/3d78b9d64d3a15f579ab.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/3d78b9d64d3a15f579ab.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,67
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""14 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/acb6276c493adb3f6bcf.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/acb6276c493adb3f6bcf.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,68
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""15 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/b644eeb8128936f0939a.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/b644eeb8128936f0939a.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,69
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""16 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/a75afe47776551631757.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/a75afe47776551631757.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,70
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""17 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/0d812d7b4db7170066a7.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/0d812d7b4db7170066a7.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,71
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""18 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/c9f7543a07d5e68416c1.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/c9f7543a07d5e68416c1.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,72
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""19 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/ec0d56336313eff38b4f.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/ec0d56336313eff38b4f.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,73
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""20 / 20""][role=""group""] > .elem","<a class=""elem"" href=""https://sub.ac.bd/uploads/gallery/3803452d222bd7f4d863.jpg"" data-lcl-thumb=""https://sub.ac.bd/uploads/gallery/3803452d222bd7f4d863.jpg"">","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,74
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""5 / 9""][data-swiper-slide-index=""4""]:nth-child(1) > .department > a","<a href=""https://sub.ac.bd/club/cultural-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,75
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""6 / 9""][data-swiper-slide-index=""5""] > .department > a","<a href=""https://sub.ac.bd/club/sports-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,76
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""7 / 9""][data-swiper-slide-index=""6""] > .department > a","<a href=""https://sub.ac.bd/club/film-photography-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,77
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""8 / 9""][data-swiper-slide-index=""7""] > .department > a","<a href=""https://sub.ac.bd/club/debating-society""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,78
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""9 / 9""][data-swiper-slide-index=""8""] > .department > a","<a href=""https://sub.ac.bd/club/environmental-social-services-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,79
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-prev[aria-label=""1 / 9""][data-swiper-slide-index=""0""] > .department > a","<a href=""https://sub.ac.bd/club/recitation-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,80
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-active[aria-label=""2 / 9""][data-swiper-slide-index=""1""] > .department > a","<a href=""https://sub.ac.bd/club/language-public-speaking-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,81
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-next[aria-label=""3 / 9""][data-swiper-slide-index=""2""] > .department > a","<a href=""https://sub.ac.bd/club/innovation-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,82
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""4 / 9""][data-swiper-slide-index=""3""]:nth-child(9) > .department > a","<a href=""https://sub.ac.bd/club/health-wellbeing-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,83
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""5 / 9""][data-swiper-slide-index=""4""]:nth-child(10) > .department > a","<a href=""https://sub.ac.bd/club/cultural-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,84
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""6 / 9""][data-swiper-slide-index=""5""]:nth-child(11) > .department > a","<a href=""https://sub.ac.bd/club/sports-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,85
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""7 / 9""][data-swiper-slide-index=""6""]:nth-child(12) > .department > a","<a href=""https://sub.ac.bd/club/film-photography-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,86
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""8 / 9""][data-swiper-slide-index=""7""]:nth-child(13) > .department > a","<a href=""https://sub.ac.bd/club/debating-society""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,87
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide[aria-label=""9 / 9""][data-swiper-slide-index=""8""]:nth-child(14) > .department > a","<a href=""https://sub.ac.bd/club/environmental-social-services-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,88
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-prev[aria-label=""1 / 9""][data-swiper-slide-index=""0""] > .department > a","<a href=""https://sub.ac.bd/club/recitation-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,89
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-active[aria-label=""2 / 9""][data-swiper-slide-index=""1""] > .department > a","<a href=""https://sub.ac.bd/club/language-public-speaking-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,90
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate-next[aria-label=""3 / 9""][data-swiper-slide-index=""2""] > .department > a","<a href=""https://sub.ac.bd/club/innovation-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,91
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""4 / 9""][data-swiper-slide-index=""3""] > .department > a","<a href=""https://sub.ac.bd/club/health-wellbeing-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,92
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".swiper-slide-duplicate[aria-label=""5 / 9""][data-swiper-slide-index=""4""]:nth-child(19) > .department > a","<a href=""https://sub.ac.bd/club/cultural-club""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,93
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.social__icon > li:nth-child(1) > a,"<a href=""https://www.facebook.com/subedubd""><i class=""fab fa-facebook""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,94
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.social__icon > li:nth-child(2) > a,"<a href=""https://www.linkedin.com/school/state-university-of-bangladesh/""><i class=""fab fa-linkedin""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,95
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.social__icon > li:nth-child(3) > a,"<a href=""https://youtube.com/@sub_edu_bd""><i class=""fab fa-youtube""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,96
+https://sub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.social__icon > li:nth-child(4) > a,"<a href=""https://www.instagram.com/sub.ac.bd/""><i class=""fab fa-instagram""></i></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,97
+https://sub.ac.bd/,violation,marquee,serious,Ensure <marquee> elements are not used,<marquee> elements are deprecated and must not be used,https://dequeuniversity.com/rules/axe/4.13/marquee?application=playwright,wcag2a|wcag222|EN-301-549|EN-9.2.2.2,marquee,"<marquee behavior=""scroll"" direction=""left"">*** Admission is going on for Fall 2026 *** Congratulations! to all the newly enrolled advocates from the State University of Bangladesh *** Certificate verification for SUB students going abroad is now available on www.mygov.bd ***</marquee>","Fix all of the following:
+  Element is visible",serious,1
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_0_3_7m > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,1
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_1_1h_RC > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,2
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_1_q_ip > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,3
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_1_14_Q0 > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,4
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_1_1j_gH > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,5
+https://sub.ac.bd/,violation,presentation-role-conflict,minor,Ensure elements marked as presentational do not have global ARIA or tabindex so that all screen readers ignore them,Elements marked as presentational should be consistently ignored,https://dequeuniversity.com/rules/axe/4.13/presentation-role-conflict?application=playwright,best-practice,"iframe[scrolling=""no""] #u_1_23_dw > ._38vo > div > ._s0._4ooo._6y97","<img class=""_s0 _4ooo _6y97 _6_u..."" src=""https://scontent.fda..."" alt="""" aria-label=""State University of ..."" role=""img"">","Fix all of the following:
+  Element does not have global ARIA attribute",minor,6
+https://sub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.arrow_open,"<div class=""flash_news_title arrow_open"">
+                <span class=""material-symbols-outlined"">
+                    arrow_back
+                </span>
+                <p>Flash News</p>
+            </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://sub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.news_list,"<ul class=""news_list"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://sub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,body > section,<section>,"Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://sub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.container-fluid > .row.align-items-center,"<div class=""row align-items-center"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://sub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.close,"<span class=""material-symbols-outlined close"">
+                cancel
+            </span>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(1) > .department > .content > h5,<h5>Architecture</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,1
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(2) > .department > .content > h5,<h5>Business Studies</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,2
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(3) > .department > .content > h5,<h5>Computer Science and Engineering</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,3
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(4) > .department > .content > h5,<h5>English Studies</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,4
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(5) > .department > .content > h5,<h5>Environmental Science</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,5
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(6) > .department > .content > h5,<h5>Food Engineering and Nutrition Science</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,6
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(7) > .department > .content > h5,"<h5>Journalism, Communication and Media Studies</h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,7
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(8) > .department > .content > h5,<h5>Law</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,8
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(9) > .department > .content > h5,<h5>Microbiology</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,9
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(10) > .department > .content > h5,<h5>Pharmacy</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,10
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-3.col-6.my-1:nth-child(11) > .department > .content > h5,<h5>Public Health</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,11
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.admission.section-gap:nth-child(3) > .container > .custom_row.row > .col-md-3.my-1 > .department > .content > h5,<h5>Program</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,12
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(1) > .department > .content > h5,<h5>Admission</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,13
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(2) > .department > .content > h5,<h5>Tuition Fees</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,14
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(3) > .department > .content > h5,<h5>Tuition Fees for Foreign Student</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,15
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(4) > .department > .content > h5,<h5>Scholarship</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,16
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(5) > .department > .content > h5,<h5>Accommodation</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,17
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-md-9 > .custom_row.row > .col-md-4.col-6.my-1:nth-child(6) > .department > .content > h5,<h5>Academic Calendar</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,18
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(1) > .department > .content > h5,<h5>Board of Trustees</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,19
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(2) > .department > .content > h5,<h5>Syndicate</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,20
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(3) > .department > .content > h5,<h5>Academic Council</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,21
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(4) > .department > .content > h5,<h5>Vice Chancellor (Acting)</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,22
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(5) > .department > .content > h5,<h5>Treasurer</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,23
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.container > .custom_row.row > .col-md-4.col-6.my-1:nth-child(6) > .department > .content > h5,<h5>Registrar</h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,24
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-active[aria-label=""2 / 16""][data-swiper-slide-index=""1""] > .department > .content > h5",<h5>Seminar on Effectiveness of AI in Education </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,25
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-next[aria-label=""3 / 16""][data-swiper-slide-index=""2""] > .department > .content > h5","<h5>Seminar on ""Integrating AI Tools and Redefining Writing Pedagogy"". The session featured Dr. Lilian Mina, Associate Professor, The University of Alabama, USA. </h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,26
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"div[aria-label=""4 / 16""] > .department > .content > h5","<h5>DBS and SUB Business Club Host Seminar on Supply Chain, Freight Forwarding &amp; Logistics Management </h5>","Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,27
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,"iframe[scrolling=""no""] #u_1_s_RG","<input aria-label=""Play Video"" class=""_530-"" type=""button"" id=""u_1_s_RG"">","Fix any of the following:
+  Element's background color could not be determined due to a background image",serious,28
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-active[aria-label=""2 / 9""][data-swiper-slide-index=""1""] > .department > .content > h5",<h5>Language &amp; Public Speaking Club </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,29
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide-next[aria-label=""3 / 9""][data-swiper-slide-index=""2""] > .department > .content > h5",<h5>Innovation Club </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,30
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[aria-label=""4 / 9""][data-swiper-slide-index=""3""]:nth-child(9) > .department > .content > h5",<h5>Health &amp; Wellbeing Club </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,31
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[aria-label=""5 / 9""][data-swiper-slide-index=""4""]:nth-child(10) > .department > .content > h5",<h5>Cultural Club </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,32
+https://sub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".swiper-slide[aria-label=""6 / 9""][data-swiper-slide-index=""5""]:nth-child(11) > .department > .content > h5",<h5>Sports Club </h5>,"Fix any of the following:
+  Element's background color could not be determined because it is overlapped by another element",serious,33
+https://sub.ac.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,"iframe[scrolling=""no""] #u_1_18_m7","<video muted=""1"" height=""497"" width=""373"" preload=""metadata"" style="""" class=""_ox1 _21y0"" data-video-width=""373"" data-video-height=""497"" id=""u_1_18_m7""></video>","Fix all of the following:
+  Check that captions are available for the element",critical,1
+https://sub.ac.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,"iframe[scrolling=""no""] #u_1_1u_CL","<video muted=""1"" height=""272"" width=""483"" preload=""metadata"" style="""" class=""_ox1 _21y0"" data-video-width=""483"" data-video-height=""272"" id=""u_1_1u_CL""></video>","Fix all of the following:
+  Check that captions are available for the element",critical,2

@@ -1,0 +1,352 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://brta.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://brta.gov.bd
+Status: None
+Analyzable: False
+Scanner error: HTTPSConnectionPool(host='brta.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+Findings: 0
+
+WARNING:
+The custom scanner did not treat this response as an analyzable target page.
+No accessibility findings were exported from the error response.
+
+No custom findings exported.
+
+CSV: final_pipeline/data/intermediate/custom_live/brta.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/brta.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://brta.gov.bd
+HTTP status: 200
+Final URL: https://brta.gov.bd/
+Page title: হোম | বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 7
+Violation nodes: 107
+Incomplete rules: 3
+Incomplete nodes: 12
+Passed rules: 51
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 10
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: #officeType_i2244650142
+  HTML: <select name="officeType" id="officeType_i2244650142" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i2244650142', this, 'i2648532394', 'i4777169169')">
+  Selector: #office_i2244650142
+  HTML: <select id="office_i2244650142" title="বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ">
+  Selector: a[title=" বিআরটিএ সম্পর্কিত"]
+  HTML: <a title=" বিআরটিএ সম্পর্কিত" href="/pages/static-pages/6922db7c933eb65569e0a587" class="menu-parent-list-link" style="color: rgb(255, 20, 147);"> বিআরটিএ সম্পর্কিত <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a>
+
+frame-title | impact: serious | nodes: 1
+  Help: Frames must have an accessible name
+  Tags: cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1
+  Selector: div[data-widget_item="6922d3d4dbfbab28ce041ef4"] > .block-widget-container > .block-widget-content > rt-renderer,iframe[width="320"]
+  HTML: <iframe frameborder="0" height="240" src="https://www.google.c..." style="border:0" width="320">
+
+heading-order | impact: moderate | nodes: 5
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: div[data-widget_item="6922d40bdbfbab28ce044635"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> ট্রাস্টি বোর্ডের আর্থিক সহায়তা প্রদান </h3>
+  Selector: div[data-widget_item="6922d3d4dbfbab28ce041ef4"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> অফিস লোকেশন ও ভিডিও </h3>
+  Selector: div[data-widget_item="6922d3d4dbfbab28ce041ed8"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> সেবা সহজিকরণ </h3>
+
+image-alt | impact: critical | nodes: 7
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: div[data-widget_item="6922d3e6dbfbab28ce042d01"] > .block-widget-container > .block-widget-content > rt-renderer[slim-width=""],img[width="156"]
+  HTML: <img style="aspect-ratio:720/887" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-brta/2026/1/95579596-670c-490e-bdbe-c6f5f0ef06ab.jpeg" width="156" height="200">
+  Selector: div[data-widget_item="69bc1c9c55db8e93577c16d7"] > .block-widget-container > .block-widget-content > rt-renderer[slim-width=""],img[width="200"]
+  HTML: <img style="aspect-ratio:200/200" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-brta/2026/2/6da662ef-45e6-427a-a89d-47fbf1890439.jpg" width="200" height="200">
+  Selector: div[data-widget_item="6922d3d5dbfbab28ce041f22"] > .block-widget-container > .block-widget-content > rt-renderer[slim-width=""],img[width="165"]
+  HTML: <img style="aspect-ratio:600/600" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-brta/2026/1/96743379-9d45-4c40-b025-9f5b1b6d927a.jpeg" width="165" height="200">
+
+label-title-only | impact: serious | nodes: 2
+  Help: Form elements should have a visible label
+  Tags: cat.forms, best-practice
+  Selector: #officeType_i2244650142
+  HTML: <select name="officeType" id="officeType_i2244650142" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i2244650142', this, 'i2648532394', 'i4777169169')">
+  Selector: #office_i2244650142
+  HTML: <select id="office_i2244650142" title="বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ">
+
+link-name | impact: serious | nodes: 5
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .home-link
+  HTML: <a class="menu-parent-list-link home-link" href="/" style="color: rgb(255, 69, 0);"> </a>
+  Selector: .my-gov-service-image-link-widget > a[href$="mygov.bd/"][target="_blank"]
+  HTML: <a target="_blank" href="https://www.mygov.bd/"> <img class="image" src="/site-assets/images/service_link_5.jpg"> </a>
+  Selector: .office-digital-service-image-link-widget > a[href="#"]
+  HTML: <a href="#" onclick="window.open('https://www.mygov.bd/serviceByOffice/?agent=np&amp;domain='+location.hostname)"> <img class="image" src="/site-assets/images/service_link_3.gif"> </a>
+
+region | impact: moderate | nodes: 77
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .header-left-section:nth-child(1)
+  HTML: <div class="header-left-section"> <a class="header-title" href="http://bangladesh.gov.bd" title="বাংলাদেশ জাতীয় তথ্য বাতায়ন"> বাংলাদেশ জাতীয় তথ্য বাতায়ন </a> </div>
+  Selector: #officeType_i2244650142
+  HTML: <select name="officeType" id="officeType_i2244650142" data-lang="bn" title="অধিদপ্তর" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i2244650142', this, 'i2648532394', 'i4777169169')">
+  Selector: #i2648532394
+  HTML: <div id="i2648532394" class="dynamic-dropdowns">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/brta.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/brta.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 119
+
+Axe result types:
+result_type
+violation     107
+incomplete     12
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          107
+axe_incomplete     12
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content               115
+third_party_embed            3
+first_party_integration      1
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://brta.gov.bd/
+Unified findings: 119
+Context-dependent findings: 0
+ERROR: Could not retrieve page for context extraction:
+HTTPSConnectionPool(host='brta.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+Unified findings: 119
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          107
+axe_incomplete     12
+
+Priority:
+priority
+Medium      82
+High        18
+Review      12
+Critical     7
+
+Categories:
+category
+Landmarks         77
+Color contrast    20
+Images             7
+Headings           5
+Links              5
+Other              3
+Frames             1
+ARIA               1
+
+Top rules:
+primary_rule
+region                  77
+color-contrast          20
+image-alt                7
+heading-order            5
+link-name                5
+label-title-only         2
+frame-title              1
+aria-prohibited-attr     1
+skip-link                1
+
+Third-party findings: 3
+
+Rules using fallback recommendation:
+ - label-title-only
+ - skip-link
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/brta.gov.bd__recommendations.csv
+final_pipeline/reports/live/brta.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://brta.gov.bd
+
+Host:
+brta.gov.bd
+
+Output stem:
+brta.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://brta.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+brta.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://brta.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/brta.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/brta.gov.bd__axe.json
+Rendered URL: https://brta.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/brta.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: brta.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/brta.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/brta.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+
+WARNING:
+Context extraction was unavailable for this page.
+
+The analyzer will continue with the standard unified findings.
+
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Skipped because no context dataset was available.
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+Input type:
+Unified findings
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://brta.gov.bd
+
+Rendered URL:
+https://brta.gov.bd/
+
+Analysis stem:
+brta.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/brta.gov.bd__unified_findings.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/brta.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/brta.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

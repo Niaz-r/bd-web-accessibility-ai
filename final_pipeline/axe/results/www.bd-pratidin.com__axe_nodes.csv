@@ -1,0 +1,3 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://www.bd-pratidin.com/,violation,meta-refresh,critical,"Ensure <meta http-equiv=""refresh""> is not used for delayed refresh",Delayed refresh under 20 hours must not be used,https://dequeuniversity.com/rules/axe/4.13/meta-refresh?application=playwright,wcag2a|wcag221|EN-301-549|EN-9.2.2.1,"meta[http-equiv=""refresh""]","<meta http-equiv=""refresh"" content=""360"">","Fix any of the following:
+  <meta> tag forces timed refresh of page (less than 20 hours)",critical,1

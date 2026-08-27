@@ -1,0 +1,9 @@
+variable,organization_type,n,W_statistic,p_value,normal_at_0.05
+mean_accessibility_score,Government,13,0.8106178795979906,0.00913902395478823,False
+mean_accessibility_score,News,12,0.7228654889959052,0.0014120544354040432,False
+mean_accessibility_score,Private University,18,0.9229174516629427,0.1456032791479115,True
+mean_accessibility_score,Public University,20,0.8465899993828874,0.004675672548192703,False
+mean_issues_per_page,Government,13,0.838778797554012,0.020449045536935582,False
+mean_issues_per_page,News,12,0.7410262731154973,0.0021572465531220063,False
+mean_issues_per_page,Private University,18,0.8260185752000743,0.003627268746572573,False
+mean_issues_per_page,Public University,20,0.5027736722112038,3.3680830604624483e-07,False

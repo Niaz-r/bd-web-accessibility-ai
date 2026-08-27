@@ -1,0 +1,380 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.uap-bd.edu
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.uap-bd.edu
+Status: 200
+Analyzable: True
+Findings: 14
+
+issue_category             issue severity                                                                                                                                                                    selector
+         image       missing_alt     high                                                                                                                                                html > head > noscript > img
+       heading        missing_h1     high                                                                                                                                                                            
+       heading     heading_order   medium                                                  section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(1) > div.card-body > h4
+       heading     heading_order   medium                                                                                                            div#resourcesGrid > div.resource-card.reveal:nth-of-type(1) > h5
+       heading     heading_order   medium body > div.wrapper:nth-of-type(3) > footer.footer-modern > div.footer-top:nth-of-type(1) > div.container > div.row > div.col-md-3.col-sm-6:nth-of-type(2) > h4.footer-title
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(1) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(2) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(3) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(4) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(5) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(6) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(7) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(8) > div.card-body > a.read-more
+          link generic_link_text   medium                                         section#news > div.container > div.news-grid:nth-of-type(2) > article.news-card.reveal:nth-of-type(9) > div.card-body > a.read-more
+
+CSV: final_pipeline/data/intermediate/custom_live/www.uap-bd.edu_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.uap-bd.edu_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.uap-bd.edu
+HTTP status: 200
+Final URL: https://www.uap-bd.edu/
+Page title: University of Asia Pacific - UAP
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 6
+Violation nodes: 27
+Incomplete rules: 1
+Incomplete nodes: 10
+Passed rules: 37
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 2
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: li:nth-child(6) > a[href="admission_test_results.php"]
+  HTML: <a href="admission_test_results.php" style="color:red; font-weight:bold; background: #fff3cd; padding: 2px 6px; border-radius: 4px;"> Admission Test Result </a>
+  Selector: .active.item > .hero-caption-wrap.container > .hero-caption > .hero-tag
+  HTML: <span class="hero-tag">Dialogue</span>
+
+heading-order | impact: moderate | nodes: 3
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: .is-featured > .card-body > h4
+  HTML: <h4>UAP CSE Department Hosts a Session on Academic and Research Collaboration with Gunma University, Japan</h4>
+  Selector: .resource-card.reveal[data-category="examinations"]:nth-child(1) > h5
+  HTML: <h5>Timing of Controller of Examinations Office</h5>
+  Selector: .col-md-3.col-sm-6.col-xs-12:nth-child(2) > .footer-title
+  HTML: <h4 class="footer-title">Quick Links</h4>
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+link-in-text-block | impact: serious | nodes: 1
+  Help: Links must be distinguishable without relying on color
+  Tags: cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549, EN-9.1.4.1, RGAAv4, RGAA-10.6.1
+  Selector: p > a[href$="uap-bd.edu"]
+  HTML: <a href="//uap-bd.edu">UAP</a>
+
+page-has-heading-one | impact: moderate | nodes: 1
+  Help: Page should contain a level-one heading
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="en">
+
+region | impact: moderate | nodes: 19
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .top-bar
+  HTML: <div class="top-bar top-bar-black">
+  Selector: #apply_button
+  HTML: <a href="https://admission.uap-bd.edu/Admission/Home.aspx" id="apply_button" class="apply-float" target="_blank" rel="noopener noreferrer" aria-label="Apply Now for Spring 2026">
+  Selector: #about
+  HTML: <section class="about-section" id="about">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uap-bd.edu__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uap-bd.edu__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 37
+
+Axe result types:
+result_type
+violation     27
+incomplete    10
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          27
+axe_incomplete    10
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    37
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/www.uap-bd.edu__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://www.uap-bd.edu/
+Unified findings: 37
+Context-dependent findings: 0
+
+================================================================================
+CONTEXT SUMMARY
+================================================================================
+Matched: 0
+Unmatched: 0
+
+
+Output:
+final_pipeline/data/intermediate/context_live/www.uap-bd.edu__context_findings.csv
+
+================================================================================
+RECOMMENDATION ENGINE V3
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uap-bd.edu__context_findings.csv
+Total unified findings: 37
+
+================================================================================
+CONTEXTUAL RECOMMENDATION SUMMARY
+================================================================================
+Processed contextual findings: 0
+
+By rule:
+  None
+
+Decision codes:
+
+Confidence:
+
+================================================================================
+SAMPLE CONTEXTUAL RECOMMENDATIONS
+================================================================================
+
+Output:
+final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+
+Important:
+Recommendations are generated by the research system's deterministic contextual decision rules. Image-alt recommendations still require visual/human verification.
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+Unified findings: 37
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          27
+axe_incomplete    10
+
+Priority:
+priority
+Medium    24
+Review    10
+High       3
+
+Categories:
+category
+Landmarks         19
+Color contrast    12
+Headings           3
+Other              3
+
+Top rules:
+primary_rule
+region                  19
+color-contrast          12
+heading-order            3
+landmark-one-main        1
+link-in-text-block       1
+page-has-heading-one     1
+
+Context-aware recommendations: 0
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - landmark-one-main
+ - link-in-text-block
+ - page-has-heading-one
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/www.uap-bd.edu__recommendations.csv
+final_pipeline/reports/live/www.uap-bd.edu__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.uap-bd.edu
+
+Host:
+www.uap-bd.edu
+
+Output stem:
+www.uap-bd.edu
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.uap-bd.edu
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+www.uap-bd.edu
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.uap-bd.edu
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uap-bd.edu__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uap-bd.edu__axe.json
+Rendered URL: https://www.uap-bd.edu/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.uap-bd.edu__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: www.uap-bd.edu
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.uap-bd.edu__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.uap-bd.edu__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uap-bd.edu__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uap-bd.edu__unified_findings.csv
+
+
+Context dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uap-bd.edu__context_findings.csv
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v3.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uap-bd.edu__context_findings.csv
+
+
+Contextual recommendation dataset:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+
+Input type:
+V3 contextual recommendations
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://www.uap-bd.edu
+
+Rendered URL:
+https://www.uap-bd.edu/
+
+Analysis stem:
+www.uap-bd.edu
+
+Analysis mode:
+axe-only partial analysis + fusion + context extraction + deterministic contextual recommendations
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/www.uap-bd.edu__unified_findings.csv
+
+Context findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/context_live/www.uap-bd.edu__context_findings.csv
+
+Contextual recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/contextual_recommendations/www.uap-bd.edu__contextual_recommendations.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.uap-bd.edu__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/www.uap-bd.edu__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.

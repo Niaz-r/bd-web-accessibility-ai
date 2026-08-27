@@ -1,0 +1,13 @@
+experiment_group,ownership_scope,count,percent
+Public University,page_content,4942,97.94
+Public University,third_party_embed,89,1.76
+Public University,first_party_integration,15,0.3
+Private University,page_content,2128,96.29
+Private University,third_party_embed,78,3.53
+Private University,first_party_integration,4,0.18
+News,page_content,1212,83.01
+News,third_party_embed,230,15.75
+News,first_party_integration,18,1.23
+Government,page_content,1618,96.42
+Government,third_party_embed,45,2.68
+Government,first_party_integration,15,0.89

@@ -1,0 +1,12 @@
+experiment_group,contextual_confidence,count,percent
+Public University,medium,743,74.37
+Public University,high,222,22.22
+Public University,low,34,3.4
+Private University,medium,92,79.31
+Private University,high,21,18.1
+Private University,low,3,2.59
+News,low,1,50.0
+News,medium,1,50.0
+Government,medium,2,50.0
+Government,low,1,25.0
+Government,high,1,25.0

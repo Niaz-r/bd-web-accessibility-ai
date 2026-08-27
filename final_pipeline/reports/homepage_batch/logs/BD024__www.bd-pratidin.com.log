@@ -1,0 +1,120 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://www.bd-pratidin.com/
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://www.bd-pratidin.com/
+Status: 403
+Analyzable: False
+Findings: 0
+
+WARNING:
+The custom scanner did not treat this response as an analyzable target page.
+No accessibility findings were exported from the error response.
+
+No custom findings exported.
+
+CSV: final_pipeline/data/intermediate/custom_live/www.bd-pratidin.com__custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/www.bd-pratidin.com__custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://www.bd-pratidin.com/
+HTTP status: 403
+Network remained active; continuing.
+Final URL: https://www.bd-pratidin.com/
+Page title: Just a moment...
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 1
+Violation nodes: 1
+Incomplete rules: 0
+Incomplete nodes: 0
+Passed rules: 29
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+meta-refresh | impact: critical | nodes: 1
+  Help: Delayed refresh under 20 hours must not be used
+  Tags: cat.time-and-media, wcag2a, wcag221, TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2
+  Selector: meta[http-equiv="refresh"]
+  HTML: <meta http-equiv="refresh" content="360">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bd-pratidin.com__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bd-pratidin.com__axe_nodes.csv
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://www.bd-pratidin.com/
+
+Host:
+www.bd-pratidin.com
+
+Output stem:
+www.bd-pratidin.com
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://www.bd-pratidin.com/
+
+
+Custom scanner exit code: 0
+Custom findings file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.bd-pratidin.com__custom_findings.csv
+Custom metadata file: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/www.bd-pratidin.com__custom_meta.json
+Custom HTTP status: 403
+Custom analyzable: False
+
+Actual analysis stem:
+www.bd-pratidin.com
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://www.bd-pratidin.com/
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bd-pratidin.com__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/www.bd-pratidin.com__axe.json
+Rendered URL: https://www.bd-pratidin.com/
+Rendered HTTP status: 403
+
+================================================================================
+TARGET NOT ANALYZABLE
+
+================================================================================
+
+Requested URL:
+https://www.bd-pratidin.com/
+
+Rendered URL:
+https://www.bd-pratidin.com/
+
+Custom HTTP status: 403
+Rendered HTTP status: 403
+
+The rendered page returned an HTTP error response.
+
+HTTP error pages are not treated as normal accessibility analysis targets.
+
+Fusion, context extraction, contextual recommendations, and report generation were skipped.

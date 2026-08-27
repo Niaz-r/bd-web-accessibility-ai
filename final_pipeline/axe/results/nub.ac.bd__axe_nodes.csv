@@ -1,0 +1,229 @@
+page_url,result_type,rule_id,impact,description,help,help_url,wcag_tags,selector,html,failure_summary,node_impact,node_index
+https://nub.ac.bd/,violation,aria-input-field-name,serious,Ensure every ARIA input field has an accessible name,ARIA input fields must have an accessible name,https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"div[role=""listbox""]","<div class=""carousel-inner"" role=""listbox"">","Fix any of the following:
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://nub.ac.bd/,violation,aria-required-children,critical,Ensure elements with an ARIA role that require child roles contain them,Certain ARIA roles must contain particular children,https://dequeuniversity.com/rules/axe/4.13/aria-required-children?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,"div[role=""listbox""]","<div class=""carousel-inner"" role=""listbox"">","Fix any of the following:
+  Element has children which are not allowed: a",critical,1
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""0""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""0"" class=""active""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,1
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""1""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""1""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,2
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""2""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""2""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,3
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""3""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""3""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,4
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""4""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""4""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,5
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide-to=""5""]","<button type=""button"" data-bs-target=""#videoSlider"" data-bs-slide-to=""5""></button>","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,6
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide=""prev""]","<button class=""carousel-control-prev custom-arrow"" type=""button"" data-bs-target=""#videoSlider"" data-bs-slide=""prev"">","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,7
+https://nub.ac.bd/,violation,button-name,critical,Ensure buttons have discernible text,Buttons must have discernible text,https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"button[data-bs-slide=""next""]","<button class=""carousel-control-next custom-arrow"" type=""button"" data-bs-target=""#videoSlider"" data-bs-slide=""next"">","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,8
+https://nub.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".float-left > a[href$=""www.nub.ac.bd""] > font[color=""#046C96""]","<font color=""#046C96"">Northern University Bangladesh</font>","Fix any of the following:
+  Element has insufficient color contrast of 2.92 (foreground color: #046c96, background color: #161c27, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",serious,1
+https://nub.ac.bd/,violation,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,".float-right > a[href$=""www.nub.ac.bd""] > font[color=""#046C96""]","<font color=""#046C96"">NUB IT</font>","Fix any of the following:
+  Element has insufficient color contrast of 2.92 (foreground color: #046c96, background color: #161c27, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",serious,2
+https://nub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-sm-4.col-xs-4.col-md-4:nth-child(1) > .article-list-1 > ul > li:nth-child(1) > article > .entry-content > .entry-title,"<h6 class=""entry-title"">","Fix any of the following:
+  Heading order invalid",moderate,1
+https://nub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.widget > ul > li:nth-child(1) > article > .entry-content > .entry-title,"<h6 class=""entry-title"">","Fix any of the following:
+  Heading order invalid",moderate,2
+https://nub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-sm-6.col-xs-6.col-md-6:nth-child(1) > .article-list-1 > ul > li:nth-child(1) > article > .entry-content > .entry-title,"<h6 class=""entry-title"">","Fix any of the following:
+  Heading order invalid",moderate,3
+https://nub.ac.bd/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.col-sm-6.col-xs-6.col-md-6:nth-child(2) > .article-list-1 > ul > li:nth-child(1) > article > .entry-content > .entry-title,"<h6 class=""entry-title"">","Fix any of the following:
+  Heading order invalid",moderate,4
+https://nub.ac.bd/,violation,landmark-one-main,moderate,Ensure the document has a main landmark,Document should have one main landmark,https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright,best-practice,html,"<html lang=""en"">","Fix all of the following:
+  Document does not have a main landmark",moderate,1
+https://nub.ac.bd/,violation,landmark-unique,moderate,Ensure landmarks are unique,Landmarks should have a unique role or role/label/title (i.e. accessible name) combination,https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright,best-practice,.navbar-dark,"<nav class=""navbar navbar-dark bg-custom1 d-flex"">","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",moderate,1
+https://nub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.navbar-brand,"<a class=""navbar-brand bg-light p-1"" href=""#"" style=""border-radius: 3px;"">
+            <img src=""https://nub.ac.bd/assets/images/logo_nub.png"" width=""auto"" height=""50px"" class=""d-inline-block align-top"" alt="""">
+        </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,1
+https://nub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.fb-ic,"<a class=""fb-ic"" href=""https://www.facebook.com/nub.ac.bd"">
+            <i class=""fab fa-facebook-f black-text mr-4""> </i>
+          </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,2
+https://nub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.li-ic,"<a class=""li-ic"" href=""https://www.linkedin.com/company/67929129/"">
+            <i class=""fab fa-linkedin-in black-text mr-4""> </i>
+          </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,3
+https://nub.ac.bd/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,.ins-ic,"<a class=""ins-ic"" href=""https://www.instagram.com/northernuniversitybangladesh/"">
+            <i class=""fab fa-instagram black-text""> </i>
+          </a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,4
+https://nub.ac.bd/,violation,list,serious,Ensure that lists are structured correctly,"<ul> and <ol> must only directly contain <li>, <script> or <template> elements",https://dequeuniversity.com/rules/axe/4.13/list?application=playwright,wcag2a|wcag131|EN-301-549|EN-9.1.3.1,#carousel-example-2 > ol,"<ol class=""carousel-indicators"">","Fix all of the following:
+  List element has direct children that are not allowed: #text",serious,1
+https://nub.ac.bd/,violation,page-has-heading-one,moderate,"Ensure that the page, or at least one of its frames contains a level-one heading",Page should contain a level-one heading,https://dequeuniversity.com/rules/axe/4.13/page-has-heading-one?application=playwright,best-practice,html,"<html lang=""en"">","Fix all of the following:
+  Page must have a level-one heading",moderate,1
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#carousel-example-2 > ol,"<ol class=""carousel-indicators"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,1
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,"div[role=""listbox""] > .active.carousel-item","<div class=""carousel-item active"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,2
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.bg-custom2,"<div class=""bg-custom2 text-white "">
+        <p style=""text-align: center; font-size: 2em;"">Knowledge for Innovation and Change</p>
+    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,3
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#videoSlider > .carousel-inner > .active.carousel-item,"<div class=""carousel-item active"">
+        <video class=""video-slide"" muted="""" controls="""" poster=""https://nub.ac.bd//assets/Head.jpg"">
+          <source src=""https://nub.ac.bd//assets/videos/CSE.mp4"" type=""video/mp4"">
+        </video>
+      </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,4
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-sm-4.col-xs-4.col-md-4:nth-child(1),"<div class=""col-md-4 col-sm-4 col-xs-4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,5
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-sm-4.col-xs-4.col-md-4:nth-child(6) > .clearfix > .widget-title:nth-child(1),"<h3 class=""widget-title style1"" style=""font-size:12px""><i class=""icon-title fa fa-play-circle""></i>NUB Digitization</h3>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,6
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.video-post:nth-child(2),"<article class=""entry-item video-post clearfix"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,7
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.widget-title:nth-child(3),"<h3 class=""widget-title style1"" style=""font-size:12px""><i class=""icon-title fa fa-play-circle""></i>Speech from The Honorable Chairman Prof. Abu Yousuf Md. Abdullah PhD , NUB TRUST. The Governing Body</h3>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,8
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.active.item,"<div class=""item active"">
+                                        <img src=""https://nub.ac.bd//images/nubsld3.jpg"" alt=""Slide 3"" style=""width:100%;height:255px"">
+                                    </div>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,9
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.left,"<a class=""left carousel-control"" href=""#myCarousel"" data-slide=""prev"">
+                                    <span class=""glyphicon glyphicon-chevron-left""></span>
+                                    <span class=""sr-only"">Previous</span>
+                                </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,10
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.right,"<a class=""right carousel-control"" href=""#myCarousel"" data-slide=""next"">
+                                    <span class=""glyphicon glyphicon-chevron-right""></span>
+                                    <span class=""sr-only"">Next</span>
+                                </a>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,11
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.col-sm-4.col-xs-4.col-md-4:nth-child(7),"<div class=""col-md-4 col-sm-4 col-xs-4"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,12
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,h4,"<h4 class=""text-center mt-5"">Accreditation &amp; Collaboration</h4>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,13
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.owl-carousel,"<div class=""owl-carousel owl-theme"" style=""opacity: 1; display: block;"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,14
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.mt-5.row,"<div class=""row mt-5"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,15
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.pl-lg-5.py-3.col-sm-6:nth-child(1),"<div class=""col-md-6 col-sm-6 col-xs-6 pl-lg-5 py-3"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,16
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,.media-body > h5,"<h5 class=""text-light mb-3"">Newsletter Signup </h5>","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,17
+https://nub.ac.bd/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,input,"<input class=""form-control mr-sm-2 email"" type=""email"" placeholder=""Search"" aria-label=""Search"" name=""email"">","Fix any of the following:
+  Some page content is not contained by landmarks",moderate,18
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-4.col-xs-4.col-md-4:nth-child(1) > .article-list-1 > ul > li:nth-child(1) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>27</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,1
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-4.col-xs-4.col-md-4:nth-child(1) > .article-list-1 > ul > li:nth-child(2) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>25</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,2
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-4.col-xs-4.col-md-4:nth-child(1) > .article-list-1 > ul > li:nth-child(3) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>12</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,3
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-4.col-xs-4.col-md-4:nth-child(1) > .article-list-1 > ul > li:nth-child(4) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>01</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,4
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget > ul > li:nth-child(1) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>29</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,5
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget > ul > li:nth-child(2) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>09</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,6
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget > ul > li:nth-child(3) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>29</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,7
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.widget > ul > li:nth-child(4) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>26</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,8
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(1) > .article-list-1 > ul > li:nth-child(1) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>30</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,9
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(1) > .article-list-1 > ul > li:nth-child(2) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>26</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,10
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(1) > .article-list-1 > ul > li:nth-child(3) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>07</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,11
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(1) > .article-list-1 > ul > li:nth-child(4) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>26</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,12
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(2) > .article-list-1 > ul > li:nth-child(1) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>05</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,13
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(2) > .article-list-1 > ul > li:nth-child(2) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>04</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,14
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(2) > .article-list-1 > ul > li:nth-child(3) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>04</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,15
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.col-sm-6.col-xs-6.col-md-6:nth-child(2) > .article-list-1 > ul > li:nth-child(4) > article > .entry-date.pull-left.style1 > .entry-day > span,<span>01</span>,"Fix any of the following:
+  Element's contrast could not be determined because it uses complex text shadows",serious,16
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.pl-lg-5.py-3.col-sm-6:nth-child(1) > h5,"<h5 class=""text-light mb-3"">Important Links</h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,17
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.media-body > h5,"<h5 class=""text-light mb-3"">Newsletter Signup </h5>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,18
+https://nub.ac.bd/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.btn,"<button class=""btn btn-outline-primary btn-rounded btn-sm my-4 waves-effect waves-light submit"" type=""submit"">Subscribe</button>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,19
+https://nub.ac.bd/,incomplete,duplicate-id-aria,critical,Ensure every id attribute value used in ARIA and in labels is unique,IDs used in ARIA and labels must be unique,https://dequeuniversity.com/rules/axe/4.13/duplicate-id-aria?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,"a[href$=""#About NUB""]","<a class=""nav-link dropdown-toggle waves-effect waves-light text-white"" href=""#About NUB"" title=""About NUB"" id=""navbarDropdown"" role=""button"" data-toggle=""dropdown"" aria-haspopup=""true"" aria-expanded=""false"">About NUB</a>","Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: navbarDropdown",critical,1
+https://nub.ac.bd/,incomplete,link-in-text-block,serious,Ensure links are distinguished from surrounding text in a way that does not rely on color,Links must be distinguishable without relying on color,https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright,wcag2a|wcag141|EN-301-549|EN-9.1.4.1,".float-right > a[href$=""www.nub.ac.bd""]","<a href=""https://www.nub.ac.bd""><font color=""#046C96"">NUB IT</font></a>","Fix any of the following:
+  Element's contrast ratio could not be determined because of element overlap",serious,1
+https://nub.ac.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,".active.carousel-item > .video-slide[muted=""""]","<video class=""video-slide"" muted="""" controls="""" poster=""https://nub.ac.bd//assets/Head.jpg"">
+          <source src=""https://nub.ac.bd//assets/videos/CSE.mp4"" type=""video/mp4"">
+        </video>","Fix all of the following:
+  Check that captions are available for the element",critical,1
+https://nub.ac.bd/,incomplete,video-caption,critical,Ensure <video> elements have captions,<video> elements must have captions,https://dequeuniversity.com/rules/axe/4.13/video-caption?application=playwright,wcag2a|wcag122|EN-301-549|EN-9.1.2.2,"video[width=""100%""]","<video width=""100%"" controls="""" poster=""https://nub.ac.bd//assets/digitization.png"" loop="""">","Fix all of the following:
+  Check that captions are available for the element",critical,2

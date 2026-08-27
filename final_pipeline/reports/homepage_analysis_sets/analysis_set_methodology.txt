@@ -1,0 +1,22 @@
+HOMEPAGE EXPERIMENT ANALYSIS SETS
+========================================================================
+
+All completed homepage analyses: 65
+Dual-engine analyses (custom scanner + axe-core): 33
+axe-only completed analyses: 32
+
+Analysis Set A — All completed pages
+------------------------------------------------------------------------
+This set contains all successfully completed homepage analyses. It is appropriate for rendered-DOM/axe-core analyses because axe-core was available for all included pages.
+
+Analysis Set B — Dual-engine pages
+------------------------------------------------------------------------
+This set contains only pages for which both the custom static scanner and axe-core produced usable analysis. Fusion overlap, custom-only findings, cross-tool comparison, and contextual-remediation results should be evaluated using this set.
+
+This separation avoids confounding organization type with scanner availability.
+
+Because subgroup sizes in the dual-engine set are unequal and small for several categories, raw totals should not be interpreted as direct cross-group comparisons. Per-page means and medians should be reported, and strong inferential claims should be avoided.
+
+axe incomplete findings remain separate from confirmed violation findings.
+
+Homepage-level results should not be interpreted as full website WCAG conformance assessments.

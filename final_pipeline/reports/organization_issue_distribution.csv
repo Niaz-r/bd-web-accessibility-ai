@@ -1,0 +1,33 @@
+organization_type,issue_type,issue_label,websites,pages,count,percentage_of_group_issues,issues_per_page
+Government,missing_alt,Missing image alt,13,103,441,19.02502157031924,4.281553398058253
+Government,empty_alt,Empty image alt,13,103,971,41.889559965487486,9.427184466019417
+Government,missing_h1,Missing H1,13,103,51,2.200172562553926,0.49514563106796117
+Government,multiple_h1,Multiple H1,13,103,20,0.8628127696289906,0.1941747572815534
+Government,empty_heading,Empty heading,13,103,214,9.2320966350302,2.0776699029126213
+Government,heading_order,Heading order,13,103,80,3.4512510785159622,0.7766990291262136
+Government,empty_link_text,Empty link text,13,103,523,22.562553925798102,5.077669902912621
+Government,generic_link_text,Generic link text,13,103,18,0.7765314926660914,0.17475728155339806
+News,missing_alt,Missing image alt,12,98,54,4.995374653098982,0.5510204081632653
+News,empty_alt,Empty image alt,12,98,160,14.801110083256244,1.6326530612244898
+News,missing_h1,Missing H1,12,98,39,3.6077705827937097,0.3979591836734694
+News,multiple_h1,Multiple H1,12,98,7,0.6475485661424607,0.07142857142857142
+News,empty_heading,Empty heading,12,98,27,2.497687326549491,0.2755102040816326
+News,heading_order,Heading order,12,98,111,10.26827012025902,1.1326530612244898
+News,empty_link_text,Empty link text,12,98,650,60.129509713228494,6.63265306122449
+News,generic_link_text,Generic link text,12,98,33,3.0527289546716005,0.336734693877551
+Private University,missing_alt,Missing image alt,18,171,306,10.186418109187748,1.7894736842105263
+Private University,empty_alt,Empty image alt,18,171,799,26.59786950732357,4.6725146198830405
+Private University,missing_h1,Missing H1,18,171,62,2.0639147802929427,0.36257309941520466
+Private University,multiple_h1,Multiple H1,18,171,20,0.6657789613848202,0.11695906432748537
+Private University,empty_heading,Empty heading,18,171,52,1.7310252996005324,0.30409356725146197
+Private University,heading_order,Heading order,18,171,275,9.154460719041278,1.608187134502924
+Private University,empty_link_text,Empty link text,18,171,1339,44.573901464713714,7.830409356725146
+Private University,generic_link_text,Generic link text,18,171,151,5.026631158455393,0.8830409356725146
+Public University,missing_alt,Missing image alt,20,200,444,6.953797963978074,2.22
+Public University,empty_alt,Empty image alt,20,200,1640,25.68519968676586,8.2
+Public University,missing_h1,Missing H1,20,200,142,2.2239624119028973,0.71
+Public University,multiple_h1,Multiple H1,20,200,11,0.17227877838684416,0.055
+Public University,empty_heading,Empty heading,20,200,132,2.06734534064213,0.66
+Public University,heading_order,Heading order,20,200,306,4.792482380579483,1.53
+Public University,empty_link_text,Empty link text,20,200,1368,21.425215348472985,6.84
+Public University,generic_link_text,Generic link text,20,200,2342,36.67971808927173,11.71

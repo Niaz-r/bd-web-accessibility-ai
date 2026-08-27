@@ -1,0 +1,7 @@
+{
+  "requested_url": "https://sub.edu.bd",
+  "status_code": null,
+  "analyzable": false,
+  "error": "HTTPSConnectionPool(host='sub.edu.bd', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='sub.edu.bd', port=443): Failed to establish a new connection: [Errno 113] No route to host\"))",
+  "finding_count": 0
+}

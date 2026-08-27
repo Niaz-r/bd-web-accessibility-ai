@@ -1,0 +1,348 @@
+COMMAND
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/analyze_url.py https://mofa.gov.bd
+
+
+======================================================================
+CUSTOM FINDINGS EXPORTED
+======================================================================
+URL: https://mofa.gov.bd
+Status: None
+Analyzable: False
+Scanner error: HTTPSConnectionPool(host='mofa.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+Findings: 0
+
+WARNING:
+The custom scanner did not treat this response as an analyzable target page.
+No accessibility findings were exported from the error response.
+
+No custom findings exported.
+
+CSV: final_pipeline/data/intermediate/custom_live/mofa.gov.bd_custom_findings.csv
+Metadata: final_pipeline/data/intermediate/custom_live/mofa.gov.bd_custom_meta.json
+
+================================================================================
+AXE-CORE RENDERED PAGE SCAN
+================================================================================
+URL: https://mofa.gov.bd
+HTTP status: 200
+Final URL: https://mofa.gov.bd/
+Page title: হোম | পররাষ্ট্র মন্ত্রণালয়
+
+================================================================================
+AXE SUMMARY
+================================================================================
+Violation rules: 7
+Violation nodes: 71
+Incomplete rules: 2
+Incomplete nodes: 6
+Passed rules: 29
+
+VIOLATIONS
+--------------------------------------------------------------------------------
+
+color-contrast | impact: serious | nodes: 9
+  Help: Elements must meet minimum color contrast ratio thresholds
+  Tags: cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1
+  Selector: #officeType_i9325651709
+  HTML: <select name="officeType" id="officeType_i9325651709" data-lang="bn" title="মন্ত্রণালয়" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i9325651709', this, 'i6919815475', 'i6786093163')">
+  Selector: #office_i9325651709
+  HTML: <select id="office_i9325651709" title="পররাষ্ট্র মন্ত্রণালয়">
+  Selector: a[title=" আমাদের সম্পর্কিত"]
+  HTML: <a title=" আমাদের সম্পর্কিত" href="#" class="menu-parent-list-link" style="color: rgb(255, 20, 147);"> আমাদের সম্পর্কিত <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a>
+
+heading-order | impact: moderate | nodes: 3
+  Help: Heading levels should only increase by one
+  Tags: cat.semantics, best-practice
+  Selector: div[data-widget_item="694030343a9d8304af773bac"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> মাননীয় পররাষ্ট্র মন্ত্রী </h3>
+  Selector: div[data-widget_item="694030343a9d8304af773c0f"] > .block-widget-container > .block-widget-title
+  HTML: <h3 class="block-widget-title"> বিনিয়োগ শিক্ষা কার্যক্রম </h3>
+  Selector: .national-anthem-header
+  HTML: <h6 class="national-anthem-header">জাতীয় সঙ্গীত</h6>
+
+image-alt | impact: critical | nodes: 7
+  Help: Images must have alternative text
+  Tags: cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1
+  Selector: div[data-widget_item="694030343a9d8304af773bac"] > .block-widget-container > .block-widget-content > rt-renderer,img[width="1347"]
+  HTML: <img style="aspect-ratio:1347/1600" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mofa/2026/1/6eb69e06-a0be-4359-b1df-7117aac055df.jpeg" width="1347" height="1600">
+  Selector: div[data-widget_item="6a8b2a61c640346be3acb195"] > .block-widget-container > .block-widget-content > rt-renderer,img[width="1734"]
+  HTML: <img style="aspect-ratio:1734/2084" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mofa/2026/7/d8fa93ef-0a53-4c68-be63-1eeb1fdf3c23.jpeg" width="1734" height="2084">
+  Selector: div[data-widget_item="6994b3c7e886ee1ca6299322"] > .block-widget-container > .block-widget-content > rt-renderer,img[width="661"]
+  HTML: <img style="aspect-ratio:661/852" src="https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mofa/2026/1/be7f6553-0c9d-4555-bbbb-b75abdfbb1a1.jpeg" width="661" height="852">
+
+label-title-only | impact: serious | nodes: 2
+  Help: Form elements should have a visible label
+  Tags: cat.forms, best-practice
+  Selector: #officeType_i9325651709
+  HTML: <select name="officeType" id="officeType_i9325651709" data-lang="bn" title="মন্ত্রণালয়" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i9325651709', this, 'i6919815475', 'i6786093163')">
+  Selector: #office_i9325651709
+  HTML: <select id="office_i9325651709" title="পররাষ্ট্র মন্ত্রণালয়">
+
+landmark-one-main | impact: moderate | nodes: 1
+  Help: Document should have one main landmark
+  Tags: cat.semantics, best-practice
+  Selector: html
+  HTML: <html lang="bn">
+
+link-name | impact: serious | nodes: 4
+  Help: Links must have discernible text
+  Tags: cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1
+  Selector: .home-link
+  HTML: <a class="menu-parent-list-link home-link" href="/" style="color: rgb(255, 69, 0);"> </a>
+  Selector: .bangladesh-e-directory-image-link-widget > a[target="_blank"]
+  HTML: <a target="_blank" href="https://edirectory.portal.gov.bd/"> <img class="image" src="/site-assets/images/service_link_1.jpg"> </a>
+  Selector: .my-gov-service-image-link-widget > a[href$="mygov.bd/"][target="_blank"]
+  HTML: <a target="_blank" href="https://www.mygov.bd/"> <img class="image" src="/site-assets/images/service_link_5.jpg"> </a>
+
+region | impact: moderate | nodes: 45
+  Help: All page content should be contained by landmarks
+  Tags: cat.keyboard, best-practice, RGAAv4, RGAA-9.2.1
+  Selector: .header-left-section:nth-child(1)
+  HTML: <div class="header-left-section"> <a class="header-title" href="http://bangladesh.gov.bd" title="বাংলাদেশ জাতীয় তথ্য বাতায়ন"> বাংলাদেশ জাতীয় তথ্য বাতায়ন </a> </div>
+  Selector: #officeType_i9325651709
+  HTML: <select name="officeType" id="officeType_i9325651709" data-lang="bn" title="মন্ত্রণালয়" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i9325651709', this, 'i6919815475', 'i6786093163')">
+  Selector: #i6919815475
+  HTML: <div id="i6919815475" class="dynamic-dropdowns">
+
+================================================================================
+FILES CREATED
+================================================================================
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/mofa.gov.bd__axe.json
+/home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/mofa.gov.bd__axe_nodes.csv
+
+================================================================================
+FINDING FUSION
+================================================================================
+Custom findings: 0
+Axe nodes: 77
+
+Axe result types:
+result_type
+violation     71
+incomplete     6
+
+================================================================================
+FUSION RESULTS
+================================================================================
+Compatible candidate pairs: 0
+Confirmed matches: 0
+
+Unified finding statuses:
+finding_status
+axe_only          71
+axe_incomplete     6
+
+Confirmed rule pairs:
+No confirmed matches.
+
+Ownership scope:
+ownership_scope
+page_content    77
+
+================================================================================
+SAMPLE CONFIRMED FINDINGS
+================================================================================
+
+Output: final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+================================================================================
+CONTEXT EXTRACTION
+================================================================================
+Page: https://mofa.gov.bd/
+Unified findings: 77
+Context-dependent findings: 0
+ERROR: Could not retrieve page for context extraction:
+HTTPSConnectionPool(host='mofa.gov.bd', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+================================================================================
+RECOMMENDATION ENGINE V2
+================================================================================
+Input: /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+Unified findings: 77
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+Finding status:
+finding_status
+axe_only          71
+axe_incomplete     6
+
+Priority:
+priority
+Medium      49
+High        15
+Critical     7
+Review       6
+
+Categories:
+category
+Landmarks         45
+Color contrast    14
+Images             7
+Other              4
+Links              4
+Headings           3
+
+Top rules:
+primary_rule
+region               45
+color-contrast       14
+image-alt             7
+link-name             4
+heading-order         3
+label-title-only      2
+landmark-one-main     1
+skip-link             1
+
+Third-party findings: 0
+
+Rules using fallback recommendation:
+ - label-title-only
+ - landmark-one-main
+ - skip-link
+
+================================================================================
+FILES CREATED
+================================================================================
+final_pipeline/data/final/live_recommendations/mofa.gov.bd__recommendations.csv
+final_pipeline/reports/live/mofa.gov.bd__accessibility_report.html
+
+================================================================================
+AI-ASSISTED WEB ACCESSIBILITY ANALYZER
+
+================================================================================
+
+Requested URL:
+https://mofa.gov.bd
+
+Host:
+mofa.gov.bd
+
+Output stem:
+mofa.gov.bd
+
+================================================================================
+STAGE 1: CUSTOM STATIC ACCESSIBILITY SCAN
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/export_custom_findings.py https://mofa.gov.bd
+
+
+Custom scanner exit code: 0
+Custom findings file: NOT FOUND
+Custom metadata file: NOT FOUND
+Custom HTTP status: None
+Custom analyzable: False
+
+Actual analysis stem:
+mofa.gov.bd
+
+================================================================================
+STAGE 2: PLAYWRIGHT + AXE-CORE RENDERED-DOM SCAN
+
+================================================================================
+
+Running:
+node /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/run_axe.js https://mofa.gov.bd
+
+
+axe exit code: 0
+axe node file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/mofa.gov.bd__axe_nodes.csv
+axe JSON file: /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/mofa.gov.bd__axe.json
+Rendered URL: https://mofa.gov.bd/
+Rendered HTTP status: 200
+
+WARNING:
+The custom static scanner did not produce an analyzable findings dataset, but axe-core successfully analyzed the rendered page.
+
+Continuing in AXE-ONLY mode.
+
+Created empty custom compatibility CSV:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/mofa.gov.bd__custom_findings.csv
+
+Analysis sources:
+  Real custom scanner: False
+  Real axe-core: True
+  Fusion stem: mofa.gov.bd
+
+================================================================================
+STAGE 3: ELEMENT-LEVEL FINDING FUSION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/merge_findings.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/custom_live/mofa.gov.bd__custom_findings.csv /home/niaz/bd-web-accessibility-ai/final_pipeline/axe/results/mofa.gov.bd__axe_nodes.csv
+
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+================================================================================
+STAGE 4: CONTEXT EXTRACTION
+
+================================================================================
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/context_extractor.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+
+WARNING:
+Context extraction was unavailable for this page.
+
+The analyzer will continue with the standard unified findings.
+
+
+================================================================================
+STAGE 5: CONTEXT-AWARE RECOMMENDATION ENGINE V3
+
+================================================================================
+
+Skipped because no context dataset was available.
+
+================================================================================
+STAGE 6: FINAL RECOMMENDATIONS + INTERACTIVE REPORT
+
+================================================================================
+
+Final recommendation input:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+Input type:
+Unified findings
+
+Running:
+/home/niaz/bd-web-accessibility-ai/venv/bin/python /home/niaz/bd-web-accessibility-ai/final_pipeline/src/recommendation_engine_v2.py /home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+
+================================================================================
+ANALYSIS COMPLETE
+
+================================================================================
+
+Requested URL:
+https://mofa.gov.bd
+
+Rendered URL:
+https://mofa.gov.bd/
+
+Analysis stem:
+mofa.gov.bd
+
+Analysis mode:
+axe-only partial analysis + fusion
+
+Unified findings:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/intermediate/unified_live/mofa.gov.bd__unified_findings.csv
+
+Final recommendations:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/mofa.gov.bd__recommendations.csv
+
+Interactive HTML report:
+/home/niaz/bd-web-accessibility-ai/final_pipeline/reports/live/mofa.gov.bd__accessibility_report.html
+
+Reminder:
+Automated findings and context-aware recommendations are decision-support evidence. They do not constitute a declaration of complete WCAG conformance.
