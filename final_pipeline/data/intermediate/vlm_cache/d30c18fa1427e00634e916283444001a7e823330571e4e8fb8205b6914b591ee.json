@@ -1,0 +1,11 @@
+{
+  "image_role": "decorative",
+  "alt_status": "keep_empty",
+  "generic_alt_detected": true,
+  "suggested_alt": "",
+  "recommended_action": "keep_empty",
+  "confidence": "medium",
+  "manual_review_required": false,
+  "visual_review_required": false,
+  "reason": "The image is purely decorative and does not add meaning to the page."
+}

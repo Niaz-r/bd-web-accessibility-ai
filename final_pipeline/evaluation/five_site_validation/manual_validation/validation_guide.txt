@@ -1,0 +1,55 @@
+FIVE-SITE HUMAN VALIDATION GUIDE
+
+Primary purpose
+---------------
+Evaluate the finalized system exactly as produced. Do not modify the recommendation
+before assigning a label.
+
+Dataset
+-------
+Websites: 5
+Total decisions: 120
+Link V4 recommendations: 32
+Link V4 abstentions/manual-review decisions: 17
+VLM recommendations: 71
+
+Labels for link_recommendation and vlm_recommendation
+-----------------------------------------------------
+Correct
+    Appropriate as written, or only trivial wording/punctuation editing is needed.
+
+Partially Correct
+    Main idea is appropriate, but a meaningful wording, contextual, semantic,
+    or code change is needed before applying it.
+
+Incorrect
+    Recommendation is misleading, inappropriate, unsafe, or should not be applied.
+
+Labels for link_abstention
+--------------------------
+Correct
+    Abstaining/manual review is appropriate because evidence is genuinely insufficient.
+
+Partially Correct
+    Abstention is defensible, but the available evidence probably supports a useful
+    candidate recommendation.
+
+Incorrect
+    The system should clearly have produced a recommendation from strong evidence,
+    so abstaining was inappropriate.
+
+Important VLM rule
+------------------
+Judge the visual recommendation against the ACTUAL IMAGE and its page purpose.
+A visually accurate description is not automatically good alt text.
+
+Human review fields
+-------------------
+Fill only:
+    human_label
+    human_comment
+
+Use exactly:
+    Correct
+    Partially Correct
+    Incorrect

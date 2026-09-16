@@ -1,0 +1,11 @@
+{
+  "image_role": "decorative",
+  "alt_status": "replace_with_empty_alt",
+  "generic_alt_detected": true,
+  "suggested_alt": "",
+  "recommended_action": "The image appears decorative. After human verification, remove the unnecessary textual alternative by using alt=\"\".",
+  "confidence": "medium",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The image is purely decorative and does not convey any meaningful information. A descriptive caption would be more appropriate."
+}

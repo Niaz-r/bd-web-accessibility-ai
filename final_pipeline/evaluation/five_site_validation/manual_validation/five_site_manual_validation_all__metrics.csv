@@ -1,0 +1,14 @@
+﻿group,evaluated,correct,partially_correct,incorrect,strict_accuracy_pct,acceptable_rate_pct,weighted_quality_pct
+Link V4 recommendations,32,25,6,1,78.12,96.88,87.5
+Link V4 abstention decisions,17,11,1,5,64.71,70.59,67.65
+VLM recommendations,71,50,14,7,70.42,90.14,80.28
+EVAL01 Link,1,1,0,0,100.0,100.0,100.0
+EVAL01 VLM,7,2,4,1,28.57,85.71,57.14
+EVAL02 Link,12,10,2,0,83.33,100.0,91.67
+EVAL02 VLM,5,5,0,0,100.0,100.0,100.0
+EVAL03 Link,15,11,4,0,73.33,100.0,86.67
+EVAL03 VLM,55,40,9,6,72.73,89.09,80.91
+EVAL04 Link,3,3,0,0,100.0,100.0,100.0
+EVAL04 VLM,3,3,0,0,100.0,100.0,100.0
+EVAL05 Link,1,0,0,1,0.0,0.0,0.0
+EVAL05 VLM,1,0,1,0,0.0,100.0,50.0

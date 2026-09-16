@@ -68,10 +68,26 @@ V3_SCRIPT = (
     "recommendation_engine_v3.py"
 )
 
+LINK_V4_SCRIPT = (
+    SRC_DIR
+    /
+    "link_recommendation_engine_v4.py"
+)
+
 V2_SCRIPT = (
     SRC_DIR
     /
     "recommendation_engine_v2.py"
+)
+
+VLM_SCRIPT = (
+    SRC_DIR
+    /
+    "vlm_alt_analyzer.py"
+)
+
+VLM_MODEL = (
+    "qwen2.5vl:3b"
 )
 
 
@@ -125,6 +141,26 @@ V3_DIR = (
     "final"
     /
     "contextual_recommendations"
+)
+
+LINK_V4_DIR = (
+    FINAL_PIPELINE_DIR
+    /
+    "data"
+    /
+    "final"
+    /
+    "link_recommendations"
+)
+
+VLM_DIR = (
+    FINAL_PIPELINE_DIR
+    /
+    "data"
+    /
+    "final"
+    /
+    "vlm_alt_reviews"
 )
 
 FINAL_RECOMMENDATION_DIR = (
@@ -535,11 +571,14 @@ def find_generated_file(
     stage_start
 ):
     """
-    First try the expected filename.
+    Find a file created by the current pipeline stage while
+    tolerating both live-output naming conventions:
 
-    If a scanner follows redirects or changes the hostname,
-    search for the most recently generated file with the
-    requested suffix.
+        site_suffix.csv
+        site__suffix.csv
+
+    This also preserves redirect handling because the function
+    falls back to the most recently generated matching file.
     """
 
     directory = Path(
@@ -549,6 +588,30 @@ def find_generated_file(
     expected_path = Path(
         expected_path
     )
+
+    # --------------------------------------------------------
+    # ACCEPT BOTH SINGLE- AND DOUBLE-UNDERSCORE SUFFIXES
+    # --------------------------------------------------------
+
+    suffix_candidates = {
+        suffix
+    }
+
+    if suffix.startswith(
+        "__"
+    ):
+
+        suffix_candidates.add(
+            suffix[1:]
+        )
+
+    elif suffix.startswith(
+        "_"
+    ):
+
+        suffix_candidates.add(
+            "_" + suffix
+        )
 
     # --------------------------------------------------------
     # EXPECTED PATH
@@ -562,25 +625,85 @@ def find_generated_file(
         return expected_path
 
     # --------------------------------------------------------
+    # TRY THE ALTERNATE EXPECTED FILENAME
+    # --------------------------------------------------------
+
+    expected_name = expected_path.name
+
+    for candidate_suffix in sorted(
+        suffix_candidates,
+        key=len,
+        reverse=True
+    ):
+
+        for source_suffix in sorted(
+            suffix_candidates,
+            key=len,
+            reverse=True
+        ):
+
+            if expected_name.endswith(
+                source_suffix
+            ):
+
+                alternate_name = (
+                    expected_name[
+                        :-len(
+                            source_suffix
+                        )
+                    ]
+                    +
+                    candidate_suffix
+                )
+
+                alternate_path = (
+                    expected_path.parent
+                    /
+                    alternate_name
+                )
+
+                if file_modified_after(
+                    alternate_path,
+                    stage_start
+                ):
+
+                    return alternate_path
+
+    # --------------------------------------------------------
     # SEARCH RECENT OUTPUT FILES
     # --------------------------------------------------------
 
     candidates = []
+    seen = set()
 
     if directory.exists():
 
-        for path in directory.glob(
-            f"*{suffix}"
+        for candidate_suffix in sorted(
+            suffix_candidates,
+            key=len,
+            reverse=True
         ):
 
-            if file_modified_after(
-                path,
-                stage_start
+            for path in directory.glob(
+                f"*{candidate_suffix}"
             ):
 
-                candidates.append(
-                    path
-                )
+                if (
+                    path not in seen
+                    and
+                    file_modified_after(
+                        path,
+                        stage_start
+                    )
+                ):
+
+                    candidates.append(
+                        path
+                    )
+
+                    seen.add(
+                        path
+                    )
 
     if not candidates:
 
@@ -599,6 +722,18 @@ def get_stem_from_file(
     path,
     suffix
 ):
+    """
+    Return the analysis stem while tolerating both the newer
+    single-underscore and older double-underscore live-output
+    naming conventions.
+
+    Examples:
+        www.du.ac.bd_custom_findings.csv
+            -> www.du.ac.bd
+
+        www.du.ac.bd__custom_findings.csv
+            -> www.du.ac.bd
+    """
 
     if path is None:
 
@@ -608,15 +743,47 @@ def get_stem_from_file(
         path
     ).name
 
-    if name.endswith(
+    suffix_candidates = {
         suffix
+    }
+
+    # If the caller supplies a double-underscore suffix, also
+    # accept the single-underscore form. If it supplies a
+    # single-underscore suffix, also accept the double form.
+    if suffix.startswith(
+        "__"
     ):
 
-        return name[
-            :-len(
-                suffix
-            )
-        ]
+        suffix_candidates.add(
+            suffix[1:]
+        )
+
+    elif suffix.startswith(
+        "_"
+    ):
+
+        suffix_candidates.add(
+            "_" + suffix
+        )
+
+    # Longest first is important: __custom_findings.csv must
+    # be stripped before _custom_findings.csv, otherwise an
+    # unwanted trailing underscore would remain in the stem.
+    for candidate_suffix in sorted(
+        suffix_candidates,
+        key=len,
+        reverse=True
+    ):
+
+        if name.endswith(
+            candidate_suffix
+        ):
+
+            return name[
+                :-len(
+                    candidate_suffix
+                )
+            ]
 
     return Path(
         path
@@ -751,6 +918,7 @@ def check_environment():
         MERGE_SCRIPT,
         CONTEXT_SCRIPT,
         V3_SCRIPT,
+        LINK_V4_SCRIPT,
         V2_SCRIPT
     ]
 
@@ -793,6 +961,149 @@ def check_environment():
             )
 
         sys.exit(1)
+
+
+# ============================================================
+# OPTIONAL VLM ENVIRONMENT CHECK
+# ============================================================
+
+def check_vlm_environment(
+    model=VLM_MODEL
+):
+    """
+    Check whether the optional local Ollama VLM layer is ready.
+
+    VLM is intentionally NON-FATAL.  If any dependency is
+    unavailable, the normal deterministic accessibility pipeline
+    continues without visual alt-text enrichment.
+    """
+
+    if not VLM_SCRIPT.exists():
+
+        return (
+            False,
+            (
+                "VLM analyzer script was not found:\n"
+                f"{VLM_SCRIPT}"
+            )
+        )
+
+    if shutil.which(
+        "ollama"
+    ) is None:
+
+        return (
+            False,
+            "Ollama CLI was not found in PATH."
+        )
+
+    try:
+
+        service_check = subprocess.run(
+            [
+                "ollama",
+                "list"
+            ],
+            cwd=PROJECT_ROOT,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+
+    except Exception as error:
+
+        return (
+            False,
+            (
+                "Could not contact the Ollama service: "
+                f"{error}"
+            )
+        )
+
+    if service_check.returncode != 0:
+
+        service_error = (
+            service_check.stderr
+            or
+            service_check.stdout
+            or
+            "Ollama service check failed."
+        ).strip()
+
+        return (
+            False,
+            service_error
+        )
+
+    try:
+
+        model_check = subprocess.run(
+            [
+                "ollama",
+                "show",
+                model
+            ],
+            cwd=PROJECT_ROOT,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+
+    except Exception as error:
+
+        return (
+            False,
+            (
+                "Could not verify the configured VLM model: "
+                f"{error}"
+            )
+        )
+
+    if model_check.returncode != 0:
+
+        return (
+            False,
+            (
+                f"Ollama model {model!r} is not available. "
+                f"Install it with: ollama pull {model}"
+            )
+        )
+
+    # Verify that the current Python environment can import
+    # the local Ollama client used by vlm_alt_analyzer.py.
+    package_check = subprocess.run(
+        [
+            sys.executable,
+            "-c",
+            "import ollama, PIL, pydantic"
+        ],
+        cwd=PROJECT_ROOT,
+        check=False,
+        capture_output=True,
+        text=True
+    )
+
+    if package_check.returncode != 0:
+
+        package_error = (
+            package_check.stderr
+            or
+            package_check.stdout
+            or
+            "Required VLM Python packages are unavailable."
+        ).strip()
+
+        return (
+            False,
+            package_error
+        )
+
+    return (
+        True,
+        ""
+    )
 
 
 # ============================================================
@@ -863,6 +1174,8 @@ def main():
         UNIFIED_DIR,
         CONTEXT_DIR,
         V3_DIR,
+        LINK_V4_DIR,
+        VLM_DIR,
         FINAL_RECOMMENDATION_DIR,
         REPORT_DIR
     ]:
@@ -930,7 +1243,7 @@ def main():
         (
             predicted_stem
             +
-            "__custom_findings.csv"
+            "_custom_findings.csv"
         )
     )
 
@@ -940,7 +1253,7 @@ def main():
         (
             predicted_stem
             +
-            "__custom_meta.json"
+            "_custom_meta.json"
         )
     )
 
@@ -964,14 +1277,14 @@ def main():
     custom_csv = find_generated_file(
         CUSTOM_DIR,
         expected_custom_csv,
-        "__custom_findings.csv",
+        "_custom_findings.csv",
         custom_stage_start
     )
 
     custom_meta = find_generated_file(
         CUSTOM_DIR,
         expected_custom_meta,
-        "__custom_meta.json",
+        "_custom_meta.json",
         custom_stage_start
     )
 
@@ -1809,46 +2122,290 @@ def main():
         )
 
     # ========================================================
-    # CHOOSE BEST INPUT FOR FINAL REPORT
+    # CHOOSE BEST INPUT FOR LINK ENGINE V4
     # ========================================================
 
     if contextual_available:
 
-        final_input = (
-            contextual_csv
+        link_v4_input = contextual_csv
+        link_v4_input_type = (
+            "V3 contextual recommendations"
         )
 
+    elif context_available:
+
+        link_v4_input = context_csv
+        link_v4_input_type = (
+            "Context-enriched unified findings"
+        )
+
+    else:
+
+        link_v4_input = unified_csv
+        link_v4_input_type = (
+            "Unified findings"
+        )
+
+    # ========================================================
+    # STAGE 6
+    # DETERMINISTIC LINK RECOMMENDATION ENGINE V4
+    # ========================================================
+
+    link_v4_available = False
+    link_v4_csv = None
+
+    stage(
+        6,
+        "DETERMINISTIC LINK RECOMMENDATION ENGINE V4"
+    )
+
+    expected_link_v4_csv = (
+        LINK_V4_DIR
+        /
+        (
+            actual_stem
+            +
+            "__link_recommendations.csv"
+        )
+    )
+
+    link_v4_stage_start = (
+        time.time()
+    )
+
+    link_v4_exit_code = run_command(
+        [
+            sys.executable,
+            LINK_V4_SCRIPT,
+            link_v4_input
+        ],
+        fatal=False
+    )
+
+    link_v4_csv = find_generated_file(
+        LINK_V4_DIR,
+        expected_link_v4_csv,
+        "__link_recommendations.csv",
+        link_v4_stage_start
+    )
+
+    link_v4_available = (
+        link_v4_exit_code == 0
+        and
+        link_v4_csv is not None
+    )
+
+    if link_v4_available:
+
+        print()
+
+        print(
+            "Link V4 recommendation dataset:"
+        )
+
+        print(
+            link_v4_csv
+        )
+
+    else:
+
+        link_v4_csv = None
+
+        warning(
+            (
+                "Link Recommendation Engine V4 could not "
+                "complete.\n\n"
+                "The analyzer will continue with the best "
+                "available deterministic findings dataset."
+            )
+        )
+
+    # ========================================================
+    # CHOOSE BEST INPUT FOR FINAL REPORT
+    # ========================================================
+
+    if link_v4_available:
+
+        final_input = link_v4_csv
+        final_input_type = (
+            "V4 link-enriched recommendations"
+        )
+
+    elif contextual_available:
+
+        final_input = contextual_csv
         final_input_type = (
             "V3 contextual recommendations"
         )
 
     elif context_available:
 
-        final_input = (
-            context_csv
-        )
-
+        final_input = context_csv
         final_input_type = (
             "Context-enriched unified findings"
         )
 
     else:
 
-        final_input = (
-            unified_csv
-        )
-
+        final_input = unified_csv
         final_input_type = (
             "Unified findings"
         )
 
     # ========================================================
-    # STAGE 6
+    # STAGE 7
+    # OPTIONAL VLM IMAGE-ALT ANALYSIS
+    # ========================================================
+
+    vlm_available = False
+    vlm_review_csv = None
+    vlm_summary_csv = None
+
+    stage(
+        7,
+        "OPTIONAL VLM IMAGE-ALT ANALYSIS"
+    )
+
+    # The VLM module is driven by custom image findings.
+    # In axe-only mode, the custom CSV is only a compatibility
+    # header and contains no real image evidence, so VLM is skipped.
+    if not real_custom_available:
+
+        print(
+            "Skipped because no real custom-scanner "
+            "image findings were available."
+        )
+
+    else:
+
+        vlm_environment_ready, vlm_environment_message = (
+            check_vlm_environment(
+                VLM_MODEL
+            )
+        )
+
+        if not vlm_environment_ready:
+
+            warning(
+                (
+                    "Optional VLM image analysis is unavailable.\n\n"
+                    f"{vlm_environment_message}\n\n"
+                    "Continuing with the deterministic "
+                    "recommendation pipeline."
+                )
+            )
+
+        else:
+
+            expected_vlm_review_csv = (
+                VLM_DIR
+                /
+                (
+                    actual_stem
+                    +
+                    "__custom_findings__vlm_alt_reviews.csv"
+                )
+            )
+
+            expected_vlm_summary_csv = (
+                VLM_DIR
+                /
+                (
+                    actual_stem
+                    +
+                    "__custom_findings__vlm_alt_summary.csv"
+                )
+            )
+
+            vlm_stage_start = (
+                time.time()
+            )
+
+            vlm_exit_code = run_command(
+                [
+                    sys.executable,
+                    VLM_SCRIPT,
+                    custom_csv,
+                    VLM_MODEL
+                ],
+                fatal=False
+            )
+
+            vlm_review_csv = find_generated_file(
+                VLM_DIR,
+                expected_vlm_review_csv,
+                "__vlm_alt_reviews.csv",
+                vlm_stage_start
+            )
+
+            vlm_summary_csv = find_generated_file(
+                VLM_DIR,
+                expected_vlm_summary_csv,
+                "__vlm_alt_summary.csv",
+                vlm_stage_start
+            )
+
+            vlm_available = (
+                vlm_exit_code == 0
+                and
+                vlm_review_csv is not None
+            )
+
+            if vlm_available:
+
+                print()
+
+                print(
+                    "VLM image-alt review dataset:"
+                )
+
+                print(
+                    vlm_review_csv
+                )
+
+                if vlm_summary_csv:
+
+                    print()
+
+                    print(
+                        "VLM image-alt summary:"
+                    )
+
+                    print(
+                        vlm_summary_csv
+                    )
+
+            elif vlm_exit_code == 0:
+
+                print(
+                    "No eligible image-alt findings required "
+                    "VLM processing for this page."
+                )
+
+                vlm_review_csv = None
+                vlm_summary_csv = None
+
+            else:
+
+                vlm_review_csv = None
+                vlm_summary_csv = None
+
+                warning(
+                    (
+                        "Optional VLM image analysis could not "
+                        "complete.\n\n"
+                        "The deterministic recommendation/report "
+                        "stage will still continue."
+                    )
+                )
+
+    # ========================================================
+    # STAGE 8
     # FINAL RECOMMENDATION + HTML REPORT
     # ========================================================
 
     stage(
-        6,
+        8,
         "FINAL RECOMMENDATIONS + INTERACTIVE REPORT"
     )
 
@@ -2021,7 +2578,7 @@ def main():
 
     if contextual_available:
 
-        print(
+        analysis_mode_text = (
             source_mode
             +
             " + fusion + context extraction "
@@ -2030,7 +2587,7 @@ def main():
 
     elif context_available:
 
-        print(
+        analysis_mode_text = (
             source_mode
             +
             " + fusion + context extraction"
@@ -2038,11 +2595,27 @@ def main():
 
     else:
 
-        print(
+        analysis_mode_text = (
             source_mode
             +
             " + fusion"
         )
+
+    if link_v4_available:
+
+        analysis_mode_text += (
+            " + deterministic link recommendations V4"
+        )
+
+    if vlm_available:
+
+        analysis_mode_text += (
+            " + VLM visual alt analysis"
+        )
+
+    print(
+        analysis_mode_text
+    )
 
     # ========================================================
     # OUTPUT FILES
@@ -2082,6 +2655,42 @@ def main():
             contextual_csv
         )
 
+    if link_v4_csv:
+
+        print()
+
+        print(
+            "Link V4 recommendations:"
+        )
+
+        print(
+            link_v4_csv
+        )
+
+    if vlm_review_csv:
+
+        print()
+
+        print(
+            "VLM image-alt reviews:"
+        )
+
+        print(
+            vlm_review_csv
+        )
+
+    if vlm_summary_csv:
+
+        print()
+
+        print(
+            "VLM image-alt summary:"
+        )
+
+        print(
+            vlm_summary_csv
+        )
+
     if recommendation_csv:
 
         print()
@@ -2115,10 +2724,11 @@ def main():
     )
 
     print(
-        "Automated findings and context-aware "
-        "recommendations are decision-support evidence. "
-        "They do not constitute a declaration of complete "
-        "WCAG conformance."
+        "Automated findings, context-aware and link-specific "
+        "recommendations, and VLM-generated visual suggestions are "
+        "decision-support evidence requiring appropriate human "
+        "review. They do not constitute a declaration of "
+        "complete WCAG conformance."
     )
 
 

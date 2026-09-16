@@ -1,0 +1,11 @@
+{
+  "image_role": "decorative",
+  "alt_status": "keep_empty",
+  "generic_alt_detected": false,
+  "suggested_alt": "",
+  "recommended_action": "The image appears decorative. Keep alt=\"\" after human verification.",
+  "confidence": "medium",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The image appears to be purely decorative and does not convey any meaningful information. Replacing the current empty alt text with a descriptive caption would enhance the image's accessibility."
+}

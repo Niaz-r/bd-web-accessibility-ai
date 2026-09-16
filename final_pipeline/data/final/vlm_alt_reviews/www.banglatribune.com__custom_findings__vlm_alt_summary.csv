@@ -1,0 +1,17 @@
+﻿metric,value
+input_rows,7
+eligible_image_findings,3
+results_rows,3
+cache_hits,0
+vlm_success,3
+fallback_used,0
+download_failed,0
+guardrail_interventions,0
+remaining_logical_contradictions,0
+wrong_generic_alt_flags,0
+image_role__decorative,3
+alt_status__keep_empty,2
+alt_status__set_empty_alt,1
+vlm_status__success,3
+confidence__medium,3
+generic_alt_detected,0

@@ -2,7 +2,7 @@
   "page_url": "https://juniv.edu/",
   "page_title": "Jahangirnagar University",
   "status_code": 200,
-  "timestamp": "2026-08-26T16:13:27.989Z",
+  "timestamp": "2026-08-30T10:10:10.314Z",
   "summary": {
     "violation_rules": 8,
     "violation_nodes": 49,
@@ -6871,7 +6871,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div class=\"marquee-1\" style=\"left: -216.15px;\">",
+          "html": "<div class=\"marquee-1\" style=\"left: -482.328px;\">",
           "target": [
             ".marquee-1"
           ]
@@ -7771,6 +7771,31 @@
           "html": "<a href=\"https://juniv.edu/discussion/18357\"><i class=\"fa fa-angle-right\"></i> আন্তঃবিভাগ ফুটবল প্রতিযোগিতা শুরু</a>",
           "target": [
             ".marquee-1 > .marquee-content-items > li:nth-child(3) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#444444",
+                "bgColor": "#ffffff",
+                "contrastRatio": 9.73,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.73"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://juniv.edu/discussion/18356\"><i class=\"fa fa-angle-right\"></i> আন্তঃবিশ্ববিদ্যালয় দাবা প্রতিযোগিতায় জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের স্বর্ণপদক লাভ ॥ উপাচার্যের অভিনন্দন</a>",
+          "target": [
+            ".marquee-1 > .marquee-content-items > li:nth-child(4) > a"
           ]
         },
         {
@@ -20257,7 +20282,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"marquee-1\" style=\"left: -216.15px;\">",
+          "html": "<div class=\"marquee-1\" style=\"left: -482.328px;\">",
           "target": [
             ".marquee-1"
           ]
@@ -20597,7 +20622,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"marquee-2\" style=\"left: 2971.11px;\">",
+          "html": "<div class=\"marquee-2\" style=\"left: 2704.86px;\">",
           "target": [
             ".marquee-2"
           ]
@@ -20937,7 +20962,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"marquee-3\" style=\"left: 6158.11px;\">",
+          "html": "<div class=\"marquee-3\" style=\"left: 5891.86px;\">",
           "target": [
             ".marquee-3"
           ]

@@ -1,0 +1,11 @@
+{
+  "image_role": "informative",
+  "alt_status": "needs_meaningful_alt",
+  "generic_alt_detected": true,
+  "suggested_alt": "Student Zareen Tahsin Anjum from DU Nuclear Engineering joins CERN's Summer Student Program 2025",
+  "recommended_action": "improve_existing_alt",
+  "confidence": "medium",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The current alt text is generic and does not provide any meaningful information about the image."
+}

@@ -1,0 +1,11 @@
+{
+  "image_role": "decorative",
+  "alt_status": "set_empty_alt",
+  "generic_alt_detected": true,
+  "suggested_alt": "",
+  "recommended_action": "The image appears decorative. After human verification, add an explicit empty alternative text attribute: alt=\"\".",
+  "confidence": "low",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The image is a simple, abstract design that does not convey any specific information or functionality. It is purely decorative and does not require an alternative text."
+}

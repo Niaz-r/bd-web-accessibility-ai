@@ -1,0 +1,11 @@
+{
+  "image_role": "unclear",
+  "alt_status": "manual_review",
+  "generic_alt_detected": true,
+  "suggested_alt": "",
+  "recommended_action": "The image purpose could not be determined reliably from the visual and contextual evidence. Inspect the image and surrounding page content manually before deciding whether it needs meaningful alt text or an empty alt attribute.",
+  "confidence": "low",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The image is of two cricket players in action, but the current alt text is generic and does not provide any meaningful information about the content."
+}

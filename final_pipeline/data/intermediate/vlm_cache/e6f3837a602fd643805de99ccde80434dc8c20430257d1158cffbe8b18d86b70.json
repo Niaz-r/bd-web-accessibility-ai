@@ -1,0 +1,11 @@
+{
+  "image_role": "functional",
+  "alt_status": "keep_empty",
+  "generic_alt_detected": false,
+  "suggested_alt": "",
+  "recommended_action": "keep_empty",
+  "confidence": "medium",
+  "manual_review_required": false,
+  "visual_review_required": false,
+  "reason": "The image is a logo and should not have an alt text."
+}

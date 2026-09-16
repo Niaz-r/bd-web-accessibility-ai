@@ -1,5 +1,6 @@
 import os
 import sys
+import glob
 import html as html_lib
 
 import pandas as pd
@@ -17,6 +18,11 @@ CSV_OUTPUT_DIR = (
 
 HTML_OUTPUT_DIR = (
     "final_pipeline/reports/live"
+)
+
+VLM_REVIEW_DIR = (
+    "final_pipeline/data/final/"
+    "vlm_alt_reviews"
 )
 
 
@@ -995,6 +1001,698 @@ def bool_value(value):
 
 
 # ============================================================
+# VLM INTEGRATION HELPERS
+# ============================================================
+
+VLM_ELIGIBLE_ISSUES = {
+    "missing_alt",
+    "empty_alt",
+    "non_descriptive_alt",
+}
+
+
+def derive_base_name(input_file):
+
+    input_name = os.path.basename(
+        input_file
+    )
+
+    known_suffixes = [
+        "__link_recommendations.csv",
+        "_link_recommendations.csv",
+        "__contextual_recommendations.csv",
+        "_contextual_recommendations.csv",
+        "__context_findings.csv",
+        "_context_findings.csv",
+        "__unified_findings.csv",
+        "_unified_findings.csv",
+    ]
+
+    for suffix in known_suffixes:
+
+        if input_name.endswith(
+            suffix
+        ):
+
+            return input_name[
+                :-len(
+                    suffix
+                )
+            ]
+
+    return os.path.splitext(
+        input_name
+    )[0]
+
+
+def normalize_match_text(value):
+
+    return " ".join(
+        clean(
+            value
+        ).split()
+    ).strip().lower()
+
+
+def normalize_match_url(value):
+
+    return clean(
+        value
+    ).strip()
+
+
+def discover_vlm_review_file(
+    base_name
+):
+
+    if not os.path.isdir(
+        VLM_REVIEW_DIR
+    ):
+
+        return None
+
+    exact_candidates = [
+        os.path.join(
+            VLM_REVIEW_DIR,
+            (
+                f"{base_name}"
+                "_custom_findings"
+                "__vlm_alt_reviews.csv"
+            )
+        ),
+        os.path.join(
+            VLM_REVIEW_DIR,
+            (
+                f"{base_name}"
+                "__custom_findings"
+                "__vlm_alt_reviews.csv"
+            )
+        ),
+    ]
+
+    for path in exact_candidates:
+
+        if os.path.exists(
+            path
+        ):
+
+            return path
+
+    candidates = glob.glob(
+        os.path.join(
+            VLM_REVIEW_DIR,
+            (
+                f"{base_name}"
+                "*__vlm_alt_reviews.csv"
+            )
+        )
+    )
+
+    if not candidates:
+
+        return None
+
+    candidates.sort(
+        key=os.path.getmtime,
+        reverse=True
+    )
+
+    return candidates[0]
+
+
+def make_vlm_suggested_html(
+    recommendation_row,
+    vlm_row
+):
+
+    original = clean(
+        recommendation_row.get(
+            "preferred_html",
+            ""
+        )
+    )
+
+    if not original:
+
+        return ""
+
+    try:
+
+        soup = BeautifulSoup(
+            original,
+            "html.parser"
+        )
+
+        element = soup.find()
+
+        if (
+            element is None
+            or
+            element.name != "img"
+        ):
+
+            return ""
+
+        alt_status = clean(
+            vlm_row.get(
+                "alt_status",
+                ""
+            )
+        ).lower()
+
+        suggested_alt = clean(
+            vlm_row.get(
+                "suggested_alt",
+                ""
+            )
+        )
+
+        if alt_status in {
+            "keep_empty",
+            "set_empty_alt",
+            "replace_with_empty_alt",
+        }:
+
+            element[
+                "alt"
+            ] = ""
+
+            return str(
+                element
+            )
+
+        if (
+            alt_status
+            in {
+                "needs_meaningful_alt",
+                "improve_existing_alt",
+                "needs_long_description",
+            }
+            and
+            suggested_alt
+        ):
+
+            element[
+                "alt"
+            ] = suggested_alt
+
+            return str(
+                element
+            )
+
+    except Exception:
+
+        return ""
+
+    return ""
+
+
+def enrich_recommendations_with_vlm(
+    recommendations,
+    base_name
+):
+
+    vlm_boolean_columns = [
+        "vlm_processed",
+        "vlm_generic_alt_detected",
+        "vlm_manual_review_required",
+        "vlm_visual_review_required",
+        "vlm_cache_hit",
+        "vlm_guardrail_passed",
+    ]
+
+    vlm_text_columns = [
+        "vlm_status",
+        "vlm_model",
+        "vlm_issue",
+        "vlm_image_role",
+        "vlm_alt_status",
+        "vlm_current_alt",
+        "vlm_suggested_alt",
+        "vlm_recommended_action",
+        "vlm_confidence",
+        "vlm_reason",
+        "vlm_resolved_image_url",
+        "vlm_suggested_html",
+        "vlm_review_file",
+    ]
+
+    # --------------------------------------------------------
+    # Pandas 3.x uses stricter string dtypes. Initializing every
+    # VLM column with an empty string makes columns such as
+    # vlm_processed dtype=str, and assigning True/False later
+    # raises TypeError. Keep Boolean and text fields explicitly
+    # separated so enrichment remains type-safe.
+    # --------------------------------------------------------
+
+    for column in vlm_boolean_columns:
+
+        if column not in recommendations.columns:
+
+            recommendations[column] = pd.Series(
+                False,
+                index=recommendations.index,
+                dtype="bool"
+            )
+
+        else:
+
+            recommendations[column] = (
+                recommendations[column]
+                .map(bool_value)
+                .astype("bool")
+            )
+
+    for column in vlm_text_columns:
+
+        if column not in recommendations.columns:
+
+            recommendations[column] = pd.Series(
+                "",
+                index=recommendations.index,
+                dtype="object"
+            )
+
+        else:
+
+            recommendations[column] = (
+                recommendations[column]
+                .astype("object")
+            )
+
+    if len(
+        recommendations
+    ) == 0:
+
+        return (
+            recommendations,
+            None,
+            0
+        )
+
+    vlm_file = discover_vlm_review_file(
+        base_name
+    )
+
+    if vlm_file is None:
+
+        return (
+            recommendations,
+            None,
+            0
+        )
+
+    try:
+
+        vlm_df = pd.read_csv(
+            vlm_file
+        )
+
+    except Exception as error:
+
+        print()
+        print(
+            "WARNING: Could not read VLM review file:"
+        )
+        print(
+            vlm_file
+        )
+        print(
+            error
+        )
+
+        return (
+            recommendations,
+            vlm_file,
+            0
+        )
+
+    if len(
+        vlm_df
+    ) == 0:
+
+        return (
+            recommendations,
+            vlm_file,
+            0
+        )
+
+    if "issue" not in vlm_df.columns:
+
+        return (
+            recommendations,
+            vlm_file,
+            0
+        )
+
+    used_vlm_indices = set()
+    matched_count = 0
+
+    for rec_index, rec_row in recommendations.iterrows():
+
+        custom_issue = normalize_match_text(
+            rec_row.get(
+                "custom_issue",
+                ""
+            )
+        )
+
+        if (
+            custom_issue
+            not in VLM_ELIGIBLE_ISSUES
+        ):
+
+            continue
+
+        rec_src = normalize_match_url(
+            rec_row.get(
+                "src",
+                ""
+            )
+        )
+
+        rec_selector = clean(
+            rec_row.get(
+                "preferred_selector",
+                ""
+            )
+        )
+
+        rec_alt = normalize_match_text(
+            rec_row.get(
+                "alt",
+                ""
+            )
+        )
+
+        rec_page_url = normalize_match_url(
+            rec_row.get(
+                "page_url",
+                ""
+            )
+        )
+
+        best_index = None
+        best_score = -1
+
+        for vlm_index, vlm_row in vlm_df.iterrows():
+
+            if vlm_index in used_vlm_indices:
+
+                continue
+
+            vlm_issue = normalize_match_text(
+                vlm_row.get(
+                    "issue",
+                    ""
+                )
+            )
+
+            if vlm_issue != custom_issue:
+
+                continue
+
+            vlm_src = normalize_match_url(
+                vlm_row.get(
+                    "src",
+                    ""
+                )
+            )
+
+            vlm_selector = clean(
+                vlm_row.get(
+                    "selector",
+                    ""
+                )
+            )
+
+            vlm_alt = normalize_match_text(
+                vlm_row.get(
+                    "alt",
+                    ""
+                )
+            )
+
+            vlm_page_url = normalize_match_url(
+                vlm_row.get(
+                    "page_url",
+                    ""
+                )
+            )
+
+            score = 0
+
+            same_src = (
+                rec_src
+                and
+                vlm_src
+                and
+                rec_src == vlm_src
+            )
+
+            same_selector = (
+                rec_selector
+                and
+                vlm_selector
+                and
+                rec_selector == vlm_selector
+            )
+
+            if same_src:
+
+                score += 140
+
+            if same_selector:
+
+                score += 120
+
+            if rec_alt == vlm_alt:
+
+                score += 15
+
+            if (
+                rec_page_url
+                and
+                vlm_page_url
+                and
+                rec_page_url.rstrip("/")
+                ==
+                vlm_page_url.rstrip("/")
+            ):
+
+                score += 10
+
+            # Alt text alone is not sufficient because generic
+            # values such as "Thumb" can occur on many images.
+            if (
+                (same_src or same_selector)
+                and
+                score > best_score
+            ):
+
+                best_index = vlm_index
+                best_score = score
+
+        if best_index is None:
+
+            continue
+
+        vlm_row = vlm_df.loc[
+            best_index
+        ]
+
+        used_vlm_indices.add(
+            best_index
+        )
+
+        matched_count += 1
+
+        recommendations.at[
+            rec_index,
+            "vlm_processed"
+        ] = True
+
+        recommendations.at[
+            rec_index,
+            "vlm_status"
+        ] = clean(
+            vlm_row.get(
+                "vlm_status",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_model"
+        ] = clean(
+            vlm_row.get(
+                "vlm_model",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_issue"
+        ] = clean(
+            vlm_row.get(
+                "issue",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_image_role"
+        ] = clean(
+            vlm_row.get(
+                "image_role",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_alt_status"
+        ] = clean(
+            vlm_row.get(
+                "alt_status",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_current_alt"
+        ] = clean(
+            vlm_row.get(
+                "alt",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_suggested_alt"
+        ] = clean(
+            vlm_row.get(
+                "suggested_alt",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_recommended_action"
+        ] = clean(
+            vlm_row.get(
+                "recommended_action",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_confidence"
+        ] = clean(
+            vlm_row.get(
+                "confidence",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_generic_alt_detected"
+        ] = bool_value(
+            vlm_row.get(
+                "generic_alt_detected",
+                False
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_manual_review_required"
+        ] = bool_value(
+            vlm_row.get(
+                "manual_review_required",
+                True
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_visual_review_required"
+        ] = bool_value(
+            vlm_row.get(
+                "visual_review_required",
+                True
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_reason"
+        ] = clean(
+            vlm_row.get(
+                "reason",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_resolved_image_url"
+        ] = clean(
+            vlm_row.get(
+                "resolved_image_url",
+                ""
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_cache_hit"
+        ] = bool_value(
+            vlm_row.get(
+                "cache_hit",
+                False
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_guardrail_passed"
+        ] = bool_value(
+            vlm_row.get(
+                "guardrail_passed",
+                False
+            )
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_suggested_html"
+        ] = make_vlm_suggested_html(
+            rec_row,
+            vlm_row
+        )
+
+        recommendations.at[
+            rec_index,
+            "vlm_review_file"
+        ] = vlm_file
+
+    return (
+        recommendations,
+        vlm_file,
+        matched_count
+    )
+
+
+# ============================================================
 # SELECT PRIMARY RULE
 # ============================================================
 
@@ -1522,6 +2220,25 @@ def create_html_report(
     review_count = count_priority(
         "Review"
     )
+
+    if (
+        "vlm_processed"
+        in recommendations.columns
+    ):
+
+        vlm_count = sum(
+            bool_value(
+                value
+            )
+            for value
+            in recommendations[
+                "vlm_processed"
+            ]
+        )
+
+    else:
+
+        vlm_count = 0
 
 
     # ========================================================
@@ -2197,6 +2914,15 @@ select {
     border: 1px solid #99f6e4;
 }
 
+.badge-vlm {
+
+    background: #eef2ff;
+
+    color: #3730a3;
+
+    border: 1px solid #c7d2fe;
+}
+
 
 /* ==========================================================
    DETAILS
@@ -2383,6 +3109,125 @@ select {
 
 
 /* ==========================================================
+   VLM VISUAL ALT ANALYSIS
+   ========================================================== */
+
+.vlm-box {
+
+    padding: 17px;
+
+    background: #f5f3ff;
+
+    border: 1px solid #ddd6fe;
+
+    border-left: 5px solid #7c3aed;
+
+    border-radius: 9px;
+}
+
+.vlm-suggestion {
+
+    margin: 12px 0;
+
+    padding: 13px;
+
+    background: white;
+
+    border: 1px solid #ddd6fe;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: 650;
+
+    overflow-wrap: anywhere;
+}
+
+.vlm-meta {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin: 12px 0;
+}
+
+.vlm-meta span {
+
+    background: white;
+
+    border: 1px solid #c4b5fd;
+
+    border-radius: 999px;
+
+    padding: 5px 9px;
+
+    font-size: 12px;
+
+    color: #5b21b6;
+}
+
+.vlm-note {
+
+    margin-top: 14px;
+
+    font-size: 13px;
+
+    color: #5b21b6;
+}
+
+.vlm-image-link {
+
+    overflow-wrap: anywhere;
+}
+
+
+/* ==========================================================
+   LINK RECOMMENDATION ENGINE V4
+   ========================================================== */
+
+.link-v4-box {
+    padding: 17px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 5px solid #2563eb;
+    border-radius: 9px;
+}
+
+.link-v4-suggestion {
+    font-size: 17px;
+    font-weight: 650;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.link-v4-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 13px;
+}
+
+.link-v4-meta span {
+    background: white;
+    border: 1px solid #bfdbfe;
+    border-radius: 999px;
+    padding: 5px 9px;
+    font-size: 12px;
+    color: #1e40af;
+}
+
+.badge-link-v4 {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+}
+
+
+/* ==========================================================
    EMPTY RESULT
    ========================================================== */
 
@@ -2526,6 +3371,11 @@ select {
         recommendations generated by the proposed
         deterministic contextual decision engine.
 
+        Eligible image-alt findings may additionally include
+        local VLM-assisted visual interpretation that is
+        validated by deterministic accessibility guardrails
+        and requires human verification.
+
     </p>
 
 </div>
@@ -2562,6 +3412,11 @@ select {
         (
             incomplete,
             "Needs manual review"
+        ),
+
+        (
+            vlm_count,
+            "VLM visual reviews"
         ),
 
         (
@@ -3231,6 +4086,202 @@ select {
 
 
         # ====================================================
+        # LINK RECOMMENDATION ENGINE V4 FIELDS
+        # ====================================================
+
+        link_v4_processed = bool_value(
+            row.get("link_v4_processed", False)
+        )
+
+        link_v4_issue_family = clean(
+            row.get("link_v4_issue_family", "")
+        )
+
+        link_v4_decision = clean(
+            row.get("link_v4_decision_code", "")
+        )
+
+        link_v4_current_text = clean(
+            row.get("link_v4_current_text", "")
+        )
+
+        link_v4_current_name = clean(
+            row.get("link_v4_current_accessible_name", "")
+        )
+
+        link_v4_href = clean(
+            row.get("link_v4_href", "")
+        )
+
+        link_v4_suggested_name = clean(
+            row.get("link_v4_suggested_name", "")
+        )
+
+        link_v4_action = clean(
+            row.get("link_v4_recommended_action", "")
+        )
+
+        link_v4_confidence = clean(
+            row.get("link_v4_confidence", "")
+        )
+
+        link_v4_evidence_source = clean(
+            row.get("link_v4_evidence_source", "")
+        )
+
+        link_v4_evidence_text = clean(
+            row.get("link_v4_evidence_text", "")
+        )
+
+        link_v4_reason = clean(
+            row.get("link_v4_reason", "")
+        )
+
+        link_v4_html = clean(
+            row.get("link_v4_suggested_html", "")
+        )
+
+        link_v4_manual_review = bool_value(
+            row.get("link_v4_manual_review_required", False)
+        )
+
+        link_v4_semantics_review = bool_value(
+            row.get("link_v4_semantics_review_required", False)
+        )
+
+
+        # ====================================================
+        # VLM VISUAL ALT FIELDS
+        # ====================================================
+
+        vlm_processed = bool_value(
+            row.get(
+                "vlm_processed",
+                False
+            )
+        )
+
+        vlm_status = clean(
+            row.get(
+                "vlm_status",
+                ""
+            )
+        )
+
+        vlm_model = clean(
+            row.get(
+                "vlm_model",
+                ""
+            )
+        )
+
+        vlm_issue = clean(
+            row.get(
+                "vlm_issue",
+                ""
+            )
+        )
+
+        vlm_image_role = clean(
+            row.get(
+                "vlm_image_role",
+                ""
+            )
+        )
+
+        vlm_alt_status = clean(
+            row.get(
+                "vlm_alt_status",
+                ""
+            )
+        )
+
+        vlm_current_alt = clean(
+            row.get(
+                "vlm_current_alt",
+                ""
+            )
+        )
+
+        vlm_suggested_alt = clean(
+            row.get(
+                "vlm_suggested_alt",
+                ""
+            )
+        )
+
+        vlm_recommended_action = clean(
+            row.get(
+                "vlm_recommended_action",
+                ""
+            )
+        )
+
+        vlm_confidence = clean(
+            row.get(
+                "vlm_confidence",
+                ""
+            )
+        )
+
+        vlm_generic_alt = bool_value(
+            row.get(
+                "vlm_generic_alt_detected",
+                False
+            )
+        )
+
+        vlm_manual_review = bool_value(
+            row.get(
+                "vlm_manual_review_required",
+                False
+            )
+        )
+
+        vlm_visual_review = bool_value(
+            row.get(
+                "vlm_visual_review_required",
+                False
+            )
+        )
+
+        vlm_reason = clean(
+            row.get(
+                "vlm_reason",
+                ""
+            )
+        )
+
+        vlm_image_url = clean(
+            row.get(
+                "vlm_resolved_image_url",
+                ""
+            )
+        )
+
+        vlm_cache_hit = bool_value(
+            row.get(
+                "vlm_cache_hit",
+                False
+            )
+        )
+
+        vlm_guardrail_passed = bool_value(
+            row.get(
+                "vlm_guardrail_passed",
+                False
+            )
+        )
+
+        vlm_suggested_code = clean(
+            row.get(
+                "vlm_suggested_html",
+                ""
+            )
+        )
+
+
+        # ====================================================
         # SEARCHABLE TEXT
         # ====================================================
 
@@ -3254,7 +4305,28 @@ select {
                 contextual_suggestion,
                 contextual_reason,
                 contextual_evidence,
-                contextual_language
+                contextual_language,
+                link_v4_issue_family,
+                link_v4_decision,
+                link_v4_current_text,
+                link_v4_current_name,
+                link_v4_href,
+                link_v4_suggested_name,
+                link_v4_action,
+                link_v4_confidence,
+                link_v4_evidence_source,
+                link_v4_evidence_text,
+                link_v4_reason,
+                vlm_status,
+                vlm_model,
+                vlm_issue,
+                vlm_image_role,
+                vlm_alt_status,
+                vlm_current_alt,
+                vlm_suggested_alt,
+                vlm_recommended_action,
+                vlm_confidence,
+                vlm_reason
             ]
         )
 
@@ -3435,6 +4507,28 @@ select {
                 """
 <span class="badge badge-contextual">
     Context-aware recommendation
+</span>
+"""
+            )
+
+
+        if link_v4_processed:
+
+            content.append(
+                """
+<span class="badge badge-link-v4">
+    Link recommendation V4
+</span>
+"""
+            )
+
+
+        if vlm_processed:
+
+            content.append(
+                """
+<span class="badge badge-vlm">
+    VLM visual analysis
 </span>
 """
             )
@@ -3869,10 +4963,595 @@ select {
 
 
         # ====================================================
-        # STANDARD SUGGESTED HTML
+        # LINK RECOMMENDATION ENGINE V4
         # ====================================================
 
-        if suggested:
+        if link_v4_processed:
+
+            content.append(
+                """
+<div class="detail-section">
+
+    <h3>
+        Context-Aware Link Recommendation
+    </h3>
+
+    <div class="link-v4-box">
+"""
+            )
+
+            if link_v4_current_text:
+                content.append(
+                    f"""
+<p>
+    <strong>Current visible text:</strong>
+    {esc(link_v4_current_text)}
+</p>
+"""
+                )
+
+            if link_v4_current_name:
+                content.append(
+                    f"""
+<p style="margin-top: 10px;">
+    <strong>Current accessible name evidence:</strong>
+    {esc(link_v4_current_name)}
+</p>
+"""
+                )
+
+            if link_v4_href:
+                content.append(
+                    f"""
+<p style="margin-top: 10px;">
+    <strong>Destination / action:</strong>
+    {esc(link_v4_href)}
+</p>
+"""
+                )
+
+            if link_v4_suggested_name:
+                content.append(
+                    f"""
+<div class="link-v4-suggestion">
+
+    Suggested accessible name:
+    <br>
+
+    “{esc(link_v4_suggested_name)}”
+
+</div>
+"""
+                )
+            else:
+                content.append(
+                    """
+<div class="warning-box">
+
+    <strong>
+        No automatic link name proposed
+    </strong>
+
+    <br><br>
+
+    The available destination and contextual evidence was
+    not strong enough to generate a specific accessible
+    name safely.
+
+</div>
+"""
+                )
+
+            if link_v4_action:
+                content.append(
+                    f"""
+<p style="margin-top: 14px;">
+
+    <strong>
+        Recommended action:
+    </strong>
+
+    {esc(link_v4_action)}
+
+</p>
+"""
+                )
+
+            if link_v4_reason:
+                content.append(
+                    f"""
+<p style="margin-top: 14px;">
+
+    <strong>
+        Why this suggestion was made:
+    </strong>
+
+    {esc(link_v4_reason)}
+
+</p>
+"""
+                )
+
+            content.append(
+                '<div class="link-v4-meta">'
+            )
+
+            if link_v4_issue_family:
+                content.append(
+                    f"""
+<span>
+    Issue:
+    {esc(link_v4_issue_family.replace("_", " "))}
+</span>
+"""
+                )
+
+            if link_v4_decision:
+                content.append(
+                    f"""
+<span>
+    Decision:
+    {esc(link_v4_decision.replace("_", " "))}
+</span>
+"""
+                )
+
+            if link_v4_confidence:
+                content.append(
+                    f"""
+<span>
+    Context confidence:
+    {esc(link_v4_confidence)}
+</span>
+"""
+                )
+
+            if link_v4_evidence_source:
+                content.append(
+                    f"""
+<span>
+    Evidence:
+    {esc(link_v4_evidence_source.replace("_", " "))}
+</span>
+"""
+                )
+
+            content.append(
+                "</div>"
+            )
+
+            if link_v4_evidence_text:
+                content.append(
+                    f"""
+<p style="margin-top: 14px;">
+
+    <strong>
+        Evidence used:
+    </strong>
+
+    {esc(link_v4_evidence_text)}
+
+</p>
+"""
+                )
+
+            if link_v4_semantics_review:
+                content.append(
+                    """
+<div class="warning-box">
+
+    <strong>
+        Element semantics also require review
+    </strong>
+
+    <br><br>
+
+    This element may perform an interface action rather
+    than navigation. Verify whether a semantic
+    &lt;button&gt; would be more appropriate than a link.
+
+</div>
+"""
+                )
+
+            if link_v4_manual_review:
+                content.append(
+                    """
+<p style="margin-top: 14px;">
+
+    <strong>
+        Human verification:
+    </strong>
+
+    Required before implementation.
+
+</p>
+"""
+                )
+
+            content.append(
+                """
+<p style="margin-top: 14px;">
+
+    <em>
+
+        This candidate was generated by deterministic
+        destination and context rules. Confidence describes
+        the strength of the available evidence and does not
+        establish WCAG conformance.
+
+    </em>
+
+</p>
+
+</div>
+
+</div>
+"""
+            )
+
+            if link_v4_html:
+                content.append(
+                    f"""
+<div class="detail-section">
+
+    <h3>
+        Link V4 Suggested HTML
+    </h3>
+
+    <pre class="code-box">{esc(link_v4_html)}</pre>
+
+</div>
+"""
+                )
+
+
+        # ====================================================
+        # VLM VISUAL ALT ANALYSIS
+        # ====================================================
+
+        if vlm_processed:
+
+            if vlm_suggested_alt:
+
+                vlm_display_alt = (
+                    vlm_suggested_alt
+                )
+
+            elif vlm_alt_status in {
+                "keep_empty",
+                "set_empty_alt",
+                "replace_with_empty_alt",
+            }:
+
+                vlm_display_alt = (
+                    'alt=""'
+                )
+
+            else:
+
+                vlm_display_alt = (
+                    "No automatic alt text proposed."
+                )
+
+            if vlm_current_alt:
+
+                vlm_display_current = (
+                    vlm_current_alt
+                )
+
+            elif vlm_issue == "missing_alt":
+
+                vlm_display_current = (
+                    "[ALT ATTRIBUTE MISSING]"
+                )
+
+            elif vlm_issue == "empty_alt":
+
+                vlm_display_current = (
+                    'alt=""'
+                )
+
+            else:
+
+                vlm_display_current = (
+                    "[EMPTY]"
+                )
+
+            content.append(
+                f"""
+<div class="detail-section">
+
+    <h3>
+        AI Visual Analysis
+    </h3>
+
+    <div class="vlm-box">
+
+        <p>
+            <strong>
+                Current alt:
+            </strong>
+            {esc(vlm_display_current)}
+        </p>
+
+        <p style="margin-top: 10px;">
+            <strong>
+                Image role:
+            </strong>
+            {esc(
+                vlm_image_role
+                or
+                "unclear"
+            )}
+        </p>
+
+        <div class="vlm-suggestion">
+
+            <strong>
+                Suggested alt / treatment:
+            </strong>
+
+            <br><br>
+
+            {esc(vlm_display_alt)}
+
+        </div>
+"""
+            )
+
+            if vlm_recommended_action:
+
+                content.append(
+                    f"""
+<p>
+    <strong>
+        Recommended action:
+    </strong>
+
+    {esc(vlm_recommended_action)}
+</p>
+"""
+                )
+
+            if vlm_reason:
+
+                content.append(
+                    f"""
+<p style="margin-top: 12px;">
+
+    <strong>
+        Visual reasoning:
+    </strong>
+
+    {esc(vlm_reason)}
+
+</p>
+"""
+                )
+
+            content.append(
+                '<div class="vlm-meta">'
+            )
+
+            if vlm_status:
+
+                content.append(
+                    f"""
+<span>
+    Status:
+    {esc(vlm_status)}
+</span>
+"""
+                )
+
+            if vlm_model:
+
+                content.append(
+                    f"""
+<span>
+    Model:
+    {esc(vlm_model)}
+</span>
+"""
+                )
+
+            if vlm_confidence:
+
+                content.append(
+                    f"""
+<span>
+    Confidence:
+    {esc(vlm_confidence)}
+</span>
+"""
+                )
+
+            if vlm_alt_status:
+
+                content.append(
+                    f"""
+<span>
+    Alt decision:
+    {esc(
+        vlm_alt_status.replace(
+            "_",
+            " "
+        )
+    )}
+</span>
+"""
+                )
+
+            if vlm_generic_alt:
+
+                content.append(
+                    """
+<span>
+    Generic alt detected
+</span>
+"""
+                )
+
+            if vlm_cache_hit:
+
+                content.append(
+                    """
+<span>
+    Cached visual result
+</span>
+"""
+                )
+
+            if vlm_guardrail_passed:
+
+                content.append(
+                    """
+<span>
+    Guardrail validation passed
+</span>
+"""
+                )
+
+            content.append(
+                "</div>"
+            )
+
+            if vlm_image_url:
+
+                content.append(
+                    f"""
+<p class="vlm-image-link">
+
+    <strong>
+        Analyzed image:
+    </strong>
+
+    <a
+        href="{esc(vlm_image_url)}"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Open image
+    </a>
+
+</p>
+"""
+                )
+
+            if (
+                vlm_visual_review
+                or
+                vlm_manual_review
+            ):
+
+                content.append(
+                    """
+<div class="warning-box">
+
+    <strong>
+        Human verification required
+    </strong>
+
+    <br><br>
+
+    The visual interpretation and suggested alternative
+    text are decision-support evidence. Verify the image
+    purpose, page context, and final wording before
+    implementation.
+
+</div>
+"""
+                )
+
+            content.append(
+                """
+<p class="vlm-note">
+
+    <em>
+
+        The VLM supplies visual-semantic evidence only.
+        The proposed system applies deterministic
+        accessibility guardrails after VLM inference.
+        This output does not independently establish a
+        WCAG failure or conformance decision.
+
+    </em>
+
+</p>
+
+    </div>
+
+</div>
+"""
+            )
+
+            if vlm_suggested_code:
+
+                content.append(
+                    f"""
+<div class="detail-section">
+
+    <h3>
+        VLM-Assisted Suggested HTML
+    </h3>
+
+    <pre class="code-box">{esc(vlm_suggested_code)}</pre>
+
+    <p style="margin-top: 8px;">
+
+        <em>
+            Apply only after human verification.
+        </em>
+
+    </p>
+
+</div>
+"""
+                )
+
+
+        # ====================================================
+        # STANDARD SUGGESTED HTML
+        #
+        # Do not show the generic placeholder code when a
+        # more specific Link V4 or VLM code suggestion exists.
+        # This avoids duplicate remediation blocks such as:
+        #
+        #   Link V4 Suggested HTML
+        #   + Suggested code pattern
+        #
+        # or:
+        #
+        #   VLM-Assisted Suggested HTML
+        #   + Suggested code pattern
+        #
+        # The generic code pattern remains available as a
+        # fallback when V4/VLM cannot safely produce specific
+        # code.
+        # ====================================================
+
+        specific_v4_code_available = bool(
+            link_v4_processed
+            and
+            link_v4_html
+        )
+
+        specific_vlm_code_available = bool(
+            vlm_processed
+            and
+            vlm_suggested_code
+        )
+
+        show_standard_suggested_code = (
+            bool(suggested)
+            and
+            not specific_v4_code_available
+            and
+            not specific_vlm_code_available
+        )
+
+        if show_standard_suggested_code:
 
             content.append(
                 f"""
@@ -4039,6 +5718,12 @@ select {
     Context-aware recommendations are produced by
     deterministic rules using extracted local page context
     and should be verified before implementation.
+
+    VLM-assisted image recommendations use visual-semantic
+    evidence from a local vision-language model, followed by
+    deterministic accessibility guardrails. They remain
+    human-review recommendations rather than automatic WCAG
+    conformance decisions.
 
 </div>
 """
@@ -5755,6 +7440,46 @@ def main():
 
 
     # ========================================================
+    # VLM VISUAL-ALT ENRICHMENT
+    # ========================================================
+
+    base_name = derive_base_name(
+        input_file
+    )
+
+    (
+        recommendations,
+        vlm_review_file,
+        vlm_matched_count
+    ) = enrich_recommendations_with_vlm(
+        recommendations,
+        base_name
+    )
+
+    if vlm_review_file:
+
+        print()
+        print(
+            "VLM review input:"
+        )
+        print(
+            vlm_review_file
+        )
+        print(
+            "VLM findings matched to unified findings:",
+            vlm_matched_count
+        )
+
+    else:
+
+        print()
+        print(
+            "VLM review input: not available "
+            "for this analysis."
+        )
+
+
+    # ========================================================
     # OUTPUT DIRECTORIES
     # ========================================================
 
@@ -5771,62 +7496,11 @@ def main():
 
 
     # ========================================================
-    # FLEXIBLE INPUT FILENAME
+    # OUTPUT BASENAME
     #
-    # Supports:
-    #
-    # www.du.ac.bd__unified_findings.csv
-    #
-    # www.du.ac.bd__contextual_recommendations.csv
+    # base_name was derived before VLM enrichment using the
+    # same flexible single/double-underscore suffix handling.
     # ========================================================
-
-    input_name = os.path.basename(
-        input_file
-    )
-
-
-    known_suffixes = [
-
-        "__contextual_recommendations.csv",
-
-        "_contextual_recommendations.csv",
-
-        "__context_findings.csv",
-
-        "_context_findings.csv",
-
-        "__unified_findings.csv",
-
-        "_unified_findings.csv"
-    ]
-
-
-    base_name = None
-
-
-    for suffix in known_suffixes:
-
-        if input_name.endswith(
-            suffix
-        ):
-
-            base_name = (
-                input_name[
-                    :-len(
-                        suffix
-                    )
-                ]
-            )
-
-            break
-
-
-    if base_name is None:
-
-        base_name = os.path.splitext(
-            input_name
-        )[0]
-
 
     csv_output = os.path.join(
         CSV_OUTPUT_DIR,
@@ -6040,6 +7714,72 @@ def main():
             "Context-aware recommendations:",
             contextual_count
         )
+
+
+    # ========================================================
+    # VLM SUMMARY
+    # ========================================================
+
+    print()
+    link_v4_count = 0
+
+    if "link_v4_processed" in recommendations.columns:
+
+        link_v4_count = int(
+            recommendations[
+                "link_v4_processed"
+            ]
+            .fillna(False)
+            .astype(bool)
+            .sum()
+        )
+
+    print()
+    print(
+        "Link V4 recommendations:",
+        link_v4_count
+    )
+
+
+    print(
+        "VLM-enhanced image findings:",
+        vlm_matched_count
+    )
+
+    if (
+        "vlm_status"
+        in recommendations.columns
+        and
+        vlm_matched_count
+    ):
+
+        vlm_rows = recommendations[
+            recommendations[
+                "vlm_processed"
+            ].apply(
+                bool_value
+            )
+        ]
+
+        if len(
+            vlm_rows
+        ):
+
+            print()
+
+            print(
+                "VLM status:"
+            )
+
+            print(
+                vlm_rows[
+                    "vlm_status"
+                ]
+                .value_counts(
+                    dropna=False
+                )
+                .to_string()
+            )
 
 
     # ========================================================

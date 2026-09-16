@@ -1,0 +1,6 @@
+﻿site_id,website_name,category,total_final_findings,link_v4_processed,link_v4_specific_suggestions,link_v4_abstention_or_manual,vlm_processed,vlm_specific_treatments,vlm_manual_or_visual_review,recommendation_csv
+EVAL01,Jahangirnagar University,Public University,61,3,1,2,7,7,7,/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/juniv.edu__recommendations.csv
+EVAL02,North South University,Private University,61,15,12,3,5,5,5,/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.northsouth.edu__recommendations.csv
+EVAL03,The Daily Star,News,154,27,15,12,55,55,55,/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.thedailystar.net__recommendations.csv
+EVAL04,Bangla Tribune,News,7,3,3,0,3,3,3,/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/www.banglatribune.com__recommendations.csv
+EVAL05,Bangladesh Land Portal,Government,3,1,1,0,1,1,1,/home/niaz/bd-web-accessibility-ai/final_pipeline/data/final/live_recommendations/land.gov.bd__recommendations.csv

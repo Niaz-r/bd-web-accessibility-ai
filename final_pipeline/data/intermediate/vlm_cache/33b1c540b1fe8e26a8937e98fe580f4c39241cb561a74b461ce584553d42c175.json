@@ -1,0 +1,11 @@
+{
+  "image_role": "informative",
+  "alt_status": "needs_meaningful_alt",
+  "generic_alt_detected": true,
+  "suggested_alt": "Speaker giving a presentation in a lecture hall",
+  "recommended_action": "Update the alt text to provide a meaningful description of the image",
+  "confidence": "medium",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The current alt text is generic and does not provide any meaningful information about the image."
+}

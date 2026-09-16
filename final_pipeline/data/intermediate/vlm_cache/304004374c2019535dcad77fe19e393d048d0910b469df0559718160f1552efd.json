@@ -1,0 +1,11 @@
+{
+  "image_role": "unclear",
+  "alt_status": "manual_review",
+  "generic_alt_detected": true,
+  "suggested_alt": "",
+  "recommended_action": "The image purpose could not be determined reliably from the visual and contextual evidence. Inspect the image and surrounding page content manually before deciding whether it needs meaningful alt text or an empty alt attribute.",
+  "confidence": "low",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The image appears to show a flooded area with buildings and vehicles, but the current alt text is generic and lacks specific details. A more descriptive caption is needed to ensure accessibility."
+}

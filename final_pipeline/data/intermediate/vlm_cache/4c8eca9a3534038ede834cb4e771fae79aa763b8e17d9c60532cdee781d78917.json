@@ -1,0 +1,11 @@
+{
+  "image_role": "informative",
+  "alt_status": "improve_existing_alt",
+  "generic_alt_detected": true,
+  "suggested_alt": "Boat race event with rowers in colorful uniforms competing in a boat race on a river",
+  "recommended_action": "The image appears informative and the current alt text is inadequate or generic. Replace it with concise alternative text reflecting the meaning or purpose of the image. Review the VLM suggestion before use.",
+  "confidence": "medium",
+  "manual_review_required": true,
+  "visual_review_required": true,
+  "reason": "The current alt text is generic and does not provide enough information about the image content. A more descriptive caption is needed to ensure that users with visual impairments can understand the image's purpose."
+}

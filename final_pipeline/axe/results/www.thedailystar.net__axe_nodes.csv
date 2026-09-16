@@ -17,68 +17,68 @@ https://www.thedailystar.net/,violation,frame-title,serious,Ensure <iframe> and 
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element's default semantics were not overridden with role=""none"" or role=""presentation""",serious,2
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.w-\[23\.42\%\] > .pb-3.border-gray_1.border-b:nth-child(1) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/business/economy/aviation/travel/news/passenger-dies-after-falling-ill-biman-flight-jeddah-chattogram-4257371"">
-					Passenger dies after falling ill on Biman flight from Jeddah to Chattogram
+				<a href=""/news/healthcare/disease/news/3-more-die-dengue-1097-hospitalised-24-hours-4260256"">
+					3 more die of dengue, 1,097 hospitalised in 24 hours
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,1
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.medium-6.max-sm\:mb-\[16px\].max-sm\:pb-\[16px\]:nth-child(1) > .\!pb-0.sm\:\!mb-4.sm\:\!pb-4 > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/news/accidents-and-fires/news/body-new-zealand-teen-recovered-after-houseboat-sank-coxs-bazar-4257426"">
-					Body of New Zealand teen recovered after houseboat sank off Cox’s Bazar
+				<a href=""/news/world/news/the-battle-build-global-defence-bank-4260176"">
+					<span class=""color-red"">Insight</span> / The battle to build a global defence bank
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,2
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.lg\:grid-cols-4.grid-cols-1.grid:nth-child(2) > .\!mb-0.card.relative:nth-child(1) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/news/technology/news/robocop-getting-reboot-again-4256986"">
-					RoboCop is getting a reboot, again
+				<a href=""/campus/news/the-struggles-students-hyperhidrosis-4251601"">
+					<span class=""color-red"">Health</span> / The struggles of students with hyperhidrosis
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,3
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.mt-10.lg\:col-span-3.col-span-12:nth-child(1) > .flex-grow > .last-no-border.border-b.card:nth-child(2) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/opinion/views/news/can-invest-bangladesh-live-the-expectations-4256826"">
-					Can Invest Bangladesh live up to the expectations?
+				<a href=""/opinion/news/nepal-flood-shows-why-we-must-look-further-upstream-4259806"">
+					Nepal flood shows why we must look further upstream
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,4
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.mt-10.lg\:col-span-3.col-span-12:nth-child(2) > .flex-grow > .last-no-border.border-b.card:nth-child(2) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/business/economy/news/rmg-faces-stiffer-competition-rising-cost-bb-4256921"">
-					RMG faces stiffer competition, rising cost: BB
+				<a href=""/business/news/tanvir-hasan-made-acting-managing-director-midas-financing-4260291"">
+					Tanvir Hasan made acting managing director of MIDAS Financing
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,5
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.mt-10.lg\:col-span-3.col-span-12:nth-child(3) > .flex-grow > .last-no-border.border-b.card:nth-child(2) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/sports/football/news/man-city-sign-moroccan-starlet-bouaddi-100-million-euros-4257361"">
-					Man City sign Moroccan starlet Bouaddi for 100 million euros
+				<a href=""/sports/football/news/emiliano-martinez-joins-chelsea-the-argentine-really-upgrade-robert-sanchez-4260151"">
+					Emiliano Martinez joins Chelsea: Is the Argentine really an upgrade on Robert Sanchez?
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,6
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.flex-grow.w-full > .last-no-border.border-b.card:nth-child(2) > .card-content > h5,"<h5 class=""card-title "">
-				<a href=""/culture/entertainment/news/ilias-kanchans-death-rumour-sparks-outrage-4257416"">
-					Ilias Kanchan’s death rumour sparks outrage
+				<a href=""/culture/entertainment/news/anne-hathaway-joins-tom-cruise-days-thunder-sequel-4260286"">
+					Anne Hathaway joins Tom Cruise in ‘Days of Thunder’ sequel
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,7
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.gap-\[20px\].flex-col.flex:nth-child(1) > .news-item.last\:border-0.border-gray_1:nth-child(2) > .card.relative > .\!gap-\[20px\].card-content > h5,"<h5 class=""card-title "">
-				<a href=""/life-living/news/grooming-advocacy-the-growing-mission-ahona-rahman-and-nadia-hossain-4255641"">
-					<span class=""color-red"">Profile</span> / From grooming to advocacy: The growing mission of Ahona Rahman and Nadia Hossain
+				<a href=""/news/technology/news/gta-vi-heres-everything-we-know-after-the-big-netflix-preview-4258696"">
+					GTA VI: Here's everything we know after the big Netflix preview
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,8
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.gap-\[20px\].flex-col.flex:nth-child(2) > .news-item.last\:border-0.border-gray_1:nth-child(2) > .card.relative > .\!gap-\[20px\].card-content > h5,"<h5 class=""card-title "">
-				<a href=""/news/technology/news/the-gen-z-guide-staying-sane-during-recruitment-season-4256416"">
-					<span class=""color-red"">Next Step</span> / The Gen-Z guide to staying sane during recruitment season
+				<a href=""/news/technology/news/apple-sets-september-9-date-next-iphone-launch-event-4257496"">
+					Apple sets September 9 date for next iPhone launch event
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,9
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.gap-\[20px\].flex-col.flex:nth-child(3) > .news-item.last\:border-0.border-gray_1:nth-child(2) > .card.relative > .\!gap-\[20px\].card-content > h5,"<h5 class=""card-title "">
-				<a href=""/news/technology/news/hugging-face-may-be-sale-valued-13-billion-report-4255726"">
-					Hugging Face may be up for sale, valued at $13 billion: report
+				<a href=""/life-living/fashion-beauty/news/summer-makeup-tips-long-lasting-look-4260216"">
+					Summer makeup tips for a long-lasting look
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,10
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.gap-\[20px\].flex-col.flex:nth-child(4) > .news-item.last\:border-0.border-gray_1:nth-child(2) > .card.relative > .\!gap-\[20px\].card-content > h5,"<h5 class=""card-title "">
-				<a href=""/campus/news/the-pitfalls-armchair-psychology-4251576"">
-					<span class=""color-red"">Off Campus</span> / The pitfalls of armchair psychology
+				<a href=""/news/technology/news/leaked-dlss-5-code-lets-modders-test-nvidias-ai-graphics-tech-4259421"">
+					Leaked DLSS 5 code lets modders test Nvidia’s AI graphics tech
 				</a>
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,11
@@ -89,8 +89,8 @@ https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order 
 			</h5>","Fix any of the following:
   Heading order invalid",moderate,12
 https://www.thedailystar.net/,violation,heading-order,moderate,Ensure the order of headings is semantically correct,Heading levels should only increase by one,https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright,best-practice,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\],"<h5 class=""card-title lg:!text-[16px]"">
-      <a href=""/todays-gallery-20260823-4254421"">
-        Today's Gallery (2026.08.23)
+      <a href=""/todays-gallery-20260826-4257136"">
+        Today's Gallery (2026.08.26)
       </a>
     </h5>","Fix any of the following:
   Heading order invalid",moderate,13
@@ -148,9 +148,7 @@ https://www.thedailystar.net/,violation,image-alt,critical,Ensure <img> elements
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute
   Element's default semantics were not overridden with role=""none"" or role=""presentation""",critical,9
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(1) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/sundarbans-climate-project-end-two-years-early-why-4256326"" hreflang=""en""><img loading=""lazy"" src=""/sites/default/files/styles/small_80x80/public/2026-08/sundarbans.jpg?h=c673cd1c"" width=""80"" height=""80"" alt="""" class=""image-style-small-80x80"">
-
-</a>","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(1) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/accidents-traffic-jams-power-theft-why-are-battery-run-rickshaws-still-the-roads-4260011"" hreflang=""en"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -158,7 +156,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,1
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(2) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/how-should-political-parties-act-power-mahfuz-anam-shares-his-views-4256321"" hreflang=""en"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(2) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/what-should-bangladesh-do-if-it-hit-landslides-or-floods-nepal-4260006"" hreflang=""en"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -166,7 +164,9 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,2
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(3) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/deaths-over-iphone-why-it-important-teach-children-accept-no-4256316"" hreflang=""en"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".header-news-card:nth-child(3) > .views-field-field-featured-media.views-field.relative > .field-content > a[hreflang=""en""]","<a href=""/star-multimedia/news/why-cant-the-worsening-law-and-order-situation-be-curbed-4259996"" hreflang=""en""><img loading=""lazy"" src=""/sites/default/files/styles/small_80x80/public/2026-08/law%20order.jpg?h=c673cd1c"" width=""80"" height=""80"" alt="""" class=""image-style-small-80x80"">
+
+</a>","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -230,7 +230,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,10
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_five_banner_0 #aw0,"<a id=""aw0"" target=""_blank"" href=""https://googleads.g...."" onfocus=""ss('aw0')"" onmousedown=""st('aw0')"" onmouseover=""ss('aw0')"" onclick=""ha('aw0')"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_four_banner_0 #aw0,"<a id=""aw0"" target=""_blank"" href=""https://googleads.g...."" onfocus=""ss('aw0')"" onmousedown=""st('aw0')"" onmouseover=""ss('aw0')"" onclick=""ha('aw0')"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -238,7 +238,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,11
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""star-multimedia""]","<a href=""/star-multimedia"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_five_banner_0 #aw0,"<a id=""aw0"" target=""_blank"" href=""https://googleads.g...."" onfocus=""ss('aw0')"" onmousedown=""st('aw0')"" onmouseover=""ss('aw0')"" onclick=""ha('aw0')"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -246,7 +246,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,12
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".gap-\[12px\] > a[target=""_blank""]:nth-child(1)","<a href=""https://www.facebook.com/dailystarnews"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[href$=""star-multimedia""]","<a href=""/star-multimedia"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -254,7 +254,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,13
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(2)","<a href=""https://www.youtube.com/channel/UCKSJ5rTXq-pYgAmAOhVS_zQ"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,".gap-\[12px\] > a[target=""_blank""]:nth-child(1)","<a href=""https://www.facebook.com/dailystarnews"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -262,7 +262,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,14
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(3)","<a href=""http://twitter.com/dailystarnews"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(2)","<a href=""https://www.youtube.com/channel/UCKSJ5rTXq-pYgAmAOhVS_zQ"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -270,7 +270,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,15
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(4)","<a href=""https://www.pinterest.com/thedailystar"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(3)","<a href=""http://twitter.com/dailystarnews"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -278,7 +278,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,16
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(5)","<a href=""https://www.linkedin.com/company/thedailystar/"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(4)","<a href=""https://www.pinterest.com/thedailystar"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -286,7 +286,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,17
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(6)","<a href=""https://www.instagram.com/dailystar_bd/"" target=""_blank"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(5)","<a href=""https://www.linkedin.com/company/thedailystar/"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -294,7 +294,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,18
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/Homepage_bottom_Sticky_Hover_0 #aw0,"<a id=""aw0"" target=""_blank"" href=""https://googleads.g...."" onfocus=""ss('aw0')"" onmousedown=""st('aw0')"" onmouseover=""ss('aw0')"" onclick=""ha('aw0')"">","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,"a[target=""_blank""]:nth-child(6)","<a href=""https://www.instagram.com/dailystar_bd/"" target=""_blank"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -302,7 +302,7 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,19
-https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#closeHB,"<a href=""javascript:void(0)"" id=""closeHB"" class=""d-show tm-show"" data-once=""stickyHoverAd""></a>","Fix all of the following:
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/Homepage_bottom_Sticky_Hover_0 #aw0,"<a id=""aw0"" target=""_blank"" href=""https://googleads.g...."" onfocus=""ss('aw0')"" onmousedown=""st('aw0')"" onmouseover=""ss('aw0')"" onclick=""ha('aw0')"">","Fix all of the following:
   Element is in tab order and does not have accessible text
 
 Fix any of the following:
@@ -310,6 +310,14 @@ Fix any of the following:
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute",serious,20
+https://www.thedailystar.net/,violation,link-name,serious,Ensure links have discernible text,Links must have discernible text,https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright,wcag2a|wcag244|wcag412|EN-301-549|EN-9.2.4.4|EN-9.4.1.2,#closeHB,"<a href=""javascript:void(0)"" id=""closeHB"" class=""d-show tm-show"" data-once=""stickyHoverAd""></a>","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute",serious,21
 https://www.thedailystar.net/,violation,meta-refresh,critical,"Ensure <meta http-equiv=""refresh""> is not used for delayed refresh",Delayed refresh under 20 hours must not be used,https://dequeuniversity.com/rules/axe/4.13/meta-refresh?application=playwright,wcag2a|wcag221|EN-301-549|EN-9.2.2.1,"meta[http-equiv=""refresh""]","<meta http-equiv=""refresh"" content=""300"">","Fix any of the following:
   <meta> tag forces timed refresh of page (less than 20 hours)",critical,1
 https://www.thedailystar.net/,violation,region,moderate,Ensure all page content is contained by landmarks,All page content should be contained by landmarks,https://dequeuniversity.com/rules/axe/4.13/region?application=playwright,best-practice,#google_ads_iframe_\/\/34728570\/eh_one_banner_0 #\32 00_268_dfa7banner_html_inpage_0\.if #gwd-ad,"<gwd-google-ad id=""gwd-ad"" polite-load="""">","Fix any of the following:
@@ -326,155 +334,149 @@ https://www.thedailystar.net/,violation,region,moderate,Ensure all page content 
 								<a href=""/todays-news"" target=""_blank"">Today’s News</a>
 							</li>","Fix any of the following:
   Some page content is not contained by landmarks",moderate,4
-https://www.thedailystar.net/,incomplete,aria-prohibited-attr,serious,Ensure ARIA attributes are not prohibited for an element's role,Elements must only use permitted ARIA attributes,https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_four_banner_0 #cubeBanner,"<div class=""cube-banner"" id=""cubeBanner"" aria-label=""Rotating advertisement banner"">","Fix all of the following:
-  aria-label attribute is not well supported on a div with no valid role attribute.",serious,1
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(1) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/news/technology/news/mini-human-brains-grown-labs-could-outperform-ai-researchers-say-4255681"">
-					Mini human brains grown in labs could outperform AI, researchers say
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(1) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/life-living/relationships-family/news/why-parents-should-think-twice-giving-kids-smartphones-4260236"">
+					Why parents should think twice before giving kids smartphones
 				</a>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,1
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(1) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > span:nth-child(1),"<span class="""">
-																24 August 2026
+																1 HOUR(s)
 							</span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,2
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(1) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > .gap-\[4px\].items-center.flex,"<span class=""flex items-center gap-[4px]"">
 								<span class=""flex-none"">•</span>
-								Technology
+								Relationships &amp; Family
 							</span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,3
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(2) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/news/technology/news/uk-and-ukraine-sign-ai-defence-partnership-4256691"">
-					UK and Ukraine sign AI defence partnership
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(2) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/life-living/food-recipes/news/the-versatile-appeal-focaccia-bread-4260226"">
+					The versatile appeal of focaccia bread
 				</a>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,4
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(2) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > span:nth-child(1),"<span class="""">
-																25 August 2026
+																1 HOUR(s)
 							</span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,5
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(2) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > .gap-\[4px\].items-center.flex,"<span class=""flex items-center gap-[4px]"">
 								<span class=""flex-none"">•</span>
-								Technology
+								Food &amp; Recipes
 							</span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,6
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(3) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/life-living/news/how-make-your-balcony-bird-friendly-summer-4253991"">
-					<span class=""color-red"">Perspective</span> / How to make your balcony bird-friendly this summer
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(3) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/news/technology/news/anthropic-research-shows-ai-agents-are-self-improving-without-human-guidance-4259406"">
+					Anthropic research shows AI agents are “self-improving” without human guidance
 				</a>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,7
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(3) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a > .color-red,"<span class=""color-red"">Perspective</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,8
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(3) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > span:nth-child(1),"<span class="""">
-																22 August 2026
+																29 August 2026
 							</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,9
+  Element's background color could not be determined due to a background gradient",serious,8
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(3) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > .gap-\[4px\].items-center.flex,"<span class=""flex items-center gap-[4px]"">
 								<span class=""flex-none"">•</span>
-								Life &amp; Living
+								Technology
 							</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,10
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(4) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/life-living/news/behind-choko-poko-family-home-built-around-rescue-4254761"">
-					<span class=""color-red"">Social Issues</span> / Behind Choko Poko &amp; Family: A home built around rescue
+  Element's background color could not be determined due to a background gradient",serious,9
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(4) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a,"<a href=""/news/technology/news/surprise-iron-man-game-footage-leaks-ea-confirms-4259431"">
+					Surprise Iron Man game footage leaks; EA confirms
 				</a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,11
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(4) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > h3 > a > .color-red,"<span class=""color-red"">Social Issues</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,12
+  Element's background color could not be determined due to a background gradient",serious,10
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(4) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > span:nth-child(1),"<span class="""">
-																23 August 2026
+																29 August 2026
 							</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,13
+  Element's background color could not be determined due to a background gradient",serious,11
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.gap-\[20px\].flex-col.flex:nth-child(4) > .card-overlay.\!mb-0.card > .max-sm\:\!p-\[16px\].max-sm\:\!gap-\[10px\].card-content > .card-info > .gap-\[4px\].items-center.flex,"<span class=""flex items-center gap-[4px]"">
 								<span class=""flex-none"">•</span>
-								Life &amp; Living
+								Technology
 							</span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,14
+  Element's background color could not be determined due to a background gradient",serious,12
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#division,"<select id=""division"" name=""division"" class=""w-full border border-gray-300 bg-blue-50 px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-200 mb-0!"" aria-label=""Select division"" data-once=""rsi-districts"">","Fix any of the following:
-  Element's background color could not be determined due to a background image",serious,15
+  Element's background color could not be determined due to a background image",serious,13
 https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,#district,"<select id=""district"" name=""district"" class=""w-full border border-gray-300 bg-blue-50 px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-200 mb-0!"" aria-label=""Select district"">
 						<option value="""" disabled="""" selected="""">District</option>
 					</select>","Fix any of the following:
-  Element's background color could not be determined due to a background image",serious,16
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260823-4254421"">
-        Today's Gallery (2026.08.23)
-      </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,17
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        23 August 2026
-          </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,18
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260822-4253746"">
-        Today's Gallery (2026.08.22)
-      </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,19
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        22 August 2026
-          </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,20
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260821-4253136"">
-        Today's Gallery (2026.08.21)
-      </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,21
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        21 August 2026
-          </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,22
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.lg\:gap-\[36px\] > .card-overlay-primary.card-overlay.\!mb-0 > .lg\:\!p-\[24px\].lg\:\!gap-\[12px\].\!p-\[20px\] > h5 > a,"<a href=""/todays-gallery-20260826-4257136"">
+  Element's background color could not be determined due to a background image",serious,14
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260826-4257136"">
         Today's Gallery (2026.08.26)
       </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,23
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.lg\:gap-\[36px\] > .card-overlay-primary.card-overlay.\!mb-0 > .lg\:\!p-\[24px\].lg\:\!gap-\[12px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+  Element's background color could not be determined due to a background gradient",serious,15
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
                         26 August 2026
           </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,24
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260825-4256006"">
+  Element's background color could not be determined due to a background gradient",serious,16
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260825-4256006"">
         Today's Gallery (2026.08.25)
       </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,25
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+  Element's background color could not be determined due to a background gradient",serious,17
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
                         25 August 2026
           </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,26
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260824-4255441"">
+  Element's background color could not be determined due to a background gradient",serious,18
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260824-4255441"">
         Today's Gallery (2026.08.24)
       </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,27
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+  Element's background color could not be determined due to a background gradient",serious,19
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
                         24 August 2026
           </span>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,20
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.lg\:gap-\[36px\] > .card-overlay-primary.card-overlay.\!mb-0 > .lg\:\!p-\[24px\].lg\:\!gap-\[12px\].\!p-\[20px\] > h5 > a,"<a href=""/todays-gallery-20260830-4259881"">
+        Today's Gallery (2026.08.30)
+      </a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,21
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.lg\:gap-\[36px\] > .card-overlay-primary.card-overlay.\!mb-0 > .lg\:\!p-\[24px\].lg\:\!gap-\[12px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        30 August 2026
+          </span>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,22
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260829-4259091"">
+        Today's Gallery (2026.08.29)
+      </a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,23
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        29 August 2026
+          </span>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,24
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260828-4258481"">
+        Today's Gallery (2026.08.28)
+      </a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,25
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.md\:grid-cols-2 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        28 August 2026
+          </span>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,26
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260823-4254421"">
+        Today's Gallery (2026.08.23)
+      </a>","Fix any of the following:
+  Element's background color could not be determined due to a background gradient",serious,27
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        23 August 2026
+          </span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,28
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260820-4252166"">
-        Today's Gallery (2026.08.20)
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260822-4253746"">
+        Today's Gallery (2026.08.22)
       </a>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,29
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(1) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        20 August 2026
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        22 August 2026
           </span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,30
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20280819-4251321"">
-        Today's Gallery (2028.08.19)
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260821-4253136"">
+        Today's Gallery (2026.08.21)
       </a>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,31
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(2) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        19 August 2026
+https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
+                        21 August 2026
           </span>","Fix any of the following:
   Element's background color could not be determined due to a background gradient",serious,32
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .lg\:\!text-\[16px\] > a,"<a href=""/todays-gallery-20260818-4250306"">
-        Today's Gallery (2026.08.18)
-      </a>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,33
-https://www.thedailystar.net/,incomplete,color-contrast,serious,Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds,Elements must meet minimum color contrast ratio thresholds,https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright,wcag2aa|wcag143|EN-301-549|EN-9.1.4.3,.max-lg\:order-3 > .card-overlay-primary.card-overlay.\!mb-0:nth-child(3) > .lg\:\!p-\[16px\].lg\:\!gap-\[8px\].\!p-\[20px\] > .card-info > span,"<span class="""">
-                        17 August 2026
-          </span>","Fix any of the following:
-  Element's background color could not be determined due to a background gradient",serious,34
 https://www.thedailystar.net/,incomplete,duplicate-id-aria,critical,Ensure every id attribute value used in ARIA and in labels is unique,IDs used in ARIA and labels must be unique,https://dequeuniversity.com/rules/axe/4.13/duplicate-id-aria?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,".small > .footer-bottom > .region-footer.region > .menu--footer[aria-labelledby=""block-swallow-footer-menu""] > .visually-hidden","<h2 class=""visually-hidden"" id=""block-swallow-footer-menu"">Footer</h2>","Fix any of the following:
   Document has multiple elements referenced with ARIA with the same id attribute: block-swallow-footer-menu",critical,1
-https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_one_banner_0,"<iframe frameborder=""0"" src=""https://894d8f2ace21..."" id=""google_ads_iframe_//..."" title=""3rd party ad content"" name="""" scrolling=""no"" marginwidth=""0"" marginheight=""0"" width=""728"" height=""90"" data-is-safeframe=""true"" sandbox=""allow-forms allow-po..."" allow=""private-state-token-..."" tabindex=""0"" ...>","Fix all of the following:
+https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_one_banner_0,"<iframe frameborder=""0"" src=""https://cfe4127bd1d9..."" id=""google_ads_iframe_//..."" title=""3rd party ad content"" name="""" scrolling=""no"" marginwidth=""0"" marginheight=""0"" width=""728"" height=""90"" data-is-safeframe=""true"" sandbox=""allow-forms allow-po..."" allow=""private-state-token-..."" tabindex=""0"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,1
 https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_two_banner_0,"<iframe id=""google_ads_iframe_//..."" name=""google_ads_iframe_//..."" title=""3rd party ad content"" width=""300"" height=""250"" scrolling=""no"" marginwidth=""0"" marginheight=""0"" frameborder=""0"" aria-label=""Advertisement"" tabindex=""0"" allow=""private-state-token-..."" data-load-complete=""true"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,2
-https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_three_banner_0,"<iframe frameborder=""0"" src=""https://894d8f2ace21..."" id=""google_ads_iframe_//..."" title=""3rd party ad content"" name="""" scrolling=""no"" marginwidth=""0"" marginheight=""0"" width=""300"" height=""250"" data-is-safeframe=""true"" sandbox=""allow-forms allow-po..."" allow=""private-state-token-..."" ...>","Fix all of the following:
+https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_three_banner_0,"<iframe frameborder=""0"" src=""https://cfe4127bd1d9..."" id=""google_ads_iframe_//..."" title=""3rd party ad content"" name="""" scrolling=""no"" marginwidth=""0"" marginheight=""0"" width=""300"" height=""250"" data-is-safeframe=""true"" sandbox=""allow-forms allow-po..."" allow=""private-state-token-..."" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,3
 https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_campaign_banner_0,"<iframe id=""google_ads_iframe_//..."" name=""google_ads_iframe_//..."" title=""3rd party ad content"" width=""300"" height=""250"" scrolling=""no"" marginwidth=""0"" marginheight=""0"" frameborder=""0"" aria-label=""Advertisement"" tabindex=""0"" allow=""private-state-token-..."" data-load-complete=""true"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,4
 https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_five_banner_new_0,"<iframe id=""google_ads_iframe_//..."" name=""google_ads_iframe_//..."" title=""3rd party ad content"" width=""300"" height=""250"" scrolling=""no"" marginwidth=""0"" marginheight=""0"" frameborder=""0"" aria-label=""Advertisement"" tabindex=""0"" allow=""private-state-token-..."" data-load-complete=""true"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,5
-https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_four_banner_0,"<iframe frameborder=""0"" src=""https://894d8f2ace21..."" id=""google_ads_iframe_//..."" title=""3rd party ad content"" name="""" scrolling=""no"" marginwidth=""0"" marginheight=""0"" width=""300"" height=""250"" data-is-safeframe=""true"" sandbox=""allow-forms allow-po..."" allow=""private-state-token-..."" ...>","Fix all of the following:
+https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_four_banner_0,"<iframe id=""google_ads_iframe_//..."" name=""google_ads_iframe_//..."" title=""3rd party ad content"" width=""300"" height=""250"" scrolling=""no"" marginwidth=""0"" marginheight=""0"" frameborder=""0"" aria-label=""Advertisement"" tabindex=""0"" allow=""private-state-token-..."" data-load-complete=""true"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,6
 https://www.thedailystar.net/,incomplete,frame-title-unique,serious,Ensure <iframe> and <frame> elements contain a unique title attribute,Frames must have a unique title attribute,https://dequeuniversity.com/rules/axe/4.13/frame-title-unique?application=playwright,wcag2a|wcag412|EN-301-549|EN-9.4.1.2,#google_ads_iframe_\/\/34728570\/eh_five_banner_0,"<iframe id=""google_ads_iframe_//..."" name=""google_ads_iframe_//..."" title=""3rd party ad content"" width=""980"" height=""90"" scrolling=""no"" marginwidth=""0"" marginheight=""0"" frameborder=""0"" aria-label=""Advertisement"" tabindex=""0"" allow=""private-state-token-..."" data-load-complete=""true"" ...>","Fix all of the following:
   Element's title attribute is not unique",serious,7
