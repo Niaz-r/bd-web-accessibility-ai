@@ -39,3 +39,6 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+
+# Node.js dependencies
+node_modules/
